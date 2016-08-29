@@ -10,7 +10,7 @@ use Term::ANSIColor;
 
 use BS qw/all_languages/;
 
-my @langs = map { lc $_ } grep {$_ ne 'JA'} all_languages(); # exclude JA language from sitemap
+my @langs = map { lc $_ } all_languages();
 my @urls = (
     # path (without .html) , changefreq, priority, exclude languages
     ['home'                , 'monthly', '1.00']

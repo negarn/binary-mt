@@ -1,3 +1,2 @@
 User-agent: *
-Disallow: /ja/
 Sitemap: https://mt5.binary.com/sitemap.xml

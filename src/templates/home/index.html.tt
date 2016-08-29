@@ -59,7 +59,7 @@
           <p>
             [% l("[_1] is the award-winning industry pioneer in online options trading.", website_name) %]
           </p>
-          <div class="ja-hide gr-padding-10">
+          <div class="gr-padding-10">
             <img class="small-image" src="[% request.url_for('images/pages/home/awards-t2w.png') %]"/>
             <img class="small-image" src="[% request.url_for('images/pages/why-us/why-us-GBAF-award-2012.svg') %]"/>
             <img class="small-image" src="[% request.url_for('images/pages/home/awards-egr.png') %]"/>
@@ -97,7 +97,7 @@
     </div>
 </div>
 
-<div class="container ja-hide">
+<div class="container">
     <div class="gr-12 gr-parent">
       <h1 class="center-text gr-padding-10">
         [% l("[_1] academy", website_name) %]
@@ -168,7 +168,7 @@
     </div>
 </div>
 
-<div class="container ja-hide">
+<div class="container">
     <div class="gr-12 gr-parent">
       <h1 class="center-text gr-padding-10">
         [% l("Payment methods") %]

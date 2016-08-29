@@ -58,7 +58,7 @@ sub localize {
 }
 
 sub all_languages {
-    return ('EN', 'AR', 'DE', 'ES', 'FR', 'ID', 'IT', 'PL', 'PT', 'RU', 'VI', 'JA', 'ZH_CN', 'ZH_TW');
+    return ('EN', 'AR', 'DE', 'ES', 'FR', 'ID', 'IT', 'PL', 'PT', 'RU', 'VI', 'ZH_CN', 'ZH_TW');
 }
 
 sub rtl_languages {
@@ -75,7 +75,6 @@ sub lang_display_name {
         FR    => 'Français',
         EN    => 'English',
         ID    => 'Bahasa Indonesia',
-        JA    => '日本語',
         PL    => 'Polish',
         PT    => 'Português',
         RU    => 'Русский',
