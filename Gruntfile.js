@@ -1,10 +1,8 @@
 module.exports = function (grunt) {
 
     global.repos = {
-        production: {
-            origin: 'git@github.com:binary-com/binary-mt5.git',
-            CNAME : 'mt5.binary.com'
-        }
+        origin: 'git@github.com:binary-com/binary-mt5.git',
+        CNAME : 'mt5.binary.com'
     };
 
     global.branch_prefix = 'br_';
