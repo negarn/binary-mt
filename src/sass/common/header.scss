@@ -1,0 +1,130 @@
+/* Logo and top bar */
+#topbar {
+    width: 100%;
+    color: $COLOR_WHITE;
+    line-height: 1;
+    font-size: 70%;
+    @include BIDIR_VALUE(text-align, right, left);
+    padding: 3px 0;
+    #virtual-text {
+        font-weight: 700;
+    }
+    #topbar-info {
+        @include BIDIR_PROP(margin-left, margin-right, auto);
+    }
+    #gmt-clock, #contact-us, .upgrademessage {
+        align-self: center;
+    }
+    .upgrademessage a {
+        @include link-button;
+        border-radius: 2px;
+        font-size: 90%;
+        padding: 2px 4px;
+        text-transform: none;
+        @include BIDIR_VALUE(margin, 0 0 0 10px, 0 10px 0 0);
+    }
+    #language_select {
+        select {
+            padding: 0px;
+        }
+    }
+    a {
+        color: $COLOR_WHITE;
+        white-space: nowrap;
+        text-decoration: none;
+    }
+}
+
+#header {
+    height: 75px;
+    a {
+        color: $COLOR_WHITE;
+        text-decoration: none;
+        img {
+            max-height: 55px;
+        }
+    }
+    select#client_loginid option[disabled=disabled] {
+        background-color: $COLOR_LIGHT_GRAY;
+    }
+    #binary-logo-text {
+        margin-top: 10px;
+        img {
+            width: 90%;
+        }
+    }
+    #client-logged-out {
+        #btn_login {
+            margin-bottom: 0;
+        }
+    }
+    #client-logged-out, #loginid-switch-form {
+        @include BIDIR_VALUE(text-align, right, left);
+    }
+    #logout {
+        text-align: right;
+        color: $COLOR_WHITE;
+        font-size: 70%;
+        display: inline-block;
+        a, a:visited {
+            &:hover, &:active {
+                text-decoration: underline;
+            }
+            &.logout {
+                @include link-button;
+                background-position: 104.6% 0.3%;
+                background-repeat: no-repeat;
+                padding: 6px;
+                font-weight: normal;
+                @include BIDIR_PROP(margin-left, margin-right, 0.4em);
+                margin-top: 0.5em;
+                text-transform: uppercase;
+            }
+        }
+    }
+    #mobile-menu-icon {
+        img {
+            max-width: 32px;
+        }
+    }
+    #mobile-menu-icon-container {
+        margin-top: 5px;
+        margin-right: 3px;
+    }
+    #menu-top {
+        text-align: center;
+        white-space: nowrap;
+        a:hover {
+            opacity: 0.75;
+        }
+        li {
+            line-height: 1;
+            display: inline-block;
+            text-align: center;
+            margin: 0;
+            white-space: normal;
+            &:last-child {
+                background: none;
+            }
+            a {
+                font-weight: normal;
+                vertical-align: middle;
+                display: table-cell;
+                height: 50px;
+                max-width: 110px;
+                color: $COLOR_WHITE;
+                text-decoration: none;
+                letter-spacing: 0;
+                text-transform: capitalize;
+                font-size: 109%;
+                padding: 0px 10px;
+                word-wrap: break-word;
+            }
+        }
+        li.active {
+            a {
+                color: $COLOR_ORANGE;
+            }
+        }
+    }
+}
