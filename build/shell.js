@@ -26,10 +26,8 @@ module.exports = function (grunt) {
                         if(grunt.option('cleanup')) {
                             var origin = stdout.replace('\n', ''),
                                 CNAME;
-                            if (origin === global.repos.staging.origin) {
-                                CNAME = global.repos.staging.CNAME;
-                            } else if (origin === global.repos.production.origin) {
-                                CNAME = global.repos.production.CNAME;
+                            if (origin === global.repos.origin) {
+                                CNAME = global.repos.CNAME;
                             }
                             if (CNAME) {
                                 grunt.file.write(global.dist + '/CNAME', CNAME + "\n");
@@ -51,16 +49,8 @@ module.exports = function (grunt) {
                     if(!err) {
                         var origin = stdout.replace('\n', '');
                         grunt.log.ok('origin: ' + origin);
-                        if (grunt.option('staging')) {
-                            if (origin !== global.repos.staging.origin) {
-                                grunt.fail.fatal('Your remote origin does not match the STAGING repository.');
-                            }
-                        } else if (grunt.option('production')) {
-                            if (origin !== global.repos.production.origin) {
-                                grunt.fail.fatal('Your remote origin does not match the PRODUCTION repository.');
-                            }
-                        } else {
-                            grunt.fail.fatal('Target is required: use --staging or --production to do a release.');
+                        if (origin !== global.repos.origin) {
+                            grunt.fail.fatal('Your remote origin does not match the repository.');
                         }
                     }
                     cb();
