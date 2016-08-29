@@ -182,13 +182,13 @@ sub menu {
     my @menu;
 
     # Shop
-    push @menu,
-        {
-        id         => 'topMenuShop',
-        url        => 'https://shop.binary.com',
-        text       => localize('Shop'),
-        target     => '_blank'
-        };
+    # push @menu,
+    #    {
+    #    id         => 'topMenuShop',
+    #    url        => 'https://shop.binary.com',
+    #    text       => localize('Shop'),
+    #    target     => '_blank'
+    #    };
 
     return \@menu;
 }
