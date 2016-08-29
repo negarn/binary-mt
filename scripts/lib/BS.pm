@@ -181,14 +181,27 @@ sub js_config {
 sub menu {
     my @menu;
 
-    # Shop
-    # push @menu,
-    #    {
-    #    id         => 'topMenuShop',
-    #    url        => 'https://shop.binary.com',
-    #    text       => localize('Shop'),
-    #    target     => '_blank'
-    #    };
+     push @menu,
+        {
+        url        => url_for('/metatrader'),
+        text       => localize('MetaTrader'),
+        link_class => 'pjaxload',
+        };
+
+    push @menu,
+       {
+       url        => url_for('/metatrader/download'),
+       text       => localize('Download MetaTrader'),
+       link_class => 'pjaxload',
+       };
+
+    push @menu,
+       {
+       url        => url_for('/user/settings/metatrader'),
+       text       => localize('MetaTrader Settings'),
+       class      => 'by_client_type client_real client_virtual',
+       link_class => 'with_login_cookies pjaxload',
+       };
 
     return \@menu;
 }
