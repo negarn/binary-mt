@@ -142,6 +142,7 @@ Client.prototype = {
         this.set_storage_value('is_virtual', TUser.get().is_virtual);
         this.check_storage_values();
         page.contents.activate_by_client_type();
+        page.contents.topbar_message_visibility();
     },
     check_tnc: function() {
         if(!page.client.is_virtual() && sessionStorage.getItem('check_tnc') === '1') {
@@ -530,7 +531,6 @@ Contents.prototype = {
     on_load: function() {
         this.activate_by_client_type();
         this.update_content_class();
-        this.init_draggable();
     },
     on_unload: function() {
         if ($('.unbind_later').length > 0) {
@@ -549,25 +549,12 @@ Contents.prototype = {
 
                 $('#topbar').addClass('primary-color-dark');
                 $('#topbar').removeClass('secondary-bg-color');
-
-                if (!/^CR/.test(this.client.loginid)) {
-                    $('#payment-agent-section').addClass('invisible');
-                    $('#payment-agent-section').hide();
-                }
-
-                if (!/^MF|MLT/.test(this.client.loginid)) {
-                    $('#account-transfer-section').addClass('invisible');
-                    $('#account-transfer-section').hide();
-                }
             } else {
                 $('.by_client_type.client_virtual').removeClass('invisible');
                 $('.by_client_type.client_virtual').show();
 
                 $('#topbar').addClass('secondary-bg-color');
                 $('#topbar').removeClass('primary-color-dark');
-
-                $('#account-transfer-section').addClass('invisible');
-                $('#account-transfer-section').hide();
             }
         } else {
             $('#btn_login').unbind('click').click(function(e){e.preventDefault(); Login.redirect_to_login();});
@@ -577,9 +564,6 @@ Contents.prototype = {
 
             $('#topbar').removeClass('secondary-bg-color');
             $('#topbar').addClass('primary-color-dark');
-
-            $('#account-transfer-section').addClass('invisible');
-            $('#account-transfer-section').hide();
         }
     },
     update_content_class: function() {
@@ -587,66 +571,14 @@ Contents.prototype = {
         $('#content').removeClass();
         $('#content').addClass($('#content_class').html());
     },
-    init_draggable: function() {
-        $('.draggable').draggable();
-    },
-    topbar_message_visibility: function(c_config) {
+    topbar_message_visibility: function() {
         if(this.client.is_logged_in) {
-            if(page.client.get_storage_value('is_virtual').length === 0 || !c_config) {
+            if(page.client.get_storage_value('is_virtual').length === 0) {
                 return;
             }
-            var loginid_array = this.user.loginid_array;
-
-            var $upgrade_msg = $('.upgrademessage'),
-                hiddenClass  = 'invisible';
-            var hide_upgrade = function() {
-                $upgrade_msg.addClass(hiddenClass);
-            };
-            var show_upgrade = function(url, msg) {
-                $upgrade_msg.removeClass(hiddenClass)
-                    .find('a').removeClass(hiddenClass)
-                        .attr('href', page.url.url_for(url)).html($('<span/>', {text: text.localize(msg)}));
-            };
 
             if (page.client.is_virtual()) {
-                var show_upgrade_msg = true;
-                var show_virtual_msg = true;
-                for (var i = 0; i < loginid_array.length; i++) {
-                    if (loginid_array[i].real) {
-                        hide_upgrade();
-                        show_upgrade_msg = false;
-                        break;
-                    }
-                }
-                if (show_upgrade_msg) {
-                    $upgrade_msg.find('> span').removeClass(hiddenClass);
-                    if (page.client.can_upgrade_virtual_to_financial(c_config)) {
-                        show_upgrade('new_account/maltainvestws', 'Upgrade to a Financial Account');
-                    } else {
-                        show_upgrade('new_account/realws', 'Upgrade to a Real Account');
-                    }
-                } else if (show_virtual_msg) {
-                    $upgrade_msg.removeClass(hiddenClass).find('> span').removeClass(hiddenClass);
-                }
-            } else {
-                var show_financial = false;
-
-                // also allow UK MLT client to open MF account
-                if (page.client.can_upgrade_gaming_to_financial(c_config) || (this.client.residence == 'gb' && /^MLT/.test(this.client.loginid))) {
-                    show_financial = true;
-                    for (var j=0;j<loginid_array.length;j++) {
-                        if (loginid_array[j].financial) {
-                            show_financial = false;
-                            break;
-                        }
-                    }
-                }
-                if (show_financial) {
-                    $('#virtual-text').parent().addClass('invisible');
-                    show_upgrade('new_account/maltainvestws', 'Open a Financial Account');
-                } else {
-                    hide_upgrade();
-                }
+                $('.upgrademessage').removeClass('invisible');
             }
         }
     },
