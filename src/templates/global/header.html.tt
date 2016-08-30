@@ -10,15 +10,15 @@
                 </div>
                 <div class='gr-6 gr-7-t gr-12-p gr-12-m' id='topbar-info'>
                     <div class="gr-row">
-                        <div class='gr-5 gr-7-m no-underline' id="gmt-clock" data-balloon-pos="down"></div>
-                        <div class='gr-3 gr-hide-m' id='contact-us'>
+                        <div class='gr-12 gr-7-m no-underline' id="gmt-clock" data-balloon-pos="down"></div>
+                        <!-- <div class='gr-3 gr-hide-m' id='contact-us'>
                             <a class="pjaxload" href="[% request.url_for('contact') %]">[% l("Contact Us") %]</a>
                         </div>
                         <div class='gr-4 gr-5-m'>
                             <div class="[% language %]" id='language_select'>
                                 [% INCLUDE global/language_form.html.tt %]
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -42,7 +42,7 @@
                         </a>
                     </div>
                     <div class='gr-6 gr-hide-m gr-hide-p'>
-                        <div id='main-navigation'>
+                        <!-- <div id='main-navigation'>
                             <ul id="menu-top">
                                 <li>
                                     <a class="pjaxload" href="[% request.url_for('why-us') %]">[% l("Why Us?") %]</a>
@@ -57,7 +57,7 @@
                                     <a class="pjaxload" href="[% request.url_for('trading') %]">[% l("Trade") %]</a>
                                 </li>
                             </ul>
-                        </div>
+                        </div> -->
                     </div>
                     <div id="client-logged-in" class="gr-3 gr-8-m gr-8-p gr-no-gutter by_client_type client_real client_virtual align-end" style="display: none">
                       <div id="logout">
