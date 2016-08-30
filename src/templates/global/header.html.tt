@@ -3,10 +3,9 @@
         <div class="container">
             <div class="gr-row">
                 <div id="topbar-msg" class='gr-6 gr-5-t gr-12-p gr-12-m invisible upgrademessage'>
-                    <span class='gr-hide-m invisible'>
+                    <span class='gr-hide-m'>
                         <span id='virtual-text'>[% l("You're using a Virtual Account.") %]</span>
                     </span>
-                    <a class="pjaxload pulser invisible"></a>
                 </div>
                 <div class='gr-6 gr-7-t gr-12-p gr-12-m' id='topbar-info'>
                     <div class="gr-row">
