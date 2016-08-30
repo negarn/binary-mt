@@ -30,7 +30,7 @@ $writer->startTag('urlset',
     'xmlns:xsi'          => 'http://www.w3.org/2001/XMLSchema-instance',
     'xsi:schemaLocation' => 'http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd');
 
-my $url_prefix = 'https://mt5.binary.com/';
+my $url_prefix = 'https://mt.binary.com/';
 my $excluded = 0;
 
 foreach my $lang (@langs) {

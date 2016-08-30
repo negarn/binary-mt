@@ -44,8 +44,8 @@ sub url_for {
     # for link alternate
     my $query = $args[1] || {};
     if ($query->{l} and $query->{l} ne $LANG) {
-        # /binary-mt5/en/home.html
-        $url =~ s{^(/binary-mt5)?/(\w+)/(.+)\.html$}{/$3};
+        # /binary-mt/en/home.html
+        $url =~ s{^(/binary-mt)?/(\w+)/(.+)\.html$}{/$3};
         if ($HTML_URLS{$url}) {
             $url =~ s/^\///;
             return Mojo::URL->new(root_url() . lc($query->{l}) . "/$url.html");
@@ -62,6 +62,6 @@ package BS::Request::Website;
 
 use Moo;
 
-sub display_name { 'MT5.binary.com' }
+sub display_name { 'mt.binary.com' }
 
 1;

@@ -90,7 +90,7 @@ sub lang_display_name {
 
 ## url_for
 sub root_url {
-    return is_dev() ? '/binary-mt5/'.($BRANCH ? $BRANCH.'/' : '') : '/';
+    return is_dev() ? '/binary-mt/'.($BRANCH ? $BRANCH.'/' : '') : '/';
 }
 
 my %__request;

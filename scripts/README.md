@@ -25,7 +25,7 @@ After HTML build, you can run `sudo grunt connect` then visits [https://localhos
 #### Compile Parameters
 
 * `-f` force to overwrite the existing HTMLs
-* `-d` compile for use in gh-pages of a binary-mt5 fork
+* `-d` compile for use in gh-pages of a binary-mt fork
 * `-p pathname` only compile the files having *pathname* in path
 * `-b branchname` to compile the changes to sub-folder named br_branchname
 * `-vr` to display list of all generated files
