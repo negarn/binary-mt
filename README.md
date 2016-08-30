@@ -5,7 +5,7 @@ This repository contains the static HTML, Javascript, CSS, and images content of
 
 ## Installation
 
-In order to work on your own version of the mt5.binary.com Javascript and CSS, please **fork this project**.
+In order to work on your own version of the mt.binary.com Javascript and CSS, please **fork this project**.
 
 You will also need to install the following on your development machine:
 
@@ -43,7 +43,7 @@ How to work with this project
         "trade",
         "payments"
       ],
-      "redirect_uri": "https://YOUR_GITHUB_USERNAME.github.io/binary-mt5/en/logged_inws.html"
+      "redirect_uri": "https://YOUR_GITHUB_USERNAME.github.io/binary-mt/en/logged_inws.html"
     }
     ```
 
@@ -77,7 +77,7 @@ grunt dev --path=about-us
 ### Using sub-folders
 There are times that you're working on various branches at the same time, and you want to deploy/test each branch separately on your gh-pages, you can simply use `--branch=branchname` for grunt commands:
 - `grunt dev --branch=branchname`
-This will deploy your changes to a sub-folder named: `br_branchname` and it can be browsed at: https://YOUR_GITHUB_USERNAME.github.io/binary-mt5/br_branchname/
+This will deploy your changes to a sub-folder named: `br_branchname` and it can be browsed at: https://YOUR_GITHUB_USERNAME.github.io/binary-mt/br_branchname/
 
 
 ## Release to Production
