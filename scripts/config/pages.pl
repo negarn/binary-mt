@@ -13,6 +13,7 @@ sub all_pages {
         ['user/settings/metatrader',        'user/settings/metatrader', 'default',    'MetaTrader'],
         ['margin-policy',                   'static/margin-policy',     'default',    'MetaTrader Margin Policy'],
         ['volatility-indices-contract',     'static/volatility-indices-contract',   'default',    'Volatility Indices Contract Specifications'],
+        ['user/tnc_approvalws',             'user/tnc_approvalws',                           'default', 'Terms and Conditions Approval'],
     );
 }
 

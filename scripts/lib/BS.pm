@@ -169,9 +169,6 @@ sub js_config {
         valid_loginids   => 'MX|MF|VRTC|MLT|CR|FOG|VRTJ|JP',
     );
 
-    # hardcode, require a fix?
-    $setting{arr_all_currencies} = ["USD", "EUR", "GBP", "AUD"];
-
     return {
         libs     => \@libs,
         settings => JSON::to_json(\%setting),

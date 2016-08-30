@@ -41,24 +41,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class='gr-6 gr-hide-m gr-hide-p'>
-                        <!-- <div id='main-navigation'>
-                            <ul id="menu-top">
-                                <li>
-                                    <a class="pjaxload" href="[% request.url_for('why-us') %]">[% l("Why Us?") %]</a>
-                                </li>
-                                <li>
-                                    <a class="pjaxload" href="[% request.url_for('get-started') %]">[% l("Get Started") %]</a>
-                                </li>
-                                <li>
-                                    <a class="pjaxload" href="[% request.url_for('tour') %]">[% l("Tour") %]</a>
-                                </li>
-                                <li id="main-navigation-trading">
-                                    <a class="pjaxload" href="[% request.url_for('trading') %]">[% l("Trade") %]</a>
-                                </li>
-                            </ul>
-                        </div> -->
-                    </div>
+                    <div class='gr-6 gr-hide-m gr-hide-p'></div>
                     <div id="client-logged-in" class="gr-3 gr-8-m gr-8-p gr-no-gutter by_client_type client_real client_virtual align-end" style="display: none">
                       <div id="logout">
                         <form id="loginid-switch-form">
