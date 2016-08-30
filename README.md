@@ -1,7 +1,7 @@
 binary-mt5
 =============
 
-This repository contains the static HTML, Javascript, CSS, and images content of the [mt5.binary.com](https://mt5.binary.com) website.
+This repository contains the static HTML, Javascript, CSS, and images content of the [mt.binary.com](https://mt.binary.com) website.
 
 ## Installation
 
