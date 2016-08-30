@@ -3,7 +3,7 @@
         <div class="gr-row">
           <div class="gr-12">
             <div class="gr-padding-30">
-              <h1 class="dark center-text gr-padding-10">[% l("Now Introducing <strong>MetaTrader 5</strong> on binary.com") %]</h1>
+              <h1 class="dark center-text gr-padding-10">[% l("Introducing <strong>MetaTrader 5</strong> on binary.com") %]</h1>
               <p class="center-text gr-padding-10">[% l("Now available <strong>24/7</strong> on MetaTrader 5") %]</p>
               <!-- <form id="verify-email-form">
                   <div class="gr-row gr-row-align-center">
@@ -36,7 +36,7 @@
             <img class="responsive" src="[% request.url_for('images/pages/metatrader/mt5-imac.svg') %]"/>
           </div>
           <div class="gr-5 gr-12-m gr-parent">
-            <ul>
+            <ul class="bullet">
               <li>[% l("Highly competitive spreads with no commission") %]</li>
               <li>[% l("Advanced tools for fundamental and technical analysis") %]</li>
               <li>[% l("Subscriptions to a wide range of Expert Advisors") %]</li>
