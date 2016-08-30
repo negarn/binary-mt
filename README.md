@@ -1,4 +1,4 @@
-binary-mt5
+binary-mt
 =============
 
 This repository contains the static HTML, Javascript, CSS, and images content of the [mt.binary.com](https://mt.binary.com) website.
