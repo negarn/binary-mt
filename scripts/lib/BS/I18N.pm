@@ -21,7 +21,7 @@ sub handle_for {
 
 sub _class_for {
     state %classes;
-    my $rclass = "BS::I18N::binary-mt5";
+    my $rclass = "BS::I18N::binary-mt";
     $rclass =~ s/\./_/g;
     $rclass =~ s/-/_/g;
     return $rclass if $classes{$rclass};

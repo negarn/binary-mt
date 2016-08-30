@@ -14,7 +14,7 @@ module.exports = function (grunt){
 					];
 
 					var rules = [
-						'^/binary-mt5/(.*)$ /$1'
+						'^/binary-mt/(.*)$ /$1'
 					];
 					middlewares.push(rewrite(rules));
 
@@ -45,7 +45,7 @@ module.exports = function (grunt){
 					var middlewares = [];
 
 					var rules = [
-						'^/binary-mt5/(.*)$ /$1'
+						'^/binary-mt/(.*)$ /$1'
 					];
 					middlewares.push(rewrite(rules));
 

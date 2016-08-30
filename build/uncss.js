@@ -5,7 +5,7 @@ module.exports = {
             media: ['(min-width: 700px) handheld and (orientation: landscape)'],
             stylesheets: ['../dist/css/binary.min.css'],
             urls: [
-                'https://mt5.binary.com'
+                'https://mt.binary.com'
             ],
             timeout: 1000,
             report: 'min'
