@@ -13,9 +13,9 @@ use BS qw/all_languages/;
 my @langs = map { lc $_ } all_languages();
 my @urls = (
     # path (without .html) , changefreq, priority, exclude languages
-    ['home',                 'monthly', '1.00'],
-    ['metatrader',           'monthly', '0.80'],
-    ['metatrader/download',  'monthly', '0.80'],
+    ['home',                               'monthly', '1.00'],
+    ['user/settings/metatrader',           'monthly', '0.80'],
+    ['download-metatrader',                'monthly', '0.80'],
 );
 
 

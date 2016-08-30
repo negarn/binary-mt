@@ -488,7 +488,7 @@ URL.prototype = {
         return params;
     },
     default_redirect_url: function() {
-        return 'home';
+        return 'user/settings/metatrader';
     },
 };
 
@@ -509,9 +509,13 @@ Menu.prototype = {
         if(active) {
             active.addClass('active');
         }
+        if (page.client.is_logged_in) {
+            this.show_main_menu();
+        }
     },
     show_main_menu: function() {
         $("#main-menu").removeClass('hidden');
+        $("#main-menu > div").removeClass('hidden');
         this.activate_main_menu();
     },
     hide_main_menu: function() {
@@ -655,7 +659,7 @@ Header.prototype = {
     },
     register_dynamic_links: function() {
         var logged_in_url = this.client.is_logged_in ?
-            page.url.url_for('user/my_accountws') :
+            page.url.url_for('user/settings/metatrader') :
             page.url.url_for('');
 
         $('#logo').attr('href', logged_in_url).on('click', function(event) {

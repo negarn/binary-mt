@@ -181,20 +181,6 @@ sub js_config {
 sub menu {
     my @menu;
 
-     push @menu,
-        {
-        url        => url_for('/metatrader'),
-        text       => localize('MetaTrader'),
-        link_class => 'pjaxload',
-        };
-
-    push @menu,
-       {
-       url        => url_for('/download-metatrader'),
-       text       => localize('Download MetaTrader'),
-       link_class => 'pjaxload',
-       };
-
     push @menu,
        {
        url        => url_for('/user/settings/metatrader'),
