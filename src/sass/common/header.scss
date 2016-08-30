@@ -1,11 +1,7 @@
 /* Logo and top bar */
 #topbar {
-    width: 100%;
-    color: $COLOR_WHITE;
-    line-height: 1;
-    font-size: 70%;
-    @include BIDIR_VALUE(text-align, right, left);
-    padding: 3px 0;
+    height: 20px;
+    line-height: 20px !important;
     #virtual-text {
         font-weight: 700;
     }
