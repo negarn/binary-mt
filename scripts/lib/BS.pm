@@ -190,7 +190,7 @@ sub menu {
 
     push @menu,
        {
-       url        => url_for('/metatrader/download'),
+       url        => url_for('/download-metatrader'),
        text       => localize('Download MetaTrader'),
        link_class => 'pjaxload',
        };
