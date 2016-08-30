@@ -104,27 +104,6 @@
     }
 }
 
-.has-tabs {
-    border: none;
-    border-radius: 0;
-    margin: 0;
-    padding: 0;
-    font: inherit !important;
-
-    /* fix jquery UI tabs to look more like our tabs */
-    ul.ui-tabs-nav {
-        @include tab-list;
-        font: inherit !important;
-        li {
-            @include BIDIR_PROP(margin-right, margin-left, 6px !important);
-            @include BIDIR_VALUE(float, left, right);
-        }
-    }
-    .ui-tabs-panel {
-        padding: 0 !important;
-    }
-}
-
 #content .page-section {
     width: 100%;
     & > .tab-menu {
