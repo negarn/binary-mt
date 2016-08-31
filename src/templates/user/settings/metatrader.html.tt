@@ -69,7 +69,7 @@
                 <p id="msg-cannot-create-real" class="notice-msg center-text invisible"></p>
                 <div id="authenticate" class="center-text invisible">
                     <p>[% l('To create a Real account for MetaTrader, you need to authenticate your Binary account:') %]</p>
-                    <a class="button pjaxload" href="[% request.url_for('/user/authenticatews') %]">
+                    <a class="button" target="_blank">
                         <span>Authenticate your account</span>
                     </a>
                 </div>

@@ -52,14 +52,6 @@
                     font-size: 100%;
                 }
             }
-            ul.tm-ul-2 {
-                margin-top: 1px;
-                display: none;
-                li.tm-li-2 {
-                    font-size: 100%;
-                    @include BIDIR_PROP(margin-right, margin-left, 20px);
-                }
-            }
         }
         li.hover {
             ul {
@@ -101,56 +93,5 @@
 #content {
     ul.tm-ul {
         @include tab-list;
-    }
-}
-
-#content .page-section {
-    width: 100%;
-    & > .tab-menu {
-        width: 100%;
-        height: 32px;
-        background-color: $COLOR_LIGHT_GRAY;
-        border-bottom: 1px solid $COLOR_GRAY;
-        ul.tm-ul {
-            margin: 0;
-            background-color: $COLOR_LIGHT_GRAY;
-            border-bottom: 1px solid $COLOR_GRAY;
-            font-size: 100%;
-            li {
-                margin-right: 2em;
-                color: $COLOR_ORANGE;
-                a {
-                    &:hover {
-                        text-decoration: none;
-                    }
-                }
-                &.active {
-                    background: none;
-                    a {
-                        color: $COLOR_ORANGE;
-                    }
-                }
-            }
-        }
-        ul.tm-ul-2 {
-            li.active {
-                a.tm-a-2 {
-                    color: $COLOR_DARK_GRAY;
-                    background: none;
-                }
-                a.a-active {
-                    color: $COLOR_ORANGE;
-                    background: none;
-                }
-            }
-        }
-    }
-    & > .tab-content-wrapper {
-        width: 100%;
-        margin: 0 auto;
-        margin-top: 2em;
-        .full-width-content {
-            width: 100%;
-        }
     }
 }

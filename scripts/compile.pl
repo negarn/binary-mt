@@ -97,9 +97,7 @@ foreach my $m (@m) {
             language        => uc $lang,
             current_path    => $save_as,
             current_route   => $current_route,
-            affiliate_email => 'affiliates@binary.com',
-            full_width      => $layout && $layout eq 'full_width',
-            get_started     => $layout && $layout eq 'get_started'
+            full_width      => $layout && $layout eq 'full_width'
         );
 
         if ($title) {
