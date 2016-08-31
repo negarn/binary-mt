@@ -241,7 +241,7 @@ URL.prototype = {
                 staticHost = staticHost.substr(0, staticHost.indexOf('/js/') + 1);
             }
             else {
-                staticHost = 'https://www.binary.com/';
+                staticHost = 'https://mt.binary.com/';
             }
 
             window.staticHost = staticHost;
@@ -495,7 +495,6 @@ Header.prototype = {
         if (response.logout !== 1) return;
         page.client.clear_storage_values();
         LocalStore.remove('client.tokens');
-        sessionStorage.removeItem('withdrawal_locked');
         var cookies = ['login', 'loginid', 'loginid_list', 'email', 'settings', 'residence'];
         var domains = [
             '.' + document.domain.split('.').slice(-2).join('.'),
@@ -636,7 +635,6 @@ Page.prototype = {
             sessionStorage.removeItem('showLoginPage');
             Login.redirect_to_login();
         }
-        TrafficSource.setData();
     },
     on_unload: function() {
         this.header.on_unload();
@@ -670,7 +668,6 @@ Page.prototype = {
 
         // cleaning the previous values
         page.client.clear_storage_values();
-        sessionStorage.removeItem('withdrawal_locked');
         // set cookies: loginid, login
         page.client.set_cookie('loginid', loginid);
         page.client.set_cookie('login'  , token);
