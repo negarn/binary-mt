@@ -1,0 +1,303 @@
+<div class="gr-row">
+    <div class="gr-12">
+        <h1>
+            [% l("Terms and Conditions") %]
+        </h1>
+        <ol>
+            <li>Introduction and Scope of Agreement
+                <ol>
+                    <li>[% l("The term ‘we’, ‘us’, ‘our’, ‘ours’, ‘the Company’, or ‘Binary.com’ shall denote either Binary (IOM) Ltd., First Floor, Millennium House, Victoria Road, Douglas, IM2 4RW, Isle of Man, British Isles, licensed and regulated by (1) the Gambling
+                        Supervision Commission in the Isle of Man, British Isles, current online gambling licence issued on 31 August 2012, and for UK clients by (2) the UK Gambling Commission; Binary (Europe) Ltd., Mompalao Building, Suite 2, Tower Road, Msida MSD1825,
+                        Malta, licensed and regulated by (1) the Malta Gaming Authority in Malta for the Gaming products, licence no MGA/CL2/118/2000 dated 26th May 2010 and for UK clients by (2) the UK Gambling Commission; Binary Investments (Europe) Ltd Mompalao Building,
+                        Suite 2, Tower Road, Msida MSD1825, Malta, regulated by the Malta Financial Services Authority for Investment products, holder of a Category 3 Investment Services licence no IS/ 70156; Binary (V) Ltd. or Binary (C.R.) S.A., depending on the
+                        jurisdiction to which a Client's account has been attached in accordance with the account opening procedures of the website.") %]</li>
+                    <li>[% l("You understand that products based on a random number generator (the “Volatility Indices”) are gambling products whereas products based on financial markets indices (forex, stocks, commodities) are financial instruments.") %]</li>
+                    <li>[% l("All products traded on margin carry a high degree of risk and can result in losses as well as profits that exceed your initial deposit. The margin trading service described in this Agreement is not suitable for everyone. You acknowledge
+                        that the margin trading service described in this Agreement is designed for clients who are knowledgeable and experienced in the types of transactions described in this Agreement and you fully understand the associated risks before entering into this
+                        Agreement with us.") %]</li>
+                    <li>[% l("You should not sign up to receive the margin trading service described in this Agreement unless you understand their nature and the associated risks.") %]</li>
+                    <li>[% l("This Agreement is supplied to you in English. In the event that there is a difference between the English version and any translated versions of this document, the English version shall prevail. We will not be made responsible for any
+                        damage or loss caused by an error, inaccuracy, misunderstanding or misspelling with regards to the translations.") %]</li>
+                </ol>
+            </li>
+            <li>Commencement and Cancelation
+                <ol>
+                    <li>[% l("This Agreement will commence on the date you receive your Real Account number, and, for any new versions thereafter, on the date the new versions are published on our website.") %]</li>
+                </ol>
+            </li>
+            <li>Provision of Services
+                <ol>
+                    <li>[% l("Under no circumstances shall we provide investment advice or recommendation to you or state an opinion in relation to a Transaction. From time to time, we may decide to provide you with written information, which we may publish on our
+                        website or provide to you in any other manner. We will endeavour to ensure the accuracy and completeness of this written information but it will not constitute investment advice or recommendation provi") %]</li>
+                    <li>[% l("The provision of the margin trading service described in this Agreement utilises a third party system acquired via a non-exclusive, non-transferable, non-sublicensable, terminable licence from the third party system provider/licensor (the
+                        “MT5 Trading Platform”). You acknowledge that we reserve the right to change the third party system provider/licensor during the course of proving the margin trading service described in this Agreement to you.") %]</li>
+                </ol>
+            </li>
+            <li>Capacity
+                <ol>
+                    <li>[% l("Binary.com shall act, at times, as a principal and at other times as an agent on your behalf, for all Transactions entered into, by you.") %]</li>
+                    <li>[% l("We will hold you responsible for all your obligations under this Agreement in our course of providing the margin trading service described in this Agreement to you, even if you notify us that you are acting as the agent of an identified
+                        principal.") %]</li>
+                </ol>
+            </li>
+            <li>Account Management
+                <ol>
+                    <li>[% l("Opening an Account") %]
+                        <ul class="bullet">
+                            <li>[% l("To open a Real Account, you must have an authenticated Binary Options Real Account with Binary.com. A Real Account cannot be opened in the absence of a Binary Options Real Account.") %]</li>
+                            <li>[% l("If your Binary Options Real Account with Binary.com is not authenticated, access to create the Real Account shall not be granted until your Binary Options Real Account with Binary.com is authenticated.") %]</li>
+                            <li>[% l("By opening a Real Account with Binary.com, you represent, warrant and undertake that:") %]
+                                <ul class="bullet">
+                                    <li>[% l("You are acting for your sole benefit and not for or on behalf of any other person;") %]</li>
+                                    <li>[% l("You have read this Legal Terms and Conditions page in full and understood that you will be buying and selling financial contracts subject to these terms and conditions;") %]</li>
+                                    <li>[% l("You have read our privacy statement and hereby give us consent to process your personal information as outlined there;") %]</li>
+                                    <li>[% l("You are over 18 years of age, unless you are an Estonian resident whereby you would have to be over 21;") %]</li>
+                                    <li>[% l("You are not resident in a restricted country such as the USA, Japan, Hong Kong, Bahamas, Costa Rica, Malaysia, Malta, Iran, North Korea, Jersey, Iraq, or such other restricted country as the Company may decide from time to time at its sole
+                                        discretion;") %]</li>
+                                    <li>[% l("You have sufficient experience and knowledge in matters of financial trading to be capable of evaluating the merits and risks of acquiring financial contracts via this site and have done so without relying on any information contained in
+                                        this site.") %]</li>
+                                </ul>
+                            </li>
+                            <li>[% l("We reserve the right to refuse your request to open a Real Account for any reason, and any Real Account may be closed at our discretion at any time.") %]</li>
+                        </ul>
+                    </li>
+                    <li>[% l("Assessment of Appropriateness") %]
+                        <ul class="bullet">
+                            <li>[% l("In the course of provision of services, we may, where applicable, conduct an appropriateness test, in accordance with our regulatory obligations, in order to determine whether, in our view and on the basis of the information provided by
+                                you, you have the necessary knowledge and experience in the investment field to understand the risks involved in the specific type of product or service offered or demanded.") %]</li>
+                            <li>[% l("Where we consider, on the basis of the information provided by you that you do not possess the knowledge and experience to appreciate the risks associated with an investment in the proposed instrument, we will issue a warning to you. Such a
+                                warning shall be displayed on the website.") %]</li>
+                            <li>[% l("In accordance with applicable regulatory requirements, where we do not manage to obtain sufficient information to assess the appropriateness of the product or service for you, we will similarly inform you that we are not in a position to
+                                assess appropriateness.") %]</li>
+                        </ul>
+                    </li>
+                    <li>[% l("Fund Transfers") %]
+                        <ul class="bullet">
+                            <li>[% l("Funding of Real Account") %]
+                                <ul class="bullet">
+                                    <li>[% l("Your Real Account shall be funded by transferring funds from your Binary Options Real Account, subject to the availability and sufficiency of funds in your Binary Options Real Account. No fund transfers shall be made to any other account in
+                                        the name of any third party.") %]</li>
+                                    <li>[% l("All funds transferred from your Binary Options Real Account to your Real Account must be made by you.") %]</li>
+                                    <li>[% l("You acknowledge and accept that your Real Account will be maintained in one currency, which is the same currency maintained in your Binary Options Real Account.") %]</li>
+                                    <li>[% l("There will be no charges for fund transfers from your Binary Options Real Account to your Real Account.") %]</li>
+                                </ul>
+                            </li>
+                            <li>[% l("Withdrawal of Funds from Real Account") %]
+                                <ul class="bullet">
+                                    <li>[% l("Subject to the availability and sufficiency of funds in your Real Account, you may withdraw your funds from Real Account to your Binary Options Real Account") %]</li>
+                                    <li>[% l("We may, however, withhold your withdrawal request from your Real Account to your Binary Options Real Account, in whole or in part, if:") %]
+                                        <ul class="bullet">
+                                            <li>[% l("You have unrealised losses on your Real Account; and/or") %]</li>
+                                            <li>[% l("Such withdrawal would result in your Account Equity being less than zero; and/or") %]</li>
+                                            <li>[% l("We reasonably consider that funds may be required to meet any Margin Requirement; and/or") %]</li>
+                                            <li>[% l("There is any amount outstanding from you to us; and/or") %]</li>
+                                            <li>[% l("We are required to do so in accordance with any relevant law or regulation.") %]</li>
+                                        </ul>
+                                    </li>
+                                    <li>[% l("Withdrawal of funds from Real Account must be made in the same currency maintained in your Binary Options Real Account.") %]</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>[% l("Inactive / Dormant Accounts") %]
+                        <ul class="bullet">
+                            <li>[% l("We reserve the right to charge a dormant fee of up to USD/EUR/AUD/GBP25 every six months for every client account that has had no transaction recorded for a period of 12 consecutive months or more. If your account is with Binary (Europe)
+                                Ltd, and your account has had no activity for a period of 30 months, and you cannot be located or contacted, we shall remit the balance of the account to the Malta Gaming Authority. If you would like to recover funds from inactive, closed, blocked or
+                                excluded accounts, please contact our helpdesk at <a href='mailto:support@binary.com'>support@binary.com</a>.") %]</li>
+                        </ul>
+                    </li>
+                    <li>[% l("Account Security") %]
+                        <ul class="bullet">
+                            <li>[% l("We are committed to making sure your personal data and transactions are secure:") %]
+                                <ul class="bullet">
+                                    <li>[% l("Your Real Account password and login ID are unique and passwords are hashed so that not even Binary.com staff can read them. This is the reason why we cannot retrieve your password and have to issue you with a new one to your email address
+                                        if you cannot recall it;") %]</li>
+                                    <li>[% l("It is your responsibility to keep your password and login ID confidential. You agree that you will not disclose your password and login ID to any other person;") %]</li>
+                                    <li>[% l("All credit card details are submitted directly to the Visa/Mastercard network using the latest SSL encryption technology, in accordance with bank policies;") %]</li>
+                                    <li>[% l("Our information security policies are based on industry best practices in access control and business continuity; and") %]</li>
+                                    <li>[% l("We use identity verification services and real-time fraud detection measures to help protect you from unauthorized access to your account. We also monitor account activity for signs of unusual activity that might indicate fraud and work
+                                        with collection agencies and low-enforcement agencies to address fraud issues.") %]</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    </li>
+                    <li>[% l("Closing an Account") %]
+                        <ul class="bullet">
+                            <li>[% l("If you wish to withdraw funds from your Real Account and close your Real Account, you may notify us by contacting our helpdesk at support@binary.com. Your Real Account may be closed if you do not have any Open Positions and all amounts due
+                                to us have been settled.") %]</li>
+                        </ul>
+                    </li>
+                    <li>[% l("Base Currency") %]
+                        <ul class="bullet">
+                            <li>[% l("Any realised profits and interest charges that are denominated in a currency that’s different from your Base Currency will be automatically converted to your Base Currency before being debited / credited to your Real Account. The conversion
+                                will be performed at commercially reasonable rates.") %]</li>
+                        </ul>
+                    </li>
+                </ol>
+            </li>
+            <li>Orders
+                <ol>
+                    <li>[% l("Order Execution / Cancellation / Modification") %]
+                        <ul class="bullet">
+                            <li>[% l("You acknowledge that it is your responsibility to understand the features, characteristics, terms and conditions of an Order and the implications of executing an Order before you place an Order with us.") %]</li>
+                            <li>[% l("Subject to network latency, we endeavour to execute your Order within a reasonable time from the time you triggered the Order, at the Price nearest to your specified Price. We do not guarantee that a Transaction will be opened/closed
+                                following an Order being triggered by you at your specified Price. ") %]</li>
+                        </ul>
+                    </li>
+                    <li>[% l("Stop and Limit Orders") %]
+                        <ul class="bullet">
+                            <li>[% l("We may, at our absolute discretion, accept a Stop Order or a Limit Order from you. We may enable other types of Orders (for example, a trailing stop order) for your execution at any point in time.") %]</li>
+                            <li>[% l("You may specify your instruction of a Stop Order or a Limit Order may be applied for a limited duration or for an indefinite period (a “good till cancelled” or “GTC” Order).") %]</li>
+                            <li>[% l("In the case of a Stop Order, you acknowledge that we will endeavour to open/close a Transaction at the Next Available Price.") %]</li>
+                            <li>[% l("In the case of a Limit Order, you acknowledge that we will endeavour to open/close a Transaction at a level that is the same or better than the Limit you specified, subject to the availability of the Limit Price. You acknowledge that at the
+                                time of order execution, our bid/offer price may become less favourable to you.") %]</li>
+                            <li>[% l("You may not cancel or amend the level of your Stop and Limit Order prior to the closing of your Transaction once the level has been reached.") %]</li>
+                            <li>[% l("You acknowledge that a Stop or Limit Order placed on your Open Position, when executed, would be capable of closing or partly closing such Transaction. You also acknowledge that it is your responsibility to cancel the Stop or Limit Order
+                                that you placed on your Open Positions if you do not want the Stop or Limit Order to remain valid. If you close your original Transaction and fail to cancel the Stop or Limit Order, we shall be entitled, at our absolute discretion, to treat the Stop
+                                or Limit Order as an instruction to enter into a new Transaction for you if and when our quote reaches or goes beyond the level of the Stop or Limit Order.") %]</li>
+                            <li>[% l("You acknowledge that we reserve the right to establish a minimum and maximum transaction size which may be subject to alteration and that we will only execute Orders that fall within the range of the minimum and maximum transaction size.") %]</li>
+                        </ul>
+                    </li>
+                </ol>
+            </li>
+            <li>Margin
+                <ol>
+                    <li>[% l("General Provisions") %]
+                        <ul class="bullet">
+                            <li>[% l("Prior to placing an Order which results in opening a Transaction or increasing an existing Open Position, you acknowledge that it is your responsibility to ensure that your Account Free Margin is sufficient to cover the Margin required in
+                                relation to the open Transaction (the “Margin Requirement”), and to continuously meet the Margin Requirement.") %]</li>
+                            <li>[% l("Throughout the duration of the Transaction and for as long as the Transaction is open, you are required to maintain a sufficient Account Equity to cover any Margin Requirement. If your Account Equity is less than the Margin Requirement in
+                                relation to the open Transaction you wish to create, you have entered into a Margin Call and you are required to fund the shortfall immediately. You may not be able to place an Order to open a Transaction until the shortfall has been funded and there
+                                is sufficient Account Equity to cover the Total Margin.") %]</li>
+                            <li>[% l("You acknowledge that it is your responsibility to monitor your Account Balance and Margin Requirement and we are not under any obligation to keep you informed (i.e., to make a Margin Call).") %]</li>
+                        </ul>
+                    </li>
+                    <li>[% l("Margin Requirement and Calculation") %]
+                        <ul class="bullet">
+                            <li>[% l("The Margin Requirement is a percentage of the value of the Open Positions and will continue to fluctuate in accordance with the value of the Open Positions throughout the duration of the relevant contracts (the “Contract Value”).") %]</li>
+                            <li>[% l("The Margin Requirements can increase / decrease based on the aggregated size of your Open Position determined by the volume (number of lots), contract size (value per point in the original currency of the contract), market price and margin
+                                rate.") %]</li>
+                            <li>[% l("We may modify Margin Requirements for any Open Positions or new Transactions entered into, at our sole discretion. Formulas for Margin Requirements published on the website are indicative only and may be changed by the Company at its
+                                discretion at any time, due to changing market conditions or other factors.") %]</li>
+                        </ul>
+                    </li>
+                    <li>[% l("Stop Out Level") %]
+                        <ul class="bullet">
+                            <li>[% l("If the Margin Level for your Real Account reaches or falls below the Stop Out Level, this will be classified as an Event of Default. In such circumstances, Open Positions are automatically closed in the following order: (i) the server
+                                analyses clients’ Orders that are not under execution at the moment; (ii) the server deletes Orders with the largest Margin; (iii) if your Margin Level is still under the Stop Out Level, the next order is deleted (orders without margin requirements
+                                are not deleted); (iv) if your Margin Level is still under the Stop Out Level, the server closes a position with the largest loss; (v) Open Positions are closed until your Margin Level becomes higher than the Stop Out Level.") %]</li>
+                            <li>[% l("The default Stop Out Level applicable to your Account is published on our website. However, the default Stop Out Level is subject to alteration at our absolute discretion. Any changes to the Stop Out Level will take effect immediately. We
+                                will endeavour to notify you of an alteration to the default Stop Out Level by publishing the revised default Stop Out Level on our website. It is your responsibility to check our website regularly and remain informed about the default Stop Out
+                                Level.") %]</li>
+                            <li>[% l("The Stop Out Level applicable to your Real Account may differ from the default Stop Out Level published on our website.") %]</li>
+                        </ul>
+                    </li>
+                    <li>[% l("Margin Payment") %]
+                        <ul class="bullet">
+                            <li>[% l("You may make Margin Payments by transferring funds from your Binary Options Real Account to your Real Account. In the event that there are insufficient funds in your Binary Options Real Account to fund your Real Account, you may, make
+                                Margin Payments by funding your Binary Options Real Account and transferring the funds from your Binary Options Real Account to your Real Account. ") %]</li>
+                            <li>[% l("Margin Payments are due immediately and shall be received in full by us.") %]</li>
+                        </ul>
+                    </li>
+                </ol>
+            </li>
+            <li>Regulatory Provisions
+                <ol>
+                    <li>[% l("Potential Conflicts of Interest") %]
+                        <ul class="bullet">
+                            <li>[% l("You acknowledge that the nature of margin trading services described in this Agreement and the role of the Company in such margin trading services gives rise to potential conflicts of interest between your interests and those of other clients or of ourselves. At any point in time, we may be entering into or may have entered into transactions with a large number of clients, each of whose interests may diverge from those of other clients. As such, the Company may be holding Open Positions that may not be aligned with your objectives/interests as an individual client of the Company.") %]</li>
+                            <li>[% l("Whilst we endeavour to take all reasonable steps to identify potential conflicts of interests between ourselves and our clients, or between one client and another, that arise in the course of providing the margin trading services as described in this Agreement, by establishing and implementing policies and procedures, it is possible that we may execute certain Transactions which may have other direct or indirect material interests.") %]</li>
+                            <li>[% l("Given our role as margin trading service provider as described in this Agreement, we seek to avoid undue market influence to the extent consistent with your trading needs and our risk management policies and procedures. By continuing to use the margin trading service described in this Agreement, you acknowledge that you are aware of the potential conflict of interest disclosed that may arise and cannot be completely eliminated, and you consent us to act notwithstanding such potential conflict of interests.") %]</li>
+                        </ul>
+                    </li>
+                    <li>[% l("Client Money") %]
+                        <ul class="bullet">
+                            <li>[% l("Money collected from Clients are not invested in any securities, futures, or other investments, on behalf of Clients.") %]</li>
+                            <li>[% l("In regards to UK customers trading gambling products, we are required by our licence to inform you about what happens to funds which we hold on account for you, and the extent to which funds are protected in the event of insolvency <a href='http://www.gamblingcommission.gov.uk/Consumers/Protection-of-customer-funds.aspx'>http://www.gamblingcommission.gov.uk/Consumers/Protection-of-customer-funds.aspx</a>.") %]</li>
+                            <li>[% l("The company holds customer funds in separate bank accounts to the operational accounts; and arrangements have been made to ensure assets in the customer accounts are distributed to customers in the event of insolvency. This meets the Gambling Commission's requirements for the segregation of customer funds at the level: medium protection.") %]</li>
+                            <li>[% l("Your account should not be used as a banking facility and deposits should only be made with a view to using funds to place contracts. The Company is not a financial institution. Clients will not receive interest on deposits. Should you make repeated deposits and withdrawals without commensurate contracts being placed, we reserve the right to pass on to your accounts, without prior notice, any bank charges we have incurred before closing the account.") %]</li>
+                        </ul>
+                    </li>
+                    <li>[% l("Personal Data and Privacy") %]
+                        <ul class="bullet">
+                            <li>[% l("You acknowledge that we may use, store, or otherwise process personal information provided by you in connection with the provision of margin trading services described in this Agreement. You consent to the processing and transmittal of your personal information for the purposes of performing the contract and administering the relationship between you and us, whether within or outside of the European Economic Area.") %]</li>
+                            <li>[% l("You consent us to record your telephone conversation between you and us. All instructions receive by telephone will be binding as if received in writing. Recorded telephone conversations between you and us shall be and remain our sole property. You will accept recorded telephone conversations between you and us as conclusive evidence of instructions or conversations so recorded and we may deliver copies of transcripts of such recordings to any court, regulatory or governmental authority without seeking prior consent from you.") %]</li>
+                            <li>[% l("We may or may not use your personal information to contact you at any reasonable time as part of our marketing activities. You authorise us to contact you by email or telephone to give you information about selected products and services offered by us. Your consent for us to use your personal information for this purpose applies to the period you have a Real Account with us and after you close your Real Account. Please advise us in writing if you do not wish your personal information to be used for such purposes.") %]</li>
+                        </ul>
+                    </li>
+                    <li>[% l("Confidentiality") %]
+                        <ul class="bullet">
+                            <li>[% l("The personal information that we collect and hold is treated as confidential. Confidential information will not be used for any purpose other than in connection with the provision of margin trading service described in this Agreement. Confidential information will only be disclosed as and when required by law. We may also disclose such personal information to: (i) other companies within the Binary Group of companies; (ii) any such third parties a we see fit to assist us in servicing your Real Account; (iii) regulatory authorities upon their reasonable request; (iv) any such third parties as we see fit to assist us in enforcing our legal or contractual rights against you including but not limited to legal advisors; (v) third parties as we see fit to investigate or prevent fraud or other illegal activities.") %]</li>
+                        </ul>
+                    </li>
+                    <li>[% l("Complaints and disputes") %]
+                        <ul class="bullet">
+                            <li>[% l("If you would like to file a complaint with regards to the margin trading service described in this Agreement, kindly contact us by providing the relevant details related to your complaint. We shall investigate your enquiry and a response will be given to your enquiry. We will usually provide a final response within one to two weeks (and at most within two months) from the receipt of all relevant details.") %]</li>
+                            <li>[% l("If your complaint relates to an outcome of a Transaction and remains unresolved, it will turn into a dispute. Should you be unsatisfied with our response, you can choose to escalate your complaint to the regulatory authority or to an alternative dispute resolution entity.") %]</li>
+                            <li>[% l("Clients registered with any Group company, and in particular with Binary (V) Ltd. or Binary (C.R.). S.A., can raise their unresolved disputes with management by submitting an email to <a href='mailto:complaints@binary.com'>complaints@binary.com</a>.") %]</li>
+                            <li>[% l("Clients registered with Binary (IOM) Ltd trading gambling products can also raise their unresolved disputes with the alternative dispute resolution entity Independent Betting Adjudication Service Ltd (IBAS) by filling the adjudication form on the ADR entity’s <a href='http://www.ibas-uk.com/adjudicationForm.php'>website</a>.") %]</li>
+                            <li>[% l("Clients registered with Binary (Europe) Ltd trading gambling products can also raise their unresolved disputes with the Malta Gaming Authority (<a href='http://www.mga.org.mt/'>www.mga.org.mt</a>) at <a href='mailto:support.mga@mga.org.mt'>support.mga@mga.org.mt</a>. UK clients registered with Binary (Europe) Ltd can submit their dispute with the alternative dispute resolution entity IBAS by filling up the adjudication form on the ADR entity’s <a href='http://www.ibas-uk.com/adjudicationForm.php'>website</a>.") %]</li>
+                            <li>[% l("Alternatively, clients who are registered with both Binary (IOM) Ltd and Binary (Europe) Ltd who trade gambling products, instead of submitting their dispute to IBAS, they can make use of the European Commission’s Online Dispute Resolution (ODR) platform available <a href='http://ec.europa.eu/odr'>here</a>.") %]</li>
+                            <li>[% l("It is important that you refer your disputes to the appropriate ADR for the claims to be valid.") %]</li>
+                        </ul>
+                    </li>
+                </ol>
+            </li>
+            <li>Quotes
+                <ol>
+                    <li>[% l("") %]</li>
+                    <li>[% l("") %]</li>
+                </ol>
+            </li>
+            <li>Trading Transactions
+                <ol>
+                    <li>[% l("") %]</li>
+                    <li>[% l("") %]</li>
+                </ol>
+            </li>
+            <li>Electronic Trading Platform and Transactions
+                <ol>
+                    <li>[% l("") %]</li>
+                    <li>[% l("") %]</li>
+                </ol>
+            </li>
+            <li>Event of Default
+                <ol>
+                    <li>[% l("") %]</li>
+                    <li>[% l("") %]</li>
+                </ol>
+            </li>
+            <li>Manifest Error
+                <ol>
+                    <li>[% l("") %]</li>
+                    <li>[% l("") %]</li>
+                </ol>
+            </li>
+            <li>Representations and Warranties
+                <ol>
+                    <li>[% l("") %]</li>
+                    <li>[% l("") %]</li>
+                </ol>
+            </li>
+            <li>Indemnification
+                <ol>
+                    <li>[% l("") %]</li>
+                    <li>[% l("") %]</li>
+                </ol>
+            </li>
+            <li>Miscellaneous
+                <ol>
+                    <li>[% l("") %]</li>
+                    <li>[% l("") %]</li>
+                </ol>
+            </li>
+            <li>Interpretation of Terms
+                <ol>
+                    <li>[% l("") %]</li>
+                    <li>[% l("") %]</li>
+                </ol>
+            </li>
+        </ol>
+    </div>
+</div>
