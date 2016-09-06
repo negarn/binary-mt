@@ -10,7 +10,7 @@
 <div class="container">
 <div class="gr-row gr-padding-10">
     <div class="gr-3">
-        <h4 class="secondary-color">[% l('Section 1') %]</h4>
+        <!-- <h4 class="secondary-color">[% l('Section 1') %]</h4> -->
         <ul>
             <li>
                 <a class="pjaxload" href="[% request.url_for('margin-policy') %]">[% l('Margin Policy') %]</a>
@@ -18,7 +18,7 @@
         </ul>
     </div>
     <div class="gr-3">
-        <h4 class="secondary-color">[% l('Section 2') %]</h4>
+        <!-- <h4 class="secondary-color">[% l('Section 2') %]</h4> -->
         <ul>
             <li>
                 <a class="pjaxload" href="[% request.url_for('volatility-indices-contract') %]">[% l('Volatility Indices Contract') %]</a>
@@ -26,7 +26,7 @@
         </ul>
     </div>
     <div class="gr-3">
-        <h4 class="secondary-color">[% l('Section 3') %]</h4>
+        <!-- <h4 class="secondary-color">[% l('Section 3') %]</h4> -->
         <ul>
             <li>
                 <a class="pjaxload" href="[% request.url_for('download-metatrader') %]">[% l('Download MetaTrader') %]</a>
@@ -34,10 +34,10 @@
         </ul>
     </div>
     <div class="gr-3">
-        <h4 class="secondary-color">[% l('Section 4') %]</h4>
+        <!-- <h4 class="secondary-color">[% l('Section 4') %]</h4> -->
         <ul>
             <li>
-                <a class="pjaxload" href="">[% l('Link') %]</a>
+                <a class="pjaxload" href="[% request.url_for('terms-and-conditions') %]">[% l('Terms and Conditions') %]</a>
             </li>
         </ul>
     </div>
