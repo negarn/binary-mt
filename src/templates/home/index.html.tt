@@ -90,36 +90,3 @@
         </div>
     </div>
 </div>
-<!-- <div id="banner">
-    <div class="container">
-        <div class="gr-row">
-          <div class="gr-12 gr-centered center-text">
-              <h1 class="dark center-text gr-padding-10">[% l("Introducing <strong>MetaTrader 5</strong> on binary.com") %]</h1>
-              <p class="center-text gr-padding-10">[% l("Take your trading to the next level with MetaTrader 5, recognised as the industry benchmark for professional investors worldwide.") %]</p>
-              <p><a href="">Log in</a> to your Binary.com account to start.</p>
-              <p>Don't have a Binary.com account? <a href="" class="button"><span>Create free account</span></a></p>
-          </div>
-        </div>
-    </div>
-</div>
-
-<div class="container">
-  <div>
-    <div class="gr-12 gr-parent">
-      <div class="gr-row gr-row-align-middle">
-          <div class="gr-7 gr-12-m gr-parent">
-            <img class="responsive" src="[% request.url_for('images/pages/metatrader/mt5-imac.svg') %]"/>
-          </div>
-          <div class="gr-5 gr-12-m gr-parent">
-            <ul class="bullet">
-              <li>[% l("Trade 24/7 with our proprietary Volatility Indices") %]</li>
-              <li>[% l("Enhanced trade customisation with increased potential for higher returns") %]</li>
-              <li>[% l("Highly competitive spreads with no commission") %]</li>
-              <li>[% l("Advanced tools for fundamental and technical analysis, including indicators, charts, and more.") %]</li>
-              <li>[% l("Subscriptions to a wide range of Expert Advisors — algorithmic trading strategies from the MetaTrader Market") %]</li>
-            </ul>
-          </div>
-      </div>
-    </div>
-  </div>
-</div> -->
