@@ -92,6 +92,7 @@ foreach my $m (@m) {
 
         my %stash = (
             website_name    => $request->website->display_name,
+            brand_name      => 'Binary.com',
             browser_title   => ($title ? localize($title).' | ' : '') . $request->website->display_name,
             request         => $request,
             language        => uc $lang,

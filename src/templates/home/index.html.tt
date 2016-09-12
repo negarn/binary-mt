@@ -7,7 +7,7 @@
             <div class="gr-6 gr-12-m">
                 <img class="responsive" src="[% request.url_for('images/pages/metatrader/mt5-imac.svg') %]"/>
             </div>
-            <div class="gr-6 gr-12-m">
+            <div class="gr-6 gr-12-m" style="line-height: 220%;">
                 <h3>[% l("Take your trading to the next level with MetaTrader 5, recognised as the industry benchmark for professional investors worldwide.") %]</h3>
             </div>
         </div>
@@ -17,41 +17,41 @@
 <div class="container">
     <div class="gr-row gr-padding-30">
         <div class="gr-12">
-            <h2>[% l("[_1] MetaTrader accounts", website_name) %]</h2>
+            <h2>[% l("[_1] MetaTrader accounts", brand_name) %]</h2>
         </div>
         <div class="gr-12">
             <div class="gr-row">
                 <div class="gr-4 gr-12-m">
-                    <img class="responsive" src="http://placehold.it/350x150" alt="">
+                    <img class="small" src="[% request.url_for('images/pages/home/24hr.svg') %]" alt="">
                     <p>[% l("Trade 24/7 with our proprietary Volatility Indices.") %]</p>
                 </div>
                 <div class="gr-4 gr-12-m">
-                    <img class="responsive" src="http://placehold.it/350x150" alt="">
+                    <img class="small" src="[% request.url_for('images/pages/home/enhance_trade.svg') %]" alt="">
                     <p>[% l("Enhanced trade customisation with increased potential for higher returns.") %]</p>
                 </div>
                 <div class="gr-4 gr-12-m">
-                    <img class="responsive" src="http://placehold.it/350x150" alt="">
+                    <img class="small" src="[% request.url_for('images/pages/home/competitive_spread.svg') %]" alt="">
                     <p>[% l("Highly competitive spreads with no commission.") %]</p>
                 </div>
             </div>
         </div>
     </div>
-    <div class="gr-row gr-padding-30">
+    <div class="gr-row gr-padding-10">
         <div class="gr-12">
-            <h2>[% l("[_1] MetaTrader accounts", website_name) %]</h2>
+            <h2>[% l("[_1] MetaTrader accounts", brand_name) %]</h2>
         </div>
         <div class="gr-12">
             <div class="gr-row">
                 <div class="gr-4 gr-12-m">
-                    <img class="responsive" src="http://placehold.it/350x150" alt="">
+                    <img class="small" src="[% request.url_for('images/pages/home/leading_forex.svg') %]" alt="">
                     <p>[% l("Universally acclaimed, leading multifunctional platform for Forex and CFD trading.") %]</p>
                 </div>
                 <div class="gr-4 gr-12-m">
-                    <img class="responsive" src="http://placehold.it/350x150" alt="">
+                    <img class="small" src="[% request.url_for('images/pages/home/tools.svg') %]" alt="">
                     <p>[% l("Advanced tools for fundamental and technical analysis, including indicators, charts, and more.") %]</p>
                 </div>
                 <div class="gr-4 gr-12-m">
-                    <img class="responsive" src="http://placehold.it/350x150" alt="">
+                    <img class="small" src="[% request.url_for('images/pages/home/expert_advisors.svg') %]" alt="">
                     <p>[% l("Subscriptions to a wide range of Expert Advisors — algorithmic trading strategies from the MetaTrader Market.") %]</p>
                 </div>
             </div>
@@ -75,7 +75,7 @@
                     </a>
                 </div>
                 <div class="gr-4 gr-12-m center-text">
-                  <p><strong>[% l("I am registered on Binary.com, But have only virtual account") %]</strong></p>
+                  <p><strong>[% l("I am registered on Binary.com, but have only virtual account") %]</strong></p>
                   <a class="button" href="#">
                       <span>[% l("Sign in to open real account") %]</span>
                   </a>

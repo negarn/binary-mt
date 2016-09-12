@@ -194,6 +194,10 @@ img.responsive {
     height: auto;
 }
 
+img.small {
+    max-width: 150px;
+}
+
 .invisible {
     display: none !important;
 }
