@@ -7,7 +7,7 @@
             <div class="gr-6 gr-12-m">
                 <img class="responsive" src="[% request.url_for('images/pages/metatrader/mt5-imac.svg') %]"/>
             </div>
-            <div class="gr-6 gr-12-m">
+            <div class="gr-6 gr-12-m" style="line-height: 220%;">
                 <h3>[% l("Take your trading to the next level with MetaTrader 5, recognised as the industry benchmark for professional investors worldwide.") %]</h3>
             </div>
         </div>
@@ -36,7 +36,7 @@
             </div>
         </div>
     </div>
-    <div class="gr-row gr-padding-30">
+    <div class="gr-row gr-padding-10">
         <div class="gr-12">
             <h2>[% l("[_1] MetaTrader accounts", brand_name) %]</h2>
         </div>
@@ -75,7 +75,7 @@
                     </a>
                 </div>
                 <div class="gr-4 gr-12-m center-text">
-                  <p><strong>[% l("I am registered on Binary.com, But have only virtual account") %]</strong></p>
+                  <p><strong>[% l("I am registered on Binary.com, but have only virtual account") %]</strong></p>
                   <a class="button" href="#">
                       <span>[% l("Sign in to open real account") %]</span>
                   </a>
