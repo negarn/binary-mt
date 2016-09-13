@@ -204,7 +204,7 @@ var MetaTraderUI = (function() {
 
                     $('#msg-cannot-create-real').html(hasRealBinaryAccount ?
                         text.localize('To create a real account for MetaTrader, switch to your [_1] real money account.', ['Binary.com']) :
-                        text.localize('To create a real account for MetaTrader, <a href="[_1]">upgrade to [_2] real money account</a>.', [page.url.url_for('new_account/realws'), 'Binary.com'])
+                        text.localize('To create a real account for MetaTrader, <a href="[_1]">upgrade to [_2] real money account</a>.', [page.url.url_for('new_account/realws', '', true), 'Binary.com'])
                     ).removeClass(hiddenClass);
                 } else {
                     if(!isAuthenticated && !page.client.is_virtual()) {
@@ -257,7 +257,7 @@ var MetaTraderUI = (function() {
             isAuthenticated = true;
             manageTabContents();
         } else if(!page.client.is_virtual()) {
-            $('#authenticate a').attr('href', 'https://www.binary.com/' + (page.language().toLowerCase() || 'en') + '/user/authenticatews.html');
+            $('#authenticate a').attr('href', page.url.url_for('/user/authenticatews', '', true));
             $('#authenticate').removeClass(hiddenClass);
         }
     };
