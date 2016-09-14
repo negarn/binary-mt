@@ -33,8 +33,15 @@ var MetaTraderUI = (function() {
 
     var initOk = function() {
         findInSection('demo', '.form-new-account').contents().clone().appendTo('#section-financial .form-new-account');
-        $('#section-financial').contents().clone().appendTo('#section-gaming');
-        $('#section-gaming h3').text($('#nav-gaming a').text());
+        if(hasGamingCompany) {
+            $('#section-financial').contents().clone().appendTo('#section-gaming');
+            $('#section-gaming h3').text($('#nav-gaming a').text());
+        } else {
+            hideAccount('gaming');
+        }
+        if(!hasFinancialCompany) {
+            hideAccount('financial');
+        }
 
         MetaTraderData.requestLoginList();
 
@@ -108,6 +115,10 @@ var MetaTraderUI = (function() {
         }
     };
 
+    var hideAccount = function(accType) {
+        $('#nav-' + accType + ', #section-' + accType).remove();
+    };
+
     var makeTextRow = function(label, value, className) {
         return '<div class="gr-row gr-padding-10 ' + (className || '') + '">' +
             (label ? '<div class="gr-4">' + text.localize(label) + '</div>' : '') +
@@ -169,10 +180,13 @@ var MetaTraderUI = (function() {
     // --------------------------
     var displayTab = function(tab) {
         if(!tab) {
-            tab = page.url.location.hash.substring(1);
+            tab = (page.url.location.hash.substring(1) || '').toLowerCase();
             if(!tab || !/demo|financial|gaming/.test(tab)) {
                 tab = 'demo';
             }
+        }
+        if((/financial/.test(tab) && !hasFinancialCompany) || (/gaming/.test(tab) && !hasGamingCompany)) {
+            tab = 'demo';
         }
 
         // url
