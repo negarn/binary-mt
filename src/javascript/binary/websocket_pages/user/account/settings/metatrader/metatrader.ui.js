@@ -66,7 +66,7 @@ var MetaTraderUI = (function() {
             makeTextRow('Balance', currency + ' ' + mt5Accounts[accType].balance, 'balance') +
             makeTextRow('Name', mt5Accounts[accType].name) +
             // makeTextRow('Leverage', mt5Accounts[accType].leverage)
-            makeTextRow('', text.localize('Start trading with your ' + (accType === 'demo' ? 'Demo' : 'Real') + ' Account') +
+            makeTextRow('', text.localize('Start trading with your MetaTrader Account') +
                 ' <a class="button pjaxload" href="' + page.url.url_for('download-metatrader') + '" style="margin:0 20px;">' +
                     '<span>' + text.localize('Download MetaTrader') + '</span></a>')
         ));
@@ -153,7 +153,7 @@ var MetaTraderUI = (function() {
             MetaTraderData.requestSend({
                 'mt5_deposit' : 1,
                 'from_binary' : page.client.loginid,
-                'to_mt5'      : mt5Accounts.real.login,
+                'to_mt5'      : mt5Accounts[accType].login,
                 'amount'      : $form.find('.txtAmount').val()
             });
         }
@@ -163,11 +163,11 @@ var MetaTraderUI = (function() {
         $form = findInSection(accType, '.form-withdrawal');
         if(formValidate('withdrawal')) {
             if(!isPasswordChecked) {
-                MetaTraderData.requestPasswordCheck(mt5Accounts.real.login, $form.find('.txtMainPass').val());
+                MetaTraderData.requestPasswordCheck(mt5Accounts[accType].login, $form.find('.txtMainPass').val());
             } else {
                 MetaTraderData.requestSend({
                     'mt5_withdrawal' : 1,
-                    'from_mt5'       : mt5Accounts.real.login,
+                    'from_mt5'       : mt5Accounts[accType].login,
                     'to_binary'      : page.client.loginid,
                     'amount'         : $form.find('.txtAmount').val()
                 });
@@ -233,12 +233,9 @@ var MetaTraderUI = (function() {
                         MetaTraderData.requestAccountStatus();
                     } else {
                         $form = findInSection(accType, '.form-new-account');
-                        if($form.contents().length === 0) {
-                            findInSection('demo', '.form-new-account').contents().clone().appendTo($form);
-                            $form.find('.account-type').text(text.localize(accType));
-                            $form.find('.name-row').remove();
-                            passwordMeter();
-                        }
+                        $form.find('.account-type').text(text.localize(accType.charAt(0).toUpperCase() + accType.slice(1)));
+                        $form.find('.name-row').remove();
+                        passwordMeter();
                         $form.removeClass(hiddenClass);
                     }
                 }
@@ -333,7 +330,7 @@ var MetaTraderUI = (function() {
 
         if(+response.mt5_deposit === 1) {
             $form.find('.txtAmount').val('');
-            showFormMessage(text.localize('Deposit is done. Transaction ID:') + ' ' + response.binary_transaction_id, true);
+            showFormMessage(text.localize('Deposit is done. Transaction ID: [_1]', [response.binary_transaction_id]), true);
             highlightBalance = true;
             MetaTraderData.requestLoginDetails(response.echo_req.to_mt5);
         } else {
@@ -349,7 +346,7 @@ var MetaTraderUI = (function() {
 
         if(+response.mt5_withdrawal === 1) {
             $form.find('.txtAmount').val('');
-            showFormMessage(text.localize('Withdrawal is done. Transaction ID:') + ' ' + response.binary_transaction_id, true);
+            showFormMessage(text.localize('Withdrawal is done. Transaction ID: [_1]', [response.binary_transaction_id]), true);
             highlightBalance = true;
             MetaTraderData.requestLoginDetails(response.echo_req.from_mt5);
         } else {
@@ -379,7 +376,7 @@ var MetaTraderUI = (function() {
         }
 
         if($form.find('meter').length !== 0) {
-            $form.find('.password').on('input', function() {
+            $form.find('.password').unbind('input').on('input', function() {
                 $form.find('.password-meter').attr('value', testPassword($form.find('.password').val())[0]);
             });
         }
