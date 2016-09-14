@@ -226,7 +226,7 @@ URL.prototype = {
         }
         var lang = page.language().toLowerCase(),
             url  = window.location.href;
-        return isMainSite ? 'https://www.binary.com/' : url.substring(0, url.indexOf('/' + lang + '/') + lang.length + 2) + (path || 'home') + '.html' + (params ? '?' + params : '');
+        return (isMainSite ? 'https://www.binary.com/' + lang + '/' : url.substring(0, url.indexOf('/' + lang + '/') + lang.length + 2)) + (path || 'home') + '.html' + (params ? '?' + params : '');
     },
     url_for_static: function(path) {
         if(!path) {
