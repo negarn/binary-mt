@@ -622,7 +622,7 @@ meter#password-meter::-webkit-meter-bar {
   box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.25) inset;
 }
 
-#accordion .ui-accordion-content {
+#accordion .ui-accordion-content, .accordion .ui-accordion-content {
   padding-top: 0;
 }
 
