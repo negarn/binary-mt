@@ -1,4 +1,4 @@
-#accordion {
+#accordion, .accordion {
     @if not $IS_LTR {
         .ui-state-active, .ui-state-default, .ui-state-hover {
             background-position: left !important;
