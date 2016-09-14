@@ -27,16 +27,21 @@ sub _texts {
         my @texts;
 
         # strings for user/settings/metatrader page
+        push @texts, localize('Demo');
+        push @texts, localize('Financial');
+        push @texts, localize('Gaming');
         push @texts, localize('Login');
+        push @texts, localize('Balance');
+        push @texts, localize('Name');
         push @texts, localize('To create a real account for MetaTrader, switch to your [_1] real money account.');
         push @texts, localize('To create a real account for MetaTrader, <a href="[_1]">upgrade to [_2] real money account</a>.');
         push @texts, localize('Your new account has been created.');
-        push @texts, localize('Deposit is done. Transaction ID:');
-        push @texts, localize('Withdrawal is done. Transaction ID:');
-        push @texts, localize('Start trading with your Demo Account');
-        push @texts, localize('Start trading with your Real Account');
+        push @texts, localize('Deposit is done. Transaction ID: [_1]');
+        push @texts, localize('Withdrawal is done. Transaction ID: [_1]');
+        push @texts, localize('Start trading with your MetaTrader Account');
         push @texts, localize('Download MetaTrader');
         push @texts, localize('Congratulations! Your account has been created.');
+        push @texts, localize('Sorry, an error occurred while processing your request.');
 
         my %as_hash = @texts;
         $js .= "texts_json['" . $language . "'] = " . JSON::to_json(\%as_hash) . ";\n";

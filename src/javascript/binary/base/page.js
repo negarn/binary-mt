@@ -217,7 +217,7 @@ var URL = function (url) { // jshint ignore:line
 };
 
 URL.prototype = {
-    url_for: function(path, params) {
+    url_for: function(path, params, isMainSite) {
         if(!path) {
             path = '';
         }
@@ -226,7 +226,7 @@ URL.prototype = {
         }
         var lang = page.language().toLowerCase(),
             url  = window.location.href;
-        return url.substring(0, url.indexOf('/' + lang + '/') + lang.length + 2) + (path || 'home') + '.html' + (params ? '?' + params : '');
+        return (isMainSite ? 'https://www.binary.com/' + lang + '/' : url.substring(0, url.indexOf('/' + lang + '/') + lang.length + 2)) + (path || 'home') + '.html' + (params ? '?' + params : '');
     },
     url_for_static: function(path) {
         if(!path) {
@@ -309,7 +309,7 @@ URL.prototype = {
         return params;
     },
     default_redirect_url: function() {
-        return 'user/settings/metatrader';
+        return this.url_for('user/settings/metatrader');
     },
 };
 
@@ -420,9 +420,7 @@ Header.prototype = {
         }
     },
     register_dynamic_links: function() {
-        var logged_in_url = this.client.is_logged_in ?
-            page.url.url_for('user/settings/metatrader') :
-            page.url.url_for('');
+        var logged_in_url = page.url.url_for(this.client.is_logged_in ? 'user/settings/metatrader' : '');
 
         $('#logo').attr('href', logged_in_url).on('click', function(event) {
             event.preventDefault();
