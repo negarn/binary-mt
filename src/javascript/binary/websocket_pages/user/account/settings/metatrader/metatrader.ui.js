@@ -418,6 +418,7 @@ var MetaTraderUI = (function() {
                 errMsgPass2 = MetaTrader.validateRequired(valuePass2);
             if(errMsgPass2) {
                 showError('.txtMainPass2', errMsgPass2);
+                isValid = false;
             } else if($form.find('.txtMainPass').val() !== valuePass2) {
                 showError('.txtMainPass2', Content.localize().textPasswordsNotMatching);
                 isValid = false;
