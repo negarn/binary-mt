@@ -625,6 +625,10 @@ meter#password-meter::-webkit-meter-bar {
   background: url("../images/pages/home/banner-background_1.png") 0 0/100% 108% no-repeat;
 }
 
+#mt-container .sidebar-left {
+  margin-bottom: 20px;
+}
+
 /* static pages */
 #balance {
   float: right;
