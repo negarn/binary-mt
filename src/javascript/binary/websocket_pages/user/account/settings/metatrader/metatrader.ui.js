@@ -126,7 +126,7 @@ var MetaTraderUI = (function() {
     };
 
     var getAccountType = function(group) {
-        return /^demo/.test(group) ? 'demo' : group.split('\\')[1];
+        return group ? (/^demo/.test(group) ? 'demo' : group.split('\\')[1]) : '';
     };
 
     var findInSection = function(accType, selector) {
@@ -293,9 +293,11 @@ var MetaTraderUI = (function() {
         if(response.mt5_login_list && response.mt5_login_list.length > 0) {
             response.mt5_login_list.map(function(obj) {
                 var accType = getAccountType(obj.group);
-                mt5Logins[obj.login] = accType;
-                mt5Accounts[accType] = {login: obj.login};
-                MetaTraderData.requestLoginDetails(obj.login);
+                if(accType) { // ignore old accounts which are not linked to any group
+                    mt5Logins[obj.login] = accType;
+                    mt5Accounts[accType] = {login: obj.login};
+                    MetaTraderData.requestLoginDetails(obj.login);
+                }
             });
         } else {
             displayTab();
