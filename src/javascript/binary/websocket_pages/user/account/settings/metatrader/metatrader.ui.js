@@ -423,7 +423,8 @@ var MetaTraderUI = (function() {
                 isValid = false;
             }
             // name
-            if(!$form.find('.name-row').hasClass(hiddenClass)) {
+            var $nameRow = $form.find('.name-row');
+            if($nameRow.length && !$nameRow.hasClass(hiddenClass)) {
                 var errMsgName = MetaTrader.validateName($form.find('.txtName').val());
                 if(errMsgName) {
                     showError('.txtName', errMsgName);
