@@ -4,7 +4,7 @@
     <p id="errorMsg" class="notice-msg center-text invisible"></p>
 
     <div id="mt-container" class="gr-row invisible">
-        <div class="gr-3">
+        <div class="gr-3 gr-12-m">
             <div class="sidebar-left">
                 <ul class="sidebar-nav">
                     <li id="nav-demo" class="selected"><a href="#demo">[% l('Demo Account') %]</a></li>
@@ -13,7 +13,7 @@
                 </ul>
             </div>
         </div>
-        <div class="gr-9">
+        <div class="gr-9 gr-12-m">
             <div id="section-demo" class="section invisible">
                 <h3>[% l('Demo Account') %]</h3>
                 <p class="msg-account notice-msg center-text invisible"></p>

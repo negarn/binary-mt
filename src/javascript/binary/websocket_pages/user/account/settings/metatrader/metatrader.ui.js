@@ -126,7 +126,7 @@ var MetaTraderUI = (function() {
     };
 
     var getAccountType = function(group) {
-        return /^demo/.test(group) ? 'demo' : group.split('\\')[1];
+        return group ? (/^demo/.test(group) ? 'demo' : group.split('\\')[1]) : '';
     };
 
     var findInSection = function(accType, selector) {
@@ -293,9 +293,11 @@ var MetaTraderUI = (function() {
         if(response.mt5_login_list && response.mt5_login_list.length > 0) {
             response.mt5_login_list.map(function(obj) {
                 var accType = getAccountType(obj.group);
-                mt5Logins[obj.login] = accType;
-                mt5Accounts[accType] = {login: obj.login};
-                MetaTraderData.requestLoginDetails(obj.login);
+                if(accType) { // ignore old accounts which are not linked to any group
+                    mt5Logins[obj.login] = accType;
+                    mt5Accounts[accType] = {login: obj.login};
+                    MetaTraderData.requestLoginDetails(obj.login);
+                }
             });
         } else {
             displayTab();
@@ -404,7 +406,7 @@ var MetaTraderUI = (function() {
                 isValid = false;
             }
         } else { // create new account form
-            var passwords = ['.txtMainPass', '.txtMainPass2', '.txtInvestPass'];
+            var passwords = ['.txtMainPass', '.txtInvestPass'];
             passwords.map(function(elmID){
                 var errMsg = MetaTrader.validatePassword($form.find(elmID).val());
                 if(errMsg) {
@@ -412,12 +414,16 @@ var MetaTraderUI = (function() {
                     isValid = false;
                 }
             });
-            if($form.find('.txtMainPass').val() !== $form.find('.txtMainPass2').val()) {
+            var valuePass2 = $form.find('.txtMainPass2').val(),
+                errMsgPass2 = MetaTrader.validateRequired(valuePass2);
+            if(errMsgPass2) {
+                showError('.txtMainPass2', errMsgPass2);
+            } else if($form.find('.txtMainPass').val() !== valuePass2) {
                 showError('.txtMainPass2', Content.localize().textPasswordsNotMatching);
                 isValid = false;
             }
             // name
-            if(/demo/.test($form.attr('id'))) {
+            if(!$form.find('.name-row').hasClass(hiddenClass)) {
                 var errMsgName = MetaTrader.validateName($form.find('.txtName').val());
                 if(errMsgName) {
                     showError('.txtName', errMsgName);
