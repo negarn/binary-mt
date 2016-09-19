@@ -120,7 +120,7 @@
                     </li>
                     <li>[% l("Closing an Account") %]
                         <ul class="bullet">
-                            <li>[% l("If you wish to withdraw funds from your Real Account and close your Real Account, you may notify us by contacting our helpdesk at support@binary.com. Your Real Account may be closed if you do not have any Open Positions and all amounts due
+                            <li>[% l("If you wish to withdraw funds from your Real Account and close your Real Account, you may notify us by contacting our helpdesk at <a href='mailto:support@binary.com'>support@binary.com</a>. Your Real Account may be closed if you do not have any Open Positions and all amounts due
                                 to us have been settled.") %]</li>
                         </ul>
                     </li>
