@@ -38,9 +38,6 @@
     </div>
     <div class="gr-row gr-padding-10">
         <div class="gr-12">
-            <h2>[% l("[_1] MetaTrader accounts", brand_name) %]</h2>
-        </div>
-        <div class="gr-12">
             <div class="gr-row">
                 <div class="gr-4 gr-12-m">
                     <img class="small" src="[% request.url_for('images/pages/home/leading_forex.svg') %]" alt="">
