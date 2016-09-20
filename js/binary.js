@@ -17368,7 +17368,14 @@ for (var key in texts_json) {
             textMessagePasswordScore: text.localize( 'Password score is: [_1]. Passing score is: 20.'),
             textPasswordsNotMatching: text.localize('The two passwords that you entered do not match.'),
             textShouldNotLessThan: text.localize('Please enter a number greater or equal to [_1].'),
-            textNumberLimit: text.localize('Please enter a number between [_1].')       // [_1] should be a range
+            textNumberLimit: text.localize('Please enter a number between [_1].'),       // [_1] should be a range
+            textLetters: text.localize('letters'),
+            textNumbers: text.localize('numbers'),
+            textSpace:   text.localize('space'),
+            textPeriod:  text.localize('period'),
+            textComma:   text.localize('comma'),
+            textHyphen:  text.localize('hyphen'),
+            textApost:   text.localize('apostrophe'),
         };
     };
 
@@ -18036,7 +18043,7 @@ var BinarySocket = new BinarySocketClass();
         if (!errMsg) {
             if (name.length < 2 || name.length > 30) {
                 errMsg = Content.errorMessage('range', '2-30');
-            } else if (!/^[a-zA-Z\s-.']+$/.test(name)) {
+            } else if (/[`~!@#$%^&*)(_=+\[}{\]\\\/";:\?><,|\d]+/.test(name)) {
                 var letters = Content.localize().textLetters,
                     space   = Content.localize().textSpace,
                     hyphen  = Content.localize().textHyphen,
@@ -18201,7 +18208,7 @@ var BinarySocket = new BinarySocketClass();
         findInSection('demo', '.form-new-account').contents().clone().appendTo('#section-financial .form-new-account');
         if(hasGamingCompany) {
             $('#section-financial').contents().clone().appendTo('#section-gaming');
-            $('#section-gaming h3').text($('#nav-gaming a').text());
+            $('#section-gaming > h3').text($('#nav-gaming a').text());
         } else {
             hideAccount('gaming');
         }
@@ -18292,7 +18299,12 @@ var BinarySocket = new BinarySocketClass();
     };
 
     var getAccountType = function(group) {
-        return group ? (/^demo/.test(group) ? 'demo' : group.split('\\')[1]) : '';
+        var typeMap = {
+            'virtual'  : 'demo',
+            'vanuatu'  : 'financial',
+            'costarica': 'gaming'
+        };
+        return group ? (typeMap[group.split('\\')[1]] || '') : '';
     };
 
     var findInSection = function(accType, selector) {
@@ -18584,12 +18596,14 @@ var BinarySocket = new BinarySocketClass();
                 errMsgPass2 = MetaTrader.validateRequired(valuePass2);
             if(errMsgPass2) {
                 showError('.txtMainPass2', errMsgPass2);
+                isValid = false;
             } else if($form.find('.txtMainPass').val() !== valuePass2) {
                 showError('.txtMainPass2', Content.localize().textPasswordsNotMatching);
                 isValid = false;
             }
             // name
-            if(!$form.find('.name-row').hasClass(hiddenClass)) {
+            var $nameRow = $form.find('.name-row');
+            if($nameRow.length && !$nameRow.hasClass(hiddenClass)) {
                 var errMsgName = MetaTrader.validateName($form.find('.txtName').val());
                 if(errMsgName) {
                     showError('.txtName', errMsgName);
@@ -18616,7 +18630,7 @@ var BinarySocket = new BinarySocketClass();
     var showFormMessage = function(msg, isSuccess) {
         var $elmID = $form.find('.formMessage');
         $elmID
-            .attr('class', isSuccess ? 'success-msg' : errorClass)
+            .attr('class', (isSuccess ? 'success-msg' : errorClass) + ' formMessage')
             .html(isSuccess ? '<ul class="checked"><li>' + text.localize(msg) + '</li></ul>' : text.localize(msg))
             .css('display', 'block')
             .delay(5000)
