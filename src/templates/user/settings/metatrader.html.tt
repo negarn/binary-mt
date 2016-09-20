@@ -8,8 +8,8 @@
             <div class="sidebar-left">
                 <ul class="sidebar-nav">
                     <li id="nav-demo" class="selected"><a href="#demo">[% l('Demo Account') %]</a></li>
-                    <li id="nav-financial"><a href="#financial">[% l('Financial Account') %]</a></li>
-                    <li id="nav-gaming"><a href="#gaming">[% l('Gaming Account') %]</a></li>
+                    <li id="nav-financial" class="invisible"><a href="#financial">[% l('Financial Account') %]</a></li>
+                    <li id="nav-volatility"><a href="#volatility">[% l('Volatility Indices') %]</a></li>
                 </ul>
             </div>
         </div>
@@ -134,7 +134,7 @@
                     </div>
                 </div>
             </div>
-            <div id="section-gaming" class="section invisible"></div>
+            <div id="section-volatility" class="section invisible"></div>
         </div>
     </div>
 

@@ -18,7 +18,7 @@
     <div class="gr-row gr-padding-30">
         <div class="gr-12">
             <h2>[% l("Enhanced Trading with MetaTrader 5") %]</h2> </div> <div class="gr-12"> <div class="gr-row"> <div class="gr-4 gr-12-m"> <img class="small" src="[% request.url_for('images/pages/home/24hr.svg') %]" alt="">
-                <p>[% l("Trade 24/7 with our Volatility Indices.") %]</p>
+                <p>[% l("Trade 24/7 with Volatility Indices that simulate market forces.") %]</p>
             </div>
             <div class="gr-4 gr-12-m">
                 <img class="small" src="[% request.url_for('images/pages/home/enhance_trade.svg') %]" alt="">
@@ -38,11 +38,11 @@
         </div>
         <div class="gr-4 gr-12-m">
             <img class="small" src="[% request.url_for('images/pages/home/tools.svg') %]" alt="">
-            <p>[% l("Subscribe to a wide range of algorithmic trading strategies from the MetaTrader Market.") %]</p>
+            <p>[% l("Subscribe to a wide range of algorithmic trading strategies.") %]</p>
         </div>
         <div class="gr-4 gr-12-m">
             <img class="small" src="[% request.url_for('images/pages/home/expert_advisors.svg') %]" alt="">
-            <p>[% l("Trade on a universally acclaimed, multifunctional platform for Forex trading.") %]</p>
+            <p>[% l("Trade on a universally acclaimed, multi-asset trading platform.") %]</p>
         </div>
     </div>
 </div>
@@ -64,15 +64,15 @@
         </div>
         <div class="gr-4 gr-12-m center-text">
             <p>
-                <strong>[% l("I already have a virtual account on Binary.com") %]</strong>
+                <strong>[% l("I have a Binary.com virtual account") %]</strong>
             </p>
             <a class="button link-to-binary-home" href="#" target="_blank">
-                <span>[% l("Upgrade to a Real Account") %]</span>
+                <span>[% l("Register a Real Account") %]</span>
             </a>
         </div>
         <div class="gr-4 gr-12-m center-text">
             <p>
-                <strong>[% l("I already have a real account on Binary.com") %]</strong>
+                <strong>[% l("I have a Binary.com real account") %]</strong>
             </p>
             <a class="button" id="btn_sign_in" href="#">
                 <span>[% l("Register an MT Account") %]</span>
@@ -83,7 +83,7 @@
 </div>
 <div class="gr-12">
     <div class="gr-row center-text">
-        <p>Binary.com’s Volatility Indices are now available 24/7 on MetaTrader 5.Additional assets will be released very soon.</p>
+        <p>Binary.com’s Volatility Indices are now available 24/7 on MetaTrader 5. Additional assets will be released very soon.</p>
     </div>
 </div>
 </div>
