@@ -41,10 +41,16 @@ var MetaTrader = (function(){
     };
 
     var validateAmount = function(amount) {
-        var errMsg = validateRequired(amount);
+        var errMsg = validateRequired(amount),
+            min    = 1,
+            max    = 20000;
 
-        if (!errMsg && (!(/^\d+(\.\d+)?$/).test(amount) || !$.isNumeric(amount))) {
-            errMsg = Content.errorMessage('reg', [Content.localize().textNumbers]);
+        if (!errMsg) {
+            if (!(/^\d+(\.\d+)?$/).test(amount) || !$.isNumeric(amount)) {
+               errMsg = Content.errorMessage('reg', [Content.localize().textNumbers]);
+            } else if (+amount < min || +amount > max) {
+                errMsg = Content.errorMessage('number_should_between', min + '-' + max);
+            }
         }
 
         return errMsg;
