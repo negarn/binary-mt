@@ -14,7 +14,14 @@ var Content = (function() {
             textMessagePasswordScore: text.localize( 'Password score is: [_1]. Passing score is: 20.'),
             textPasswordsNotMatching: text.localize('The two passwords that you entered do not match.'),
             textShouldNotLessThan: text.localize('Please enter a number greater or equal to [_1].'),
-            textNumberLimit: text.localize('Please enter a number between [_1].')       // [_1] should be a range
+            textNumberLimit: text.localize('Please enter a number between [_1].'),       // [_1] should be a range
+            textLetters: text.localize('letters'),
+            textNumbers: text.localize('numbers'),
+            textSpace:   text.localize('space'),
+            textPeriod:  text.localize('period'),
+            textComma:   text.localize('comma'),
+            textHyphen:  text.localize('hyphen'),
+            textApost:   text.localize('apostrophe'),
         };
     };
 

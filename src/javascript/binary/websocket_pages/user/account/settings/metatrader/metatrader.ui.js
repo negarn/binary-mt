@@ -35,7 +35,7 @@ var MetaTraderUI = (function() {
         findInSection('demo', '.form-new-account').contents().clone().appendTo('#section-financial .form-new-account');
         if(hasGamingCompany) {
             $('#section-financial').contents().clone().appendTo('#section-gaming');
-            $('#section-gaming h3').text($('#nav-gaming a').text());
+            $('#section-gaming > h3').text($('#nav-gaming a').text());
         } else {
             hideAccount('gaming');
         }
@@ -126,7 +126,12 @@ var MetaTraderUI = (function() {
     };
 
     var getAccountType = function(group) {
-        return group ? (/^demo/.test(group) ? 'demo' : group.split('\\')[1]) : '';
+        var typeMap = {
+            'virtual'  : 'demo',
+            'vanuatu'  : 'financial',
+            'costarica': 'gaming'
+        };
+        return group ? (typeMap[group.split('\\')[1]] || '') : '';
     };
 
     var findInSection = function(accType, selector) {
@@ -418,12 +423,14 @@ var MetaTraderUI = (function() {
                 errMsgPass2 = MetaTrader.validateRequired(valuePass2);
             if(errMsgPass2) {
                 showError('.txtMainPass2', errMsgPass2);
+                isValid = false;
             } else if($form.find('.txtMainPass').val() !== valuePass2) {
                 showError('.txtMainPass2', Content.localize().textPasswordsNotMatching);
                 isValid = false;
             }
             // name
-            if(!$form.find('.name-row').hasClass(hiddenClass)) {
+            var $nameRow = $form.find('.name-row');
+            if($nameRow.length && !$nameRow.hasClass(hiddenClass)) {
                 var errMsgName = MetaTrader.validateName($form.find('.txtName').val());
                 if(errMsgName) {
                     showError('.txtName', errMsgName);
@@ -450,7 +457,7 @@ var MetaTraderUI = (function() {
     var showFormMessage = function(msg, isSuccess) {
         var $elmID = $form.find('.formMessage');
         $elmID
-            .attr('class', isSuccess ? 'success-msg' : errorClass)
+            .attr('class', (isSuccess ? 'success-msg' : errorClass) + ' formMessage')
             .html(isSuccess ? '<ul class="checked"><li>' + text.localize(msg) + '</li></ul>' : text.localize(msg))
             .css('display', 'block')
             .delay(5000)

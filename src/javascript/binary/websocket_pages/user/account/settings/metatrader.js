@@ -27,7 +27,7 @@ var MetaTrader = (function(){
         if (!errMsg) {
             if (name.length < 2 || name.length > 30) {
                 errMsg = Content.errorMessage('range', '2-30');
-            } else if (!/^[a-zA-Z\s-.']+$/.test(name)) {
+            } else if (/[`~!@#$%^&*)(_=+\[}{\]\\\/";:\?><,|\d]+/.test(name)) {
                 var letters = Content.localize().textLetters,
                     space   = Content.localize().textSpace,
                     hyphen  = Content.localize().textHyphen,
