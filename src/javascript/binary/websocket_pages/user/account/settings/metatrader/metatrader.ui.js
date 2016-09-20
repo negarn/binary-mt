@@ -34,10 +34,10 @@ var MetaTraderUI = (function() {
     var initOk = function() {
         findInSection('demo', '.form-new-account').contents().clone().appendTo('#section-financial .form-new-account');
         if(hasGamingCompany) {
-            $('#section-financial').contents().clone().appendTo('#section-gaming');
-            $('#section-gaming > h3').text($('#nav-gaming a').text());
+            $('#section-financial').contents().clone().appendTo('#section-volatility');
+            $('#section-volatility > h3').text(text.localize('Volatility Indices Account'));
         } else {
-            hideAccount('gaming');
+            hideAccount('volatility');
         }
         if(!hasFinancialCompany) {
             hideAccount('financial');
@@ -74,7 +74,7 @@ var MetaTraderUI = (function() {
 
         // display deposit/withdrawal form
         var $accordion = findInSection(accType, '.accordion');
-        if(/financial|gaming/.test(accType)) {
+        if(/financial|volatility/.test(accType)) {
             findInSection(accType, '.msg-account, .authenticate').addClass(hiddenClass);
             if(page.client.is_virtual()) {
                 $accordion.addClass(hiddenClass);
@@ -129,7 +129,7 @@ var MetaTraderUI = (function() {
         var typeMap = {
             'virtual'  : 'demo',
             'vanuatu'  : 'financial',
-            'costarica': 'gaming'
+            'costarica': 'volatility'
         };
         return group ? (typeMap[group.split('\\')[1]] || '') : '';
     };
@@ -186,11 +186,11 @@ var MetaTraderUI = (function() {
     var displayTab = function(tab) {
         if(!tab) {
             tab = (page.url.location.hash.substring(1) || '').toLowerCase();
-            if(!tab || !/demo|financial|gaming/.test(tab)) {
+            if(!tab || !/demo|financial|volatility/.test(tab)) {
                 tab = 'demo';
             }
         }
-        if((/financial/.test(tab) && !hasFinancialCompany) || (/gaming/.test(tab) && !hasGamingCompany)) {
+        if((/financial/.test(tab) && !hasFinancialCompany) || (/volatility/.test(tab) && !hasGamingCompany)) {
             tab = 'demo';
         }
 
@@ -204,7 +204,7 @@ var MetaTraderUI = (function() {
         // section
         $('.section').addClass(hiddenClass);
         $('#section-' + tab).removeClass(hiddenClass);
-        if(/demo|financial|gaming/.test(tab)) {
+        if(/demo|financial|volatility/.test(tab)) {
             manageTabContents();
         }
     };
@@ -220,7 +220,7 @@ var MetaTraderUI = (function() {
                 $form.find('.name-row').removeClass(hiddenClass);
                 passwordMeter();
             }
-        } else if(/financial|gaming/.test(accType)) {
+        } else if(/financial|volatility/.test(accType)) {
             if(!mt5Accounts.hasOwnProperty(accType)) {
                 if(page.client.is_virtual()) {
                     // check if this client has real binary account
