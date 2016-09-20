@@ -29,7 +29,7 @@ sub _texts {
         # strings for user/settings/metatrader page
         push @texts, localize('Demo');
         push @texts, localize('Financial');
-        push @texts, localize('Gaming');
+        push @texts, localize('Volatility');
         push @texts, localize('Login');
         push @texts, localize('Balance');
         push @texts, localize('Name');
@@ -42,6 +42,7 @@ sub _texts {
         push @texts, localize('Download MetaTrader');
         push @texts, localize('Congratulations! Your account has been created.');
         push @texts, localize('Sorry, an error occurred while processing your request.');
+        push @texts, localize('Volatility Indices Account');
 
         my %as_hash = @texts;
         $js .= "texts_json['" . $language . "'] = " . JSON::to_json(\%as_hash) . ";\n";
