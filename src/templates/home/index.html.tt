@@ -2,7 +2,7 @@
     <div class="container">
         <div class="gr-row">
             <div class="gr-12">
-                <h1 class="center-text gr-padding-10">[% l("Introducing <strong>MetaTrader 5</strong> on binary.com") %]</h1>
+                <h1 class="center-text gr-padding-10">[% l("Introducing <strong>MetaTrader 5</strong> for binary.com") %]</h1>
             </div>
             <div class="gr-6 gr-12-m">
                 <img class="responsive" src="[% request.url_for('images/pages/metatrader/mt5-imac.svg') %]"/>
@@ -17,76 +17,74 @@
 <div class="container">
     <div class="gr-row gr-padding-30">
         <div class="gr-12">
-            <h2>[% l("[_1] MetaTrader accounts", brand_name) %]</h2>
-        </div>
-        <div class="gr-12">
-            <div class="gr-row">
-                <div class="gr-4 gr-12-m">
-                    <img class="small" src="[% request.url_for('images/pages/home/24hr.svg') %]" alt="">
-                    <p>[% l("Trade 24/7 with our proprietary Volatility Indices.") %]</p>
-                </div>
-                <div class="gr-4 gr-12-m">
-                    <img class="small" src="[% request.url_for('images/pages/home/enhance_trade.svg') %]" alt="">
-                    <p>[% l("Enhanced trade customisation with increased potential for higher returns.") %]</p>
-                </div>
-                <div class="gr-4 gr-12-m">
-                    <img class="small" src="[% request.url_for('images/pages/home/competitive_spread.svg') %]" alt="">
-                    <p>[% l("Highly competitive spreads with no commission.") %]</p>
-                </div>
+            <h2>[% l("Enhanced Trading with MetaTrader 5") %]</h2> </div> <div class="gr-12"> <div class="gr-row"> <div class="gr-4 gr-12-m"> <img class="small" src="[% request.url_for('images/pages/home/24hr.svg') %]" alt="">
+                <p>[% l("Trade 24/7 with our Volatility Indices.") %]</p>
+            </div>
+            <div class="gr-4 gr-12-m">
+                <img class="small" src="[% request.url_for('images/pages/home/enhance_trade.svg') %]" alt="">
+                <p>[% l("Customise your trades for higher return potential.") %]</p>
+            </div>
+            <div class="gr-4 gr-12-m">
+                <img class="small" src="[% request.url_for('images/pages/home/competitive_spread.svg') %]" alt="">
+                <p>[% l("Profit from highly competitive spreads with no commission.") %]</p>
             </div>
         </div>
     </div>
-    <div class="gr-row gr-padding-10">
-        <div class="gr-12">
-            <h2>[% l("[_1] MetaTrader accounts", brand_name) %]</h2>
+</div>
+<div class="gr-row gr-padding-10">
+    <div class="gr-12">
+        <h2>[% l("All the Latest Tools on a Leading Platform") %]</h2> </div> <div class="gr-12"> <div class="gr-row"> <div class="gr-4 gr-12-m"> <img class="small" src="[% request.url_for('images/pages/home/leading_forex.svg') %]" alt="">
+            <p>[% l("Access advanced tools for fundamental and technical analysis.") %]</p>
         </div>
-        <div class="gr-12">
-            <div class="gr-row">
-                <div class="gr-4 gr-12-m">
-                    <img class="small" src="[% request.url_for('images/pages/home/leading_forex.svg') %]" alt="">
-                    <p>[% l("Universally acclaimed, leading multifunctional platform for Forex and CFD trading.") %]</p>
-                </div>
-                <div class="gr-4 gr-12-m">
-                    <img class="small" src="[% request.url_for('images/pages/home/tools.svg') %]" alt="">
-                    <p>[% l("Advanced tools for fundamental and technical analysis, including indicators, charts, and more.") %]</p>
-                </div>
-                <div class="gr-4 gr-12-m">
-                    <img class="small" src="[% request.url_for('images/pages/home/expert_advisors.svg') %]" alt="">
-                    <p>[% l("Subscriptions to a wide range of Expert Advisors — algorithmic trading strategies from the MetaTrader Market.") %]</p>
-                </div>
-            </div>
+        <div class="gr-4 gr-12-m">
+            <img class="small" src="[% request.url_for('images/pages/home/tools.svg') %]" alt="">
+            <p>[% l("Subscribe to a wide range of algorithmic trading strategies from the MetaTrader Market.") %]</p>
+        </div>
+        <div class="gr-4 gr-12-m">
+            <img class="small" src="[% request.url_for('images/pages/home/expert_advisors.svg') %]" alt="">
+            <p>[% l("Trade on a universally acclaimed, multifunctional platform for Forex trading.") %]</p>
         </div>
     </div>
+</div>
+</div>
+<div class="gr-row">
+<div class="gr-12">
+    <h2>[% l("Create Your MetaTrader 5 Account Now") %]</h2>
+    <p>[% l("To open a MetaTrader account, you first need a real account on Binary.com.") %]</p>
+</div>
+<div class="gr-12">
     <div class="gr-row">
-        <div class="gr-12">
-            <h2>[% l("Create your account now") %]</h2>
-            <p>[% l("To open a MetaTrader account you should:") %]</p>
-            <ul class="checked">
-                <li>[% l("Open an account on Binary.com") %]</li>
-                <li>[% l("Then sign in here to open a MetaTrader demo and real accounts") %]</li>
-            </ul>
+        <div class="gr-4 gr-12-m center-text">
+            <p>
+                <strong>[% l("I am not registered on Binary.com") %]</strong>
+            </p>
+            <a class="button link-to-binary-home" href="#" target="_blank">
+                <span>[% l("Register on Binary.com") %]</span>
+            </a>
         </div>
-        <div class="gr-12">
-            <div class="gr-row">
-                <div class="gr-4 gr-12-m center-text">
-                    <p><strong>[% l("I already have a real Binary account") %]</strong></p>
-                    <a class="button" id="btn_sign_in" href="#">
-                        <span>[% l("Sign in to open MT account") %]</span>
-                    </a>
-                </div>
-                <div class="gr-4 gr-12-m center-text">
-                  <p><strong>[% l("I am registered on Binary.com, but have only virtual account") %]</strong></p>
-                  <a class="button link-to-binary-home" href="#" target="_blank">
-                      <span>[% l("Sign in to open real account") %]</span>
-                  </a>
-                </div>
-                <div class="gr-4 gr-12-m center-text">
-                  <p><strong>[% l("I am not registered on Binary.com") %]</strong></p>
-                  <a class="button link-to-binary-home" href="#" target="_blank">
-                      <span>[% l("Register on Binary.com") %]</span>
-                  </a>
-                </div>
-            </div>
+        <div class="gr-4 gr-12-m center-text">
+            <p>
+                <strong>[% l("I already have a virtual account on Binary.com") %]</strong>
+            </p>
+            <a class="button link-to-binary-home" href="#" target="_blank">
+                <span>[% l("Upgrade to a Real Account") %]</span>
+            </a>
         </div>
+        <div class="gr-4 gr-12-m center-text">
+            <p>
+                <strong>[% l("I already have a real account on Binary.com") %]</strong>
+            </p>
+            <a class="button" id="btn_sign_in" href="#">
+                <span>[% l("Register an MT Account") %]</span>
+            </a>
+        </div>
+
     </div>
+</div>
+<div class="gr-12">
+    <div class="gr-row center-text">
+        <p>Binary.com’s Volatility Indices are now available 24/7 on MetaTrader 5.Additional assets will be released very soon.</p>
+    </div>
+</div>
+</div>
 </div>
