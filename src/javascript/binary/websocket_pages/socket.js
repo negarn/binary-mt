@@ -166,7 +166,6 @@ function BinarySocketClass() {
                         page.client.check_tnc();
                         if (response.website_status.hasOwnProperty('clients_country')) {
                             localStorage.setItem('clients_country', response.website_status.clients_country);
-                            checkClientsCountry();
                         }
                     }
                 }

@@ -389,7 +389,6 @@ Header.prototype = {
         this.show_or_hide_login_form();
         this.register_dynamic_links();
         this.logout_handler();
-        checkClientsCountry();
     },
     on_unload: function() {
         this.menu.reset();
