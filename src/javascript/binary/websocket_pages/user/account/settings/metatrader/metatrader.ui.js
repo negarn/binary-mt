@@ -139,6 +139,9 @@ var MetaTraderUI = (function() {
     };
 
     var createNewAccount = function(accType) {
+        if (/volatility/.test(accType.toLowerCase())) {
+            accType = 'gaming';
+        }
         if(formValidate()) {
             MetaTraderData.requestSend({
                 'mt5_new_account' : 1,
