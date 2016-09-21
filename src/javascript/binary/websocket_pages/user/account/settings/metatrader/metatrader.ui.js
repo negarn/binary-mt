@@ -32,15 +32,17 @@ var MetaTraderUI = (function() {
     };
 
     var initOk = function() {
-        findInSection('demo', '.form-new-account').contents().clone().appendTo('#section-financial .form-new-account');
-        if(hasGamingCompany) {
-            $('#section-financial').contents().clone().appendTo('#section-volatility');
-            $('#section-volatility > h3').text(text.localize('Volatility Indices Account'));
-        } else {
-            hideAccount('volatility');
-        }
-        if(!hasFinancialCompany) {
-            hideAccount('financial');
+        if($('#section-financial .form-new-account').contents().length === 0) {
+            findInSection('demo', '.form-new-account').contents().clone().appendTo('#section-financial .form-new-account');
+            if(hasGamingCompany) {
+                $('#section-financial').contents().clone().appendTo('#section-volatility');
+                $('#section-volatility > h3').text(text.localize('Volatility Indices Account'));
+            } else {
+                hideAccount('volatility');
+            }
+            if(!hasFinancialCompany) {
+                hideAccount('financial');
+            }
         }
 
         MetaTraderData.requestLoginList();
