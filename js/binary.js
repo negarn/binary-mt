@@ -16041,10 +16041,7 @@ var GTM = (function() {
     "use strict";
 
     var gtm_applicable = function() {
-        // return (!/binary\-mt/.test(window.location.href));
-        // line above to be uncommented when gtm is added here
-        // line below to be removed along with these comments
-        return false;
+        return (/mt\.binary\.com/i.test(window.location.hostname));
     };
 
     var gtm_data_layer_info = function(data) {
@@ -18177,15 +18174,17 @@ var BinarySocket = new BinarySocketClass();
     };
 
     var initOk = function() {
-        findInSection('demo', '.form-new-account').contents().clone().appendTo('#section-financial .form-new-account');
-        if(hasGamingCompany) {
-            $('#section-financial').contents().clone().appendTo('#section-volatility');
-            $('#section-volatility > h3').text(text.localize('Volatility Indices Account'));
-        } else {
-            hideAccount('volatility');
-        }
-        if(!hasFinancialCompany) {
-            hideAccount('financial');
+        if($('#section-financial .form-new-account').contents().length === 0) {
+            findInSection('demo', '.form-new-account').contents().clone().appendTo('#section-financial .form-new-account');
+            if(hasGamingCompany) {
+                $('#section-financial').contents().clone().appendTo('#section-volatility');
+                $('#section-volatility > h3').text(text.localize('Volatility Indices Account'));
+            } else {
+                hideAccount('volatility');
+            }
+            if(!hasFinancialCompany) {
+                hideAccount('financial');
+            }
         }
 
         MetaTraderData.requestLoginList();
