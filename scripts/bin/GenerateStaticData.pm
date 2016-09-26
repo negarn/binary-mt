@@ -43,6 +43,7 @@ sub _texts {
         push @texts, localize('Congratulations! Your account has been created.');
         push @texts, localize('Sorry, an error occurred while processing your request.');
         push @texts, localize('Volatility Indices Account');
+        push @texts, localize('Investor Password cannot be same as Main Password.');
 
         my %as_hash = @texts;
         $js .= "texts_json['" . $language . "'] = " . JSON::to_json(\%as_hash) . ";\n";
