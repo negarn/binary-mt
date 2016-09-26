@@ -18381,7 +18381,7 @@ var BinarySocket = new BinarySocketClass();
                         text.localize('To create a real account for MetaTrader, <a href="[_1]">upgrade to [_2] real money account</a>.', [page.url.url_for('new_account/realws', '', true), 'Binary.com'])
                     ).removeClass(hiddenClass);
                 } else {
-                    if(!isAuthenticated) {
+                    if(/financial/.test(accType) && !isAuthenticated) {
                         MetaTraderData.requestAccountStatus();
                     } else {
                         $form = findInSection(accType, '.form-new-account');
