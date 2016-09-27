@@ -18566,13 +18566,20 @@ var BinarySocket = new BinarySocketClass();
                     isValid = false;
                 }
             });
-            var valuePass2 = $form.find('.txtMainPass2').val(),
+            var valuePass   = $form.find('.txtMainPass').val(),
+                valuePass2  = $form.find('.txtMainPass2').val(),
                 errMsgPass2 = MetaTrader.validateRequired(valuePass2);
             if(errMsgPass2) {
                 showError('.txtMainPass2', errMsgPass2);
                 isValid = false;
-            } else if($form.find('.txtMainPass').val() !== valuePass2) {
+            } else if(valuePass !== valuePass2) {
                 showError('.txtMainPass2', Content.localize().textPasswordsNotMatching);
+                isValid = false;
+            }
+            // main & investor passwords must vary
+            var valueInvestPass = $form.find('.txtInvestPass').val();
+            if(valueInvestPass && valueInvestPass === valuePass) {
+                showError('.txtInvestPass', text.localize('Investor Password cannot be same as Main Password.'));
                 isValid = false;
             }
             // name
