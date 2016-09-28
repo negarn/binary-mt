@@ -18,6 +18,14 @@ var GTM = (function() {
         };
         if(page.client.is_logged_in) {
             data_layer_info['visitorId'] = page.client.loginid;
+
+            var mt5_logins = page.client.get_storage_value('mt5_logins');
+            if(mt5_logins) {
+                mt5_logins = JSON.parse(mt5_logins);
+                Object.keys(mt5_logins).forEach(function(account_type) {
+                    data_layer_info['mt5_' + account_type] = mt5_logins[account_type];
+                });
+            }
         }
 
         $.extend(true, data_layer_info, data);
@@ -47,9 +55,7 @@ var GTM = (function() {
     };
 
     var event_handler = function(get_settings) {
-        if (!gtm_applicable()) return;
-        var is_login      = localStorage.getItem('GTM_login')      === '1';
-        if(!is_login) {
+        if(!gtm_applicable() || localStorage.getItem('GTM_login') !== '1') {
             return;
         }
 
@@ -78,9 +84,9 @@ var GTM = (function() {
     };
 
     return {
-        push_data_layer     : push_data_layer,
-        event_handler       : event_handler,
-        set_login_flag      : set_login_flag
+        push_data_layer : push_data_layer,
+        event_handler   : event_handler,
+        set_login_flag  : set_login_flag
     };
 }());
 
@@ -144,6 +150,18 @@ Client.prototype = {
         page.contents.activate_by_client_type();
         page.contents.topbar_message_visibility();
     },
+    response_mt5_login_list: function(response) {
+        var mt5_logins = {};
+        if(response.mt5_login_list && response.mt5_login_list.length > 0) {
+            response.mt5_login_list.map(function(obj) {
+                var account_type = MetaTrader.getAccountType(obj.group);
+                if(account_type) {
+                    mt5_logins[account_type] = obj.login;
+                }
+            });
+        }
+        this.set_storage_value('mt5_logins', JSON.stringify(mt5_logins));
+    },
     check_tnc: function() {
         if(!page.client.is_virtual() && sessionStorage.getItem('check_tnc') === '1') {
             var client_tnc_status   = this.get_storage_value('tnc_status'),
@@ -159,7 +177,7 @@ Client.prototype = {
     },
     clear_storage_values: function() {
         var that  = this;
-        var items = ['is_virtual', 'tnc_status', 'session_duration_limit', 'session_start'];
+        var items = ['is_virtual', 'tnc_status', 'session_duration_limit', 'session_start', 'mt5_logins'];
         items.forEach(function(item) {
             that.set_storage_value(item, '');
         });
