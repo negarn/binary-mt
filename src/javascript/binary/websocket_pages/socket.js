@@ -136,6 +136,9 @@ function BinarySocketClass() {
                         }
                         if(!Login.is_login_pages()) {
                             page.client.response_authorize(response);
+                            if(!/user\/settings\/metatrader\.html/i.test(window.location.pathname)) {
+                                send({mt5_login_list: 1});
+                            }
                             send({balance:1, subscribe: 1});
                             send({get_settings: 1});
                             if(!page.client.is_virtual()) {
@@ -152,6 +155,8 @@ function BinarySocketClass() {
                     page.header.do_logout(response);
                 } else if (type === 'get_self_exclusion') {
                     SessionDurationLimit.exclusionResponseHandler(response);
+                } else if (type === 'mt5_login_list') {
+                    page.client.response_mt5_login_list(response);
                 } else if (type === 'get_settings' && response.get_settings) {
                     if (!Cookies.get('residence') && response.get_settings.country_code) {
                       page.client.set_cookie('residence', response.get_settings.country_code);

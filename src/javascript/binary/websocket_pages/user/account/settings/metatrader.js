@@ -1,6 +1,15 @@
 var MetaTrader = (function(){
     'use strict';
 
+    var getAccountType = function(group) {
+        var typeMap = {
+            'virtual'  : 'demo',
+            'vanuatu'  : 'financial',
+            'costarica': 'volatility'
+        };
+        return group ? (typeMap[group.split('\\')[1]] || '') : '';
+    };
+
     var validateRequired = function(value) {
         return (!/^.+$/.test(value) ? Content.errorMessage('req') : '');
     };
@@ -57,6 +66,7 @@ var MetaTrader = (function(){
     };
 
     return {
+        getAccountType  : getAccountType,
         validateRequired: validateRequired,
         validatePassword: validatePassword,
         validateName    : validateName,

@@ -127,15 +127,6 @@ var MetaTraderUI = (function() {
             '<div class="gr-' + (label ? '8' : '12') + '">' + value + '</div></div>';
     };
 
-    var getAccountType = function(group) {
-        var typeMap = {
-            'virtual'  : 'demo',
-            'vanuatu'  : 'financial',
-            'costarica': 'volatility'
-        };
-        return group ? (typeMap[group.split('\\')[1]] || '') : '';
-    };
-
     var findInSection = function(accType, selector) {
         return $('#section-' + accType).find(selector);
     };
@@ -302,7 +293,7 @@ var MetaTraderUI = (function() {
         mt5Accounts = {};
         if(response.mt5_login_list && response.mt5_login_list.length > 0) {
             response.mt5_login_list.map(function(obj) {
-                var accType = getAccountType(obj.group);
+                var accType = MetaTrader.getAccountType(obj.group);
                 if(accType) { // ignore old accounts which are not linked to any group
                     mt5Logins[obj.login] = accType;
                     mt5Accounts[accType] = {login: obj.login};
@@ -319,7 +310,7 @@ var MetaTraderUI = (function() {
             return showAccountMessage(mt5Logins[response.echo_req.login], response.error.message);
         }
 
-        var accType = getAccountType(response.mt5_get_settings.group);
+        var accType = MetaTrader.getAccountType(response.mt5_get_settings.group);
         mt5Accounts[accType] = response.mt5_get_settings;
         displayTab();
         displayAccount(accType);

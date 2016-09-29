@@ -16,7 +16,7 @@ var MetaTraderData = (function() {
     };
 
     var requestLoginList = function() {
-        BinarySocket.send({'mt5_login_list': 1});
+        BinarySocket.send({'mt5_login_list': 1, 'req_id': 1});
     };
 
     var requestLoginDetails = function(login) {
@@ -63,7 +63,9 @@ var MetaTraderData = (function() {
                 MetaTraderUI.responseAccountStatus(response);
                 break;
             case 'mt5_login_list':
-                MetaTraderUI.responseLoginList(response);
+                if(response.req_id == 1) {
+                    MetaTraderUI.responseLoginList(response);
+                }
                 break;
             case 'mt5_get_settings':
                 MetaTraderUI.responseLoginDetails(response);
