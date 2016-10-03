@@ -16054,6 +16054,14 @@ var GTM = (function() {
         };
         if(page.client.is_logged_in) {
             data_layer_info['visitorId'] = page.client.loginid;
+
+            var mt5_logins = page.client.get_storage_value('mt5_logins');
+            if(mt5_logins) {
+                mt5_logins = JSON.parse(mt5_logins);
+                Object.keys(mt5_logins).forEach(function(account_type) {
+                    data_layer_info['mt5_' + account_type] = mt5_logins[account_type];
+                });
+            }
         }
 
         $.extend(true, data_layer_info, data);
@@ -16083,9 +16091,7 @@ var GTM = (function() {
     };
 
     var event_handler = function(get_settings) {
-        if (!gtm_applicable()) return;
-        var is_login      = localStorage.getItem('GTM_login')      === '1';
-        if(!is_login) {
+        if(!gtm_applicable() || localStorage.getItem('GTM_login') !== '1') {
             return;
         }
 
@@ -16114,9 +16120,9 @@ var GTM = (function() {
     };
 
     return {
-        push_data_layer     : push_data_layer,
-        event_handler       : event_handler,
-        set_login_flag      : set_login_flag
+        push_data_layer : push_data_layer,
+        event_handler   : event_handler,
+        set_login_flag  : set_login_flag
     };
 }());
 
@@ -16180,6 +16186,18 @@ Client.prototype = {
         page.contents.activate_by_client_type();
         page.contents.topbar_message_visibility();
     },
+    response_mt5_login_list: function(response) {
+        var mt5_logins = {};
+        if(response.mt5_login_list && response.mt5_login_list.length > 0) {
+            response.mt5_login_list.map(function(obj) {
+                var account_type = MetaTrader.getAccountType(obj.group);
+                if(account_type) {
+                    mt5_logins[account_type] = obj.login;
+                }
+            });
+        }
+        this.set_storage_value('mt5_logins', JSON.stringify(mt5_logins));
+    },
     check_tnc: function() {
         if(!page.client.is_virtual() && sessionStorage.getItem('check_tnc') === '1') {
             var client_tnc_status   = this.get_storage_value('tnc_status'),
@@ -16195,7 +16213,7 @@ Client.prototype = {
     },
     clear_storage_values: function() {
         var that  = this;
-        var items = ['is_virtual', 'tnc_status', 'session_duration_limit', 'session_start'];
+        var items = ['is_virtual', 'tnc_status', 'session_duration_limit', 'session_start', 'mt5_logins'];
         items.forEach(function(item) {
             that.set_storage_value(item, '');
         });
@@ -17875,6 +17893,9 @@ function BinarySocketClass() {
                         }
                         if(!Login.is_login_pages()) {
                             page.client.response_authorize(response);
+                            if(!/user\/settings\/metatrader\.html/i.test(window.location.pathname)) {
+                                send({mt5_login_list: 1});
+                            }
                             send({balance:1, subscribe: 1});
                             send({get_settings: 1});
                             if(!page.client.is_virtual()) {
@@ -17891,6 +17912,8 @@ function BinarySocketClass() {
                     page.header.do_logout(response);
                 } else if (type === 'get_self_exclusion') {
                     SessionDurationLimit.exclusionResponseHandler(response);
+                } else if (type === 'mt5_login_list') {
+                    page.client.response_mt5_login_list(response);
                 } else if (type === 'get_settings' && response.get_settings) {
                     if (!Cookies.get('residence') && response.get_settings.country_code) {
                       page.client.set_cookie('residence', response.get_settings.country_code);
@@ -17980,6 +18003,15 @@ var BinarySocket = new BinarySocketClass();
 ;var MetaTrader = (function(){
     'use strict';
 
+    var getAccountType = function(group) {
+        var typeMap = {
+            'virtual'  : 'demo',
+            'vanuatu'  : 'financial',
+            'costarica': 'volatility'
+        };
+        return group ? (typeMap[group.split('\\')[1]] || '') : '';
+    };
+
     var validateRequired = function(value) {
         return (!/^.+$/.test(value) ? Content.errorMessage('req') : '');
     };
@@ -18036,6 +18068,7 @@ var BinarySocket = new BinarySocketClass();
     };
 
     return {
+        getAccountType  : getAccountType,
         validateRequired: validateRequired,
         validatePassword: validatePassword,
         validateName    : validateName,
@@ -18061,7 +18094,7 @@ var BinarySocket = new BinarySocketClass();
     };
 
     var requestLoginList = function() {
-        BinarySocket.send({'mt5_login_list': 1});
+        BinarySocket.send({'mt5_login_list': 1, 'req_id': 1});
     };
 
     var requestLoginDetails = function(login) {
@@ -18108,7 +18141,9 @@ var BinarySocket = new BinarySocketClass();
                 MetaTraderUI.responseAccountStatus(response);
                 break;
             case 'mt5_login_list':
-                MetaTraderUI.responseLoginList(response);
+                if(response.req_id == 1) {
+                    MetaTraderUI.responseLoginList(response);
+                }
                 break;
             case 'mt5_get_settings':
                 MetaTraderUI.responseLoginDetails(response);
@@ -18267,15 +18302,6 @@ var BinarySocket = new BinarySocketClass();
         return '<div class="gr-row gr-padding-10 ' + (className || '') + '">' +
             (label ? '<div class="gr-4">' + text.localize(label) + '</div>' : '') +
             '<div class="gr-' + (label ? '8' : '12') + '">' + value + '</div></div>';
-    };
-
-    var getAccountType = function(group) {
-        var typeMap = {
-            'virtual'  : 'demo',
-            'vanuatu'  : 'financial',
-            'costarica': 'volatility'
-        };
-        return group ? (typeMap[group.split('\\')[1]] || '') : '';
     };
 
     var findInSection = function(accType, selector) {
@@ -18444,7 +18470,7 @@ var BinarySocket = new BinarySocketClass();
         mt5Accounts = {};
         if(response.mt5_login_list && response.mt5_login_list.length > 0) {
             response.mt5_login_list.map(function(obj) {
-                var accType = getAccountType(obj.group);
+                var accType = MetaTrader.getAccountType(obj.group);
                 if(accType) { // ignore old accounts which are not linked to any group
                     mt5Logins[obj.login] = accType;
                     mt5Accounts[accType] = {login: obj.login};
@@ -18461,7 +18487,7 @@ var BinarySocket = new BinarySocketClass();
             return showAccountMessage(mt5Logins[response.echo_req.login], response.error.message);
         }
 
-        var accType = getAccountType(response.mt5_get_settings.group);
+        var accType = MetaTrader.getAccountType(response.mt5_get_settings.group);
         mt5Accounts[accType] = response.mt5_get_settings;
         displayTab();
         displayAccount(accType);
