@@ -28,7 +28,13 @@ var MetaTraderUI = (function() {
 
         Content.populate();
 
-        MetaTraderData.requestLandingCompany();
+        var residence = Cookies.get('residence');
+        if(residence) {
+            MetaTraderData.requestLandingCompany(residence);
+        } else {
+            showPageError(text.localize('Sorry, an error occurred while processing your request.') + ' ' +
+                text.localize('Please contact <a href="[_1]">Customer Support</a>.', [page.url.url_for('contact', '', true)]));
+        }
     };
 
     var initOk = function() {
