@@ -6,3 +6,11 @@ pjax_config_page("/home", function() {
         }
     };
 });
+
+pjax_config_page("/404", function() {
+    return {
+        onLoad: function() {
+            $('.contact a').attr('href', page.url.url_for('contact', '', true));
+        }
+    };
+});
