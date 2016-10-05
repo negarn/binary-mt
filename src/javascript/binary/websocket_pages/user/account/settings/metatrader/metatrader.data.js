@@ -54,7 +54,12 @@ var MetaTraderData = (function() {
                 MetaTraderUI.init();
                 break;
             case 'get_settings':
-                requestLandingCompany(response.get_settings.country_code);
+                var residence = response.get_settings.country_code;
+                if(residence) {
+                    requestLandingCompany(residence);
+                } else {
+                    MetaTraderUI.init();
+                }
                 break;
             case 'landing_company':
                 MetaTraderUI.responseLandingCompany(response);

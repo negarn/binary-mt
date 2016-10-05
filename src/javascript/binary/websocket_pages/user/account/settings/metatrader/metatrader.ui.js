@@ -31,13 +31,14 @@ var MetaTraderUI = (function() {
         var residence = Cookies.get('residence');
         if(residence) {
             MetaTraderData.requestLandingCompany(residence);
-        } else {
+        } else if(TUser.get().hasOwnProperty('residence')) { // get_settings response was received
             showPageError(text.localize('Sorry, an error occurred while processing your request.') + ' ' +
                 text.localize('Please contact <a href="[_1]">Customer Support</a>.', [page.url.url_for('contact', '', true)]));
         }
     };
 
     var initOk = function() {
+        clearError();
         if($('#section-financial .form-new-account').contents().length === 0) {
             findInSection('demo', '.form-new-account').contents().clone().appendTo('#section-financial .form-new-account');
             if(hasGamingCompany) {
@@ -459,7 +460,9 @@ var MetaTraderUI = (function() {
     var clearError = function(selector) {
         $(selector ? selector : 'p.' + errorClass).remove();
         $('#errorMsg').html('').addClass(hiddenClass);
-        $form.find('.formMessage').html('');
+        if($form && $form.length) {
+            $form.find('.formMessage').html('');
+        }
         $('.msg-account').addClass(hiddenClass);
     };
 
