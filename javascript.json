@@ -36,7 +36,7 @@
     "src/javascript/binary/common_functions/frontend.js",
     "src/javascript/binary/common_functions/passwordmeter.js",
     "src/javascript/binary/common_functions/session_duration_limit.js",
-    "src/javascript/binary/home.js",
+    "src/javascript/binary/static_pajx.js",
     "src/javascript/binary/websocket_pages/endpoint.js",
     "src/javascript/binary/websocket_pages/socket.js",
     "src/javascript/binary/websocket_pages/user/account/settings/metatrader.js",

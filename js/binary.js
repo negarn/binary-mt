@@ -17731,6 +17731,14 @@ function testPassword(passwd)
     };
 });
 
+pjax_config_page("/404", function() {
+    return {
+        onLoad: function() {
+            $('.contact a').attr('href', page.url.url_for('contact', '', true));
+        }
+    };
+});
+
 ;pjax_config_page("endpoint", function(){
     return {
         onLoad: function() {
@@ -17919,6 +17927,7 @@ function BinarySocketClass() {
                       page.client.set_cookie('residence', response.get_settings.country_code);
                       page.client.residence = response.get_settings.country_code;
                     }
+                    TUser.extend({residence: response.get_settings.country_code || ''});
                     GTM.event_handler(response.get_settings);
                     page.client.set_storage_value('tnc_status', response.get_settings.client_tnc_status || '-');
                     page.client.check_tnc();
@@ -18132,7 +18141,12 @@ var BinarySocket = new BinarySocketClass();
                 MetaTraderUI.init();
                 break;
             case 'get_settings':
-                requestLandingCompany(response.get_settings.country_code);
+                var residence = response.get_settings.country_code;
+                if(residence) {
+                    requestLandingCompany(residence);
+                } else {
+                    MetaTraderUI.init();
+                }
                 break;
             case 'landing_company':
                 MetaTraderUI.responseLandingCompany(response);
@@ -18205,10 +18219,17 @@ var BinarySocket = new BinarySocketClass();
 
         Content.populate();
 
-        MetaTraderData.requestLandingCompany();
+        var residence = Cookies.get('residence');
+        if(residence) {
+            MetaTraderData.requestLandingCompany(residence);
+        } else if(TUser.get().hasOwnProperty('residence')) { // get_settings response was received
+            showPageError(text.localize('Sorry, an error occurred while processing your request.') + ' ' +
+                text.localize('Please contact <a href="[_1]">Customer Support</a>.', [page.url.url_for('contact', '', true)]));
+        }
     };
 
     var initOk = function() {
+        clearError();
         if($('#section-financial .form-new-account').contents().length === 0) {
             findInSection('demo', '.form-new-account').contents().clone().appendTo('#section-financial .form-new-account');
             if(hasGamingCompany) {
@@ -18630,7 +18651,9 @@ var BinarySocket = new BinarySocketClass();
     var clearError = function(selector) {
         $(selector ? selector : 'p.' + errorClass).remove();
         $('#errorMsg').html('').addClass(hiddenClass);
-        $form.find('.formMessage').html('');
+        if($form && $form.length) {
+            $form.find('.formMessage').html('');
+        }
         $('.msg-account').addClass(hiddenClass);
     };
 
