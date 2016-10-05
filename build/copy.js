@@ -6,6 +6,7 @@ module.exports = {
                 src: [
                     'javascript.json',
                     'index.html',
+                    '404.html',
                     'sitemap.xml',
                     'robots.txt'
                 ],

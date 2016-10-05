@@ -7,6 +7,7 @@ sub all_pages {
     return (
         # url pathname,                template file path,             layout,       title,        exclude languages
         ['home',                       'home/index',                   'full_width', 'Online Trading platform for binary options on Forex, Indices, Commodities and Smart Indices'],
+        ['404',                        'static/404',                   'full_width', '404'],
         ['logged_inws',                'global/logged_inws',           undef],
         ['user/settings/metatrader',        'user/settings/metatrader', 'default',    'MetaTrader'],
         ['user/tnc_approvalws',             'user/tnc_approvalws',                  'default',    'Terms and Conditions Approval'],

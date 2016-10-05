@@ -44,6 +44,7 @@ sub _texts {
         push @texts, localize('Sorry, an error occurred while processing your request.');
         push @texts, localize('Volatility Indices Account');
         push @texts, localize('Investor Password cannot be same as Main Password.');
+        push @texts, localize('Please contact <a href="[_1]">Customer Support</a>.');
 
         my %as_hash = @texts;
         $js .= "texts_json['" . $language . "'] = " . JSON::to_json(\%as_hash) . ";\n";

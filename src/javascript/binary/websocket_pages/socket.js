@@ -162,6 +162,7 @@ function BinarySocketClass() {
                       page.client.set_cookie('residence', response.get_settings.country_code);
                       page.client.residence = response.get_settings.country_code;
                     }
+                    TUser.extend({residence: response.get_settings.country_code || ''});
                     GTM.event_handler(response.get_settings);
                     page.client.set_storage_value('tnc_status', response.get_settings.client_tnc_status || '-');
                     page.client.check_tnc();
