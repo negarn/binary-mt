@@ -328,8 +328,26 @@ var MetaTraderUI = (function() {
             return showFormMessage(response.error.message, false);
         }
 
-        MetaTraderData.requestLoginDetails(response.mt5_new_account.login);
-        showAccountMessage(response.mt5_new_account.account_type, text.localize('Congratulations! Your account has been created.'));
+        var new_login = response.mt5_new_account.login,
+            new_type  = response.mt5_new_account.account_type;
+        MetaTraderData.requestLoginDetails(new_login);
+        showAccountMessage(new_type, text.localize('Congratulations! Your account has been created.'));
+
+        // Push GTM
+        var gtm_data = {
+            'mt5_' + new_type : new_login,
+            'event'           : 'mt5_new_account',
+            'url'             : window.location.href,
+            'mt5_date_joined' : Math.floor(Date.now() / 1000),
+        };
+        if (new_type === 'demo' && !page.client.is_virtual()) {
+            var virtual_loginid;
+            page.user.loginid_array.forEach(function(login) {
+                if (!login.real && !login.disabled) virtual_loginid = login.id;
+            });
+            gtm_data['visitorId'] = virtual_loginid;
+        }
+        GTM.push_data_layer(gtm_data);
     };
 
     var responseDeposit = function(response) {
