@@ -333,13 +333,18 @@ var MetaTraderUI = (function() {
         MetaTraderData.requestLoginDetails(new_login);
         showAccountMessage(new_type, text.localize('Congratulations! Your account has been created.'));
 
+        // Update mt5_logins in localStorage
+        var mt5_logins = JSON.parse(page.client.get_storage_value('mt5_logins') || '{}');
+        mt5_logins[new_type] = new_login;
+        page.client.set_storage_value('mt5_logins', JSON.stringify(mt5_logins));
+
         // Push GTM
         var gtm_data = {
-            'mt5_' + new_type : new_login,
             'event'           : 'mt5_new_account',
             'url'             : window.location.href,
             'mt5_date_joined' : Math.floor(Date.now() / 1000),
         };
+        gtm_data['mt5_' + new_type] = new_login;
         if (new_type === 'demo' && !page.client.is_virtual()) {
             var virtual_loginid;
             page.user.loginid_array.forEach(function(login) {
