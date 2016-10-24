@@ -8,7 +8,7 @@
             <div class="sidebar-left">
                 <ul class="sidebar-nav">
                     <li id="nav-demo" class="selected"><a href="#demo">[% l('Demo Account') %]</a></li>
-                    <li id="nav-financial" class="invisible"><a href="#financial">[% l('Financial Account') %]</a></li>
+                    <li id="nav-financial"><a href="#financial">[% l('Financial Account') %]</a></li>
                     <li id="nav-volatility"><a href="#volatility">[% l('Volatility Indices') %]</a></li>
                 </ul>
             </div>
