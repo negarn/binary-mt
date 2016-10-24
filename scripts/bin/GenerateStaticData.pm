@@ -38,7 +38,8 @@ sub _texts {
         push @texts, localize('Your new account has been created.');
         push @texts, localize('Deposit is done. Transaction ID: [_1]');
         push @texts, localize('Withdrawal is done. Transaction ID: [_1]');
-        push @texts, localize('Start trading with your MetaTrader Account');
+        push @texts, localize('Start trading with your MetaTrader Account:');
+        push @texts, localize('Try MetaTrader Web Platform');
         push @texts, localize('Download MetaTrader');
         push @texts, localize('Congratulations! Your account has been created.');
         push @texts, localize('Sorry, an error occurred while processing your request.');

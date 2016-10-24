@@ -70,14 +70,17 @@ var MetaTraderUI = (function() {
 
     var displayAccount = function(accType) {
         findInSection(accType, '.form-new-account').addClass(hiddenClass);
+        var mtWebURL = 'https://trade.mql5.com/trade?servers=Binary.com-Server&trade_server=Binary.com-Server&demo_type=forex,forex-usd,forex-eur&demo_leverage=100,50,33,25,10,1&startup_mode=open_demo&';
         var $details = $('<div/>').append($(
             makeTextRow('Login', mt5Accounts[accType].login) +
             makeTextRow('Balance', currency + ' ' + mt5Accounts[accType].balance, 'balance') +
             makeTextRow('Name', mt5Accounts[accType].name) +
             // makeTextRow('Leverage', mt5Accounts[accType].leverage)
-            makeTextRow('', text.localize('Start trading with your MetaTrader Account') +
-                ' <a class="button pjaxload" href="' + page.url.url_for('download-metatrader') + '" style="margin:0 20px;">' +
-                    '<span>' + text.localize('Download MetaTrader') + '</span></a>')
+            makeTextRow('', text.localize('Start trading with your MetaTrader Account:') + '<div class="gr-padding-10 center-text">' +
+                '<a class="button pjaxload" href="' + page.url.url_for('download-metatrader') + '" style="margin:0 20px;">' +
+                    '<span>' + text.localize('Download MetaTrader') + '</span></a>' +
+                '<a class="button" href="' + mtWebURL + '" target="_blank" style="margin:0 20px;">' +
+                    '<span>' + text.localize('Try MetaTrader Web Platform') + '</span></a></div>')
         ));
         findInSection(accType, '.account-details').html($details.html());
 
