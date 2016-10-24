@@ -76,10 +76,10 @@ var MetaTraderUI = (function() {
             makeTextRow('Balance', currency + ' ' + mt5Accounts[accType].balance, 'balance') +
             makeTextRow('Name', mt5Accounts[accType].name) +
             // makeTextRow('Leverage', mt5Accounts[accType].leverage)
-            makeTextRow('', text.localize('Start trading with your MetaTrader Account:') + '<div class="gr-padding-10 center-text">' +
-                '<a class="button pjaxload" href="' + page.url.url_for('download-metatrader') + '" style="margin:0 20px;">' +
+            makeTextRow('', text.localize('Start trading with your MetaTrader Account:') + '<div class="center-text">' +
+                '<a class="button pjaxload" href="' + page.url.url_for('download-metatrader') + '" style="margin:10px 20px; display:inline-block;">' +
                     '<span>' + text.localize('Download MetaTrader') + '</span></a>' +
-                '<a class="button" href="' + (mtWebURL + 'login=' + mt5Accounts[accType].login) + '" target="_blank" style="margin:0 20px;">' +
+                '<a class="button" href="' + (mtWebURL + 'login=' + mt5Accounts[accType].login) + '" target="_blank">' +
                     '<span>' + text.localize('Try MetaTrader Web Platform') + '</span></a></div>')
         ));
         findInSection(accType, '.account-details').html($details.html());
