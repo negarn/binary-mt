@@ -50,6 +50,7 @@
         }
     }
     #client-logged-out {
+        @include BIDIR_VALUE(text-align, right, left);
         #btn_login {
             margin-bottom: 0;
         }
