@@ -11,6 +11,10 @@
     #gmt-clock, #contact-us, .upgrademessage {
         align-self: center;
     }
+    #gmt-clock {
+        display: inline-block;
+        min-width: 210px;
+    }
     .upgrademessage a {
         @include link-button;
         border-radius: 2px;
