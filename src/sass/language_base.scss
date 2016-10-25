@@ -15,6 +15,9 @@ body.FR {
     h1, h2, h3, h4, h5, h6 {
         text-transform: initial !important;
     }
+    #header .account-type {
+        font-size: 85%;
+    }
 }
 
 /*Indonesian Language */
@@ -37,6 +40,12 @@ body.IT, body.DE {
     }
     h1, h2, h3, h4, h5, h6 {
         text-transform: initial !important;
+    }
+}
+
+body.RU {
+    #header .account-type {
+        font-size: 90%;
     }
 }
 

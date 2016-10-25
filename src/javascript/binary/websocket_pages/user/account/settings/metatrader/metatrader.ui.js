@@ -102,10 +102,13 @@ var MetaTraderUI = (function() {
                     $form.find('button').unbind('click').click(function(e) {
                         e.preventDefault();
                         e.stopPropagation();
-                        if(/deposit/.test(formClass)) {
-                            depositToMTAccount(accType);
-                        } else {
-                            withdrawFromMTAccount(accType);
+                        if (!$(this).attr('disabled')) {
+                            $(this).addClass('button-disabled').attr('disabled', 'disabled');
+                            if(/deposit/.test(formClass)) {
+                                depositToMTAccount(accType);
+                            } else {
+                                withdrawFromMTAccount(accType);
+                            }
                         }
                     });
                 });
@@ -360,6 +363,7 @@ var MetaTraderUI = (function() {
 
     var responseDeposit = function(response) {
         $form = findInSection(mt5Logins[response.echo_req.to_mt5], '.form-deposit');
+        enableButton($form.find('button'));
         if(response.hasOwnProperty('error')) {
             return showFormMessage(response.error.message, false);
         }
@@ -376,6 +380,7 @@ var MetaTraderUI = (function() {
 
     var responseWithdrawal = function(response) {
         $form = findInSection(mt5Logins[response.echo_req.from_mt5], '.form-withdrawal');
+        enableButton($form.find('button'));
         if(response.hasOwnProperty('error')) {
             return showFormMessage(response.error.message, false);
         }
@@ -394,6 +399,7 @@ var MetaTraderUI = (function() {
         var accType = mt5Logins[response.echo_req.login];
         $form = findInSection(accType, '.form-withdrawal');
         if(response.hasOwnProperty('error')) {
+            enableButton($form.find('button'));
             return showError('.txtMainPass', response.error.message);
         }
 
@@ -475,6 +481,9 @@ var MetaTraderUI = (function() {
             }
         }
 
+        if (!isValid) {
+            enableButton($form.find('button'));
+        }
         return isValid;
     };
 
@@ -511,6 +520,10 @@ var MetaTraderUI = (function() {
 
     var showAccountMessage = function(accType, message) {
         findInSection(accType, '.msg-account').html(message).removeClass(hiddenClass);
+    };
+
+    var enableButton = function($btn) {
+        $btn.removeClass('button-disabled').removeAttr('disabled');
     };
 
     return {
