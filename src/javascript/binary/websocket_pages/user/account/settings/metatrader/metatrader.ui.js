@@ -360,6 +360,7 @@ var MetaTraderUI = (function() {
 
     var responseDeposit = function(response) {
         $form = findInSection(mt5Logins[response.echo_req.to_mt5], '.form-deposit');
+        enableButton($form.find('button'));
         if(response.hasOwnProperty('error')) {
             return showFormMessage(response.error.message, false);
         }
@@ -372,11 +373,11 @@ var MetaTraderUI = (function() {
         } else {
             showFormMessage('Sorry, an error occurred while processing your request.', false);
         }
-        enableButton($form.find('button'));
     };
 
     var responseWithdrawal = function(response) {
         $form = findInSection(mt5Logins[response.echo_req.from_mt5], '.form-withdrawal');
+        enableButton($form.find('button'));
         if(response.hasOwnProperty('error')) {
             return showFormMessage(response.error.message, false);
         }
@@ -389,13 +390,13 @@ var MetaTraderUI = (function() {
         } else {
             showFormMessage('Sorry, an error occurred while processing your request.', false);
         }
-        enableButton($form.find('button'));
     };
 
     var responsePasswordCheck = function(response) {
         var accType = mt5Logins[response.echo_req.login];
         $form = findInSection(accType, '.form-withdrawal');
         if(response.hasOwnProperty('error')) {
+            enableButton($form.find('button'));
             return showError('.txtMainPass', response.error.message);
         }
 
@@ -477,6 +478,9 @@ var MetaTraderUI = (function() {
             }
         }
 
+        if (!isValid) {
+            enableButton($form.find('button'));
+        }
         return isValid;
     };
 
