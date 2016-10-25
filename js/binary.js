@@ -18501,7 +18501,6 @@ var BinarySocket = new BinarySocketClass();
             isAuthenticated = true;
             manageTabContents();
         } else if(!page.client.is_virtual()) {
-            $('.authenticate a').attr('href', page.url.url_for('/user/authenticatews', '', true));
             $('.authenticate').removeClass(hiddenClass);
         }
     };
