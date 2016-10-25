@@ -69,11 +69,12 @@
                 <h3>[% l('Financial Account') %]</h3>
                 <p class="msg-account notice-msg center-text invisible"></p>
                 <div class="authenticate invisible">
-                    <p>[% l('To create an account for MetaTrader, you need to authenticate your Binary account:') %]</p>
+                    <p>[% l('In order to create an account for MetaTrader, you need to authenticate your Binary account.') %]</p>
                     <p>[% l('To authenticate your account, kindly email the following to <a href="mailto:[_1]">[_1]</a>', 'support@binary.com') %]</p>
-                    <p>[% l('- A scanned copy of your passport, driving licence (provisional or full) or identity card, showing your name and date of birth.') %]</p>
-                    <p>[% l('and') %]</p>
-                    <p>[% l('- A scanned copy of a utility bill or bank statement (no more than 3 months old).') %]</p>
+                    <ul class="bullet">
+                        <li>[% l('A scanned copy of your passport, driving licence (provisional or full) or identity card, showing your name and date of birth.') %]</li>
+                        <li>[% l('A scanned copy of a utility bill or bank statement (no more than 3 months old).') %]</li>
+                    </ul>
                 </div>
                 <form class="form-new-account invisible"></form>
                 <div class="account-details"></div>
