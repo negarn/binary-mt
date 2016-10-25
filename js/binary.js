@@ -17739,6 +17739,29 @@ pjax_config_page("/404", function() {
     };
 });
 
+pjax_config_page("/terms-and-conditions", function() {
+    return {
+        onLoad: function() {
+            var hash;
+            function updateTab() {
+                hash = /^#(risk-tab|legal-tab)$/.test(window.location.hash) ? window.location.hash : '#legal-tab';
+                //remove active class and hide all content
+                $('#legal-menu li').removeClass('active a-active');
+                $('.menu-has-sub-item div.toggle-content').addClass('invisible');
+                //add active class to the right tab and show expected content
+                $(hash).addClass('active')
+                       .find('a').addClass('a-active');
+                $(hash + '-content').removeClass('invisible');
+            }
+            $(window).on('hashchange', function() {
+                updateTab();
+            });
+            updateTab();
+            $('.content-tab-container').removeClass('invisible');
+        }
+    };
+});
+
 ;pjax_config_page("endpoint", function(){
     return {
         onLoad: function() {
@@ -18235,6 +18258,7 @@ var BinarySocket = new BinarySocketClass();
             if(hasGamingCompany) {
                 $('#section-financial').contents().clone().appendTo('#section-volatility');
                 $('#section-volatility > h3').text(text.localize('Volatility Indices Account'));
+                $('#section-volatility > .authenticate').remove();
             } else {
                 hideAccount('volatility');
             }
@@ -18519,8 +18543,31 @@ var BinarySocket = new BinarySocketClass();
             return showFormMessage(response.error.message, false);
         }
 
-        MetaTraderData.requestLoginDetails(response.mt5_new_account.login);
-        showAccountMessage(response.mt5_new_account.account_type, text.localize('Congratulations! Your account has been created.'));
+        var new_login = response.mt5_new_account.login,
+            new_type  = response.mt5_new_account.account_type;
+        MetaTraderData.requestLoginDetails(new_login);
+        showAccountMessage(new_type, text.localize('Congratulations! Your account has been created.'));
+
+        // Update mt5_logins in localStorage
+        var mt5_logins = JSON.parse(page.client.get_storage_value('mt5_logins') || '{}');
+        mt5_logins[new_type] = new_login;
+        page.client.set_storage_value('mt5_logins', JSON.stringify(mt5_logins));
+
+        // Push GTM
+        var gtm_data = {
+            'event'           : 'mt5_new_account',
+            'url'             : window.location.href,
+            'mt5_date_joined' : Math.floor(Date.now() / 1000),
+        };
+        gtm_data['mt5_' + new_type] = new_login;
+        if (new_type === 'demo' && !page.client.is_virtual()) {
+            var virtual_loginid;
+            page.user.loginid_array.forEach(function(login) {
+                if (!login.real && !login.disabled) virtual_loginid = login.id;
+            });
+            gtm_data['visitorId'] = virtual_loginid;
+        }
+        GTM.push_data_layer(gtm_data);
     };
 
     var responseDeposit = function(response) {
