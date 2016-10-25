@@ -1,0 +1,24 @@
+<div class="content-tab-container static_full invisible">
+  <div class="tab-menu">
+    <div class="tab-menu-wrap container">
+      <ul id="legal-menu" class="tm-ul">
+        <li id="legal-tab" class="tm-li first">
+            <a href="#legal-tab" class="tm-a first">[% l('Terms and Conditions') %]</a>
+        </li>
+        <li id="risk-tab" class="tm-li last">
+            <a href="#risk-tab" class="tm-a">[% l('Risk Disclosure Statement') %]</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="tab-content">
+    <div class="tab-content-wrapper menu-has-sub-item">
+      <div id="legal-tab-content" class="toggle-content">
+        [% INCLUDE legal/terms_and_conditions.html.tt %]
+      </div>
+      <div id="risk-tab-content" class="toggle-content">
+        [% INCLUDE legal/risk_disclaimer.html.tt %]
+      </div>
+    </div>
+  </div>
+</div>
