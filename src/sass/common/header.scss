@@ -11,6 +11,10 @@
     #gmt-clock, #contact-us, .upgrademessage {
         align-self: center;
     }
+    #gmt-clock {
+        display: inline-block;
+        min-width: 210px;
+    }
     .upgrademessage a {
         @include link-button;
         border-radius: 2px;
@@ -50,32 +54,9 @@
         }
     }
     #client-logged-out {
+        @include BIDIR_VALUE(text-align, right, left);
         #btn_login {
             margin-bottom: 0;
-        }
-    }
-    #client-logged-out, #loginid-switch-form {
-        @include BIDIR_VALUE(text-align, right, left);
-    }
-    #logout {
-        text-align: right;
-        color: $COLOR_WHITE;
-        font-size: 70%;
-        display: inline-block;
-        a, a:visited {
-            &:hover, &:active {
-                text-decoration: underline;
-            }
-            &.logout {
-                @include link-button;
-                background-position: 104.6% 0.3%;
-                background-repeat: no-repeat;
-                padding: 6px;
-                font-weight: normal;
-                @include BIDIR_PROP(margin-left, margin-right, 0.4em);
-                margin-top: 0.5em;
-                text-transform: uppercase;
-            }
         }
     }
     #mobile-menu-icon {
@@ -86,5 +67,61 @@
     #mobile-menu-icon-container {
         margin-top: 5px;
         margin-right: 3px;
+    }
+    #menu-top {
+        text-align: center;
+        white-space: nowrap;
+        a:hover {
+            opacity: 0.75;
+        }
+        li {
+            line-height: 1;
+            display: inline-block;
+            text-align: center;
+            margin: 0;
+            white-space: normal;
+            &:last-child {
+                background: none;
+            }
+            a {
+                font-weight: normal;
+                vertical-align: middle;
+                display: table-cell;
+                height: 50px;
+                max-width: 110px;
+                color: $COLOR_WHITE;
+                text-decoration: none;
+                letter-spacing: 0;
+                text-transform: capitalize;
+                padding: 0px 10px;
+                word-wrap: break-word;
+            }
+        }
+        li.active {
+            a {
+                color: $COLOR_ORANGE;
+            }
+        }
+    }
+    .main-nav {
+        > li > ul {
+            margin: -20px -1px;
+        }
+        .nav-caret {
+            @include BIDIR_PROP(right, left, -68px);
+            @include BIDIR_PROP(left, right, initial);
+        }
+    }
+    .topMenuBalance {
+        visibility: hidden;
+    }
+    #main-logout {
+        @include BIDIR_VALUE(float, right, left);
+        .main-account > .account-type {
+            white-space: nowrap;
+        }
+    }
+    #all-accounts {
+        z-index: 99;
     }
 }
