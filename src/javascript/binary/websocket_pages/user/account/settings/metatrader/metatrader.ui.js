@@ -99,10 +99,13 @@ var MetaTraderUI = (function() {
                     $form.find('button').unbind('click').click(function(e) {
                         e.preventDefault();
                         e.stopPropagation();
-                        if(/deposit/.test(formClass)) {
-                            depositToMTAccount(accType);
-                        } else {
-                            withdrawFromMTAccount(accType);
+                        if (!$(this).attr('disabled')) {
+                            $(this).addClass('button-disabled').attr('disabled', 'disabled');
+                            if(/deposit/.test(formClass)) {
+                                depositToMTAccount(accType);
+                            } else {
+                                withdrawFromMTAccount(accType);
+                            }
                         }
                     });
                 });
@@ -369,6 +372,7 @@ var MetaTraderUI = (function() {
         } else {
             showFormMessage('Sorry, an error occurred while processing your request.', false);
         }
+        enableButton($form.find('button'));
     };
 
     var responseWithdrawal = function(response) {
@@ -385,6 +389,7 @@ var MetaTraderUI = (function() {
         } else {
             showFormMessage('Sorry, an error occurred while processing your request.', false);
         }
+        enableButton($form.find('button'));
     };
 
     var responsePasswordCheck = function(response) {
@@ -508,6 +513,10 @@ var MetaTraderUI = (function() {
 
     var showAccountMessage = function(accType, message) {
         findInSection(accType, '.msg-account').html(message).removeClass(hiddenClass);
+    };
+
+    var enableButton = function($btn) {
+        $btn.removeClass('button-disabled').removeAttr('disabled');
     };
 
     return {
