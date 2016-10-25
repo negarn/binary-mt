@@ -44,6 +44,7 @@ var MetaTraderUI = (function() {
             if(hasGamingCompany) {
                 $('#section-financial').contents().clone().appendTo('#section-volatility');
                 $('#section-volatility > h3').text(text.localize('Volatility Indices Account'));
+                $('#section-volatility > .authenticate').remove();
             } else {
                 hideAccount('volatility');
             }
