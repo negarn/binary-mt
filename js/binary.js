@@ -16184,6 +16184,7 @@ Client.prototype = {
         this.set_storage_value('is_virtual', TUser.get().is_virtual);
         this.check_storage_values();
         page.contents.activate_by_client_type();
+        page.contents.activate_by_login();
         page.contents.topbar_message_visibility();
     },
     response_mt5_login_list: function(response) {
@@ -16444,12 +16445,31 @@ Header.prototype = {
     on_unload: function() {
         this.menu.reset();
     },
+    animate_disappear: function(element) {
+        element.animate({'opacity':0}, 100, function() {
+            element.css('visibility', 'hidden');
+        });
+    },
+    animate_appear: function(element) {
+        element.css('visibility', 'visible').animate({'opacity': 1}, 100);
+    },
     show_or_hide_login_form: function() {
         if (!this.user.is_logged_in || !this.client.is_logged_in) return;
-        var $login_options = $('#client_loginid');
+        var all_accounts = $('#all-accounts');
+        var that = this;
+        $('.nav-menu').unbind('click').on('click', function(event) {
+            event.stopPropagation();
+            if (all_accounts.css('opacity') == 1) {
+                that.animate_disappear(all_accounts);
+            } else {
+                that.animate_appear(all_accounts);
+            }
+        });
+        $(document).unbind('click').on('click', function() {
+            that.animate_disappear(all_accounts);
+        });
+        var loginid_select = '';
         var loginid_array = this.user.loginid_array;
-        $login_options.html('');
-
         for (var i=0; i < loginid_array.length; i++) {
             var login = loginid_array[i];
             if (login.disabled) continue;
@@ -16461,13 +16481,18 @@ Header.prototype = {
                 else if (login.non_financial) type = 'Gaming';
                 else                          type = 'Real';
             }
+            type = type + ' Account';
 
-            $login_options.append($('<option/>', {
-                value: curr_id,
-                selected: curr_id == this.client.loginid,
-                text: template('[_1] Account ([_2])', [type, curr_id]),
-            }));
+            // default account
+            if (curr_id == this.client.loginid) {
+                $('.account-type').html(text.localize(type));
+                $('.account-id').html(curr_id);
+            } else {
+                loginid_select += '<a href="#" value="' + curr_id + '"><li>' + text.localize(type) + '<div>' + curr_id + '</div>' +
+                                  '</li></a>' + '<div class="separator-line-thin-gray"></div>';
+            }
         }
+        $(".login-id-list").html(loginid_select);
     },
     register_dynamic_links: function() {
         var logged_in_url = page.url.url_for(this.client.is_logged_in ? 'user/settings/metatrader' : '');
@@ -16616,6 +16641,11 @@ Contents.prototype = {
             $('#topbar').addClass('primary-color-dark');
         }
     },
+    activate_by_login: function() {
+        if(this.client.is_logged_in) {
+            $('.client_logged_in').removeClass('invisible');
+        }
+    },
     update_content_class: function() {
         //This is required for our css to work.
         $('#content').removeClass();
@@ -16702,9 +16732,10 @@ Page.prototype = {
     },
     on_change_loginid: function() {
         var that = this;
-        $('#client_loginid').on('change', function() {
+        $('.login-id-list a').on('click', function(e) {
+            e.preventDefault();
             $(this).attr('disabled','disabled');
-            that.switch_loginid($(this).val());
+            that.switch_loginid($(this).attr('value'));
         });
     },
     switch_loginid: function(loginid) {
@@ -16725,7 +16756,7 @@ Page.prototype = {
         // set local storage
         GTM.set_login_flag();
         localStorage.setItem('active_loginid', loginid);
-        $('#client_loginid').removeAttr('disabled');
+        $('.login-id-list a').removeAttr('disabled');
         page.reload();
     },
     localize_for: function(language) {
@@ -17155,84 +17186,6 @@ onUnload.queue(function () {
     page.on_unload();
 });
 
-function formEffects() {
-    var select_focus_event = function () {
-        $(this)
-            .addClass('focus')
-            .siblings().addClass('focus')
-            .parents('fieldset').addClass('focus');
-    };
-    var select_blur_event = function () {
-        $(this)
-            .removeClass('focus')
-            .siblings().removeClass('focus')
-            .parents('fieldset').removeClass('focus');
-    };
-    var input_focus_event = function () {
-        $(this)
-            .parent('div').addClass('focus')
-            .parents('fieldset').addClass('focus');
-    };
-    var input_blur_event = function () {
-        $(this)
-            .parent('div').removeClass('focus')
-            .parents('fieldset').removeClass('focus');
-    };
-
-    this.set = function (jqObject) {
-        jqObject
-            .delegate('select', 'focus', select_focus_event)
-            .delegate('select', 'blur', select_blur_event);
-
-        jqObject
-            .delegate('input[type=text],input[type=password],textarea', 'focus', input_focus_event)
-            .delegate('input[type=text],input[type=password],textarea', 'blur', input_blur_event);
-    };
-}
-
-function add_click_effect_to_button() {
-    var prefix = function (class_name) {
-        var class_names = class_name.split(/\s+/);
-        var _prefix = 'button';
-        var cn = class_names.shift();
-
-        while (cn) {
-            if (cn && cn != _prefix && !cn.match(/-focus|-hover/)) {
-                _prefix = cn;
-                break;
-            }
-            cn = class_names.shift();
-        }
-
-        return _prefix;
-    };
-
-    var remove_button_class = function (button, class_name) {
-        button.removeClass(class_name).children('.button').removeClass(class_name).end().parent('.button').removeClass(class_name);
-    };
-    var add_button_class = function (button, class_name) {
-        button.addClass(class_name).children('.button').addClass(class_name).end().parent('.button').addClass(class_name);
-    };
-
-    $('#content,#popup')
-        .delegate('.button', 'mousedown', function () {
-            var class_name = prefix(this.className) + '-focus';
-            add_button_class($(this), class_name);
-        })
-        .delegate('.button', 'mouseup', function () {
-            var class_name = prefix(this.className) + '-focus';
-            remove_button_class($(this), class_name);
-        })
-        .delegate('.button', 'mouseover', function () {
-            var class_name = prefix(this.className) + '-hover';
-            add_button_class($(this), class_name);
-        })
-        .delegate('.button', 'mouseout', function () {
-            var class_name = prefix(this.className) + '-hover';
-            remove_button_class($(this), class_name);
-        });
-}
-
 var make_mobile_menu = function () {
     if ($('#mobile-menu-container').is(':visible')) {
         $('#mobile-menu').mmenu({
@@ -17259,12 +17212,7 @@ onLoad.queue(function () {
         }
     );
 
-    add_click_effect_to_button();
     make_mobile_menu();
-
-    // attach the class to account form's div/fieldset for CSS visual effects
-    var objFormEffect = new formEffects();
-    objFormEffect.set($('form.formObject'));
 
     var i = window.location.href.split('#');
     if (i.length != 2) return;
@@ -18285,14 +18233,17 @@ var BinarySocket = new BinarySocketClass();
 
     var displayAccount = function(accType) {
         findInSection(accType, '.form-new-account').addClass(hiddenClass);
+        var mtWebURL = 'https://trade.mql5.com/trade?servers=Binary.com-Server&amp;trade_server=Binary.com-Server&amp;demo_type=forex,forex-usd,forex-eur&amp;demo_leverage=100,50,33,25,10,1&amp;startup_mode=open_demo&amp;';
         var $details = $('<div/>').append($(
             makeTextRow('Login', mt5Accounts[accType].login) +
             makeTextRow('Balance', currency + ' ' + mt5Accounts[accType].balance, 'balance') +
             makeTextRow('Name', mt5Accounts[accType].name) +
             // makeTextRow('Leverage', mt5Accounts[accType].leverage)
-            makeTextRow('', text.localize('Start trading with your MetaTrader Account') +
-                ' <a class="button pjaxload" href="' + page.url.url_for('download-metatrader') + '" style="margin:0 20px;">' +
-                    '<span>' + text.localize('Download MetaTrader') + '</span></a>')
+            makeTextRow('', text.localize('Start trading with your MetaTrader Account:') + '<div class="center-text">' +
+                '<a class="button pjaxload" href="' + page.url.url_for('download-metatrader') + '" style="margin:10px 20px; display:inline-block;">' +
+                    '<span>' + text.localize('Download MetaTrader') + '</span></a>' +
+                '<a class="button" href="' + (mtWebURL + 'login=' + mt5Accounts[accType].login) + '" target="_blank">' +
+                    '<span>' + text.localize('MetaTrader Web Platform') + '</span></a></div>')
         ));
         findInSection(accType, '.account-details').html($details.html());
 
@@ -18313,10 +18264,13 @@ var BinarySocket = new BinarySocketClass();
                     $form.find('button').unbind('click').click(function(e) {
                         e.preventDefault();
                         e.stopPropagation();
-                        if(/deposit/.test(formClass)) {
-                            depositToMTAccount(accType);
-                        } else {
-                            withdrawFromMTAccount(accType);
+                        if (!$(this).attr('disabled')) {
+                            $(this).addClass('button-disabled').attr('disabled', 'disabled');
+                            if(/deposit/.test(formClass)) {
+                                depositToMTAccount(accType);
+                            } else {
+                                withdrawFromMTAccount(accType);
+                            }
                         }
                     });
                 });
@@ -18571,6 +18525,7 @@ var BinarySocket = new BinarySocketClass();
 
     var responseDeposit = function(response) {
         $form = findInSection(mt5Logins[response.echo_req.to_mt5], '.form-deposit');
+        enableButton($form.find('button'));
         if(response.hasOwnProperty('error')) {
             return showFormMessage(response.error.message, false);
         }
@@ -18587,6 +18542,7 @@ var BinarySocket = new BinarySocketClass();
 
     var responseWithdrawal = function(response) {
         $form = findInSection(mt5Logins[response.echo_req.from_mt5], '.form-withdrawal');
+        enableButton($form.find('button'));
         if(response.hasOwnProperty('error')) {
             return showFormMessage(response.error.message, false);
         }
@@ -18605,6 +18561,7 @@ var BinarySocket = new BinarySocketClass();
         var accType = mt5Logins[response.echo_req.login];
         $form = findInSection(accType, '.form-withdrawal');
         if(response.hasOwnProperty('error')) {
+            enableButton($form.find('button'));
             return showError('.txtMainPass', response.error.message);
         }
 
@@ -18686,6 +18643,9 @@ var BinarySocket = new BinarySocketClass();
             }
         }
 
+        if (!isValid) {
+            enableButton($form.find('button'));
+        }
         return isValid;
     };
 
@@ -18722,6 +18682,10 @@ var BinarySocket = new BinarySocketClass();
 
     var showAccountMessage = function(accType, message) {
         findInSection(accType, '.msg-account').html(message).removeClass(hiddenClass);
+    };
+
+    var enableButton = function($btn) {
+        $btn.removeClass('button-disabled').removeAttr('disabled');
     };
 
     return {
@@ -18874,7 +18838,7 @@ pjax_config_page_require_auth("tnc_approvalws", function() {
         var view = format_money(currency, amount);
 
         TUser.get().balance = balance.balance;
-        $("#balance").text(view);
+        $('.topMenuBalance').text(view).css('visibility', 'visible');
     }
 
     return {
