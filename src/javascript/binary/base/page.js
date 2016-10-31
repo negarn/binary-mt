@@ -449,8 +449,8 @@ Header.prototype = {
 
             // default account
             if (curr_id == this.client.loginid) {
-                $('.account-type').html(text.localize(type));
-                $('.account-id').html(curr_id);
+                $('#client-logged-in .account-type').html(text.localize(type));
+                $('#client-logged-in .account-id').html(curr_id);
             } else {
                 loginid_select += '<a href="#" value="' + curr_id + '"><li>' + text.localize(type) + '<div>' + curr_id + '</div>' +
                                   '</li></a>' + '<div class="separator-line-thin-gray"></div>';
