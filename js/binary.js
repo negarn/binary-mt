@@ -18233,7 +18233,7 @@ var BinarySocket = new BinarySocketClass();
 
     var displayAccount = function(accType) {
         findInSection(accType, '.form-new-account').addClass(hiddenClass);
-        var mtWebURL = 'https://trade.mql5.com/trade?servers=Binary.com-Server&amp;trade_server=Binary.com-Server&amp;startup_mode=no_autologin&amp;';
+        var mtWebURL = 'https://trade.mql5.com/trade?servers=Binary.com-Server&amp;trade_server=Binary.com-Server&amp;';
         var $details = $('<div/>').append($(
             makeTextRow('Login', mt5Accounts[accType].login) +
             makeTextRow('Balance', currency + ' ' + mt5Accounts[accType].balance, 'balance') +
