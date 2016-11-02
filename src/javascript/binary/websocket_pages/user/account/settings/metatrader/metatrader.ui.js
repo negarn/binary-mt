@@ -324,6 +324,7 @@ var MetaTraderUI = (function() {
         }
 
         var accType = MetaTrader.getAccountType(response.mt5_get_settings.group);
+        mt5Logins[response.mt5_get_settings.login] = accType;
         mt5Accounts[accType] = response.mt5_get_settings;
         displayTab();
         displayAccount(accType);
@@ -336,6 +337,7 @@ var MetaTraderUI = (function() {
 
         var new_login = response.mt5_new_account.login,
             new_type  = response.mt5_new_account.account_type;
+        mt5Logins[new_login] = new_type === 'gaming' ? 'volatility' : new_type;
         MetaTraderData.requestLoginDetails(new_login);
         showAccountMessage(new_type, text.localize('Congratulations! Your account has been created.'));
 
