@@ -16485,8 +16485,8 @@ Header.prototype = {
 
             // default account
             if (curr_id == this.client.loginid) {
-                $('.account-type').html(text.localize(type));
-                $('.account-id').html(curr_id);
+                $('#client-logged-in .account-type').html(text.localize(type));
+                $('#client-logged-in .account-id').html(curr_id);
             } else {
                 loginid_select += '<a href="#" value="' + curr_id + '"><li>' + text.localize(type) + '<div>' + curr_id + '</div>' +
                                   '</li></a>' + '<div class="separator-line-thin-gray"></div>';
@@ -18486,6 +18486,7 @@ var BinarySocket = new BinarySocketClass();
         }
 
         var accType = MetaTrader.getAccountType(response.mt5_get_settings.group);
+        mt5Logins[response.mt5_get_settings.login] = accType;
         mt5Accounts[accType] = response.mt5_get_settings;
         displayTab();
         displayAccount(accType);
@@ -18498,6 +18499,7 @@ var BinarySocket = new BinarySocketClass();
 
         var new_login = response.mt5_new_account.login,
             new_type  = response.mt5_new_account.account_type;
+        mt5Logins[new_login] = new_type === 'gaming' ? 'volatility' : new_type;
         MetaTraderData.requestLoginDetails(new_login);
         showAccountMessage(new_type, text.localize('Congratulations! Your account has been created.'));
 
