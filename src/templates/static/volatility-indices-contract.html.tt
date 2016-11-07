@@ -1,23 +1,24 @@
-<div class="gr-row">
+<div id="contract-specs" class="gr-row">
   <div class="gr-12">
-    <h1>[% l("Volatility Indices Contract Specifications") %]</h1>
-    <table>
-      <thead>
-        <tr>
-            <th>[% l("Symbol") %]</th>
-            <th>[% l("Volatility 100 Index") %]</th>
-            <th>[% l("Volatility 75 Index") %]</th>
-            <th>[% l("Volatility 50 Index") %]</th>
-            <th>[% l("Volatility 25 Index") %]</th>
-            <th>[% l("Volatility 10 Index") %]</th>
-            <th>[% l("HF Volatility 100 Index") %]</th>
-            <th>[% l("HF Volatility 50 Index") %]</th>
-            <th>[% l("HF Volatility 10 Index") %]</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-            <td>[% l("Volume (Trade Size)") %]</td>
+    <h1>[% l('Volatility Indices Contract Specifications') %]</h1>
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>[% l('Symbol') %]</th>
+            <th>[% l('Volatility 100 Index') %]</th>
+            <th>[% l('Volatility 75 Index') %]</th>
+            <th>[% l('Volatility 50 Index') %]</th>
+            <th>[% l('Volatility 25 Index') %]</th>
+            <th>[% l('Volatility 10 Index') %]</th>
+            <th>[% l('HF Volatility 100 Index') %]</th>
+            <th>[% l('HF Volatility 50 Index') %]</th>
+            <th>[% l('HF Volatility 10 Index') %]</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>[% l('Volume (Trade Size)') %]</td>
             <td>$1/point</td>
             <td>$1/point</td>
             <td>$1/point</td>
@@ -26,9 +27,9 @@
             <td>$1/point</td>
             <td>$1/point</td>
             <td>$1/point</td>
-        </tr>
-        <tr>
-            <td>[% l("Minimum Volume (Trade Size)") %]</td>
+          </tr>
+          <tr>
+            <td>[% l('Minimum Volume (Trade Size)') %]</td>
             <td>0.01</td>
             <td>0.01</td>
             <td>0.5</td>
@@ -37,9 +38,9 @@
             <td>0.01</td>
             <td>0.5</td>
             <td>0.1</td>
-        </tr>
-        <tr>
-            <td>[% l("Maximum Volume (Trade Size)") %]</td>
+          </tr>
+          <tr>
+            <td>[% l('Maximum Volume (Trade Size)') %]</td>
             <td>10</td>
             <td>10</td>
             <td>10</td>
@@ -48,9 +49,9 @@
             <td>2</td>
             <td>2</td>
             <td>2</td>
-        </tr>
-        <tr>
-            <td>[% l("Minimum Increment (Volume)") %]</td>
+          </tr>
+          <tr>
+            <td>[% l('Minimum Increment (Volume)') %]</td>
             <td>0.01</td>
             <td>0.01</td>
             <td>0.01</td>
@@ -59,9 +60,9 @@
             <td>0.01</td>
             <td>0.01</td>
             <td>0.01</td>
-        </tr>
-        <tr>
-            <td>[% l("Pip Size") %]</td>
+          </tr>
+          <tr>
+            <td>[% l('Pip Size') %]</td>
             <td>0.01</td>
             <td>0.0001</td>
             <td>0.0001</td>
@@ -70,9 +71,9 @@
             <td>0.001</td>
             <td>0.001</td>
             <td>0.001</td>
-        </tr>
-        <tr>
-            <td>[% l("Minimum Spread*") %]</td>
+          </tr>
+          <tr>
+            <td>[% l('Minimum Spread*') %]</td>
             <td>0.025%</td>
             <td>0.018%</td>
             <td>0.012%</td>
@@ -81,9 +82,9 @@
             <td>0.025%</td>
             <td>0.012%</td>
             <td>0.002%</td>
-        </tr>
-        <tr>
-            <td>[% l("Maximum Leverage**") %]</td>
+          </tr>
+          <tr>
+            <td>[% l('Maximum Leverage**') %]</td>
             <td>300:1</td>
             <td>300:1</td>
             <td>300:1</td>
@@ -92,11 +93,12 @@
             <td>100:1</td>
             <td>100:1</td>
             <td>100:1</td>
-        </tr>
-      </tbody>
-    </table>
-    <p>[% l("* Minimum Spread is a percentage of the underlying market price, and can change over time.") %]</p>
-    <p>[% l("** Leverage of 100:1 results in a margin rate of 0.01, and so on.") %]</p>
-    <p>[% l("<strong>Margin Policy:</strong> The forced liquidation level is 50%. Please refer to our <a href='[_1]'>Margin Policy</a> for further details.", request.url_for('margin-policy')) %]</p>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p>[% l('* Minimum Spread is a percentage of the underlying market price, and can change over time.') %]</p>
+    <p>[% l('** Leverage of 100:1 results in a margin rate of 0.01, and so on.') %]</p>
+    <p>[% l('<strong>Margin Policy:</strong> The forced liquidation level is 50%. Please refer to our <a href="[_1]">Margin Policy</a> for further details.', request.url_for('margin-policy')) %]</p>
   </div>
 </div>
