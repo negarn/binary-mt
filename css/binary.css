@@ -677,6 +677,21 @@ meter#password-meter::-webkit-meter-bar {
   margin-bottom: 20px;
 }
 
+#contract-specs table td {
+  font-size: 0.9em;
+  text-align: center;
+}
+#contract-specs table td:first-child {
+  white-space: nowrap;
+  font-size: inherit;
+  text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+  .table-container {
+    overflow-x: auto;
+  }
+}
 /* static pages */
 .big-error-code {
   color: #DEDEDE;
