@@ -98,7 +98,7 @@
       </table>
     </div>
     <p>[% l('* Minimum Spread is a percentage of the underlying market price, and can change over time.') %]</p>
-    <p>[% l('** Leverage of 100:1 results in a margin rate of 0.01.') %]</p>
+    <p>[% l('** Leverage of 100:1 results in a margin rate of 0.01 and leverage of 300:1 results in a margin rate of 0.03.') %]</p>
     <p>[% l('<strong>Margin Policy:</strong> The forced liquidation level is 50%. Please refer to our <a href="[_1]">Margin Policy</a> for further details.', request.url_for('margin-policy')) %]</p>
   </div>
 </div>
