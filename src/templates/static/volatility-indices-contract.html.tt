@@ -11,9 +11,9 @@
             <th>[% l('Volatility 50 Index') %]</th>
             <th>[% l('Volatility 25 Index') %]</th>
             <th>[% l('Volatility 10 Index') %]</th>
-            <th>[% l('HF Volatility 100 Index') %]</th>
-            <th>[% l('HF Volatility 50 Index') %]</th>
-            <th>[% l('HF Volatility 10 Index') %]</th>
+            <th data-balloon="[% l('High frequency (2 ticks per second)') %]">[% l('HF Volatility 100 Index') %]</th>
+            <th data-balloon="[% l('High frequency (2 ticks per second)') %]">[% l('HF Volatility 50 Index') %]</th>
+            <th data-balloon="[% l('High frequency (2 ticks per second)') %]">[% l('HF Volatility 10 Index') %]</th>
           </tr>
         </thead>
         <tbody>
@@ -98,7 +98,7 @@
       </table>
     </div>
     <p>[% l('* Minimum Spread is a percentage of the underlying market price, and can change over time.') %]</p>
-    <p>[% l('** Leverage of 100:1 results in a margin rate of 0.01, and so on.') %]</p>
+    <p>[% l('** Leverage of 100:1 results in a margin rate of 0.01.') %]</p>
     <p>[% l('<strong>Margin Policy:</strong> The forced liquidation level is 50%. Please refer to our <a href="[_1]">Margin Policy</a> for further details.', request.url_for('margin-policy')) %]</p>
   </div>
 </div>
