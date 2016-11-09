@@ -240,3 +240,7 @@ img.small {
 .button:hover {
     text-decoration: none;
 }
+
+div ul li.no-bullet {
+    list-style-image: none;
+}

@@ -2,7 +2,7 @@
     <h2>
         [% l("Terms and Conditions") %]
     </h2>
-    <p>[% l("Version 2") %]</p>
+    <p>[% l("Version 3") %]</p>
         <h2>[% l("A. Introduction and Scope of Agreement") %]</h2>
             <ol>
                 <li>[% l("The term ‘we’, ‘us’, ‘our’, ‘ours’, ‘the Company’, or ‘Binary.com’ shall denote either Binary (V) Ltd. or Binary (C.R.) S.A., depending on the
