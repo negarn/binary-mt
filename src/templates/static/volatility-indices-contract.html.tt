@@ -19,14 +19,14 @@
         <tbody>
           <tr>
             <td>[% l('Volume (Trade Size)') %]</td>
-            <td>$1/point</td>
-            <td>$1/point</td>
-            <td>$1/point</td>
-            <td>$1/point</td>
-            <td>$1/point</td>
-            <td>$1/point</td>
-            <td>$1/point</td>
-            <td>$1/point</td>
+            <td>[% l('&#36;1/point') %]</td>
+            <td>[% l('&#36;1/point') %]</td>
+            <td>[% l('&#36;1/point') %]</td>
+            <td>[% l('&#36;1/point') %]</td>
+            <td>[% l('&#36;1/point') %]</td>
+            <td>[% l('&#36;1/point') %]</td>
+            <td>[% l('&#36;1/point') %]</td>
+            <td>[% l('&#36;1/point') %]</td>
           </tr>
           <tr>
             <td>[% l('Minimum Volume (Trade Size)') %]</td>
