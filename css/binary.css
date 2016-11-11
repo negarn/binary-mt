@@ -312,6 +312,10 @@ img.small {
   text-decoration: none;
 }
 
+div ul li.no-bullet {
+  list-style-image: none;
+}
+
 *, *:after, *:before {
   transition: opacity 0.2s, color 0.2s, background 0.2s;
 }
@@ -692,6 +696,10 @@ meter#password-meter::-webkit-meter-bar {
     overflow-x: auto;
   }
 }
+.tac-content .tab-menu {
+  margin-bottom: 25px;
+}
+
 /* static pages */
 .big-error-code {
   color: #DEDEDE;
