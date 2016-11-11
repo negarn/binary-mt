@@ -2,7 +2,7 @@
     <h2>
         [% l("Terms and Conditions") %]
     </h2>
-    <p>[% l("Version 2") %]</p>
+    <p>[% l("Version 3") %]</p>
         <h2>[% l("A. Introduction and Scope of Agreement") %]</h2>
             <ol>
                 <li>[% l("The term ‘we’, ‘us’, ‘our’, ‘ours’, ‘the Company’, or ‘Binary.com’ shall denote either Binary (V) Ltd. or Binary (C.R.) S.A., depending on the
@@ -379,7 +379,7 @@
                 <li>[% l("You make the following representations and warranties to us at the time you enter into this Agreement, and agree that such representations and warranties are deemed repeated each time you open or close a Transaction:") %]
                     <ul class="bullet">
                         <li>[% l("If you are an individual, you are over 18 years old and you have full capacity to enter into this Agreement;") %]</li>
-                        <li>[% l("You have fully read and understood the: (i) Risk Disclosure Statement; (ii) terms and condition attached to this Agreement; before requesting to open a Real Account with us;") %]</li>
+                        <li>[% l("You have fully read and understood the: (i) Risk Disclosure Statement; (ii) Order Execution Policy; (iii) terms and condition attached to this Agreement; before requesting to open a Real Account with us;") %]</li>
                         <li>[% l("You have all necessary authority, powers, consents, licences and authorisations and have taken all necessary actions to enable you to enter into and perform this Agreement and such Transactions lawfully;") %]</li>
                         <li>[% l("The execution, delivery and performance of this Agreement and each Transaction will not violate any law, ordinance, charter, by-law or rule applicable to you or the jurisdiction in which you are resident.") %]</li>
                         <li>[% l("You are willing and financially able to sustain a total loss of funds (which may exceed your initial deposit) resulting from a Transaction; ") %]</li>

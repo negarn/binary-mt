@@ -1,4 +1,4 @@
-<div class="content-tab-container static_full invisible">
+<div class="content-tab-container static_full invisible tac-content">
   <div class="tab-menu">
     <div class="tab-menu-wrap container">
       <ul id="legal-menu" class="tm-ul">
@@ -7,6 +7,9 @@
         </li>
         <li id="risk-tab" class="tm-li last">
             <a href="#risk-tab" class="tm-a">[% l('Risk Disclosure Statement') %]</a>
+        </li>
+        <li id="order-tab" class="tm-li last">
+            <a href="#order-tab" class="tm-a">[% l('Order Execution Policy') %]</a>
         </li>
       </ul>
     </div>
@@ -18,6 +21,9 @@
       </div>
       <div id="risk-tab-content" class="toggle-content">
         [% INCLUDE legal/risk_disclaimer.html.tt %]
+      </div>
+      <div id="order-tab-content" class="toggle-content">
+        [% INCLUDE legal/order_execution_policy.html.tt %]
       </div>
     </div>
   </div>
