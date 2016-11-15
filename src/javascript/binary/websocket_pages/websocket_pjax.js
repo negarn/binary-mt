@@ -5,3 +5,11 @@ pjax_config_page_require_auth("user/settings/metatrader", function() {
         }
     };
 });
+
+pjax_config_page_require_auth("user/settings/assessmentws", function() {
+    return {
+        onLoad: function() {
+            FinancialAssessmentws.onLoad();
+        }
+    };
+});
