@@ -39,6 +39,10 @@ var MetaTraderData = (function() {
         BinarySocket.send({'get_account_status': 1});
     };
 
+    var requestFinancialAssessment = function() {
+        BinarySocket.send({'get_financial_assessment': 1});
+    };
+
     var requestLandingCompany = function(residence) {
         residence = residence || Cookies.get('residence');
         if(residence && !lcRequested) {
@@ -66,6 +70,9 @@ var MetaTraderData = (function() {
                 break;
             case 'get_account_status':
                 MetaTraderUI.responseAccountStatus(response);
+                break;
+            case 'get_financial_assessment':
+                MetaTraderUI.responseFinancialAssessment(response);
                 break;
             case 'mt5_login_list':
                 if(response.req_id == 1) {
@@ -99,5 +106,6 @@ var MetaTraderData = (function() {
         requestSend          : requestSend,
         requestAccountStatus : requestAccountStatus,
         requestLandingCompany: requestLandingCompany,
+        requestFinancialAssessment: requestFinancialAssessment,
     };
 }());

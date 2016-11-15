@@ -33,6 +33,15 @@ function template(string, content) {
     });
 }
 
+function objectNotEmpty(obj) {
+    if (obj && obj instanceof Object) {
+        for (var key in obj) {
+            if (obj.hasOwnProperty(key)) return true;
+        }
+    }
+    return false;
+}
+
 function parseLoginIDList(string) {
     if (!string) return [];
     return string.split('+').sort().map(function(str) {
@@ -53,5 +62,6 @@ if (typeof module !== 'undefined') {
     module.exports = {
         template: template,
         parseLoginIDList: parseLoginIDList,
+        objectNotEmpty: objectNotEmpty,
     };
 }

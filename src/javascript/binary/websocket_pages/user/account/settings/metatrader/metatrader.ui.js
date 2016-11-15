@@ -6,6 +6,7 @@ var MetaTraderUI = (function() {
         $form,
         isValid,
         isAuthenticated,
+        isAssessmentDone,
         hasGamingCompany,
         hasFinancialCompany,
         currency,
@@ -246,6 +247,8 @@ var MetaTraderUI = (function() {
                 } else {
                     if(/financial/.test(accType) && !isAuthenticated) {
                         MetaTraderData.requestAccountStatus();
+                    } else if(/financial/.test(accType) && !isAssessmentDone) {
+                        MetaTraderData.requestFinancialAssessment();
                     } else {
                         $form = findInSection(accType, '.form-new-account');
                         $form.find('.account-type').text(text.localize(accType.charAt(0).toUpperCase() + accType.slice(1)));
@@ -294,6 +297,21 @@ var MetaTraderUI = (function() {
             manageTabContents();
         } else if(!page.client.is_virtual()) {
             $('.authenticate').removeClass(hiddenClass);
+        }
+    };
+
+    var responseFinancialAssessment = function(response) {
+        if(response.hasOwnProperty('error')) {
+            return showPageError(response.error.message, false);
+        }
+
+        if(objectNotEmpty(response.get_financial_assessment)) {
+            isAssessmentDone = true;
+            manageTabContents();
+        } else if(!page.client.is_virtual()) {
+            findInSection('financial', '.msg-account').html(
+                text.localize('To create a financial account for MetaTrader, please first complete the <a href="[_1]">Financial Assessment</a>.', [page.url.url_for('user/settings/assessmentws')])
+            ).removeClass(hiddenClass);
         }
     };
 
@@ -538,5 +556,6 @@ var MetaTraderUI = (function() {
         responsePasswordCheck  : responsePasswordCheck,
         responseAccountStatus  : responseAccountStatus,
         responseLandingCompany : responseLandingCompany,
+        responseFinancialAssessment: responseFinancialAssessment,
     };
 }());
