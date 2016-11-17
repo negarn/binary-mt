@@ -37,21 +37,21 @@ var FinancialAssessmentws = (function(){
         }
         $('#submit').attr('disabled', 'disabled');
         var data = {'set_financial_assessment' : 1};
-        showLoadingImg();
+        showLoadingImage($('#form_message'));
         $('#assessment_form select').each(function(){
             data[$(this).attr("id")] = $(this).val();
         });
-        $('html, body').animate({ scrollTop: 0 }, 'fast');
         BinarySocket.send(data);
     };
 
     var validateForm = function(){
         var isValid = true,
             errors = {};
+        $('.errorfield').each(function() { $(this).text(''); });
         $('#assessment_form select').each(function(){
             if(!$(this).val()){
                 isValid = false;
-                errors[$(this).attr("id")] = text.localize('Please select a value.');
+                errors[$(this).attr("id")] = text.localize('Please select a value');
             }
         });
         if(!isValid){
@@ -92,7 +92,7 @@ var FinancialAssessmentws = (function(){
             if(key){
                 var error = errors[key];
                 $("#error"+key).text(text.localize(error));
-                id = key;
+                if (!id) id = key;
             }
         }
         hideLoadingImg();
@@ -101,23 +101,18 @@ var FinancialAssessmentws = (function(){
         }, 'fast');
     };
 
-    var responseOnSuccess = function(){
-        $("#heading").hide();
-        hideLoadingImg(false);
-        $("#response_on_success").text(text.localize("Your details have been updated."))
-            .removeClass("invisible");
-    };
-
     var apiResponse = function(response){
         if (checkIsVirtual()) return;
-        if(response.msg_type === 'get_financial_assessment'){
+        if (response.msg_type === 'get_financial_assessment'){
             responseGetAssessment(response);
-        }
-        else if(response.msg_type === 'set_financial_assessment' && 'error' in response){
-            displayErrors(response.error.details);
-        }
-        else if(response.msg_type === 'set_financial_assessment'){
-            responseOnSuccess();
+        } else if (response.msg_type === 'set_financial_assessment') {
+            $('#submit').removeAttr('disabled');
+            if ('error' in response) {
+                showFormMessage('Sorry, an error occurred while processing your request.', false);
+                displayErrors(response.error.details);
+            } else {
+                showFormMessage('Your settings have been updated successfully.', true);
+            }
         }
     };
 
@@ -131,6 +126,15 @@ var FinancialAssessmentws = (function(){
         return false;
     };
 
+    var showFormMessage = function(msg, isSuccess) {
+        $('#form_message')
+            .attr('class', isSuccess ? 'success-msg' : 'errorfield')
+            .html(isSuccess ? '<ul class="checked" style="display: inline-block;"><li>' + text.localize(msg) + '</li></ul>' : text.localize(msg))
+            .css('display', 'block')
+            .delay(5000)
+            .fadeOut(1000);
+    };
+
     var onLoad = function() {
         BinarySocket.init({
             onmessage: function(msg) {
@@ -140,7 +144,7 @@ var FinancialAssessmentws = (function(){
                 }
             }
         });
-        showLoadingImage($('<div/>', {id: 'loading'}).insertAfter('#heading'));
+        showLoadingImage($('<div/>', {id: 'loading', class: 'center-text'}).insertAfter('#heading'));
         FinancialAssessmentws.init();
     };
 
