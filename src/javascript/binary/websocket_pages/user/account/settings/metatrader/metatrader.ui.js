@@ -229,7 +229,6 @@ var MetaTraderUI = (function() {
                 $form = findInSection(accType, '.form-new-account');
                 $form.removeClass(hiddenClass);
                 $form.find('.name-row').removeClass(hiddenClass);
-                passwordMeter();
             }
         } else if(/financial|volatility/.test(accType)) {
             if(!mt5Accounts.hasOwnProperty(accType)) {
@@ -253,7 +252,6 @@ var MetaTraderUI = (function() {
                         $form = findInSection(accType, '.form-new-account');
                         $form.find('.account-type').text(text.localize(accType.charAt(0).toUpperCase() + accType.slice(1)));
                         $form.find('.name-row').remove();
-                        passwordMeter();
                         $form.removeClass(hiddenClass);
                     }
                 }
@@ -431,19 +429,6 @@ var MetaTraderUI = (function() {
     // --------------------------
     // ----- Form Functions -----
     // --------------------------
-    var passwordMeter = function() {
-        if (isIE()) {
-            $form.find('.password-meter').remove();
-            return;
-        }
-
-        if($form.find('meter').length !== 0) {
-            $form.find('.password').unbind('input').on('input', function() {
-                $form.find('.password-meter').attr('value', testPassword($form.find('.password').val())[0]);
-            });
-        }
-    };
-
     var formValidate = function(formName) {
         clearError();
         isValid = true;
