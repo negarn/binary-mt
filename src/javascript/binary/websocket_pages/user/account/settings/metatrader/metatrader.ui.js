@@ -6,6 +6,7 @@ var MetaTraderUI = (function() {
         $form,
         isValid,
         isAuthenticated,
+        isAssessmentDone,
         hasGamingCompany,
         hasFinancialCompany,
         currency,
@@ -88,7 +89,7 @@ var MetaTraderUI = (function() {
         // display deposit/withdrawal form
         var $accordion = findInSection(accType, '.accordion');
         if(/financial|volatility/.test(accType)) {
-            findInSection(accType, '.msg-account, .authenticate').addClass(hiddenClass);
+            findInSection(accType, '.authenticate').addClass(hiddenClass);
             if(page.client.is_virtual()) {
                 $accordion.addClass(hiddenClass);
                 $('.msg-switch-to-deposit').removeClass(hiddenClass);
@@ -228,7 +229,6 @@ var MetaTraderUI = (function() {
                 $form = findInSection(accType, '.form-new-account');
                 $form.removeClass(hiddenClass);
                 $form.find('.name-row').removeClass(hiddenClass);
-                passwordMeter();
             }
         } else if(/financial|volatility/.test(accType)) {
             if(!mt5Accounts.hasOwnProperty(accType)) {
@@ -246,11 +246,12 @@ var MetaTraderUI = (function() {
                 } else {
                     if(/financial/.test(accType) && !isAuthenticated) {
                         MetaTraderData.requestAccountStatus();
+                    } else if(/financial/.test(accType) && !isAssessmentDone) {
+                        MetaTraderData.requestFinancialAssessment();
                     } else {
                         $form = findInSection(accType, '.form-new-account');
                         $form.find('.account-type').text(text.localize(accType.charAt(0).toUpperCase() + accType.slice(1)));
                         $form.find('.name-row').remove();
-                        passwordMeter();
                         $form.removeClass(hiddenClass);
                     }
                 }
@@ -297,6 +298,21 @@ var MetaTraderUI = (function() {
         }
     };
 
+    var responseFinancialAssessment = function(response) {
+        if(response.hasOwnProperty('error')) {
+            return showPageError(response.error.message, false);
+        }
+
+        if(objectNotEmpty(response.get_financial_assessment)) {
+            isAssessmentDone = true;
+            manageTabContents();
+        } else if(!page.client.is_virtual()) {
+            findInSection('financial', '.msg-account').html(
+                text.localize('To create a financial account for MetaTrader, please first complete the <a href="[_1]">Financial Assessment</a>.', [page.url.url_for('user/settings/assessmentws')])
+            ).removeClass(hiddenClass);
+        }
+    };
+
     var responseLoginList = function(response) {
         if(response.hasOwnProperty('error')) {
             return showPageError(response.error.message, false);
@@ -337,7 +353,8 @@ var MetaTraderUI = (function() {
 
         var new_login = response.mt5_new_account.login,
             new_type  = response.mt5_new_account.account_type;
-        mt5Logins[new_login] = new_type === 'gaming' ? 'volatility' : new_type;
+        if (new_type === 'gaming') new_type = 'volatility';
+        mt5Logins[new_login] = new_type;
         MetaTraderData.requestLoginDetails(new_login);
         showAccountMessage(new_type, text.localize('Congratulations! Your account has been created.'));
 
@@ -413,19 +430,6 @@ var MetaTraderUI = (function() {
     // --------------------------
     // ----- Form Functions -----
     // --------------------------
-    var passwordMeter = function() {
-        if (isIE()) {
-            $form.find('.password-meter').remove();
-            return;
-        }
-
-        if($form.find('meter').length !== 0) {
-            $form.find('.password').unbind('input').on('input', function() {
-                $form.find('.password-meter').attr('value', testPassword($form.find('.password').val())[0]);
-            });
-        }
-    };
-
     var formValidate = function(formName) {
         clearError();
         isValid = true;
@@ -538,5 +542,6 @@ var MetaTraderUI = (function() {
         responsePasswordCheck  : responsePasswordCheck,
         responseAccountStatus  : responseAccountStatus,
         responseLandingCompany : responseLandingCompany,
+        responseFinancialAssessment: responseFinancialAssessment,
     };
 }());
