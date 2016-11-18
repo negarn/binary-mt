@@ -89,7 +89,7 @@ var MetaTraderUI = (function() {
         // display deposit/withdrawal form
         var $accordion = findInSection(accType, '.accordion');
         if(/financial|volatility/.test(accType)) {
-            findInSection(accType, '.msg-account, .authenticate').addClass(hiddenClass);
+            findInSection(accType, '.authenticate').addClass(hiddenClass);
             if(page.client.is_virtual()) {
                 $accordion.addClass(hiddenClass);
                 $('.msg-switch-to-deposit').removeClass(hiddenClass);
@@ -353,7 +353,8 @@ var MetaTraderUI = (function() {
 
         var new_login = response.mt5_new_account.login,
             new_type  = response.mt5_new_account.account_type;
-        mt5Logins[new_login] = new_type === 'gaming' ? 'volatility' : new_type;
+        if (new_type === 'gaming') new_type = 'volatility';
+        mt5Logins[new_login] = new_type;
         MetaTraderData.requestLoginDetails(new_login);
         showAccountMessage(new_type, text.localize('Congratulations! Your account has been created.'));
 
