@@ -17089,11 +17089,8 @@ if (typeof module !== 'undefined') {
 // Parameters:
 // 1) container - a jQuery object
 //////////////////////////////////////////////////////////////////
-function showLoadingImage(container)
-{
-    var image_link = page.settings.get('image_link');
-
-    container.empty().append('<div id="std_loading_img"><p>'+text.localize('loading...')+'</p><img src="'+image_link['hourglass']+'" /></div>');
+function showLoadingImage(container) {
+    container.empty().append('<div class="barspinner dark"><div class="rect1"></div><div class="rect2"></div><div class="rect3"></div><div class="rect4"></div><div class="rect5"></div></div>');
 }
 
 function showLocalTimeOnHover(s) {
@@ -18244,11 +18241,17 @@ var BinarySocket = new BinarySocketClass();
             makeTextRow('Balance', currency + ' ' + mt5Accounts[accType].balance, 'balance') +
             makeTextRow('Name', mt5Accounts[accType].name) +
             // makeTextRow('Leverage', mt5Accounts[accType].leverage)
-            makeTextRow('', text.localize('Start trading with your MetaTrader Account:') + '<div class="center-text">' +
-                '<a class="button pjaxload" href="' + page.url.url_for('download-metatrader') + '" style="margin:10px 20px; display:inline-block;">' +
+            makeTextRow('', text.localize('Start trading with your MetaTrader Account:') + '<div class="download gr-padding-10">' +
+                '<a class="button pjaxload" href="' + page.url.url_for('download-metatrader') + '">' +
                     '<span>' + text.localize('Download MetaTrader') + '</span></a>' +
                 '<a class="button" href="' + (mtWebURL + 'login=' + mt5Accounts[accType].login) + '" target="_blank">' +
-                    '<span>' + text.localize('MetaTrader Web Platform') + '</span></a></div>')
+                    '<span>' + text.localize('MetaTrader Web Platform') + '</span></a><br />' +
+                '<a href="https://download.mql5.com/cdn/mobile/mt5/ios?server=Binary.com-Server" target="_blank">' +
+                    '<div class="app-store-badge"></div>' +
+                '</a>' +
+                '<a href="https://download.mql5.com/cdn/mobile/mt5/android?server=Binary.com-Server" target="_blank">' +
+                    '<div class="google-play-badge"></div>' +
+                '</a></div>')
         ));
         findInSection(accType, '.account-details').html($details.html());
 

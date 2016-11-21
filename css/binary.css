@@ -320,31 +320,6 @@ div ul li.no-bullet {
   transition: opacity 0.2s, color 0.2s, background 0.2s;
 }
 
-@keyframes spinning {
-  from {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
-}
-@-webkit-keyframes spinning {
-  from {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
-}
-.spinner {
-  -webkit-animation: spinning 1s infinite linear;
-  animation: spinning 1s infinite linear;
-}
-
 /* main style */
 /* Logo and top bar */
 #topbar {
@@ -412,11 +387,8 @@ div ul li.no-bullet {
 #header select#client_loginid option[disabled=disabled] {
   background-color: #F2F2F2;
 }
-#header #binary-logo-text {
+#header .binary-logo-text {
   margin-top: 10px;
-}
-#header #binary-logo-text img {
-  width: 90%;
 }
 #header #client-logged-out {
   text-align: right;
@@ -667,6 +639,11 @@ div ul li.no-bullet {
 #mt-container .sidebar-left {
   margin-bottom: 20px;
 }
+#mt-container .download a {
+  margin: 0 10px 10px 0;
+  display: inline-block;
+  vertical-align: middle;
+}
 
 #contract-specs table td {
   font-size: 0.9em;
@@ -692,6 +669,134 @@ div ul li.no-bullet {
   color: #DEDEDE;
   font-size: 10em;
   font-weight: normal;
+}
+
+/* Language based rules */
+/* Specific rules for languages */
+body ul.checked li {
+  background-position: left;
+  padding-left: 35px;
+}
+body .app-store-badge, body .google-play-badge {
+  background-repeat: no-repeat;
+  width: 135px;
+  height: 40px;
+  display: inline-block;
+}
+body .app-store-badge {
+  background-image: url("../images/pages/applications/appstore_en.svg");
+}
+body .google-play-badge {
+  background-image: url("../images/pages/applications/googleplay_en.svg");
+}
+
+body.DE a, body.DE button, body.DE .button, body.DE span, body.DE input, body.FR a, body.FR button, body.FR .button, body.FR span, body.FR input, body.IT a, body.IT button, body.IT .button, body.IT span, body.IT input, body.PT a, body.PT button, body.PT .button, body.PT span, body.PT input, body.RU a, body.RU button, body.RU .button, body.RU span, body.RU input {
+  text-transform: initial !important;
+}
+body.DE h1, body.DE h2, body.DE h3, body.DE h4, body.DE h5, body.DE h6, body.FR h1, body.FR h2, body.FR h3, body.FR h4, body.FR h5, body.FR h6, body.IT h1, body.IT h2, body.IT h3, body.IT h4, body.IT h5, body.IT h6, body.PT h1, body.PT h2, body.PT h3, body.PT h4, body.PT h5, body.PT h6, body.RU h1, body.RU h2, body.RU h3, body.RU h4, body.RU h5, body.RU h6 {
+  text-transform: initial !important;
+}
+
+body.DE .app-store-badge {
+  background-image: url("../images/pages/applications/appstore_de.svg");
+}
+body.DE .google-play-badge {
+  background-image: url("../images/pages/applications/googleplay_de.svg");
+}
+
+body.ES .app-store-badge {
+  background-image: url("../images/pages/applications/appstore_es.svg");
+}
+body.ES .google-play-badge {
+  background-image: url("../images/pages/applications/googleplay_es.svg");
+}
+
+/*French Language */
+body.FR #header .account-type {
+  font-size: 85%;
+}
+body.FR .app-store-badge {
+  background-image: url("../images/pages/applications/appstore_fr.svg");
+}
+body.FR .google-play-badge {
+  background-image: url("../images/pages/applications/googleplay_fr.svg");
+}
+
+/*Indonesian Language */
+body.ID #regulatory-text {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+body.ID .id-hide {
+  display: none !important;
+}
+body.ID #language_select {
+  display: none;
+}
+body.ID .app-store-badge {
+  background-image: url("../images/pages/applications/appstore_id.svg");
+}
+body.ID .google-play-badge {
+  background-image: url("../images/pages/applications/googleplay_id.svg");
+}
+
+body.IT .app-store-badge {
+  background-image: url("../images/pages/applications/appstore_it.svg");
+}
+body.IT .google-play-badge {
+  background-image: url("../images/pages/applications/googleplay_it.svg");
+}
+
+body.PT .app-store-badge {
+  background-image: url("../images/pages/applications/appstore_pt.svg");
+}
+body.PT .google-play-badge {
+  background-image: url("../images/pages/applications/googleplay_pt.svg");
+}
+
+body.PL .app-store-badge {
+  background-image: url("../images/pages/applications/appstore_pl.svg");
+}
+body.PL .google-play-badge {
+  background-image: url("../images/pages/applications/googleplay_pl.svg");
+}
+
+body.RU #header .account-type {
+  font-size: 90%;
+}
+body.RU .app-store-badge {
+  background-image: url("../images/pages/applications/appstore_ru.svg");
+}
+body.RU .google-play-badge {
+  background-image: url("../images/pages/applications/googleplay_ru.svg");
+}
+
+body.TH .app-store-badge {
+  background-image: url("../images/pages/applications/appstore_th.svg");
+}
+body.TH .google-play-badge {
+  background-image: url("../images/pages/applications/googleplay_th.svg");
+}
+
+body.VI .app-store-badge {
+  background-image: url("../images/pages/applications/appstore_vi.svg");
+}
+body.VI .google-play-badge {
+  background-image: url("../images/pages/applications/googleplay_vi.svg");
+}
+
+body.ZH_CN .app-store-badge {
+  background-image: url("../images/pages/applications/appstore_zh_cn.svg");
+}
+body.ZH_CN .google-play-badge {
+  background-image: url("../images/pages/applications/googleplay_zh_cn.svg");
+}
+
+body.ZH_TW .app-store-badge {
+  background-image: url("../images/pages/applications/appstore_zh_tw.svg");
+}
+body.ZH_TW .google-play-badge {
+  background-image: url("../images/pages/applications/googleplay_zh_tw.svg");
 }
 
 /* external stylesheets
