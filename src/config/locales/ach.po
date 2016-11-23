@@ -1,0 +1,109 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: binary-mt\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2016-11-23 05:36-0500\n"
+"Last-Translator: binarycom <jy@binary.com>\n"
+"Language-Team: Acholi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: binary-mt\n"
+"X-Crowdin-Language: ach\n"
+"X-Crowdin-File: /translations/src/config/locales/messages.pot\n"
+"Language: ach_UG\n"
+
+msgid "%1 academy"
+msgstr "crwdns16686:0%1crwdne16686:0"
+
+msgid "%1 is the award-winning industry pioneer in online options trading."
+msgstr "crwdns16687:0%1crwdne16687:0"
+
+msgid "&#8220;%1 is one of the oldest and trustworthy partners we ever had. We have worked together for many years.&#8221;"
+msgstr "crwdns16688:0%1crwdne16688:0"
+
+msgid "&#8220;We have used www.binary.com for the last 8 years and highly recommend binary to all our members worldwide&#8221;"
+msgstr "crwdns16689:0crwdne16689:0"
+
+msgid "<strong>All durations:</strong> from 10 seconds to 365 days."
+msgstr "crwdns16690:0crwdne16690:0"
+
+msgid "<strong>All market conditions:</strong> up/down, touch/no-touch, stays in/goes out."
+msgstr "crwdns16691:0crwdne16691:0"
+
+msgid "<strong>All markets:</strong> currencies, stocks, indices, and commodities."
+msgstr "crwdns16692:0crwdne16692:0"
+
+msgid "<strong>All payouts:</strong> from $1 to $50,000."
+msgstr "crwdns16693:0crwdne16693:0"
+
+msgid "Andrei Asavei <span>Top Binary Options Brokers</span>"
+msgstr "crwdns16694:0crwdne16694:0"
+
+msgid "Create Free Account"
+msgstr "crwdns16695:0crwdne16695:0"
+
+msgid "Day"
+msgstr "crwdns16696:0crwdne16696:0"
+
+msgid "Enter your email"
+msgstr "crwdns16697:0crwdne16697:0"
+
+msgid "Free E-books"
+msgstr "crwdns16698:0crwdne16698:0"
+
+msgid "Free daily market report"
+msgstr "crwdns16699:0crwdne16699:0"
+
+msgid "Free trading charts"
+msgstr "crwdns16700:0crwdne16700:0"
+
+msgid "Free webinars"
+msgstr "crwdns16701:0crwdne16701:0"
+
+msgid "Hundreds of deposit and withdrawal options."
+msgstr "crwdns16702:0crwdne16702:0"
+
+msgid "Improve your trading skills with our free educational & training resources."
+msgstr "crwdns16703:0crwdne16703:0"
+
+msgid "Joshua Cavallaro <span> Markets And You Trader.</span>"
+msgstr "crwdns16704:0crwdne16704:0"
+
+msgid "Payment methods"
+msgstr "crwdns16705:0crwdne16705:0"
+
+msgid "Sharp prices"
+msgstr "crwdns16706:0crwdne16706:0"
+
+msgid "Start learning"
+msgstr "crwdns16707:0crwdne16707:0"
+
+msgid "The <strong>Premier Platform</strong> for Binary Options Trading"
+msgstr "crwdns16708:0crwdne16708:0"
+
+msgid "The easiest way to get started in the financial markets"
+msgstr "crwdns16709:0crwdne16709:0"
+
+msgid "Trade <strong>24/7</strong>, even on weekends."
+msgstr "crwdns16710:0crwdne16710:0"
+
+msgid "Trade in the world's financial markets in a simple, user-friendly platform."
+msgstr "crwdns16711:0crwdne16711:0"
+
+msgid "Trade your way"
+msgstr "crwdns16712:0crwdne16712:0"
+
+msgid "What our clients are saying"
+msgstr "crwdns16713:0crwdne16713:0"
+
+msgid "Why choose us"
+msgstr "crwdns16714:0crwdne16714:0"
+
+msgid "Your funds are safe"
+msgstr "crwdns16715:0crwdne16715:0"
+
+msgid "Online Trading platform for binary options on Forex, Indices, Commodities and Smart Indices"
+msgstr "crwdns16716:0crwdne16716:0"
