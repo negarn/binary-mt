@@ -10,16 +10,19 @@
 @import 'common/header';
 @import 'common/footer';
 @import 'common/nav';
-@import 'common/password-meter';
 @import 'common/accordion';
 
 /* pages */
 @import 'pages/home.scss';
 @import 'pages/metatrader.scss';
+@import 'pages/contract_specs.scss';
+@import 'pages/tac.scss';
 
 /* static pages */
-@import 'static/balance.scss';
 @import 'static/404.scss';
+
+/* Language based rules */
+@import 'language_base.scss';
 
 /* external stylesheets
  * ===================================== */

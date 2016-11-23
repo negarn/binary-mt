@@ -8,7 +8,7 @@
             <div class="sidebar-left">
                 <ul class="sidebar-nav">
                     <li id="nav-demo" class="selected"><a href="#demo">[% l('Demo Account') %]</a></li>
-                    <li id="nav-financial" class="invisible"><a href="#financial">[% l('Financial Account') %]</a></li>
+                    <li id="nav-financial"><a href="#financial">[% l('Financial Account') %]</a></li>
                     <li id="nav-volatility"><a href="#volatility">[% l('Volatility Indices') %]</a></li>
                 </ul>
             </div>
@@ -43,8 +43,7 @@
                         <div class="gr-6 form_label"><label>[% l('Main Password (trading access)') %]</label></div>
                         <div class="gr-6">
                             <input type="password" class="txtMainPass password">
-                            <div><meter id="password-meter" class="password-meter" value="" max="50" min="0" high="20" low="10" optimum="50"></meter></div>
-                            <div class="hint">[% l('Minimum of six lower and uppercase letters with numbers') %]</div>
+                            <div class="hint">[% l('Minimum of eight lower and uppercase letters with numbers') %]</div>
                         </div>
                     </div>
                     <div class="gr-row gr-padding-10">
@@ -68,11 +67,13 @@
             <div id="section-financial" class="section invisible">
                 <h3>[% l('Financial Account') %]</h3>
                 <p class="msg-account notice-msg center-text invisible"></p>
-                <div class="authenticate center-text invisible">
-                    <p>[% l('To create an account for MetaTrader, you need to authenticate your Binary account:') %]</p>
-                    <a class="button" target="_blank">
-                        <span>Authenticate your account</span>
-                    </a>
+                <div class="authenticate invisible">
+                    <p>[% l('In order to create an account for MetaTrader, you need to authenticate your Binary account.') %]</p>
+                    <p>[% l('To authenticate your account, kindly email the following to <a href="mailto:[_1]">[_1]</a>', 'support@binary.com') %]</p>
+                    <ul class="bullet">
+                        <li>[% l('A scanned copy of your passport, driving licence (provisional or full) or identity card, showing your name and date of birth.') %]</li>
+                        <li>[% l('A scanned copy of a utility bill or bank statement (no more than 3 months old).') %]</li>
+                    </ul>
                 </div>
                 <form class="form-new-account invisible"></form>
                 <div class="account-details"></div>

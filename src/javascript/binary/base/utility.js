@@ -3,11 +3,8 @@
 // Parameters:
 // 1) container - a jQuery object
 //////////////////////////////////////////////////////////////////
-function showLoadingImage(container)
-{
-    var image_link = page.settings.get('image_link');
-
-    container.empty().append('<div id="std_loading_img"><p>'+text.localize('loading...')+'</p><img src="'+image_link['hourglass']+'" /></div>');
+function showLoadingImage(container) {
+    container.empty().append('<div class="barspinner dark"><div class="rect1"></div><div class="rect2"></div><div class="rect3"></div><div class="rect4"></div><div class="rect5"></div></div>');
 }
 
 function showLocalTimeOnHover(s) {
@@ -33,6 +30,15 @@ function template(string, content) {
     });
 }
 
+function objectNotEmpty(obj) {
+    if (obj && obj instanceof Object) {
+        for (var key in obj) {
+            if (obj.hasOwnProperty(key)) return true;
+        }
+    }
+    return false;
+}
+
 function parseLoginIDList(string) {
     if (!string) return [];
     return string.split('+').sort().map(function(str) {
@@ -53,5 +59,6 @@ if (typeof module !== 'undefined') {
     module.exports = {
         template: template,
         parseLoginIDList: parseLoginIDList,
+        objectNotEmpty: objectNotEmpty,
     };
 }

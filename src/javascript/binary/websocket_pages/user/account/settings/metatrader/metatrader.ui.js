@@ -6,6 +6,7 @@ var MetaTraderUI = (function() {
         $form,
         isValid,
         isAuthenticated,
+        isAssessmentDone,
         hasGamingCompany,
         hasFinancialCompany,
         currency,
@@ -44,6 +45,7 @@ var MetaTraderUI = (function() {
             if(hasGamingCompany) {
                 $('#section-financial').contents().clone().appendTo('#section-volatility');
                 $('#section-volatility > h3').text(text.localize('Volatility Indices Account'));
+                $('#section-volatility > .authenticate').remove();
             } else {
                 hideAccount('volatility');
             }
@@ -70,21 +72,30 @@ var MetaTraderUI = (function() {
 
     var displayAccount = function(accType) {
         findInSection(accType, '.form-new-account').addClass(hiddenClass);
+        var mtWebURL = 'https://trade.mql5.com/trade?servers=Binary.com-Server&amp;trade_server=Binary.com-Server&amp;';
         var $details = $('<div/>').append($(
             makeTextRow('Login', mt5Accounts[accType].login) +
             makeTextRow('Balance', currency + ' ' + mt5Accounts[accType].balance, 'balance') +
             makeTextRow('Name', mt5Accounts[accType].name) +
             // makeTextRow('Leverage', mt5Accounts[accType].leverage)
-            makeTextRow('', text.localize('Start trading with your MetaTrader Account') +
-                ' <a class="button pjaxload" href="' + page.url.url_for('download-metatrader') + '" style="margin:0 20px;">' +
-                    '<span>' + text.localize('Download MetaTrader') + '</span></a>')
+            makeTextRow('', text.localize('Start trading with your MetaTrader Account:') + '<div class="download gr-padding-10">' +
+                '<a class="button pjaxload" href="' + page.url.url_for('download-metatrader') + '">' +
+                    '<span>' + text.localize('Download MetaTrader') + '</span></a>' +
+                '<a class="button" href="' + (mtWebURL + 'login=' + mt5Accounts[accType].login) + '" target="_blank">' +
+                    '<span>' + text.localize('MetaTrader Web Platform') + '</span></a><br />' +
+                '<a href="https://download.mql5.com/cdn/mobile/mt5/ios?server=Binary.com-Server" target="_blank">' +
+                    '<div class="app-store-badge"></div>' +
+                '</a>' +
+                '<a href="https://download.mql5.com/cdn/mobile/mt5/android?server=Binary.com-Server" target="_blank">' +
+                    '<div class="google-play-badge"></div>' +
+                '</a></div>')
         ));
         findInSection(accType, '.account-details').html($details.html());
 
         // display deposit/withdrawal form
         var $accordion = findInSection(accType, '.accordion');
         if(/financial|volatility/.test(accType)) {
-            findInSection(accType, '.msg-account, .authenticate').addClass(hiddenClass);
+            findInSection(accType, '.authenticate').addClass(hiddenClass);
             if(page.client.is_virtual()) {
                 $accordion.addClass(hiddenClass);
                 $('.msg-switch-to-deposit').removeClass(hiddenClass);
@@ -98,10 +109,13 @@ var MetaTraderUI = (function() {
                     $form.find('button').unbind('click').click(function(e) {
                         e.preventDefault();
                         e.stopPropagation();
-                        if(/deposit/.test(formClass)) {
-                            depositToMTAccount(accType);
-                        } else {
-                            withdrawFromMTAccount(accType);
+                        if (!$(this).attr('disabled')) {
+                            $(this).addClass('button-disabled').attr('disabled', 'disabled');
+                            if(/deposit/.test(formClass)) {
+                                depositToMTAccount(accType);
+                            } else {
+                                withdrawFromMTAccount(accType);
+                            }
                         }
                     });
                 });
@@ -221,7 +235,6 @@ var MetaTraderUI = (function() {
                 $form = findInSection(accType, '.form-new-account');
                 $form.removeClass(hiddenClass);
                 $form.find('.name-row').removeClass(hiddenClass);
-                passwordMeter();
             }
         } else if(/financial|volatility/.test(accType)) {
             if(!mt5Accounts.hasOwnProperty(accType)) {
@@ -239,11 +252,12 @@ var MetaTraderUI = (function() {
                 } else {
                     if(/financial/.test(accType) && !isAuthenticated) {
                         MetaTraderData.requestAccountStatus();
+                    } else if(/financial/.test(accType) && !isAssessmentDone) {
+                        MetaTraderData.requestFinancialAssessment();
                     } else {
                         $form = findInSection(accType, '.form-new-account');
                         $form.find('.account-type').text(text.localize(accType.charAt(0).toUpperCase() + accType.slice(1)));
                         $form.find('.name-row').remove();
-                        passwordMeter();
                         $form.removeClass(hiddenClass);
                     }
                 }
@@ -286,8 +300,22 @@ var MetaTraderUI = (function() {
             isAuthenticated = true;
             manageTabContents();
         } else if(!page.client.is_virtual()) {
-            $('.authenticate a').attr('href', page.url.url_for('/user/authenticatews', '', true));
             $('.authenticate').removeClass(hiddenClass);
+        }
+    };
+
+    var responseFinancialAssessment = function(response) {
+        if(response.hasOwnProperty('error')) {
+            return showPageError(response.error.message, false);
+        }
+
+        if(objectNotEmpty(response.get_financial_assessment)) {
+            isAssessmentDone = true;
+            manageTabContents();
+        } else if(!page.client.is_virtual()) {
+            findInSection('financial', '.msg-account').html(
+                text.localize('To create a financial account for MetaTrader, please first complete the <a href="[_1]">Financial Assessment</a>.', [page.url.url_for('user/settings/assessmentws')])
+            ).removeClass(hiddenClass);
         }
     };
 
@@ -318,6 +346,7 @@ var MetaTraderUI = (function() {
         }
 
         var accType = MetaTrader.getAccountType(response.mt5_get_settings.group);
+        mt5Logins[response.mt5_get_settings.login] = accType;
         mt5Accounts[accType] = response.mt5_get_settings;
         displayTab();
         displayAccount(accType);
@@ -328,12 +357,38 @@ var MetaTraderUI = (function() {
             return showFormMessage(response.error.message, false);
         }
 
-        MetaTraderData.requestLoginDetails(response.mt5_new_account.login);
-        showAccountMessage(response.mt5_new_account.account_type, text.localize('Congratulations! Your account has been created.'));
+        var new_login = response.mt5_new_account.login,
+            new_type  = response.mt5_new_account.account_type;
+        if (new_type === 'gaming') new_type = 'volatility';
+        mt5Logins[new_login] = new_type;
+        MetaTraderData.requestLoginDetails(new_login);
+        showAccountMessage(new_type, text.localize('Congratulations! Your account has been created.'));
+
+        // Update mt5_logins in localStorage
+        var mt5_logins = JSON.parse(page.client.get_storage_value('mt5_logins') || '{}');
+        mt5_logins[new_type] = new_login;
+        page.client.set_storage_value('mt5_logins', JSON.stringify(mt5_logins));
+
+        // Push GTM
+        var gtm_data = {
+            'event'           : 'mt5_new_account',
+            'url'             : window.location.href,
+            'mt5_date_joined' : Math.floor(Date.now() / 1000),
+        };
+        gtm_data['mt5_' + new_type] = new_login;
+        if (new_type === 'demo' && !page.client.is_virtual()) {
+            var virtual_loginid;
+            page.user.loginid_array.forEach(function(login) {
+                if (!login.real && !login.disabled) virtual_loginid = login.id;
+            });
+            gtm_data['visitorId'] = virtual_loginid;
+        }
+        GTM.push_data_layer(gtm_data);
     };
 
     var responseDeposit = function(response) {
         $form = findInSection(mt5Logins[response.echo_req.to_mt5], '.form-deposit');
+        enableButton($form.find('button'));
         if(response.hasOwnProperty('error')) {
             return showFormMessage(response.error.message, false);
         }
@@ -350,6 +405,7 @@ var MetaTraderUI = (function() {
 
     var responseWithdrawal = function(response) {
         $form = findInSection(mt5Logins[response.echo_req.from_mt5], '.form-withdrawal');
+        enableButton($form.find('button'));
         if(response.hasOwnProperty('error')) {
             return showFormMessage(response.error.message, false);
         }
@@ -368,6 +424,7 @@ var MetaTraderUI = (function() {
         var accType = mt5Logins[response.echo_req.login];
         $form = findInSection(accType, '.form-withdrawal');
         if(response.hasOwnProperty('error')) {
+            enableButton($form.find('button'));
             return showError('.txtMainPass', response.error.message);
         }
 
@@ -379,19 +436,6 @@ var MetaTraderUI = (function() {
     // --------------------------
     // ----- Form Functions -----
     // --------------------------
-    var passwordMeter = function() {
-        if (isIE()) {
-            $form.find('.password-meter').remove();
-            return;
-        }
-
-        if($form.find('meter').length !== 0) {
-            $form.find('.password').unbind('input').on('input', function() {
-                $form.find('.password-meter').attr('value', testPassword($form.find('.password').val())[0]);
-            });
-        }
-    };
-
     var formValidate = function(formName) {
         clearError();
         isValid = true;
@@ -449,6 +493,9 @@ var MetaTraderUI = (function() {
             }
         }
 
+        if (!isValid) {
+            enableButton($form.find('button'));
+        }
         return isValid;
     };
 
@@ -487,6 +534,10 @@ var MetaTraderUI = (function() {
         findInSection(accType, '.msg-account').html(message).removeClass(hiddenClass);
     };
 
+    var enableButton = function($btn) {
+        $btn.removeClass('button-disabled').removeAttr('disabled');
+    };
+
     return {
         init: init,
         responseLoginList      : responseLoginList,
@@ -497,5 +548,6 @@ var MetaTraderUI = (function() {
         responsePasswordCheck  : responsePasswordCheck,
         responseAccountStatus  : responseAccountStatus,
         responseLandingCompany : responseLandingCompany,
+        responseFinancialAssessment: responseFinancialAssessment,
     };
 }());

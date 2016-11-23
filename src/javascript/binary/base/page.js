@@ -148,6 +148,7 @@ Client.prototype = {
         this.set_storage_value('is_virtual', TUser.get().is_virtual);
         this.check_storage_values();
         page.contents.activate_by_client_type();
+        page.contents.activate_by_login();
         page.contents.topbar_message_visibility();
     },
     response_mt5_login_list: function(response) {
@@ -408,12 +409,31 @@ Header.prototype = {
     on_unload: function() {
         this.menu.reset();
     },
+    animate_disappear: function(element) {
+        element.animate({'opacity':0}, 100, function() {
+            element.css('visibility', 'hidden');
+        });
+    },
+    animate_appear: function(element) {
+        element.css('visibility', 'visible').animate({'opacity': 1}, 100);
+    },
     show_or_hide_login_form: function() {
         if (!this.user.is_logged_in || !this.client.is_logged_in) return;
-        var $login_options = $('#client_loginid');
+        var all_accounts = $('#all-accounts');
+        var that = this;
+        $('.nav-menu').unbind('click').on('click', function(event) {
+            event.stopPropagation();
+            if (all_accounts.css('opacity') == 1) {
+                that.animate_disappear(all_accounts);
+            } else {
+                that.animate_appear(all_accounts);
+            }
+        });
+        $(document).unbind('click').on('click', function() {
+            that.animate_disappear(all_accounts);
+        });
+        var loginid_select = '';
         var loginid_array = this.user.loginid_array;
-        $login_options.html('');
-
         for (var i=0; i < loginid_array.length; i++) {
             var login = loginid_array[i];
             if (login.disabled) continue;
@@ -425,13 +445,18 @@ Header.prototype = {
                 else if (login.non_financial) type = 'Gaming';
                 else                          type = 'Real';
             }
+            type = type + ' Account';
 
-            $login_options.append($('<option/>', {
-                value: curr_id,
-                selected: curr_id == this.client.loginid,
-                text: template('[_1] Account ([_2])', [type, curr_id]),
-            }));
+            // default account
+            if (curr_id == this.client.loginid) {
+                $('#client-logged-in .account-type').html(text.localize(type));
+                $('#client-logged-in .account-id').html(curr_id);
+            } else {
+                loginid_select += '<a href="#" value="' + curr_id + '"><li>' + text.localize(type) + '<div>' + curr_id + '</div>' +
+                                  '</li></a>' + '<div class="separator-line-thin-gray"></div>';
+            }
         }
+        $(".login-id-list").html(loginid_select);
     },
     register_dynamic_links: function() {
         var logged_in_url = page.url.url_for(this.client.is_logged_in ? 'user/settings/metatrader' : '');
@@ -580,6 +605,11 @@ Contents.prototype = {
             $('#topbar').addClass('primary-color-dark');
         }
     },
+    activate_by_login: function() {
+        if(this.client.is_logged_in) {
+            $('.client_logged_in').removeClass('invisible');
+        }
+    },
     update_content_class: function() {
         //This is required for our css to work.
         $('#content').removeClass();
@@ -666,9 +696,10 @@ Page.prototype = {
     },
     on_change_loginid: function() {
         var that = this;
-        $('#client_loginid').on('change', function() {
+        $('.login-id-list a').on('click', function(e) {
+            e.preventDefault();
             $(this).attr('disabled','disabled');
-            that.switch_loginid($(this).val());
+            that.switch_loginid($(this).attr('value'));
         });
     },
     switch_loginid: function(loginid) {
@@ -689,7 +720,7 @@ Page.prototype = {
         // set local storage
         GTM.set_login_flag();
         localStorage.setItem('active_loginid', loginid);
-        $('#client_loginid').removeAttr('disabled');
+        $('.login-id-list a').removeAttr('disabled');
         page.reload();
     },
     localize_for: function(language) {

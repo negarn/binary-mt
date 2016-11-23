@@ -1,0 +1,17 @@
+#contract-specs {
+    table td {
+        font-size: 0.9em;
+        text-align: center;
+        &:first-child {
+            white-space: nowrap;
+            font-size: inherit;
+            text-align: left;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .table-container {
+        overflow-x: auto;
+    }
+}

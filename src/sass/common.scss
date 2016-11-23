@@ -71,7 +71,7 @@ acronym, abbr {
     cursor: help;
 }
 
-span.button.button-disabled button.button-disabled {
+span.button.button-disabled, button.button-disabled, button.button-disabled:hover {
     color: $COLOR_GRAY_SHADE;
     background: $COLOR_LIGHT_GRAY;
     cursor: default;
@@ -239,4 +239,8 @@ img.small {
 
 .button:hover {
     text-decoration: none;
+}
+
+div ul li.no-bullet {
+    list-style-image: none;
 }
