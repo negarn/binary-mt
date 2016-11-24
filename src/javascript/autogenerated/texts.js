@@ -1,6 +1,5 @@
 var texts_json = {};
 texts_json['EN'] = {};
-texts_json['AR'] = {};
 texts_json['DE'] = {};
 texts_json['ES'] = {};
 texts_json['FR'] = {};
@@ -9,6 +8,7 @@ texts_json['IT'] = {};
 texts_json['PL'] = {};
 texts_json['PT'] = {};
 texts_json['RU'] = {};
+texts_json['TH'] = {};
 texts_json['VI'] = {};
 texts_json['ZH_CN'] = {};
 texts_json['ZH_TW'] = {};
