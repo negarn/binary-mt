@@ -36,7 +36,7 @@ sub set_is_dev { $IS_DEV = 1; }
 our $BRANCH = '';
 sub branch { return $BRANCH; }
 sub set_branch {
-    $BRANCH = 'br_'.shift;
+    $BRANCH = shift;
     # chomp ($BRANCH = `git symbolic-ref --short HEAD`); $BRANCH = '_'.(split('/', $BRANCH))[-1];
 }
 
@@ -90,7 +90,7 @@ sub lang_display_name {
 
 ## url_for
 sub root_url {
-    return is_dev() ? '/binary-mt/'.($BRANCH ? $BRANCH.'/' : '') : '/';
+    return '/'.(is_dev() ? 'binary-mt/' : '').($BRANCH ? $BRANCH.'/' : '');
 }
 
 my %__request;

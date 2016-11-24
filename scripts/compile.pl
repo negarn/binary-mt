@@ -18,7 +18,7 @@ require "config/pages.pl";
 
 # force = re-generate all files
 # dev   = for domain like http://fayland.github.io/binary-static/ which has a sub path
-# branch = will add br_[branch_name] to path
+# branch = will add [branch_name] to path
 # pattern = the url pattern to rebuild
 # verbose = to display list of all generated files
 my $force;

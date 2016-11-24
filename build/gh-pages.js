@@ -6,7 +6,7 @@ module.exports = function (grunt) {
                 add: (grunt.option('cleanup') ? false : true),
                 message: 'Auto-generated commit',
             },
-            src: global.branch ? [global.branch_prefix + global.branch + '/**'] : ['**', '!' + global.branch_prefix + '*/**']
+            src: global.branch ? [global.branch_prefix + global.branch + '/**'] : ['**', '!' + (global.branch_prefix || 'br_') + '*/**']
         }
     }
 };
