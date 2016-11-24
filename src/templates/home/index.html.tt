@@ -5,7 +5,7 @@
                 <h1 class="center-text gr-padding-10">[% l('Introducing <strong>MetaTrader 5</strong> for binary.com') %]</h1>
             </div>
             <div class="gr-6 gr-12-m">
-                <img class="responsive" src="[% request.url_for('images/pages/metatrader/mt5-imac.svg') %]"/>
+                <img class="responsive" src="[% request.url_for('images/pages/home/mt5-imac.png') %]"/>
             </div>
             <div class="gr-6 gr-12-m banner-text">
                 <div>[% l('Binary.com enters Forex and CFD trading with the universal acclaimed MetaTrader 5, in addition to its continued leadership presence in the binary options market.') %]</div>
@@ -42,7 +42,7 @@
                 </div>
                 <div class="gr-4 gr-12-m">
                     <div class="center-text">
-                        <img class="small" src="[% request.url_for('images/pages/home/competitive_spread.svg') %]" alt="">
+                        <img class="small" src="[% request.url_for('images/pages/home/accounts.svg') %]" alt="">
                     </div>
                     <p>[% l('Trade on Demo and Real accounts. Deposit funds easily by using your Bianry.com account cashier.') %]</p>
                 </div>
@@ -64,13 +64,13 @@
                 </div>
                 <div class="gr-4 gr-12-m">
                     <div class="center-text">
-                        <img class="small" src="[% request.url_for('images/pages/home/24hr.svg') %]" alt="">
+                        <img class="small" src="[% request.url_for('images/pages/home/wide_range.svg') %]" alt="">
                     </div>
                     <p>[% l('Subscribe to a wide range of algorithmic trading strategies from the built-in MetaTrader Market.') %]</p>
                 </div>
                 <div class="gr-4 gr-12-m">
                     <div class="center-text">
-                        <img class="small" src="[% request.url_for('images/pages/home/expert_advisors.svg') %]" alt="">
+                        <img class="small" src="[% request.url_for('images/pages/home/mobile_desktop.svg') %]" alt="">
                     </div>
                     <p>[% l('Trade using the mobile and desktop apps, or use the web platform from any web browser.') %]</p>
                 </div>
