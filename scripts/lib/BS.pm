@@ -58,7 +58,7 @@ sub localize {
 }
 
 sub all_languages {
-    return ('EN', 'DE', 'ES', 'FR', 'ID', 'IT', 'PL', 'PT', 'RU', 'TH', 'VI', 'ZH_CN', 'ZH_TW');
+    return $BRANCH eq 'translations' ? ('ACH') : ('EN', 'DE', 'ES', 'FR', 'ID', 'IT', 'PL', 'PT', 'RU', 'TH', 'VI', 'ZH_CN', 'ZH_TW');
 }
 
 sub rtl_languages {
@@ -69,6 +69,7 @@ sub lang_display_name {
     my $iso_code = shift;
 
     my %lang_code_name = (
+        ACH   => 'Translation',
         DE    => 'Deutsch',
         ES    => 'Español',
         FR    => 'Français',

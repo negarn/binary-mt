@@ -12,3 +12,4 @@ texts_json['TH'] = {};
 texts_json['VI'] = {};
 texts_json['ZH_CN'] = {};
 texts_json['ZH_TW'] = {};
+texts_json['ACH'] = {};
