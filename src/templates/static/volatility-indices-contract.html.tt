@@ -85,14 +85,14 @@
           </tr>
           <tr>
             <td>[% l('Maximum Leverage**') %]</td>
-            <td>300:1</td>
-            <td>300:1</td>
-            <td>300:1</td>
-            <td>300:1</td>
-            <td>300:1</td>
-            <td>100:1</td>
-            <td>100:1</td>
-            <td>100:1</td>
+            <td>500:1</td>
+            <td>500:1</td>
+            <td>500:1</td>
+            <td>500:1</td>
+            <td>500:1</td>
+            <td>500:1</td>
+            <td>500:1</td>
+            <td>500:1</td>
           </tr>
         </tbody>
       </table>
