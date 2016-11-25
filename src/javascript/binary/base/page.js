@@ -643,7 +643,7 @@ var Page = function(config) {
 
 Page.prototype = {
     all_languages: function() {
-        return ['EN', 'AR', 'DE', 'ES', 'FR', 'ID', 'IT', 'PL', 'PT', 'RU', 'VI', 'ZH_CN', 'ZH_TW'];
+        return ['EN', 'AR', 'DE', 'ES', 'FR', 'ID', 'IT', 'PL', 'PT', 'RU', 'VI', 'ZH_CN', 'ZH_TW', 'ACH']; // ACH is a pseudo language used for in-context translation
     },
     language_from_url: function() {
         var regex = new RegExp('^(' + this.all_languages().join('|') + ')$', 'i');
@@ -663,6 +663,7 @@ Page.prototype = {
         return lang;
     },
     on_load: function() {
+        this.incontext_translation();
         this.url.reset();
         this.localize_for(this.language());
         this.header.on_load();
@@ -722,6 +723,16 @@ Page.prototype = {
         localStorage.setItem('active_loginid', loginid);
         $('.login-id-list a').removeAttr('disabled');
         page.reload();
+    },
+    incontext_translation: function() {
+        if (/https:\/\/mt\.binary\.com\/translations\//.test(window.location.href) && page.language() === 'ACH') {
+            window._jipt = [];
+            window._jipt.push(['project', 'binary-mt']);
+            var script = document.createElement('script');
+            script.type = 'text/javascript';
+            script.src = document.location.protocol + '//cdn.crowdin.com/jipt/jipt.js';
+            $('body').append(script);
+        }
     },
     localize_for: function(language) {
         text = texts[language];

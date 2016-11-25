@@ -2,15 +2,15 @@
     <h2>[% l("Order Execution Policy") %]</h2>
 
     <h2>[% l("A. Introduction") %]</h2>
-        <p>[% l("The term ‘we’, ‘us’, ‘our’, ‘ours’, ‘the Company’, or ‘Binary.com’ shall denote Binary (V) Ltd.") %]</p>
-        <p>[% l("Our Order Execution Policy (the “Policy”) sets out the overview and approach of how Binary.com executes orders on behalf of our clients.") %]</p>
+        <p>[% l("The term 'we', 'us', 'our', 'ours', 'the Company', or 'Binary.com' shall denote Binary (V) Ltd.") %]</p>
+        <p>[% l("Our Order Execution Policy (the \"Policy\") sets out the overview and approach of how Binary.com executes orders on behalf of our clients.") %]</p>
         <p>[% l("The Policy is supplemented by Appendix A which provide further details to our considerations as they are related to differing asset classes. The accompanying Appendix A should be read in conjunction with this Policy.") %]</p>
 
     <h2>[% l("B. Scope") %]</h2>
         <p>[% l("This Policy applies to retail and professional clients of Binary.com dealing in financial products offered by Binary.com, i.e., Spot FX.") %]</p>
 
     <h2>[% l("C. Definition of Best Execution") %]</h2>
-        <p>[% l("Best execution is the requirement to take all sufficient steps to obtain, when executing orders, the best possible result for you taking into account price, costs, speed, likelihood of execution and settlement, size, nature or any other consideration relevant (hereinafter referred to as the “execution factors”) to the execution of the order.") %]</p>
+        <p>[% l("Best execution is the requirement to take all sufficient steps to obtain, when executing orders, the best possible result for you taking into account price, costs, speed, likelihood of execution and settlement, size, nature or any other consideration relevant (hereinafter referred to as the \"execution factors\") to the execution of the order.") %]</p>
 
     <h2>[% l("D. Client Instructions") %]</h2>
         <p>[% l("When we accept an order from you to open or close a transaction, or any other specific instructions in relation to your order, we will endeavour to follow your instructions as far as reasonably possible, acting in accordance with our duty of best execution in accordance with your instructions. These specific instructions include, but are not limited to:") %]</p>
@@ -21,8 +21,8 @@
             <li>[% l("d) The timeframe or duration of the contract as defined by your order execution.") %]</li>
         </ul>
         <p>[% l("Where a particular venue has been specified in your instructions with respect to the execution of an order, we will not be responsible for the venue selection.") %]</p>
-        <p>[% l("Where a particular time or timeframe has been specified in a client’s instructions with respect to the execution of an order, regardless of the price available, we will endeavour to execute the order at the specified time or over the specified timeframe in the best possible manner after taking all sufficient steps. However, we will not be responsible for any consequences related to pricing that resulted from the time or timeframe of the execution.") %]</p>
-        <p>[% l("Aspects of a client order not affected by specific instructions are subject to the application of Binary.com’s Order Execution Policy. In the absence of specific instructions from our clients, we will exercise our own discretion in determining the factors that are required to be taken into account for the purpose of providing you with best execution, having regard to the execution criteria listed below:") %]</p>
+        <p>[% l("Where a particular time or timeframe has been specified in a client's instructions with respect to the execution of an order, regardless of the price available, we will endeavour to execute the order at the specified time or over the specified timeframe in the best possible manner after taking all sufficient steps. However, we will not be responsible for any consequences related to pricing that resulted from the time or timeframe of the execution.") %]</p>
+        <p>[% l("Aspects of a client order not affected by specific instructions are subject to the application of Binary.com's Order Execution Policy. In the absence of specific instructions from our clients, we will exercise our own discretion in determining the factors that are required to be taken into account for the purpose of providing you with best execution, having regard to the execution criteria listed below:") %]</p>
         <ul class="bullet">
             <li>[% l("the characteristics of the client;") %]</li>
             <li>[% l("the characteristics of the order;") %]</li>
@@ -60,7 +60,7 @@
     <h2>[% l("H. Monitoring and Review") %]</h2>
         <p>[% l("We will monitor the effectiveness of our order execution arrangements and order execution policy. We will assess from time to time whether the venues relied upon by us in pricing our Contracts on your behalf allow us to achieve best execution on a consistent basis or whether we need to make changes to our execution arrangements. We will also review our order execution arrangements and order execution policy in respect of material changes either in respect of one of our chosen pricing venues or that otherwise affect our ability to continue to achieve best execution. Should there be any material changes to our order execution arrangements or order execution policy, we will notify you.") %]</p>
 
-    <h2>[% l("Appendix – Product Specific Policies") %]</h2>
+    <h2>[% l("Appendix - Product Specific Policies") %]</h2>
 
     <h2>[% l("A. Spot FX") %]</h2>
         <p>[% l("For features and trading illustration of Spot FX offered by Binary.com, refer to the Product Disclosure Statement. This policy is an appendix to the overarching Binary.com Order Execution Policy and should be read in conjunction with the overarching Binary.com Order Execution Policy.") %]</p>

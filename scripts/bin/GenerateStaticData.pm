@@ -22,7 +22,7 @@ sub generate_data_files {
 
 sub _texts {
     my $js = "var texts_json = {};\n";
-    foreach my $language (BS::all_languages()) {
+    foreach my $language ((BS::all_languages(), 'ACH')) {
         BS::set_lang($language);
         my @texts;
 
