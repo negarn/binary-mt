@@ -5,9 +5,9 @@
     <p>[% l("Version 3") %]</p>
         <h2>[% l("A. Introduction and Scope of Agreement") %]</h2>
             <ol>
-                <li>[% l("The term ‘we’, ‘us’, ‘our’, ‘ours’, ‘the Company’, or ‘Binary.com’ shall denote either Binary (V) Ltd. or Binary (C.R.) S.A., depending on the
+                <li>[% l("The term 'we', 'us', 'our', 'ours', 'the Company', or 'Binary.com' shall denote either Binary (V) Ltd. or Binary (C.R.) S.A., depending on the
                     jurisdiction to which a Client's account has been attached in accordance with the account opening procedures of the website.") %]</li>
-                <li>[% l("You understand that products based on a random number generator (the “Volatility Indices”) are gambling products whereas products based on financial markets indices (forex, stocks, commodities) are financial instruments.") %]</li>
+                <li>[% l("You understand that products based on a random number generator (the \"Volatility Indices\") are gambling products whereas products based on financial markets indices (forex, stocks, commodities) are financial instruments.") %]</li>
                 <li>[% l("All products traded on margin carry a high degree of risk and can result in losses as well as profits that exceed your initial deposit. The margin trading service described in this Agreement is not suitable for everyone. You acknowledge
                     that the margin trading service described in this Agreement is designed for clients who are knowledgeable and experienced in the types of transactions described in this Agreement and you fully understand the associated risks before entering into this
                     Agreement with us.") %]</li>
@@ -24,7 +24,7 @@
                 <li>[% l("Under no circumstances shall we provide investment advice or recommendation to you or state an opinion in relation to a Transaction. From time to time, we may decide to provide you with written information, which we may publish on our
                     website or provide to you in any other manner. We will endeavour to ensure the accuracy and completeness of this written information but it will not constitute investment advice or recommendation provided by us to you.") %]</li>
                 <li>[% l("The provision of the margin trading service described in this Agreement utilises a third party system acquired via a non-exclusive, non-transferable, non-sublicensable, terminable licence from the third party system provider/licensor (the
-                    “MT5 Trading Platform”). You acknowledge that we reserve the right to change the third party system provider/licensor during the course of proving the margin trading service described in this Agreement to you.") %]</li>
+                    \"MT5 Trading Platform\"). You acknowledge that we reserve the right to change the third party system provider/licensor during the course of proving the margin trading service described in this Agreement to you.") %]</li>
                 <li>[% l("The provision of the margin trading services described in this Agreement is not available in the European Union.") %]</li>
             </ol>
         <h2>[% l("D. Capacity") %]</h2>
@@ -96,7 +96,7 @@
                     <ul class="bullet">
                         <li>[% l("The Company does not offer any credit facilities or arrangement to its clients in normal trading circumstances. You acknowledge and agree that you will not be dealing with us on credit, regardless of the amount of your Account Balance and Transactions entered into with us.") %]</li>
                         <li>[% l("Accounts with debit balances are required to settle the full amount immediately by making a payment to us.") %]</li>
-                        <li>[% l("If you fail to immediately make full settlement of the sum due to us in accordance with this Agreement, we reserve the right to accrue interest on the sums due from you to us in respect of any Transaction that you fail to pay on the relevant due date. Interest will accrue on a daily basis from the relevant due date until the date on which payment is received in full at the bank’s official base rate for short term funds determined by us, and will be payable on demand.") %]</li>
+                        <li>[% l("If you fail to immediately make full settlement of the sum due to us in accordance with this Agreement, we reserve the right to accrue interest on the sums due from you to us in respect of any Transaction that you fail to pay on the relevant due date. Interest will accrue on a daily basis from the relevant due date until the date on which payment is received in full at the bank's official base rate for short term funds determined by us, and will be payable on demand.") %]</li>
                     </ul>
                 </li>
                 <li>[% l("Inactive / Dormant Accounts") %]
@@ -128,7 +128,7 @@
                 </li>
                 <!-- <li>[% l("Base Currency") %]
                     <ul class="bullet">
-                        <li>[% l("Any realised profits and interest charges that are denominated in a currency that’s different from your Base Currency will be automatically converted to your Base Currency before being debited / credited to your Real Account. The conversion
+                        <li>[% l("Any realised profits and interest charges that are denominated in a currency that's different from your Base Currency will be automatically converted to your Base Currency before being debited / credited to your Real Account. The conversion
                             will be performed at commercially reasonable rates.") %]</li>
                     </ul>
                 </li> -->
@@ -147,7 +147,7 @@
                 <li>[% l("Stop and Limit Orders") %]
                     <ul class="bullet">
                         <li>[% l("We may, at our absolute discretion, accept a Stop Order or a Limit Order from you. We may enable other types of Orders (for example, a trailing stop order) for your execution at any point in time.") %]</li>
-                        <li>[% l("You may specify your instruction of a Stop Order or a Limit Order may be applied for a limited duration or for an indefinite period (a “good till cancelled” or “GTC” Order).") %]</li>
+                        <li>[% l("You may specify your instruction of a Stop Order or a Limit Order may be applied for a limited duration or for an indefinite period (a \"good till cancelled\" or \"GTC\" Order).") %]</li>
                         <li>[% l("In the case of a Stop Order, you acknowledge that we will endeavour to open/close a Transaction at the Next Available Price.") %]</li>
                         <li>[% l("In the case of a Limit Order, you acknowledge that we will endeavour to open/close a Transaction at a level that is the same or better than the Limit you specified, subject to the availability of the Limit Price. You acknowledge that at the
                             time of order execution, our bid/offer price may become less favourable to you.") %]</li>
@@ -165,7 +165,7 @@
                 <li>[% l("General Provisions") %]
                     <ul class="bullet">
                         <li>[% l("Prior to placing an Order which results in opening a Transaction or increasing an existing Open Position, you acknowledge that it is your responsibility to ensure that your Account Free Margin is sufficient to cover the Margin required in
-                            relation to the open Transaction (the “Margin Requirement”), and to continuously meet the Margin Requirement.") %]</li>
+                            relation to the open Transaction (the \"Margin Requirement\"), and to continuously meet the Margin Requirement.") %]</li>
                         <li>[% l("Throughout the duration of the Transaction and for as long as the Transaction is open, you are required to maintain a sufficient Account Equity to cover any Margin Requirement. If your Account Equity is less than the Margin Requirement in
                             relation to the open Transaction you wish to create, you have entered into a Margin Call and you are required to fund the shortfall immediately. You may not be able to place an Order to open a Transaction until the shortfall has been funded and there
                             is sufficient Account Equity to cover the Total Margin.") %]</li>
@@ -174,7 +174,7 @@
                 </li>
                 <li>[% l("Margin Requirement and Calculation") %]
                     <ul class="bullet">
-                        <li>[% l("The Margin Requirement is a percentage of the value of the Open Positions and will continue to fluctuate in accordance with the value of the Open Positions throughout the duration of the relevant contracts (the “Contract Value”).") %]</li>
+                        <li>[% l("The Margin Requirement is a percentage of the value of the Open Positions and will continue to fluctuate in accordance with the value of the Open Positions throughout the duration of the relevant contracts (the \"Contract Value\").") %]</li>
                         <li>[% l("The Margin Requirements can increase / decrease based on the aggregated size of your Open Position determined by the volume (number of lots), contract size (value per point in the original currency of the contract), market price and margin
                             rate.") %]</li>
                         <li>[% l("We may modify Margin Requirements for any Open Positions or new Transactions entered into, at our sole discretion. Formulas for Margin Requirements published on the website are indicative only and may be changed by the Company at its
@@ -185,7 +185,7 @@
                 <li>[% l("Stop Out Level") %]
                     <ul class="bullet">
                         <li>[% l("If the Margin Level for your Real Account reaches or falls below the Stop Out Level, this will be classified as an Event of Default. In such circumstances, Open Positions are automatically closed in the following order: (i) the server
-                            analyses clients’ Orders that are not under execution at the moment; (ii) the server deletes Orders with the largest Margin; (iii) if your Margin Level is still under the Stop Out Level, the next order is deleted (orders without margin requirements
+                            analyses clients' Orders that are not under execution at the moment; (ii) the server deletes Orders with the largest Margin; (iii) if your Margin Level is still under the Stop Out Level, the next order is deleted (orders without margin requirements
                             are not deleted); (iv) if your Margin Level is still under the Stop Out Level, the server closes a position with the largest loss; (v) Open Positions are closed until your Margin Level becomes higher than the Stop Out Level.") %]</li>
                         <li>[% l("The default Stop Out Level applicable to your Account is published on our website. However, the default Stop Out Level is subject to alteration at our absolute discretion. Any changes to the Stop Out Level will take effect immediately. We
                             will endeavour to notify you of an alteration to the default Stop Out Level by publishing the revised default Stop Out Level on our website. It is your responsibility to check our website regularly and remain informed about the default Stop Out
@@ -206,7 +206,7 @@
                 <li>[% l("Potential Conflicts of Interest") %]
                     <ul class="bullet">
                         <li>[% l("The margin trading services described in this Agreement are conducted over the counter. This means that the market in one or more of the instruments which you ordinarily transact with us, though quoted on an exchange, are not traded on an exchange when transacted through the electronic trading platform as described in this Agreement.") %]</li>
-                        <li>[% l("You acknowledge that the Company will determine, at its discretion, the Transactions that will be kept in the Company’s own book (known as B booking) and the Transactions that will be passed through to the prime brokers who act as liquidity providers for the Company (known as A booking). For the latter, the Company is the counterparty in these transactions and a correlation between the profit/loss made by the client and the profit/loss made by the Company exists. At any point in time, we may be entering into or may have entered into transactions with a large number of clients, each of whose interests may diverge from those of other clients. As such, the Company may be holding Open
+                        <li>[% l("You acknowledge that the Company will determine, at its discretion, the Transactions that will be kept in the Company's own book (known as B booking) and the Transactions that will be passed through to the prime brokers who act as liquidity providers for the Company (known as A booking). For the latter, the Company is the counterparty in these transactions and a correlation between the profit/loss made by the client and the profit/loss made by the Company exists. At any point in time, we may be entering into or may have entered into transactions with a large number of clients, each of whose interests may diverge from those of other clients. As such, the Company may be holding Open
                             Positions that may not be aligned with your objectives/interests as an individual client of the Company.") %]</li>
                         <li>[% l("Whilst we endeavour to take all reasonable and sufficient steps, as required by applicable laws and regulations, to identify potential conflicts of interests between ourselves and our clients, or between one client and another, that arise in the course of providing the margin trading services as
                             described in this Agreement, by establishing and implementing policies and procedures, it is possible that we may execute certain Transactions which may have other direct or indirect material interests.") %]</li>
@@ -270,7 +270,7 @@
             <ol>
                 <li>[% l("Opening a Transaction") %]
                     <ul class="bullet">
-                        <li>[% l("A Transaction is opened by either executing a “Buy” or “Sell” Order based on a specified number of lots (volume) that constitute the underlying instrument of the relevant market.") %]</li>
+                        <li>[% l("A Transaction is opened by either executing a \"Buy\" or \"Sell\" Order based on a specified number of lots (volume) that constitute the underlying instrument of the relevant market.") %]</li>
                         <li>[% l("Any Transaction opened by you must be within any credit or position limit in effect with respect to the Real Account or any Transactions.") %]</li>
                         <li>[% l("Upon opening a Transaction, the sum due and payable by you to us are deducted from your Account Balance.") %]</li>
                     </ul>
@@ -326,7 +326,7 @@
             </ol>
         <h2>[% l("L. Event of Default") %]</h2>
             <ol>
-                <li>[% l("Each of the following event constitutes an “Event of Default”:") %]
+                <li>[% l("Each of the following event constitutes an \"Event of Default\":") %]
                     <ul class="bullet">
                         <li>[% l("Your death, your incapacity, become of unsound mind or your inability to pay your debts as they fall due, or is bankrupt or insolvent, as defined under any bankruptcy or insolvency law applicable to you, if you are an individual;") %]</li>
                         <li>[% l("The Margin Level of your Real Account reaches or falls below the Stop Out Level;") %]</li>
@@ -400,12 +400,12 @@
         <h2>[% l("P. Indemnification") %]</h2>
             <ol>
                 <li>[% l("Neither the Company nor any its directors, officers, managers, employees, or agents shall be liable for any loss, damage or debt to you arising directly or indirectly out of or in connection with this Agreement. You agree to indemnify the
-                    Company and its directors, officers, managers, employees, or agents harmless from and against any and all liabilities, losses, damages, costs and expenses (including reasonable attorney’s fees) incurred arising out of your failure to comply with any
-                    and all of its obligations set forth in this Agreement and/or the Company’s enforcement against you of any and all of its rights under this Agreement.") %]</li>
+                    Company and its directors, officers, managers, employees, or agents harmless from and against any and all liabilities, losses, damages, costs and expenses (including reasonable attorney's fees) incurred arising out of your failure to comply with any
+                    and all of its obligations set forth in this Agreement and/or the Company's enforcement against you of any and all of its rights under this Agreement.") %]</li>
                 <li>[% l("Without prejudice to any other terms of this Agreement, neither the Company nor any its directors, officers, managers, employees, or agents shall not be liable to you in relation to any loss that you incurred whether directly or indirectly
                     by any cause beyond our control, including but not limited to, any delay or defect in or failure of the whole or any part of the MT5 Trading Platform or any systems or network links.") %]</li>
                 <li>[% l("The Company does not make any warranty, express or implied, that any pricing or other information provided through the MT5 Trading Platform or otherwise is correct. Furthermore, if a quote (bid or offer price) error occurs due to a system
-                    malfunction (whether or not it’s a third party or a proprietary system), the Company will not be liable for any resulting losses that have incurred.") %]</li>
+                    malfunction (whether or not it's a third party or a proprietary system), the Company will not be liable for any resulting losses that have incurred.") %]</li>
             </ol>
         <h2>[% l("Q. Miscellaneous") %]</h2>
             <ol>
@@ -414,7 +414,7 @@
                     are system generated content, you will not object to the use of such records as evidence.") %]</li>
                 <li>[% l("The Binary.com website is protected by certain copyrights. The materials comprising the website (including without limitation all articles, text, images, logos, compilation, systems, code and design) are Copyright 1999-2016 Binary Group of
                     companies. All rights reserved. Such materials may be copied and distributed on a limited basis for noncommercial purposes only, provided that any material copied remain intact and that all copies include the following notice in a clearly visible
-                    position: “Copyright 1999-2016 Binary Ltd. All rights reserved.” These materials may not be copied or redistributed for commercial purposes or for compensation of any kind without prior written permission from a member of the Binary Group. If you
+                    position: \"Copyright 1999-2016 Binary Ltd. All rights reserved.\" These materials may not be copied or redistributed for commercial purposes or for compensation of any kind without prior written permission from a member of the Binary Group. If you
                     have any questions about these terms or would like information about licensing materials from Binary Ltd., please contact us at <a href='mailto:support@binary.com'>support@binary.com</a>. Binary.com and the bull/bear logo are registered trademarks.")
                     %]</li>
                 <li>[% l("If any provision of this Agreement shall be held invalid or unenforceable by a court or regulatory body of competent jurisdiction, the remainder of this Agreement shall remain in full force and effect.") %]</li>
@@ -424,7 +424,7 @@
             </ol>
         <h2>[% l("R. Interpretation of Terms") %]</h2>
             <ol>
-                <li>[% l("Account Balance – Your account balance represents:") %]
+                <li>[% l("Account Balance - Your account balance represents:") %]
                     <ul class="bullet">
                         <li>[% l("net of fund transfers between your Binary Options Account and your Real Account; ") %]</li>
                         <li>[% l("net of realised profits credited to your Real Account and realised losses debited from your Real Account; ") %]</li>
@@ -432,28 +432,28 @@
                             The amount set aside for Margin Requirement is not available for your withdrawal.") %]</li>
                     </ul>
                 </li>
-                <li>[% l("Account Equity – Your Account Equity refers to the sum of your Account Balance and the net of unrealised profit and loss.") %]</li>
-                <li>[% l("Account Free Margin – Your Account Equity minus your Total Margin.") %]</li>
-                <!-- <li>[% l("Base Currency – The currency in which your Transaction was entered into.") %]</li> -->
-                <li>[% l("Binary Options Real Account – Your real money account opened with Binary.com which you use to trade binary options with Binary.com.") %]</li>
-                <li>[% l("Event – Event examples include circumstances whereby the type of Transaction to which your Order is related to ceased to be offered, or a Corporate Event or the insolvency of a Company whose shares represent are related to the subject
+                <li>[% l("Account Equity - Your Account Equity refers to the sum of your Account Balance and the net of unrealised profit and loss.") %]</li>
+                <li>[% l("Account Free Margin - Your Account Equity minus your Total Margin.") %]</li>
+                <!-- <li>[% l("Base Currency - The currency in which your Transaction was entered into.") %]</li> -->
+                <li>[% l("Binary Options Real Account - Your real money account opened with Binary.com which you use to trade binary options with Binary.com.") %]</li>
+                <li>[% l("Event - Event examples include circumstances whereby the type of Transaction to which your Order is related to ceased to be offered, or a Corporate Event or the insolvency of a Company whose shares represent are related to the subject
                     matter of the Order, and others.") %]</li>
-                <li>[% l("Limit / Limit Price – The price specified in your Limit Order.") %]</li>
+                <li>[% l("Limit / Limit Price - The price specified in your Limit Order.") %]</li>
                 <li>[% l("Limit Order - an instruction to open or close a transaction if and when a price quote becomes more favourable to you when compared against the current price.") %]</li>
-                <li>[% l("Margin – The amount set aside by us from your Account Balance in order to open and maintain a Transaction, to cover our exposure as a counterparty to your contract.") %]</li>
-                <li>[% l("Margin Level – Ratio of Account Equity to Total Margin, expressed as a percentage.") %]</li>
-                <li>[% l("Next Available Price – Earliest price reasonably available and quoted by Binary.com when our Price quotation reaches or goes beyond the level of your Stop Order.") %]</li>
-                <li>[% l("Open Position – the position in a market made by reference to an Underlying Instrument created by opening a Transaction as a result of placing an Order to the extent that such position has not been closed in whole or in part under this
+                <li>[% l("Margin - The amount set aside by us from your Account Balance in order to open and maintain a Transaction, to cover our exposure as a counterparty to your contract.") %]</li>
+                <li>[% l("Margin Level - Ratio of Account Equity to Total Margin, expressed as a percentage.") %]</li>
+                <li>[% l("Next Available Price - Earliest price reasonably available and quoted by Binary.com when our Price quotation reaches or goes beyond the level of your Stop Order.") %]</li>
+                <li>[% l("Open Position - the position in a market made by reference to an Underlying Instrument created by opening a Transaction as a result of placing an Order to the extent that such position has not been closed in whole or in part under this
                     Agreement.") %]</li>
-                <li>[% l("Order – an execution instruction given by you to us in relation to a Market Order, Stop Order, Limit Order, and etc.") %]</li>
-                <li>[% l("Price/ Prices – Bid and Offer Price/ Prices.") %]</li>
-                <li>[% l("Real Account – Your real money account opened with Binary.com’s MT5 Trading Platform licensed from MetaQuotes Software Corporation.") %]</li>
-                <li>[% l("Roll-over – In the event that the Company does not receive Orders from you to close an Open Position by the close of a Business Day, the Company will roll-over the said Open Position to the following day being a Business Day.") %]</li>
-                <li>[% l("Roll-over Credit/Debit – Accounts with Open Positions concerned by the Roll-over shall be credited or debited with an amount referred to as the Roll-over Credit/Debit which is determined by the Company at its sole discretion.") %]</li>
-                <li>[% l("Stop Order / Stop Loss Order – an instruction to execute a Transaction to close an Open Position when the Price reaches your specified Price.") %]</li>
-                <li>[% l("Stop Out Level – the Margin Level at or below which your Open Positions may be forcefully with or without your prior consent.") %]</li>
-                <li>[% l("Total Margin – The aggregate of all Margin Requirements in your Real Account.") %]</li>
-                <li>[% l("Transaction – a contract entered into by you pursuant to this Agreement.") %]</li>
+                <li>[% l("Order - an execution instruction given by you to us in relation to a Market Order, Stop Order, Limit Order, and etc.") %]</li>
+                <li>[% l("Price/ Prices - Bid and Offer Price/ Prices.") %]</li>
+                <li>[% l("Real Account - Your real money account opened with Binary.com's MT5 Trading Platform licensed from MetaQuotes Software Corporation.") %]</li>
+                <li>[% l("Roll-over - In the event that the Company does not receive Orders from you to close an Open Position by the close of a Business Day, the Company will roll-over the said Open Position to the following day being a Business Day.") %]</li>
+                <li>[% l("Roll-over Credit/Debit - Accounts with Open Positions concerned by the Roll-over shall be credited or debited with an amount referred to as the Roll-over Credit/Debit which is determined by the Company at its sole discretion.") %]</li>
+                <li>[% l("Stop Order / Stop Loss Order - an instruction to execute a Transaction to close an Open Position when the Price reaches your specified Price.") %]</li>
+                <li>[% l("Stop Out Level - the Margin Level at or below which your Open Positions may be forcefully with or without your prior consent.") %]</li>
+                <li>[% l("Total Margin - The aggregate of all Margin Requirements in your Real Account.") %]</li>
+                <li>[% l("Transaction - a contract entered into by you pursuant to this Agreement.") %]</li>
             </ol>
     <!-- </ol> -->
 </div>
