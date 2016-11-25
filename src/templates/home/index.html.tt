@@ -28,22 +28,16 @@
         </div>
         <div class="gr-12">
             <div class="gr-row">
-                <div class="gr-4 gr-12-m">
-                    <div class="center-text">
-                        <img class="small" src="[% request.url_for('images/pages/home/leading_forex.svg') %]" alt="">
-                    </div>
+                <div class="gr-4 gr-12-m center-text">
+                    <img class="small" src="[% request.url_for('images/pages/home/leading_forex.svg') %]" alt="">
                     <p>[% l('Trade Forex and CFD asset classes with an award-winning broker.') %]</p>
                 </div>
-                <div class="gr-4 gr-12-m">
-                    <div class="center-text">
-                        <img class="small" src="[% request.url_for('images/pages/home/enhance_trade.svg') %]" alt="">
-                    </div>
+                <div class="gr-4 gr-12-m center-text">
+                    <img class="small" src="[% request.url_for('images/pages/home/enhance_trade.svg') %]" alt="">
                     <p>[% l('Benefit from highly competitive spreads with no commission, and leverage of up to 1:100.') %]</p>
                 </div>
-                <div class="gr-4 gr-12-m">
-                    <div class="center-text">
-                        <img class="small" src="[% request.url_for('images/pages/home/accounts.svg') %]" alt="">
-                    </div>
+                <div class="gr-4 gr-12-m center-text">
+                    <img class="small" src="[% request.url_for('images/pages/home/accounts.svg') %]" alt="">
                     <p>[% l('Trade on Demo and Real accounts. Deposit funds easily by using your Bianry.com account cashier.') %]</p>
                 </div>
             </div>
@@ -56,22 +50,16 @@
         </div>
         <div class="gr-12">
             <div class="gr-row">
-                <div class="gr-4 gr-12-m">
-                    <div class="center-text">
-                        <img class="small" src="[% request.url_for('images/pages/home/tools.svg') %]" alt="">
-                    </div>
+                <div class="gr-4 gr-12-m center-text">
+                    <img class="small" src="[% request.url_for('images/pages/home/tools.svg') %]" alt="">
                     <p>[% l('Access advanced tools for fundamental and technical analysis, all available in one platform.') %]</p>
                 </div>
-                <div class="gr-4 gr-12-m">
-                    <div class="center-text">
-                        <img class="small" src="[% request.url_for('images/pages/home/wide_range.svg') %]" alt="">
-                    </div>
+                <div class="gr-4 gr-12-m center-text">
+                    <img class="small" src="[% request.url_for('images/pages/home/wide_range.svg') %]" alt="">
                     <p>[% l('Subscribe to a wide range of algorithmic trading strategies from the built-in MetaTrader Market.') %]</p>
                 </div>
-                <div class="gr-4 gr-12-m">
-                    <div class="center-text">
-                        <img class="small" src="[% request.url_for('images/pages/home/mobile_desktop.svg') %]" alt="">
-                    </div>
+                <div class="gr-4 gr-12-m center-text">
+                    <img class="small" src="[% request.url_for('images/pages/home/mobile_desktop.svg') %]" alt="">
                     <p>[% l('Trade using the mobile and desktop apps, or use the web platform from any web browser.') %]</p>
                 </div>
             </div>
