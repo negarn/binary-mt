@@ -81,7 +81,7 @@ msgstr ""
 msgid "A. Spot FX"
 msgstr ""
 
-msgid "Access advanced tools for fundamental and technical analysis."
+msgid "Access advanced tools for fundamental and technical analysis, all available in one platform."
 msgstr ""
 
 msgid "Account Balance - Your account balance represents:"
@@ -105,6 +105,9 @@ msgstr ""
 msgid "Accounts with debit balances are required to settle the full amount immediately by making a payment to us."
 msgstr ""
 
+msgid "Advanced Tools &amp; Platforms"
+msgstr ""
+
 msgid "All client orders are processed on a first in first out basis without any manual intervention. When executing your order, Binary.com will seek to fill your order transaction as promptly as possible, at the instructed price (or at a better price, if available). Exposure limits are established based on internal governance arrangements and risk management framework which commensurate with the size, nature, complexity, and risk profile of our activities. These exposure limits are used as benchmarks to distinguish orders that are auto-accepted and orders that will be worked in the market with fill level passed on to the client."
 msgstr ""
 
@@ -123,9 +126,6 @@ msgid ""
 "All products traded on margin carry a high degree of risk and can result in losses as well as profits that exceed your initial deposit. The margin trading service described in this Agreement is not suitable for everyone. You acknowledge\n"
 "                    that the margin trading service described in this Agreement is designed for clients who are knowledgeable and experienced in the types of transactions described in this Agreement and you fully understand the associated risks before entering into this\n"
 "                    Agreement with us."
-msgstr ""
-
-msgid "All the Latest Tools on a Leading Platform"
 msgstr ""
 
 msgid "Alter the normal trading times for the affected market;"
@@ -191,6 +191,9 @@ msgid "Binary options or other financial derivatives trading frequency"
 msgstr ""
 
 msgid "Binary.com assesses the choice of external execution venues regularly (at least once a year) with the intention of achieving a better result for you based on our best execution obligation."
+msgstr ""
+
+msgid "Binary.com enters Forex and CFD trading with the universally acclaimed MetaTrader 5, in addition to its continued leadership presence in the binary options market."
 msgstr ""
 
 msgid "Binary.com offers forex and contracts for differences via the hybrid model, i.e., both dealing on own account (dealing desk) and partially hedging client orders with our liquidity providers (no-dealing desk)."
@@ -286,9 +289,6 @@ msgid "Create Your MetaTrader 5 Account Now"
 msgstr ""
 
 msgid "Create a MetaTrader account to trade on the MetaTrader 5 platform."
-msgstr ""
-
-msgid "Customise your trades for higher return potential."
 msgstr ""
 
 msgid "D. Capacity"
@@ -453,15 +453,6 @@ msgstr ""
 msgid "High frequency (2 ticks per second)"
 msgstr ""
 
-msgid "I am not registered on Binary.com"
-msgstr ""
-
-msgid "I have a Binary.com real account"
-msgstr ""
-
-msgid "I have a Binary.com virtual account"
-msgstr ""
-
 msgid "I. Quotes"
 msgstr ""
 
@@ -579,7 +570,7 @@ msgstr ""
 msgid "Industry of Employment"
 msgstr ""
 
-msgid "Introducing <strong>MetaTrader 5</strong> for binary.com"
+msgid "Introducing <strong>MetaTrader 5</strong> for Binary.com"
 msgstr ""
 
 msgid "Investments & Dividends"
@@ -640,9 +631,6 @@ msgid "Log in"
 msgstr ""
 
 msgid "Log into the application using your MetaTrader account number and your MetaTrader account password."
-msgstr ""
-
-msgid "Login"
 msgstr ""
 
 msgid "M. Manifest Error"
@@ -752,6 +740,9 @@ msgid ""
 "                    Agreement."
 msgstr ""
 
+msgid "Open a free Demo account. Upgrade to a Real account by depositing funds thru your Binary.com account cashier."
+msgstr ""
+
 msgid "Opening a Transaction"
 msgstr ""
 
@@ -809,6 +800,9 @@ msgstr ""
 msgid "Pip Size"
 msgstr ""
 
+msgid "Please %1 to your Binary.com account."
+msgstr ""
+
 msgid "Please complete the following financial assessment form before continuing."
 msgstr ""
 
@@ -838,9 +832,6 @@ msgid ""
 "                            relation to the open Transaction (the \"Margin Requirement\"), and to continuously meet the Margin Requirement."
 msgstr ""
 
-msgid "Profit from highly competitive spreads with no commission."
-msgstr ""
-
 msgid "Q. Miscellaneous"
 msgstr ""
 
@@ -853,13 +844,7 @@ msgstr ""
 msgid "Real Account - Your real money account opened with Binary.com's MT5 Trading Platform licensed from MetaQuotes Software Corporation."
 msgstr ""
 
-msgid "Register a Real Account"
-msgstr ""
-
-msgid "Register an MT Account"
-msgstr ""
-
-msgid "Register on Binary.com"
+msgid "Register Your MetaTrader 5 Account"
 msgstr ""
 
 msgid "Regular monitoring of open positions"
@@ -963,7 +948,7 @@ msgstr ""
 msgid "Submit"
 msgstr ""
 
-msgid "Subscribe to a wide range of algorithmic trading strategies."
+msgid "Subscribe to a wide range of algorithmic trading strategies from the built-in MetaTrader Market."
 msgstr ""
 
 msgid "Such withdrawal would result in your Account Equity being less than zero; and/or"
@@ -978,9 +963,6 @@ msgid ""
 msgstr ""
 
 msgid "Symbol"
-msgstr ""
-
-msgid "Take your trading to the next level with MetaTrader 5, recognised as the industry benchmark for professional investors worldwide."
 msgstr ""
 
 msgid "Terms and Conditions"
@@ -1144,7 +1126,7 @@ msgstr ""
 msgid "To authenticate your account, kindly email the following to <a href=\"mailto:%1\">%1</a>"
 msgstr ""
 
-msgid "To create a financial account for MetaTrader, please first complete the <a href=\"%1\">Financial Assessment</a>."
+msgid "To create a financial account for MetaTrader 5, please complete the <a href=\"%1\">Financial Assessment</a>."
 msgstr ""
 
 msgid "To create a real account for MetaTrader, <a href=\"%1\">upgrade to %2 real money account</a>."
@@ -1156,9 +1138,6 @@ msgstr ""
 msgid "To deposit or withdraw from your MetaTrader Account, switch to your Binary.com Real Account."
 msgstr ""
 
-msgid "To open a MetaTrader account, you first need a real account on Binary.com."
-msgstr ""
-
 msgid "To open a Real Account, you must have an authenticated Binary Options Real Account with Binary.com. A Real Account cannot be opened in the absence of a Binary Options Real Account."
 msgstr ""
 
@@ -1168,10 +1147,16 @@ msgstr ""
 msgid "Tourism"
 msgstr ""
 
-msgid "Trade 24/7 with Volatility Indices that simulate market forces."
+msgid "Trade Forex and CFD asset classes with an award-winning broker."
 msgstr ""
 
-msgid "Trade on a universally acclaimed, multi-asset trading platform."
+msgid "Trade Forex and Contracts for Difference (CFD) assets with highly-competitive leverage and zero commission."
+msgstr ""
+
+msgid "Trade the Forex markets with leverage up to 100:1, and Volatility Indices with leverage up to 500:1."
+msgstr ""
+
+msgid "Trade using the mobile and desktop apps, or use the web platform from any web browser."
 msgstr ""
 
 msgid "Trading Rules"
@@ -1571,6 +1556,9 @@ msgid "e.g. blue.binaryws.com"
 msgstr ""
 
 msgid "intelligently routing incoming orders to different types of execution modes based on configurations and algorithms established using best execution factors."
+msgstr ""
+
+msgid "log in"
 msgstr ""
 
 msgid ""
