@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-11-25 02:12-0500\n"
+"PO-Revision-Date: 2016-11-25 03:47-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Acholi\n"
 "MIME-Version: 1.0\n"
@@ -97,8 +97,8 @@ msgstr "crwdns16756:0crwdne16756:0"
 msgid "A. Spot FX"
 msgstr "crwdns16757:0crwdne16757:0"
 
-msgid "Access advanced tools for fundamental and technical analysis."
-msgstr "crwdns16758:0crwdne16758:0"
+msgid "Access advanced tools for fundamental and technical analysis, all available in one platform."
+msgstr "crwdns17383:0crwdne17383:0"
 
 msgid "Account Balance - Your account balance represents:"
 msgstr "crwdns16759:0crwdne16759:0"
@@ -121,6 +121,9 @@ msgstr "crwdns16764:0%1crwdne16764:0"
 msgid "Accounts with debit balances are required to settle the full amount immediately by making a payment to us."
 msgstr "crwdns16765:0crwdne16765:0"
 
+msgid "Advanced Tools &amp; Platforms"
+msgstr "crwdns17384:0crwdne17384:0"
+
 msgid "All client orders are processed on a first in first out basis without any manual intervention. When executing your order, Binary.com will seek to fill your order transaction as promptly as possible, at the instructed price (or at a better price, if available). Exposure limits are established based on internal governance arrangements and risk management framework which commensurate with the size, nature, complexity, and risk profile of our activities. These exposure limits are used as benchmarks to distinguish orders that are auto-accepted and orders that will be worked in the market with fill level passed on to the client."
 msgstr "crwdns16766:0crwdne16766:0"
 
@@ -138,9 +141,6 @@ msgid "All products traded on margin carry a high degree of risk and can result 
 "                    that the margin trading service described in this Agreement is designed for clients who are knowledgeable and experienced in the types of transactions described in this Agreement and you fully understand the associated risks before entering into this\n"
 "                    Agreement with us."
 msgstr "crwdns16770:0crwdne16770:0"
-
-msgid "All the Latest Tools on a Leading Platform"
-msgstr "crwdns16771:0crwdne16771:0"
 
 msgid "Alter the normal trading times for the affected market;"
 msgstr "crwdns16772:0crwdne16772:0"
@@ -205,6 +205,9 @@ msgstr "crwdns16791:0crwdne16791:0"
 
 msgid "Binary.com assesses the choice of external execution venues regularly (at least once a year) with the intention of achieving a better result for you based on our best execution obligation."
 msgstr "crwdns16792:0crwdne16792:0"
+
+msgid "Binary.com enters Forex and CFD trading with the universally acclaimed MetaTrader 5, in addition to its continued leadership presence in the binary options market."
+msgstr "crwdns17385:0crwdne17385:0"
 
 msgid "Binary.com offers forex and contracts for differences via the hybrid model, i.e., both dealing on own account (dealing desk) and partially hedging client orders with our liquidity providers (no-dealing desk)."
 msgstr "crwdns16793:0crwdne16793:0"
@@ -299,9 +302,6 @@ msgstr "crwdns16822:0crwdne16822:0"
 
 msgid "Create a MetaTrader account to trade on the MetaTrader 5 platform."
 msgstr "crwdns16823:0crwdne16823:0"
-
-msgid "Customise your trades for higher return potential."
-msgstr "crwdns16824:0crwdne16824:0"
 
 msgid "D. Capacity"
 msgstr "crwdns16825:0crwdne16825:0"
@@ -462,15 +462,6 @@ msgstr "crwdns16874:0crwdne16874:0"
 msgid "High frequency (2 ticks per second)"
 msgstr "crwdns16875:0crwdne16875:0"
 
-msgid "I am not registered on Binary.com"
-msgstr "crwdns16876:0crwdne16876:0"
-
-msgid "I have a Binary.com real account"
-msgstr "crwdns16877:0crwdne16877:0"
-
-msgid "I have a Binary.com virtual account"
-msgstr "crwdns16878:0crwdne16878:0"
-
 msgid "I. Quotes"
 msgstr "crwdns16879:0crwdne16879:0"
 
@@ -577,8 +568,8 @@ msgstr "crwdns16908:0crwdne16908:0"
 msgid "Industry of Employment"
 msgstr "crwdns16909:0crwdne16909:0"
 
-msgid "Introducing <strong>MetaTrader 5</strong> for binary.com"
-msgstr "crwdns16910:0crwdne16910:0"
+msgid "Introducing <strong>MetaTrader 5</strong> for Binary.com"
+msgstr "crwdns17386:0crwdne17386:0"
 
 msgid "Investments & Dividends"
 msgstr "crwdns16911:0crwdne16911:0"
@@ -639,9 +630,6 @@ msgstr "crwdns16929:0crwdne16929:0"
 
 msgid "Log into the application using your MetaTrader account number and your MetaTrader account password."
 msgstr "crwdns16930:0crwdne16930:0"
-
-msgid "Login"
-msgstr "crwdns16931:0crwdne16931:0"
 
 msgid "M. Manifest Error"
 msgstr "crwdns16932:0crwdne16932:0"
@@ -747,6 +735,9 @@ msgid "Open Position - the position in a market made by reference to an Underlyi
 "                    Agreement."
 msgstr "crwdns16964:0crwdne16964:0"
 
+msgid "Open a free Demo account. Upgrade to a Real account by depositing funds thru your Binary.com account cashier."
+msgstr "crwdns17387:0crwdne17387:0"
+
 msgid "Opening a Transaction"
 msgstr "crwdns16965:0crwdne16965:0"
 
@@ -804,6 +795,9 @@ msgstr "crwdns16982:0crwdne16982:0"
 msgid "Pip Size"
 msgstr "crwdns16983:0crwdne16983:0"
 
+msgid "Please %1 to your Binary.com account."
+msgstr "crwdns17388:0%1crwdne17388:0"
+
 msgid "Please complete the following financial assessment form before continuing."
 msgstr "crwdns16984:0crwdne16984:0"
 
@@ -832,9 +826,6 @@ msgid "Prior to placing an Order which results in opening a Transaction or incre
 "                            relation to the open Transaction (the \"Margin Requirement\"), and to continuously meet the Margin Requirement."
 msgstr "crwdns16992:0crwdne16992:0"
 
-msgid "Profit from highly competitive spreads with no commission."
-msgstr "crwdns16993:0crwdne16993:0"
-
 msgid "Q. Miscellaneous"
 msgstr "crwdns16994:0crwdne16994:0"
 
@@ -847,14 +838,8 @@ msgstr "crwdns16996:0crwdne16996:0"
 msgid "Real Account - Your real money account opened with Binary.com's MT5 Trading Platform licensed from MetaQuotes Software Corporation."
 msgstr "crwdns16997:0crwdne16997:0"
 
-msgid "Register a Real Account"
-msgstr "crwdns16998:0crwdne16998:0"
-
-msgid "Register an MT Account"
-msgstr "crwdns16999:0crwdne16999:0"
-
-msgid "Register on Binary.com"
-msgstr "crwdns17000:0crwdne17000:0"
+msgid "Register Your MetaTrader 5 Account"
+msgstr "crwdns17389:0crwdne17389:0"
 
 msgid "Regular monitoring of open positions"
 msgstr "crwdns17001:0crwdne17001:0"
@@ -956,8 +941,8 @@ msgstr "crwdns17032:0crwdne17032:0"
 msgid "Submit"
 msgstr "crwdns17033:0crwdne17033:0"
 
-msgid "Subscribe to a wide range of algorithmic trading strategies."
-msgstr "crwdns17034:0crwdne17034:0"
+msgid "Subscribe to a wide range of algorithmic trading strategies from the built-in MetaTrader Market."
+msgstr "crwdns17390:0crwdne17390:0"
 
 msgid "Such withdrawal would result in your Account Equity being less than zero; and/or"
 msgstr "crwdns17035:0crwdne17035:0"
@@ -971,9 +956,6 @@ msgstr "crwdns17037:0crwdne17037:0"
 
 msgid "Symbol"
 msgstr "crwdns17038:0crwdne17038:0"
-
-msgid "Take your trading to the next level with MetaTrader 5, recognised as the industry benchmark for professional investors worldwide."
-msgstr "crwdns17039:0crwdne17039:0"
 
 msgid "Terms and Conditions"
 msgstr "crwdns17040:0crwdne17040:0"
@@ -1126,8 +1108,8 @@ msgstr "crwdns17083:0crwdne17083:0"
 msgid "To authenticate your account, kindly email the following to <a href=\"mailto:%1\">%1</a>"
 msgstr "crwdns17084:0%1crwdnd17084:0%1crwdne17084:0"
 
-msgid "To create a financial account for MetaTrader, please first complete the <a href=\"%1\">Financial Assessment</a>."
-msgstr "crwdns17085:0%1crwdne17085:0"
+msgid "To create a financial account for MetaTrader 5, please complete the <a href=\"%1\">Financial Assessment</a>."
+msgstr "crwdns17391:0%1crwdne17391:0"
 
 msgid "To create a real account for MetaTrader, <a href=\"%1\">upgrade to %2 real money account</a>."
 msgstr "crwdns17086:0%1crwdnd17086:0%2crwdne17086:0"
@@ -1138,9 +1120,6 @@ msgstr "crwdns17087:0%1crwdne17087:0"
 msgid "To deposit or withdraw from your MetaTrader Account, switch to your Binary.com Real Account."
 msgstr "crwdns17088:0crwdne17088:0"
 
-msgid "To open a MetaTrader account, you first need a real account on Binary.com."
-msgstr "crwdns17089:0crwdne17089:0"
-
 msgid "To open a Real Account, you must have an authenticated Binary Options Real Account with Binary.com. A Real Account cannot be opened in the absence of a Binary Options Real Account."
 msgstr "crwdns17090:0crwdne17090:0"
 
@@ -1150,11 +1129,17 @@ msgstr "crwdns17091:0crwdne17091:0"
 msgid "Tourism"
 msgstr "crwdns17092:0crwdne17092:0"
 
-msgid "Trade 24/7 with Volatility Indices that simulate market forces."
-msgstr "crwdns17093:0crwdne17093:0"
+msgid "Trade Forex and CFD asset classes with an award-winning broker."
+msgstr "crwdns17392:0crwdne17392:0"
 
-msgid "Trade on a universally acclaimed, multi-asset trading platform."
-msgstr "crwdns17094:0crwdne17094:0"
+msgid "Trade Forex and Contracts for Difference (CFD) assets with highly-competitive leverage and zero commission."
+msgstr "crwdns17393:0crwdne17393:0"
+
+msgid "Trade the Forex markets with leverage up to 100:1, and Volatility Indices with leverage up to 500:1."
+msgstr "crwdns17394:0crwdne17394:0"
+
+msgid "Trade using the mobile and desktop apps, or use the web platform from any web browser."
+msgstr "crwdns17395:0crwdne17395:0"
 
 msgid "Trading Rules"
 msgstr "crwdns17095:0crwdne17095:0"
@@ -1526,6 +1511,9 @@ msgstr "crwdns17204:0crwdne17204:0"
 
 msgid "intelligently routing incoming orders to different types of execution modes based on configurations and algorithms established using best execution factors."
 msgstr "crwdns17205:0crwdne17205:0"
+
+msgid "log in"
+msgstr "crwdns17396:0crwdne17396:0"
 
 msgid "net of any other money credited to your Real Account and debited from your Real Account. Your account balance includes Margin Requirement. The amount of your account balance in excess of Margin Requirement is available for your withdrawal.\n"
 "                            The amount set aside for Margin Requirement is not available for your withdrawal."
