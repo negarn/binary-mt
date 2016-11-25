@@ -3,6 +3,8 @@ binary-mt
 
 This repository contains the static HTML, Javascript, CSS, and images content of the [mt.binary.com](https://mt.binary.com) website.
 
+####Please submit your PR against `beta` branch.
+
 ## Installation
 
 In order to work on your own version of the mt.binary.com Javascript and CSS, please **fork this project**.
