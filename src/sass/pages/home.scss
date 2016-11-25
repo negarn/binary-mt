@@ -1,8 +1,11 @@
 .home-content {
     #banner {
-        background: url('../images/pages/home/banner-background_1.png') 0 0/100% 108% no-repeat;
+        background: url('../images/pages/home/banner-background_1.png') 0 0/100% 70% no-repeat;
+        .banner-text {
+            line-height: 150%;
+        }
     }
-    .buttons-row p {
-        margin: 8px 0;
+    .upgrade-text {
+        font-size: 0.7em;
     }
 }

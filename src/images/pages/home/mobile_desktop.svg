@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2172 1114 140 140">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f3f2f2;
+      }
+
+      .cls-2 {
+        fill: #c2c2c2;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #e98024;
+        stroke-miterlimit: 10;
+        stroke-width: 1.05px;
+      }
+
+      .cls-4 {
+        fill: #292f51;
+      }
+
+      .cls-5 {
+        fill: #293052;
+      }
+    </style>
+  </defs>
+  <g id="Group_135" data-name="Group 135" transform="translate(1750.6 1113.9)">
+    <g id="Group_133" data-name="Group 133" transform="translate(421.4 0.1)">
+      <rect id="Rectangle_60" data-name="Rectangle 60" class="cls-1" width="138.003" height="138.003" transform="translate(0.908 1.089)"/>
+      <path id="Path_168" data-name="Path 168" class="cls-2" d="M559.4,2.1V138.1H423.4V2.1H559.4m2-2h-140v140h140V.1Z" transform="translate(-421.4 -0.1)"/>
+    </g>
+    <g id="Group_134" data-name="Group 134" transform="translate(-1083.6 -830.9)">
+      <path id="Path_169" data-name="Path 169" class="cls-3" d="M464.7,59.56,479.419,43.9l9.709,7.2,11.588-13.467,7.516,5.637L517.627,32" transform="translate(1079.778 840.304)"/>
+      <path id="Path_170" data-name="Path 170" class="cls-3" d="M464.7,38.856l3.662-3.9,2.415,1.792,2.883-3.35,1.87,1.4,2.337-2.8" transform="translate(1139.548 887.438)"/>
+      <path id="Subtraction_4" data-name="Subtraction 4" class="cls-4" d="M78.4,93.1H14.622V89.759H33.679l7.7-14.934H1.711A1.734,1.734,0,0,1,0,73.114V1.711A1.734,1.734,0,0,1,1.711,0H91.392a1.656,1.656,0,0,1,1.633,1.711V42.529H89.681V3.344H3.344V58.1H65.517V74.825H51.647l7.7,14.934H78.4V93.1ZM46.512,62.769a3.266,3.266,0,1,0,3.267,3.267A3.27,3.27,0,0,0,46.512,62.769Z" transform="translate(1525 854)"/>
+      <path id="Path_172" data-name="Path 172" class="cls-5" d="M27.288,1H10.307A5.309,5.309,0,0,0,5,6.307V42.393A5.309,5.309,0,0,0,10.307,47.7H27.288A5.309,5.309,0,0,0,32.6,42.393V6.307A5.309,5.309,0,0,0,27.288,1ZM18.8,45.577a3.184,3.184,0,1,1,3.184-3.184A3.18,3.18,0,0,1,18.8,45.577Zm9.552-8.491H9.245V7.368h19.1Z" transform="translate(1592.405 900.126)"/>
+    </g>
+  </g>
+</svg>
