@@ -70,14 +70,10 @@
         <div class="gr-12 gr-padding-10">
             <h2>[% l('Create Your MetaTrader 5 Account Now') %]</h2>
         </div>
-        <div class="gr-12">
-            <div>[% l('Yes, I already have a real money Binary.com account') %]</div>
-            <p class="center-text gr-padding-10">
-                <a class="button" href="[% request.url_for('user/settings/metatrader') %]">
-                    <span>[% l('Register MetaTrader 5 Account') %]</span>
-                </a>
-            </p>
-            <div class="upgrade-text">[% l('No, I need to <a href="#" target="_blank">upgrade</a> to a real money account') %]</div>
+        <div class="gr-12 center-text">
+            <a class="button" href="[% request.url_for('user/settings/metatrader') %]">
+                <span>[% l('Register MetaTrader 5 Account') %]</span>
+            </a>
         </div>
     </div>
 </div>

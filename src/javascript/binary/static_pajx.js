@@ -3,7 +3,6 @@ pjax_config_page("/home", function() {
         onLoad: function() {
             $('#btn_sign_in').attr('href', Login.login_url());
             $('.link-to-binary-home').attr('href', page.url.url_for('home', '', true));
-            $('.upgrade-text a').attr('href', page.url.url_for('new_account/realws', '', true));
         }
     };
 });
