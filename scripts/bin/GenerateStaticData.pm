@@ -30,12 +30,12 @@ sub _texts {
         push @texts, localize('Demo');
         push @texts, localize('Financial');
         push @texts, localize('Volatility');
-        push @texts, localize('Login');
+        push @texts, localize('log in');
         push @texts, localize('Balance');
         push @texts, localize('Name');
         push @texts, localize('To create a real account for MetaTrader, switch to your [_1] real money account.');
         push @texts, localize('To create a real account for MetaTrader, <a href="[_1]">upgrade to [_2] real money account</a>.');
-        push @texts, localize('To create a financial account for MetaTrader, please first complete the <a href="[_1]">Financial Assessment</a>.');
+        push @texts, localize('To create a financial account for MetaTrader 5, please complete the <a href="[_1]">Financial Assessment</a>.');
         push @texts, localize('Your new account has been created.');
         push @texts, localize('Deposit is done. Transaction ID: [_1]');
         push @texts, localize('Withdrawal is done. Transaction ID: [_1]');
@@ -47,6 +47,7 @@ sub _texts {
         push @texts, localize('Volatility Indices Account');
         push @texts, localize('Investor Password cannot be same as Main Password.');
         push @texts, localize('Please contact <a href="[_1]">Customer Support</a>.');
+        push @texts, localize('Please [_1] to your Binary.com account.');
 
         # strings for financial assessment
         push @texts, localize('Your settings have been updated successfully.');
