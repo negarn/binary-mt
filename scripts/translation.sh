@@ -11,7 +11,7 @@ PATH=/usr/local/opt/gettext/bin/:$PATH
 
 carton exec perl -Ilib -Ibin bin/extra_translations.pl
 
-for i in $(ls ../src/config/locales/*.po); do \
+for i in $(ls ../src/config/locales/*.po | grep -v ach.po); do \
     msgmerge --previous --backup none --no-wrap --update $i ../src/config/locales/messages.pot ; \
 done
 
