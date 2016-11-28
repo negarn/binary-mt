@@ -630,10 +630,13 @@ div ul li.no-bullet {
 
 /* pages */
 .home-content #banner {
-  background: url("../images/pages/home/banner-background_1.png") 0 0/100% 108% no-repeat;
+  background: url("../images/pages/home/banner-background_1.png") 0 0/100% 70% no-repeat;
 }
-.home-content .buttons-row p {
-  margin: 8px 0;
+.home-content #banner .banner-text {
+  line-height: 150%;
+}
+.home-content .upgrade-text {
+  font-size: 0.7em;
 }
 
 #mt-container .sidebar-left {

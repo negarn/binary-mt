@@ -15875,7 +15875,6 @@ function loadJS( src ){
 
 ;var texts_json = {};
 texts_json['EN'] = {};
-texts_json['AR'] = {};
 texts_json['DE'] = {};
 texts_json['ES'] = {};
 texts_json['FR'] = {};
@@ -15884,9 +15883,11 @@ texts_json['IT'] = {};
 texts_json['PL'] = {};
 texts_json['PT'] = {};
 texts_json['RU'] = {};
+texts_json['TH'] = {};
 texts_json['VI'] = {};
 texts_json['ZH_CN'] = {};
 texts_json['ZH_TW'] = {};
+texts_json['ACH'] = {};
 
 ;/*
  * Configuration values needed in js codes
@@ -16147,8 +16148,8 @@ Client.prototype = {
     show_login_if_logout: function(shouldReplacePageContents) {
         if (!this.is_logged_in && shouldReplacePageContents) {
             $('#content > .container').addClass('center-text')
-                .html($('<p/>', {class: 'notice-msg', html: text.localize('Please [_1] to view this page', [
-                        '<a class="login_link" href="javascript:;">' + text.localize('login') + '</a>'
+                .html($('<p/>', {class: 'notice-msg', html: text.localize('Please [_1] to your Binary.com account.', [
+                        '<a class="login_link" href="javascript:;">' + text.localize('log in') + '</a>'
                     ])}));
             $('.login_link').click(function(){Login.redirect_to_login();});
         }
@@ -16679,7 +16680,7 @@ var Page = function(config) {
 
 Page.prototype = {
     all_languages: function() {
-        return ['EN', 'AR', 'DE', 'ES', 'FR', 'ID', 'IT', 'PL', 'PT', 'RU', 'VI', 'ZH_CN', 'ZH_TW'];
+        return ['EN', 'AR', 'DE', 'ES', 'FR', 'ID', 'IT', 'PL', 'PT', 'RU', 'VI', 'ZH_CN', 'ZH_TW', 'ACH']; // ACH is a pseudo language used for in-context translation
     },
     language_from_url: function() {
         var regex = new RegExp('^(' + this.all_languages().join('|') + ')$', 'i');
@@ -16699,6 +16700,7 @@ Page.prototype = {
         return lang;
     },
     on_load: function() {
+        this.incontext_translation();
         this.url.reset();
         this.localize_for(this.language());
         this.header.on_load();
@@ -16758,6 +16760,16 @@ Page.prototype = {
         localStorage.setItem('active_loginid', loginid);
         $('.login-id-list a').removeAttr('disabled');
         page.reload();
+    },
+    incontext_translation: function() {
+        if (/https:\/\/mt\.binary\.com\/translations\//.test(window.location.href) && page.language() === 'ACH') {
+            window._jipt = [];
+            window._jipt.push(['project', 'binary-mt']);
+            var script = document.createElement('script');
+            script.type = 'text/javascript';
+            script.src = document.location.protocol + '//cdn.crowdin.com/jipt/jipt.js';
+            $('body').append(script);
+        }
     },
     localize_for: function(language) {
         text = texts[language];
@@ -18477,7 +18489,7 @@ var BinarySocket = new BinarySocketClass();
             manageTabContents();
         } else if(!page.client.is_virtual()) {
             findInSection('financial', '.msg-account').html(
-                text.localize('To create a financial account for MetaTrader, please first complete the <a href="[_1]">Financial Assessment</a>.', [page.url.url_for('user/settings/assessmentws')])
+                text.localize('To create a financial account for MetaTrader 5, please complete the <a href="[_1]">Financial Assessment</a>.', [page.url.url_for('user/settings/assessmentws')])
             ).removeClass(hiddenClass);
         }
     };
