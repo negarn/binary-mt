@@ -3,32 +3,12 @@ var FinancialAssessmentws = (function(){
 
     var init = function(){
         if (checkIsVirtual()) return;
-        LocalizeText();
         $("#assessment_form").on("submit",function(event) {
             event.preventDefault();
             submitForm();
             return false;
         });
         BinarySocket.send({get_financial_assessment : 1});
-    };
-
-    // For translating strings
-    var LocalizeText = function(){
-        $("#heading").text(text.localize($("#heading").text()));
-        $('#heading_risk').text(text.localize($("#heading_risk").text()));
-        $('#high_risk_classification').text(text.localize($('#high_risk_classification').text()));
-        document.getElementsByTagName('legend')[0].innerHTML = text.localize(document.getElementsByTagName('legend')[0].innerHTML);
-        if (document.getElementsByTagName('legend')[1]) document.getElementsByTagName('legend')[1].innerHTML = text.localize(document.getElementsByTagName('legend')[1].innerHTML);
-        $("#assessment_form label").each(function(){
-            var ele = $(this);
-            ele.text(text.localize(ele.text()));
-        });
-        $("#assessment_form option").each(function(){
-            var ele = $(this);
-            ele.text(text.localize(ele.text()));
-        });
-        $("#warning").text(text.localize($("#warning").text()));
-        $("#submit").text(text.localize($("#submit").text()));
     };
 
     var submitForm = function(){
@@ -155,7 +135,6 @@ var FinancialAssessmentws = (function(){
         init : init,
         apiResponse : apiResponse,
         submitForm: submitForm,
-        LocalizeText: LocalizeText,
         onLoad: onLoad,
     };
 }());
