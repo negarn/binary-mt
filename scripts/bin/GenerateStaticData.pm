@@ -53,6 +53,7 @@ sub _texts {
         push @texts, localize('Your settings have been updated successfully.');
         push @texts, localize('This feature is not relevant to virtual-money accounts.');
         push @texts, localize('Please select a value');
+        push @texts, localize('You did not change anything.');
 
         my %as_hash = @texts;
         $js .= "texts_json['" . $language . "'] = " . JSON::to_json(\%as_hash) . ";\n";
