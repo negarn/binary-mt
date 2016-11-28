@@ -41,14 +41,14 @@
           </tr>
           <tr>
             <td>[% l('Maximum Volume (Trade Size)') %]</td>
-            <td>10</td>
-            <td>10</td>
-            <td>10</td>
-            <td>10</td>
-            <td>10</td>
-            <td>2</td>
-            <td>2</td>
-            <td>2</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
           </tr>
           <tr>
             <td>[% l('Minimum Increment (Volume)') %]</td>
@@ -98,7 +98,7 @@
       </table>
     </div>
     <p>[% l('* Minimum Spread is a percentage of the underlying market price, and can change over time.') %]</p>
-    <p>[% l('** Leverage of 100:1 results in a margin rate of 0.01 and leverage of 300:1 results in a margin rate of 0.03.') %]</p>
+    <p>[% l('** Leverage of 500:1 results in a margin rate of 0.002.') %]</p>
     <p>[% l('<strong>Margin Policy:</strong> The forced liquidation level is 50%. Please refer to our <a href="[_1]">Margin Policy</a> for further details.', request.url_for('margin-policy')) %]</p>
   </div>
 </div>

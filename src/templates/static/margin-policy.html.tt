@@ -1,19 +1,9 @@
 <div class="gr-row">
     <div class="gr-12">
-        <h1>
-            [% l("Margin Policy") %]
-        </h1>
-        <p>
-            [% l("Margin allows you to trade on leverage, allowing you to gain the same amount of market exposure using much less capital. For example, if you want to purchase 100 units of a particular asset trading at 50 USD/unit through a traditional broker you
-            will need to pay 100*50 = 5000 USD for this transaction. However, trading a CFD on the same asset using a margin account, you can have similar exposure using much less capital (a margin rate of 0.01, essentially a leverage of 100:1, would simply need
-            5000*0.01= 50 USD to make this trade).") %]
-        </p>
-        <h2>
-          [% l("Margin Calculation") %]
-        </h2>
-        <h3>
-          [% l("CFDs on Volatility Indices") %]
-        </h3>
+        <h1>[% l("Margin Policy") %]</h1>
+        <p>[% l("Margin allows you to trade on leverage, allowing you to gain the same amount of market exposure using much less capital. For example, if you want to purchase 100 units of a particular asset trading at 50 USD/unit through a traditional broker you will need to pay 100*50 = 5000 USD for this transaction. However, trading a CFD on the same asset using a margin account, you can have similar exposure using much less capital (a margin rate of 0.01, essentially a leverage of 100:1, would simply need 5000*0.01= 50 USD to make this trade).") %]</p>
+        <h2>[% l("Margin Calculation") %]</h2>
+        <h3>[% l("CFDs on Volatility Indices") %]</h3>
         <p>[% l("The Margin calculation for CFDs on Volatility Indices depends on volume (size), price and margin rate.") %]</p>
         <p>[% l("Margin = Volume (size) * price * margin rate") %]</p>
         <h3>[% l("Implementation of Margin Call") %]</h3>
