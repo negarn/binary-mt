@@ -1,0 +1,1864 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: binary-mt\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2016-11-25 03:44-0500\n"
+"Last-Translator: binarycom <jy@binary.com>\n"
+"Language-Team: Acholi\n"
+"Language: ach_UG\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: binary-mt\n"
+"X-Crowdin-Language: ach\n"
+"X-Crowdin-File: /translations/src/config/locales/messages.pot\n"
+
+msgid "%1 gives everyone an easy way to participate in the financial markets. Trade with as little as $1 USD on major currencies, stocks, indices, and commodities."
+msgstr "crwdns16735:0%1crwdne16735:0"
+
+msgid "%1 has updated its  <a target=\"_blank\" href=\"%2\">Terms & Conditions</a>. By clicking OK, you confirm that you have read and accepted the updated <a target=\"_blank\" href=\"%2\">Terms & Conditions</a>."
+msgstr "crwdns16736:0%1crwdnd16736:0%2crwdnd16736:0%2crwdne16736:0"
+
+msgid "%1 offers forex and contracts for differences via the hybrid model, i.e., both dealing on own account (dealing desk) and partially hedging client orders with our liquidity providers (no-dealing desk). Client orders are typically hedged when the total transaction volume exceeds a predefined threshold of risk tolerance level. For both execution models, %1 acts as the contractual counterparty to the transactions that you enter into with us, as opposed to entering into a contractual counterparty with a central clearing house as would be the case with exchange traded financial instruments. As such, counterparty risk exists. Counterparty risk refers to the risk of loss for clients resulting from the fact that the counterparty to the forex and/or contracts for differences transaction that you entered into may default on its obligations prior to the final settlement of the transaction's cash flow."
+msgstr "crwdns16737:0%1crwdnd16737:0%1crwdne16737:0"
+
+msgid "&#36;1/point"
+msgstr "crwdns16738:0crwdne16738:0"
+
+#, fuzzy
+#| msgid "$100,000 - $250,000"
+msgid "&#36;100,000 - &#36;250,000"
+msgstr "crwdns16731:0crwdne16731:0"
+
+#, fuzzy
+#| msgid "$100,000 - $500,000"
+msgid "&#36;100,001 - &#36;500,000"
+msgstr "crwdns16732:0crwdne16732:0"
+
+#, fuzzy
+#| msgid "$25,000 - $100,000"
+msgid "&#36;25,000 - &#36;50,000"
+msgstr "crwdns16733:0crwdne16733:0"
+
+#, fuzzy
+#| msgid "$250,000 - $1,000,000"
+msgid "&#36;250,001 - &#36;500,000"
+msgstr "crwdns16734:0crwdne16734:0"
+
+#, fuzzy
+#| msgid "$250,000 - $1,000,000"
+msgid "&#36;50,001 - &#36;100,000"
+msgstr "crwdns16734:0crwdne16734:0"
+
+#, fuzzy
+#| msgid "$250,000 - $1,000,000"
+msgid "&#36;500,001 - &#36;1,000,000"
+msgstr "crwdns16734:0crwdne16734:0"
+
+msgid "&copy; 2016 Binary.com"
+msgstr "crwdns16739:0crwdne16739:0"
+
+msgid "* Minimum Spread is a percentage of the underlying market price, and can change over time."
+msgstr "crwdns16740:0crwdne16740:0"
+
+#, fuzzy
+#| msgid "** Leverage of 100:1 results in a margin rate of 0.01 and leverage of 300:1 results in a margin rate of 0.03."
+msgid "** Leverage of 500:1 results in a margin rate of 0.002."
+msgstr "crwdns16741:0crwdne16741:0"
+
+msgid "0-1 year"
+msgstr "crwdns16742:0crwdne16742:0"
+
+msgid "0-5 transactions in the past 12 months"
+msgstr "crwdns16743:0crwdne16743:0"
+
+msgid "1-2 years"
+msgstr "crwdns16744:0crwdne16744:0"
+
+msgid "40 transactions or more in the past 12 months"
+msgstr "crwdns16745:0crwdne16745:0"
+
+msgid "6-10 transactions in the past 12 months"
+msgstr "crwdns16746:0crwdne16746:0"
+
+msgid "<a href=\"%1\">Return to MetaTrader Settings</a>."
+msgstr "crwdns16747:0%1crwdne16747:0"
+
+msgid "<strong>Margin Call Level</strong> - when you reach this level of assets (i.e., when your account equity is insufficient to cover the margin requirement), your account is under margin call. The margin call state does not affect the ability of opening new positions."
+msgstr "crwdns16748:0crwdne16748:0"
+
+msgid "<strong>Margin Policy:</strong> The forced liquidation level is 50%. Please refer to our <a href=\"%1\">Margin Policy</a> for further details."
+msgstr "crwdns16749:0%1crwdne16749:0"
+
+msgid "<strong>Stop Out Level</strong> - when you reach this level of assets, your pending orders are deleted and open positions are forced closed. The forced liquidation level is 50%. Once the account has hit the forced liquidation level, orders and positions are forcedly closed on an account in the following order:"
+msgstr "crwdns16750:0crwdne16750:0"
+
+msgid "A Transaction is opened by either executing a \"Buy\" or \"Sell\" Order based on a specified number of lots (volume) that constitute the underlying instrument of the relevant market."
+msgstr "crwdns16751:0crwdne16751:0"
+
+#, fuzzy
+#| msgid ""
+#| "A higher figure (higher to you) representing our offer price and a lower figure (lower to you) representing our bid price for each Transaction shall be quoted to you upon your request. The difference between our bid and our offer price will\n"
+#| "                            comprise of the market spread (where there is market for the underlying instrument) and our spread (being our charge to you)."
+msgid "A higher figure (higher to you) representing our offer price and a lower figure (lower to you) representing our bid price for each Transaction shall be quoted to you upon your request. The difference between our bid and our offer price will comprise of the market spread (where there is market for the underlying instrument) and our spread (being our charge to you)."
+msgstr "crwdns16752:0crwdne16752:0"
+
+msgid "A scanned copy of a utility bill or bank statement (no more than 3 months old)."
+msgstr "crwdns16753:0crwdne16753:0"
+
+msgid "A scanned copy of your passport, driving licence (provisional or full) or identity card, showing your name and date of birth."
+msgstr "crwdns16754:0crwdne16754:0"
+
+msgid "A. Introduction"
+msgstr "crwdns16755:0crwdne16755:0"
+
+msgid "A. Introduction and Scope of Agreement"
+msgstr "crwdns16756:0crwdne16756:0"
+
+msgid "A. Spot FX"
+msgstr "crwdns16757:0crwdne16757:0"
+
+#, fuzzy
+#| msgid "Access advanced tools for fundamental and technical analysis."
+msgid "Access advanced tools for fundamental and technical analysis, all available in one platform."
+msgstr "crwdns16758:0crwdne16758:0"
+
+msgid "Account Balance - Your account balance represents:"
+msgstr "crwdns16759:0crwdne16759:0"
+
+msgid "Account Equity - Your Account Equity refers to the sum of your Account Balance and the net of unrealised profit and loss."
+msgstr "crwdns16760:0crwdne16760:0"
+
+msgid "Account Free Margin - Your Account Equity minus your Total Margin."
+msgstr "crwdns16761:0crwdne16761:0"
+
+msgid "Account Security"
+msgstr "crwdns16762:0crwdne16762:0"
+
+msgid "Account Type"
+msgstr "crwdns16763:0crwdne16763:0"
+
+msgid "Accounts with debit balance (i.e. credit exposure to %1)"
+msgstr "crwdns16764:0%1crwdne16764:0"
+
+msgid "Accounts with debit balances are required to settle the full amount immediately by making a payment to us."
+msgstr "crwdns16765:0crwdne16765:0"
+
+msgid "Advanced Tools &amp; Platforms"
+msgstr ""
+
+msgid "All client orders are processed on a first in first out basis without any manual intervention. When executing your order, Binary.com will seek to fill your order transaction as promptly as possible, at the instructed price (or at a better price, if available). Exposure limits are established based on internal governance arrangements and risk management framework which commensurate with the size, nature, complexity, and risk profile of our activities. These exposure limits are used as benchmarks to distinguish orders that are auto-accepted and orders that will be worked in the market with fill level passed on to the client."
+msgstr "crwdns16766:0crwdne16766:0"
+
+msgid "All credit card details are submitted directly to the Visa/Mastercard network using the latest SSL encryption technology, in accordance with bank policies;"
+msgstr "crwdns16767:0crwdne16767:0"
+
+msgid "All funds transferred from your Binary Options Real Account to your Real Account must be made by you."
+msgstr "crwdns16768:0crwdne16768:0"
+
+#, fuzzy
+#| msgid ""
+#| "All intellectual property rights in the MT5 Trading Platform are owned by the Licensor and shall remain the exclusive property of the Licensor. Nothing in this Agreement intends to transfer any such rights or to vest any such rights in you.\n"
+#| "                    "
+msgid "All intellectual property rights in the MT5 Trading Platform are owned by the Licensor and shall remain the exclusive property of the Licensor. Nothing in this Agreement intends to transfer any such rights or to vest any such rights in you."
+msgstr "crwdns16769:0crwdne16769:0"
+
+#, fuzzy
+#| msgid ""
+#| "All products traded on margin carry a high degree of risk and can result in losses as well as profits that exceed your initial deposit. The margin trading service described in this Agreement is not suitable for everyone. You acknowledge\n"
+#| "                    that the margin trading service described in this Agreement is designed for clients who are knowledgeable and experienced in the types of transactions described in this Agreement and you fully understand the associated risks before entering into this\n"
+#| "                    Agreement with us."
+msgid "All products traded on margin carry a high degree of risk and can result in losses as well as profits that exceed your initial deposit. The margin trading service described in this Agreement is not suitable for everyone. You acknowledge that the margin trading service described in this Agreement is designed for clients who are knowledgeable and experienced in the types of transactions described in this Agreement and you fully understand the associated risks before entering into this Agreement with us."
+msgstr "crwdns16770:0crwdne16770:0"
+
+msgid "Alter the normal trading times for the affected market;"
+msgstr "crwdns16772:0crwdne16772:0"
+
+msgid "Amount"
+msgstr "crwdns16773:0crwdne16773:0"
+
+msgid "An Open Position may be closed by placing an opposite Order, that is an Order to sell (to close a Long Position) or to buy (to close a Short Position) in the same market for the same specified number of lots (volume)."
+msgstr "crwdns16774:0crwdne16774:0"
+
+#, fuzzy
+#| msgid "An Open Position may be partially closed by entering into an opposite Transaction in the same Market but for a smaller number of lots (volume) as the Open Position. "
+msgid "An Open Position may be partially closed by entering into an opposite Transaction in the same Market but for a smaller number of lots (volume) as the Open Position."
+msgstr "crwdns16775:0crwdne16775:0"
+
+msgid "Any Transaction opened by you must be within any credit or position limit in effect with respect to the Real Account or any Transactions."
+msgstr "crwdns16776:0crwdne16776:0"
+
+msgid "Any information which you provide or have provided to us in respect of your financial position, domicile or other matters is accurate and not misleading in any material respect."
+msgstr "crwdns16777:0crwdne16777:0"
+
+msgid "Any other consideration relevant to the execution of the transaction."
+msgstr "crwdns16778:0crwdne16778:0"
+
+#, fuzzy
+#| msgid ""
+#| "Any realised profits and interest charges that are denominated in a currency that's different from your Base Currency will be automatically converted to your Base Currency before being debited / credited to your Real Account. The conversion\n"
+#| "                            will be performed at commercially reasonable rates."
+msgid "Any realised profits and interest charges that are denominated in a currency that's different from your Base Currency will be automatically converted to your Base Currency before being debited / credited to your Real Account. The conversion will be performed at commercially reasonable rates."
+msgstr "crwdns16779:0crwdne16779:0"
+
+msgid "Appendix - Product Specific Policies"
+msgstr "crwdns16780:0crwdne16780:0"
+
+msgid "Aspects of a client order not affected by specific instructions are subject to the application of Binary.com's Order Execution Policy. In the absence of specific instructions from our clients, we will exercise our own discretion in determining the factors that are required to be taken into account for the purpose of providing you with best execution, having regard to the execution criteria listed below:"
+msgstr "crwdns16781:0crwdne16781:0"
+
+msgid "Assessment of Appropriateness"
+msgstr "crwdns16782:0crwdne16782:0"
+
+msgid "B. Commencement and Cancellation"
+msgstr "crwdns16783:0crwdne16783:0"
+
+msgid "B. Scope"
+msgstr "crwdns16784:0crwdne16784:0"
+
+msgid "Balance"
+msgstr "crwdns16785:0crwdne16785:0"
+
+msgid "Base Currency"
+msgstr "crwdns16786:0crwdne16786:0"
+
+msgid "Base Currency - The currency in which your Transaction was entered into."
+msgstr "crwdns16787:0crwdne16787:0"
+
+msgid "Best execution is the requirement to take all sufficient steps to obtain, when executing orders, the best possible result for you taking into account price, costs, speed, likelihood of execution and settlement, size, nature or any other consideration relevant (hereinafter referred to as the \"execution factors\") to the execution of the order."
+msgstr "crwdns16788:0crwdne16788:0"
+
+msgid "Binary Options Real Account - Your real money account opened with Binary.com which you use to trade binary options with Binary.com."
+msgstr "crwdns16789:0crwdne16789:0"
+
+msgid "Binary options or other financial derivatives trading experience"
+msgstr "crwdns16790:0crwdne16790:0"
+
+msgid "Binary options or other financial derivatives trading frequency"
+msgstr "crwdns16791:0crwdne16791:0"
+
+msgid "Binary.com assesses the choice of external execution venues regularly (at least once a year) with the intention of achieving a better result for you based on our best execution obligation."
+msgstr "crwdns16792:0crwdne16792:0"
+
+msgid "Binary.com enters Forex and CFD trading with the universally acclaimed MetaTrader 5, in addition to its continued leadership presence in the binary options market."
+msgstr ""
+
+msgid "Binary.com offers forex and contracts for differences via the hybrid model, i.e., both dealing on own account (dealing desk) and partially hedging client orders with our liquidity providers (no-dealing desk)."
+msgstr "crwdns16793:0crwdne16793:0"
+
+msgid "Binary.com owes you a duty of best execution when executing orders on your behalf, i.e., when you are placing a legitimate reliance on us to safeguard your interest in relation to the execution of your order."
+msgstr "crwdns16794:0crwdne16794:0"
+
+msgid "Binary.com provides you best execution by utilising a smart aggregation method when managing incoming orders. The smart aggregation method works by:"
+msgstr "crwdns16795:0crwdne16795:0"
+
+msgid "Binary.com shall act, at times, as a principal and at other times as an agent on your behalf, for all Transactions entered into, by you."
+msgstr "crwdns16796:0crwdne16796:0"
+
+msgid "By default, the intelligent order routing system ensures that the top of the book is always comprised of the best bid and offer rates quoted by the competing liquidity providers. However, during times of market illiquidity, this may change with likelihood of execution being the primary execution factor."
+msgstr "crwdns16797:0crwdne16797:0"
+
+msgid "By opening a Real Account with Binary.com, you represent, warrant and undertake that:"
+msgstr "crwdns16798:0crwdne16798:0"
+
+msgid "C. Definition of Best Execution"
+msgstr "crwdns16799:0crwdne16799:0"
+
+msgid "C. Provision of Services"
+msgstr "crwdns16800:0crwdne16800:0"
+
+msgid "CFDs on Volatility Indices"
+msgstr "crwdns16801:0crwdne16801:0"
+
+msgid "Change API Endpoint"
+msgstr "crwdns16802:0crwdne16802:0"
+
+msgid "Change the Stop Out Level in relation to your account."
+msgstr "crwdns16803:0crwdne16803:0"
+
+msgid "Change the margin rate in relation to both Open Positions and new orders;"
+msgstr "crwdns16804:0crwdne16804:0"
+
+msgid "Click the button below to download MetaTrader."
+msgstr "crwdns16805:0crwdne16805:0"
+
+msgid "Client Money"
+msgstr "crwdns16806:0crwdne16806:0"
+
+#, fuzzy
+#| msgid ""
+#| "Clients registered with any Group company, and in particular with Binary (V) Ltd. or Binary (C.R.). S.A., can raise their unresolved disputes with management by submitting an email to <a\n"
+#| "                            href='mailto:complaints@binary.com'>complaints@binary.com</a>."
+msgid "Clients registered with any Group company, and in particular with Binary (V) Ltd. or Binary (C.R.). S.A., can raise their unresolved disputes with management by submitting an email to <a href='mailto:%1'>%1</a>."
+msgstr "crwdns16807:0crwdne16807:0"
+
+msgid "Close all or any of your Open Positions at a closing level that is reasonably available;"
+msgstr "crwdns16808:0crwdne16808:0"
+
+msgid "Closing a Transaction"
+msgstr "crwdns16809:0crwdne16809:0"
+
+msgid "Closing an Account"
+msgstr "crwdns16810:0crwdne16810:0"
+
+msgid "Closing or part-closing all or any of your Open Positions based on the prevailing prices available in the relevant markets;"
+msgstr "crwdns16811:0crwdne16811:0"
+
+msgid "Commodities trading experience"
+msgstr "crwdns16812:0crwdne16812:0"
+
+msgid "Commodities trading frequency"
+msgstr "crwdns16813:0crwdne16813:0"
+
+msgid "Complaints and disputes"
+msgstr "crwdns16814:0crwdne16814:0"
+
+msgid "Confidentiality"
+msgstr "crwdns16815:0crwdne16815:0"
+
+msgid "Congratulations! Your account has been created."
+msgstr "crwdns16816:0crwdne16816:0"
+
+msgid "Construction"
+msgstr "crwdns16817:0crwdne16817:0"
+
+msgid "Contact Us"
+msgstr "crwdns16818:0crwdne16818:0"
+
+msgid "Contract Specifications"
+msgstr "crwdns16819:0crwdne16819:0"
+
+msgid "Costs - the costs of executing your order comprised predominantly of spread, i.e., the difference between our bid and our offer price."
+msgstr "crwdns16820:0crwdne16820:0"
+
+msgid "Create"
+msgstr "crwdns16821:0crwdne16821:0"
+
+msgid "Create Your MetaTrader 5 Account Now"
+msgstr "crwdns16822:0crwdne16822:0"
+
+msgid "Create a MetaTrader account to trade on the MetaTrader 5 platform."
+msgstr "crwdns16823:0crwdne16823:0"
+
+msgid "D. Capacity"
+msgstr "crwdns16825:0crwdne16825:0"
+
+msgid "D. Client Instructions"
+msgstr "crwdns16826:0crwdne16826:0"
+
+msgid "Demo"
+msgstr "crwdns16827:0crwdne16827:0"
+
+msgid "Demo Account"
+msgstr "crwdns16828:0crwdne16828:0"
+
+msgid "Depending on the level of risk that we are exposed to acting as your counterparty, we largely act in a principal capacity of your trades. As such, the execution venue will usually be Binary.com. However, we may transmit your order to third party liquidity providers, in which case we will determine the execution venue ourselves on the basis described above."
+msgstr "crwdns16829:0crwdne16829:0"
+
+msgid "Deposit"
+msgstr "crwdns16830:0crwdne16830:0"
+
+msgid "Deposit from"
+msgstr "crwdns16831:0crwdne16831:0"
+
+msgid "Deposit funds into your MetaTrader account from your Binary account:"
+msgstr "crwdns16832:0crwdne16832:0"
+
+msgid "Deposit is done. Transaction ID: %1"
+msgstr "crwdns16833:0%1crwdne16833:0"
+
+msgid "Deposit to"
+msgstr "crwdns16834:0crwdne16834:0"
+
+msgid "Deposit to MetaTrader account"
+msgstr "crwdns16835:0crwdne16835:0"
+
+msgid "Details"
+msgstr "crwdns16836:0crwdne16836:0"
+
+msgid "Download MetaTrader"
+msgstr "crwdns16837:0crwdne16837:0"
+
+msgid "Download MetaTrader for Windows"
+msgstr "crwdns16838:0crwdne16838:0"
+
+msgid "Download for MacOS"
+msgstr "crwdns16839:0crwdne16839:0"
+
+msgid "Due to recent changes in the regulations, we are required to ask our clients to complete the following Financial Assessment. Please note that you will not be able to continue trading until this is completed."
+msgstr "crwdns16840:0crwdne16840:0"
+
+msgid "E. Account Management"
+msgstr "crwdns16841:0crwdne16841:0"
+
+msgid "E. Best Execution Obligation"
+msgstr "crwdns16842:0crwdne16842:0"
+
+msgid "Each of the following event constitutes an \"Event of Default\":"
+msgstr "crwdns16843:0crwdne16843:0"
+
+msgid "Education"
+msgstr "crwdns16844:0crwdne16844:0"
+
+msgid "Enhanced Trading with MetaTrader 5"
+msgstr "crwdns16845:0crwdne16845:0"
+
+msgid "Estimated Net Worth"
+msgstr "crwdns16846:0crwdne16846:0"
+
+#, fuzzy
+#| msgid ""
+#| "Event - Event examples include circumstances whereby the type of Transaction to which your Order is related to ceased to be offered, or a Corporate Event or the insolvency of a Company whose shares represent are related to the subject\n"
+#| "                    matter of the Order, and others."
+msgid "Event - Event examples include circumstances whereby the type of Transaction to which your Order is related to ceased to be offered, or a Corporate Event or the insolvency of a Company whose shares represent are related to the subject matter of the Order, and others."
+msgstr "crwdns16847:0crwdne16847:0"
+
+msgid "Execution model and counterparty risk"
+msgstr "crwdns16848:0crwdne16848:0"
+
+msgid "External forces"
+msgstr "crwdns16849:0crwdne16849:0"
+
+msgid "F. Execution Venues"
+msgstr "crwdns16850:0crwdne16850:0"
+
+msgid "F. Orders"
+msgstr "crwdns16851:0crwdne16851:0"
+
+msgid "Finance"
+msgstr "crwdns16852:0crwdne16852:0"
+
+msgid "Financial"
+msgstr "crwdns16853:0crwdne16853:0"
+
+msgid "Financial Account"
+msgstr "crwdns16854:0crwdne16854:0"
+
+msgid "Financial Assessment"
+msgstr "crwdns16855:0crwdne16855:0"
+
+#, fuzzy
+#| msgid "Financial Account"
+msgid "Financial Information"
+msgstr "crwdns16854:0crwdne16854:0"
+
+msgid "For features and trading illustration of Spot FX offered by Binary.com, refer to the Product Disclosure Statement. This policy is an appendix to the overarching Binary.com Order Execution Policy and should be read in conjunction with the overarching Binary.com Order Execution Policy."
+msgstr "crwdns16856:0crwdne16856:0"
+
+msgid "Force majeure event, if and when determined, means, (i) the Company, by reason of force majeure or act of state, is prevented from or hindered or delayed in delivering or receiving, or is impossible to deliver or receive, any quotation of the bid and offer price of a market in one or more of the instruments which we ordinarily deal in Transactions; (ii) an excessive movement in the market of the instrument or our reasonable anticipation of the potential occurrence of market disruption."
+msgstr "crwdns16857:0crwdne16857:0"
+
+msgid "Forex and contract for differences transactions involve a high degree of risk and are speculative because they allow you to speculate on the short term movements of the price of the underlying financial instruments. You should not enter into forex and/or contracts for differences transactions unless you are able to sustain losses that exceed your deposited funds. It is important for you to understand that in order to realise any value from your open positions, you would have to enter into a corresponding transaction to close your open positions and you may find it difficult or impossible to do so under certain market conditions."
+msgstr "crwdns16858:0crwdne16858:0"
+
+msgid "Forex and contracts for differences are high risk and speculative"
+msgstr "crwdns16859:0crwdne16859:0"
+
+msgid "Forex trading experience"
+msgstr "crwdns16860:0crwdne16860:0"
+
+msgid "Forex trading frequency"
+msgstr "crwdns16861:0crwdne16861:0"
+
+msgid "Fund Transfers"
+msgstr "crwdns16862:0crwdne16862:0"
+
+msgid "Funding of Real Account"
+msgstr "crwdns16863:0crwdne16863:0"
+
+msgid "G. Margin"
+msgstr "crwdns16864:0crwdne16864:0"
+
+msgid "G. Order Handling"
+msgstr "crwdns16865:0crwdne16865:0"
+
+msgid "General Provisions"
+msgstr "crwdns16866:0crwdne16866:0"
+
+#, fuzzy
+#| msgid ""
+#| "Given our role as margin trading service provider as described in this Agreement, we seek to avoid undue market influence to the extent consistent with your trading needs and our risk management policies and procedures. By continuing to use\n"
+#| "                            the margin trading service described in this Agreement, you acknowledge that you are aware of the potential conflict of interest disclosed that may arise and cannot be completely eliminated, and you consent us to act notwithstanding such potential\n"
+#| "                            conflict of interests."
+msgid "Given our role as margin trading service provider as described in this Agreement, we seek to avoid undue market influence to the extent consistent with your trading needs and our risk management policies and procedures. By continuing to use the margin trading service described in this Agreement, you acknowledge that you are aware of the potential conflict of interest disclosed that may arise and cannot be completely eliminated, and you consent us to act notwithstanding such potential conflict of interests."
+msgstr "crwdns16867:0crwdne16867:0"
+
+msgid "H. Monitoring and Review"
+msgstr "crwdns16868:0crwdne16868:0"
+
+msgid "H. Regulatory Provisions"
+msgstr "crwdns16869:0crwdne16869:0"
+
+msgid "HF Volatility 10 Index"
+msgstr "crwdns16870:0crwdne16870:0"
+
+msgid "HF Volatility 100 Index"
+msgstr "crwdns16871:0crwdne16871:0"
+
+msgid "HF Volatility 50 Index"
+msgstr "crwdns16872:0crwdne16872:0"
+
+msgid "Health"
+msgstr "crwdns16873:0crwdne16873:0"
+
+#, fuzzy
+#| msgid ""
+#| "High Risk Investment Warning: Trading foreign exchange and/or contracts for differences on margin carries a very high level of risk, and may not be suitable for all investors. There is a possibility that you could sustain a loss in excess of\n"
+#| "                your deposited funds. Accordingly, you should not speculate with capital that you cannot afford to lose. Before deciding to trade the products offered via this website you should carefully consider your financial objectives, needs and level of\n"
+#| "                trading experience. In particular, you should be aware of all the risks associated with trading on margin. Furthermore, the Binary group of companies do not issue advice, recommendations or opinions in relation to acquiring, holding or disposing of\n"
+#| "                any financial products, and all services are provided on an execution only basis."
+msgid "High Risk Investment Warning: Trading foreign exchange and/or contracts for differences on margin carries a very high level of risk, and may not be suitable for all investors. There is a possibility that you could sustain a loss in excess of your deposited funds. Accordingly, you should not speculate with capital that you cannot afford to lose. Before deciding to trade the products offered via this website you should carefully consider your financial objectives, needs and level of trading experience. In particular, you should be aware of all the risks associated with trading on margin. Furthermore, the Binary group of companies do not issue advice, recommendations or opinions in relation to acquiring, holding or disposing of any financial products, and all services are provided on an execution only basis."
+msgstr "crwdns16874:0crwdne16874:0"
+
+msgid "High frequency (2 ticks per second)"
+msgstr "crwdns16875:0crwdne16875:0"
+
+msgid "I. Quotes"
+msgstr "crwdns16879:0crwdne16879:0"
+
+#, fuzzy
+#| msgid ""
+#| "If a closing Transaction in the same market is entered into but with a higher number of lots, the original Open Position will be closed and a new Open Position will be entered into for the number of lots by which the new Transaction exceeds\n"
+#| "                                    the Open Position."
+msgid "If a closing Transaction in the same market is entered into but with a higher number of lots, the original Open Position will be closed and a new Open Position will be entered into for the number of lots by which the new Transaction exceeds the Open Position."
+msgstr "crwdns16880:0crwdne16880:0"
+
+msgid "If any provision of this Agreement shall be held invalid or unenforceable by a court or regulatory body of competent jurisdiction, the remainder of this Agreement shall remain in full force and effect."
+msgstr "crwdns16881:0crwdne16881:0"
+
+#, fuzzy
+#| msgid ""
+#| "If the Margin Level for your Real Account reaches or falls below the Stop Out Level, this will be classified as an Event of Default. In such circumstances, Open Positions are automatically closed in the following order: (i) the server\n"
+#| "                            analyses clients' Orders that are not under execution at the moment; (ii) the server deletes Orders with the largest Margin; (iii) if your Margin Level is still under the Stop Out Level, the next order is deleted (orders without margin requirements\n"
+#| "                            are not deleted); (iv) if your Margin Level is still under the Stop Out Level, the server closes a position with the largest loss; (v) Open Positions are closed until your Margin Level becomes higher than the Stop Out Level."
+msgid "If the Margin Level for your Real Account reaches or falls below the Stop Out Level, this will be classified as an Event of Default. In such circumstances, Open Positions are automatically closed in the following order: (i) the server analyses clients' Orders that are not under execution at the moment; (ii) the server deletes Orders with the largest Margin; (iii) if your Margin Level is still under the Stop Out Level, the next order is deleted (orders without margin requirements are not deleted); (iv) if your Margin Level is still under the Stop Out Level, the server closes a position with the largest loss; (v) Open Positions are closed until your Margin Level becomes higher than the Stop Out Level."
+msgstr "crwdns16882:0crwdne16882:0"
+
+msgid "If the issue keeps happening, please contact <a>customer support</a>."
+msgstr "crwdns16883:0crwdne16883:0"
+
+msgid "If the level of assets is still under the Stop Out Level, the server closes a position with the largest loss."
+msgstr "crwdns16884:0crwdne16884:0"
+
+msgid "If the level of assets is still under the Stop Out level, the next order is deleted. Orders without margin requirements are not deleted."
+msgstr "crwdns16885:0crwdne16885:0"
+
+msgid "If we determine that a force majeure event exists, the Company shall promptly give notice thereof to the client. Subsequently, we may, at our absolute discretion, take one or more of the following steps:"
+msgstr "crwdns16886:0crwdne16886:0"
+
+msgid "If you are an individual, you are over 18 years old and you have full capacity to enter into this Agreement;"
+msgstr "crwdns16887:0crwdne16887:0"
+
+msgid "If you do not intend to utilise the leverage feature, please set the leverage ratio to 1:1."
+msgstr "crwdns16888:0crwdne16888:0"
+
+msgid "If you fail to immediately make full settlement of the sum due to us in accordance with this Agreement, we reserve the right to accrue interest on the sums due from you to us in respect of any Transaction that you fail to pay on the relevant due date. Interest will accrue on a daily basis from the relevant due date until the date on which payment is received in full at the bank's official base rate for short term funds determined by us, and will be payable on demand."
+msgstr "crwdns16889:0crwdne16889:0"
+
+#, fuzzy
+#| msgid ""
+#| "If you have entered into more than one Open Position in the same market, any closing Transaction that you place in the same market will close the Open Positions in the chronological order in which the Open Positions were first created on a\n"
+#| "                                    first in first out basis."
+msgid "If you have entered into more than one Open Position in the same market, any closing Transaction that you place in the same market will close the Open Positions in the chronological order in which the Open Positions were first created on a first in first out basis."
+msgstr "crwdns16890:0crwdne16890:0"
+
+msgid "If you previously downloaded MetaTrader 5 directly from MetaTrader's website, please select \"%1\" from the list of available brokers."
+msgstr "crwdns16891:0%1crwdne16891:0"
+
+#, fuzzy
+#| msgid ""
+#| "If you wish to withdraw funds from your Real Account and close your Real Account, you may notify us by contacting our helpdesk at <a href='mailto:support@binary.com'>support@binary.com</a>. Your Real Account may be closed if you do not have any Open Positions and all amounts due\n"
+#| "                            to us have been settled."
+msgid "If you wish to withdraw funds from your Real Account and close your Real Account, you may notify us by contacting our helpdesk at <a href='mailto:%1'>%1</a>. Your Real Account may be closed if you do not have any Open Positions and all amounts due to us have been settled."
+msgstr "crwdns16892:0crwdne16892:0"
+
+#, fuzzy
+#| msgid ""
+#| "If you would like to file a complaint with regards to the margin trading service described in this Agreement, kindly contact us by providing the relevant details related to your complaint. We shall investigate your enquiry and a response\n"
+#| "                            will be given to your enquiry. We will usually provide a final response within one to two weeks (and at most within two months) from the receipt of all relevant details."
+msgid "If you would like to file a complaint with regards to the margin trading service described in this Agreement, kindly contact us by providing the relevant details related to your complaint. We shall investigate your enquiry and a response will be given to your enquiry. We will usually provide a final response within one to two weeks (and at most within two months) from the receipt of all relevant details."
+msgstr "crwdns16893:0crwdne16893:0"
+
+msgid "If your Binary Options Real Account with Binary.com is not authenticated, access to create the Real Account shall not be granted until your Binary Options Real Account with Binary.com is authenticated."
+msgstr "crwdns16894:0crwdne16894:0"
+
+#, fuzzy
+#| msgid ""
+#| "If your complaint relates to an outcome of a Transaction and remains unresolved, it will turn into a dispute. Should you be unsatisfied with our response, you can choose to escalate your complaint to an\n"
+#| "                            alternative dispute resolution entity."
+msgid "If your complaint relates to an outcome of a Transaction and remains unresolved, it will turn into a dispute. Should you be unsatisfied with our response, you can choose to escalate your complaint to an alternative dispute resolution entity."
+msgstr "crwdns16895:0crwdne16895:0"
+
+msgid "Implementation of Margin Call"
+msgstr "crwdns16896:0crwdne16896:0"
+
+#, fuzzy
+#| msgid ""
+#| "In accordance with applicable regulatory requirements, where we do not manage to obtain sufficient information to assess the appropriateness of the product or service for you, we will similarly inform you that we are not in a position to\n"
+#| "                            assess appropriateness."
+msgid "In accordance with applicable regulatory requirements, where we do not manage to obtain sufficient information to assess the appropriateness of the product or service for you, we will similarly inform you that we are not in a position to assess appropriateness."
+msgstr "crwdns16897:0crwdne16897:0"
+
+#, fuzzy
+#| msgid ""
+#| "In connection with this Agreement and all Transactions contemplated by this Agreement, you agree to execute and deliver such additional documents and instruments and to perform such additional acts as may be necessary or appropriate to\n"
+#| "                    effectuate, carry out and perform all of the terms, provisions and conditions of this Agreement. You shall cooperate fully with any investigation by any regulatory authority and promptly provide the regulatory authority with such information and\n"
+#| "                    records as may be requested in compliance with any law, ordinance, charter, by-law or rule applicable to you or the jurisdiction in which you are resident."
+msgid "In connection with this Agreement and all Transactions contemplated by this Agreement, you agree to execute and deliver such additional documents and instruments and to perform such additional acts as may be necessary or appropriate to effectuate, carry out and perform all of the terms, provisions and conditions of this Agreement. You shall cooperate fully with any investigation by any regulatory authority and promptly provide the regulatory authority with such information and records as may be requested in compliance with any law, ordinance, charter, by-law or rule applicable to you or the jurisdiction in which you are resident."
+msgstr "crwdns16898:0crwdne16898:0"
+
+msgid "In executing orders on your behalf, Binary.com takes into consideration the following to achieve the best possible result for you:"
+msgstr "crwdns16899:0crwdne16899:0"
+
+msgid "In order to create an account for MetaTrader, you need to authenticate your Binary account."
+msgstr "crwdns16900:0crwdne16900:0"
+
+#, fuzzy
+#| msgid ""
+#| "In the case of a Limit Order, you acknowledge that we will endeavour to open/close a Transaction at a level that is the same or better than the Limit you specified, subject to the availability of the Limit Price. You acknowledge that at the\n"
+#| "                            time of order execution, our bid/offer price may become less favourable to you."
+msgid "In the case of a Limit Order, you acknowledge that we will endeavour to open/close a Transaction at a level that is the same or better than the Limit you specified, subject to the availability of the Limit Price. You acknowledge that at the time of order execution, our bid/offer price may become less favourable to you."
+msgstr "crwdns16901:0crwdne16901:0"
+
+msgid "In the case of a Stop Order, you acknowledge that we will endeavour to open/close a Transaction at the Next Available Price."
+msgstr "crwdns16902:0crwdne16902:0"
+
+#, fuzzy
+#| msgid ""
+#| "In the course of provision of services, we may, where applicable, conduct an appropriateness test, in accordance with our regulatory obligations, in order to determine whether, in our view and on the basis of the information provided by\n"
+#| "                            you, you have the necessary knowledge and experience in the investment field to understand the risks involved in the specific type of product or service offered or demanded."
+msgid "In the course of provision of services, we may, where applicable, conduct an appropriateness test, in accordance with our regulatory obligations, in order to determine whether, in our view and on the basis of the information provided by you, you have the necessary knowledge and experience in the investment field to understand the risks involved in the specific type of product or service offered or demanded."
+msgstr "crwdns16903:0crwdne16903:0"
+
+#, fuzzy
+#| msgid ""
+#| "In the event of your failing to make a Margin Payment, we may, at our absolute discretion, allow your Open Positions to remain open and allow you to place new Orders to open a Transaction. You acknowledge that, upon allowing your Open\n"
+#| "                    Positions to remain open, you may incur further losses."
+msgid "In the event of your failing to make a Margin Payment, we may, at our absolute discretion, allow your Open Positions to remain open and allow you to place new Orders to open a Transaction. You acknowledge that, upon allowing your Open Positions to remain open, you may incur further losses."
+msgstr "crwdns16904:0crwdne16904:0"
+
+msgid "Inactive / Dormant Accounts"
+msgstr "crwdns16905:0crwdne16905:0"
+
+msgid "Income Source"
+msgstr "crwdns16906:0crwdne16906:0"
+
+msgid "Indices trading experience"
+msgstr "crwdns16907:0crwdne16907:0"
+
+msgid "Indices trading frequency"
+msgstr "crwdns16908:0crwdne16908:0"
+
+msgid "Industry of Employment"
+msgstr "crwdns16909:0crwdne16909:0"
+
+#, fuzzy
+#| msgid "Introducing <strong>MetaTrader 5</strong> for binary.com"
+msgid "Introducing <strong>MetaTrader 5</strong> for Binary.com"
+msgstr "crwdns16910:0crwdne16910:0"
+
+#, fuzzy
+#| msgid "Investments & Dividends"
+msgid "Investments &amp; Dividends"
+msgstr "crwdns16911:0crwdne16911:0"
+
+msgid "Investor Password (read-only access)"
+msgstr "crwdns16912:0crwdne16912:0"
+
+msgid "Investor Password cannot be same as Main Password."
+msgstr "crwdns16913:0crwdne16913:0"
+
+msgid "It deletes an order with the largest margin reserved."
+msgstr "crwdns16914:0crwdne16914:0"
+
+msgid "It is your responsibility to keep your password and login ID confidential. You agree that you will not disclose your password and login ID to any other person;"
+msgstr "crwdns16915:0crwdne16915:0"
+
+msgid "J. Trading Transactions"
+msgstr "crwdns16916:0crwdne16916:0"
+
+msgid "K. Electronic Trading Platform and Transactions"
+msgstr "crwdns16917:0crwdne16917:0"
+
+msgid "L. Event of Default"
+msgstr "crwdns16918:0crwdne16918:0"
+
+#, fuzzy
+#| msgid "Less than $100,000"
+msgid "Less than &#36;100,000"
+msgstr "crwdns16919:0crwdne16919:0"
+
+#, fuzzy
+#| msgid "Less than $25,000"
+msgid "Less than &#36;25,000"
+msgstr "crwdns16920:0crwdne16920:0"
+
+msgid "Level of Education"
+msgstr "crwdns16921:0crwdne16921:0"
+
+msgid "Leverage"
+msgstr "crwdns16922:0crwdne16922:0"
+
+msgid "Leverage can be used to generate returns that are of multiple times higher than the amount set aside from your account balance to open and maintain a transaction (your margin). However, investments that have the potential to deliver greater investment returns carry higher levels of risk. This means that if the price movement is against your favour, you will suffer losses that are of multiple times higher than the amount set aside from your account balance to open and maintain a transaction (your margin)."
+msgstr "crwdns16923:0crwdne16923:0"
+
+msgid "Leverage, in the context of margin trading, refers to the use of margin to increase/amplify the value of a trade. Leverage is expressed as a ratio. A 50:1 leverage, for example, means that you would be able to enter into a trade position that is of 50 times higher than your margin. When you invest in a leveraged product, your profit or loss is based on the leveraged position, i.e., the increased/amplified value of your trade determined based on the leverage ratio you set for your account."
+msgstr "crwdns16924:0crwdne16924:0"
+
+msgid "Likelihood of execution and settlement - the depth of liquidity of the market in which your order is related to."
+msgstr "crwdns16925:0crwdne16925:0"
+
+msgid "Limit / Limit Price - The price specified in your Limit Order."
+msgstr "crwdns16926:0crwdne16926:0"
+
+msgid "Limit Order - an instruction to open or close a transaction if and when a price quote becomes more favourable to you when compared against the current price."
+msgstr "crwdns16927:0crwdne16927:0"
+
+msgid "Linux Instructions"
+msgstr "crwdns16928:0crwdne16928:0"
+
+msgid "Log in"
+msgstr "crwdns16929:0crwdne16929:0"
+
+msgid "Log into the application using your MetaTrader account number and your MetaTrader account password."
+msgstr "crwdns16930:0crwdne16930:0"
+
+msgid "M. Manifest Error"
+msgstr "crwdns16932:0crwdne16932:0"
+
+msgid "Main Password (trading access)"
+msgstr "crwdns16933:0crwdne16933:0"
+
+msgid "Margin - The amount set aside by us from your Account Balance in order to open and maintain a Transaction, to cover our exposure as a counterparty to your contract."
+msgstr "crwdns16934:0crwdne16934:0"
+
+msgid "Margin = Volume (size) * price * margin rate"
+msgstr "crwdns16935:0crwdne16935:0"
+
+msgid "Margin Calculation"
+msgstr "crwdns16936:0crwdne16936:0"
+
+msgid "Margin Level - Ratio of Account Equity to Total Margin, expressed as a percentage."
+msgstr "crwdns16937:0crwdne16937:0"
+
+msgid "Margin Payment"
+msgstr "crwdns16938:0crwdne16938:0"
+
+msgid "Margin Payments are due immediately and shall be received in full by us."
+msgstr "crwdns16939:0crwdne16939:0"
+
+msgid "Margin Policy"
+msgstr "crwdns16940:0crwdne16940:0"
+
+msgid "Margin Requirement and Calculation"
+msgstr "crwdns16941:0crwdne16941:0"
+
+#, fuzzy
+#| msgid ""
+#| "Margin allows you to trade on leverage, allowing you to gain the same amount of market exposure using much less capital. For example, if you want to purchase 100 units of a particular asset trading at 50 USD/unit through a traditional broker you\n"
+#| "            will need to pay 100*50 = 5000 USD for this transaction. However, trading a CFD on the same asset using a margin account, you can have similar exposure using much less capital (a margin rate of 0.01, essentially a leverage of 100:1, would simply need\n"
+#| "            5000*0.01= 50 USD to make this trade)."
+msgid "Margin allows you to trade on leverage, allowing you to gain the same amount of market exposure using much less capital. For example, if you want to purchase 100 units of a particular asset trading at 50 USD/unit through a traditional broker you will need to pay 100*50 = 5000 USD for this transaction. However, trading a CFD on the same asset using a margin account, you can have similar exposure using much less capital (a margin rate of 0.01, essentially a leverage of 100:1, would simply need 5000*0.01= 50 USD to make this trade)."
+msgstr "crwdns16942:0crwdne16942:0"
+
+msgid "Maximum Leverage**"
+msgstr "crwdns16943:0crwdne16943:0"
+
+msgid "Maximum Volume (Trade Size)"
+msgstr "crwdns16944:0crwdne16944:0"
+
+msgid "MetaTrader Accounts Management"
+msgstr "crwdns16945:0crwdne16945:0"
+
+msgid "MetaTrader Main Password"
+msgstr "crwdns16946:0crwdne16946:0"
+
+msgid "MetaTrader Web Platform"
+msgstr "crwdns16947:0crwdne16947:0"
+
+msgid "Minimum Increment (Volume)"
+msgstr "crwdns16948:0crwdne16948:0"
+
+msgid "Minimum Spread*"
+msgstr "crwdns16949:0crwdne16949:0"
+
+msgid "Minimum Volume (Trade Size)"
+msgstr "crwdns16950:0crwdne16950:0"
+
+msgid "Minimum of eight lower and uppercase letters with numbers"
+msgstr "crwdns16951:0crwdne16951:0"
+
+msgid "Money collected from Clients are not invested in any securities, futures, or other investments, on behalf of Clients."
+msgstr "crwdns16952:0crwdne16952:0"
+
+msgid "N. Force Majeure Events"
+msgstr "crwdns16953:0crwdne16953:0"
+
+msgid "Name"
+msgstr "crwdns16954:0crwdne16954:0"
+
+#, fuzzy
+#| msgid ""
+#| "Neither the Company nor any its directors, officers, managers, employees, or agents shall be liable for any loss, damage or debt to you arising directly or indirectly out of or in connection with this Agreement. You agree to indemnify the\n"
+#| "                    Company and its directors, officers, managers, employees, or agents harmless from and against any and all liabilities, losses, damages, costs and expenses (including reasonable attorney's fees) incurred arising out of your failure to comply with any\n"
+#| "                    and all of its obligations set forth in this Agreement and/or the Company's enforcement against you of any and all of its rights under this Agreement."
+msgid "Neither the Company nor any its directors, officers, managers, employees, or agents shall be liable for any loss, damage or debt to you arising directly or indirectly out of or in connection with this Agreement. You agree to indemnify the Company and its directors, officers, managers, employees, or agents harmless from and against any and all liabilities, losses, damages, costs and expenses (including reasonable attorney's fees) incurred arising out of your failure to comply with any and all of its obligations set forth in this Agreement and/or the Company's enforcement against you of any and all of its rights under this Agreement."
+msgstr "crwdns16955:0crwdne16955:0"
+
+msgid "Net Annual Income"
+msgstr "crwdns16956:0crwdne16956:0"
+
+msgid "Next Available Price - Earliest price reasonably available and quoted by Binary.com when our Price quotation reaches or goes beyond the level of your Stop Order."
+msgstr "crwdns16957:0crwdne16957:0"
+
+msgid "No commission is charged on any Transactions."
+msgstr "crwdns16958:0crwdne16958:0"
+
+msgid "Nothing in this Force Majeure Event section shall be taken as indicating that it constitutes an event of default."
+msgstr "crwdns16959:0crwdne16959:0"
+
+msgid "O. Representations and Warranties"
+msgstr "crwdns16960:0crwdne16960:0"
+
+msgid "OAuth App ID (Optional)"
+msgstr "crwdns16961:0crwdne16961:0"
+
+msgid "On the occurrence of an Event of Default, we may exercise our rights under this clause by, at any time and without prior notice:"
+msgstr "crwdns16962:0crwdne16962:0"
+
+msgid "Oops... Page Not Available"
+msgstr "crwdns16963:0crwdne16963:0"
+
+#, fuzzy
+#| msgid ""
+#| "Open Position - the position in a market made by reference to an Underlying Instrument created by opening a Transaction as a result of placing an Order to the extent that such position has not been closed in whole or in part under this\n"
+#| "                    Agreement."
+msgid "Open Position - the position in a market made by reference to an Underlying Instrument created by opening a Transaction as a result of placing an Order to the extent that such position has not been closed in whole or in part under this Agreement."
+msgstr "crwdns16964:0crwdne16964:0"
+
+msgid "Open a free Demo account. Upgrade to a Real account by depositing funds thru your Binary.com account cashier."
+msgstr ""
+
+msgid "Opening a Transaction"
+msgstr "crwdns16965:0crwdne16965:0"
+
+msgid "Opening an Account"
+msgstr "crwdns16966:0crwdne16966:0"
+
+msgid "Order - an execution instruction given by you to us in relation to a Market Order, Stop Order, Limit Order, and etc."
+msgstr "crwdns16967:0crwdne16967:0"
+
+msgid "Order Execution / Cancellation / Modification"
+msgstr "crwdns16968:0crwdne16968:0"
+
+msgid "Order Execution Policy"
+msgstr "crwdns16969:0crwdne16969:0"
+
+msgid "Other"
+msgstr "crwdns16970:0crwdne16970:0"
+
+msgid "Other financial instruments trading experience"
+msgstr "crwdns16971:0crwdne16971:0"
+
+msgid "Other financial instruments trading frequency"
+msgstr "crwdns16972:0crwdne16972:0"
+
+msgid "Our Order Execution Policy (the \"Policy\") sets out the overview and approach of how Binary.com executes orders on behalf of our clients."
+msgstr "crwdns16973:0crwdne16973:0"
+
+msgid "Our Prices are determined by reference to the price of the underlying instrument which is quoted on external exchanges or dealing facilities that we select at our discretion. Our IT infrastructure and price aggregator system facilitates the reception of quotes from shortlisted prime brokers who act as liquidity providers for us and the delivery of the quotes, derived with reference against relevant benchmark and markets, to you. You acknowledge that our Prices may differ from the bid and offer prices made available by external exchanges or dealing facilities and we are not liable for any losses that you incur arising from such differences. Refer to our Product Disclosure Statement for our pricing methodology and factors. This clause does not apply to Volatility Indices."
+msgstr "crwdns16974:0crwdne16974:0"
+
+msgid "Our determination of the relative importance of the execution factors may differ from yours during certain circumstances, acting in your interest in accordance with our obligation of best execution."
+msgstr "crwdns16975:0crwdne16975:0"
+
+msgid "Our information security policies are based on industry best practices in access control and business continuity; and"
+msgstr "crwdns16976:0crwdne16976:0"
+
+#, fuzzy
+#| msgid "Over $1,000,000"
+msgid "Over &#36;1,000,000"
+msgstr "crwdns16977:0crwdne16977:0"
+
+#, fuzzy
+#| msgid "Over $500,001"
+msgid "Over &#36;500,001"
+msgstr "crwdns16978:0crwdne16978:0"
+
+msgid "Over 3 years"
+msgstr "crwdns16979:0crwdne16979:0"
+
+msgid "P. Indemnification"
+msgstr "crwdns16980:0crwdne16980:0"
+
+msgid "Pension"
+msgstr "crwdns16981:0crwdne16981:0"
+
+msgid "Personal Data and Privacy"
+msgstr "crwdns16982:0crwdne16982:0"
+
+msgid "Pip Size"
+msgstr "crwdns16983:0crwdne16983:0"
+
+#, fuzzy
+#| msgid "I have a Binary.com real account"
+msgid "Please %1 to your Binary.com account."
+msgstr "crwdns16877:0crwdne16877:0"
+
+msgid "Please contact <a href=\"%1\">Customer Support</a>."
+msgstr "crwdns16985:0%1crwdne16985:0"
+
+#, fuzzy
+#| msgid "Please select a value"
+msgid "Please select"
+msgstr "crwdns16986:0crwdne16986:0"
+
+msgid "Please select a value"
+msgstr "crwdns16986:0crwdne16986:0"
+
+msgid "Positions are closed until the level of assets becomes higher that the Stop Out Level."
+msgstr "crwdns16987:0crwdne16987:0"
+
+msgid "Potential Conflicts of Interest"
+msgstr "crwdns16988:0crwdne16988:0"
+
+msgid "Price - the price at which the transaction in relation to your order is executed at."
+msgstr "crwdns16989:0crwdne16989:0"
+
+msgid "Price/ Prices - Bid and Offer Price/ Prices."
+msgstr "crwdns16990:0crwdne16990:0"
+
+msgid "Primary"
+msgstr "crwdns16991:0crwdne16991:0"
+
+#, fuzzy
+#| msgid ""
+#| "Prior to placing an Order which results in opening a Transaction or increasing an existing Open Position, you acknowledge that it is your responsibility to ensure that your Account Free Margin is sufficient to cover the Margin required in\n"
+#| "                            relation to the open Transaction (the \"Margin Requirement\"), and to continuously meet the Margin Requirement."
+msgid "Prior to placing an Order which results in opening a Transaction or increasing an existing Open Position, you acknowledge that it is your responsibility to ensure that your Account Free Margin is sufficient to cover the Margin required in relation to the open Transaction (the \"Margin Requirement\"), and to continuously meet the Margin Requirement."
+msgstr "crwdns16992:0crwdne16992:0"
+
+msgid "Q. Miscellaneous"
+msgstr "crwdns16994:0crwdne16994:0"
+
+msgid "Quote Provision"
+msgstr "crwdns16995:0crwdne16995:0"
+
+msgid "R. Interpretation of Terms"
+msgstr "crwdns16996:0crwdne16996:0"
+
+msgid "Real Account - Your real money account opened with Binary.com's MT5 Trading Platform licensed from MetaQuotes Software Corporation."
+msgstr "crwdns16997:0crwdne16997:0"
+
+#, fuzzy
+#| msgid "Create Your MetaTrader 5 Account Now"
+msgid "Register Your MetaTrader 5 Account"
+msgstr "crwdns16822:0crwdne16822:0"
+
+msgid "Regular monitoring of open positions"
+msgstr "crwdns17001:0crwdne17001:0"
+
+msgid "Relationship between Margin and Leverage"
+msgstr "crwdns17002:0crwdne17002:0"
+
+msgid "Reset to Original Settings"
+msgstr "crwdns17003:0crwdne17003:0"
+
+msgid "Rights on Default:"
+msgstr "crwdns17004:0crwdne17004:0"
+
+msgid "Risk Disclosure Statement"
+msgstr "crwdns17005:0crwdne17005:0"
+
+msgid "Risk of Stop Order"
+msgstr "crwdns17006:0crwdne17006:0"
+
+msgid "Risk of slippage"
+msgstr "crwdns17007:0crwdne17007:0"
+
+msgid "Roll-over - In the event that the Company does not receive Orders from you to close an Open Position by the close of a Business Day, the Company will roll-over the said Open Position to the following day being a Business Day."
+msgstr "crwdns17008:0crwdne17008:0"
+
+msgid "Roll-over Credit/Debit - Accounts with Open Positions concerned by the Roll-over shall be credited or debited with an amount referred to as the Roll-over Credit/Debit which is determined by the Company at its sole discretion."
+msgstr "crwdns17009:0crwdne17009:0"
+
+msgid "Run the installation file and follow the instructions."
+msgstr "crwdns17010:0crwdne17010:0"
+
+msgid "Salaried Employee"
+msgstr "crwdns17011:0crwdne17011:0"
+
+msgid "Secondary"
+msgstr "crwdns17012:0crwdne17012:0"
+
+msgid "Section 1"
+msgstr "crwdns17013:0crwdne17013:0"
+
+msgid "Section 2"
+msgstr "crwdns17014:0crwdne17014:0"
+
+msgid "Section 3"
+msgstr "crwdns17015:0crwdne17015:0"
+
+msgid "Section 4"
+msgstr "crwdns17016:0crwdne17016:0"
+
+msgid "Self-Employed"
+msgstr "crwdns17017:0crwdne17017:0"
+
+msgid "Server"
+msgstr "crwdns17018:0crwdne17018:0"
+
+msgid "Sign out"
+msgstr "crwdns17019:0crwdne17019:0"
+
+msgid "Size - the size of your order determined by the volume (number of lots)."
+msgstr "crwdns17020:0crwdne17020:0"
+
+msgid "Sorry, an error occurred while processing your request."
+msgstr "crwdns17021:0crwdne17021:0"
+
+msgid "Speed - the speed at which your order can be executed."
+msgstr "crwdns17022:0crwdne17022:0"
+
+msgid "Start Trading with MetaTrader 5"
+msgstr "crwdns17023:0crwdne17023:0"
+
+msgid "Start trading with your MetaTrader Account:"
+msgstr "crwdns17024:0crwdne17024:0"
+
+msgid "Stocks trading experience"
+msgstr "crwdns17025:0crwdne17025:0"
+
+msgid "Stocks trading frequency"
+msgstr "crwdns17026:0crwdne17026:0"
+
+msgid "Stop Order / Stop Loss Order - an instruction to execute a Transaction to close an Open Position when the Price reaches your specified Price."
+msgstr "crwdns17027:0crwdne17027:0"
+
+msgid "Stop Out Level"
+msgstr "crwdns17028:0crwdne17028:0"
+
+msgid "Stop Out Level - the Margin Level at or below which your Open Positions may be forcefully with or without your prior consent."
+msgstr "crwdns17029:0crwdne17029:0"
+
+msgid "Stop and Limit Orders"
+msgstr "crwdns17030:0crwdne17030:0"
+
+#, fuzzy
+#| msgid ""
+#| "Subject to network latency, we endeavour to execute your Order within a reasonable time from the time you triggered the Order, at the Price nearest to your specified Price. We do not guarantee that a Transaction will be opened/closed\n"
+#| "                            following an Order being triggered by you at your specified Price. "
+msgid "Subject to network latency, we endeavour to execute your Order within a reasonable time from the time you triggered the Order, at the Price nearest to your specified Price. We do not guarantee that a Transaction will be opened/closed following an Order being triggered by you at your specified Price."
+msgstr "crwdns17031:0crwdne17031:0"
+
+msgid "Subject to the availability and sufficiency of funds in your Real Account, you may withdraw your funds from Real Account to your Binary Options Real Account."
+msgstr "crwdns17032:0crwdne17032:0"
+
+msgid "Submit"
+msgstr "crwdns17033:0crwdne17033:0"
+
+#, fuzzy
+#| msgid "Subscribe to a wide range of algorithmic trading strategies."
+msgid "Subscribe to a wide range of algorithmic trading strategies from the built-in MetaTrader Market."
+msgstr "crwdns17034:0crwdne17034:0"
+
+msgid "Such withdrawal would result in your Account Equity being less than zero; and/or"
+msgstr "crwdns17035:0crwdne17035:0"
+
+msgid "Suspend the trading of the affected instrument;"
+msgstr "crwdns17036:0crwdne17036:0"
+
+#, fuzzy
+#| msgid ""
+#| "Suspending your Real Account and refusing to execute any Orders to enter into further Transactions with you. Whilst your Real Account is suspended, you will be able to place Orders to close your Open Positions but you will not be able to\n"
+#| "                                    place Orders which would create Open Positions."
+msgid "Suspending your Real Account and refusing to execute any Orders to enter into further Transactions with you. Whilst your Real Account is suspended, you will be able to place Orders to close your Open Positions but you will not be able to place Orders which would create Open Positions."
+msgstr "crwdns17037:0crwdne17037:0"
+
+msgid "Symbol"
+msgstr "crwdns17038:0crwdne17038:0"
+
+msgid "Terms and Conditions"
+msgstr "crwdns17040:0crwdne17040:0"
+
+msgid "Tertiary"
+msgstr "crwdns17041:0crwdne17041:0"
+
+#, fuzzy
+#| msgid ""
+#| "The Binary.com website is protected by certain copyrights. The materials comprising the website (including without limitation all articles, text, images, logos, compilation, systems, code and design) are Copyright 1999-2016 Binary Group of\n"
+#| "                    companies. All rights reserved. Such materials may be copied and distributed on a limited basis for noncommercial purposes only, provided that any material copied remain intact and that all copies include the following notice in a clearly visible\n"
+#| "                    position: \"Copyright 1999-2016 Binary Ltd. All rights reserved.\" These materials may not be copied or redistributed for commercial purposes or for compensation of any kind without prior written permission from a member of the Binary Group. If you\n"
+#| "                    have any questions about these terms or would like information about licensing materials from Binary Ltd., please contact us at <a href='mailto:support@binary.com'>support@binary.com</a>. Binary.com and the bull/bear logo are registered trademarks."
+msgid "The Binary.com website is protected by certain copyrights. The materials comprising the website (including without limitation all articles, text, images, logos, compilation, systems, code and design) are Copyright 1999-2016 Binary Group of companies. All rights reserved. Such materials may be copied and distributed on a limited basis for noncommercial purposes only, provided that any material copied remain intact and that all copies include the following notice in a clearly visible position: \"Copyright 1999-2016 Binary Ltd. All rights reserved.\" These materials may not be copied or redistributed for commercial purposes or for compensation of any kind without prior written permission from a member of the Binary Group. If you have any questions about these terms or would like information about licensing materials from Binary Ltd., please contact us at <a href='mailto:%1'>%1</a>. Binary.com and the bull/bear logo are registered trademarks."
+msgstr "crwdns17042:0crwdne17042:0"
+
+#, fuzzy
+#| msgid ""
+#| "The Company does not make any warranty, express or implied, that any pricing or other information provided through the MT5 Trading Platform or otherwise is correct. Furthermore, if a quote (bid or offer price) error occurs due to a system\n"
+#| "                    malfunction (whether or not it's a third party or a proprietary system), the Company will not be liable for any resulting losses that have incurred."
+msgid "The Company does not make any warranty, express or implied, that any pricing or other information provided through the MT5 Trading Platform or otherwise is correct. Furthermore, if a quote (bid or offer price) error occurs due to a system malfunction (whether or not it's a third party or a proprietary system), the Company will not be liable for any resulting losses that have incurred."
+msgstr "crwdns17043:0crwdne17043:0"
+
+msgid "The Company does not offer any credit facilities or arrangement to its clients in normal trading circumstances. You acknowledge and agree that you will not be dealing with us on credit, regardless of the amount of your Account Balance and Transactions entered into with us."
+msgstr "crwdns17044:0crwdne17044:0"
+
+msgid "The Company shall not be in breach of its obligation under this Agreement and shall not be held liable for any failure of or delay in performing its obligations under this Agreement if such failure or delay is the result of the occurrence of a Force Majeure Event."
+msgstr "crwdns17045:0crwdne17045:0"
+
+msgid "The Company sources market data from prime brokers who act as liquidity providers, thus executing your Transactions through a pool of aggregated liquidity from top tier banks. The services offered by the Company do not include physical delivery of foreign currency by us or the prime brokers to yourselves. You acknowledge and agree that such data is proprietary to us and any such provider, and you will not retransmit, redistribute, publish, disclose, or display in whole or in part such data to third parties. You represent and warrant that you will only use such data for purposes of facilitating your entry into Transactions with us on your Real Account in accordance with this Agreement and not for any other purpose. This clause does not apply to Volatility Indices."
+msgstr "crwdns17046:0crwdne17046:0"
+
+msgid "The Margin Level of your Real Account reaches or falls below the Stop Out Level;"
+msgstr "crwdns17047:0crwdne17047:0"
+
+msgid "The Margin Requirement is a percentage of the value of the Open Positions and will continue to fluctuate in accordance with the value of the Open Positions throughout the duration of the relevant contracts (the \"Contract Value\")."
+msgstr "crwdns17048:0crwdne17048:0"
+
+#, fuzzy
+#| msgid ""
+#| "The Margin Requirements can increase / decrease based on the aggregated size of your Open Position determined by the volume (number of lots), contract size (value per point in the original currency of the contract), market price and margin\n"
+#| "                            rate."
+msgid "The Margin Requirements can increase / decrease based on the aggregated size of your Open Position determined by the volume (number of lots), contract size (value per point in the original currency of the contract), market price and margin rate."
+msgstr "crwdns17049:0crwdne17049:0"
+
+msgid "The Margin calculation for CFDs on Volatility Indices depends on volume (size), price and margin rate."
+msgstr "crwdns17050:0crwdne17050:0"
+
+msgid "The Policy is supplemented by Appendix A which provide further details to our considerations as they are related to differing asset classes. The accompanying Appendix A should be read in conjunction with this Policy."
+msgstr "crwdns17051:0crwdne17051:0"
+
+msgid "The Stop Out Level applicable to your Real Account may differ from the default Stop Out Level published on our website."
+msgstr "crwdns17052:0crwdne17052:0"
+
+msgid "The company holds customer funds in separate bank accounts to the operational accounts; and arrangements have been made to ensure assets in the customer accounts are distributed to customers in the event of insolvency."
+msgstr "crwdns17053:0crwdne17053:0"
+
+msgid "The cut-off time for performing Roll-overs and booking of the Roll-over Credit/Debit."
+msgstr "crwdns17054:0crwdne17054:0"
+
+#, fuzzy
+#| msgid ""
+#| "The default Stop Out Level applicable to your Account is published on our website. However, the default Stop Out Level is subject to alteration at our absolute discretion. Any changes to the Stop Out Level will take effect immediately. We\n"
+#| "                            will endeavour to notify you of an alteration to the default Stop Out Level by publishing the revised default Stop Out Level on our website. It is your responsibility to check our website regularly and remain informed about the default Stop Out\n"
+#| "                            Level."
+msgid "The default Stop Out Level applicable to your Account is published on our website. However, the default Stop Out Level is subject to alteration at our absolute discretion. Any changes to the Stop Out Level will take effect immediately. We will endeavour to notify you of an alteration to the default Stop Out Level by publishing the revised default Stop Out Level on our website. It is your responsibility to check our website regularly and remain informed about the default Stop Out Level."
+msgstr "crwdns17055:0crwdne17055:0"
+
+msgid "The execution venues are assessed, on a regular basis, whether the they provide for the best possible result for our clients."
+msgstr "crwdns17056:0crwdne17056:0"
+
+msgid "The execution, delivery and performance of this Agreement and each Transaction will not violate any law, ordinance, charter, by-law or rule applicable to you or the jurisdiction in which you are resident."
+msgstr "crwdns17057:0crwdne17057:0"
+
+msgid "The factor listed above are not listed in order of priority. Ordinarily, price will merit a high relative importance in obtaining the best possible result for you. However, the relative importance of the listed factors above may change in accordance with:"
+msgstr "crwdns17058:0crwdne17058:0"
+
+msgid "The financial trading services contained within this site are only suitable for customers who are able to bear the loss of all the money they invest and who understand and have experience of the risk involved in the acquistion of financial contracts. Transactions in financial contracts carry a high degree of risk."
+msgstr "crwdns17059:0crwdne17059:0"
+
+msgid "The hours of closure of the market (for e.g., the hours over the weekend during which trading of certain transactions are not possible);"
+msgstr "crwdns17060:0crwdne17060:0"
+
+msgid "The instruments available on the electronic trading platform (including their availability for trading);"
+msgstr "crwdns17061:0crwdne17061:0"
+
+msgid "The leverage ratio refers to the number of times your margin (the amount set aside from your account balance to open and maintain a transaction) can be \"leveraged\" to enter into a Transaction. The denominator of the leverage ratio is always 1. A 50:1 leverage is equivalent to a 2% margin requirement (1 divided by 50 = 2%). The leverage ratio that we/you establish will determine the amount of margin required. As leverage is inversely proportional to margin, the lower the leverage you set for your Account, the higher the margin required to be set aside from your account balance (your margin requirement)."
+msgstr "crwdns17062:0crwdne17062:0"
+
+msgid "The margin trading services described in this Agreement are conducted over the counter. This means that the market in one or more of the instruments which you ordinarily transact with us, though quoted on an exchange, are not traded on an exchange when transacted through the electronic trading platform as described in this Agreement."
+msgstr "crwdns17063:0crwdne17063:0"
+
+#, fuzzy
+#| msgid ""
+#| "The minimum spread (which is comprised of the market spread and our spread) published on our website is subject to alteration, at our absolute discretion. You acknowledge that whilst we endeavour to maintain a competitive spread, both\n"
+#| "                            market spread and our spread may widen significantly in some circumstances and such figures will be determined by us at our reasonable discretion."
+msgid "The minimum spread (which is comprised of the market spread and our spread) published on our website is subject to alteration, at our absolute discretion. You acknowledge that whilst we endeavour to maintain a competitive spread, both market spread and our spread may widen significantly in some circumstances and such figures will be determined by us at our reasonable discretion."
+msgstr "crwdns17064:0crwdne17064:0"
+
+msgid "The minimum, incremental and maximum transaction amount;"
+msgstr "crwdns17065:0crwdne17065:0"
+
+msgid "The page you requested could not be found. Either it no longer exists or the address is wrong. Please check for any typos."
+msgstr "crwdns17066:0crwdne17066:0"
+
+#, fuzzy
+#| msgid ""
+#| "The personal information that we collect and hold is treated as confidential. Confidential information will not be used for any purpose other than in connection with the provision of margin trading service described in this Agreement.\n"
+#| "                            Confidential information will only be disclosed as and when required by law. We may also disclose such personal information to: (i) other companies within the Binary Group of companies; (ii) any such third parties a we see fit to assist us in\n"
+#| "                            servicing your Real Account; (iii) regulatory authorities upon their reasonable request; (iv) any such third parties as we see fit to assist us in enforcing our legal or contractual rights against you including but not limited to legal advisors; (v)\n"
+#| "                            third parties as we see fit to investigate or prevent fraud or other illegal activities."
+msgid "The personal information that we collect and hold is treated as confidential. Confidential information will not be used for any purpose other than in connection with the provision of margin trading service described in this Agreement. Confidential information will only be disclosed as and when required by law. We may also disclose such personal information to: (i) other companies within the Binary Group of companies; (ii) any such third parties a we see fit to assist us in servicing your Real Account; (iii) regulatory authorities upon their reasonable request; (iv) any such third parties as we see fit to assist us in enforcing our legal or contractual rights against you including but not limited to legal advisors; (v) third parties as we see fit to investigate or prevent fraud or other illegal activities."
+msgstr "crwdns17067:0crwdne17067:0"
+
+#, fuzzy
+#| msgid ""
+#| "The provision of the margin trading service described in this Agreement utilises a third party system acquired via a non-exclusive, non-transferable, non-sublicensable, terminable licence from the third party system provider/licensor (the\n"
+#| "                    \"MT5 Trading Platform\"). You acknowledge that we reserve the right to change the third party system provider/licensor during the course of proving the margin trading service described in this Agreement to you."
+msgid "The provision of the margin trading service described in this Agreement utilises a third party system acquired via a non-exclusive, non-transferable, non-sublicensable, terminable licence from the third party system provider/licensor (the \"MT5 Trading Platform\"). You acknowledge that we reserve the right to change the third party system provider/licensor during the course of proving the margin trading service described in this Agreement to you."
+msgstr "crwdns17068:0crwdne17068:0"
+
+msgid "The provision of the margin trading services described in this Agreement is not available in the European Union."
+msgstr "crwdns17069:0crwdne17069:0"
+
+msgid "The server analyzes client's orders that are not under execution at the moment."
+msgstr "crwdns17070:0crwdne17070:0"
+
+msgid "The system fills orders on a first-in-first out basis, i.e. based on the sequence of the order received, and this is beyond our control. As a result, you may find it difficult or impossible to close a position at the intended price stipulated in your Stop Order during certain market conditions. The placement of Stop Order by you, though useful as a risk management tool, will not necessarily limit your losses to your intended amounts, in the event of highly volatile trading conditions, since market conditions may make it impossible to execute such orders and there is uncertainty about your possible exit price. In short, a Stop Order is not guaranteed because it cannot operate whatever the market circumstances are."
+msgstr "crwdns17071:0crwdne17071:0"
+
+msgid "The term 'we', 'us', 'our', 'ours', 'the Company', or 'Binary.com' shall denote Binary (V) Ltd."
+msgstr "crwdns17072:0crwdne17072:0"
+
+#, fuzzy
+#| msgid ""
+#| "The term 'we', 'us', 'our', 'ours', 'the Company', or 'Binary.com' shall denote either Binary (V) Ltd. or Binary (C.R.) S.A., depending on the\n"
+#| "                    jurisdiction to which a Client's account has been attached in accordance with the account opening procedures of the website."
+msgid "The term 'we', 'us', 'our', 'ours', 'the Company', or 'Binary.com' shall denote either Binary (V) Ltd. or Binary (C.R.) S.A., depending on the jurisdiction to which a Client's account has been attached in accordance with the account opening procedures of the website."
+msgstr "crwdns17073:0crwdne17073:0"
+
+msgid "There is any amount outstanding from you to us; and/or"
+msgstr "crwdns17074:0crwdne17074:0"
+
+msgid "There will be no charges for fund transfers from your Binary Options Real Account to your Real Account."
+msgstr "crwdns17075:0crwdne17075:0"
+
+#, fuzzy
+#| msgid ""
+#| "This Agreement is supplied to you in English. In the event that there is a difference between the English version and any translated versions of this document, the English version shall prevail. We will not be made responsible for any\n"
+#| "                    damage or loss caused by an error, inaccuracy, misunderstanding or misspelling with regards to the translations."
+msgid "This Agreement is supplied to you in English. In the event that there is a difference between the English version and any translated versions of this document, the English version shall prevail. We will not be made responsible for any damage or loss caused by an error, inaccuracy, misunderstanding or misspelling with regards to the translations."
+msgstr "crwdns17076:0crwdne17076:0"
+
+msgid "This Agreement will commence on the date you receive your Real Account number, and, for any new versions thereafter, on the date the new versions are published on our website."
+msgstr "crwdns17077:0crwdne17077:0"
+
+msgid "This Policy applies to retail and professional clients of Binary.com dealing in financial products offered by Binary.com, i.e., Spot FX."
+msgstr "crwdns17078:0crwdne17078:0"
+
+msgid "This Risk Disclosure Statement is not exhaustive and is not intended to constitute a comprehensive statement of all the risks to which you might be exposed to and does not describe all risks inherent to forex and contracts for differences that exist now or which may arise in the future. Its objective is rather to provide you with information for you to reasonably understand the risks associated with forex and contracts for differences offered by %1 in our interest to provide you with the best possible trading experience."
+msgstr "crwdns17079:0%1crwdne17079:0"
+
+msgid "This clause does not apply to Volatility Indices."
+msgstr "crwdns17080:0crwdne17080:0"
+
+msgid "This feature is not relevant to virtual-money accounts."
+msgstr "crwdns17081:0crwdne17081:0"
+
+msgid "This section on Force Majeure Events does not apply to Volatility Indices."
+msgstr "crwdns17082:0crwdne17082:0"
+
+#, fuzzy
+#| msgid ""
+#| "Throughout the duration of the Transaction and for as long as the Transaction is open, you are required to maintain a sufficient Account Equity to cover any Margin Requirement. If your Account Equity is less than the Margin Requirement in\n"
+#| "                            relation to the open Transaction you wish to create, you have entered into a Margin Call and you are required to fund the shortfall immediately. You may not be able to place an Order to open a Transaction until the shortfall has been funded and there\n"
+#| "                            is sufficient Account Equity to cover the Total Margin."
+msgid "Throughout the duration of the Transaction and for as long as the Transaction is open, you are required to maintain a sufficient Account Equity to cover any Margin Requirement. If your Account Equity is less than the Margin Requirement in relation to the open Transaction you wish to create, you have entered into a Margin Call and you are required to fund the shortfall immediately. You may not be able to place an Order to open a Transaction until the shortfall has been funded and there is sufficient Account Equity to cover the Total Margin."
+msgstr "crwdns17083:0crwdne17083:0"
+
+msgid "To authenticate your account, kindly email the following to <a href=\"mailto:%1\">%1</a>"
+msgstr "crwdns17084:0%1crwdnd17084:0%1crwdne17084:0"
+
+#, fuzzy
+#| msgid "To create a financial account for MetaTrader, please first complete the <a href=\"%1\">Financial Assessment</a>."
+msgid "To create a financial account for MetaTrader 5, please complete the <a href=\"%1\">Financial Assessment</a>."
+msgstr "crwdns17085:0%1crwdne17085:0"
+
+msgid "To create a real account for MetaTrader, <a href=\"%1\">upgrade to %2 real money account</a>."
+msgstr "crwdns17086:0%1crwdnd17086:0%2crwdne17086:0"
+
+msgid "To create a real account for MetaTrader, switch to your %1 real money account."
+msgstr "crwdns17087:0%1crwdne17087:0"
+
+msgid "To deposit or withdraw from your MetaTrader Account, switch to your Binary.com Real Account."
+msgstr "crwdns17088:0crwdne17088:0"
+
+msgid "To open a Real Account, you must have an authenticated Binary Options Real Account with Binary.com. A Real Account cannot be opened in the absence of a Binary Options Real Account."
+msgstr "crwdns17090:0crwdne17090:0"
+
+msgid "Total Margin - The aggregate of all Margin Requirements in your Real Account."
+msgstr "crwdns17091:0crwdne17091:0"
+
+msgid "Tourism"
+msgstr "crwdns17092:0crwdne17092:0"
+
+msgid "Trade Forex and CFD asset classes with an award-winning broker."
+msgstr ""
+
+msgid "Trade Forex and Contracts for Difference (CFD) assets with highly-competitive leverage and zero commission."
+msgstr ""
+
+msgid "Trade the Forex markets with leverage up to 100:1, and Volatility Indices with leverage up to 500:1."
+msgstr ""
+
+msgid "Trade using the mobile and desktop apps, or use the web platform from any web browser."
+msgstr ""
+
+msgid "Trading Rules"
+msgstr "crwdns17095:0crwdne17095:0"
+
+msgid "Trading forex and contracts for differences carries a high level of risk and %1 does not monitor the open positions of your account on your behalf. It is your responsibility to monitor your Open Positions and understand the exposure of your Open Positions whilst ensuring that your exposure commensurate with your risk appetite. Due to the cost associated with overnight open positions, you should consider investing in the market of the instrument in which you ordinarily transact in instead of investing in a CFD."
+msgstr "crwdns17096:0%1crwdne17096:0"
+
+msgid "Transaction - a contract entered into by you pursuant to this Agreement."
+msgstr "crwdns17097:0crwdne17097:0"
+
+#, fuzzy
+#| msgid ""
+#| "Under no circumstances shall we provide investment advice or recommendation to you or state an opinion in relation to a Transaction. From time to time, we may decide to provide you with written information, which we may publish on our\n"
+#| "                    website or provide to you in any other manner. We will endeavour to ensure the accuracy and completeness of this written information but it will not constitute investment advice or recommendation provided by us to you."
+msgid "Under no circumstances shall we provide investment advice or recommendation to you or state an opinion in relation to a Transaction. From time to time, we may decide to provide you with written information, which we may publish on our website or provide to you in any other manner. We will endeavour to ensure the accuracy and completeness of this written information but it will not constitute investment advice or recommendation provided by us to you."
+msgstr "crwdns17098:0crwdne17098:0"
+
+#, fuzzy
+#| msgid ""
+#| "Unless proven to be wrong, our records shall be used as evidence of your dealings with us in connection with the margin trading services described in this Agreement. You agree to use our records as evidence in any such legal or regulatory\n"
+#| "                    proceedings and you agree to keep your own record of your dealings with us that will help us investigate any complaints or disputes. If the records used as evidence of your dealings with us are not originals, are in the form of diagrams or charts, or\n"
+#| "                    are system generated content, you will not object to the use of such records as evidence."
+msgid "Unless proven to be wrong, our records shall be used as evidence of your dealings with us in connection with the margin trading services described in this Agreement. You agree to use our records as evidence in any such legal or regulatory proceedings and you agree to keep your own record of your dealings with us that will help us investigate any complaints or disputes. If the records used as evidence of your dealings with us are not originals, are in the form of diagrams or charts, or are system generated content, you will not object to the use of such records as evidence."
+msgstr "crwdns17099:0crwdne17099:0"
+
+msgid "Update"
+msgstr ""
+
+#, fuzzy
+#| msgid ""
+#| "Upon closing a Transaction, the realised profit (or loss), which is represented by the difference between the opening level and closing level of the Transaction multiplied by the number of lots (volume), becomes due and payable by us to you\n"
+#| "                                    (or due and payable by you to us in cases of realised loss)."
+msgid "Upon closing a Transaction, the realised profit (or loss), which is represented by the difference between the opening level and closing level of the Transaction multiplied by the number of lots (volume), becomes due and payable by us to you (or due and payable by you to us in cases of realised loss)."
+msgstr "crwdns17100:0crwdne17100:0"
+
+msgid "Upon opening a Transaction, the sum due and payable by you to us are deducted from your Account Balance."
+msgstr "crwdns17101:0crwdne17101:0"
+
+msgid "Verify Main Password"
+msgstr "crwdns17102:0crwdne17102:0"
+
+msgid "Version 3"
+msgstr "crwdns17103:0crwdne17103:0"
+
+msgid "Volatility"
+msgstr "crwdns17104:0crwdne17104:0"
+
+msgid "Volatility 10 Index"
+msgstr "crwdns17105:0crwdne17105:0"
+
+msgid "Volatility 100 Index"
+msgstr "crwdns17106:0crwdne17106:0"
+
+msgid "Volatility 25 Index"
+msgstr "crwdns17107:0crwdne17107:0"
+
+msgid "Volatility 50 Index"
+msgstr "crwdns17108:0crwdne17108:0"
+
+msgid "Volatility 75 Index"
+msgstr "crwdns17109:0crwdne17109:0"
+
+msgid "Volatility Indices"
+msgstr "crwdns17110:0crwdne17110:0"
+
+msgid "Volatility Indices Account"
+msgstr "crwdns17111:0crwdne17111:0"
+
+msgid "Volatility Indices Contract Specifications"
+msgstr "crwdns17112:0crwdne17112:0"
+
+msgid "Volume (Trade Size)"
+msgstr "crwdns17113:0crwdne17113:0"
+
+msgid "We are committed to making sure your personal data and transactions are secure:"
+msgstr "crwdns17114:0crwdne17114:0"
+
+msgid "We are required to do so in accordance with any relevant law or regulation."
+msgstr "crwdns17115:0crwdne17115:0"
+
+msgid "We endeavour to open or close the Transaction to which your Order relates at the price reasonably available to us, acting in accordance with our duty of best execution. Best execution means that we must take all sufficient steps to obtain, when executing orders, the best possible result for you taking into account price, costs, speed, likelihood of execution and settlement, size, nature or any other consideration relevant to the execution of the order."
+msgstr "crwdns17116:0crwdne17116:0"
+
+#, fuzzy
+#| msgid ""
+#| "We may modify Margin Requirements for any Open Positions or new Transactions entered into, at our sole discretion. Formulas for Margin Requirements published on the website are indicative only and may be changed by the Company at its\n"
+#| "                            discretion at any time, due to changing market conditions or other factors."
+msgid "We may modify Margin Requirements for any Open Positions or new Transactions entered into, at our sole discretion. Formulas for Margin Requirements published on the website are indicative only and may be changed by the Company at its discretion at any time, due to changing market conditions or other factors."
+msgstr "crwdns17117:0crwdne17117:0"
+
+#, fuzzy
+#| msgid ""
+#| "We may or may not use your personal information to contact you at any reasonable time as part of our marketing activities. You authorise us to contact you by email or telephone to give you information about selected products and services\n"
+#| "                            offered by us. Your consent for us to use your personal information for this purpose applies to the period you have a Real Account with us and after you close your Real Account. Please advise us in writing if you do not wish your personal information\n"
+#| "                            to be used for such purposes."
+msgid "We may or may not use your personal information to contact you at any reasonable time as part of our marketing activities. You authorise us to contact you by email or telephone to give you information about selected products and services offered by us. Your consent for us to use your personal information for this purpose applies to the period you have a Real Account with us and after you close your Real Account. Please advise us in writing if you do not wish your personal information to be used for such purposes."
+msgstr "crwdns17118:0crwdne17118:0"
+
+msgid "We may, at our absolute discretion, accept a Stop Order or a Limit Order from you. We may enable other types of Orders (for example, a trailing stop order) for your execution at any point in time."
+msgstr "crwdns17119:0crwdne17119:0"
+
+msgid "We may, at our absolute discretion, disregard your Order if an Event takes place resulting it to be no longer reasonable for us to act on your Order after indicating an acceptance of your Order."
+msgstr "crwdns17120:0crwdne17120:0"
+
+msgid "We may, however, withhold your withdrawal request from your Real Account to your Binary Options Real Account, in whole or in part, if:"
+msgstr "crwdns17121:0crwdne17121:0"
+
+msgid "We reasonably consider that funds may be required to meet any Margin Requirement; and/or"
+msgstr "crwdns17122:0crwdne17122:0"
+
+msgid "We reserve the right to charge a dormant fee of up to USD/EUR/AUD/GBP25 every six months for every client account that has had no transaction recorded for a period of 12 consecutive months or more."
+msgstr "crwdns17123:0crwdne17123:0"
+
+msgid "We reserve the right to refuse your request to open a Real Account for any reason, and any Real Account may be closed at our discretion at any time."
+msgstr "crwdns17124:0crwdne17124:0"
+
+#, fuzzy
+#| msgid ""
+#| "We reserve the right to void or amend the contractual terms of any Transactions that we reasonably believe are entered into at prices that do not reflect fair market prices or that are entered into at an abnormally low level of risk due to\n"
+#| "                    an obvious or palpable error (a Manifest Error). In deciding whether an error is a Manifest Error, we may take into account any relevant information including, the state of the underlying market at the time of the error and any error within, or lack\n"
+#| "                    of clarity of, any information source or pronouncement. You have a duty to report to us any such problems, errors or suspected system inadequacies that you may experience and may not abuse of or arbitrage such system problems or errors for profit. We\n"
+#| "                    will endeavour to resolve any such difficulties in the shortest time possible. Any amendments to the contractual terms of Manifestly Erroneous contracts shall be reasonable and fair. Monies exchanged between you and us in connection with the\n"
+#| "                    Manifestly Erroneous contracts shall be returned to the recipient according to the amendments made to the contractual terms and conditions of this Agreement. You further acknowledge and agree that we will not be held liable or responsible, whether directly or indirectly, for any\n"
+#| "                    loss, expenses or damage caused or alleged to be caused by or in connection with a Manifest Error."
+msgid "We reserve the right to void or amend the contractual terms of any Transactions that we reasonably believe are entered into at prices that do not reflect fair market prices or that are entered into at an abnormally low level of risk due to an obvious or palpable error (a Manifest Error). In deciding whether an error is a Manifest Error, we may take into account any relevant information including, the state of the underlying market at the time of the error and any error within, or lack of clarity of, any information source or pronouncement. You have a duty to report to us any such problems, errors or suspected system inadequacies that you may experience and may not abuse of or arbitrage such system problems or errors for profit. We will endeavour to resolve any such difficulties in the shortest time possible. Any amendments to the contractual terms of Manifestly Erroneous contracts shall be reasonable and fair. Monies exchanged between you and us in connection with the Manifestly Erroneous contracts shall be returned to the recipient according to the amendments made to the contractual terms and conditions of this Agreement. You further acknowledge and agree that we will not be held liable or responsible, whether directly or indirectly, for any loss, expenses or damage caused or alleged to be caused by or in connection with a Manifest Error."
+msgstr "crwdns17125:0crwdne17125:0"
+
+#, fuzzy
+#| msgid ""
+#| "We use identity verification services and real-time fraud detection measures to help protect you from unauthorized access to your account. We also monitor account activity for signs of unusual activity that might indicate fraud and work\n"
+#| "                                    with collection agencies and low-enforcement agencies to address fraud issues."
+msgid "We use identity verification services and real-time fraud detection measures to help protect you from unauthorized access to your account. We also monitor account activity for signs of unusual activity that might indicate fraud and work with collection agencies and low-enforcement agencies to address fraud issues."
+msgstr "crwdns17126:0crwdne17126:0"
+
+#, fuzzy
+#| msgid ""
+#| "We will act on any instructions given or appearing to be given by you and received by us in relation to the margin trading service provided through the MT5 Trading Platform, as deemed instructed by you. However, it is not our obligation to\n"
+#| "                    act on any instructions deemed instructed by you, and we are not obligated to give you any reasons for declining to do so. Instructions received by us from you are deemed final and will not be revocable. It is your responsibility to ensure the\n"
+#| "                    genuineness and accuracy of the instructions given by you to us."
+msgid "We will act on any instructions given or appearing to be given by you and received by us in relation to the margin trading service provided through the MT5 Trading Platform, as deemed instructed by you. However, it is not our obligation to act on any instructions deemed instructed by you, and we are not obligated to give you any reasons for declining to do so. Instructions received by us from you are deemed final and will not be revocable. It is your responsibility to ensure the genuineness and accuracy of the instructions given by you to us."
+msgstr "crwdns17127:0crwdne17127:0"
+
+#, fuzzy
+#| msgid ""
+#| "We will hold you responsible for all your obligations under this Agreement in our course of providing the margin trading service described in this Agreement to you, even if you notify us that you are acting as the agent of an identified\n"
+#| "                    principal."
+msgid "We will hold you responsible for all your obligations under this Agreement in our course of providing the margin trading service described in this Agreement to you, even if you notify us that you are acting as the agent of an identified principal."
+msgstr "crwdns17128:0crwdne17128:0"
+
+msgid "We will monitor the effectiveness of our order execution arrangements and order execution policy. We will assess from time to time whether the venues relied upon by us in pricing our Contracts on your behalf allow us to achieve best execution on a consistent basis or whether we need to make changes to our execution arrangements. We will also review our order execution arrangements and order execution policy in respect of material changes either in respect of one of our chosen pricing venues or that otherwise affect our ability to continue to achieve best execution. Should there be any material changes to our order execution arrangements or order execution policy, we will notify you."
+msgstr "crwdns17129:0crwdne17129:0"
+
+#, fuzzy
+#| msgid ""
+#| "We will use reasonable endeavours within our control to ensure that all electronic data provided on the MT5 Trading Platform and all electronic transactions instructed and accepted from you to us, and executed by us are not subject to\n"
+#| "                    network latency. "
+msgid "We will use reasonable endeavours within our control to ensure that all electronic data provided on the MT5 Trading Platform and all electronic transactions instructed and accepted from you to us, and executed by us are not subject to network latency."
+msgstr "crwdns17130:0crwdne17130:0"
+
+msgid "When we accept an order from you to open or close a transaction, or any other specific instructions in relation to your order, we will endeavour to follow your instructions as far as reasonably possible, acting in accordance with our duty of best execution in accordance with your instructions. These specific instructions include, but are not limited to:"
+msgstr "crwdns17131:0crwdne17131:0"
+
+msgid "When we deal on own account (dealing desk), we act as principal and not as an agent on your behalf and we therefore act as the execution venue."
+msgstr "crwdns17132:0crwdne17132:0"
+
+msgid "Where a particular time or timeframe has been specified in a client's instructions with respect to the execution of an order, regardless of the price available, we will endeavour to execute the order at the specified time or over the specified timeframe in the best possible manner after taking all sufficient steps. However, we will not be responsible for any consequences related to pricing that resulted from the time or timeframe of the execution."
+msgstr "crwdns17133:0crwdne17133:0"
+
+msgid "Where a particular venue has been specified in your instructions with respect to the execution of an order, we will not be responsible for the venue selection."
+msgstr "crwdns17134:0crwdne17134:0"
+
+#, fuzzy
+#| msgid ""
+#| "Where we consider, on the basis of the information provided by you that you do not possess the knowledge and experience to appreciate the risks associated with an investment in the proposed instrument, we will issue a warning to you. Such a\n"
+#| "                            warning shall be displayed on the website."
+msgid "Where we consider, on the basis of the information provided by you that you do not possess the knowledge and experience to appreciate the risks associated with an investment in the proposed instrument, we will issue a warning to you. Such a warning shall be displayed on the website."
+msgstr "crwdns17135:0crwdne17135:0"
+
+msgid "Whilst we act as principal in respect of your orders, we also assess the execution venues that we use and upon which we place significant reliance to provide the best possible result for the execution of your orders. These venues typically consist of third party investment firms, brokers, and/or liquidity providers."
+msgstr "crwdns17136:0crwdne17136:0"
+
+msgid "Whilst we endeavour to close out your Open Positions if and when the Margin Level for your Real Account reaches or falls below the Stop Out Level, we do not guarantee that your Open Positions will be closed when the Margin Level for your Real Account reaches the Stop Out Level."
+msgstr "crwdns17137:0crwdne17137:0"
+
+msgid "Whilst we endeavour to open or close the Transaction to which your orders relate at the requested price, acting in accordance with our duty of best execution, there are times when, due to an increase in volatility or volume, orders may be subject to slippage. The difference between the order price and execution price when orders are filled is known as slippage. This means that your order is not filled at the exact intended quoted price when you placed your order. Slippage is usually seen during periods of extremely high or low volatility and generally occurs during fundamental news releases or periods of limited liquidity. Slippages can result in either a positive slippage (more favourable to you) or a negative slippage (less favourable to you)."
+msgstr "crwdns17138:0crwdne17138:0"
+
+#, fuzzy
+#| msgid ""
+#| "Whilst we endeavour to take all reasonable and sufficient steps, as required by applicable laws and regulations, to identify potential conflicts of interests between ourselves and our clients, or between one client and another, that arise in the course of providing the margin trading services as\n"
+#| "                            described in this Agreement, by establishing and implementing policies and procedures, it is possible that we may execute certain Transactions which may have other direct or indirect material interests."
+msgid "Whilst we endeavour to take all reasonable and sufficient steps, as required by applicable laws and regulations, to identify potential conflicts of interests between ourselves and our clients, or between one client and another, that arise in the course of providing the margin trading services as described in this Agreement, by establishing and implementing policies and procedures, it is possible that we may execute certain Transactions which may have other direct or indirect material interests."
+msgstr "crwdns17139:0crwdne17139:0"
+
+msgid "Withdraw"
+msgstr "crwdns17140:0crwdne17140:0"
+
+msgid "Withdraw from"
+msgstr "crwdns17141:0crwdne17141:0"
+
+msgid "Withdraw from MetaTrader account"
+msgstr "crwdns17142:0crwdne17142:0"
+
+msgid "Withdraw funds from your MetaTrader account into your Binary account:"
+msgstr "crwdns17143:0crwdne17143:0"
+
+msgid "Withdraw to"
+msgstr "crwdns17144:0crwdne17144:0"
+
+msgid "Withdrawal is done. Transaction ID: %1"
+msgstr "crwdns17145:0%1crwdne17145:0"
+
+msgid "Withdrawal of Funds from Real Account"
+msgstr "crwdns17146:0crwdne17146:0"
+
+msgid "Withdrawal of funds from Real Account must be made in the same currency maintained in your Binary Options Real Account."
+msgstr "crwdns17147:0crwdne17147:0"
+
+#, fuzzy
+#| msgid ""
+#| "Without prejudice to any other terms of this Agreement, neither the Company nor any its directors, officers, managers, employees, or agents shall not be liable to you in relation to any loss that you incurred whether directly or indirectly\n"
+#| "                    by any cause beyond our control, including but not limited to, any delay or defect in or failure of the whole or any part of the MT5 Trading Platform or any systems or network links."
+msgid "Without prejudice to any other terms of this Agreement, neither the Company nor any its directors, officers, managers, employees, or agents shall not be liable to you in relation to any loss that you incurred whether directly or indirectly by any cause beyond our control, including but not limited to, any delay or defect in or failure of the whole or any part of the MT5 Trading Platform or any systems or network links."
+msgstr "crwdns17148:0crwdne17148:0"
+
+msgid "You acknowledge and accept that a Transaction may be subject to market rules laid down in by-laws, rules, provisions, customs and practices of an exchange, a market, a clearing house, a body or any other organisation involved in the execution, clearing, and/or settlement of said Transaction. Should any such organisation take decisions or measures which affect a Transaction or an Open Position, the Company shall be entitled to take any action (including closing any Open Position of the client) which it, at its sole discretion, considers reasonable. This clause does not apply to Volatility Indices."
+msgstr "crwdns17149:0crwdne17149:0"
+
+msgid "You acknowledge and accept that your Real Account will be maintained in one currency, which is the same currency maintained in your Binary Options Real Account."
+msgstr "crwdns17150:0crwdne17150:0"
+
+msgid "You acknowledge and agree that the Company may, at any time without prior notice and at its discretion, change the trading rules in relation to:"
+msgstr "crwdns17151:0crwdne17151:0"
+
+#, fuzzy
+#| msgid ""
+#| "You acknowledge that a Stop or Limit Order placed on your Open Position, when executed, would be capable of closing or partly closing such Transaction. You also acknowledge that it is your responsibility to cancel the Stop or Limit Order\n"
+#| "                            that you placed on your Open Positions if you do not want the Stop or Limit Order to remain valid. If you close your original Transaction and fail to cancel the Stop or Limit Order, we shall be entitled, at our absolute discretion, to treat the Stop\n"
+#| "                            or Limit Order as an instruction to enter into a new Transaction for you if and when our quote reaches or goes beyond the level of the Stop or Limit Order."
+msgid "You acknowledge that a Stop or Limit Order placed on your Open Position, when executed, would be capable of closing or partly closing such Transaction. You also acknowledge that it is your responsibility to cancel the Stop or Limit Order that you placed on your Open Positions if you do not want the Stop or Limit Order to remain valid. If you close your original Transaction and fail to cancel the Stop or Limit Order, we shall be entitled, at our absolute discretion, to treat the Stop or Limit Order as an instruction to enter into a new Transaction for you if and when our quote reaches or goes beyond the level of the Stop or Limit Order."
+msgstr "crwdns17152:0crwdne17152:0"
+
+msgid "You acknowledge that it is your responsibility to monitor your Account Balance and Margin Requirement and we are not under any obligation to keep you informed (i.e., to make a Margin Call)."
+msgstr "crwdns17153:0crwdne17153:0"
+
+msgid "You acknowledge that it is your responsibility to understand the features, characteristics, terms and conditions of an Order and the implications of executing an Order before you place an Order with us."
+msgstr "crwdns17154:0crwdne17154:0"
+
+#, fuzzy
+#| msgid ""
+#| "You acknowledge that the Company will determine, at its discretion, the Transactions that will be kept in the Company's own book (known as B booking) and the Transactions that will be passed through to the prime brokers who act as liquidity providers for the Company (known as A booking). For the latter, the Company is the counterparty in these transactions and a correlation between the profit/loss made by the client and the profit/loss made by the Company exists. At any point in time, we may be entering into or may have entered into transactions with a large number of clients, each of whose interests may diverge from those of other clients. As such, the Company may be holding Open\n"
+#| "                            Positions that may not be aligned with your objectives/interests as an individual client of the Company."
+msgid "You acknowledge that the Company will determine, at its discretion, the Transactions that will be kept in the Company's own book (known as B booking) and the Transactions that will be passed through to the prime brokers who act as liquidity providers for the Company (known as A booking). For the latter, the Company is the counterparty in these transactions and a correlation between the profit/loss made by the client and the profit/loss made by the Company exists. At any point in time, we may be entering into or may have entered into transactions with a large number of clients, each of whose interests may diverge from those of other clients. As such, the Company may be holding Open Positions that may not be aligned with your objectives/interests as an individual client of the Company."
+msgstr "crwdns17155:0crwdne17155:0"
+
+#, fuzzy
+#| msgid ""
+#| "You acknowledge that we may use, store, or otherwise process personal information provided by you in connection with the provision of margin trading services described in this Agreement. You consent to the processing and transmittal of your\n"
+#| "                            personal information for the purposes of performing the contract and administering the relationship between you and us."
+msgid "You acknowledge that we may use, store, or otherwise process personal information provided by you in connection with the provision of margin trading services described in this Agreement. You consent to the processing and transmittal of your personal information for the purposes of performing the contract and administering the relationship between you and us."
+msgstr "crwdns17156:0crwdne17156:0"
+
+msgid "You acknowledge that we reserve the right to establish a minimum and maximum transaction size which may be subject to alteration and that we will only execute Orders that fall within the range of the minimum and maximum transaction size."
+msgstr "crwdns17157:0crwdne17157:0"
+
+msgid "You acknowledge that we reserve the right to void or close out one or more of your Transactions if we observe any breaches of warranty given under this Agreement."
+msgstr "crwdns17158:0crwdne17158:0"
+
+#, fuzzy
+#| msgid ""
+#| "You acknowledge, understand, represent and warrant that you are aware of the functional limitations of the MT5 Trading Platform (for example, Wine, which is not a fully stable application, as disclosed by the MT5 Trading Platform Licensor\n"
+#| "                    on their website). We have no obligation and bear no responsibility for transmissions (including, but not limited to, Orders) that are inaccurate or not received by us, due to the functional limitations of the MT5 Trading Platform."
+msgid "You acknowledge, understand, represent and warrant that you are aware of the functional limitations of the MT5 Trading Platform (for example, Wine, which is not a fully stable application, as disclosed by the MT5 Trading Platform Licensor on their website). We have no obligation and bear no responsibility for transmissions (including, but not limited to, Orders) that are inaccurate or not received by us, due to the functional limitations of the MT5 Trading Platform."
+msgstr "crwdns17159:0crwdne17159:0"
+
+#, fuzzy
+#| msgid ""
+#| "You act in breach of any warranty or representation made under this Agreement or any representation or warranty made by you under this Agreement and/or any information provided to us in connection with this Agreement is or becomes untrue or\n"
+#| "                            misleading;"
+msgid "You act in breach of any warranty or representation made under this Agreement or any representation or warranty made by you under this Agreement and/or any information provided to us in connection with this Agreement is or becomes untrue or misleading;"
+msgstr "crwdns17160:0crwdne17160:0"
+
+msgid "You are acting for your sole benefit and not for or on behalf of any other person;"
+msgstr "crwdns17161:0crwdne17161:0"
+
+#, fuzzy
+#| msgid ""
+#| "You are not resident in a restricted country such as the USA, Japan, Hong Kong, Costa Rica, Malaysia, Malta, Iran, North Korea, Jersey, Iraq, or such other restricted country as the Company may decide from time to time at its sole\n"
+#| "                                    discretion;"
+msgid "You are not resident in a restricted country such as the USA, Japan, Hong Kong, Costa Rica, Malaysia, Malta, Iran, North Korea, Jersey, Iraq, or such other restricted country as the Company may decide from time to time at its sole discretion;"
+msgstr "crwdns17162:0crwdne17162:0"
+
+msgid "You are over 18 years of age, unless you are an Estonian resident whereby you would have to be over 21;"
+msgstr "crwdns17163:0crwdne17163:0"
+
+#, fuzzy
+#| msgid "You are willing and financially able to sustain a total loss of funds (which may exceed your initial deposit) resulting from a Transaction; "
+msgid "You are willing and financially able to sustain a total loss of funds (which may exceed your initial deposit) resulting from a Transaction;"
+msgstr "crwdns17164:0crwdne17164:0"
+
+#, fuzzy
+#| msgid ""
+#| "You consent us to record your telephone conversation between you and us. All instructions receive by telephone will be binding as if received in writing. Recorded telephone conversations between you and us shall be and remain our sole\n"
+#| "                            property. You will accept recorded telephone conversations between you and us as conclusive evidence of instructions or conversations so recorded and we may deliver copies of transcripts of such recordings to any court, regulatory or governmental\n"
+#| "                            authority without seeking prior consent from you."
+msgid "You consent us to record your telephone conversation between you and us. All instructions receive by telephone will be binding as if received in writing. Recorded telephone conversations between you and us shall be and remain our sole property. You will accept recorded telephone conversations between you and us as conclusive evidence of instructions or conversations so recorded and we may deliver copies of transcripts of such recordings to any court, regulatory or governmental authority without seeking prior consent from you."
+msgstr "crwdns17165:0crwdne17165:0"
+
+msgid "You did not change anything."
+msgstr ""
+
+msgid "You have all necessary authority, powers, consents, licences and authorisations and have taken all necessary actions to enable you to enter into and perform this Agreement and such Transactions lawfully;"
+msgstr "crwdns17166:0crwdne17166:0"
+
+msgid "You have fully read and understood the: (i) Risk Disclosure Statement; (ii) Order Execution Policy; (iii) terms and condition attached to this Agreement; before requesting to open a Real Account with us;"
+msgstr "crwdns17167:0crwdne17167:0"
+
+msgid "You have reached the rate limit of requests per second. To continue, please <a href=\"javascript:;\" id=\"ratelimit-refresh-link\">refresh</a> the page."
+msgstr "crwdns17168:0crwdne17168:0"
+
+msgid "You have read our privacy statement and hereby give us consent to process your personal information as outlined there;"
+msgstr "crwdns17169:0crwdne17169:0"
+
+msgid "You have read this Legal Terms and Conditions page in full and understood that you will be buying and selling financial contracts subject to these terms and conditions;"
+msgstr "crwdns17170:0crwdne17170:0"
+
+#, fuzzy
+#| msgid ""
+#| "You have sufficient experience and knowledge in matters of financial trading to be capable of evaluating the merits and risks of acquiring financial contracts via this site and have done so without relying on any information contained in\n"
+#| "                                    this site."
+msgid "You have sufficient experience and knowledge in matters of financial trading to be capable of evaluating the merits and risks of acquiring financial contracts via this site and have done so without relying on any information contained in this site."
+msgstr "crwdns17171:0crwdne17171:0"
+
+msgid "You have to register and get App ID before you can use different OAuth server for authentication. For more information refer to OAuth details on https://developers.binary.com/."
+msgstr "crwdns17172:0crwdne17172:0"
+
+msgid "You have unrealised losses on your Real Account; and/or"
+msgstr "crwdns17173:0crwdne17173:0"
+
+#, fuzzy
+#| msgid ""
+#| "You hereby agree that you will not participate in any illegal, deceptive, misleading or unethical practices including, but not limited to, disparagement of the MT5 Trading Platform or other practices which may be detrimental to the MT5\n"
+#| "                    Trading Platform, Licensor or the public interest. "
+msgid "You hereby agree that you will not participate in any illegal, deceptive, misleading or unethical practices including, but not limited to, disparagement of the MT5 Trading Platform or other practices which may be detrimental to the MT5 Trading Platform, Licensor or the public interest."
+msgstr "crwdns17174:0crwdne17174:0"
+
+msgid "You make the following representations and warranties to us at the time you enter into this Agreement, and agree that such representations and warranties are deemed repeated each time you open or close a Transaction:"
+msgstr "crwdns17175:0crwdne17175:0"
+
+#, fuzzy
+#| msgid ""
+#| "You may make Margin Payments by transferring funds from your Binary Options Real Account to your Real Account. In the event that there are insufficient funds in your Binary Options Real Account to fund your Real Account, you may, make\n"
+#| "                            Margin Payments by funding your Binary Options Real Account and transferring the funds from your Binary Options Real Account to your Real Account. "
+msgid "You may make Margin Payments by transferring funds from your Binary Options Real Account to your Real Account. In the event that there are insufficient funds in your Binary Options Real Account to fund your Real Account, you may, make Margin Payments by funding your Binary Options Real Account and transferring the funds from your Binary Options Real Account to your Real Account."
+msgstr "crwdns17176:0crwdne17176:0"
+
+msgid "You may not cancel or amend the level of your Stop and Limit Order prior to the closing of your Transaction once the level has been reached."
+msgstr "crwdns17177:0crwdne17177:0"
+
+msgid "You may specify your instruction of a Stop Order or a Limit Order may be applied for a limited duration or for an indefinite period (a \"good till cancelled\" or \"GTC\" Order)."
+msgstr "crwdns17178:0crwdne17178:0"
+
+msgid "You promise that:"
+msgstr "crwdns17179:0crwdne17179:0"
+
+msgid "You should not sign up to receive the margin trading service described in this Agreement unless you understand their nature and the associated risks."
+msgstr "crwdns17180:0crwdne17180:0"
+
+msgid "You understand that products based on a random number generator (the \"Volatility Indices\") are gambling products whereas products based on financial markets indices (forex, stocks, commodities) are financial instruments."
+msgstr "crwdns17181:0crwdne17181:0"
+
+msgid "You will provide us with any information that we may reasonably require to fully satisfy the demand or the requirements of the applicable government authority, upon our request."
+msgstr "crwdns17182:0crwdne17182:0"
+
+msgid "You will take all reasonable steps to comply with any law, ordinance, charter, by-law or rule applicable to you or the jurisdiction in which you are resident;"
+msgstr "crwdns17183:0crwdne17183:0"
+
+#, fuzzy
+#| msgid ""
+#| "You will use the margin trading service described in this Agreement in good faith and you will not use any software, algorithm, or any trading strategy to manipulate or take unfair advantage of the way our bid and offer prices are quoted.\n"
+#| "                            You shall observe the standard of behavior reasonably expected of persons in your position and not take any step which would cause us to fail to observe the standard of behavior reasonably expected of persons in our position."
+msgid "You will use the margin trading service described in this Agreement in good faith and you will not use any software, algorithm, or any trading strategy to manipulate or take unfair advantage of the way our bid and offer prices are quoted. You shall observe the standard of behavior reasonably expected of persons in your position and not take any step which would cause us to fail to observe the standard of behavior reasonably expected of persons in our position."
+msgstr "crwdns17184:0crwdne17184:0"
+
+msgid "You will, at all times, obtain and comply, and do all that is necessary to maintain in full force and effect, all authority, powers, consents, licences and authorities referred to in this clause;"
+msgstr "crwdns17185:0crwdne17185:0"
+
+msgid "You're using a Virtual Account."
+msgstr "crwdns17186:0crwdne17186:0"
+
+msgid "Your Name"
+msgstr "crwdns17187:0crwdne17187:0"
+
+#, fuzzy
+#| msgid ""
+#| "Your Real Account password and login ID are unique and passwords are hashed so that not even Binary.com staff can read them. This is the reason why we cannot retrieve your password and have to issue you with a new one to your email address\n"
+#| "                                    if you cannot recall it;"
+msgid "Your Real Account password and login ID are unique and passwords are hashed so that not even Binary.com staff can read them. This is the reason why we cannot retrieve your password and have to issue you with a new one to your email address if you cannot recall it;"
+msgstr "crwdns17188:0crwdne17188:0"
+
+#, fuzzy
+#| msgid ""
+#| "Your Real Account shall be funded by transferring funds from your Binary Options Real Account, subject to the availability and sufficiency of funds in your Binary Options Real Account. No fund transfers shall be made to any other account in\n"
+#| "                                    the name of any third party."
+msgid "Your Real Account shall be funded by transferring funds from your Binary Options Real Account, subject to the availability and sufficiency of funds in your Binary Options Real Account. No fund transfers shall be made to any other account in the name of any third party."
+msgstr "crwdns17189:0crwdne17189:0"
+
+#, fuzzy
+#| msgid ""
+#| "Your account should not be used as a banking facility and deposits should only be made with a view to using funds to place contracts. The Company is not a financial institution. Clients will not receive interest on deposits. Should you make\n"
+#| "                            repeated deposits and withdrawals without commensurate contracts being placed, we reserve the right to pass on to your accounts, without prior notice, any bank charges we have incurred before closing the account."
+msgid "Your account should not be used as a banking facility and deposits should only be made with a view to using funds to place contracts. The Company is not a financial institution. Clients will not receive interest on deposits. Should you make repeated deposits and withdrawals without commensurate contracts being placed, we reserve the right to pass on to your accounts, without prior notice, any bank charges we have incurred before closing the account."
+msgstr "crwdns17190:0crwdne17190:0"
+
+msgid "Your death, your incapacity, become of unsound mind or your inability to pay your debts as they fall due, or is bankrupt or insolvent, as defined under any bankruptcy or insolvency law applicable to you, if you are an individual;"
+msgstr "crwdns17191:0crwdne17191:0"
+
+msgid "Your debts are not settled as and when they fall due;"
+msgstr "crwdns17192:0crwdne17192:0"
+
+msgid "Your forex and contracts for differences transactions with %1 are linked to an underlying financial instrument and you will be exposed to price, currency exchange, interest rate or other volatility of the market to which your financial instrument is related to, especially if the market is of a jurisdiction that is foreign to you. Forex and contracts for differences trading over the internet via an electronic trading platform is subject to data latency risk which may result in delays in order execution."
+msgstr "crwdns17193:0%1crwdne17193:0"
+
+msgid "Your new account has been created."
+msgstr "crwdns17194:0crwdne17194:0"
+
+msgid "Your settings have been updated successfully."
+msgstr "crwdns17195:0crwdne17195:0"
+
+#, fuzzy
+#| msgid ""
+#| "Your use of the MT5 Trading Platform, whether accessed through or downloaded from our website or a third party website, is governed by the terms of use provided by the MT5 Trading Platform Licensor to you. In the event of any conflict\n"
+#| "                    between the content of this Agreement and the agreement between you and the MT5 Trading Platform Licensor, the terms of this Agreement shall prevail. It is your responsibility to ensure that the information technology that you use is compatible with\n"
+#| "                    the required information technology to support the MT5 Trading Platform."
+msgid "Your use of the MT5 Trading Platform, whether accessed through or downloaded from our website or a third party website, is governed by the terms of use provided by the MT5 Trading Platform Licensor to you. In the event of any conflict between the content of this Agreement and the agreement between you and the MT5 Trading Platform Licensor, the terms of this Agreement shall prevail. It is your responsibility to ensure that the information technology that you use is compatible with the required information technology to support the MT5 Trading Platform."
+msgstr "crwdns17196:0crwdne17196:0"
+
+msgid "a) The venue at which your order will be executed;"
+msgstr "crwdns17197:0crwdne17197:0"
+
+msgid "and"
+msgstr "crwdns17198:0crwdne17198:0"
+
+msgid "b) The price at which your order will be executed;"
+msgstr "crwdns17199:0crwdne17199:0"
+
+msgid "binary options, forex, forex trading, online trading, financial trading, binary trading, index trading, trading indices, forex trades, trading commodities, binary options strategy, binary broker, binary bet, binary options trading platform, binary strategy, finance, stocks, investment, trading"
+msgstr "crwdns17200:0crwdne17200:0"
+
+msgid "c) The time at which your order will be executed; and"
+msgstr "crwdns17201:0crwdne17201:0"
+
+msgid "consolidating liquidity from several providers into a single stream of blended feed; and"
+msgstr "crwdns17202:0crwdne17202:0"
+
+msgid "d) The timeframe or duration of the contract as defined by your order execution."
+msgstr "crwdns17203:0crwdne17203:0"
+
+msgid "e.g. blue.binaryws.com"
+msgstr "crwdns17204:0crwdne17204:0"
+
+msgid "intelligently routing incoming orders to different types of execution modes based on configurations and algorithms established using best execution factors."
+msgstr "crwdns17205:0crwdne17205:0"
+
+#, fuzzy
+#| msgid "Log in"
+msgid "log in"
+msgstr "crwdns16929:0crwdne16929:0"
+
+#, fuzzy
+#| msgid ""
+#| "net of any other money credited to your Real Account and debited from your Real Account. Your account balance includes Margin Requirement. The amount of your account balance in excess of Margin Requirement is available for your withdrawal.\n"
+#| "                            The amount set aside for Margin Requirement is not available for your withdrawal."
+msgid "net of any other money credited to your Real Account and debited from your Real Account. Your account balance includes Margin Requirement. The amount of your account balance in excess of Margin Requirement is available for your withdrawal. The amount set aside for Margin Requirement is not available for your withdrawal."
+msgstr "crwdns17206:0crwdne17206:0"
+
+#, fuzzy
+#| msgid "net of fund transfers between your Binary Options Account and your Real Account; "
+msgid "net of fund transfers between your Binary Options Account and your Real Account;"
+msgstr "crwdns17207:0crwdne17207:0"
+
+#, fuzzy
+#| msgid "net of realised profits credited to your Real Account and realised losses debited from your Real Account; "
+msgid "net of realised profits credited to your Real Account and realised losses debited from your Real Account;"
+msgstr "crwdns17208:0crwdne17208:0"
+
+msgid "the characteristics of financial instruments that are the subject of that order;"
+msgstr "crwdns17209:0crwdne17209:0"
+
+msgid "the characteristics of the client;"
+msgstr "crwdns17210:0crwdne17210:0"
+
+msgid "the characteristics of the execution venues to which that order can be directed."
+msgstr "crwdns17211:0crwdne17211:0"
+
+msgid "the characteristics of the order;"
+msgstr "crwdns17212:0crwdne17212:0"
+
+msgid "the market conditions of the financial instruments that your orders are related to, which includes the need for timely execution, availability of price improvement, liquidity of the market, size of your order, and the potential impact on total consideration."
+msgstr "crwdns17213:0crwdne17213:0"
+
+msgid "the specific instructions that we receive from you;"
+msgstr "crwdns17214:0crwdne17214:0"
+
+msgid "Online Trading platform for binary options on Forex, Indices, Commodities and Smart Indices"
+msgstr "crwdns16716:0crwdne16716:0"
+
+msgid "404"
+msgstr "crwdns17215:0crwdne17215:0"
+
+msgid "MetaTrader"
+msgstr "crwdns17216:0crwdne17216:0"
+
+msgid "Terms and Conditions Approval"
+msgstr "crwdns17217:0crwdne17217:0"
+
+msgid "MetaTrader Margin Policy"
+msgstr "crwdns17218:0crwdne17218:0"
+
+msgid "MetaTrader Terms and Conditions"
+msgstr "crwdns17219:0crwdne17219:0"
+
+msgid "Endpoint"
+msgstr "crwdns17220:0crwdne17220:0"
+
+#~ msgid "All the Latest Tools on a Leading Platform"
+#~ msgstr "crwdns16771:0crwdne16771:0"
+
+#~ msgid "Customise your trades for higher return potential."
+#~ msgstr "crwdns16824:0crwdne16824:0"
+
+#~ msgid "I am not registered on Binary.com"
+#~ msgstr "crwdns16876:0crwdne16876:0"
+
+#~ msgid "I have a Binary.com virtual account"
+#~ msgstr "crwdns16878:0crwdne16878:0"
+
+#~ msgid "Login"
+#~ msgstr "crwdns16931:0crwdne16931:0"
+
+#~ msgid "Please complete the following financial assessment form before continuing."
+#~ msgstr "crwdns16984:0crwdne16984:0"
+
+#~ msgid "Profit from highly competitive spreads with no commission."
+#~ msgstr "crwdns16993:0crwdne16993:0"
+
+#~ msgid "Register a Real Account"
+#~ msgstr "crwdns16998:0crwdne16998:0"
+
+#~ msgid "Register an MT Account"
+#~ msgstr "crwdns16999:0crwdne16999:0"
+
+#~ msgid "Register on Binary.com"
+#~ msgstr "crwdns17000:0crwdne17000:0"
+
+#~ msgid "Take your trading to the next level with MetaTrader 5, recognised as the industry benchmark for professional investors worldwide."
+#~ msgstr "crwdns17039:0crwdne17039:0"
+
+#~ msgid "To open a MetaTrader account, you first need a real account on Binary.com."
+#~ msgstr "crwdns17089:0crwdne17089:0"
+
+#~ msgid "Trade 24/7 with Volatility Indices that simulate market forces."
+#~ msgstr "crwdns17093:0crwdne17093:0"
+
+#~ msgid "Trade on a universally acclaimed, multi-asset trading platform."
+#~ msgstr "crwdns17094:0crwdne17094:0"
