@@ -16,7 +16,6 @@ default:
   - 'test'
   - 'css'
   - 'js'
-  - 'fileindex'
   - 'copy'
 
 dev:
