@@ -200,12 +200,17 @@ var MetaTraderUI = (function() {
     // --------------------------
     // ----- Tab Management -----
     // --------------------------
+    var getActiveTab = function() {
+        var activeTab = (page.url.location.hash.substring(1) || '').toLowerCase();
+        if (!activeTab || !/demo|financial|volatility/.test(activeTab)) {
+            activeTab = 'demo';
+        }
+        return activeTab;
+    };
+
     var displayTab = function(tab) {
         if(!tab) {
-            tab = (page.url.location.hash.substring(1) || '').toLowerCase();
-            if(!tab || !/demo|financial|volatility/.test(tab)) {
-                tab = 'demo';
-            }
+            tab = getActiveTab();
         }
         if((/financial/.test(tab) && !hasFinancialCompany) || (/volatility/.test(tab) && !hasGamingCompany)) {
             tab = 'demo';
@@ -335,14 +340,19 @@ var MetaTraderUI = (function() {
                     MetaTraderData.requestLoginDetails(obj.login);
                 }
             });
-        } else {
+        }
+        if (!mt5Accounts.hasOwnProperty(getActiveTab())) {
             displayTab();
         }
     };
 
     var responseLoginDetails = function(response) {
         if(response.hasOwnProperty('error')) {
-            return showAccountMessage(mt5Logins[response.echo_req.login], response.error.message);
+            showAccountMessage(mt5Logins[response.echo_req.login], response.error.message);
+            if (mt5Logins[response.echo_req.login] === getActiveTab()) {
+                displayTab();
+            }
+            return;
         }
 
         var accType = MetaTrader.getAccountType(response.mt5_get_settings.group);

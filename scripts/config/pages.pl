@@ -16,8 +16,8 @@ sub all_pages {
         ['endpoint',                 'static/endpoint',          'default',    'Endpoint'],
         ['logged_inws',              'global/logged_inws',       undef],
 
-        ['volatility-indices-contract', 'static/volatility-indices-contract',   'default', 'Volatility Indices Contract Specifications'],
-        ['user/settings/assessmentws',  'user/settings/financial_assessmentws', 'default', 'Financial Assessment'],
+        ['contract-specifications',    'static/contract_specifications/index', 'default', 'Contract Specifications'],
+        ['user/settings/assessmentws', 'user/settings/financial_assessmentws', 'default', 'Financial Assessment'],
     );
 }
 
