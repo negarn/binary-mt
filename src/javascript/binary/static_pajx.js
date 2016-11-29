@@ -37,3 +37,26 @@ pjax_config_page("/terms-and-conditions", function() {
         }
     };
 });
+
+pjax_config_page("/contract-specifications", function() {
+    return {
+        onLoad: function() {
+            var hash;
+            function updateTab() {
+                hash = /^#(volatility|forex)-tab$/.test(window.location.hash) ? window.location.hash : '#volatility-tab';
+                //remove active class and hide all content
+                $('#spec-menu li').removeClass('active a-active');
+                $('.menu-has-sub-item div.toggle-content').addClass('invisible');
+                //add active class to the right tab and show expected content
+                $(hash).addClass('active')
+                       .find('a').addClass('a-active');
+                $(hash + '-content').removeClass('invisible');
+            }
+            $(window).on('hashchange', function() {
+                updateTab();
+            });
+            updateTab();
+            $('.content-tab-container').removeClass('invisible');
+        }
+    };
+});
