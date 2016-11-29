@@ -209,4 +209,5 @@
       </table>
     </div>
     <p>[% l('<strong>Margin Policy:</strong> The forced liquidation level is 100%. Please refer to our <a href="[_1]">Margin Policy</a> for further details.', request.url_for('margin-policy')) %]</p>
+    <p>[% l('These instruments use the hedging position accounting system.') %]</p>
 </div>
