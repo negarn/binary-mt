@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-11-29 02:28-0500\n"
+"PO-Revision-Date: 2016-11-29 21:07-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -208,7 +208,7 @@ msgid "Binary.com assesses the choice of external execution venues regularly (at
 msgstr ""
 
 msgid "Binary.com enters Forex and CFD trading with the universally acclaimed MetaTrader 5, in addition to its continued leadership presence in the binary options market."
-msgstr ""
+msgstr "В дополнение к своей ведущей позиции на рынке торговли бинарными опционами, Binary.com внедряет международно-известную платформу MetaTrader 5 для торговли валютами и контрактами на разницу."
 
 msgid "Binary.com offers forex and contracts for differences via the hybrid model, i.e., both dealing on own account (dealing desk) and partially hedging client orders with our liquidity providers (no-dealing desk)."
 msgstr ""
@@ -553,7 +553,7 @@ msgid "Industry of Employment"
 msgstr ""
 
 msgid "Introducing <strong>MetaTrader 5</strong> for Binary.com"
-msgstr ""
+msgstr "Представляем <strong>MetaTrader 5</strong> для Binary.com"
 
 msgid "Investments &amp; Dividends"
 msgstr ""
