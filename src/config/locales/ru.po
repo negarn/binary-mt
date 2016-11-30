@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-11-29 21:16-0500\n"
+"PO-Revision-Date: 2016-11-29 21:26-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -103,7 +103,7 @@ msgid "A. Spot FX"
 msgstr ""
 
 msgid "Access advanced tools for fundamental and technical analysis, all available in one platform."
-msgstr ""
+msgstr "Получите доступ к расширенным торговым инструментам для фундаментального и технического анализа, найти которые можно на платформе."
 
 msgid "Account Balance - Your account balance represents:"
 msgstr ""
@@ -127,7 +127,7 @@ msgid "Accounts with debit balances are required to settle the full amount immed
 msgstr ""
 
 msgid "Advanced Tools &amp; Platforms"
-msgstr ""
+msgstr "Расширенные инструменты и платформы"
 
 msgid "All client orders are processed on a first in first out basis without any manual intervention. When executing your order, Binary.com will seek to fill your order transaction as promptly as possible, at the instructed price (or at a better price, if available). Exposure limits are established based on internal governance arrangements and risk management framework which commensurate with the size, nature, complexity, and risk profile of our activities. These exposure limits are used as benchmarks to distinguish orders that are auto-accepted and orders that will be worked in the market with fill level passed on to the client."
 msgstr ""
@@ -298,7 +298,7 @@ msgid "Create"
 msgstr ""
 
 msgid "Create Your MetaTrader 5 Account Now"
-msgstr ""
+msgstr "Откройте счёт на MetaTrader 5 прямо сейчас"
 
 msgid "Create a MetaTrader account to trade on the MetaTrader 5 platform."
 msgstr ""
@@ -610,7 +610,7 @@ msgid "Linux Instructions"
 msgstr ""
 
 msgid "Log in"
-msgstr ""
+msgstr "Вход"
 
 msgid "Log into the application using your MetaTrader account number and your MetaTrader account password."
 msgstr ""
@@ -640,7 +640,7 @@ msgid "Margin Payments are due immediately and shall be received in full by us."
 msgstr ""
 
 msgid "Margin Policy"
-msgstr ""
+msgstr "Политика расчета маржи"
 
 msgid "Margin Requirement and Calculation"
 msgstr ""
@@ -715,7 +715,7 @@ msgid "Open Position - the position in a market made by reference to an Underlyi
 msgstr ""
 
 msgid "Open a free Demo account. Upgrade to a Real account by depositing funds thru your Binary.com account cashier."
-msgstr ""
+msgstr "Откройте бесплатный Демо-счёт. Обновите его на Реальный счёт, внеся средства через раздел Касса на вашем счету на Binary.com."
 
 msgid "Opening a Transaction"
 msgstr ""
@@ -919,7 +919,7 @@ msgid "Submit"
 msgstr ""
 
 msgid "Subscribe to a wide range of algorithmic trading strategies from the built-in MetaTrader Market."
-msgstr ""
+msgstr "Подпишитесь на широкий спектр стратегий для алгоритмической торговли через встроенный Рынок MetaTrader."
 
 msgid "Such withdrawal would result in your Account Equity being less than zero; and/or"
 msgstr ""
@@ -1099,7 +1099,7 @@ msgid "Trade the Forex markets with leverage up to 100:1, and Volatility Indices
 msgstr "Торгуйте на валютных рынках с кредитным рычагом в размере до 100:1. Заключайте сделки на индексах волатильности с кредитным рычагом в размере до 500:1."
 
 msgid "Trade using the mobile and desktop apps, or use the web platform from any web browser."
-msgstr ""
+msgstr "Торгуйте с приложений для мобильного телефона и Пк или заключайте сделки на веб платформе, открытой через любой браузер."
 
 msgid "Trading Rules"
 msgstr ""
