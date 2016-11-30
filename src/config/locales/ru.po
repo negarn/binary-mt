@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-11-29 21:07-0500\n"
+"PO-Revision-Date: 2016-11-29 21:16-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -364,7 +364,7 @@ msgid "Education"
 msgstr ""
 
 msgid "Enhanced Trading with MetaTrader 5"
-msgstr ""
+msgstr "Широкие торговые возможности на MetaTrader 5"
 
 msgid "Estimated Net Worth"
 msgstr ""
@@ -817,7 +817,7 @@ msgid "Real Account - Your real money account opened with Binary.com's MT5 Tradi
 msgstr ""
 
 msgid "Register Your MetaTrader 5 Account"
-msgstr ""
+msgstr "Откройте счёт на MetaTrader 5"
 
 msgid "Regular monitoring of open positions"
 msgstr ""
@@ -1090,13 +1090,13 @@ msgid "Tourism"
 msgstr ""
 
 msgid "Trade Forex and CFD asset classes with an award-winning broker."
-msgstr ""
+msgstr "Торгуйте валютами и контрактами на разницу на самых разнообразных активах с брокером, удостоенным множества наград."
 
 msgid "Trade Forex and Contracts for Difference (CFD) assets with highly-competitive leverage and zero commission."
-msgstr ""
+msgstr "Торгуйте валютами (Forex) и контрактами на разницу (CFD) с конкурентноспособным кредитным рычагом и нулевыми комиссиями."
 
 msgid "Trade the Forex markets with leverage up to 100:1, and Volatility Indices with leverage up to 500:1."
-msgstr ""
+msgstr "Торгуйте на валютных рынках с кредитным рычагом в размере до 100:1. Заключайте сделки на индексах волатильности с кредитным рычагом в размере до 500:1."
 
 msgid "Trade using the mobile and desktop apps, or use the web platform from any web browser."
 msgstr ""
