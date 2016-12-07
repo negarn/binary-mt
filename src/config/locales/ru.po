@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-12-07 02:07-0500\n"
+"PO-Revision-Date: 2016-12-07 02:17-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -118,7 +118,7 @@ msgid "Account Security"
 msgstr ""
 
 msgid "Account Type"
-msgstr ""
+msgstr "Тип счёта"
 
 msgid "Accounts with debit balance (i.e. credit exposure to %1)"
 msgstr ""
@@ -295,13 +295,13 @@ msgid "Costs - the costs of executing your order comprised predominantly of spre
 msgstr ""
 
 msgid "Create"
-msgstr ""
+msgstr "Открыть"
 
 msgid "Create Your MetaTrader 5 Account Now"
 msgstr "Откройте счёт на MetaTrader 5 прямо сейчас"
 
 msgid "Create a MetaTrader account to trade on the MetaTrader 5 platform."
-msgstr ""
+msgstr "Откройте счёт на MetaTrader для торговли на платформе MetaTrader 5."
 
 msgid "D. Capacity"
 msgstr ""
@@ -310,7 +310,7 @@ msgid "D. Client Instructions"
 msgstr ""
 
 msgid "Demo"
-msgstr ""
+msgstr "Демо"
 
 msgid "Demo Account"
 msgstr "Демо-счёт"
@@ -391,7 +391,7 @@ msgid "Financial"
 msgstr ""
 
 msgid "Financial Account"
-msgstr ""
+msgstr "Финансовый счёт"
 
 msgid "Financial Assessment"
 msgstr ""
@@ -523,7 +523,7 @@ msgid "In executing orders on your behalf, Binary.com takes into consideration t
 msgstr ""
 
 msgid "In order to create an account for MetaTrader, you need to authenticate your Binary account."
-msgstr ""
+msgstr "Чтобы открыть счёт на MetaTrader, необходимо аутентифицировать Ваш счёт на Binary."
 
 msgid "In the case of a Limit Order, you acknowledge that we will endeavour to open/close a Transaction at a level that is the same or better than the Limit you specified, subject to the availability of the Limit Price. You acknowledge that at the time of order execution, our bid/offer price may become less favourable to you."
 msgstr ""
@@ -559,7 +559,7 @@ msgid "Investments &amp; Dividends"
 msgstr ""
 
 msgid "Investor Password (read-only access)"
-msgstr ""
+msgstr "Пароль инвестора (только для чтения)"
 
 msgid "Investor Password cannot be same as Main Password."
 msgstr ""
@@ -619,7 +619,7 @@ msgid "M. Manifest Error"
 msgstr ""
 
 msgid "Main Password (trading access)"
-msgstr ""
+msgstr "Основной пароль (доступ к торговле)"
 
 msgid "Margin - The amount set aside by us from your Account Balance in order to open and maintain a Transaction, to cover our exposure as a counterparty to your contract."
 msgstr ""
@@ -655,7 +655,7 @@ msgid "Maximum Volume (Trade Size)"
 msgstr ""
 
 msgid "MetaTrader Accounts Management"
-msgstr ""
+msgstr "Управление счетами на MetaTrader"
 
 msgid "MetaTrader Main Password"
 msgstr ""
@@ -673,7 +673,7 @@ msgid "Minimum Volume (Trade Size)"
 msgstr ""
 
 msgid "Minimum of eight lower and uppercase letters with numbers"
-msgstr ""
+msgstr "Пароль должен содержать минимум восемь заглавных и строчных букв с цифрами"
 
 msgid "Money collected from Clients are not invested in any securities, futures, or other investments, on behalf of Clients."
 msgstr ""
@@ -1066,7 +1066,7 @@ msgid "Throughout the duration of the Transaction and for as long as the Transac
 msgstr ""
 
 msgid "To authenticate your account, kindly email the following to <a href=\"mailto:%1\">%1</a>"
-msgstr ""
+msgstr "Чтобы аутентифицировать Ваш счёт, отправьте следующие документы по адресу <a href=\"mailto:%1\">%1</a>"
 
 msgid "To create a financial account for MetaTrader 5, please complete the <a href=\"%1\">Financial Assessment</a>."
 msgstr ""
@@ -1126,7 +1126,7 @@ msgid "Upon opening a Transaction, the sum due and payable by you to us are dedu
 msgstr ""
 
 msgid "Verify Main Password"
-msgstr ""
+msgstr "Подтвердить основной пароль"
 
 msgid "Version 3"
 msgstr ""
@@ -1150,7 +1150,7 @@ msgid "Volatility 75 Index"
 msgstr ""
 
 msgid "Volatility Indices"
-msgstr ""
+msgstr "Индексы волатильности"
 
 msgid "Volatility Indices Account"
 msgstr ""
@@ -1384,7 +1384,7 @@ msgid "You're using a Virtual Account."
 msgstr ""
 
 msgid "Your Name"
-msgstr ""
+msgstr "Ваше имя"
 
 msgid "Your Real Account password and login ID are unique and passwords are hashed so that not even Binary.com staff can read them. This is the reason why we cannot retrieve your password and have to issue you with a new one to your email address if you cannot recall it;"
 msgstr ""
