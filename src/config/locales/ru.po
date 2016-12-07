@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-12-07 02:17-0500\n"
+"PO-Revision-Date: 2016-12-07 02:26-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -28,22 +28,22 @@ msgid "&#36;1/point"
 msgstr ""
 
 msgid "&#36;100,000 - &#36;250,000"
-msgstr ""
+msgstr "&#36;100 000 - &#36;250 000"
 
 msgid "&#36;100,001 - &#36;500,000"
-msgstr ""
+msgstr "&#36;100 001 - &#36;500 000"
 
 msgid "&#36;25,000 - &#36;50,000"
-msgstr ""
+msgstr "&#36;25 000 - &#36;50 000"
 
 msgid "&#36;250,001 - &#36;500,000"
-msgstr ""
+msgstr "&#36;250 001 - &#36;500 000"
 
 msgid "&#36;50,001 - &#36;100,000"
-msgstr ""
+msgstr "&#36;50 001 - &#36;100 000"
 
 msgid "&#36;500,001 - &#36;1,000,000"
-msgstr ""
+msgstr "&#36;500 001 - &#36;1 000 000"
 
 msgid "&copy; 2016 Binary.com"
 msgstr "Все права защищены &copy; 2016 Binary.com"
@@ -55,13 +55,13 @@ msgid "** Leverage of 500:1 results in a margin rate of 0.002."
 msgstr ""
 
 msgid "0-1 year"
-msgstr ""
+msgstr "0-1 год"
 
 msgid "0-5 transactions in the past 12 months"
 msgstr ""
 
 msgid "1-2 years"
-msgstr ""
+msgstr "1-2 года"
 
 msgid "40 transactions or more in the past 12 months"
 msgstr ""
@@ -70,7 +70,7 @@ msgid "6-10 transactions in the past 12 months"
 msgstr ""
 
 msgid "<a href=\"%1\">Return to MetaTrader Settings</a>."
-msgstr ""
+msgstr "<a href=\"%1\">Вернуться к настройкам MetaTrader</a>."
 
 msgid "<strong>Margin Call Level</strong> - when you reach this level of assets (i.e., when your account equity is insufficient to cover the margin requirement), your account is under margin call. The margin call state does not affect the ability of opening new positions."
 msgstr ""
@@ -88,10 +88,10 @@ msgid "A higher figure (higher to you) representing our offer price and a lower 
 msgstr ""
 
 msgid "A scanned copy of a utility bill or bank statement (no more than 3 months old)."
-msgstr ""
+msgstr "Отсканированная копия счёта за коммунальные услуги или выписки с Вашего банковского счёта (датированные не позднее, чем за 3 месяца с текущей даты)."
 
 msgid "A scanned copy of your passport, driving licence (provisional or full) or identity card, showing your name and date of birth."
-msgstr ""
+msgstr "Отсканированная копия Вашего паспорта, водительских прав (временного или постоянного водительского удостоверения) или ID-карты, содержащей Ваше имя и дату рождения."
 
 msgid "A. Introduction"
 msgstr ""
@@ -874,7 +874,7 @@ msgid "Server"
 msgstr ""
 
 msgid "Sign out"
-msgstr ""
+msgstr "Выход"
 
 msgid "Size - the size of your order determined by the volume (number of lots)."
 msgstr ""
@@ -1381,7 +1381,7 @@ msgid "You will, at all times, obtain and comply, and do all that is necessary t
 msgstr ""
 
 msgid "You're using a Virtual Account."
-msgstr ""
+msgstr "Вы находитесь на Демо-счёте"
 
 msgid "Your Name"
 msgstr "Ваше имя"
