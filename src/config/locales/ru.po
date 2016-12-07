@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-12-07 02:26-0500\n"
+"PO-Revision-Date: 2016-12-07 02:36-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -364,7 +364,7 @@ msgid "Education"
 msgstr ""
 
 msgid "Enhanced Trading with MetaTrader 5"
-msgstr "Широкие торговые возможности на MetaTrader 5"
+msgstr "Широкие торговые возможности MetaTrader 5"
 
 msgid "Estimated Net Worth"
 msgstr ""
@@ -886,10 +886,10 @@ msgid "Speed - the speed at which your order can be executed."
 msgstr ""
 
 msgid "Start Trading with MetaTrader 5"
-msgstr ""
+msgstr "Начните торговлю на MetaTrader 5"
 
 msgid "Start trading with your MetaTrader Account:"
-msgstr ""
+msgstr "Начните торговать со своего счёта на MetaTrader:"
 
 msgid "Stocks trading experience"
 msgstr ""
@@ -1381,7 +1381,7 @@ msgid "You will, at all times, obtain and comply, and do all that is necessary t
 msgstr ""
 
 msgid "You're using a Virtual Account."
-msgstr "Вы находитесь на Демо-счёте"
+msgstr "Вы находитесь на Демо-счету"
 
 msgid "Your Name"
 msgstr "Ваше имя"
