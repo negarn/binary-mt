@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-12-08 14:19-0500\n"
+"PO-Revision-Date: 2016-12-08 14:28-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -208,7 +208,7 @@ msgid "Binary.com assesses the choice of external execution venues regularly (at
 msgstr ""
 
 msgid "Binary.com enters Forex and CFD trading with the universally acclaimed MetaTrader 5, in addition to its continued leadership presence in the binary options market."
-msgstr "В дополнение к своей ведущей позиции на рынке торговли бинарными опционами, Binary.com внедряет международно-известную платформу MetaTrader 5 для торговли валютами и контрактами на разницу."
+msgstr "В дополнение к своей ведущей позиции на рынке бинарных опционов, Binary.com внедряет торговлю валютами и контрактами на разницу на международно-известной платформе MetaTrader 5."
 
 msgid "Binary.com offers forex and contracts for differences via the hybrid model, i.e., both dealing on own account (dealing desk) and partially hedging client orders with our liquidity providers (no-dealing desk)."
 msgstr ""
@@ -1099,7 +1099,7 @@ msgid "Trade the Forex markets with leverage up to 100:1, and Volatility Indices
 msgstr "Торгуйте на валютных рынках с кредитным рычагом в размере до 100:1. Заключайте сделки на Индексах волатильности с кредитным рычагом в размере до 500:1."
 
 msgid "Trade using the mobile and desktop apps, or use the web platform from any web browser."
-msgstr "Торгуйте с приложений для мобильного телефона и ПК или заключайте сделки на веб платформе, открытой через любой браузер."
+msgstr "Торгуйте с приложений для мобильного телефона и ПК или заключайте сделки на веб платформе, доступной на любом браузере."
 
 msgid "Trading Rules"
 msgstr ""
