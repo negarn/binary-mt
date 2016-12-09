@@ -42,6 +42,7 @@ var MetaTraderUI = (function() {
         clearError();
         if($('#section-financial .form-new-account').contents().length === 0) {
             findInSection('demo', '.form-new-account').contents().clone().appendTo('#section-financial .form-new-account');
+            findInSection('demo', '.form-new-account .tnc-row').remove();
             if(hasGamingCompany) {
                 $('#section-financial').contents().clone().appendTo('#section-volatility');
                 $('#section-volatility > h3').text(text.localize('Volatility Indices Account'));
@@ -52,6 +53,9 @@ var MetaTraderUI = (function() {
             if(!hasFinancialCompany) {
                 hideAccount('financial');
             }
+            $('.tnc-row').removeClass(hiddenClass).find('label').each(function() {
+                $(this).click(function() { $(this).siblings('.chkTNC').click(); });
+            });
         }
 
         MetaTraderData.requestLoginList();
@@ -498,6 +502,14 @@ var MetaTraderUI = (function() {
                 var errMsgName = MetaTrader.validateName($form.find('.txtName').val());
                 if(errMsgName) {
                     showError('.txtName', errMsgName);
+                    isValid = false;
+                }
+            }
+            // tnc
+            var $tncRow = $form.find('.tnc-row');
+            if($tncRow.length && !$tncRow.hasClass(hiddenClass)) {
+                if(!$form.find('.chkTNC:checked').length) {
+                    showError('.chkTNC', Content.errorMessage('req'));
                     isValid = false;
                 }
             }
