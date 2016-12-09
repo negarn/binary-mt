@@ -21,7 +21,7 @@
         <!-- <h4 class="secondary-color">[% l('Section 2') %]</h4> -->
         <ul>
             <li>
-                <a class="pjaxload" href="[% request.url_for('contract-specifications') %]">[% l('Contract Specifications') %]</a>
+                <a class="pjaxload" href="[% request.url_for('volatility-indices-contract') %]">[% l('Contract Specifications') %]</a>
             </li>
         </ul>
     </div>
