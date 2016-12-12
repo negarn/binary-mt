@@ -4,28 +4,28 @@ msgstr ""
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2016-12-11 22:16-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
-"Language-Team: Chinese Traditional\n"
+"Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: crowdin.com\n"
 "X-Crowdin-Project: binary-mt\n"
-"X-Crowdin-Language: zh-TW\n"
+"X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: /translations/src/config/locales/messages.pot\n"
-"Language: zh_TW\n"
+"Language: zh_CN\n"
 
 msgid "%1 gives everyone an easy way to participate in the financial markets. Trade with as little as $1 USD on major currencies, stocks, indices, and commodities."
-msgstr "%1讓每個人都能輕鬆參與金融市場。可交易各主要貨幣、股票指數和商品，投資門檻低至1美元。"
+msgstr "%1让每个人都能轻松参与金融市场。您可交易各主要货币、股票指数和大宗商品，投资门槛低至1美元。"
 
 msgid "%1 has updated its  <a target=\"_blank\" href=\"%2\">Terms & Conditions</a>. By clicking OK, you confirm that you have read and accepted the updated <a target=\"_blank\" href=\"%2\">Terms & Conditions</a>."
-msgstr "%1已經更新了其 <a target=\"_blank\" href=\"%2\">條款和條件</a>。通過點選OK按鈕，您確定已經閱讀和接受此更新 <a target=\"_blank\" href=\"%2\">條款和條件</a>。"
+msgstr "%1已经更新了其<a target=\"_blank\" href=\"%2\">条款和条件</a>。通过点击OK键，您确认已经阅读并接受更新的<a target=\"_blank\" href=\"%2\">条款和条件</a>。"
 
 msgid "%1 offers forex and contracts for differences via the hybrid model, i.e., both dealing on own account (dealing desk) and partially hedging client orders with our liquidity providers (no-dealing desk). Client orders are typically hedged when the total transaction volume exceeds a predefined threshold of risk tolerance level. For both execution models, %1 acts as the contractual counterparty to the transactions that you enter into with us, as opposed to entering into a contractual counterparty with a central clearing house as would be the case with exchange traded financial instruments. As such, counterparty risk exists. Counterparty risk refers to the risk of loss for clients resulting from the fact that the counterparty to the forex and/or contracts for differences transaction that you entered into may default on its obligations prior to the final settlement of the transaction's cash flow."
-msgstr "%1通過混合模式提供外匯和差價合約，即通過自己的帳戶（交易員）和部分對沖客戶訂單與我們的流動率提供商（無交易員）進行交易。當總交易量超過預定的風險承受力水平限額時，客戶訂單通常被對沖。%1在兩種執行模式中都扮演您與我們簽訂交易的合約相對方，而不是像交易所的交易金融工具那樣與中央結算所訂立交易的合約相對方。因此，存在相對方風險。相對方風險是指客戶因為您簽訂的外匯和/或差價交易合約相對方在交易現金流最終結算前違反其義務而造成的損失風險。"
+msgstr "%1通过混合模式提供外汇和差价合约，即通过自己的账户（交易员）和部分对冲客户订单与我们的流动率提供商（无交易员）进行交易。当总交易量超过预定的风险承受力水平限额时，客户订单通常被对冲。%1在两种执行模式中都扮演您与我们签订交易的合约相对方，而不是像交易所的交易金融工具那样与中央结算所订立交易的合约相对方。 因此，存在相对方风险。 相对方风险是指客户因为您签订的外汇和/或差价交易合约相对方在交易现金流最终结算前违反其义务而造成的损失风险。"
 
 msgid "&#36;1/point"
-msgstr "&#36;1/點"
+msgstr "&#36;1/点"
 
 msgid "&#36;100,000 - &#36;250,000"
 msgstr "&#36;100,000 - &#36;250,000"
@@ -49,31 +49,31 @@ msgid "&copy; 2016 Binary.com"
 msgstr "&copy; 2016 Binary.com"
 
 msgid "* Minimum Spread is a percentage of the underlying market price, and can change over time."
-msgstr "*最低點差是標的市場價格的百分比，可隨時間變化。"
+msgstr "*最低点差是标的市场价格的百分比，可随时间变化。"
 
 msgid "** Leverage of 500:1 results in a margin rate of 0.002."
-msgstr "** 500:1 槓桿導致 0.002 利潤率。"
+msgstr "** 500:1 杠杆导致 0.002 利润率。"
 
 msgid "0-1 year"
 msgstr "0-1 年"
 
 msgid "0-5 transactions in the past 12 months"
-msgstr "過去12個月內0-5次交易"
+msgstr "过去12个月内0-5次交易"
 
 msgid "1-2 years"
 msgstr "1-2 年"
 
 msgid "40 transactions or more in the past 12 months"
-msgstr "過去12個月內40次交易或以上"
+msgstr "过去12个月内40次交易或以上"
 
 msgid "6-10 transactions in the past 12 months"
-msgstr "過去12個月內6-10次交易"
+msgstr "过去12个月内6-10次交易"
 
 msgid "<a href=\"%1\">Return to MetaTrader Settings</a>."
-msgstr "<a href=\"%1\">返回MetaTrader設定</a>。"
+msgstr "<a href=\"%1\">返回MetaTrader设置</a>。"
 
 msgid "<strong>Margin Call Level</strong> - when you reach this level of assets (i.e., when your account equity is insufficient to cover the margin requirement), your account is under margin call. The margin call state does not affect the ability of opening new positions."
-msgstr "<strong>追加保證金水平</strong> - 當您達到此資產水平（即您的帳戶資金不足以滿足保證金要求）時，您的帳戶將處於追加保證金狀態。追加保證金狀態不會影響開立新倉位的能力。"
+msgstr "<strong>追加保证金水平</strong> - 当您达到此资产水平（即您的账户资金不足以满足保证金要求）时，您的账户将处于追加保证金状态。 追加保证金状态不会影响开立新仓位的能力。"
 
 msgid "<strong>Margin Policy:</strong> The forced liquidation level is 50%. Please refer to our <a href=\"%1\">Margin Policy</a> for further details."
 msgstr ""
