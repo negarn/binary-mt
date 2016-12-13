@@ -4,28 +4,28 @@ msgstr ""
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2016-12-13 01:07-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
-"Language-Team: Chinese Traditional\n"
+"Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: crowdin.com\n"
 "X-Crowdin-Project: binary-mt\n"
-"X-Crowdin-Language: zh-TW\n"
+"X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: /translations/src/config/locales/messages.pot\n"
-"Language: zh_TW\n"
+"Language: zh_CN\n"
 
 msgid "%1 gives everyone an easy way to participate in the financial markets. Trade with as little as $1 USD on major currencies, stocks, indices, and commodities."
-msgstr "%1讓每個人都能輕鬆參與金融市場。可交易各主要貨幣、股票指數和商品，投資門檻低至1美元。"
+msgstr "%1让每个人都能轻松参与金融市场。您可交易各主要货币、股票指数和大宗商品，投资门槛低至1美元。"
 
 msgid "%1 has updated its  <a target=\"_blank\" href=\"%2\">Terms & Conditions</a>. By clicking OK, you confirm that you have read and accepted the updated <a target=\"_blank\" href=\"%2\">Terms & Conditions</a>."
-msgstr "%1已經更新了其 <a target=\"_blank\" href=\"%2\">條款和條件</a>。通過點選OK按鈕，您確定已經閱讀和接受此更新 <a target=\"_blank\" href=\"%2\">條款和條件</a>。"
+msgstr "%1已经更新了其<a target=\"_blank\" href=\"%2\">条款和条件</a>。通过点击OK键，您确认已经阅读并接受更新的<a target=\"_blank\" href=\"%2\">条款和条件</a>。"
 
 msgid "%1 offers forex and contracts for differences via the hybrid model, i.e., both dealing on own account (dealing desk) and partially hedging client orders with our liquidity providers (no-dealing desk). Client orders are typically hedged when the total transaction volume exceeds a predefined threshold of risk tolerance level. For both execution models, %1 acts as the contractual counterparty to the transactions that you enter into with us, as opposed to entering into a contractual counterparty with a central clearing house as would be the case with exchange traded financial instruments. As such, counterparty risk exists. Counterparty risk refers to the risk of loss for clients resulting from the fact that the counterparty to the forex and/or contracts for differences transaction that you entered into may default on its obligations prior to the final settlement of the transaction's cash flow."
-msgstr "%1通過混合模式提供外匯和差價合約，即通過自己的帳戶（交易員）和部分對沖客戶訂單與我們的流動率提供商（無交易員）進行交易。當總交易量超過預定的風險承受力層次限額時，客戶訂單通常被對沖。%1在兩種執行模式中都扮演您與我們簽訂交易的合約相對方，而不是像交易所的交易金融工具那樣與中央結算所訂立交易的合約相對方。因此，存在相對方風險。相對方風險是指客戶因為您簽訂的外匯和/或差價交易合約相對方在交易現金流最終結算前違反其義務而造成的損失風險。"
+msgstr "%1通过混合模式提供外汇和差价合约，即通过自己的账户（交易员）和部分对冲客户订单与我们的流动率提供商（无交易员）进行交易。当总交易量超过预定的风险承受力水平限额时，客户订单通常被对冲。%1在两种执行模式中都扮演您与我们签订交易的合约相对方，而不是像交易所的交易金融工具那样与中央结算所订立交易的合约相对方。 因此，存在相对方风险。 相对方风险是指客户因为您签订的外汇和/或差价交易合约相对方在交易现金流最终结算前违反其义务而造成的损失风险。"
 
 msgid "&#36;1/point"
-msgstr "&#36;1/點"
+msgstr "&#36;1/点"
 
 msgid "&#36;100,000 - &#36;250,000"
 msgstr "&#36;100,000 - &#36;250,000"
@@ -49,208 +49,208 @@ msgid "&copy; 2016 Binary.com"
 msgstr "&copy; 2016 Binary.com"
 
 msgid "* Minimum Spread is a percentage of the underlying market price, and can change over time."
-msgstr "*最低點差是標的市場價格的百分比，可隨時間變化。"
+msgstr "*最低点差是标的市场价格的百分比，可随时间变化。"
 
 msgid "** Leverage of 500:1 results in a margin rate of 0.002."
-msgstr "** 500:1 槓桿導致 0.002 保證金率。"
+msgstr "** 500:1 杠杆导致 0.002 保证金率。"
 
 msgid "0-1 year"
 msgstr "0-1 年"
 
 msgid "0-5 transactions in the past 12 months"
-msgstr "過去12個月內0-5次交易"
+msgstr "过去12个月内0-5次交易"
 
 msgid "1-2 years"
 msgstr "1-2 年"
 
 msgid "40 transactions or more in the past 12 months"
-msgstr "過去12個月內40次交易或以上"
+msgstr "过去12个月内40次交易或以上"
 
 msgid "6-10 transactions in the past 12 months"
-msgstr "過去12個月內6-10次交易"
+msgstr "过去12个月内6-10次交易"
 
 msgid "<a href=\"%1\">Return to MetaTrader Settings</a>."
-msgstr "<a href=\"%1\">返回MetaTrader設定</a>。"
+msgstr "<a href=\"%1\">返回MetaTrader设置</a>。"
 
 msgid "<strong>Margin Call Level</strong> - when you reach this level of assets (i.e., when your account equity is insufficient to cover the margin requirement), your account is under margin call. The margin call state does not affect the ability of opening new positions."
-msgstr "<strong>追加保證金層次</strong> - 當您達到此資產層次（即您的帳戶資金不足以滿足保證金要求）時，您的帳戶將處於追加保證金狀態。追加保證金狀態不會影響開立新倉位的能力。"
+msgstr "<strong>追加保证金水平</strong> - 当您达到此资产水平（即您的账户资金不足以满足保证金要求）时，您的账户将处于追加保证金状态。 追加保证金状态不会影响开立新仓位的能力。"
 
 msgid "<strong>Margin Policy:</strong> The forced liquidation level is 50%. Please refer to our <a href=\"%1\">Margin Policy</a> for further details."
-msgstr "<strong>保證金政策:</strong>強制清算水平是50%。詳細資訊請參閱我們的<a href=\"%1\">保證金政策</a>。"
+msgstr "<strong>保证金政策:</strong>强制清算水平是50%。详情请参阅我们的<a href=\"%1\">保证金政策</a>。"
 
 msgid "<strong>Stop Out Level</strong> - when you reach this level of assets, your pending orders are deleted and open positions are forced closed. The forced liquidation level is 50%. Once the account has hit the forced liquidation level, orders and positions are forcedly closed on an account in the following order:"
-msgstr "<strong>止損層次</strong> - 當您達到此資產層次時，您的待處理訂單將被刪除，並且未平倉頭寸將被強制平倉。強制清算層次為50％。一旦帳戶達到強制清算層次，訂單和頭寸將按照以下順序在帳戶上強制平倉："
+msgstr "<strong>止损水平</strong> - 当您达到此资产水平时，您的待处理订单将被删除，并且未平仓头寸将被强制平仓。强制清算水平为50％。一旦账户达到强制清算水平，订单和头寸将按照以下顺序在账户上强制平仓："
 
 msgid "A Transaction is opened by either executing a \"Buy\" or \"Sell\" Order based on a specified number of lots (volume) that constitute the underlying instrument of the relevant market."
-msgstr "根據構成相關市場標的工具的指定批(量) 數量執行「買入」或「賣出」訂單開盤交易。"
+msgstr "根据构成相关市场标的工具的指定批(量) 数量执行“买入”或“卖出”订单开盘交易。"
 
 msgid "A higher figure (higher to you) representing our offer price and a lower figure (lower to you) representing our bid price for each Transaction shall be quoted to you upon your request. The difference between our bid and our offer price will comprise of the market spread (where there is market for the underlying instrument) and our spread (being our charge to you)."
-msgstr "每筆交易的報價將根據您的要求為您提供，包括代表我們報價的較高數字（對您來說比較高），以及代表我們出價的較低價格（對您來說較低）。我們的出價和報價之間的差額將包括市場價差（當有標的工具市場時）和我們的價差（我們向您收的費用）。"
+msgstr "每笔交易的报价将根据您的要求为您提供，包括代表我们报价的较高数字（对您来说比较高），以及代表我们出价的较低价格（对您来说较低）。我们的出价和报价之间的差额将包括市场价差（当有标的工具市场时）和我们的价差（我们向您收的费用）。"
 
 msgid "A scanned copy of a utility bill or bank statement (no more than 3 months old)."
-msgstr "水電煤帳單或銀行月結單掃描件（日期不得超過3個月）。"
+msgstr "水电煤账单或银行月结单扫描件（日期不得超过3个月）。"
 
 msgid "A scanned copy of your passport, driving licence (provisional or full) or identity card, showing your name and date of birth."
-msgstr "顯示您名字和出生日期的護照、駕照（臨時或永久）或身份證的掃描件。"
+msgstr "显示您名字和出生日期的护照、驾照（临时或永久）或身份证的扫描件。"
 
 msgid "A. Introduction"
-msgstr "一、簡介"
+msgstr "一、简介"
 
 msgid "A. Introduction and Scope of Agreement"
-msgstr "一、簡介和協議範圍"
+msgstr "一、简介和协议范围"
 
 msgid "A. Spot FX"
-msgstr "一、現貨外匯"
+msgstr "一、现货外汇"
 
 msgid "Access advanced tools for fundamental and technical analysis, all available in one platform."
-msgstr "存取基礎和技術分析用途的進階工具，全在一個平台上使用。"
+msgstr "访问基础和技术分析用途的高级工具，全在一个平台上使用。"
 
 msgid "Account Balance - Your account balance represents:"
-msgstr "帳戶餘額 - 您的帳戶餘額代表︰"
+msgstr "账户余额 - 您的账户余额表示︰"
 
 msgid "Account Equity - Your Account Equity refers to the sum of your Account Balance and the net of unrealised profit and loss."
-msgstr "帳戶資金 - 您的帳戶資金是指您的帳戶餘額與未實現利潤和虧損淨值總和。"
+msgstr "账户资金 - 您的账户资金是指您的账户余额与未实现利润和亏损净值总和。"
 
 msgid "Account Free Margin - Your Account Equity minus your Total Margin."
-msgstr "帳戶可用保證金 - 您的帳戶資金減去保證金總額。"
+msgstr "帐户可用保证金 - 您的账户资金减去保证金总额。"
 
 msgid "Account Security"
-msgstr "帳戶安全"
+msgstr "账户安全"
 
 msgid "Account Type"
-msgstr "帳戶類型"
+msgstr "账户类型"
 
 msgid "Accounts with debit balance (i.e. credit exposure to %1)"
-msgstr "帳戶的借方餘額 （即對 %1的信貸風險）"
+msgstr "账户的借方余额 （即对 %1的信贷风险）"
 
 msgid "Accounts with debit balances are required to settle the full amount immediately by making a payment to us."
-msgstr "有借方餘額的帳戶需立即付款給我們結算全額。"
+msgstr "有借方余额的账户需立即付款给我们结算全额。"
 
 msgid "Advanced Tools &amp; Platforms"
-msgstr "進階工具 &amp; 平台"
+msgstr "先进工具 &amp; 平台"
 
 msgid "All client orders are processed on a first in first out basis without any manual intervention. When executing your order, Binary.com will seek to fill your order transaction as promptly as possible, at the instructed price (or at a better price, if available). Exposure limits are established based on internal governance arrangements and risk management framework which commensurate with the size, nature, complexity, and risk profile of our activities. These exposure limits are used as benchmarks to distinguish orders that are auto-accepted and orders that will be worked in the market with fill level passed on to the client."
-msgstr "所有客戶訂單將以先進先出，沒有任何人工干預的方式處理。執行您的訂單時，Binary.com 將盡快以指示價格 （或更佳的可用價格）填補您的訂單交易記錄。基於內部治理安排和風險管理框架建立的接觸限值將與我們活動的大小、性質、複雜性和風險架構相配合。這些接觸限值是區分自動接受訂單和可用於將填補層次傳遞給客戶端市場的訂單的基準。"
+msgstr "所有客户订单将以先进先出，没有任何人工干预的方式处理。执行您的订单时，Binary.com 将尽快以指示价格 （或可用的更佳价格）填补您的订单交易记录。基于内部治理安排和风险管理框架建立的接触限值将与我们活动的大小、性质、复杂性和风险架构相配合。这些接触限值是区分自动接受订单和可用于将填补水平传递给客户端市场的订单的基准。"
 
 msgid "All credit card details are submitted directly to the Visa/Mastercard network using the latest SSL encryption technology, in accordance with bank policies;"
-msgstr "所有信用卡資料都按照銀行政策，使用最新 SSL 加密技術直接送出至 Visa/Mastercard 網路。"
+msgstr "所有信用卡信息都按照银行政策，使用最新 SSL 加密技术直接提交至 Visa/Mastercard 网络。"
 
 msgid "All funds transferred from your Binary Options Real Account to your Real Account must be made by you."
-msgstr "所有將資金從二元期權真實帳戶轉移到您真實帳戶的操作必須由您親自執行。"
+msgstr "所有将资金从二元期权真实账户转移到您真实账户的操作必须由您亲自执行。"
 
 msgid "All intellectual property rights in the MT5 Trading Platform are owned by the Licensor and shall remain the exclusive property of the Licensor. Nothing in this Agreement intends to transfer any such rights or to vest any such rights in you."
-msgstr "MT5 交易平台中所有知識產權由授權人擁有並將持續為授權人的專有財產。此協議中所有內容沒有意圖將任何此類權利轉讓或授予您。"
+msgstr "MT5 交易平台中所有知识产权由许可方拥有并将持续为许可方的专有财产。此协议中所有内容没有意图将任何此类权利转让或授予您。"
 
 msgid "All products traded on margin carry a high degree of risk and can result in losses as well as profits that exceed your initial deposit. The margin trading service described in this Agreement is not suitable for everyone. You acknowledge that the margin trading service described in this Agreement is designed for clients who are knowledgeable and experienced in the types of transactions described in this Agreement and you fully understand the associated risks before entering into this Agreement with us."
-msgstr "保證金交易的所有產品有很高的風險，可能導致虧損，也可能給您帶來超越起始資金存款的利潤。本協議所述的保證金交易服務並不適合所有人。您承認本協議所述的保證金交易服務專為在本協議所述交易類型中擁有淵博知識和豐富經驗的客戶提供。與我們簽訂本協議前，您充分了解相關的風險。"
+msgstr "保证金交易的所有产品有很高的风险，可能导致亏损，也可能给您带来超越起始资金存款的利润。本协议所述的保证金交易服务并不适合所有人。您承认本协议所述的保证金交易服务专为在本协议所述交易类型中拥有渊博知识和丰富经验的客户提供。与我们签订本协议前，您充分了解相关的风险。"
 
 msgid "Alter the normal trading times for the affected market;"
-msgstr "為受影響的市場改變正常交易時間;"
+msgstr "为受影响的市场改变正常交易时间;"
 
 msgid "Amount"
-msgstr "金額"
+msgstr "金额"
 
 msgid "An Open Position may be closed by placing an opposite Order, that is an Order to sell (to close a Long Position) or to buy (to close a Short Position) in the same market for the same specified number of lots (volume)."
-msgstr "未平倉頭寸可通過下反向訂單平倉，即在同一市場為同一指定批（量）數目賣出（多頭頭寸平倉）或買入（空頭頭寸平倉）的訂單。"
+msgstr "未平仓头寸可通过下反向订单平仓，即在同一市场为同一指定批（量）数目卖出（多头头寸平仓）或买入（空头头寸平仓）的订单。"
 
 msgid "An Open Position may be partially closed by entering into an opposite Transaction in the same Market but for a smaller number of lots (volume) as the Open Position."
-msgstr "未平倉頭寸可通過在同一市場為比未平倉頭寸較小批（量）數目下反向訂單進行部分平倉。"
+msgstr "未平仓头寸可通过在同一市場为比未平仓头寸较小批（量）数目下反向订单进行部分平仓。"
 
 msgid "Any Transaction opened by you must be within any credit or position limit in effect with respect to the Real Account or any Transactions."
-msgstr "由您建倉的任何交易必須在相關真實帳戶或任何交易的任何有效信貸或頭寸限制範圍內。"
+msgstr "由您建仓的任何交易必须在相关真实账户或任何交易的任何有效信贷或头寸限制范围内。"
 
 msgid "Any information which you provide or have provided to us in respect of your financial position, domicile or other matters is accurate and not misleading in any material respect."
-msgstr "您所提供或已提供給我們的財務狀況、住所或其他事項的任何資訊必須準確及任何材料方面都沒有誤導成分。"
+msgstr "您所提供或已提供给我们的财务状况、住所或其他事项的任何信息必须准确及任何材料方面都没有误导成分。"
 
 msgid "Any other consideration relevant to the execution of the transaction."
-msgstr "任何其他與交易執行相關的事項。"
+msgstr "任何其他与交易执行相关的事项。"
 
 msgid "Any realised profits and interest charges that are denominated in a currency that's different from your Base Currency will be automatically converted to your Base Currency before being debited / credited to your Real Account. The conversion will be performed at commercially reasonable rates."
-msgstr "使用與您的基本貨幣不相同的貨幣計價的任何已實現利潤和利息費用在記入您的真實帳戶前將自動轉換為您的基本貨幣。將以合理的市場兌換率進行轉換。"
+msgstr "使用与您的基本货币不相同的货币计价的任何已实现利润和利息费用在记入您的真实账户前将自动转换为您的基本货币。将以合理的市场兑换率进行转换。"
 
 msgid "Appendix - Product Specific Policies"
-msgstr "附錄-產品特定政策"
+msgstr "附录 - 产品具体政策"
 
 msgid "Aspects of a client order not affected by specific instructions are subject to the application of Binary.com's Order Execution Policy. In the absence of specific instructions from our clients, we will exercise our own discretion in determining the factors that are required to be taken into account for the purpose of providing you with best execution, having regard to the execution criteria listed below:"
-msgstr "不受具體指示影響的客戶訂單相關事宜必須符合Binary.com訂單執行政策的使用需求。客戶沒有提供具體指示時，為了向您提供最佳執行方案，我們將根據以下執行標準自行確定所需要考慮的因素："
+msgstr "不受具体指示影响的客户订单相关事宜必须符合Binary.com订单执行政策的使用需求。客户没有提供具体指示时，为了向您提供最佳执行措施，我们将根据以下执行标准自行确定所需要考虑的因素："
 
 msgid "Assessment of Appropriateness"
-msgstr "合適性評估"
+msgstr "合适性评估"
 
 msgid "B. Commencement and Cancellation"
-msgstr "二、開始和取消"
+msgstr "二、开始和取消"
 
 msgid "B. Scope"
-msgstr "二、範圍"
+msgstr "二、范围"
 
 msgid "Balance"
-msgstr "餘額"
+msgstr "余额"
 
 msgid "Base Currency"
-msgstr "基礎貨幣"
+msgstr "基础货币"
 
 msgid "Base Currency - The currency in which your Transaction was entered into."
-msgstr "基礎貨幣 - 您的交易中使用的貨幣。"
+msgstr "基础货币 - 您的交易中使用的货币。"
 
 msgid "Best execution is the requirement to take all sufficient steps to obtain, when executing orders, the best possible result for you taking into account price, costs, speed, likelihood of execution and settlement, size, nature or any other consideration relevant (hereinafter referred to as the \"execution factors\") to the execution of the order."
-msgstr "最佳執行方案是在執行訂單時為了確保您能獲得最佳成果所必須採取的足夠措施。須要考慮的因素包括價格、成本、速度、執行和結算的可能性、大小、性質或其他與訂單執行相關的任何考慮點（以下簡稱為「執行因素」）。"
+msgstr "最佳执行方案是在执行订单时为了确保您能获得最佳成果所必须采取的足够措施。须要考虑的因素包括价格、成本、速度、执行和结算的可能性、大小、性质或其他与订单执行相关的任何考虑点（以下简称为“执行因素”）。"
 
 msgid "Binary Options Real Account - Your real money account opened with Binary.com which you use to trade binary options with Binary.com."
-msgstr "二元期權真實帳戶 - 您在Binary.com開立的真實資金帳戶。您使用此帳戶在Binary.com進行二元期權交易。"
+msgstr "二元期权真实账户 - 您在Binary.com开立的真实资金账户。您使用此账户在Binary.com进行二元期权交易。"
 
 msgid "Binary options or other financial derivatives trading experience"
-msgstr "二元期權或其他金融衍生產品交易經驗"
+msgstr "二元期权或其他金融衍生产品交易经验"
 
 msgid "Binary options or other financial derivatives trading frequency"
-msgstr "二元期權或其他金融衍生產品交易頻率"
+msgstr "二元期权或其他金融衍生产品交易频率"
 
 msgid "Binary.com assesses the choice of external execution venues regularly (at least once a year) with the intention of achieving a better result for you based on our best execution obligation."
-msgstr "為使我們的最佳執行義務能讓您實現更佳成果，Binary.com 定期評估外部執行場地選項（每年至少一次） 。"
+msgstr "为使我们的最佳执行义务能让您实现更佳成果，Binary.com 定期评估外部执行场地选项（每年至少一次） 。"
 
 msgid "Binary.com enters Forex and CFD trading with the universally acclaimed MetaTrader 5, in addition to its continued leadership presence in the binary options market."
-msgstr "持續在二元期權市場發揮領導作用的同時，Binary.com 也通過備受讚揚的MetaTrader 5平台提供外彙和差價合約交易。"
+msgstr "持续在二元期权市场发挥领导作用的同时，Binary.com 也通过备受赞扬的MetaTrader 5平台提供外汇和差价合约交易。"
 
 msgid "Binary.com offers forex and contracts for differences via the hybrid model, i.e., both dealing on own account (dealing desk) and partially hedging client orders with our liquidity providers (no-dealing desk)."
-msgstr "Binary.com 通過混合模式提供外匯和差價合約，即通過自己的帳戶（交易員）和部分對沖客戶訂單與我們的流動率提供商（無交易員）進行交易。"
+msgstr "Binary.com通过混合模式提供外汇和差价合约，即通过自己的账户（交易员）和部分对冲客户订单与我们的流动率提供商（无交易员）进行交易。"
 
 msgid "Binary.com owes you a duty of best execution when executing orders on your behalf, i.e., when you are placing a legitimate reliance on us to safeguard your interest in relation to the execution of your order."
-msgstr "當我們代替您執行訂單時，也就是說，當您依法託付我們執行您的訂單並維護您的利益時，Binary.com 有義務以最佳方式執行。"
+msgstr "当我们代替您执行订单时，也就是说，当您依法托付我们执行您的订单并维护您的利益时，Binary.com 有义务以最佳方式执行。"
 
 msgid "Binary.com provides you best execution by utilising a smart aggregation method when managing incoming orders. The smart aggregation method works by:"
-msgstr "Binary.com在管理傳入訂單時通過採用智慧型匯總方法為您提供最佳執行方案。智慧型匯總方法的工作原理是︰"
+msgstr "Binary.com在管理传入订单时通过采用智能聚合方法为您提供最佳执行方案。智能聚合方法的工作原理是︰"
 
 msgid "Binary.com shall act, at times, as a principal and at other times as an agent on your behalf, for all Transactions entered into, by you."
-msgstr "在您的所有交易中，Binary.com 有時將是委託人，有時則代表您為代理人。"
+msgstr "在您的所有交易中，Binary.com 有时将是委托人，有时则代表您为代理人。"
 
 msgid "By default, the intelligent order routing system ensures that the top of the book is always comprised of the best bid and offer rates quoted by the competing liquidity providers. However, during times of market illiquidity, this may change with likelihood of execution being the primary execution factor."
-msgstr "預設情況下，智慧型訂單路由系統確保記錄本的最頂部位總是由最佳競標價格和參與競爭的流動性提供商報價組成。然而，在市場流動性不足的時候，這種情況可能會改變，並由執行可能性作主要執行因素。"
+msgstr "默认情况下，智能订单路由系统确保记录本的最顶部位总是由最佳竞标价格和参与竞争的流动性提供商报价组成。然而，在市场流动性不足的时候，这种情况可能会改变，并由执行可能性作主要执行因素。"
 
 msgid "By opening a Real Account with Binary.com, you represent, warrant and undertake that:"
-msgstr "在Binary.com開立真實帳戶，您聲明、保證和承諾︰"
+msgstr "在Binary.com开立真实账户，您声明、保证和承诺︰"
 
 msgid "C. Definition of Best Execution"
-msgstr "三、最佳執行方案的定義"
+msgstr "三、最佳执行方案的定义"
 
 msgid "C. Provision of Services"
-msgstr "三、提供服務"
+msgstr "三、提供服务"
 
 msgid "CFDs on Volatility Indices"
-msgstr "波動率指數差價合約"
+msgstr "波动率指数差价合约"
 
 msgid "Change API Endpoint"
-msgstr "更改 API 端點"
+msgstr "更改 API 端点"
 
 msgid "Change the Stop Out Level in relation to your account."
-msgstr "更改帳戶的止損平倉層次。"
+msgstr "更改账戶的止损平仓水平。"
 
 msgid "Change the margin rate in relation to both Open Positions and new orders;"
-msgstr "更改未平倉頭寸和新訂單的保證金率;"
+msgstr "更改未平仓头寸和新订单的保证金率;"
 
 msgid "Click the button below to download MetaTrader."
-msgstr "請按一下下面的按鈕下載 MetaTrader。"
+msgstr "请单击下面的按钮下载 MetaTrader。"
 
 msgid "Client Money"
-msgstr "客戶資金"
+msgstr "客户资金"
 
 msgid "Clients registered with any Group company, and in particular with Binary (V) Ltd. or Binary (C.R.). S.A., can raise their unresolved disputes with management by submitting an email to <a href='mailto:%1'>%1</a>."
 msgstr ""
@@ -316,7 +316,7 @@ msgid "Demo Account"
 msgstr ""
 
 msgid "Depending on the level of risk that we are exposed to acting as your counterparty, we largely act in a principal capacity of your trades. As such, the execution venue will usually be Binary.com. However, we may transmit your order to third party liquidity providers, in which case we will determine the execution venue ourselves on the basis described above."
-msgstr "基於我們作為您的交易相對方所接觸的風險層次，我們在您的交易中參與大部分的主要活動。因此，執行場所通常是在Binary.com。然而，我們可能會將您的訂單轉給第三方流動性提供商。在這種情況下，我們將根據以上所述自行確定執行場所。"
+msgstr "基于我们作为您的交易相对方所接触的风险水平，我们在您的交易中参与大部分的主要活动。因此，执行场所通常是在Binary.com。然而，我们可能会将您的订单转给第三方流动性提供商。在这种情况下，我们将根据以上所述自行确定执行场所。"
 
 msgid "Deposit"
 msgstr "存款"
@@ -325,10 +325,10 @@ msgid "Deposit from"
 msgstr "存款自"
 
 msgid "Deposit funds into your MetaTrader account from your Binary account:"
-msgstr "從您的Binary帳戶將資金存入MetaTrader帳戶︰"
+msgstr "从您的Binary账户将资金存入MetaTrader账户︰"
 
 msgid "Deposit is done. Transaction ID: %1"
-msgstr "已完成存款。交易編號: %1"
+msgstr "已完成存款。交易编号: %1"
 
 msgid "Deposit to"
 msgstr ""
