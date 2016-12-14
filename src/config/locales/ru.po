@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-12-14 17:18-0500\n"
+"PO-Revision-Date: 2016-12-14 17:26-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -88,7 +88,7 @@ msgid "A higher figure (higher to you) representing our offer price and a lower 
 msgstr ""
 
 msgid "A scanned copy of a utility bill or bank statement (no more than 3 months old)."
-msgstr "Отсканированная копия счёта за коммунальные услуги или выписки с Вашего банковского счёта (датированные не позднее, чем за 3 месяца с текущей даты)."
+msgstr "Отсканированная копия счёта за коммунальные услуги или выписки с Вашего банковского счёта (датированные не позднее, чем за 3 месяца до текущей даты)."
 
 msgid "A scanned copy of your passport, driving licence (provisional or full) or identity card, showing your name and date of birth."
 msgstr "Отсканированная копия Вашего паспорта, водительских прав (временного или постоянного водительского удостоверения) или ID-карты, содержащей Ваше имя и дату рождения."
@@ -148,7 +148,7 @@ msgid "Alter the normal trading times for the affected market;"
 msgstr ""
 
 msgid "Amount"
-msgstr ""
+msgstr "Сумма"
 
 msgid "An Open Position may be closed by placing an opposite Order, that is an Order to sell (to close a Long Position) or to buy (to close a Short Position) in the same market for the same specified number of lots (volume)."
 msgstr ""
@@ -658,7 +658,7 @@ msgid "MetaTrader Accounts Management"
 msgstr "Управление счетами на MetaTrader"
 
 msgid "MetaTrader Main Password"
-msgstr ""
+msgstr "Основной пароль на MetaTrader"
 
 msgid "MetaTrader Web Platform"
 msgstr ""
@@ -1153,7 +1153,7 @@ msgid "Volatility Indices"
 msgstr "Индексы волатильности"
 
 msgid "Volatility Indices Account"
-msgstr ""
+msgstr "Счёт на индексах волатильности"
 
 msgid "Volatility Indices Contract Specifications"
 msgstr ""
@@ -1246,10 +1246,10 @@ msgid "Withdraw from"
 msgstr ""
 
 msgid "Withdraw from MetaTrader account"
-msgstr ""
+msgstr "Снять со счёта MetaTrader"
 
 msgid "Withdraw funds from your MetaTrader account into your Binary account:"
-msgstr ""
+msgstr "Перевести средства со счёта MetaTrader на счёт Binary:"
 
 msgid "Withdraw to"
 msgstr ""
@@ -1327,7 +1327,7 @@ msgid "You have fully read and understood the: (i) Risk Disclosure Statement; (i
 msgstr ""
 
 msgid "You have reached the rate limit of requests per second. To continue, please <a href=\"javascript:;\" id=\"ratelimit-refresh-link\">refresh</a> the page."
-msgstr ""
+msgstr "Вы достигли предела запросов в секунду. Чтобы продолжить, пожалуйста <a href=\"javascript:;\" id=\"ratelimit-refresh-link\">обновите</a> данную страницу."
 
 msgid "You have read our privacy statement and hereby give us consent to process your personal information as outlined there;"
 msgstr ""
