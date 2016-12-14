@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-12-14 01:28-0500\n"
+"PO-Revision-Date: 2016-12-14 01:38-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Indonesian\n"
 "MIME-Version: 1.0\n"
@@ -73,7 +73,7 @@ msgid "<a href=\"%1\">Return to MetaTrader Settings</a>."
 msgstr "<a href=\"%1\">Kembali ke Pengaturan MetaTrader</a>."
 
 msgid "<strong>Margin Call Level</strong> - when you reach this level of assets (i.e., when your account equity is insufficient to cover the margin requirement), your account is under margin call. The margin call state does not affect the ability of opening new positions."
-msgstr ""
+msgstr "<strong>Margin Call Level</strong> - ketika Anda mencapai batasan level aset ini (yaitu ketika jumlah ekuitas tidak mencukupi untuk menutup margin yang diperlukan), akun Anda dibawah margin call. Bagaimanapun margin call tidak mempengaruhi pembelian posisi baru."
 
 msgid "<strong>Margin Policy:</strong> The forced liquidation level is 50%. Please refer to our <a href=\"%1\">Margin Policy</a> for further details."
 msgstr ""
@@ -94,13 +94,13 @@ msgid "A scanned copy of your passport, driving licence (provisional or full) or
 msgstr ""
 
 msgid "A. Introduction"
-msgstr ""
+msgstr "A. Pendahuluan"
 
 msgid "A. Introduction and Scope of Agreement"
-msgstr ""
+msgstr "A. Pendahuluan dan Ruang Lingkup Perjanjian"
 
 msgid "A. Spot FX"
-msgstr ""
+msgstr "A. Spot FX"
 
 msgid "Access advanced tools for fundamental and technical analysis, all available in one platform."
 msgstr ""
