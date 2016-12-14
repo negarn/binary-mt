@@ -54,6 +54,12 @@
                         <div class="gr-6 form_label"><label>[% l('Investor Password (read-only access)') %]</label></div>
                         <div class="gr-6"><input type="password" class="txtInvestPass" /></div>
                     </div>
+                    <div class="tnc-row gr-row gr-padding-10 invisible">
+                        <div class="gr-12 center-text">
+                            <input type="checkbox" class="chkTNC" />
+                            <label>[% l('I have read and agree to the') %] <a target="_blank" href="[% request.url_for('/terms-and-conditions') %]">[% l('terms and conditions') %]</a> [% l('of the site.') %]</label>
+                        </div>
+                    </div>
                     <div class="gr-row gr-padding-10">
                         <div class="gr-6 form_label"></div>
                         <div class="gr-6">
