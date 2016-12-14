@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-12-12 17:46-0500\n"
+"PO-Revision-Date: 2016-12-14 17:18-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -325,7 +325,7 @@ msgid "Deposit from"
 msgstr ""
 
 msgid "Deposit funds into your MetaTrader account from your Binary account:"
-msgstr ""
+msgstr "Перевести средства на счёт MetaTrader со счёта Binary:"
 
 msgid "Deposit is done. Transaction ID: %1"
 msgstr ""
@@ -334,7 +334,7 @@ msgid "Deposit to"
 msgstr ""
 
 msgid "Deposit to MetaTrader account"
-msgstr ""
+msgstr "Пополнить счёт MetaTrader"
 
 msgid "Details"
 msgstr ""
@@ -589,7 +589,7 @@ msgid "Level of Education"
 msgstr ""
 
 msgid "Leverage"
-msgstr ""
+msgstr "Кредитный рычаг"
 
 msgid "Leverage can be used to generate returns that are of multiple times higher than the amount set aside from your account balance to open and maintain a transaction (your margin). However, investments that have the potential to deliver greater investment returns carry higher levels of risk. This means that if the price movement is against your favour, you will suffer losses that are of multiple times higher than the amount set aside from your account balance to open and maintain a transaction (your margin)."
 msgstr ""
@@ -1066,7 +1066,7 @@ msgid "Throughout the duration of the Transaction and for as long as the Transac
 msgstr ""
 
 msgid "To authenticate your account, kindly email the following to <a href=\"mailto:%1\">%1</a>"
-msgstr "Чтобы аутентифицировать Ваш счёт, отправьте следующие документы по адресу <a href=\"mailto:%1\">%1</a>"
+msgstr "Чтобы аутентифицировать Ваш счёт, отправьте следующие документы по адресу <a href=\"mailto:%1\">%1</a>:"
 
 msgid "To create a financial account for MetaTrader 5, please complete the <a href=\"%1\">Financial Assessment</a>."
 msgstr ""
@@ -1078,7 +1078,7 @@ msgid "To create a real account for MetaTrader, switch to your %1 real money acc
 msgstr ""
 
 msgid "To deposit or withdraw from your MetaTrader Account, switch to your Binary.com Real Account."
-msgstr ""
+msgstr "Чтобы пополнить счёт или вывести средства со счёта MetaTrader, перейдите на Реальный счёт на Binary.com."
 
 msgid "To open a Real Account, you must have an authenticated Binary Options Real Account with Binary.com. A Real Account cannot be opened in the absence of a Binary Options Real Account."
 msgstr ""
