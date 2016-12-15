@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-12-14 22:18-0500\n"
+"PO-Revision-Date: 2016-12-14 22:26-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Chinese Traditional\n"
 "MIME-Version: 1.0\n"
@@ -418,19 +418,19 @@ msgid "Forex trading frequency"
 msgstr "外匯交易頻率"
 
 msgid "Fund Transfers"
-msgstr "基金轉讓"
+msgstr "基金轉匯"
 
 msgid "Funding of Real Account"
-msgstr ""
+msgstr "真實帳戶資金存入"
 
 msgid "G. Margin"
-msgstr ""
+msgstr "七、保證金"
 
 msgid "G. Order Handling"
-msgstr ""
+msgstr "七、訂單處理"
 
 msgid "General Provisions"
-msgstr ""
+msgstr "一般規定"
 
 msgid "Given our role as margin trading service provider as described in this Agreement, we seek to avoid undue market influence to the extent consistent with your trading needs and our risk management policies and procedures. By continuing to use the margin trading service described in this Agreement, you acknowledge that you are aware of the potential conflict of interest disclosed that may arise and cannot be completely eliminated, and you consent us to act notwithstanding such potential conflict of interests."
 msgstr ""
