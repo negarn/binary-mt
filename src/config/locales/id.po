@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-12-15 22:27-0500\n"
+"PO-Revision-Date: 2016-12-15 22:47-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Indonesian\n"
 "MIME-Version: 1.0\n"
@@ -121,7 +121,7 @@ msgid "Account Type"
 msgstr "Jenis Akun"
 
 msgid "Accounts with debit balance (i.e. credit exposure to %1)"
-msgstr ""
+msgstr "Akun dengan saldo debit (yaitu eksposur kredit ke %1)"
 
 msgid "Accounts with debit balances are required to settle the full amount immediately by making a payment to us."
 msgstr ""
@@ -148,7 +148,7 @@ msgid "Alter the normal trading times for the affected market;"
 msgstr ""
 
 msgid "Amount"
-msgstr ""
+msgstr "Jumlah"
 
 msgid "An Open Position may be closed by placing an opposite Order, that is an Order to sell (to close a Long Position) or to buy (to close a Short Position) in the same market for the same specified number of lots (volume)."
 msgstr ""
@@ -181,13 +181,13 @@ msgid "B. Commencement and Cancellation"
 msgstr ""
 
 msgid "B. Scope"
-msgstr ""
+msgstr "B. Cakupan"
 
 msgid "Balance"
-msgstr ""
+msgstr "Saldo"
 
 msgid "Base Currency"
-msgstr ""
+msgstr "Mata Uang Dasar"
 
 msgid "Base Currency - The currency in which your Transaction was entered into."
 msgstr ""
@@ -229,7 +229,7 @@ msgid "By opening a Real Account with Binary.com, you represent, warrant and und
 msgstr ""
 
 msgid "C. Definition of Best Execution"
-msgstr ""
+msgstr "C. Definisi Eksekusi Terbaik"
 
 msgid "C. Provision of Services"
 msgstr ""
