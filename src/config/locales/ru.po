@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-12-16 15:16-0500\n"
+"PO-Revision-Date: 2016-12-16 15:29-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -247,7 +247,7 @@ msgid "Change the margin rate in relation to both Open Positions and new orders;
 msgstr ""
 
 msgid "Click the button below to download MetaTrader."
-msgstr ""
+msgstr "Нажмите на кнопку ниже, чтобы загрузить MetaTrader."
 
 msgid "Client Money"
 msgstr ""
@@ -319,19 +319,19 @@ msgid "Depending on the level of risk that we are exposed to acting as your coun
 msgstr ""
 
 msgid "Deposit"
-msgstr ""
+msgstr "Пополнить"
 
 msgid "Deposit from"
-msgstr ""
+msgstr "Пополнить через"
 
 msgid "Deposit funds into your MetaTrader account from your Binary account:"
-msgstr "Перевести средства на счёт MetaTrader со счёта Binary:"
+msgstr "Перевести средства со счёта Binary на счёт MetaTrader:"
 
 msgid "Deposit is done. Transaction ID: %1"
 msgstr ""
 
 msgid "Deposit to"
-msgstr ""
+msgstr "Перевести на"
 
 msgid "Deposit to MetaTrader account"
 msgstr "Пополнить счёт MetaTrader"
@@ -343,10 +343,10 @@ msgid "Download MetaTrader"
 msgstr "Загрузить MetaTrader"
 
 msgid "Download MetaTrader for Windows"
-msgstr ""
+msgstr "Загрузить MetaTrader для Windows"
 
 msgid "Download for MacOS"
-msgstr ""
+msgstr "Загрузить для MacOS"
 
 msgid "Due to recent changes in the regulations, we are required to ask our clients to complete the following Financial Assessment. Please note that you will not be able to continue trading until this is completed."
 msgstr ""
@@ -496,7 +496,7 @@ msgid "If you have entered into more than one Open Position in the same market, 
 msgstr ""
 
 msgid "If you previously downloaded MetaTrader 5 directly from MetaTrader's website, please select \"%1\" from the list of available brokers."
-msgstr ""
+msgstr "Если Вы ранее загружали платформу MetaTrader 5 напрямую с сайта MetaTrader, пожалуйста, выберите \"%1\" из списка доступных брокеров."
 
 msgid "If you wish to withdraw funds from your Real Account and close your Real Account, you may notify us by contacting our helpdesk at <a href='mailto:%1'>%1</a>. Your Real Account may be closed if you do not have any Open Positions and all amounts due to us have been settled."
 msgstr ""
@@ -607,13 +607,13 @@ msgid "Limit Order - an instruction to open or close a transaction if and when a
 msgstr ""
 
 msgid "Linux Instructions"
-msgstr ""
+msgstr "Инструкции для Linux"
 
 msgid "Log in"
 msgstr "Вход"
 
 msgid "Log into the application using your MetaTrader account number and your MetaTrader account password."
-msgstr ""
+msgstr "Войдите в приложение, указав номер счёта и пароль на MetaTrader."
 
 msgid "M. Manifest Error"
 msgstr ""
@@ -847,7 +847,7 @@ msgid "Roll-over Credit/Debit - Accounts with Open Positions concerned by the Ro
 msgstr ""
 
 msgid "Run the installation file and follow the instructions."
-msgstr ""
+msgstr "Откройте установочный файл и следуйте инструкциям."
 
 msgid "Salaried Employee"
 msgstr ""
@@ -1240,19 +1240,19 @@ msgid "Whilst we endeavour to take all reasonable and sufficient steps, as requi
 msgstr ""
 
 msgid "Withdraw"
-msgstr ""
+msgstr "Вывести"
 
 msgid "Withdraw from"
-msgstr ""
+msgstr "Вывести с"
 
 msgid "Withdraw from MetaTrader account"
-msgstr "Снять со счёта MetaTrader"
+msgstr "Снять деньги со счёта MetaTrader"
 
 msgid "Withdraw funds from your MetaTrader account into your Binary account:"
 msgstr "Перевести средства со счёта MetaTrader на счёт Binary:"
 
 msgid "Withdraw to"
-msgstr ""
+msgstr "Перевести на"
 
 msgid "Withdrawal is done. Transaction ID: %1"
 msgstr ""
