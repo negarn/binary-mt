@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-12-16 15:55-0500\n"
+"PO-Revision-Date: 2016-12-16 16:06-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -52,19 +52,19 @@ msgid "* Minimum Spread is a percentage of the underlying market price, and can 
 msgstr "* Минимальный спред представляет собой определённый процент от стоимости основного актива и может меняться с течением времени."
 
 msgid "** Leverage of 500:1 results in a margin rate of 0.002."
-msgstr ""
+msgstr "** Кредитный рычаг в размере 500:1 означает размер маржи 0.002."
 
 msgid "0-1 year"
 msgstr "0-1 год"
 
 msgid "0-5 transactions in the past 12 months"
-msgstr ""
+msgstr "0-5 транзакций за последние 12 месяцев"
 
 msgid "1-2 years"
 msgstr "1-2 года"
 
 msgid "40 transactions or more in the past 12 months"
-msgstr ""
+msgstr "40 или более транзакций за последние 12 месяцев"
 
 msgid "6-10 transactions in the past 12 months"
 msgstr ""
