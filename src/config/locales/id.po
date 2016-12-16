@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-12-15 22:08-0500\n"
+"PO-Revision-Date: 2016-12-15 22:18-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Indonesian\n"
 "MIME-Version: 1.0\n"
@@ -112,7 +112,7 @@ msgid "Account Equity - Your Account Equity refers to the sum of your Account Ba
 msgstr "Ekuitas Akun - Ekuitas akun Anda adalah jumlah saldo dan laba bersih yang belum direalisasi sebagai untung dan rugi."
 
 msgid "Account Free Margin - Your Account Equity minus your Total Margin."
-msgstr ""
+msgstr "Akun Bebas Margin - Ekuitas Akun Anda dikurangi total Margin Anda."
 
 msgid "Account Security"
 msgstr ""
