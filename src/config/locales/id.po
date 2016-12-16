@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-12-15 22:47-0500\n"
+"PO-Revision-Date: 2016-12-15 22:57-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Indonesian\n"
 "MIME-Version: 1.0\n"
@@ -268,106 +268,106 @@ msgid "Closing or part-closing all or any of your Open Positions based on the pr
 msgstr ""
 
 msgid "Commodities trading experience"
-msgstr ""
+msgstr "Pengalaman trading komoditas"
 
 msgid "Commodities trading frequency"
-msgstr ""
+msgstr "Frekuensi trading komoditas"
 
 msgid "Complaints and disputes"
-msgstr ""
+msgstr "Keluhan dan sengketa"
 
 msgid "Confidentiality"
-msgstr ""
+msgstr "Kerahasiaan"
 
 msgid "Congratulations! Your account has been created."
-msgstr ""
+msgstr "Selamat! Akun Anda telah berhasil didaftarkan."
 
 msgid "Construction"
-msgstr ""
+msgstr "Konstruksi"
 
 msgid "Contact Us"
-msgstr ""
+msgstr "Hubungi Kami"
 
 msgid "Contract Specifications"
-msgstr ""
+msgstr "Spesifikasi Kontrak"
 
 msgid "Costs - the costs of executing your order comprised predominantly of spread, i.e., the difference between our bid and our offer price."
 msgstr ""
 
 msgid "Create"
-msgstr ""
+msgstr "Membuat"
 
 msgid "Create Your MetaTrader 5 Account Now"
-msgstr ""
+msgstr "Daftar Akun MetaTrader 5 Anda Sekarang"
 
 msgid "Create a MetaTrader account to trade on the MetaTrader 5 platform."
-msgstr ""
+msgstr "Daftar Akun MetaTrader untuk bertrading pada platform MetaTrader 5."
 
 msgid "D. Capacity"
-msgstr ""
+msgstr "D. Kapasitas"
 
 msgid "D. Client Instructions"
-msgstr ""
+msgstr "D. Petunjuk Klien"
 
 msgid "Demo"
-msgstr ""
+msgstr "Demo"
 
 msgid "Demo Account"
-msgstr ""
+msgstr "Akun Demo"
 
 msgid "Depending on the level of risk that we are exposed to acting as your counterparty, we largely act in a principal capacity of your trades. As such, the execution venue will usually be Binary.com. However, we may transmit your order to third party liquidity providers, in which case we will determine the execution venue ourselves on the basis described above."
 msgstr ""
 
 msgid "Deposit"
-msgstr ""
+msgstr "Deposit"
 
 msgid "Deposit from"
-msgstr ""
+msgstr "Formulir deposit"
 
 msgid "Deposit funds into your MetaTrader account from your Binary account:"
-msgstr ""
+msgstr "Mentransfer dana ke akun MetaTrader dari akun Binary Anda:"
 
 msgid "Deposit is done. Transaction ID: %1"
-msgstr ""
+msgstr "Deposit selesai. ID transaksi: %1"
 
 msgid "Deposit to"
-msgstr ""
+msgstr "Deposit ke"
 
 msgid "Deposit to MetaTrader account"
-msgstr ""
+msgstr "Deposit ke akun MetaTrader"
 
 msgid "Details"
-msgstr ""
+msgstr "Rincian"
 
 msgid "Download MetaTrader"
-msgstr ""
+msgstr "Download MetaTrader"
 
 msgid "Download MetaTrader for Windows"
-msgstr ""
+msgstr "Download MetaTrader untuk Windows"
 
 msgid "Download for MacOS"
-msgstr ""
+msgstr "Download untuk MacOS"
 
 msgid "Due to recent changes in the regulations, we are required to ask our clients to complete the following Financial Assessment. Please note that you will not be able to continue trading until this is completed."
 msgstr ""
 
 msgid "E. Account Management"
-msgstr ""
+msgstr "E. Manajemen Akun"
 
 msgid "E. Best Execution Obligation"
-msgstr ""
+msgstr "E. Pelaksanaan Kewajiban Terbaik"
 
 msgid "Each of the following event constitutes an \"Event of Default\":"
 msgstr ""
 
 msgid "Education"
-msgstr ""
+msgstr "Pendidikan"
 
 msgid "Enhanced Trading with MetaTrader 5"
 msgstr ""
 
 msgid "Estimated Net Worth"
-msgstr ""
+msgstr "Perkiraan Kekayaan"
 
 msgid "Event - Event examples include circumstances whereby the type of Transaction to which your Order is related to ceased to be offered, or a Corporate Event or the insolvency of a Company whose shares represent are related to the subject matter of the Order, and others."
 msgstr ""
