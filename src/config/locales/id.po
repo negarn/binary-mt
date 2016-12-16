@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-12-15 22:57-0500\n"
+"PO-Revision-Date: 2016-12-15 23:08-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Indonesian\n"
 "MIME-Version: 1.0\n"
@@ -385,7 +385,7 @@ msgid "F. Orders"
 msgstr ""
 
 msgid "Finance"
-msgstr ""
+msgstr "Keuangan"
 
 msgid "Financial"
 msgstr ""
@@ -541,16 +541,16 @@ msgid "Inactive / Dormant Accounts"
 msgstr ""
 
 msgid "Income Source"
-msgstr ""
+msgstr "Sumber Pendapatan"
 
 msgid "Indices trading experience"
-msgstr ""
+msgstr "Pengalaman trading Indeks"
 
 msgid "Indices trading frequency"
-msgstr ""
+msgstr "Frekuensi trading Indeks"
 
 msgid "Industry of Employment"
-msgstr ""
+msgstr "Industri Pekerjaan"
 
 msgid "Introducing <strong>MetaTrader 5</strong> for Binary.com"
 msgstr ""
@@ -586,10 +586,10 @@ msgid "Less than &#36;25,000"
 msgstr ""
 
 msgid "Level of Education"
-msgstr ""
+msgstr "Tingkat Pendidikan"
 
 msgid "Leverage"
-msgstr ""
+msgstr "Leverage"
 
 msgid "Leverage can be used to generate returns that are of multiple times higher than the amount set aside from your account balance to open and maintain a transaction (your margin). However, investments that have the potential to deliver greater investment returns carry higher levels of risk. This means that if the price movement is against your favour, you will suffer losses that are of multiple times higher than the amount set aside from your account balance to open and maintain a transaction (your margin)."
 msgstr ""
@@ -610,7 +610,7 @@ msgid "Linux Instructions"
 msgstr ""
 
 msgid "Log in"
-msgstr ""
+msgstr "Masuk"
 
 msgid "Log into the application using your MetaTrader account number and your MetaTrader account password."
 msgstr ""
@@ -682,13 +682,13 @@ msgid "N. Force Majeure Events"
 msgstr ""
 
 msgid "Name"
-msgstr ""
+msgstr "Nama"
 
 msgid "Neither the Company nor any its directors, officers, managers, employees, or agents shall be liable for any loss, damage or debt to you arising directly or indirectly out of or in connection with this Agreement. You agree to indemnify the Company and its directors, officers, managers, employees, or agents harmless from and against any and all liabilities, losses, damages, costs and expenses (including reasonable attorney's fees) incurred arising out of your failure to comply with any and all of its obligations set forth in this Agreement and/or the Company's enforcement against you of any and all of its rights under this Agreement."
 msgstr ""
 
 msgid "Net Annual Income"
-msgstr ""
+msgstr "Pendapatan Bersih Tahunan"
 
 msgid "Next Available Price - Earliest price reasonably available and quoted by Binary.com when our Price quotation reaches or goes beyond the level of your Stop Order."
 msgstr ""
@@ -733,13 +733,13 @@ msgid "Order Execution Policy"
 msgstr ""
 
 msgid "Other"
-msgstr ""
+msgstr "Lainnya"
 
 msgid "Other financial instruments trading experience"
-msgstr ""
+msgstr "Pengalaman trading instrumen keuangan lainnya"
 
 msgid "Other financial instruments trading frequency"
-msgstr ""
+msgstr "Frekuensi trading instrumen keuangan lainnya"
 
 msgid "Our Order Execution Policy (the \"Policy\") sets out the overview and approach of how Binary.com executes orders on behalf of our clients."
 msgstr ""
@@ -760,19 +760,19 @@ msgid "Over &#36;500,001"
 msgstr ""
 
 msgid "Over 3 years"
-msgstr ""
+msgstr "Lebih dari 3 tahun"
 
 msgid "P. Indemnification"
 msgstr ""
 
 msgid "Pension"
-msgstr ""
+msgstr "Pensiunan"
 
 msgid "Personal Data and Privacy"
 msgstr ""
 
 msgid "Pip Size"
-msgstr ""
+msgstr "Ukuran Pip"
 
 msgid "Please %1 to your Binary.com account."
 msgstr ""
@@ -781,10 +781,10 @@ msgid "Please contact <a href=\"%1\">Customer Support</a>."
 msgstr ""
 
 msgid "Please select"
-msgstr ""
+msgstr "Silakan pilih"
 
 msgid "Please select a value"
-msgstr ""
+msgstr "Silakan pilih nilai"
 
 msgid "Positions are closed until the level of assets becomes higher that the Stop Out Level."
 msgstr ""
@@ -799,7 +799,7 @@ msgid "Price/ Prices - Bid and Offer Price/ Prices."
 msgstr ""
 
 msgid "Primary"
-msgstr ""
+msgstr "Utama"
 
 msgid "Prior to placing an Order which results in opening a Transaction or increasing an existing Open Position, you acknowledge that it is your responsibility to ensure that your Account Free Margin is sufficient to cover the Margin required in relation to the open Transaction (the \"Margin Requirement\"), and to continuously meet the Margin Requirement."
 msgstr ""
@@ -862,19 +862,19 @@ msgid "Section 2"
 msgstr ""
 
 msgid "Section 3"
-msgstr ""
+msgstr "Bagian 3"
 
 msgid "Section 4"
-msgstr ""
+msgstr "Bagian 4"
 
 msgid "Self-Employed"
-msgstr ""
+msgstr "Wiraswasta"
 
 msgid "Server"
-msgstr ""
+msgstr "Server"
 
 msgid "Sign out"
-msgstr ""
+msgstr "Keluar"
 
 msgid "Size - the size of your order determined by the volume (number of lots)."
 msgstr ""
@@ -892,10 +892,10 @@ msgid "Start trading with your MetaTrader Account:"
 msgstr ""
 
 msgid "Stocks trading experience"
-msgstr ""
+msgstr "Pengalaman trading Saham"
 
 msgid "Stocks trading frequency"
-msgstr ""
+msgstr "Frekuensi trading Saham"
 
 msgid "Stop Order / Stop Loss Order - an instruction to execute a Transaction to close an Open Position when the Price reaches your specified Price."
 msgstr ""
@@ -937,7 +937,7 @@ msgid "Terms and Conditions"
 msgstr ""
 
 msgid "Tertiary"
-msgstr ""
+msgstr "Tersier"
 
 msgid "The Binary.com website is protected by certain copyrights. The materials comprising the website (including without limitation all articles, text, images, logos, compilation, systems, code and design) are Copyright 1999-2016 Binary Group of companies. All rights reserved. Such materials may be copied and distributed on a limited basis for noncommercial purposes only, provided that any material copied remain intact and that all copies include the following notice in a clearly visible position: \"Copyright 1999-2016 Binary Ltd. All rights reserved.\" These materials may not be copied or redistributed for commercial purposes or for compensation of any kind without prior written permission from a member of the Binary Group. If you have any questions about these terms or would like information about licensing materials from Binary Ltd., please contact us at <a href='mailto:%1'>%1</a>. Binary.com and the bull/bear logo are registered trademarks."
 msgstr ""
@@ -1087,7 +1087,7 @@ msgid "Total Margin - The aggregate of all Margin Requirements in your Real Acco
 msgstr ""
 
 msgid "Tourism"
-msgstr ""
+msgstr "Pariwisata"
 
 msgid "Trade Forex and CFD asset classes with an award-winning broker."
 msgstr ""
@@ -1129,28 +1129,28 @@ msgid "Verify Main Password"
 msgstr ""
 
 msgid "Version 3"
-msgstr ""
+msgstr "Versi 3"
 
 msgid "Volatility"
-msgstr ""
+msgstr "Volatilitas"
 
 msgid "Volatility 10 Index"
-msgstr ""
+msgstr "Indeks Volatilitas 10"
 
 msgid "Volatility 100 Index"
-msgstr ""
+msgstr "Indeks Volatilitas 100"
 
 msgid "Volatility 25 Index"
-msgstr ""
+msgstr "Indeks Volatilitas 25"
 
 msgid "Volatility 50 Index"
-msgstr ""
+msgstr "Indeks Volatilitas 50"
 
 msgid "Volatility 75 Index"
-msgstr ""
+msgstr "Indeks Volatilitas 75"
 
 msgid "Volatility Indices"
-msgstr ""
+msgstr "Indeks Volatilitas"
 
 msgid "Volatility Indices Account"
 msgstr ""
