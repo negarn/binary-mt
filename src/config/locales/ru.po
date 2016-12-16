@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-12-16 15:09-0500\n"
+"PO-Revision-Date: 2016-12-16 15:16-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -184,7 +184,7 @@ msgid "B. Scope"
 msgstr ""
 
 msgid "Balance"
-msgstr ""
+msgstr "Баланс"
 
 msgid "Base Currency"
 msgstr ""
@@ -280,7 +280,7 @@ msgid "Confidentiality"
 msgstr ""
 
 msgid "Congratulations! Your account has been created."
-msgstr ""
+msgstr "Поздравляем! Ваш счёт успешно открыт."
 
 msgid "Construction"
 msgstr ""
@@ -562,7 +562,7 @@ msgid "Investor Password (read-only access)"
 msgstr "Пароль инвестора (только для чтения)"
 
 msgid "Investor Password cannot be same as Main Password."
-msgstr ""
+msgstr "Пароль инвестора не может совпадать с основным паролем."
 
 msgid "It deletes an order with the largest margin reserved."
 msgstr ""
@@ -682,7 +682,7 @@ msgid "N. Force Majeure Events"
 msgstr ""
 
 msgid "Name"
-msgstr ""
+msgstr "Имя"
 
 msgid "Neither the Company nor any its directors, officers, managers, employees, or agents shall be liable for any loss, damage or debt to you arising directly or indirectly out of or in connection with this Agreement. You agree to indemnify the Company and its directors, officers, managers, employees, or agents harmless from and against any and all liabilities, losses, damages, costs and expenses (including reasonable attorney's fees) incurred arising out of your failure to comply with any and all of its obligations set forth in this Agreement and/or the Company's enforcement against you of any and all of its rights under this Agreement."
 msgstr ""
@@ -889,7 +889,7 @@ msgid "Start Trading with MetaTrader 5"
 msgstr "Начните торговлю на MetaTrader 5"
 
 msgid "Start trading with your MetaTrader Account:"
-msgstr "Начните торговать со своего счёта на MetaTrader:"
+msgstr "Начните торговлю со своего счёта MetaTrader:"
 
 msgid "Stocks trading experience"
 msgstr ""
