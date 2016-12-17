@@ -31,7 +31,7 @@ var GTM = (function() {
         $.extend(true, data_layer_info, data);
 
         var event = data_layer_info.event;
-        delete data_layer_info['event'];
+        delete data_layer_info.event;
 
         return {
             data : data_layer_info,
@@ -45,7 +45,7 @@ var GTM = (function() {
             var info = gtm_data_layer_info(data && typeof(data) === 'object' ? data : null);
             dataLayer[0] = info.data;
             dataLayer.push(info.data);
-            dataLayer.push({"event": info.event});
+            dataLayer.push({ event: info.event});
         }
     };
 
@@ -403,19 +403,41 @@ var Header = function(params) {
 Header.prototype = {
     on_load: function() {
         this.show_or_hide_login_form();
-        this.register_dynamic_links();
+        this.show_or_hide_language();
         this.logout_handler();
+        if (page.client.is_logged_in) {
+            $('ul#menu-top').addClass('smaller-font');
+        }
     },
     on_unload: function() {
         this.menu.reset();
     },
     animate_disappear: function(element) {
-        element.animate({'opacity':0}, 100, function() {
-            element.css('visibility', 'hidden');
+        element.animate({ opacity: 0 }, 100, function() {
+            element.css({ visibility: 'hidden', display: 'none' });
         });
     },
     animate_appear: function(element) {
-        element.css('visibility', 'visible').animate({'opacity': 1}, 100);
+        element.css({ visibility: 'visible', display: 'block' })
+               .animate({ opacity: 1 }, 100);
+    },
+    show_or_hide_language: function() {
+        var that = this;
+        var $el = $('#select_language'),
+            $all_accounts = $('#all-accounts');
+        $('.languages').on('click', function(event) {
+            event.stopPropagation();
+            that.animate_disappear($all_accounts);
+            if (+$el.css('opacity') === 1) {
+                that.animate_disappear($el);
+            } else {
+                that.animate_appear($el);
+            }
+        });
+        $(document).unbind('click').on('click', function() {
+            that.animate_disappear($all_accounts);
+            that.animate_disappear($el);
+        });
     },
     show_or_hide_login_form: function() {
         if (!this.user.is_logged_in || !this.client.is_logged_in) return;
@@ -423,6 +445,7 @@ Header.prototype = {
         var that = this;
         $('.nav-menu').unbind('click').on('click', function(event) {
             event.stopPropagation();
+            that.animate_disappear(language);
             if (all_accounts.css('opacity') == 1) {
                 that.animate_disappear(all_accounts);
             } else {
@@ -469,7 +492,7 @@ Header.prototype = {
     start_clock_ws: function() {
         function getTime() {
             clock_started = true;
-            BinarySocket.send({'time': 1,'passthrough': {'client_time': moment().valueOf()}});
+            BinarySocket.send({ time: 1, passthrough: { client_time: moment().valueOf() } });
         }
         this.run = function() {
             setInterval(getTime, 30000);
@@ -477,9 +500,8 @@ Header.prototype = {
 
         this.run();
         getTime();
-        return;
     },
-    time_counter : function(response) {
+    time_counter: function(response) {
         if (isNaN(response.echo_req.passthrough.client_time) || response.error) {
             page.header.start_clock_ws();
             return;
@@ -493,11 +515,15 @@ Header.prototype = {
         that.client_time_at_response = moment().valueOf();
         that.server_time_at_response = ((start_timestamp * 1000) + (that.client_time_at_response - pass));
         var update_time = function() {
-            window.time = moment(that.server_time_at_response + moment().valueOf() - that.client_time_at_response).utc();
-            var timeStr = window.time.format("YYYY-MM-DD HH:mm") + ' GMT';
-
-            clock.html(timeStr);
-            showLocalTimeOnHover('#gmt-clock');
+            window.time = moment((that.server_time_at_response + moment().valueOf()) -
+                that.client_time_at_response).utc();
+            var timeStr = window.time.format('YYYY-MM-DD HH:mm') + ' GMT';
+            if (japanese_client()) {
+                clock.html(toJapanTimeIfNeeded(timeStr, 1, '', 1));
+            } else {
+                clock.html(timeStr);
+                showLocalTimeOnHover('#gmt-clock');
+            }
             window.HeaderTimeUpdateTimeOutRef = setTimeout(update_time, 1000);
         };
         update_time();
@@ -643,14 +669,33 @@ var Page = function(config) {
 
 Page.prototype = {
     all_languages: function() {
-        return ['EN', 'AR', 'DE', 'ES', 'FR', 'ID', 'IT', 'PL', 'PT', 'RU', 'VI', 'ZH_CN', 'ZH_TW', 'ACH']; // ACH is a pseudo language used for in-context translation
+      //  return ['EN', 'AR', 'DE', 'ES', 'FR', 'ID', 'IT', 'PL', 'PT', 'RU', 'VI', 'ZH_CN', 'ZH_TW', 'ACH']; // ACH is a pseudo language used for in-context translation
+           return {
+            ACH  : 'Translation',
+            EN   : 'English',
+            DE   : 'Deutsch',
+            ES   : 'Español',
+            FR   : 'Français',
+            ID   : 'Indonesia',
+            IT   : 'Italiano',
+            JA   : '日本語',
+            PL   : 'Polish',
+            PT   : 'Português',
+            RU   : 'Русский',
+            TH   : 'Thai',
+            VI   : 'Tiếng Việt',
+            ZH_CN: '简体中文',
+            ZH_TW: '繁體中文',
+        };
     },
     language_from_url: function() {
-        var regex = new RegExp('^(' + this.all_languages().join('|') + ')$', 'i');
+        var regex = new RegExp('^(' + Object.keys(this.all_languages()).join('|') + ')$', 'i');
         var langs = window.location.href.split('/').slice(3);
         for (var i = 0; i < langs.length; i++) {
             var lang = langs[i];
-            if (regex.test(lang)) return lang.toUpperCase();
+            if (regex.test(lang)) { 
+                return lang.toUpperCase(); 
+            }
         }
         return '';
     },
@@ -688,8 +733,10 @@ Page.prototype = {
     },
     on_change_language: function() {
         var that = this;
-        $('#language_select').on('change', 'select', function() {
-            var language = $(this).find('option:selected').attr('class');
+        $('#select_language li').on('click', function() {
+            var language = $(this).attr('class');
+            if (page.language() === language) return;
+            $('#display_language .language').text($(this).text());
             var cookie = new CookieStorage('language');
             cookie.write(language);
             document.location = that.url_for_language(language);

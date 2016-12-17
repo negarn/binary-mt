@@ -155,6 +155,9 @@ sub tt2_handle {
     $stash{lang}             = $request->language;
     $stash{menu}             = menu();
 
+     ## display selected language name
+    $stash{display_language} = decode_utf8(lang_display_name($request->language));
+
     ## global/language_form.html.tt
     $stash{language_options} = [
         map { {code => $_, text => decode_utf8(lang_display_name($_)), value => uc($_), selected => uc($stash{iso639a_language}) eq uc($_) ? 1 : 0,} }
