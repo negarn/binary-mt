@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-12-18 22:25-0500\n"
+"PO-Revision-Date: 2016-12-18 22:35-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
@@ -754,31 +754,31 @@ msgid "Our determination of the relative importance of the execution factors may
 msgstr "在某些情况下，我们所决心的执行因素相对重要性可能与您的不相同。我们根据最佳执行义务操作，为您争取最大利益。"
 
 msgid "Our information security policies are based on industry best practices in access control and business continuity; and"
-msgstr ""
+msgstr "我们根据业界访问控制和业务连续性的最佳做法设置信息安全策略; 另外，"
 
 msgid "Over &#36;1,000,000"
-msgstr ""
+msgstr "&#36;1,000,000 以上"
 
 msgid "Over &#36;500,001"
-msgstr ""
+msgstr "&#36;500,001以上"
 
 msgid "Over 3 years"
-msgstr ""
+msgstr "3 年以上"
 
 msgid "P. Indemnification"
-msgstr ""
+msgstr "十六、赔偿"
 
 msgid "Pension"
-msgstr ""
+msgstr "养老金"
 
 msgid "Personal Data and Privacy"
-msgstr ""
+msgstr "个人数据和隐私"
 
 msgid "Pip Size"
-msgstr ""
+msgstr "点数大小"
 
 msgid "Please %1 to your Binary.com account."
-msgstr ""
+msgstr "请 %1到您的Binary.com账户。"
 
 msgid "Please contact <a href=\"%1\">Customer Support</a>."
 msgstr ""
