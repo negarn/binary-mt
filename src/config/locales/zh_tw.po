@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-12-18 22:25-0500\n"
+"PO-Revision-Date: 2016-12-18 22:35-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Chinese Traditional\n"
 "MIME-Version: 1.0\n"
@@ -748,34 +748,34 @@ msgid "Our Order Execution Policy (the \"Policy\") sets out the overview and app
 msgstr "我們的訂單執行政策 （簡稱「政策」） 設定關於Binary.com 代替客戶執行訂單的概述和方法。"
 
 msgid "Our Prices are determined by reference to the price of the underlying instrument which is quoted on external exchanges or dealing facilities that we select at our discretion. Our IT infrastructure and price aggregator system facilitates the reception of quotes from shortlisted prime brokers who act as liquidity providers for us and the delivery of the quotes, derived with reference against relevant benchmark and markets, to you. You acknowledge that our Prices may differ from the bid and offer prices made available by external exchanges or dealing facilities and we are not liable for any losses that you incur arising from such differences. Refer to our Product Disclosure Statement for our pricing methodology and factors. This clause does not apply to Volatility Indices."
-msgstr "我們在參考了由我們自主選定的外部交易所或交易設施所報的基礎工具價格之後決定價格。我們擁有信息技術基礎設施和價格聚合器系統，便於向充當我們流動性提供商，經過挑選的主要經紀商收集報價，並將經過參考有關基準和市場得來的價格提供給您。您確認我們的價格可能與投標價格和外部交易所或交易設施所提供價格不相同，以及我們不對所述差異所引起的任何損失承擔賠償責任。關於我們的定價方法和因素，請參閱產品披露聲明。本條款不適用於波動性指數。"
+msgstr "我們在參考了由我們自主選定的外部交易所或交易設施所報的基礎工具價格之後決定價格。我們擁有資訊技術基礎設施和價格聚合器系統，便於向充當我們流動性提供商，經過挑選的主要經紀商收集報價，並將經過參考有關基準和市場得來的價格提供給您。您確認我們的價格可能與投標價格和外部交易所或交易設施所提供價格不相同，以及我們不對所述差異所引起的任何損失承擔賠償責任。關於我們的定價方法和因素，請參閱產品披露聲明。本條款不適用於波動性指數。"
 
 msgid "Our determination of the relative importance of the execution factors may differ from yours during certain circumstances, acting in your interest in accordance with our obligation of best execution."
 msgstr "在某些情況下，我們所決心的執行因素相對重要性可能與您的不相同。我們根據最佳執行義務操作，為您爭取最大利益。"
 
 msgid "Our information security policies are based on industry best practices in access control and business continuity; and"
-msgstr ""
+msgstr "我們根據業界存取控制和業務連續性的最佳做法設定資訊安全策略; 另外，"
 
 msgid "Over &#36;1,000,000"
-msgstr ""
+msgstr "&#36;1,000,000以上"
 
 msgid "Over &#36;500,001"
-msgstr ""
+msgstr "&#36;500,001以上"
 
 msgid "Over 3 years"
-msgstr ""
+msgstr "3 年以上"
 
 msgid "P. Indemnification"
-msgstr ""
+msgstr "十六、賠償"
 
 msgid "Pension"
-msgstr ""
+msgstr "退休金"
 
 msgid "Personal Data and Privacy"
-msgstr ""
+msgstr "個人資料和隱私"
 
 msgid "Pip Size"
-msgstr ""
+msgstr "點數大小"
 
 msgid "Please %1 to your Binary.com account."
 msgstr ""
