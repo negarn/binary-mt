@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-12-18 22:45-0500\n"
+"PO-Revision-Date: 2016-12-19 01:17-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Chinese Traditional\n"
 "MIME-Version: 1.0\n"
@@ -799,10 +799,10 @@ msgid "Price - the price at which the transaction in relation to your order is e
 msgstr "價格 - 您的訂單相關的交易執行價格。"
 
 msgid "Price/ Prices - Bid and Offer Price/ Prices."
-msgstr ""
+msgstr "價格 - 出價和要價。"
 
 msgid "Primary"
-msgstr ""
+msgstr "主要"
 
 msgid "Prior to placing an Order which results in opening a Transaction or increasing an existing Open Position, you acknowledge that it is your responsibility to ensure that your Account Free Margin is sufficient to cover the Margin required in relation to the open Transaction (the \"Margin Requirement\"), and to continuously meet the Margin Requirement."
 msgstr ""
