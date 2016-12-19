@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-12-18 22:35-0500\n"
+"PO-Revision-Date: 2016-12-18 22:45-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Chinese Traditional\n"
 "MIME-Version: 1.0\n"
@@ -778,25 +778,25 @@ msgid "Pip Size"
 msgstr "點數大小"
 
 msgid "Please %1 to your Binary.com account."
-msgstr ""
+msgstr "請%1到您的 Binary.com 帳戶。"
 
 msgid "Please contact <a href=\"%1\">Customer Support</a>."
-msgstr ""
+msgstr "請聯繫<a href=\"%1\">客服部</a>。"
 
 msgid "Please select"
-msgstr ""
+msgstr "請選擇"
 
 msgid "Please select a value"
-msgstr ""
+msgstr "請選擇數值"
 
 msgid "Positions are closed until the level of assets becomes higher that the Stop Out Level."
-msgstr ""
+msgstr "所有頭寸都已平倉，直到資產層次高於強制平倉層次。"
 
 msgid "Potential Conflicts of Interest"
-msgstr ""
+msgstr "潛在的利益衝突"
 
 msgid "Price - the price at which the transaction in relation to your order is executed at."
-msgstr ""
+msgstr "價格 - 您的訂單相關的交易執行價格。"
 
 msgid "Price/ Prices - Bid and Offer Price/ Prices."
 msgstr ""
