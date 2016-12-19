@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-11-28 02:17-0500\n"
+"PO-Revision-Date: 2016-12-18 22:05-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Acholi\n"
 "MIME-Version: 1.0\n"
@@ -458,6 +458,9 @@ msgstr "crwdns17582:0crwdne17582:0"
 
 msgid "High frequency (2 ticks per second)"
 msgstr "crwdns16875:0crwdne16875:0"
+
+msgid "I have read and agree to the"
+msgstr "crwdns18108:0crwdne18108:0"
 
 msgid "I. Quotes"
 msgstr "crwdns16879:0crwdne16879:0"
@@ -1451,6 +1454,12 @@ msgstr "crwdns17648:0crwdne17648:0"
 
 msgid "net of realised profits credited to your Real Account and realised losses debited from your Real Account;"
 msgstr "crwdns17649:0crwdne17649:0"
+
+msgid "of the site."
+msgstr "crwdns18109:0crwdne18109:0"
+
+msgid "terms and conditions"
+msgstr "crwdns18110:0crwdne18110:0"
 
 msgid "the characteristics of financial instruments that are the subject of that order;"
 msgstr "crwdns17209:0crwdne17209:0"
