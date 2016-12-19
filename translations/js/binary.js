@@ -18220,6 +18220,7 @@ var BinarySocket = new BinarySocketClass();
         clearError();
         if($('#section-financial .form-new-account').contents().length === 0) {
             findInSection('demo', '.form-new-account').contents().clone().appendTo('#section-financial .form-new-account');
+            findInSection('demo', '.form-new-account .tnc-row').remove();
             if(hasGamingCompany) {
                 $('#section-financial').contents().clone().appendTo('#section-volatility');
                 $('#section-volatility > h3').text(text.localize('Volatility Indices Account'));
@@ -18230,6 +18231,9 @@ var BinarySocket = new BinarySocketClass();
             if(!hasFinancialCompany) {
                 hideAccount('financial');
             }
+            $('.tnc-row').removeClass(hiddenClass).find('label').each(function() {
+                $(this).click(function() { $(this).siblings('.chkTNC').click(); });
+            });
         }
 
         MetaTraderData.requestLoginList();
@@ -18378,12 +18382,17 @@ var BinarySocket = new BinarySocketClass();
     // --------------------------
     // ----- Tab Management -----
     // --------------------------
+    var getActiveTab = function() {
+        var activeTab = (page.url.location.hash.substring(1) || '').toLowerCase();
+        if (!activeTab || !/demo|financial|volatility/.test(activeTab)) {
+            activeTab = 'demo';
+        }
+        return activeTab;
+    };
+
     var displayTab = function(tab) {
         if(!tab) {
-            tab = (page.url.location.hash.substring(1) || '').toLowerCase();
-            if(!tab || !/demo|financial|volatility/.test(tab)) {
-                tab = 'demo';
-            }
+            tab = getActiveTab();
         }
         if((/financial/.test(tab) && !hasFinancialCompany) || (/volatility/.test(tab) && !hasGamingCompany)) {
             tab = 'demo';
@@ -18513,14 +18522,19 @@ var BinarySocket = new BinarySocketClass();
                     MetaTraderData.requestLoginDetails(obj.login);
                 }
             });
-        } else {
+        }
+        if (!mt5Accounts.hasOwnProperty(getActiveTab())) {
             displayTab();
         }
     };
 
     var responseLoginDetails = function(response) {
         if(response.hasOwnProperty('error')) {
-            return showAccountMessage(mt5Logins[response.echo_req.login], response.error.message);
+            showAccountMessage(mt5Logins[response.echo_req.login], response.error.message);
+            if (mt5Logins[response.echo_req.login] === getActiveTab()) {
+                displayTab();
+            }
+            return;
         }
 
         var accType = MetaTrader.getAccountType(response.mt5_get_settings.group);
@@ -18666,6 +18680,14 @@ var BinarySocket = new BinarySocketClass();
                 var errMsgName = MetaTrader.validateName($form.find('.txtName').val());
                 if(errMsgName) {
                     showError('.txtName', errMsgName);
+                    isValid = false;
+                }
+            }
+            // tnc
+            var $tncRow = $form.find('.tnc-row');
+            if($tncRow.length && !$tncRow.hasClass(hiddenClass)) {
+                if(!$form.find('.chkTNC:checked').length) {
+                    showError('.chkTNC', Content.errorMessage('req'));
                     isValid = false;
                 }
             }
