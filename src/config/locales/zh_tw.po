@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-12-18 22:16-0500\n"
+"PO-Revision-Date: 2016-12-18 22:25-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Chinese Traditional\n"
 "MIME-Version: 1.0\n"
@@ -751,7 +751,7 @@ msgid "Our Prices are determined by reference to the price of the underlying ins
 msgstr "我們在參考了由我們自主選定的外部交易所或交易設施所報的基礎工具價格之後決定價格。我們擁有信息技術基礎設施和價格聚合器系統，便於向充當我們流動性提供商，經過挑選的主要經紀商收集報價，並將經過參考有關基準和市場得來的價格提供給您。您確認我們的價格可能與投標價格和外部交易所或交易設施所提供價格不相同，以及我們不對所述差異所引起的任何損失承擔賠償責任。關於我們的定價方法和因素，請參閱產品披露聲明。本條款不適用於波動性指數。"
 
 msgid "Our determination of the relative importance of the execution factors may differ from yours during certain circumstances, acting in your interest in accordance with our obligation of best execution."
-msgstr ""
+msgstr "在某些情況下，我們所決心的執行因素相對重要性可能與您的不相同。我們根據最佳執行義務操作，為您爭取最大利益。"
 
 msgid "Our information security policies are based on industry best practices in access control and business continuity; and"
 msgstr ""
