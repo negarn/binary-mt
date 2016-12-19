@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-12-18 14:35-0500\n"
+"PO-Revision-Date: 2016-12-18 22:05-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -457,6 +457,9 @@ msgid "High Risk Investment Warning: Trading foreign exchange and/or contracts f
 msgstr "Предупреждение о высоком уровне риска при инвестировании: Торговля валютами и/или контрактами на разницу с применением маржи подразумевает очень высокий уровень риска и может подойти не всем инвесторам. Существует возможность, что Ваши потери превысят размер внесённых Вами средств. Таким образом, рекомендуем Вам не рисковать капиталом, который Вы не можете позволить себе потерять. Перед принятием решения о торговле продуктами, предложенными на данном сайте, Вы должны тщательно изучить свои финансовые цели, потребности и уровень торгового опыта. В частности, Вы должны знать обо всех рисках, сопряжённых с маржинальной торговлей. Также следует отметить, что группа компаний Binary Group не даёт советов, рекомендаций и не выражает своего мнения в отношении приобретения, удержания или продажи любых финансовых продуктов. Все наши услуги предоставляются исключительно на основе исполнения."
 
 msgid "High frequency (2 ticks per second)"
+msgstr ""
+
+msgid "I have read and agree to the"
 msgstr ""
 
 msgid "I. Quotes"
@@ -1450,6 +1453,12 @@ msgid "net of fund transfers between your Binary Options Account and your Real A
 msgstr ""
 
 msgid "net of realised profits credited to your Real Account and realised losses debited from your Real Account;"
+msgstr ""
+
+msgid "of the site."
+msgstr ""
+
+msgid "terms and conditions"
 msgstr ""
 
 msgid "the characteristics of financial instruments that are the subject of that order;"
