@@ -1,5 +1,5 @@
 <div id="metatrader">
-    <h1>[% l('MetaTrader Accounts Management') %]</h1>
+    <h1>[% l('MetaTrader accounts management') %]</h1>
 
     <p id="errorMsg" class="notice-msg center-text invisible"></p>
 
@@ -9,7 +9,7 @@
                 <ul class="sidebar-nav">
                     <li id="nav-demo" class="selected"><a href="#demo">[% l('Demo Account') %]</a></li>
                     <li id="nav-financial"><a href="#financial">[% l('Financial Account') %]</a></li>
-                    <li id="nav-volatility"><a href="#volatility">[% l('Volatility Indices') %]</a></li>
+                    <li id="nav-volatility"><a href="#volatility">[% l('Volatility Indices Account') %]</a></li>
                 </ul>
             </div>
         </div>
@@ -18,10 +18,10 @@
                 <h3>[% l('Demo Account') %]</h3>
                 <p class="msg-account notice-msg center-text invisible"></p>
                 <form class="form-new-account invisible">
-                    <p>[% l("Create a MetaTrader account to trade on the MetaTrader 5 platform.") %]</p>
+                    <p>[% l("Create a Volatility Indices Account to trade Volatility Indices on MT5.") %]</p>
                     <div class="gr-row gr-padding-10">
-                        <div class="gr-6 form_label">[% l('Account Type') %]</div>
-                        <div class="gr-6 form_label align-start account-type">[% l('Demo') %]</div>
+                        <div class="gr-6 form_label">[% l('Account type') %]</div>
+                        <div class="gr-6 form_label align-start account-type">[% l('Demo Account') %]</div>
                     </div>
                     <div class="gr-row gr-padding-10 invisible">
                         <div class="gr-6 form_label"><label>[% l('Leverage') %]</label></div>
@@ -36,34 +36,34 @@
                         </div>
                     </div>
                     <div class="name-row gr-row gr-padding-10 invisible">
-                        <div class="gr-6 form_label"><label>[% l('Your Name') %]</label></div>
+                        <div class="gr-6 form_label"><label>[% l('Name') %]</label></div>
                         <div class="gr-6"><input type="text" class="txtName" maxlength="30" /></div>
                     </div>
                     <div class="gr-row gr-padding-10">
-                        <div class="gr-6 form_label"><label>[% l('Main Password (trading access)') %]</label></div>
+                        <div class="gr-6 form_label"><label>[% l('Main password (trading access)') %]</label></div>
                         <div class="gr-6">
                             <input type="password" class="txtMainPass password">
-                            <div class="hint">[% l('Minimum of eight lower and uppercase letters with numbers') %]</div>
+                            <div class="hint">[% l('Minimum eight characters. Must contain numbers, and mix of upper and lower case letters.') %]</div>
                         </div>
                     </div>
                     <div class="gr-row gr-padding-10">
-                        <div class="gr-6 form_label"><label>[% l('Verify Main Password') %]</label></div>
+                        <div class="gr-6 form_label"><label>[% l('Verify main password') %]</label></div>
                         <div class="gr-6"><input type="password" class="txtMainPass2" /></div>
                     </div>
                     <div class="gr-row gr-padding-10">
-                        <div class="gr-6 form_label"><label>[% l('Investor Password (read-only access)') %]</label></div>
+                        <div class="gr-6 form_label"><label>[% l('Investor password (read-only access)') %]</label></div>
                         <div class="gr-6"><input type="password" class="txtInvestPass" /></div>
                     </div>
                     <div class="tnc-row gr-row gr-padding-10 invisible">
                         <div class="gr-12 center-text">
                             <input type="checkbox" class="chkTNC" />
-                            <label>[% l('I have read and agree to the') %] <a target="_blank" href="[% request.url_for('/terms-and-conditions') %]">[% l('terms and conditions') %]</a> [% l('of the site.') %]</label>
+                            <label>[% l('I have read and agreed to the') %] <a target="_blank" href="[% request.url_for('/terms-and-conditions') %]">[% l('terms and conditions') %]</a> [% l('of the site.') %]</label>
                         </div>
                     </div>
                     <div class="gr-row gr-padding-10">
                         <div class="gr-6 form_label"></div>
                         <div class="gr-6">
-                            <button class="button">[% l('Create') %]</button>
+                            <button class="button">[% l('Create account') %]</button>
                             <div class="formMessage center-text"></div>
                         </div>
                     </div>
@@ -74,32 +74,32 @@
                 <h3>[% l('Financial Account') %]</h3>
                 <p class="msg-account notice-msg center-text invisible"></p>
                 <div class="authenticate invisible">
-                    <p>[% l('In order to create an account for MetaTrader, you need to authenticate your Binary account.') %]</p>
-                    <p>[% l('To authenticate your account, kindly email the following to <a href="mailto:[_1]">[_1]</a>', 'support@binary.com') %]</p>
+                    <p>[% l('Authenticate your Binary account to create an MT5 Financial Account.') %]</p>
+                    <p>[% l('Kindly email the following documents to <a href="mailto:[_1]">[_1]</a> to authenticate your account.', 'support@binary.com') %]</p>
                     <ul class="bullet">
                         <li>[% l('A scanned copy of your passport, driving licence (provisional or full) or identity card, showing your name and date of birth.') %]</li>
-                        <li>[% l('A scanned copy of a utility bill or bank statement (no more than 3 months old).') %]</li>
+                        <li>[% l('A scanned copy of a utility bill or bank statement that is no more than three months old.') %]</li>
                     </ul>
                 </div>
                 <form class="form-new-account invisible"></form>
                 <div class="account-details"></div>
                 <p class="msg-switch-to-deposit notice-msg center-text invisible">[% l('To deposit or withdraw from your MetaTrader Account, switch to your Binary.com Real Account.') %]</p>
                 <div class="accordion invisible">
-                    <h3>[% l('Deposit to MetaTrader account') %]</h3>
+                    <h3>[% l('Make a deposit') %]</h3>
                     <div>
                         <form class="form-deposit">
-                            <p>[% l('Deposit funds into your MetaTrader account from your Binary account:') %]</p>
+                            <p>[% l('Transfer funds from Binary.com account into your MT5 account:') %]</p>
                             <div class="gr-row gr-padding-10">
-                                <div class="gr-6 form_label">[% l('Deposit from') %]</div>
+                                <div class="gr-6 form_label">[% l('Transfer from') %]</div>
                                 <div class="gr-6 form_label align-start binary-login"></div>
                             </div>
                             <div class="gr-row gr-padding-10">
-                                <div class="gr-6 form_label">[% l('Deposit to') %]</div>
+                                <div class="gr-6 form_label">[% l('Transfer into') %]</div>
                                 <div class="gr-6 form_label align-start mt-login"></div>
                             </div>
                             <div class="gr-row gr-padding-10">
-                                <div class="gr-6 form_label"><label>[% l('Amount') %]</label></div>
-                                <div class="gr-6">USD <input type="text" maxlength="10" class="txtAmount" /></div>
+                                <div class="gr-6 form_label"><label>[% l('Amount (USD)') %]</label></div>
+                                <div class="gr-6"><input type="text" maxlength="10" class="txtAmount" /></div>
                             </div>
                             <div class="gr-row gr-padding-10">
                                 <div class="gr-6 form_label"></div>
@@ -110,25 +110,25 @@
                             </div>
                         </form>
                     </div>
-                    <h3>[% l('Withdraw from MetaTrader account') %]</h3>
+                    <h3>[% l('Make a withdrawal') %]</h3>
                     <div>
                         <form class="form-withdrawal">
-                            <p>[% l('Withdraw funds from your MetaTrader account into your Binary account:') %]</p>
+                            <p>[% l('Transfer funds from your MT5 account into your Binary.com account:') %]</p>
                             <div class="gr-row gr-padding-10">
                                 <div class="gr-6 form_label">[% l('Withdraw from') %]</div>
                                 <div class="gr-6 form_label align-start mt-login"></div>
                             </div>
                             <div class="gr-row gr-padding-10">
-                                <div class="gr-6 form_label">[% l('Withdraw to') %]</div>
+                                <div class="gr-6 form_label">[% l('Transfer into') %]</div>
                                 <div class="gr-6 form_label align-start binary-login"></div>
                             </div>
                             <div class="gr-row gr-padding-10">
-                                <div class="gr-6 form_label"><label>[% l('MetaTrader Main Password') %]</label></div>
+                                <div class="gr-6 form_label"><label>[% l('MetaTrader main password') %]</label></div>
                                 <div class="gr-6"><input type="password" class="txtMainPass" /></div>
                             </div>
                             <div class="gr-row gr-padding-10">
-                                <div class="gr-6 form_label"><label>[% l('Amount') %]</label></div>
-                                <div class="gr-6">USD <input type="text" maxlength="10" class="txtAmount" /></div>
+                                <div class="gr-6 form_label"><label>[% l('Amount (USD)') %]</label></div>
+                                <div class="gr-6"><input type="text" maxlength="10" class="txtAmount" /></div>
                             </div>
                             <div class="gr-row gr-padding-10">
                                 <div class="gr-6 form_label"></div>

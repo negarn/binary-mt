@@ -29,23 +29,26 @@ sub _texts {
         # strings for user/settings/metatrader page
         push @texts, localize('Demo');
         push @texts, localize('Financial');
-        push @texts, localize('Volatility');
-        push @texts, localize('log in');
+        push @texts, localize('Volatility Indices');
+        push @texts, localize('Log in');
         push @texts, localize('Balance');
         push @texts, localize('Name');
-        push @texts, localize('To create a real account for MetaTrader, switch to your [_1] real money account.');
-        push @texts, localize('To create a real account for MetaTrader, <a href="[_1]">upgrade to [_2] real money account</a>.');
-        push @texts, localize('To create a financial account for MetaTrader 5, please complete the <a href="[_1]">Financial Assessment</a>.');
+        push @texts, localize('To create a Financial Account for MT5, please switch to your [_1] Real Account.');
+        push @texts, localize('To create a Financial Account for MT5, please <a href="[_1]"> upgrade to [_2] Real Account</a>.');
+        push @texts, localize('To create a Volatility Indices Account for MT5, please switch to your [_1] Real Account.');
+        push @texts, localize('To create a Volatility Indices Account for MT5, please <a href="[_1]"> upgrade to [_2] Real Account</a>.');
+        push @texts, localize('To create a Financial Account for MT5, please complete the <a href="[_1]">Financial Assessment</a>.');
         push @texts, localize('Your new account has been created.');
         push @texts, localize('Deposit is done. Transaction ID: [_1]');
         push @texts, localize('Withdrawal is done. Transaction ID: [_1]');
         push @texts, localize('Start trading with your MetaTrader Account:');
-        push @texts, localize('MetaTrader Web Platform');
-        push @texts, localize('Download MetaTrader');
-        push @texts, localize('Congratulations! Your account has been created.');
+        push @texts, localize('Go to web terminal');
+        push @texts, localize('Download desktop app');
+        push @texts, localize('Congratulations! Your Financial Account has been created.');
+        push @texts, localize('Congratulations! Your Volatility Indices Account has been created.');
         push @texts, localize('Sorry, an error occurred while processing your request.');
         push @texts, localize('Volatility Indices Account');
-        push @texts, localize('Investor Password cannot be same as Main Password.');
+        push @texts, localize('Investor password cannot be same as Main password.');
         push @texts, localize('Please contact <a href="[_1]">Customer Support</a>.');
         push @texts, localize('Please [_1] to your Binary.com account.');
 
