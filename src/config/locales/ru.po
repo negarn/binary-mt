@@ -1,65 +1,82 @@
-msgid "%1 gives everyone an easy way to participate in the financial markets. Trade with as little as $1 USD on major currencies, stocks, indices, and commodities."
+msgid ""
 msgstr ""
+"Project-Id-Version: binary-mt\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2016-12-19 17:07-0500\n"
+"Last-Translator: binarycom <jy@binary.com>\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: binary-mt\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /translations/src/config/locales/messages.pot\n"
+"Language: ru_RU\n"
+
+msgid "%1 gives everyone an easy way to participate in the financial markets. Trade with as little as $1 USD on major currencies, stocks, indices, and commodities."
+msgstr "%1 открывает Вам простой способ работы на финансовых рынках. Заключайте сделки на сумму от $1 USD на ведущих валютных парах, акциях, индексах и сырьевых рынках."
 
 msgid "%1 has updated its  <a target=\"_blank\" href=\"%2\">Terms & Conditions</a>. By clicking OK, you confirm that you have read and accepted the updated <a target=\"_blank\" href=\"%2\">Terms & Conditions</a>."
-msgstr ""
+msgstr "%1 обновил  <a target=\"_blank\" href=\"%2\">Правила и условия</a>. Нажав OK, Вы подтвердите, что прочитали и принимаете обновлённые <a target=\"_blank\" href=\"%2\">Правила и условия</a>."
 
 msgid "%1 offers forex and contracts for differences via the hybrid model, i.e., both dealing on own account (dealing desk) and partially hedging client orders with our liquidity providers (no-dealing desk). Client orders are typically hedged when the total transaction volume exceeds a predefined threshold of risk tolerance level. For both execution models, %1 acts as the contractual counterparty to the transactions that you enter into with us, as opposed to entering into a contractual counterparty with a central clearing house as would be the case with exchange traded financial instruments. As such, counterparty risk exists. Counterparty risk refers to the risk of loss for clients resulting from the fact that the counterparty to the forex and/or contracts for differences transaction that you entered into may default on its obligations prior to the final settlement of the transaction's cash flow."
 msgstr ""
 
 msgid "&#36;1/point"
-msgstr ""
+msgstr "&#36;1/пункт"
 
 msgid "&#36;100,000 - &#36;250,000"
-msgstr ""
+msgstr "&#36;100 000 - &#36;250 000"
 
 msgid "&#36;100,001 - &#36;500,000"
-msgstr ""
+msgstr "&#36;100 001 - &#36;500 000"
 
 msgid "&#36;25,000 - &#36;50,000"
-msgstr ""
+msgstr "&#36;25 000 - &#36;50 000"
 
 msgid "&#36;250,001 - &#36;500,000"
-msgstr ""
+msgstr "&#36;250 001 - &#36;500 000"
 
 msgid "&#36;50,001 - &#36;100,000"
-msgstr ""
+msgstr "&#36;50 001 - &#36;100 000"
 
 msgid "&#36;500,001 - &#36;1,000,000"
-msgstr ""
+msgstr "&#36;500 001 - &#36;1 000 000"
 
 msgid "&copy; 2016 Binary.com"
-msgstr ""
+msgstr "Все права защищены &copy; 2016 Binary.com"
 
 msgid "* Minimum Spread is a percentage of the underlying market price, and can change over time."
-msgstr ""
+msgstr "* Минимальный спред представляет собой определённый процент от стоимости основного актива и может меняться с течением времени."
 
 msgid "** Leverage of 500:1 results in a margin rate of 0.002."
-msgstr ""
+msgstr "** Кредитный рычаг в размере 500:1 означает размер маржи 0.002."
 
 msgid "0-1 year"
-msgstr ""
+msgstr "0-1 год"
 
 msgid "0-5 transactions in the past 12 months"
-msgstr ""
+msgstr "0-5 транзакций за последние 12 месяцев"
 
 msgid "1-2 years"
-msgstr ""
+msgstr "1-2 года"
 
 msgid "40 transactions or more in the past 12 months"
-msgstr ""
+msgstr "40 или более транзакций за последние 12 месяцев"
 
 msgid "6-10 transactions in the past 12 months"
-msgstr ""
+msgstr "6-10 транзакций за последние 12 месяцев"
 
 msgid "<a href=\"%1\">Return to MetaTrader Settings</a>."
-msgstr ""
+msgstr "<a href=\"%1\">Вернуться к настройкам MetaTrader</a>."
 
 msgid "<strong>Margin Call Level</strong> - when you reach this level of assets (i.e., when your account equity is insufficient to cover the margin requirement), your account is under margin call. The margin call state does not affect the ability of opening new positions."
-msgstr ""
+msgstr "<strong>Уровень увеличения маржи</strong> — когда Вы достигаете данного уровня на торгуемом активе (напр., когда суммы средств на счету недостаточно для соблюдения маржевого требования), Вам поступает запрос на увеличение маржи. Статус запроса на увеличение маржи не влияет на Вашу возможность открывать новые контракты."
 
 msgid "<strong>Margin Policy:</strong> The forced liquidation level is 50%. Please refer to our <a href=\"%1\">Margin Policy</a> for further details."
-msgstr ""
+msgstr "<strong>Политика расчёта маржи:</strong> Уровень принудительного закрытия составляет 50%. Для получения дополнительной информации, пожалуйста, ознакомьтесь с нашей <a href=\"%1\">Политикой расчёта маржи</a>."
 
 msgid "<strong>Stop Out Level</strong> - when you reach this level of assets, your pending orders are deleted and open positions are forced closed. The forced liquidation level is 50%. Once the account has hit the forced liquidation level, orders and positions are forcedly closed on an account in the following order:"
 msgstr ""
@@ -71,10 +88,10 @@ msgid "A higher figure (higher to you) representing our offer price and a lower 
 msgstr ""
 
 msgid "A scanned copy of a utility bill or bank statement (no more than 3 months old)."
-msgstr ""
+msgstr "Отсканированная копия счёта за коммунальные услуги или выписки с Вашего банковского счёта (датированные не позднее, чем за 3 месяца до текущей даты)."
 
 msgid "A scanned copy of your passport, driving licence (provisional or full) or identity card, showing your name and date of birth."
-msgstr ""
+msgstr "Отсканированная копия Вашего паспорта, водительских прав (временного или постоянного водительского удостоверения) или ID-карты, содержащей Ваше имя и дату рождения."
 
 msgid "A. Introduction"
 msgstr ""
@@ -86,7 +103,7 @@ msgid "A. Spot FX"
 msgstr ""
 
 msgid "Access advanced tools for fundamental and technical analysis, all available in one platform."
-msgstr ""
+msgstr "Получите доступ к расширенным торговым инструментам для фундаментального и технического анализа, найти которые можно на платформе."
 
 msgid "Account Balance - Your account balance represents:"
 msgstr ""
@@ -98,10 +115,10 @@ msgid "Account Free Margin - Your Account Equity minus your Total Margin."
 msgstr ""
 
 msgid "Account Security"
-msgstr ""
+msgstr "Безопасность счёта"
 
 msgid "Account Type"
-msgstr ""
+msgstr "Тип счёта"
 
 msgid "Accounts with debit balance (i.e. credit exposure to %1)"
 msgstr ""
@@ -110,7 +127,7 @@ msgid "Accounts with debit balances are required to settle the full amount immed
 msgstr ""
 
 msgid "Advanced Tools &amp; Platforms"
-msgstr ""
+msgstr "Расширенные инструменты и платформы"
 
 msgid "All client orders are processed on a first in first out basis without any manual intervention. When executing your order, Binary.com will seek to fill your order transaction as promptly as possible, at the instructed price (or at a better price, if available). Exposure limits are established based on internal governance arrangements and risk management framework which commensurate with the size, nature, complexity, and risk profile of our activities. These exposure limits are used as benchmarks to distinguish orders that are auto-accepted and orders that will be worked in the market with fill level passed on to the client."
 msgstr ""
@@ -131,7 +148,7 @@ msgid "Alter the normal trading times for the affected market;"
 msgstr ""
 
 msgid "Amount"
-msgstr ""
+msgstr "Сумма"
 
 msgid "An Open Position may be closed by placing an opposite Order, that is an Order to sell (to close a Long Position) or to buy (to close a Short Position) in the same market for the same specified number of lots (volume)."
 msgstr ""
@@ -167,7 +184,7 @@ msgid "B. Scope"
 msgstr ""
 
 msgid "Balance"
-msgstr ""
+msgstr "Баланс"
 
 msgid "Base Currency"
 msgstr ""
@@ -191,7 +208,7 @@ msgid "Binary.com assesses the choice of external execution venues regularly (at
 msgstr ""
 
 msgid "Binary.com enters Forex and CFD trading with the universally acclaimed MetaTrader 5, in addition to its continued leadership presence in the binary options market."
-msgstr ""
+msgstr "В дополнение к своей ведущей позиции на рынке бинарных опционов, Binary.com внедряет торговлю валютами и контрактами на разницу на международно-известной платформе MetaTrader 5."
 
 msgid "Binary.com offers forex and contracts for differences via the hybrid model, i.e., both dealing on own account (dealing desk) and partially hedging client orders with our liquidity providers (no-dealing desk)."
 msgstr ""
@@ -230,7 +247,7 @@ msgid "Change the margin rate in relation to both Open Positions and new orders;
 msgstr ""
 
 msgid "Click the button below to download MetaTrader."
-msgstr ""
+msgstr "Нажмите на кнопку ниже, чтобы загрузить MetaTrader."
 
 msgid "Client Money"
 msgstr ""
@@ -263,7 +280,7 @@ msgid "Confidentiality"
 msgstr ""
 
 msgid "Congratulations! Your account has been created."
-msgstr ""
+msgstr "Поздравляем! Ваш счёт успешно открыт."
 
 msgid "Construction"
 msgstr ""
@@ -272,19 +289,19 @@ msgid "Contact Us"
 msgstr ""
 
 msgid "Contract Specifications"
-msgstr ""
+msgstr "Характеристики контрактов"
 
 msgid "Costs - the costs of executing your order comprised predominantly of spread, i.e., the difference between our bid and our offer price."
 msgstr ""
 
 msgid "Create"
-msgstr ""
+msgstr "Открыть"
 
 msgid "Create Your MetaTrader 5 Account Now"
-msgstr ""
+msgstr "Откройте счёт на MetaTrader 5 прямо сейчас"
 
 msgid "Create a MetaTrader account to trade on the MetaTrader 5 platform."
-msgstr ""
+msgstr "Откройте счёт MetaTrader для торговли на платформе MetaTrader 5."
 
 msgid "D. Capacity"
 msgstr ""
@@ -293,43 +310,43 @@ msgid "D. Client Instructions"
 msgstr ""
 
 msgid "Demo"
-msgstr ""
+msgstr "Демо"
 
 msgid "Demo Account"
-msgstr ""
+msgstr "Демо-счёт"
 
 msgid "Depending on the level of risk that we are exposed to acting as your counterparty, we largely act in a principal capacity of your trades. As such, the execution venue will usually be Binary.com. However, we may transmit your order to third party liquidity providers, in which case we will determine the execution venue ourselves on the basis described above."
 msgstr ""
 
 msgid "Deposit"
-msgstr ""
+msgstr "Пополнить"
 
 msgid "Deposit from"
-msgstr ""
+msgstr "Пополнить через"
 
 msgid "Deposit funds into your MetaTrader account from your Binary account:"
-msgstr ""
+msgstr "Перевести средства со счёта Binary на счёт MetaTrader:"
 
 msgid "Deposit is done. Transaction ID: %1"
 msgstr ""
 
 msgid "Deposit to"
-msgstr ""
+msgstr "Перевести на"
 
 msgid "Deposit to MetaTrader account"
-msgstr ""
+msgstr "Пополнить счёт MetaTrader"
 
 msgid "Details"
 msgstr ""
 
 msgid "Download MetaTrader"
-msgstr ""
+msgstr "Загрузить MetaTrader"
 
 msgid "Download MetaTrader for Windows"
-msgstr ""
+msgstr "Загрузить MetaTrader для Windows"
 
 msgid "Download for MacOS"
-msgstr ""
+msgstr "Загрузить для MacOS"
 
 msgid "Due to recent changes in the regulations, we are required to ask our clients to complete the following Financial Assessment. Please note that you will not be able to continue trading until this is completed."
 msgstr ""
@@ -347,7 +364,7 @@ msgid "Education"
 msgstr ""
 
 msgid "Enhanced Trading with MetaTrader 5"
-msgstr ""
+msgstr "Широкие торговые возможности MetaTrader 5"
 
 msgid "Estimated Net Worth"
 msgstr ""
@@ -374,7 +391,7 @@ msgid "Financial"
 msgstr ""
 
 msgid "Financial Account"
-msgstr ""
+msgstr "Финансовый счёт"
 
 msgid "Financial Assessment"
 msgstr ""
@@ -437,9 +454,12 @@ msgid "Health"
 msgstr ""
 
 msgid "High Risk Investment Warning: Trading foreign exchange and/or contracts for differences on margin carries a very high level of risk, and may not be suitable for all investors. There is a possibility that you could sustain a loss in excess of your deposited funds. Accordingly, you should not speculate with capital that you cannot afford to lose. Before deciding to trade the products offered via this website you should carefully consider your financial objectives, needs and level of trading experience. In particular, you should be aware of all the risks associated with trading on margin. Furthermore, the Binary group of companies do not issue advice, recommendations or opinions in relation to acquiring, holding or disposing of any financial products, and all services are provided on an execution only basis."
-msgstr ""
+msgstr "Предупреждение о высоком уровне риска при инвестировании: Торговля валютами и/или контрактами на разницу с применением маржи подразумевает очень высокий уровень риска и может подойти не всем инвесторам. Существует возможность, что Ваши потери превысят размер внесённых Вами средств. Таким образом, рекомендуем Вам не рисковать капиталом, который Вы не можете позволить себе потерять. Перед принятием решения о торговле продуктами, предложенными на данном сайте, Вы должны тщательно изучить свои финансовые цели, потребности и уровень торгового опыта. В частности, Вы должны знать обо всех рисках, сопряжённых с маржинальной торговлей. Также следует отметить, что группа компаний Binary Group не даёт советов, рекомендаций и не выражает своего мнения в отношении приобретения, удержания или продажи любых финансовых продуктов. Все наши услуги предоставляются исключительно на основе исполнения."
 
 msgid "High frequency (2 ticks per second)"
+msgstr ""
+
+msgid "I have read and agree to the"
 msgstr ""
 
 msgid "I. Quotes"
@@ -479,7 +499,7 @@ msgid "If you have entered into more than one Open Position in the same market, 
 msgstr ""
 
 msgid "If you previously downloaded MetaTrader 5 directly from MetaTrader's website, please select \"%1\" from the list of available brokers."
-msgstr ""
+msgstr "Если Вы ранее загружали платформу MetaTrader 5 напрямую с сайта MetaTrader, пожалуйста, выберите \"%1\" из списка доступных брокеров."
 
 msgid "If you wish to withdraw funds from your Real Account and close your Real Account, you may notify us by contacting our helpdesk at <a href='mailto:%1'>%1</a>. Your Real Account may be closed if you do not have any Open Positions and all amounts due to us have been settled."
 msgstr ""
@@ -506,7 +526,7 @@ msgid "In executing orders on your behalf, Binary.com takes into consideration t
 msgstr ""
 
 msgid "In order to create an account for MetaTrader, you need to authenticate your Binary account."
-msgstr ""
+msgstr "Чтобы открыть счёт на MetaTrader, необходимо аутентифицировать Ваш счёт на Binary."
 
 msgid "In the case of a Limit Order, you acknowledge that we will endeavour to open/close a Transaction at a level that is the same or better than the Limit you specified, subject to the availability of the Limit Price. You acknowledge that at the time of order execution, our bid/offer price may become less favourable to you."
 msgstr ""
@@ -536,16 +556,16 @@ msgid "Industry of Employment"
 msgstr ""
 
 msgid "Introducing <strong>MetaTrader 5</strong> for Binary.com"
-msgstr ""
+msgstr "Представляем <strong>MetaTrader 5</strong> для Binary.com"
 
 msgid "Investments &amp; Dividends"
 msgstr ""
 
 msgid "Investor Password (read-only access)"
-msgstr ""
+msgstr "Пароль инвестора (только для чтения)"
 
 msgid "Investor Password cannot be same as Main Password."
-msgstr ""
+msgstr "Пароль инвестора не может совпадать с основным паролем."
 
 msgid "It deletes an order with the largest margin reserved."
 msgstr ""
@@ -572,7 +592,7 @@ msgid "Level of Education"
 msgstr ""
 
 msgid "Leverage"
-msgstr ""
+msgstr "Кредитный рычаг"
 
 msgid "Leverage can be used to generate returns that are of multiple times higher than the amount set aside from your account balance to open and maintain a transaction (your margin). However, investments that have the potential to deliver greater investment returns carry higher levels of risk. This means that if the price movement is against your favour, you will suffer losses that are of multiple times higher than the amount set aside from your account balance to open and maintain a transaction (your margin)."
 msgstr ""
@@ -590,19 +610,19 @@ msgid "Limit Order - an instruction to open or close a transaction if and when a
 msgstr ""
 
 msgid "Linux Instructions"
-msgstr ""
+msgstr "Инструкции для Linux"
 
 msgid "Log in"
-msgstr ""
+msgstr "Вход"
 
 msgid "Log into the application using your MetaTrader account number and your MetaTrader account password."
-msgstr ""
+msgstr "Войдите в приложение, указав номер счёта и пароль на MetaTrader."
 
 msgid "M. Manifest Error"
 msgstr ""
 
 msgid "Main Password (trading access)"
-msgstr ""
+msgstr "Основной пароль (доступ к торговле)"
 
 msgid "Margin - The amount set aside by us from your Account Balance in order to open and maintain a Transaction, to cover our exposure as a counterparty to your contract."
 msgstr ""
@@ -623,7 +643,7 @@ msgid "Margin Payments are due immediately and shall be received in full by us."
 msgstr ""
 
 msgid "Margin Policy"
-msgstr ""
+msgstr "Политика расчета маржи"
 
 msgid "Margin Requirement and Calculation"
 msgstr ""
@@ -638,10 +658,10 @@ msgid "Maximum Volume (Trade Size)"
 msgstr ""
 
 msgid "MetaTrader Accounts Management"
-msgstr ""
+msgstr "Управление счетами на MetaTrader"
 
 msgid "MetaTrader Main Password"
-msgstr ""
+msgstr "Основной пароль на MetaTrader"
 
 msgid "MetaTrader Web Platform"
 msgstr ""
@@ -656,7 +676,7 @@ msgid "Minimum Volume (Trade Size)"
 msgstr ""
 
 msgid "Minimum of eight lower and uppercase letters with numbers"
-msgstr ""
+msgstr "Пароль должен содержать минимум восемь заглавных и строчных букв с цифрами"
 
 msgid "Money collected from Clients are not invested in any securities, futures, or other investments, on behalf of Clients."
 msgstr ""
@@ -665,7 +685,7 @@ msgid "N. Force Majeure Events"
 msgstr ""
 
 msgid "Name"
-msgstr ""
+msgstr "Имя"
 
 msgid "Neither the Company nor any its directors, officers, managers, employees, or agents shall be liable for any loss, damage or debt to you arising directly or indirectly out of or in connection with this Agreement. You agree to indemnify the Company and its directors, officers, managers, employees, or agents harmless from and against any and all liabilities, losses, damages, costs and expenses (including reasonable attorney's fees) incurred arising out of your failure to comply with any and all of its obligations set forth in this Agreement and/or the Company's enforcement against you of any and all of its rights under this Agreement."
 msgstr ""
@@ -698,7 +718,7 @@ msgid "Open Position - the position in a market made by reference to an Underlyi
 msgstr ""
 
 msgid "Open a free Demo account. Upgrade to a Real account by depositing funds thru your Binary.com account cashier."
-msgstr ""
+msgstr "Откройте бесплатный Демо-счёт. Обновите его на Реальный счёт, внеся средства через раздел Касса на вашем счету на Binary.com."
 
 msgid "Opening a Transaction"
 msgstr ""
@@ -758,7 +778,7 @@ msgid "Pip Size"
 msgstr ""
 
 msgid "Please %1 to your Binary.com account."
-msgstr ""
+msgstr "Пожалуйста, %1 на свой счёт на Binary.com."
 
 msgid "Please contact <a href=\"%1\">Customer Support</a>."
 msgstr ""
@@ -800,7 +820,7 @@ msgid "Real Account - Your real money account opened with Binary.com's MT5 Tradi
 msgstr ""
 
 msgid "Register Your MetaTrader 5 Account"
-msgstr ""
+msgstr "Откройте счёт на MetaTrader 5"
 
 msgid "Regular monitoring of open positions"
 msgstr ""
@@ -830,7 +850,7 @@ msgid "Roll-over Credit/Debit - Accounts with Open Positions concerned by the Ro
 msgstr ""
 
 msgid "Run the installation file and follow the instructions."
-msgstr ""
+msgstr "Откройте установочный файл и следуйте инструкциям."
 
 msgid "Salaried Employee"
 msgstr ""
@@ -857,7 +877,7 @@ msgid "Server"
 msgstr ""
 
 msgid "Sign out"
-msgstr ""
+msgstr "Выход"
 
 msgid "Size - the size of your order determined by the volume (number of lots)."
 msgstr ""
@@ -869,10 +889,10 @@ msgid "Speed - the speed at which your order can be executed."
 msgstr ""
 
 msgid "Start Trading with MetaTrader 5"
-msgstr ""
+msgstr "Начните торговлю на MetaTrader 5"
 
 msgid "Start trading with your MetaTrader Account:"
-msgstr ""
+msgstr "Начните торговлю со своего счёта MetaTrader:"
 
 msgid "Stocks trading experience"
 msgstr ""
@@ -902,7 +922,7 @@ msgid "Submit"
 msgstr ""
 
 msgid "Subscribe to a wide range of algorithmic trading strategies from the built-in MetaTrader Market."
-msgstr ""
+msgstr "Подпишитесь на широкий спектр стратегий для алгоритмической торговли через встроенный Рынок MetaTrader."
 
 msgid "Such withdrawal would result in your Account Equity being less than zero; and/or"
 msgstr ""
@@ -917,7 +937,7 @@ msgid "Symbol"
 msgstr ""
 
 msgid "Terms and Conditions"
-msgstr ""
+msgstr "Правила и условия"
 
 msgid "Tertiary"
 msgstr ""
@@ -1049,7 +1069,7 @@ msgid "Throughout the duration of the Transaction and for as long as the Transac
 msgstr ""
 
 msgid "To authenticate your account, kindly email the following to <a href=\"mailto:%1\">%1</a>"
-msgstr ""
+msgstr "Чтобы аутентифицировать Ваш счёт, отправьте следующие документы по адресу <a href=\"mailto:%1\">%1</a>:"
 
 msgid "To create a financial account for MetaTrader 5, please complete the <a href=\"%1\">Financial Assessment</a>."
 msgstr ""
@@ -1061,7 +1081,7 @@ msgid "To create a real account for MetaTrader, switch to your %1 real money acc
 msgstr ""
 
 msgid "To deposit or withdraw from your MetaTrader Account, switch to your Binary.com Real Account."
-msgstr ""
+msgstr "Чтобы пополнить счёт или вывести средства со счёта MetaTrader, перейдите на Реальный счёт на Binary.com."
 
 msgid "To open a Real Account, you must have an authenticated Binary Options Real Account with Binary.com. A Real Account cannot be opened in the absence of a Binary Options Real Account."
 msgstr ""
@@ -1073,16 +1093,16 @@ msgid "Tourism"
 msgstr ""
 
 msgid "Trade Forex and CFD asset classes with an award-winning broker."
-msgstr ""
+msgstr "Торгуйте валютами и контрактами на разницу на самых разнообразных активах с брокером, удостоенным множества наград."
 
 msgid "Trade Forex and Contracts for Difference (CFD) assets with highly-competitive leverage and zero commission."
-msgstr ""
+msgstr "Торгуйте валютами (Forex) и контрактами на разницу (CFD) с конкурентноспособным кредитным рычагом и нулевыми комиссиями."
 
 msgid "Trade the Forex markets with leverage up to 100:1, and Volatility Indices with leverage up to 500:1."
-msgstr ""
+msgstr "Торгуйте на валютных рынках с кредитным рычагом в размере до 100:1. Заключайте сделки на Индексах волатильности с кредитным рычагом в размере до 500:1."
 
 msgid "Trade using the mobile and desktop apps, or use the web platform from any web browser."
-msgstr ""
+msgstr "Торгуйте с приложений для мобильного телефона и ПК или заключайте сделки на веб платформе, доступной на любом браузере."
 
 msgid "Trading Rules"
 msgstr ""
@@ -1109,7 +1129,7 @@ msgid "Upon opening a Transaction, the sum due and payable by you to us are dedu
 msgstr ""
 
 msgid "Verify Main Password"
-msgstr ""
+msgstr "Подтвердить основной пароль"
 
 msgid "Version 3"
 msgstr ""
@@ -1133,10 +1153,10 @@ msgid "Volatility 75 Index"
 msgstr ""
 
 msgid "Volatility Indices"
-msgstr ""
+msgstr "Индексы волатильности"
 
 msgid "Volatility Indices Account"
-msgstr ""
+msgstr "Счёт на индексах волатильности"
 
 msgid "Volatility Indices Contract Specifications"
 msgstr ""
@@ -1223,19 +1243,19 @@ msgid "Whilst we endeavour to take all reasonable and sufficient steps, as requi
 msgstr ""
 
 msgid "Withdraw"
-msgstr ""
+msgstr "Вывести"
 
 msgid "Withdraw from"
-msgstr ""
+msgstr "Вывести с"
 
 msgid "Withdraw from MetaTrader account"
-msgstr ""
+msgstr "Снять деньги со счёта MetaTrader"
 
 msgid "Withdraw funds from your MetaTrader account into your Binary account:"
-msgstr ""
+msgstr "Перевести средства со счёта MetaTrader на счёт Binary:"
 
 msgid "Withdraw to"
-msgstr ""
+msgstr "Перевести на"
 
 msgid "Withdrawal is done. Transaction ID: %1"
 msgstr ""
@@ -1310,7 +1330,7 @@ msgid "You have fully read and understood the: (i) Risk Disclosure Statement; (i
 msgstr ""
 
 msgid "You have reached the rate limit of requests per second. To continue, please <a href=\"javascript:;\" id=\"ratelimit-refresh-link\">refresh</a> the page."
-msgstr ""
+msgstr "Вы достигли предела запросов в секунду. Чтобы продолжить, пожалуйста <a href=\"javascript:;\" id=\"ratelimit-refresh-link\">обновите</a> данную страницу."
 
 msgid "You have read our privacy statement and hereby give us consent to process your personal information as outlined there;"
 msgstr ""
@@ -1364,10 +1384,10 @@ msgid "You will, at all times, obtain and comply, and do all that is necessary t
 msgstr ""
 
 msgid "You're using a Virtual Account."
-msgstr ""
+msgstr "Вы находитесь на Демо-счету"
 
 msgid "Your Name"
-msgstr ""
+msgstr "Ваше имя"
 
 msgid "Your Real Account password and login ID are unique and passwords are hashed so that not even Binary.com staff can read them. This is the reason why we cannot retrieve your password and have to issue you with a new one to your email address if you cannot recall it;"
 msgstr ""
@@ -1435,6 +1455,12 @@ msgstr ""
 msgid "net of realised profits credited to your Real Account and realised losses debited from your Real Account;"
 msgstr ""
 
+msgid "of the site."
+msgstr ""
+
+msgid "terms and conditions"
+msgstr ""
+
 msgid "the characteristics of financial instruments that are the subject of that order;"
 msgstr ""
 
@@ -1460,7 +1486,7 @@ msgid "404"
 msgstr ""
 
 msgid "MetaTrader"
-msgstr ""
+msgstr "MetaTrader"
 
 msgid "Terms and Conditions Approval"
 msgstr ""
