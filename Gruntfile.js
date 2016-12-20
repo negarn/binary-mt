@@ -7,9 +7,9 @@ module.exports = function (grunt) {
 
     // map release parameters to required branch and target gh-pages subfolder
     global.release_info = {
-        production  : {branch: 'master'      , target_folder: ''},
-        beta        : {branch: 'beta'        , target_folder: 'beta'},
-        translations: {branch: 'translations', target_folder: 'translations'},
+        production  : {branch: 'master', target_folder: ''},
+        beta        : {branch: 'beta'  , target_folder: 'beta'},
+        translations: {branch: 'beta'  , target_folder: 'translations'},
     };
 
     Object.keys(global.release_info).forEach(function(target) {
