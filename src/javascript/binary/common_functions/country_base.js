@@ -1,6 +1,3 @@
-// var Cookies = require('../../lib/js-cookie');
-// var Login = require('../base/login').Login;
-
 function checkClientsCountry() {
     var clients_country = localStorage.getItem('clients_country');
     if (clients_country) {
@@ -35,8 +32,3 @@ function japanese_client() {
     if (typeof window === 'undefined') return false;
     return (page.language().toLowerCase() === 'ja' || (Cookies.get('residence') === 'jp') || localStorage.getItem('clients_country') === 'jp');
 }
-
-// module.exports = {
-//     checkClientsCountry: checkClientsCountry,
-//     japanese_client    : japanese_client,
-// };

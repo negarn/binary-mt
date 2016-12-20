@@ -97,15 +97,13 @@ foreach my $m (@m) {
 
         my %stash = (
             website_name    => $request->website->display_name,
+            brand_name      => 'Binary.com',
             browser_title   => ($title ? localize($title).' | ' : '') . $request->website->display_name,
             request         => $request,
             language        => uc $lang,
             current_path    => $save_as,
             current_route   => $current_route,
-            affiliate_email => 'affiliates@binary.com',
-            full_width      => $layout && $layout eq 'full_width',
-            get_started     => $layout && $layout eq 'get_started',
-            japan_docs_url  => 'https://japan-docs.binary.com'
+            full_width      => $layout && $layout eq 'full_width'
         );
 
         if ($title) {
@@ -161,8 +159,7 @@ sub tt2_handle {
     $stash{icon_url}         = $request->url_for('images/common/favicon_1.ico');
     $stash{lang}             = $request->language;
     $stash{menu}             = menu();
-    $stash{is_japan}         = 1 if index($stash{current_path}, 'jptrading') > -1;
-
+    
     $stash{language_options} = [all_languages()];
 
     my $output = '';

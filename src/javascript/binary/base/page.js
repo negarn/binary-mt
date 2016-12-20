@@ -669,13 +669,13 @@ var Page = function(config) {
 Page.prototype = {
     all_languages: function() {
         return {
+            ACH  : 'Translations',
             EN   : 'English',
             DE   : 'Deutsch',
             ES   : 'Español',
             FR   : 'Français',
             ID   : 'Indonesia',
             IT   : 'Italiano',
-            JA   : '日本語',
             PL   : 'Polish',
             PT   : 'Português',
             RU   : 'Русский',
