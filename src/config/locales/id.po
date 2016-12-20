@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-11-28 02:17-0500\n"
+"PO-Revision-Date: 2016-12-18 22:05-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Indonesian\n"
 "MIME-Version: 1.0\n"
@@ -16,64 +16,64 @@ msgstr ""
 "Language: id_ID\n"
 
 msgid "%1 gives everyone an easy way to participate in the financial markets. Trade with as little as $1 USD on major currencies, stocks, indices, and commodities."
-msgstr ""
+msgstr "%1 memberi cara mudah untuk berpartisipasi dalam pasar keuangan. Trading dengan modal serendah $1 pada pasangan valuta asing, saham, indeks dan komoditas."
 
 msgid "%1 has updated its  <a target=\"_blank\" href=\"%2\">Terms & Conditions</a>. By clicking OK, you confirm that you have read and accepted the updated <a target=\"_blank\" href=\"%2\">Terms & Conditions</a>."
-msgstr ""
+msgstr "%1 telah memperbarui  <a target=\"_blank\" href=\"%2\">Syarat & Ketentuannya</a>. Dengan mengklik OK, berarti Anda telah membaca dan menerima <a target=\"_blank\" href=\"%2\">Syarat & Ketentuan terbaru</a>."
 
 msgid "%1 offers forex and contracts for differences via the hybrid model, i.e., both dealing on own account (dealing desk) and partially hedging client orders with our liquidity providers (no-dealing desk). Client orders are typically hedged when the total transaction volume exceeds a predefined threshold of risk tolerance level. For both execution models, %1 acts as the contractual counterparty to the transactions that you enter into with us, as opposed to entering into a contractual counterparty with a central clearing house as would be the case with exchange traded financial instruments. As such, counterparty risk exists. Counterparty risk refers to the risk of loss for clients resulting from the fact that the counterparty to the forex and/or contracts for differences transaction that you entered into may default on its obligations prior to the final settlement of the transaction's cash flow."
 msgstr ""
 
 msgid "&#36;1/point"
-msgstr ""
+msgstr "&#36;1/point"
 
 msgid "&#36;100,000 - &#36;250,000"
-msgstr ""
+msgstr "&#36;100,000 - &#36;250,000"
 
 msgid "&#36;100,001 - &#36;500,000"
-msgstr ""
+msgstr "&#36;100,001 - &#36;500,000"
 
 msgid "&#36;25,000 - &#36;50,000"
-msgstr ""
+msgstr "&#36;25,000 - &#36;50,000"
 
 msgid "&#36;250,001 - &#36;500,000"
-msgstr ""
+msgstr "&#36;250,001 - &#36;500,000"
 
 msgid "&#36;50,001 - &#36;100,000"
-msgstr ""
+msgstr "&#36;50,001 - &#36;100,000"
 
 msgid "&#36;500,001 - &#36;1,000,000"
-msgstr ""
+msgstr "&#36;500,001 - &#36;1,000,000"
 
 msgid "&copy; 2016 Binary.com"
-msgstr ""
+msgstr "&copy; Binary.com 2016"
 
 msgid "* Minimum Spread is a percentage of the underlying market price, and can change over time."
-msgstr ""
+msgstr "* Minimal Spread adalah persentase dari harga pasar dasar dan dapat berubah sewaktu-waktu."
 
 msgid "** Leverage of 500:1 results in a margin rate of 0.002."
-msgstr ""
+msgstr "** Leverage 500:1 hasil dalam tingkat margin 0.002."
 
 msgid "0-1 year"
-msgstr ""
+msgstr "0-1 tahun"
 
 msgid "0-5 transactions in the past 12 months"
-msgstr ""
+msgstr "0-5 transaksi pada 12 bulan terakhir"
 
 msgid "1-2 years"
-msgstr ""
+msgstr "1-2 tahun"
 
 msgid "40 transactions or more in the past 12 months"
-msgstr ""
+msgstr "40 transaksi pada 12 bulan terakhir"
 
 msgid "6-10 transactions in the past 12 months"
-msgstr ""
+msgstr "6-10 transaksi pada 12 bulan terakhir"
 
 msgid "<a href=\"%1\">Return to MetaTrader Settings</a>."
-msgstr ""
+msgstr "<a href=\"%1\">Kembali ke Pengaturan MetaTrader</a>."
 
 msgid "<strong>Margin Call Level</strong> - when you reach this level of assets (i.e., when your account equity is insufficient to cover the margin requirement), your account is under margin call. The margin call state does not affect the ability of opening new positions."
-msgstr ""
+msgstr "<strong>Margin Call Level</strong> - ketika Anda mencapai batasan level aset ini (yaitu ketika jumlah ekuitas tidak mencukupi untuk menutup margin yang diperlukan), akun Anda dibawah margin call. Bagaimanapun margin call tidak mempengaruhi pembelian posisi baru."
 
 msgid "<strong>Margin Policy:</strong> The forced liquidation level is 50%. Please refer to our <a href=\"%1\">Margin Policy</a> for further details."
 msgstr ""
@@ -88,40 +88,40 @@ msgid "A higher figure (higher to you) representing our offer price and a lower 
 msgstr ""
 
 msgid "A scanned copy of a utility bill or bank statement (no more than 3 months old)."
-msgstr ""
+msgstr "Salinan scan dari tagihan utilitas atau rekening koran (tidak melebihi 3 bulan)."
 
 msgid "A scanned copy of your passport, driving licence (provisional or full) or identity card, showing your name and date of birth."
-msgstr ""
+msgstr "Salinan scan dari paspor, Sim atau Ktp, yang memperlihatkan nama dan tanggal lahir Anda."
 
 msgid "A. Introduction"
-msgstr ""
+msgstr "A. Pendahuluan"
 
 msgid "A. Introduction and Scope of Agreement"
-msgstr ""
+msgstr "A. Pendahuluan dan Ruang Lingkup Perjanjian"
 
 msgid "A. Spot FX"
-msgstr ""
+msgstr "A. Spot FX"
 
 msgid "Access advanced tools for fundamental and technical analysis, all available in one platform."
 msgstr ""
 
 msgid "Account Balance - Your account balance represents:"
-msgstr ""
+msgstr "Saldo akun Anda - saldo akun Anda merupakan:"
 
 msgid "Account Equity - Your Account Equity refers to the sum of your Account Balance and the net of unrealised profit and loss."
-msgstr ""
+msgstr "Ekuitas Akun - Ekuitas akun Anda adalah jumlah saldo dan laba bersih yang belum direalisasi sebagai untung dan rugi."
 
 msgid "Account Free Margin - Your Account Equity minus your Total Margin."
-msgstr ""
+msgstr "Akun Bebas Margin - Ekuitas Akun Anda dikurangi total Margin Anda."
 
 msgid "Account Security"
 msgstr ""
 
 msgid "Account Type"
-msgstr ""
+msgstr "Jenis Akun"
 
 msgid "Accounts with debit balance (i.e. credit exposure to %1)"
-msgstr ""
+msgstr "Akun dengan saldo debit (yaitu eksposur kredit ke %1)"
 
 msgid "Accounts with debit balances are required to settle the full amount immediately by making a payment to us."
 msgstr ""
@@ -148,7 +148,7 @@ msgid "Alter the normal trading times for the affected market;"
 msgstr ""
 
 msgid "Amount"
-msgstr ""
+msgstr "Jumlah"
 
 msgid "An Open Position may be closed by placing an opposite Order, that is an Order to sell (to close a Long Position) or to buy (to close a Short Position) in the same market for the same specified number of lots (volume)."
 msgstr ""
@@ -181,13 +181,13 @@ msgid "B. Commencement and Cancellation"
 msgstr ""
 
 msgid "B. Scope"
-msgstr ""
+msgstr "B. Cakupan"
 
 msgid "Balance"
-msgstr ""
+msgstr "Saldo"
 
 msgid "Base Currency"
-msgstr ""
+msgstr "Mata Uang Dasar"
 
 msgid "Base Currency - The currency in which your Transaction was entered into."
 msgstr ""
@@ -229,7 +229,7 @@ msgid "By opening a Real Account with Binary.com, you represent, warrant and und
 msgstr ""
 
 msgid "C. Definition of Best Execution"
-msgstr ""
+msgstr "C. Definisi Eksekusi Terbaik"
 
 msgid "C. Provision of Services"
 msgstr ""
@@ -268,106 +268,106 @@ msgid "Closing or part-closing all or any of your Open Positions based on the pr
 msgstr ""
 
 msgid "Commodities trading experience"
-msgstr ""
+msgstr "Pengalaman trading komoditas"
 
 msgid "Commodities trading frequency"
-msgstr ""
+msgstr "Frekuensi trading komoditas"
 
 msgid "Complaints and disputes"
-msgstr ""
+msgstr "Keluhan dan sengketa"
 
 msgid "Confidentiality"
-msgstr ""
+msgstr "Kerahasiaan"
 
 msgid "Congratulations! Your account has been created."
-msgstr ""
+msgstr "Selamat! Akun Anda telah berhasil didaftarkan."
 
 msgid "Construction"
-msgstr ""
+msgstr "Konstruksi"
 
 msgid "Contact Us"
-msgstr ""
+msgstr "Hubungi Kami"
 
 msgid "Contract Specifications"
-msgstr ""
+msgstr "Spesifikasi Kontrak"
 
 msgid "Costs - the costs of executing your order comprised predominantly of spread, i.e., the difference between our bid and our offer price."
 msgstr ""
 
 msgid "Create"
-msgstr ""
+msgstr "Membuat"
 
 msgid "Create Your MetaTrader 5 Account Now"
-msgstr ""
+msgstr "Daftar Akun MetaTrader 5 Anda Sekarang"
 
 msgid "Create a MetaTrader account to trade on the MetaTrader 5 platform."
-msgstr ""
+msgstr "Daftar Akun MetaTrader untuk bertrading pada platform MetaTrader 5."
 
 msgid "D. Capacity"
-msgstr ""
+msgstr "D. Kapasitas"
 
 msgid "D. Client Instructions"
-msgstr ""
+msgstr "D. Petunjuk Klien"
 
 msgid "Demo"
-msgstr ""
+msgstr "Demo"
 
 msgid "Demo Account"
-msgstr ""
+msgstr "Akun Demo"
 
 msgid "Depending on the level of risk that we are exposed to acting as your counterparty, we largely act in a principal capacity of your trades. As such, the execution venue will usually be Binary.com. However, we may transmit your order to third party liquidity providers, in which case we will determine the execution venue ourselves on the basis described above."
 msgstr ""
 
 msgid "Deposit"
-msgstr ""
+msgstr "Deposit"
 
 msgid "Deposit from"
-msgstr ""
+msgstr "Formulir deposit"
 
 msgid "Deposit funds into your MetaTrader account from your Binary account:"
-msgstr ""
+msgstr "Mentransfer dana ke akun MetaTrader dari akun Binary Anda:"
 
 msgid "Deposit is done. Transaction ID: %1"
-msgstr ""
+msgstr "Deposit selesai. ID transaksi: %1"
 
 msgid "Deposit to"
-msgstr ""
+msgstr "Deposit ke"
 
 msgid "Deposit to MetaTrader account"
-msgstr ""
+msgstr "Deposit ke akun MetaTrader"
 
 msgid "Details"
-msgstr ""
+msgstr "Rincian"
 
 msgid "Download MetaTrader"
-msgstr ""
+msgstr "Download MetaTrader"
 
 msgid "Download MetaTrader for Windows"
-msgstr ""
+msgstr "Download MetaTrader untuk Windows"
 
 msgid "Download for MacOS"
-msgstr ""
+msgstr "Download untuk MacOS"
 
 msgid "Due to recent changes in the regulations, we are required to ask our clients to complete the following Financial Assessment. Please note that you will not be able to continue trading until this is completed."
 msgstr ""
 
 msgid "E. Account Management"
-msgstr ""
+msgstr "E. Manajemen Akun"
 
 msgid "E. Best Execution Obligation"
-msgstr ""
+msgstr "E. Pelaksanaan Kewajiban Terbaik"
 
 msgid "Each of the following event constitutes an \"Event of Default\":"
 msgstr ""
 
 msgid "Education"
-msgstr ""
+msgstr "Pendidikan"
 
 msgid "Enhanced Trading with MetaTrader 5"
 msgstr ""
 
 msgid "Estimated Net Worth"
-msgstr ""
+msgstr "Perkiraan Kekayaan"
 
 msgid "Event - Event examples include circumstances whereby the type of Transaction to which your Order is related to ceased to be offered, or a Corporate Event or the insolvency of a Company whose shares represent are related to the subject matter of the Order, and others."
 msgstr ""
@@ -385,7 +385,7 @@ msgid "F. Orders"
 msgstr ""
 
 msgid "Finance"
-msgstr ""
+msgstr "Keuangan"
 
 msgid "Financial"
 msgstr ""
@@ -457,6 +457,9 @@ msgid "High Risk Investment Warning: Trading foreign exchange and/or contracts f
 msgstr ""
 
 msgid "High frequency (2 ticks per second)"
+msgstr ""
+
+msgid "I have read and agree to the"
 msgstr ""
 
 msgid "I. Quotes"
@@ -541,16 +544,16 @@ msgid "Inactive / Dormant Accounts"
 msgstr ""
 
 msgid "Income Source"
-msgstr ""
+msgstr "Sumber Pendapatan"
 
 msgid "Indices trading experience"
-msgstr ""
+msgstr "Pengalaman trading Indeks"
 
 msgid "Indices trading frequency"
-msgstr ""
+msgstr "Frekuensi trading Indeks"
 
 msgid "Industry of Employment"
-msgstr ""
+msgstr "Industri Pekerjaan"
 
 msgid "Introducing <strong>MetaTrader 5</strong> for Binary.com"
 msgstr ""
@@ -586,10 +589,10 @@ msgid "Less than &#36;25,000"
 msgstr ""
 
 msgid "Level of Education"
-msgstr ""
+msgstr "Tingkat Pendidikan"
 
 msgid "Leverage"
-msgstr ""
+msgstr "Leverage"
 
 msgid "Leverage can be used to generate returns that are of multiple times higher than the amount set aside from your account balance to open and maintain a transaction (your margin). However, investments that have the potential to deliver greater investment returns carry higher levels of risk. This means that if the price movement is against your favour, you will suffer losses that are of multiple times higher than the amount set aside from your account balance to open and maintain a transaction (your margin)."
 msgstr ""
@@ -610,7 +613,7 @@ msgid "Linux Instructions"
 msgstr ""
 
 msgid "Log in"
-msgstr ""
+msgstr "Masuk"
 
 msgid "Log into the application using your MetaTrader account number and your MetaTrader account password."
 msgstr ""
@@ -682,13 +685,13 @@ msgid "N. Force Majeure Events"
 msgstr ""
 
 msgid "Name"
-msgstr ""
+msgstr "Nama"
 
 msgid "Neither the Company nor any its directors, officers, managers, employees, or agents shall be liable for any loss, damage or debt to you arising directly or indirectly out of or in connection with this Agreement. You agree to indemnify the Company and its directors, officers, managers, employees, or agents harmless from and against any and all liabilities, losses, damages, costs and expenses (including reasonable attorney's fees) incurred arising out of your failure to comply with any and all of its obligations set forth in this Agreement and/or the Company's enforcement against you of any and all of its rights under this Agreement."
 msgstr ""
 
 msgid "Net Annual Income"
-msgstr ""
+msgstr "Pendapatan Bersih Tahunan"
 
 msgid "Next Available Price - Earliest price reasonably available and quoted by Binary.com when our Price quotation reaches or goes beyond the level of your Stop Order."
 msgstr ""
@@ -733,13 +736,13 @@ msgid "Order Execution Policy"
 msgstr ""
 
 msgid "Other"
-msgstr ""
+msgstr "Lainnya"
 
 msgid "Other financial instruments trading experience"
-msgstr ""
+msgstr "Pengalaman trading instrumen keuangan lainnya"
 
 msgid "Other financial instruments trading frequency"
-msgstr ""
+msgstr "Frekuensi trading instrumen keuangan lainnya"
 
 msgid "Our Order Execution Policy (the \"Policy\") sets out the overview and approach of how Binary.com executes orders on behalf of our clients."
 msgstr ""
@@ -760,19 +763,19 @@ msgid "Over &#36;500,001"
 msgstr ""
 
 msgid "Over 3 years"
-msgstr ""
+msgstr "Lebih dari 3 tahun"
 
 msgid "P. Indemnification"
 msgstr ""
 
 msgid "Pension"
-msgstr ""
+msgstr "Pensiunan"
 
 msgid "Personal Data and Privacy"
 msgstr ""
 
 msgid "Pip Size"
-msgstr ""
+msgstr "Ukuran Pip"
 
 msgid "Please %1 to your Binary.com account."
 msgstr ""
@@ -781,10 +784,10 @@ msgid "Please contact <a href=\"%1\">Customer Support</a>."
 msgstr ""
 
 msgid "Please select"
-msgstr ""
+msgstr "Silakan pilih"
 
 msgid "Please select a value"
-msgstr ""
+msgstr "Silakan pilih nilai"
 
 msgid "Positions are closed until the level of assets becomes higher that the Stop Out Level."
 msgstr ""
@@ -799,7 +802,7 @@ msgid "Price/ Prices - Bid and Offer Price/ Prices."
 msgstr ""
 
 msgid "Primary"
-msgstr ""
+msgstr "Utama"
 
 msgid "Prior to placing an Order which results in opening a Transaction or increasing an existing Open Position, you acknowledge that it is your responsibility to ensure that your Account Free Margin is sufficient to cover the Margin required in relation to the open Transaction (the \"Margin Requirement\"), and to continuously meet the Margin Requirement."
 msgstr ""
@@ -862,19 +865,19 @@ msgid "Section 2"
 msgstr ""
 
 msgid "Section 3"
-msgstr ""
+msgstr "Bagian 3"
 
 msgid "Section 4"
-msgstr ""
+msgstr "Bagian 4"
 
 msgid "Self-Employed"
-msgstr ""
+msgstr "Wiraswasta"
 
 msgid "Server"
-msgstr ""
+msgstr "Server"
 
 msgid "Sign out"
-msgstr ""
+msgstr "Keluar"
 
 msgid "Size - the size of your order determined by the volume (number of lots)."
 msgstr ""
@@ -892,10 +895,10 @@ msgid "Start trading with your MetaTrader Account:"
 msgstr ""
 
 msgid "Stocks trading experience"
-msgstr ""
+msgstr "Pengalaman trading Saham"
 
 msgid "Stocks trading frequency"
-msgstr ""
+msgstr "Frekuensi trading Saham"
 
 msgid "Stop Order / Stop Loss Order - an instruction to execute a Transaction to close an Open Position when the Price reaches your specified Price."
 msgstr ""
@@ -937,7 +940,7 @@ msgid "Terms and Conditions"
 msgstr ""
 
 msgid "Tertiary"
-msgstr ""
+msgstr "Tersier"
 
 msgid "The Binary.com website is protected by certain copyrights. The materials comprising the website (including without limitation all articles, text, images, logos, compilation, systems, code and design) are Copyright 1999-2016 Binary Group of companies. All rights reserved. Such materials may be copied and distributed on a limited basis for noncommercial purposes only, provided that any material copied remain intact and that all copies include the following notice in a clearly visible position: \"Copyright 1999-2016 Binary Ltd. All rights reserved.\" These materials may not be copied or redistributed for commercial purposes or for compensation of any kind without prior written permission from a member of the Binary Group. If you have any questions about these terms or would like information about licensing materials from Binary Ltd., please contact us at <a href='mailto:%1'>%1</a>. Binary.com and the bull/bear logo are registered trademarks."
 msgstr ""
@@ -1087,7 +1090,7 @@ msgid "Total Margin - The aggregate of all Margin Requirements in your Real Acco
 msgstr ""
 
 msgid "Tourism"
-msgstr ""
+msgstr "Pariwisata"
 
 msgid "Trade Forex and CFD asset classes with an award-winning broker."
 msgstr ""
@@ -1129,28 +1132,28 @@ msgid "Verify Main Password"
 msgstr ""
 
 msgid "Version 3"
-msgstr ""
+msgstr "Versi 3"
 
 msgid "Volatility"
-msgstr ""
+msgstr "Volatilitas"
 
 msgid "Volatility 10 Index"
-msgstr ""
+msgstr "Indeks Volatilitas 10"
 
 msgid "Volatility 100 Index"
-msgstr ""
+msgstr "Indeks Volatilitas 100"
 
 msgid "Volatility 25 Index"
-msgstr ""
+msgstr "Indeks Volatilitas 25"
 
 msgid "Volatility 50 Index"
-msgstr ""
+msgstr "Indeks Volatilitas 50"
 
 msgid "Volatility 75 Index"
-msgstr ""
+msgstr "Indeks Volatilitas 75"
 
 msgid "Volatility Indices"
-msgstr ""
+msgstr "Indeks Volatilitas"
 
 msgid "Volatility Indices Account"
 msgstr ""
@@ -1450,6 +1453,12 @@ msgid "net of fund transfers between your Binary Options Account and your Real A
 msgstr ""
 
 msgid "net of realised profits credited to your Real Account and realised losses debited from your Real Account;"
+msgstr ""
+
+msgid "of the site."
+msgstr ""
+
+msgid "terms and conditions"
 msgstr ""
 
 msgid "the characteristics of financial instruments that are the subject of that order;"
