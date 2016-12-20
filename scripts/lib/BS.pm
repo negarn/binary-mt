@@ -14,7 +14,7 @@ use Format::Util::Numbers;
 
 our @EXPORT_OK = qw/
     root_path is_dev set_is_dev branch set_branch
-    localize set_lang all_languages lang_display_name
+    localize set_lang all_languages
     get_static_hash set_static_hash
 
     root_url
@@ -58,35 +58,11 @@ sub localize {
 }
 
 sub all_languages {
-    return $BRANCH eq 'translations' ? ('ACH') : ('EN', 'DE', 'ES', 'FR', 'ID', 'IT', 'PL', 'PT', 'RU', 'TH', 'VI', 'ZH_CN', 'ZH_TW');
+    return ('EN', 'DE', 'ES', 'FR', 'ID', 'IT', 'PL', 'PT', 'RU', 'TH', 'VI', 'JA', 'ZH_CN', 'ZH_TW');
 }
 
 sub rtl_languages {
     return ();
-}
-
-sub lang_display_name {
-    my $iso_code = shift;
-
-    my %lang_code_name = (
-        ACH   => 'Translation',
-        DE    => 'Deutsch',
-        ES    => 'Español',
-        FR    => 'Français',
-        EN    => 'English',
-        ID    => 'Indonesia',
-        PL    => 'Polish',
-        PT    => 'Português',
-        RU    => 'Русский',
-        TH    => 'Thai',
-        VI    => 'Tiếng Việt',
-        ZH_CN => '简体中文',
-        ZH_TW => '繁體中文',
-        IT    => 'Italiano'
-    );
-
-    $iso_code = defined($iso_code) ? uc $iso_code : '';
-    return $lang_code_name{$iso_code} || $iso_code;
 }
 
 ## url_for

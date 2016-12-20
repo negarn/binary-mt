@@ -19,7 +19,7 @@
                                     <li>
                                         <span class="world world-white"></span>
                                         <div class="language-wrapper">
-                                            <span class="language">[% display_language %]</span>
+                                            <span class="language"></span>
                                         </div>
                                         <span class="nav-caret"></span>
                                     </li>
@@ -28,11 +28,10 @@
                                     <li>
                                         <span class="world world-black"></span>
                                         <div class="language-wrapper">
-                                            <span class="language">[% display_language %]</span>
+                                            <span class="language"></span>
                                         </div>
                                         <span class="nav-caret"></span>
                                     </li>
-                                    [% INCLUDE global/language_form.html.tt %]
                                 </ul>
                             </div>
                         </div>

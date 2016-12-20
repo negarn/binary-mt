@@ -11,14 +11,14 @@ use HTML::Entities qw( encode_entities );
 use Encode;
 use Term::ANSIColor;
 
-use BS qw/set_is_dev is_dev branch set_branch localize set_lang all_languages lang_display_name tt2 css_files js_config menu get_static_hash set_static_hash/;
+use BS qw/set_is_dev is_dev branch set_branch localize set_lang all_languages tt2 css_files js_config menu get_static_hash set_static_hash/;
 use BS::Request;
 
 require "config/pages.pl";
 
 # force = re-generate all files
 # dev   = for domain like http://fayland.github.io/binary-static/ which has a sub path
-# branch = will add [branch_name] to path
+# branch = will add br_[branch_name] to path
 # pattern = the url pattern to rebuild
 # verbose = to display list of all generated files
 my $force;
@@ -70,12 +70,17 @@ foreach my $m (@m) {
     my $tpl_path = $m->[1];
     my $layout   = $m->[2];
     my $title    = $m->[3];
+    my $excludes = $m->[4];
 
     $index++;
 
     foreach my $lang (@langs) {
-        if ($m->[4] and index($m->[4], $lang) > -1) {
-            next;
+        if ($excludes) {
+            if ($excludes =~ /^NOT-/) {
+                next if ($excludes !~ $lang); # exclude all languages except this
+            } else {
+                next if ($excludes =~ $lang); # exclude this language
+            }
         }
 
         my $save_as_file = "$dist_path/$lang/pjax/$save_as.html";
@@ -92,13 +97,15 @@ foreach my $m (@m) {
 
         my %stash = (
             website_name    => $request->website->display_name,
-            brand_name      => 'Binary.com',
             browser_title   => ($title ? localize($title).' | ' : '') . $request->website->display_name,
             request         => $request,
             language        => uc $lang,
             current_path    => $save_as,
             current_route   => $current_route,
-            full_width      => $layout && $layout eq 'full_width'
+            affiliate_email => 'affiliates@binary.com',
+            full_width      => $layout && $layout eq 'full_width',
+            get_started     => $layout && $layout eq 'get_started',
+            japan_docs_url  => 'https://japan-docs.binary.com'
         );
 
         if ($title) {
@@ -154,14 +161,9 @@ sub tt2_handle {
     $stash{icon_url}         = $request->url_for('images/common/favicon_1.ico');
     $stash{lang}             = $request->language;
     $stash{menu}             = menu();
+    $stash{is_japan}         = 1 if index($stash{current_path}, 'jptrading') > -1;
 
-     ## display selected language name
-    $stash{display_language} = decode_utf8(lang_display_name($request->language));
-
-    ## global/language_form.html.tt
-    $stash{language_options} = [
-        map { {code => $_, text => decode_utf8(lang_display_name($_)), value => uc($_), selected => uc($stash{iso639a_language}) eq uc($_) ? 1 : 0,} }
-            all_languages()];
+    $stash{language_options} = [all_languages()];
 
     my $output = '';
     $tt2->process($file, \%stash, \$output) or die $tt2->error(), "\n";
