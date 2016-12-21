@@ -21,7 +21,7 @@
                     <p>[% l("Create a Volatility Indices Account to trade Volatility Indices on MT5.") %]</p>
                     <div class="gr-row gr-padding-10">
                         <div class="gr-6 form_label">[% l('Account type') %]</div>
-                        <div class="gr-6 form_label align-start account-type">[% l('Demo Account') %]</div>
+                        <div class="gr-6 form_label align-start account-type">[% l('Demo') %]</div>
                     </div>
                     <div class="gr-row gr-padding-10 invisible">
                         <div class="gr-6 form_label"><label>[% l('Leverage') %]</label></div>
@@ -94,12 +94,12 @@
                                 <div class="gr-6 form_label align-start binary-login"></div>
                             </div>
                             <div class="gr-row gr-padding-10">
-                                <div class="gr-6 form_label">[% l('Transfer into') %]</div>
+                                <div class="gr-6 form_label">[% l('Deposit into') %]</div>
                                 <div class="gr-6 form_label align-start mt-login"></div>
                             </div>
                             <div class="gr-row gr-padding-10">
-                                <div class="gr-6 form_label"><label>[% l('Amount (USD)') %]</label></div>
-                                <div class="gr-6"><input type="text" maxlength="10" class="txtAmount" /></div>
+                                <div class="gr-6 form_label"><label>[% l('Amount') %]</label></div>
+                                <div class="gr-6">$ <input type="text" maxlength="10" class="txtAmount" /></div>
                             </div>
                             <div class="gr-row gr-padding-10">
                                 <div class="gr-6 form_label"></div>
@@ -127,8 +127,8 @@
                                 <div class="gr-6"><input type="password" class="txtMainPass" /></div>
                             </div>
                             <div class="gr-row gr-padding-10">
-                                <div class="gr-6 form_label"><label>[% l('Amount (USD)') %]</label></div>
-                                <div class="gr-6"><input type="text" maxlength="10" class="txtAmount" /></div>
+                                <div class="gr-6 form_label"><label>[% l('Amount') %]</label></div>
+                                <div class="gr-6">$ <input type="text" maxlength="10" class="txtAmount" /></div>
                             </div>
                             <div class="gr-row gr-padding-10">
                                 <div class="gr-6 form_label"></div>

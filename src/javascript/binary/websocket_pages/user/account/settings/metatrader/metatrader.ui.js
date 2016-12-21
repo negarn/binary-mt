@@ -12,7 +12,12 @@ var MetaTraderUI = (function() {
         currency,
         highlightBalance,
         mt5Logins,
-        mt5Accounts;
+        mt5Accounts,
+        accountDisplayName = {
+            volatility: 'Volatility Indices',
+            financial : 'Financial',
+            demo      : 'Demo',
+        };
 
     var init = function() {
         MetaTraderData.initSocket();
@@ -255,8 +260,8 @@ var MetaTraderUI = (function() {
                     });
 
                     findInSection(accType, '.msg-account').html(hasRealBinaryAccount ? 
-                        text.localize('To create a ' + (/financial/.test(accType) ? 'Financial' : 'Volatility Indices') + ' Account for MT5, please switch to your [_1] Real Account.', ['Binary.com']) :
-                        text.localize('To create a ' + (/financial/.test(accType) ? 'Financial' : 'Volatility Indices') + ' Account for MT5, please <a href="[_1]"> upgrade to [_2] Real Account</a>.', [page.url.url_for('new_account/realws', '', true), 'Binary.com'])
+                        text.localize('To create a ' + accountDisplayName[accType] + ' Account for MT5, please switch to your [_1] Real Account.', ['Binary.com']) :
+                        text.localize('To create a ' + accountDisplayName[accType] + ' Account for MT5, please <a href="[_1]"> upgrade to [_2] Real Account</a>.', [page.url.url_for('new_account/realws', '', true), 'Binary.com'])
                     ).removeClass(hiddenClass);
                 } else {
                     if(/financial/.test(accType) && !isAuthenticated) {
@@ -265,11 +270,7 @@ var MetaTraderUI = (function() {
                         MetaTraderData.requestFinancialAssessment();
                     } else {
                         $form = findInSection(accType, '.form-new-account');
-                        if (/volatility/.test(accType)) {
-                            $form.find('.account-type').text(text.localize(accType.charAt(0).toUpperCase() + accType.slice(1)) + ' Indices');
-                        } else {
-                            $form.find('.account-type').text(text.localize(accType.charAt(0).toUpperCase() + accType.slice(1)));
-                        }
+                        $form.find('.account-type').text(text.localize(accountDisplayName[accType]));
                         $form.find('.name-row').remove();
                         $form.removeClass(hiddenClass);
                     }
@@ -380,7 +381,7 @@ var MetaTraderUI = (function() {
         if (new_type === 'gaming') new_type = 'volatility';
         mt5Logins[new_login] = new_type;
         MetaTraderData.requestLoginDetails(new_login);
-        showAccountMessage(new_type, text.localize('Congratulations! Your Volatility Indices Account has been created.'));
+        showAccountMessage(new_type, text.localize('Congratulations! Your ' + accountDisplayName[new_type] + ' Account has been created.'));
 
         // Update mt5_logins in localStorage
         var mt5_logins = JSON.parse(page.client.get_storage_value('mt5_logins') || '{}');

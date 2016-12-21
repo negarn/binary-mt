@@ -44,6 +44,7 @@ sub _texts {
         push @texts, localize('Start trading with your MetaTrader Account:');
         push @texts, localize('Go to web terminal');
         push @texts, localize('Download desktop app');
+        push @texts, localize('Congratulations! Your Demo Account has been created.');
         push @texts, localize('Congratulations! Your Financial Account has been created.');
         push @texts, localize('Congratulations! Your Volatility Indices Account has been created.');
         push @texts, localize('Sorry, an error occurred while processing your request.');
@@ -53,9 +54,9 @@ sub _texts {
         push @texts, localize('[_1] to your Binary.com account to create a MetaTrader 5 account');
         push @texts, localize('Start trading Forex and CFDs with Binary.com');
         push @texts, localize('Your existing Binary.com account and cashier will be linked to your MT5 account');
-        push @texts, localize('Don\'t have a Binary.com account? [_1] now');
-        push @texts, localize('Create one')
-
+        push @texts, localize('Don\'t have a Binary.com account? <a href="[_1]">Create one</a> now');
+        push @texts, localize('Login ID');
+        
         # strings for financial assessment
         push @texts, localize('Your settings have been updated successfully.');
         push @texts, localize('This feature is not relevant to virtual-money accounts.');

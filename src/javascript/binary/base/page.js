@@ -113,10 +113,10 @@ Client.prototype = {
             $('#content > .container').addClass('center-text')
                 .html($('<p/>', { class: 'notice-msg', html : text.localize('[_1] to your Binary.com account to create a MetaTrader 5 account', [
                     '<a class="login_link" href="javascript:;">' + text.localize('Log in') + '</a>'])}))
-                .prepend($('<h3/>', {class: '', html: text.localize('Your existing Binary.com account and cashier will be linked to your MT5 account')}))
-                .prepend($('<h1/>', {class: '', html: text.localize('Start trading Forex and CFDs with Binary.com')}))
-                .append($('<p/>', {class:'notice-msg', html: text.localize('Don\'t have a Binary.com account? <a href="[_1]"> [_2] </a> now', [
-                    page.url.url_for('home', '', true), text.localize('Create one')])}));
+                .prepend($('<h3/>', { html: text.localize('Your existing Binary.com account and cashier will be linked to your MT5 account')}))
+                .prepend($('<h1/>', { html: text.localize('Start trading Forex and CFDs with Binary.com')}))
+                .append($('<p/>', {class:'notice-msg', html: text.localize('Don\'t have a Binary.com account? <a href="[_1]">Create one</a> now', [
+                    page.url.url_for('home', '', true)])}));
             $('.login_link').click(function(){Login.redirect_to_login();});
         }
         return !this.is_logged_in;
