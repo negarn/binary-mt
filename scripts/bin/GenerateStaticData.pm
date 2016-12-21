@@ -50,7 +50,11 @@ sub _texts {
         push @texts, localize('Volatility Indices Account');
         push @texts, localize('Investor password cannot be same as Main password.');
         push @texts, localize('Please contact <a href="[_1]">Customer Support</a>.');
-        push @texts, localize('Please [_1] to your Binary.com account.');
+        push @texts, localize('[_1] to your Binary.com account to create a MetaTrader 5 account');
+        push @texts, localize('Start trading Forex and CFDs with Binary.com');
+        push @texts, localize('Your existing Binary.com account and cashier will be linked to your MT5 account');
+        push @texts, localize('Don\'t have a Binary.com account? [_1] now');
+        push @texts, localize('Create one')
 
         # strings for financial assessment
         push @texts, localize('Your settings have been updated successfully.');
