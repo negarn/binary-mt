@@ -16,7 +16,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div class="container">
 
 <div id="metatrader">
-    <h1>MetaTrader Accounts Management</h1>
+    <h1>MetaTrader 帳戶管理</h1>
 
     <p id="errorMsg" class="notice-msg center-text invisible"></p>
 
@@ -24,24 +24,24 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div class="gr-3 gr-12-m">
             <div class="sidebar-left">
                 <ul class="sidebar-nav">
-                    <li id="nav-demo" class="selected"><a href="#demo">Demo Account</a></li>
-                    <li id="nav-financial"><a href="#financial">Financial Account</a></li>
+                    <li id="nav-demo" class="selected"><a href="#demo">模擬帳戶</a></li>
+                    <li id="nav-financial"><a href="#financial">金融帳戶</a></li>
                     <li id="nav-volatility"><a href="#volatility">Volatility Indices</a></li>
                 </ul>
             </div>
         </div>
         <div class="gr-9 gr-12-m">
             <div id="section-demo" class="section invisible">
-                <h3>Demo Account</h3>
+                <h3>模擬帳戶</h3>
                 <p class="msg-account notice-msg center-text invisible"></p>
                 <form class="form-new-account invisible">
-                    <p>Create a MetaTrader account to trade on the MetaTrader 5 platform.</p>
+                    <p>建立 MetaTrader 5 帳戶並在 MetaTrader 5 平台進行交易。</p>
                     <div class="gr-row gr-padding-10">
-                        <div class="gr-6 form_label">Account Type</div>
-                        <div class="gr-6 form_label align-start account-type">Demo</div>
+                        <div class="gr-6 form_label">帳戶類型</div>
+                        <div class="gr-6 form_label align-start account-type">示範</div>
                     </div>
                     <div class="gr-row gr-padding-10 invisible">
-                        <div class="gr-6 form_label"><label>Leverage</label></div>
+                        <div class="gr-6 form_label"><label>槓桿</label></div>
                         <div class="gr-6">
                             <select class="ddlLeverage">
                                 <option value="1">1</option>
@@ -57,10 +57,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         <div class="gr-6"><input type="text" class="txtName" maxlength="30" /></div>
                     </div>
                     <div class="gr-row gr-padding-10">
-                        <div class="gr-6 form_label"><label>Main Password (trading access)</label></div>
+                        <div class="gr-6 form_label"><label>主密碼 （交易存取）</label></div>
                         <div class="gr-6">
                             <input type="password" class="txtMainPass password">
-                            <div class="hint">Minimum of eight lower and uppercase letters with numbers</div>
+                            <div class="hint">至少八個大小寫字母和數字</div>
                         </div>
                     </div>
                     <div class="gr-row gr-padding-10">
@@ -68,13 +68,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         <div class="gr-6"><input type="password" class="txtMainPass2" /></div>
                     </div>
                     <div class="gr-row gr-padding-10">
-                        <div class="gr-6 form_label"><label>Investor Password (read-only access)</label></div>
+                        <div class="gr-6 form_label"><label>投資者密碼 （唯讀存取權限）</label></div>
                         <div class="gr-6"><input type="password" class="txtInvestPass" /></div>
+                    </div>
+                    <div class="tnc-row gr-row gr-padding-10 invisible">
+                        <div class="gr-12 center-text">
+                            <input type="checkbox" class="chkTNC" />
+                            <label>I have read and agree to the <a target="_blank" href="/beta/zh_tw/terms-and-conditions.html">terms and conditions</a> of the site.</label>
+                        </div>
                     </div>
                     <div class="gr-row gr-padding-10">
                         <div class="gr-6 form_label"></div>
                         <div class="gr-6">
-                            <button class="button">Create</button>
+                            <button class="button">建立</button>
                             <div class="formMessage center-text"></div>
                         </div>
                     </div>
@@ -82,40 +88,40 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <div class="account-details"></div>
             </div>
             <div id="section-financial" class="section invisible">
-                <h3>Financial Account</h3>
+                <h3>金融帳戶</h3>
                 <p class="msg-account notice-msg center-text invisible"></p>
                 <div class="authenticate invisible">
-                    <p>In order to create an account for MetaTrader, you need to authenticate your Binary account.</p>
+                    <p>您的二元期權帳戶需通過驗證才可以開立 MetaTrader帳戶。</p>
                     <p>To authenticate your account, kindly email the following to <a href="mailto:support@binary.com">support@binary.com</a></p>
                     <ul class="bullet">
-                        <li>A scanned copy of your passport, driving licence (provisional or full) or identity card, showing your name and date of birth.</li>
-                        <li>A scanned copy of a utility bill or bank statement (no more than 3 months old).</li>
+                        <li>顯示您名字和出生日期的護照、駕照（臨時或永久）或身份證的掃描件。</li>
+                        <li>水電煤帳單或銀行月結單掃描件（日期不得超過3個月）。</li>
                     </ul>
                 </div>
                 <form class="form-new-account invisible"></form>
                 <div class="account-details"></div>
                 <p class="msg-switch-to-deposit notice-msg center-text invisible">To deposit or withdraw from your MetaTrader Account, switch to your Binary.com Real Account.</p>
                 <div class="accordion invisible">
-                    <h3>Deposit to MetaTrader account</h3>
+                    <h3>存款到 MetaTrader 帳戶</h3>
                     <div>
                         <form class="form-deposit">
-                            <p>Deposit funds into your MetaTrader account from your Binary account:</p>
+                            <p>從您的Binary帳戶將資金存入MetaTrader帳戶︰</p>
                             <div class="gr-row gr-padding-10">
-                                <div class="gr-6 form_label">Deposit from</div>
+                                <div class="gr-6 form_label">存款自</div>
                                 <div class="gr-6 form_label align-start binary-login"></div>
                             </div>
                             <div class="gr-row gr-padding-10">
-                                <div class="gr-6 form_label">Deposit to</div>
+                                <div class="gr-6 form_label">存款到</div>
                                 <div class="gr-6 form_label align-start mt-login"></div>
                             </div>
                             <div class="gr-row gr-padding-10">
-                                <div class="gr-6 form_label"><label>Amount</label></div>
+                                <div class="gr-6 form_label"><label>金額</label></div>
                                 <div class="gr-6">USD <input type="text" maxlength="10" class="txtAmount" /></div>
                             </div>
                             <div class="gr-row gr-padding-10">
                                 <div class="gr-6 form_label"></div>
                                 <div class="gr-6">
-                                    <button class="button">Deposit</button>
+                                    <button class="button">存款</button>
                                     <div class="formMessage center-text"></div>
                                 </div>
                             </div>
@@ -134,11 +140,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 <div class="gr-6 form_label align-start binary-login"></div>
                             </div>
                             <div class="gr-row gr-padding-10">
-                                <div class="gr-6 form_label"><label>MetaTrader Main Password</label></div>
+                                <div class="gr-6 form_label"><label>MetaTrader 主密碼</label></div>
                                 <div class="gr-6"><input type="password" class="txtMainPass" /></div>
                             </div>
                             <div class="gr-row gr-padding-10">
-                                <div class="gr-6 form_label"><label>Amount</label></div>
+                                <div class="gr-6 form_label"><label>金額</label></div>
                                 <div class="gr-6">USD <input type="text" maxlength="10" class="txtAmount" /></div>
                             </div>
                             <div class="gr-row gr-padding-10">
