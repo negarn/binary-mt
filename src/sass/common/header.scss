@@ -58,8 +58,12 @@ body #topbar {
             width: 90%;
         }
     }
+    #client-logged-in {
+        margin-left: auto !important;
+    }
     #client-logged-out {
         @include BIDIR_VALUE(text-align, right, left);
+        margin-left: auto !important;
         #btn_login {
             margin-bottom: 0;
         }

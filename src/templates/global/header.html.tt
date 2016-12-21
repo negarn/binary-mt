@@ -14,7 +14,7 @@
                             <!-- <a class="pjaxload" href="[% request.url_for('contact') %]">[% l("Contact Us") %]</a> -->
                         </div> 
                         <div class='gr-5 gr-6-m'>
-                            <div class="languages">
+                            <!-- <div class="languages">
                                 <ul id="display_language">
                                     <li>
                                         <span class="world world-white"></span>
@@ -33,7 +33,7 @@
                                         <span class="nav-caret"></span>
                                     </li>
                                 </ul>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -49,15 +49,17 @@
                         <a id="logo" href="javascript:;">
                             <div class='gr-row logo-parent'>
                                 <div class='gr-3 gr-12-m gr-12-p gr-no-gutter logo'>
-                                    <img class='responsive' src="https://style.binary.com/images/logo/symbol.svg" />
+                                    <div></div>
                                 </div>
                                 <div class='gr-9 gr-hide-m gr-hide-p binary-logo-text'>
-                                    <img class='responsive' src="https://style.binary.com/images/logo/type.svg" />
+                                    <div></div>
                                 </div>
                             </div>
                         </a>
                     </div>
-                    <div class='gr-6 gr-hide-m gr-hide-p'></div>
+                    <!-- <div class='gr-6 gr-hide-m gr-hide-p' gr-padding-10>
+                        <div id="main-navigation"></div>
+                    </div> -->
                     <div id="client-logged-in" class="gr-3 gr-7-m gr-8-p gr-no-gutter by_client_type client_real client_virtual center-text invisible">
                         <div id="main-logout">
                             <ul id="main-account" class="nav-menu main-nav">
@@ -93,7 +95,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div id="client-logged-out" class="gr-3 gr-8-m gr-8-p gr-no-gutter by_client_type client_logged_out invisible">
+                    <div id="client-logged-out" class="gr-3 gr-8-m gr-8-p gr-no-gutter by_client_type client_logged_out invisible gr-padding-10">
                         <a id="btn_login" class="button" href="javascript:;"><span>[% l('Log in') %]</span></a>
                     </div>
                     <!-- <div class='gr-hide gr-show-m gr-2-m gr-show-p gr-2-p gr-no-gutter-mobile align-end'>
