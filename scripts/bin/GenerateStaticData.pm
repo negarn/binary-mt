@@ -56,6 +56,9 @@ sub _texts {
         push @texts, localize('Your existing Binary.com account and cashier will be linked to your MT5 account');
         push @texts, localize('Don\'t have a Binary.com account? <a href="[_1]">Create one</a> now');
         push @texts, localize('Login ID');
+        push @texts, localize('Create a Financial Account to trade Forex on MT5.');
+        push @texts, localize('Create a Volatility Indices Account to trade Volatility Indices on MT5.');
+        push @texts, localize('Create a Demo Account to trade on MT5.');
         
         # strings for financial assessment
         push @texts, localize('Your settings have been updated successfully.');

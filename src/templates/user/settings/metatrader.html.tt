@@ -18,7 +18,7 @@
                 <h3>[% l('Demo Account') %]</h3>
                 <p class="msg-account notice-msg center-text invisible"></p>
                 <form class="form-new-account invisible">
-                    <p>[% l("Create a Volatility Indices Account to trade Volatility Indices on MT5.") %]</p>
+                    <p class="account-msg"></p>
                     <div class="gr-row gr-padding-10">
                         <div class="gr-6 form_label">[% l('Account type') %]</div>
                         <div class="gr-6 form_label align-start account-type">[% l('Demo') %]</div>
