@@ -15878,15 +15878,15 @@ texts_json['EN'] = {};
 texts_json['DE'] = {};
 texts_json['ES'] = {};
 texts_json['FR'] = {};
-texts_json['ID'] = {};
+texts_json['ID'] = {"Name":"Nama","Balance":"Saldo","Log_in":"Masuk","Please_select_a_value":"Silakan pilih nilai","Deposit_is_done__Transaction_ID:_[_1]":"Deposit selesai. ID transaksi: [_1]","Volatility_Indices":"Indeks Volatilitas"};
 texts_json['IT'] = {};
 texts_json['PL'] = {};
 texts_json['PT'] = {};
-texts_json['RU'] = {};
+texts_json['RU'] = {"Volatility_Indices_Account":"Счёт на индексах волатильности","Log_in":"Вход","Volatility_Indices":"Индексы волатильности","Name":"Имя","Balance":"Баланс","Demo":"Демо"};
 texts_json['TH'] = {};
 texts_json['VI'] = {};
-texts_json['ZH_CN'] = {};
-texts_json['ZH_TW'] = {};
+texts_json['ZH_CN'] = {"Financial":"金融","Balance":"余额","Demo":"演示","Deposit_is_done__Transaction_ID:_[_1]":"已完成存款。交易编号: [_1]","Please_select_a_value":"请选择数值","Name":"姓名","Log_in":"登录","Please_contact_<a_href=\"[_1]\">Customer_Support</a>_":"请联系<a href=\"[_1]\">客服部</a>。"};
+texts_json['ZH_TW'] = {"Please_contact_<a_href=\"[_1]\">Customer_Support</a>_":"請聯繫<a href=\"[_1]\">客服部</a>。","Log_in":"登入","Name":"姓名","Please_select_a_value":"請選擇數值","Deposit_is_done__Transaction_ID:_[_1]":"已完成存款。交易編號: [_1]","Balance":"餘額","Demo":"示範","Financial":"金融"};
 texts_json['ACH'] = {};
 
 ;/*
@@ -16068,7 +16068,7 @@ var GTM = (function() {
         $.extend(true, data_layer_info, data);
 
         var event = data_layer_info.event;
-        delete data_layer_info['event'];
+        delete data_layer_info.event;
 
         return {
             data : data_layer_info,
@@ -16082,7 +16082,7 @@ var GTM = (function() {
             var info = gtm_data_layer_info(data && typeof(data) === 'object' ? data : null);
             dataLayer[0] = info.data;
             dataLayer.push(info.data);
-            dataLayer.push({"event": info.event});
+            dataLayer.push({ event: info.event});
         }
     };
 
@@ -16148,9 +16148,12 @@ Client.prototype = {
     show_login_if_logout: function(shouldReplacePageContents) {
         if (!this.is_logged_in && shouldReplacePageContents) {
             $('#content > .container').addClass('center-text')
-                .html($('<p/>', {class: 'notice-msg', html: text.localize('Please [_1] to your Binary.com account.', [
-                        '<a class="login_link" href="javascript:;">' + text.localize('log in') + '</a>'
-                    ])}));
+                .html($('<p/>', { class: 'notice-msg', html : text.localize('[_1] to your Binary.com account to create an MT5 account', [
+                    '<a class="login_link" href="javascript:;">' + text.localize('Log in') + '</a>'])}))
+                .prepend($('<h3/>', { html: text.localize('Your existing Binary.com account and cashier will be linked to your MT5 account')}))
+                .prepend($('<h1/>', { html: text.localize('Start trading Forex and CFDs with Binary.com')}))
+                .append($('<p/>', {class:'notice-msg', html: text.localize('Don\'t have a Binary.com account? <a href="[_1]">Create one</a> now', [
+                    page.url.url_for('home', '', true)])}));
             $('.login_link').click(function(){Login.redirect_to_login();});
         }
         return !this.is_logged_in;
@@ -16440,35 +16443,57 @@ var Header = function(params) {
 Header.prototype = {
     on_load: function() {
         this.show_or_hide_login_form();
-        this.register_dynamic_links();
+        this.show_or_hide_language();
         this.logout_handler();
+        if (page.client.is_logged_in) {
+            $('ul#menu-top').addClass('smaller-font');
+        }
     },
     on_unload: function() {
         this.menu.reset();
     },
     animate_disappear: function(element) {
-        element.animate({'opacity':0}, 100, function() {
-            element.css('visibility', 'hidden');
+        element.animate({ opacity: 0 }, 100, function() {
+            element.css({ visibility: 'hidden', display: 'none' });
         });
     },
     animate_appear: function(element) {
-        element.css('visibility', 'visible').animate({'opacity': 1}, 100);
+        element.css({ visibility: 'visible', display: 'block' })
+               .animate({ opacity: 1 }, 100);
+    },
+    show_or_hide_language: function() {
+        var that = this;
+        var $el = $('#select_language'),
+            $all_accounts = $('#all-accounts');
+        $('.languages').on('click', function(event) {
+            event.stopPropagation();
+            that.animate_disappear($all_accounts);
+            if (+$el.css('opacity') === 1) {
+                that.animate_disappear($el);
+            } else {
+                that.animate_appear($el);
+            }
+        });
+        $(document).unbind('click').on('click', function() {
+            that.animate_disappear($all_accounts);
+            that.animate_disappear($el);
+        });
     },
     show_or_hide_login_form: function() {
         if (!this.user.is_logged_in || !this.client.is_logged_in) return;
         var all_accounts = $('#all-accounts');
+        language = $('#select_language');
         var that = this;
         $('.nav-menu').unbind('click').on('click', function(event) {
             event.stopPropagation();
+            that.animate_disappear(language);
             if (all_accounts.css('opacity') == 1) {
                 that.animate_disappear(all_accounts);
             } else {
                 that.animate_appear(all_accounts);
             }
         });
-        $(document).unbind('click').on('click', function() {
-            that.animate_disappear(all_accounts);
-        });
+
         var loginid_select = '';
         var loginid_array = this.user.loginid_array;
         for (var i=0; i < loginid_array.length; i++) {
@@ -16506,7 +16531,7 @@ Header.prototype = {
     start_clock_ws: function() {
         function getTime() {
             clock_started = true;
-            BinarySocket.send({'time': 1,'passthrough': {'client_time': moment().valueOf()}});
+            BinarySocket.send({ time: 1, passthrough: { client_time: moment().valueOf() } });
         }
         this.run = function() {
             setInterval(getTime, 30000);
@@ -16514,9 +16539,8 @@ Header.prototype = {
 
         this.run();
         getTime();
-        return;
     },
-    time_counter : function(response) {
+    time_counter: function(response) {
         if (isNaN(response.echo_req.passthrough.client_time) || response.error) {
             page.header.start_clock_ws();
             return;
@@ -16530,11 +16554,15 @@ Header.prototype = {
         that.client_time_at_response = moment().valueOf();
         that.server_time_at_response = ((start_timestamp * 1000) + (that.client_time_at_response - pass));
         var update_time = function() {
-            window.time = moment(that.server_time_at_response + moment().valueOf() - that.client_time_at_response).utc();
-            var timeStr = window.time.format("YYYY-MM-DD HH:mm") + ' GMT';
-
-            clock.html(timeStr);
-            showLocalTimeOnHover('#gmt-clock');
+            window.time = moment((that.server_time_at_response + moment().valueOf()) -
+                that.client_time_at_response).utc();
+            var timeStr = window.time.format('YYYY-MM-DD HH:mm') + ' GMT';
+            if (japanese_client()) {
+                clock.html(toJapanTimeIfNeeded(timeStr, 1, '', 1));
+            } else {
+                clock.html(timeStr);
+                showLocalTimeOnHover('#gmt-clock');
+            }
             window.HeaderTimeUpdateTimeOutRef = setTimeout(update_time, 1000);
         };
         update_time();
@@ -16680,14 +16708,31 @@ var Page = function(config) {
 
 Page.prototype = {
     all_languages: function() {
-        return ['EN', 'AR', 'DE', 'ES', 'FR', 'ID', 'IT', 'PL', 'PT', 'RU', 'VI', 'ZH_CN', 'ZH_TW', 'ACH']; // ACH is a pseudo language used for in-context translation
+        return {
+            ACH  : 'Translations',
+            EN   : 'English',
+            DE   : 'Deutsch',
+            ES   : 'Español',
+            FR   : 'Français',
+            ID   : 'Indonesia',
+            IT   : 'Italiano',
+            PL   : 'Polish',
+            PT   : 'Português',
+            RU   : 'Русский',
+            TH   : 'Thai',
+            VI   : 'Tiếng Việt',
+            ZH_CN: '简体中文',
+            ZH_TW: '繁體中文',
+        };
     },
     language_from_url: function() {
-        var regex = new RegExp('^(' + this.all_languages().join('|') + ')$', 'i');
+        var regex = new RegExp('^(' + Object.keys(this.all_languages()).join('|') + ')$', 'i');
         var langs = window.location.href.split('/').slice(3);
         for (var i = 0; i < langs.length; i++) {
             var lang = langs[i];
-            if (regex.test(lang)) return lang.toUpperCase();
+            if (regex.test(lang)) { 
+                return lang.toUpperCase(); 
+            }
         }
         return '';
     },
@@ -16704,7 +16749,6 @@ Page.prototype = {
         this.url.reset();
         this.localize_for(this.language());
         this.header.on_load();
-        this.on_change_language();
         this.on_change_loginid();
         this.contents.on_load();
         if (CommonData.getLoginToken()) {
@@ -16718,6 +16762,7 @@ Page.prototype = {
             sessionStorage.removeItem('showLoginPage');
             Login.redirect_to_login();
         }
+        BinarySocket.init();
     },
     on_unload: function() {
         this.header.on_unload();
@@ -16725,8 +16770,10 @@ Page.prototype = {
     },
     on_change_language: function() {
         var that = this;
-        $('#language_select').on('change', 'select', function() {
-            var language = $(this).find('option:selected').attr('class');
+        $('#select_language li').on('click', function() {
+            var language = $(this).attr('class');
+            if (page.language() === language) return;
+            $('#display_language .language').text($(this).text());
             var cookie = new CookieStorage('language');
             cookie.write(language);
             document.location = that.url_for_language(language);
@@ -17325,6 +17372,46 @@ for (var key in texts_json) {
     }
 }
 
+;var $languages,
+    languageCode,
+    languageText;
+
+function create_language_drop_down(languages) {
+    $languages = $('.languages');
+    var selectLanguage = 'ul#select_language',
+        $selectLanguage = $languages.find(selectLanguage);
+    if ($languages.length === 0 || $selectLanguage.find('li span.language').text() !== '') return;
+    languages.sort(function(a, b) {
+        return (a === 'EN' || a < b) ? -1 : 1;
+    });
+    var displayLanguage = 'ul#display_language',
+        language = page.language();
+    languageCode = language && language !== '' ? language : 'en';
+    languageText = language && language !== '' ? map_code_to_language(language) : 'English';
+    add_display_language(displayLanguage);
+    add_display_language(selectLanguage);
+    for (var i = 0; i < languages.length; i++) {
+        if (languages[i] !== 'JA') {
+            $selectLanguage.append('<li class="' + languages[i] + '">' + map_code_to_language(languages[i]) + '</li>');
+        }
+    }
+    $selectLanguage.find('li.' + language + ':eq(1)').addClass('invisible');
+    page.on_change_language();
+    $('.languages').removeClass('invisible');
+}
+
+function add_display_language(id) {
+    $languages.find(id + ' li')
+              .addClass(languageCode)
+              .find('span.language')
+              .text(languageText);
+}
+
+function map_code_to_language(code) {
+    var map = page.all_languages();
+    return map[code];
+}
+
 ;var CommonData = {
     getLoginToken: function() { return Cookies.get('login'); }
 };
@@ -17404,6 +17491,41 @@ for (var key in texts_json) {
     };
 
 })();
+
+;function checkClientsCountry() {
+    var clients_country = localStorage.getItem('clients_country');
+    if (clients_country) {
+        if (clients_country === 'jp') {
+            limitLanguage('JA');
+        } else if (clients_country === 'id') {
+            limitLanguage('ID');
+        } else {
+            $('.languages').show();
+        }
+    } else {
+        BinarySocket.init();
+        BinarySocket.send({ website_status: '1' });
+    }
+}
+
+function limitLanguage(lang) {
+    if (page.language() !== lang && !Login.is_login_pages()) {
+        window.location.href = page.url_for_language(lang);
+    }
+    if (document.getElementById('select_language')) {
+        $('.languages').remove();
+        $('#gmt-clock').removeClass();
+        $('#gmt-clock').addClass('gr-6 gr-12-m');
+        $('#contact-us').removeClass();
+        $('#contact-us').addClass('gr-6 gr-hide-m');
+    }
+}
+
+function japanese_client() {
+    // handle for test case
+    if (typeof window === 'undefined') return false;
+    return (page.language().toLowerCase() === 'ja' || (Cookies.get('residence') === 'jp') || localStorage.getItem('clients_country') === 'jp');
+}
 
 ;function format_money(currency, amount) {
     var symbol = format_money.map[currency];
@@ -17684,7 +17806,10 @@ function BinarySocketClass() {
             }
 
             if (isReady()) {
-                if (!Login.is_login_pages()) page.header.validate_cookies();
+                if (!Login.is_login_pages()) {
+                    page.header.validate_cookies();
+                    binarySocket.send(JSON.stringify({ website_status: 1 }));
+                }
                 if (!clock_started) page.header.start_clock_ws();
             }
         };
@@ -17747,6 +17872,7 @@ function BinarySocketClass() {
                     page.client.check_tnc();
                 } else if (type === 'website_status') {
                     if(!response.hasOwnProperty('error')) {
+                        create_language_drop_down(response.website_status.supported_languages);
                         LocalStore.set('website.tnc_version', response.website_status.terms_conditions_version);
                         page.client.check_tnc();
                         if (response.website_status.hasOwnProperty('clients_country')) {
@@ -18190,7 +18316,16 @@ var BinarySocket = new BinarySocketClass();
         currency,
         highlightBalance,
         mt5Logins,
-        mt5Accounts;
+        mt5Accounts,
+        accountDisplayName = {
+            volatility: 'Volatility Indices',
+            financial : 'Financial',
+            demo      : 'Demo',
+        },
+        marketDisplayName = {
+            volatility: 'Volatility Indices',
+            financial: 'Forex',
+        };
 
     var init = function() {
         MetaTraderData.initSocket();
@@ -18200,7 +18335,7 @@ var BinarySocket = new BinarySocketClass();
 
         hiddenClass = 'invisible';
         errorClass  = 'errorfield';
-        currency    = 'USD';
+        currency    = '$';
         mt5Logins   = {};
         mt5Accounts = {};
         highlightBalance = false;
@@ -18256,15 +18391,15 @@ var BinarySocket = new BinarySocketClass();
         findInSection(accType, '.form-new-account').addClass(hiddenClass);
         var mtWebURL = 'https://trade.mql5.com/trade?servers=Binary.com-Server&amp;trade_server=Binary.com-Server&amp;';
         var $details = $('<div/>').append($(
-            makeTextRow('Login', mt5Accounts[accType].login) +
+            makeTextRow('Login ID', mt5Accounts[accType].login) +
             makeTextRow('Balance', currency + ' ' + mt5Accounts[accType].balance, 'balance') +
             makeTextRow('Name', mt5Accounts[accType].name) +
             // makeTextRow('Leverage', mt5Accounts[accType].leverage)
-            makeTextRow('', text.localize('Start trading with your MetaTrader Account:') + '<div class="download gr-padding-10">' +
+            makeTextRow('', text.localize('Start trading with MT5:') + '<div class="download gr-padding-10">' +
                 '<a class="button pjaxload" href="' + page.url.url_for('download-metatrader') + '">' +
-                    '<span>' + text.localize('Download MetaTrader') + '</span></a>' +
+                    '<span>' + text.localize('Download desktop app') + '</span></a>' +
                 '<a class="button" href="' + (mtWebURL + 'login=' + mt5Accounts[accType].login) + '" target="_blank">' +
-                    '<span>' + text.localize('MetaTrader Web Platform') + '</span></a><br />' +
+                    '<span>' + text.localize('Go to web terminal') + '</span></a><br />' +
                 '<a href="https://download.mql5.com/cdn/mobile/mt5/ios?server=Binary.com-Server" target="_blank">' +
                     '<div class="app-store-badge"></div>' +
                 '</a>' +
@@ -18280,9 +18415,9 @@ var BinarySocket = new BinarySocketClass();
             findInSection(accType, '.authenticate').addClass(hiddenClass);
             if(page.client.is_virtual()) {
                 $accordion.addClass(hiddenClass);
-                $('.msg-switch-to-deposit').removeClass(hiddenClass);
+                findInSection(accType, '.msg-switch-to-deposit').removeClass(hiddenClass);
             } else {
-                $('.msg-switch-to-deposit').addClass(hiddenClass);
+                findInSection(accType, '.msg-switch-to-deposit').addClass(hiddenClass);
                 ['.form-deposit', '.form-withdrawal'].map(function(formClass){
                     $form = findInSection(accType, formClass);
                     $form.find('.binary-login').text(page.client.loginid);
@@ -18432,9 +18567,9 @@ var BinarySocket = new BinarySocketClass();
                         if(loginInfo.real) hasRealBinaryAccount = true;
                     });
 
-                    findInSection(accType, '.msg-account').html(hasRealBinaryAccount ?
-                        text.localize('To create a real account for MetaTrader, switch to your [_1] real money account.', ['Binary.com']) :
-                        text.localize('To create a real account for MetaTrader, <a href="[_1]">upgrade to [_2] real money account</a>.', [page.url.url_for('new_account/realws', '', true), 'Binary.com'])
+                    findInSection(accType, '.msg-account').html(hasRealBinaryAccount ? 
+                        text.localize('To create a ' + accountDisplayName[accType] + ' Account for MT5, please switch to your [_1] Real Account.', ['Binary.com']) :
+                        text.localize('To create a ' + accountDisplayName[accType] + ' Account for MT5, please <a href="[_1]"> upgrade to [_2] Real Account</a>.', [page.url.url_for('new_account/realws', '', true), 'Binary.com'])
                     ).removeClass(hiddenClass);
                 } else {
                     if(/financial/.test(accType) && !isAuthenticated) {
@@ -18443,7 +18578,8 @@ var BinarySocket = new BinarySocketClass();
                         MetaTraderData.requestFinancialAssessment();
                     } else {
                         $form = findInSection(accType, '.form-new-account');
-                        $form.find('.account-type').text(text.localize(accType.charAt(0).toUpperCase() + accType.slice(1)));
+                        $form.find('.account-msg').text(text.localize('Create a ' + accountDisplayName[accType] + ' Account to trade ' + marketDisplayName[accType] + ' on MT5.'));
+                        $form.find('.account-type').text(text.localize(accountDisplayName[accType]));
                         $form.find('.name-row').remove();
                         $form.removeClass(hiddenClass);
                     }
@@ -18501,7 +18637,7 @@ var BinarySocket = new BinarySocketClass();
             manageTabContents();
         } else if(!page.client.is_virtual()) {
             findInSection('financial', '.msg-account').html(
-                text.localize('To create a financial account for MetaTrader 5, please complete the <a href="[_1]">Financial Assessment</a>.', [page.url.url_for('user/settings/assessmentws')])
+                text.localize('To create a Financial Account for MT5, please complete the <a href="[_1]">Financial Assessment</a>.', [page.url.url_for('user/settings/assessmentws')])
             ).removeClass(hiddenClass);
         }
     };
@@ -18554,7 +18690,7 @@ var BinarySocket = new BinarySocketClass();
         if (new_type === 'gaming') new_type = 'volatility';
         mt5Logins[new_login] = new_type;
         MetaTraderData.requestLoginDetails(new_login);
-        showAccountMessage(new_type, text.localize('Congratulations! Your account has been created.'));
+        showAccountMessage(new_type, text.localize('Congratulations! Your ' + accountDisplayName[new_type] + ' Account has been created.'));
 
         // Update mt5_logins in localStorage
         var mt5_logins = JSON.parse(page.client.get_storage_value('mt5_logins') || '{}');
@@ -18671,7 +18807,7 @@ var BinarySocket = new BinarySocketClass();
             // main & investor passwords must vary
             var valueInvestPass = $form.find('.txtInvestPass').val();
             if(valueInvestPass && valueInvestPass === valuePass) {
-                showError('.txtInvestPass', text.localize('Investor Password cannot be same as Main Password.'));
+                showError('.txtInvestPass', text.localize('Investor password cannot be same as Main password.'));
                 isValid = false;
             }
             // name
