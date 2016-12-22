@@ -31,7 +31,7 @@ var MetaTraderUI = (function() {
 
         hiddenClass = 'invisible';
         errorClass  = 'errorfield';
-        currency    = 'USD';
+        currency    = '$';
         mt5Logins   = {};
         mt5Accounts = {};
         highlightBalance = false;
