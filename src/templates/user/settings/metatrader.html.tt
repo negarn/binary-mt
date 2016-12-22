@@ -1,5 +1,5 @@
 <div id="metatrader">
-    <h1>[% l('MetaTrader accounts management') %]</h1>
+    <h1>[% l('MetaTrader account management') %]</h1>
 
     <p id="errorMsg" class="notice-msg center-text invisible"></p>
 
