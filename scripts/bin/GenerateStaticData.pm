@@ -41,7 +41,7 @@ sub _texts {
         push @texts, localize('Your new account has been created.');
         push @texts, localize('Deposit is done. Transaction ID: [_1]');
         push @texts, localize('Withdrawal is done. Transaction ID: [_1]');
-        push @texts, localize('Start trading with your MetaTrader Account:');
+        push @texts, localize('Start trading with MT5:');
         push @texts, localize('Go to web terminal');
         push @texts, localize('Download desktop app');
         push @texts, localize('Congratulations! Your Demo Account has been created.');
@@ -51,7 +51,7 @@ sub _texts {
         push @texts, localize('Volatility Indices Account');
         push @texts, localize('Investor password cannot be same as Main password.');
         push @texts, localize('Please contact <a href="[_1]">Customer Support</a>.');
-        push @texts, localize('[_1] to your Binary.com account to create a MetaTrader 5 account');
+        push @texts, localize('[_1] to your Binary.com account to create a MT5 account');
         push @texts, localize('Start trading Forex and CFDs with Binary.com');
         push @texts, localize('Your existing Binary.com account and cashier will be linked to your MT5 account');
         push @texts, localize('Don\'t have a Binary.com account? <a href="[_1]">Create one</a> now');

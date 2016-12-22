@@ -87,7 +87,7 @@ var MetaTraderUI = (function() {
             makeTextRow('Balance', currency + ' ' + mt5Accounts[accType].balance, 'balance') +
             makeTextRow('Name', mt5Accounts[accType].name) +
             // makeTextRow('Leverage', mt5Accounts[accType].leverage)
-            makeTextRow('', text.localize('Start trading with MetaTrader 5:') + '<div class="download gr-padding-10">' +
+            makeTextRow('', text.localize('Start trading with MT5:') + '<div class="download gr-padding-10">' +
                 '<a class="button pjaxload" href="' + page.url.url_for('download-metatrader') + '">' +
                     '<span>' + text.localize('Download desktop app') + '</span></a>' +
                 '<a class="button" href="' + (mtWebURL + 'login=' + mt5Accounts[accType].login) + '" target="_blank">' +
