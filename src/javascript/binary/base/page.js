@@ -111,7 +111,7 @@ Client.prototype = {
     show_login_if_logout: function(shouldReplacePageContents) {
         if (!this.is_logged_in && shouldReplacePageContents) {
             $('#content > .container').addClass('center-text')
-                .html($('<p/>', { class: 'notice-msg', html : text.localize('[_1] to your Binary.com account to create a MT5 account', [
+                .html($('<p/>', { class: 'notice-msg', html : text.localize('[_1] to your Binary.com account to create an MT5 account', [
                     '<a class="login_link" href="javascript:;">' + text.localize('Log in') + '</a>'])}))
                 .prepend($('<h3/>', { html: text.localize('Your existing Binary.com account and cashier will be linked to your MT5 account')}))
                 .prepend($('<h1/>', { html: text.localize('Start trading Forex and CFDs with Binary.com')}))
