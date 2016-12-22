@@ -16,7 +16,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div class="container">
 
 <div id="metatrader">
-    <h1>MetaTrader 账户管理</h1>
+    <h1>MetaTrader account management</h1>
 
     <p id="errorMsg" class="notice-msg center-text invisible"></p>
 
@@ -26,7 +26,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <ul class="sidebar-nav">
                     <li id="nav-demo" class="selected"><a href="#demo">模拟账户</a></li>
                     <li id="nav-financial"><a href="#financial">金融账户</a></li>
-                    <li id="nav-volatility"><a href="#volatility">Volatility Indices</a></li>
+                    <li id="nav-volatility"><a href="#volatility">Volatility Indices Account</a></li>
                 </ul>
             </div>
         </div>
@@ -35,9 +35,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <h3>模拟账户</h3>
                 <p class="msg-account notice-msg center-text invisible"></p>
                 <form class="form-new-account invisible">
-                    <p>创建 MetaTrader 5 账户并在 MetaTrader 5 平台进行交易。</p>
+                    <p class="account-msg"></p>
                     <div class="gr-row gr-padding-10">
-                        <div class="gr-6 form_label">账户类型</div>
+                        <div class="gr-6 form_label">Account type</div>
                         <div class="gr-6 form_label align-start account-type">演示</div>
                     </div>
                     <div class="gr-row gr-padding-10 invisible">
@@ -53,34 +53,34 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         </div>
                     </div>
                     <div class="name-row gr-row gr-padding-10 invisible">
-                        <div class="gr-6 form_label"><label>Your Name</label></div>
+                        <div class="gr-6 form_label"><label>姓名</label></div>
                         <div class="gr-6"><input type="text" class="txtName" maxlength="30" /></div>
                     </div>
                     <div class="gr-row gr-padding-10">
-                        <div class="gr-6 form_label"><label>主密码 （交易访问）</label></div>
+                        <div class="gr-6 form_label"><label>Main password (trading access)</label></div>
                         <div class="gr-6">
                             <input type="password" class="txtMainPass password">
-                            <div class="hint">至少八个大小写字母和数字</div>
+                            <div class="hint">Minimum eight characters. Must contain numbers, and mix of upper and lower case letters.</div>
                         </div>
                     </div>
                     <div class="gr-row gr-padding-10">
-                        <div class="gr-6 form_label"><label>Verify Main Password</label></div>
+                        <div class="gr-6 form_label"><label>Verify main password</label></div>
                         <div class="gr-6"><input type="password" class="txtMainPass2" /></div>
                     </div>
                     <div class="gr-row gr-padding-10">
-                        <div class="gr-6 form_label"><label>投资者密码 （只读访问权限）</label></div>
+                        <div class="gr-6 form_label"><label>Investor password (read-only access)</label></div>
                         <div class="gr-6"><input type="password" class="txtInvestPass" /></div>
                     </div>
                     <div class="tnc-row gr-row gr-padding-10 invisible">
                         <div class="gr-12 center-text">
                             <input type="checkbox" class="chkTNC" />
-                            <label>I have read and agree to the <a target="_blank" href="/beta/zh_cn/terms-and-conditions.html">terms and conditions</a> of the site.</label>
+                            <label>I have read and agreed to the <a target="_blank" href="/beta/zh_cn/terms-and-conditions.html">terms and conditions</a> of the site.</label>
                         </div>
                     </div>
                     <div class="gr-row gr-padding-10">
                         <div class="gr-6 form_label"></div>
                         <div class="gr-6">
-                            <button class="button">创建</button>
+                            <button class="button">Create account</button>
                             <div class="formMessage center-text"></div>
                         </div>
                     </div>
@@ -91,32 +91,32 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <h3>金融账户</h3>
                 <p class="msg-account notice-msg center-text invisible"></p>
                 <div class="authenticate invisible">
-                    <p>您的二元期权账户需通过验证才可以开立 MetaTrader 账户。</p>
-                    <p>To authenticate your account, kindly email the following to <a href="mailto:support@binary.com">support@binary.com</a></p>
+                    <p>Authenticate your Binary.com account to create an MT5 Financial Account.</p>
+                    <p>Kindly email the following documents to <a href="mailto:support@binary.com">support@binary.com</a> to authenticate your account:</p>
                     <ul class="bullet">
-                        <li>显示您名字和出生日期的护照、驾照（临时或永久）或身份证的扫描件。</li>
-                        <li>水电煤账单或银行月结单扫描件（日期不得超过3个月）。</li>
+                        <li>A scanned copy of your passport, driving licence (provisional or full), or identity card that shows your full name and date of birth.</li>
+                        <li>A scanned copy of a utility bill or bank statement that is no more than three months old.</li>
                     </ul>
                 </div>
                 <form class="form-new-account invisible"></form>
                 <div class="account-details"></div>
-                <p class="msg-switch-to-deposit notice-msg center-text invisible">To deposit or withdraw from your MetaTrader Account, switch to your Binary.com Real Account.</p>
+                <p class="msg-switch-to-deposit notice-msg center-text invisible">To deposit or withdraw from your MT5 Account, switch to your Binary.com Real Account.</p>
                 <div class="accordion invisible">
-                    <h3>存款到 MetaTrader 账户</h3>
+                    <h3>Make a deposit</h3>
                     <div>
                         <form class="form-deposit">
-                            <p>从您的Binary账户将资金存入MetaTrader账户︰</p>
+                            <p>Transfer funds from Binary.com account into your MT5 account:</p>
                             <div class="gr-row gr-padding-10">
-                                <div class="gr-6 form_label">存款自</div>
+                                <div class="gr-6 form_label">Transfer from</div>
                                 <div class="gr-6 form_label align-start binary-login"></div>
                             </div>
                             <div class="gr-row gr-padding-10">
-                                <div class="gr-6 form_label">存款到</div>
+                                <div class="gr-6 form_label">Deposit into</div>
                                 <div class="gr-6 form_label align-start mt-login"></div>
                             </div>
                             <div class="gr-row gr-padding-10">
                                 <div class="gr-6 form_label"><label>金额</label></div>
-                                <div class="gr-6">USD <input type="text" maxlength="10" class="txtAmount" /></div>
+                                <div class="gr-6">&#36; <input type="text" maxlength="10" class="txtAmount" /></div>
                             </div>
                             <div class="gr-row gr-padding-10">
                                 <div class="gr-6 form_label"></div>
@@ -127,25 +127,25 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                             </div>
                         </form>
                     </div>
-                    <h3>Withdraw from MetaTrader account</h3>
+                    <h3>Make a withdrawal</h3>
                     <div>
                         <form class="form-withdrawal">
-                            <p>Withdraw funds from your MetaTrader account into your Binary account:</p>
+                            <p>Transfer funds from your MT5 account into your Binary.com account:</p>
                             <div class="gr-row gr-padding-10">
                                 <div class="gr-6 form_label">Withdraw from</div>
                                 <div class="gr-6 form_label align-start mt-login"></div>
                             </div>
                             <div class="gr-row gr-padding-10">
-                                <div class="gr-6 form_label">Withdraw to</div>
+                                <div class="gr-6 form_label">Transfer into</div>
                                 <div class="gr-6 form_label align-start binary-login"></div>
                             </div>
                             <div class="gr-row gr-padding-10">
-                                <div class="gr-6 form_label"><label>MetaTrader 主密码</label></div>
+                                <div class="gr-6 form_label"><label>MT5 main password</label></div>
                                 <div class="gr-6"><input type="password" class="txtMainPass" /></div>
                             </div>
                             <div class="gr-row gr-padding-10">
                                 <div class="gr-6 form_label"><label>金额</label></div>
-                                <div class="gr-6">USD <input type="text" maxlength="10" class="txtAmount" /></div>
+                                <div class="gr-6">&#36; <input type="text" maxlength="10" class="txtAmount" /></div>
                             </div>
                             <div class="gr-row gr-padding-10">
                                 <div class="gr-6 form_label"></div>

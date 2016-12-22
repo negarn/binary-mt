@@ -54,14 +54,14 @@
           <link rel="alternate" href="/beta/en/user/settings/metatrader.html?l=zh_cn" hreflang="ZH_CN" /> 
           <link rel="alternate" href="/beta/en/user/settings/metatrader.html?l=zh_tw" hreflang="ZH_TW" /> 
         
-         <link rel="stylesheet" href="/beta/css/binary.min.css?rngxlqq6">
-         <link rel="stylesheet" href="https://style.binary.com/binary.css?rngxlqq6">
+         <link rel="stylesheet" href="/beta/css/binary.min.css?bbwe3bim">
+         <link rel="stylesheet" href="https://style.binary.com/binary.css?bbwe3bim">
         
         <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=Array.prototype.includes,String.prototype.includes&unknown=polyfill"></script>
 <script>
     //A global variable required to initialize Page object.
-    window.page_params = {settings: {"image_link":{"hourglass":"/beta/images/common/hourglass_1.gif"},"valid_loginids":"MX|MF|VRTC|MLT|CR|FOG|VRTJ|JP"}};
-</script>  <script src='/beta/js/binary.min.js?rngxlqq6' defer async></script>
+    window.page_params = {settings: {"valid_loginids":"MX|MF|VRTC|MLT|CR|FOG|VRTJ|JP","image_link":{"hourglass":"/beta/images/common/hourglass_1.gif"}}};
+</script>  <script src='/beta/js/binary.min.js?bbwe3bim' defer async></script>
     </head>
 
 
@@ -216,7 +216,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div class="container">
 
 <div id="metatrader">
-    <h1>MetaTrader Accounts Management</h1>
+    <h1>MetaTrader account management</h1>
 
     <p id="errorMsg" class="notice-msg center-text invisible"></p>
 
@@ -226,7 +226,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <ul class="sidebar-nav">
                     <li id="nav-demo" class="selected"><a href="#demo">Demo Account</a></li>
                     <li id="nav-financial"><a href="#financial">Financial Account</a></li>
-                    <li id="nav-volatility"><a href="#volatility">Volatility Indices</a></li>
+                    <li id="nav-volatility"><a href="#volatility">Volatility Indices Account</a></li>
                 </ul>
             </div>
         </div>
@@ -235,9 +235,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <h3>Demo Account</h3>
                 <p class="msg-account notice-msg center-text invisible"></p>
                 <form class="form-new-account invisible">
-                    <p>Create a MetaTrader account to trade on the MetaTrader 5 platform.</p>
+                    <p class="account-msg"></p>
                     <div class="gr-row gr-padding-10">
-                        <div class="gr-6 form_label">Account Type</div>
+                        <div class="gr-6 form_label">Account type</div>
                         <div class="gr-6 form_label align-start account-type">Demo</div>
                     </div>
                     <div class="gr-row gr-padding-10 invisible">
@@ -253,34 +253,34 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         </div>
                     </div>
                     <div class="name-row gr-row gr-padding-10 invisible">
-                        <div class="gr-6 form_label"><label>Your Name</label></div>
+                        <div class="gr-6 form_label"><label>Name</label></div>
                         <div class="gr-6"><input type="text" class="txtName" maxlength="30" /></div>
                     </div>
                     <div class="gr-row gr-padding-10">
-                        <div class="gr-6 form_label"><label>Main Password (trading access)</label></div>
+                        <div class="gr-6 form_label"><label>Main password (trading access)</label></div>
                         <div class="gr-6">
                             <input type="password" class="txtMainPass password">
-                            <div class="hint">Minimum of eight lower and uppercase letters with numbers</div>
+                            <div class="hint">Minimum eight characters. Must contain numbers, and mix of upper and lower case letters.</div>
                         </div>
                     </div>
                     <div class="gr-row gr-padding-10">
-                        <div class="gr-6 form_label"><label>Verify Main Password</label></div>
+                        <div class="gr-6 form_label"><label>Verify main password</label></div>
                         <div class="gr-6"><input type="password" class="txtMainPass2" /></div>
                     </div>
                     <div class="gr-row gr-padding-10">
-                        <div class="gr-6 form_label"><label>Investor Password (read-only access)</label></div>
+                        <div class="gr-6 form_label"><label>Investor password (read-only access)</label></div>
                         <div class="gr-6"><input type="password" class="txtInvestPass" /></div>
                     </div>
                     <div class="tnc-row gr-row gr-padding-10 invisible">
                         <div class="gr-12 center-text">
                             <input type="checkbox" class="chkTNC" />
-                            <label>I have read and agree to the <a target="_blank" href="/beta/en/terms-and-conditions.html">terms and conditions</a> of the site.</label>
+                            <label>I have read and agreed to the <a target="_blank" href="/beta/en/terms-and-conditions.html">terms and conditions</a> of the site.</label>
                         </div>
                     </div>
                     <div class="gr-row gr-padding-10">
                         <div class="gr-6 form_label"></div>
                         <div class="gr-6">
-                            <button class="button">Create</button>
+                            <button class="button">Create account</button>
                             <div class="formMessage center-text"></div>
                         </div>
                     </div>
@@ -291,32 +291,32 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <h3>Financial Account</h3>
                 <p class="msg-account notice-msg center-text invisible"></p>
                 <div class="authenticate invisible">
-                    <p>In order to create an account for MetaTrader, you need to authenticate your Binary account.</p>
-                    <p>To authenticate your account, kindly email the following to <a href="mailto:support@binary.com">support@binary.com</a></p>
+                    <p>Authenticate your Binary.com account to create an MT5 Financial Account.</p>
+                    <p>Kindly email the following documents to <a href="mailto:support@binary.com">support@binary.com</a> to authenticate your account:</p>
                     <ul class="bullet">
-                        <li>A scanned copy of your passport, driving licence (provisional or full) or identity card, showing your name and date of birth.</li>
-                        <li>A scanned copy of a utility bill or bank statement (no more than 3 months old).</li>
+                        <li>A scanned copy of your passport, driving licence (provisional or full), or identity card that shows your full name and date of birth.</li>
+                        <li>A scanned copy of a utility bill or bank statement that is no more than three months old.</li>
                     </ul>
                 </div>
                 <form class="form-new-account invisible"></form>
                 <div class="account-details"></div>
-                <p class="msg-switch-to-deposit notice-msg center-text invisible">To deposit or withdraw from your MetaTrader Account, switch to your Binary.com Real Account.</p>
+                <p class="msg-switch-to-deposit notice-msg center-text invisible">To deposit or withdraw from your MT5 Account, switch to your Binary.com Real Account.</p>
                 <div class="accordion invisible">
-                    <h3>Deposit to MetaTrader account</h3>
+                    <h3>Make a deposit</h3>
                     <div>
                         <form class="form-deposit">
-                            <p>Deposit funds into your MetaTrader account from your Binary account:</p>
+                            <p>Transfer funds from Binary.com account into your MT5 account:</p>
                             <div class="gr-row gr-padding-10">
-                                <div class="gr-6 form_label">Deposit from</div>
+                                <div class="gr-6 form_label">Transfer from</div>
                                 <div class="gr-6 form_label align-start binary-login"></div>
                             </div>
                             <div class="gr-row gr-padding-10">
-                                <div class="gr-6 form_label">Deposit to</div>
+                                <div class="gr-6 form_label">Deposit into</div>
                                 <div class="gr-6 form_label align-start mt-login"></div>
                             </div>
                             <div class="gr-row gr-padding-10">
                                 <div class="gr-6 form_label"><label>Amount</label></div>
-                                <div class="gr-6">USD <input type="text" maxlength="10" class="txtAmount" /></div>
+                                <div class="gr-6">&#36; <input type="text" maxlength="10" class="txtAmount" /></div>
                             </div>
                             <div class="gr-row gr-padding-10">
                                 <div class="gr-6 form_label"></div>
@@ -327,25 +327,25 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                             </div>
                         </form>
                     </div>
-                    <h3>Withdraw from MetaTrader account</h3>
+                    <h3>Make a withdrawal</h3>
                     <div>
                         <form class="form-withdrawal">
-                            <p>Withdraw funds from your MetaTrader account into your Binary account:</p>
+                            <p>Transfer funds from your MT5 account into your Binary.com account:</p>
                             <div class="gr-row gr-padding-10">
                                 <div class="gr-6 form_label">Withdraw from</div>
                                 <div class="gr-6 form_label align-start mt-login"></div>
                             </div>
                             <div class="gr-row gr-padding-10">
-                                <div class="gr-6 form_label">Withdraw to</div>
+                                <div class="gr-6 form_label">Transfer into</div>
                                 <div class="gr-6 form_label align-start binary-login"></div>
                             </div>
                             <div class="gr-row gr-padding-10">
-                                <div class="gr-6 form_label"><label>MetaTrader Main Password</label></div>
+                                <div class="gr-6 form_label"><label>MT5 main password</label></div>
                                 <div class="gr-6"><input type="password" class="txtMainPass" /></div>
                             </div>
                             <div class="gr-row gr-padding-10">
                                 <div class="gr-6 form_label"><label>Amount</label></div>
-                                <div class="gr-6">USD <input type="text" maxlength="10" class="txtAmount" /></div>
+                                <div class="gr-6">&#36; <input type="text" maxlength="10" class="txtAmount" /></div>
                             </div>
                             <div class="gr-row gr-padding-10">
                                 <div class="gr-6 form_label"></div>
