@@ -12,7 +12,16 @@ var MetaTraderUI = (function() {
         currency,
         highlightBalance,
         mt5Logins,
-        mt5Accounts;
+        mt5Accounts,
+        accountDisplayName = {
+            volatility: 'Volatility Indices',
+            financial : 'Financial',
+            demo      : 'Demo',
+        },
+        marketDisplayName = {
+            volatility: 'Volatility Indices',
+            financial: 'Forex',
+        };
 
     var init = function() {
         MetaTraderData.initSocket();
@@ -22,7 +31,7 @@ var MetaTraderUI = (function() {
 
         hiddenClass = 'invisible';
         errorClass  = 'errorfield';
-        currency    = 'USD';
+        currency    = '$';
         mt5Logins   = {};
         mt5Accounts = {};
         highlightBalance = false;
@@ -78,15 +87,15 @@ var MetaTraderUI = (function() {
         findInSection(accType, '.form-new-account').addClass(hiddenClass);
         var mtWebURL = 'https://trade.mql5.com/trade?servers=Binary.com-Server&amp;trade_server=Binary.com-Server&amp;';
         var $details = $('<div/>').append($(
-            makeTextRow('Login', mt5Accounts[accType].login) +
+            makeTextRow('Login ID', mt5Accounts[accType].login) +
             makeTextRow('Balance', currency + ' ' + mt5Accounts[accType].balance, 'balance') +
             makeTextRow('Name', mt5Accounts[accType].name) +
             // makeTextRow('Leverage', mt5Accounts[accType].leverage)
-            makeTextRow('', text.localize('Start trading with your MetaTrader Account:') + '<div class="download gr-padding-10">' +
+            makeTextRow('', text.localize('Start trading with MT5:') + '<div class="download gr-padding-10">' +
                 '<a class="button pjaxload" href="' + page.url.url_for('download-metatrader') + '">' +
-                    '<span>' + text.localize('Download MetaTrader') + '</span></a>' +
+                    '<span>' + text.localize('Download desktop app') + '</span></a>' +
                 '<a class="button" href="' + (mtWebURL + 'login=' + mt5Accounts[accType].login) + '" target="_blank">' +
-                    '<span>' + text.localize('MetaTrader Web Platform') + '</span></a><br />' +
+                    '<span>' + text.localize('Go to web terminal') + '</span></a><br />' +
                 '<a href="https://download.mql5.com/cdn/mobile/mt5/ios?server=Binary.com-Server" target="_blank">' +
                     '<div class="app-store-badge"></div>' +
                 '</a>' +
@@ -102,9 +111,9 @@ var MetaTraderUI = (function() {
             findInSection(accType, '.authenticate').addClass(hiddenClass);
             if(page.client.is_virtual()) {
                 $accordion.addClass(hiddenClass);
-                $('.msg-switch-to-deposit').removeClass(hiddenClass);
+                findInSection(accType, '.msg-switch-to-deposit').removeClass(hiddenClass);
             } else {
-                $('.msg-switch-to-deposit').addClass(hiddenClass);
+                findInSection(accType, '.msg-switch-to-deposit').addClass(hiddenClass);
                 ['.form-deposit', '.form-withdrawal'].map(function(formClass){
                     $form = findInSection(accType, formClass);
                     $form.find('.binary-login').text(page.client.loginid);
@@ -254,9 +263,9 @@ var MetaTraderUI = (function() {
                         if(loginInfo.real) hasRealBinaryAccount = true;
                     });
 
-                    findInSection(accType, '.msg-account').html(hasRealBinaryAccount ?
-                        text.localize('To create a real account for MetaTrader, switch to your [_1] real money account.', ['Binary.com']) :
-                        text.localize('To create a real account for MetaTrader, <a href="[_1]">upgrade to [_2] real money account</a>.', [page.url.url_for('new_account/realws', '', true), 'Binary.com'])
+                    findInSection(accType, '.msg-account').html(hasRealBinaryAccount ? 
+                        text.localize('To create a ' + accountDisplayName[accType] + ' Account for MT5, please switch to your [_1] Real Account.', ['Binary.com']) :
+                        text.localize('To create a ' + accountDisplayName[accType] + ' Account for MT5, please <a href="[_1]"> upgrade to [_2] Real Account</a>.', [page.url.url_for('new_account/realws', '', true), 'Binary.com'])
                     ).removeClass(hiddenClass);
                 } else {
                     if(/financial/.test(accType) && !isAuthenticated) {
@@ -265,7 +274,8 @@ var MetaTraderUI = (function() {
                         MetaTraderData.requestFinancialAssessment();
                     } else {
                         $form = findInSection(accType, '.form-new-account');
-                        $form.find('.account-type').text(text.localize(accType.charAt(0).toUpperCase() + accType.slice(1)));
+                        $form.find('.account-msg').text(text.localize('Create a ' + accountDisplayName[accType] + ' Account to trade ' + marketDisplayName[accType] + ' on MT5.'));
+                        $form.find('.account-type').text(text.localize(accountDisplayName[accType]));
                         $form.find('.name-row').remove();
                         $form.removeClass(hiddenClass);
                     }
@@ -323,7 +333,7 @@ var MetaTraderUI = (function() {
             manageTabContents();
         } else if(!page.client.is_virtual()) {
             findInSection('financial', '.msg-account').html(
-                text.localize('To create a financial account for MetaTrader 5, please complete the <a href="[_1]">Financial Assessment</a>.', [page.url.url_for('user/settings/assessmentws')])
+                text.localize('To create a Financial Account for MT5, please complete the <a href="[_1]">Financial Assessment</a>.', [page.url.url_for('user/settings/assessmentws')])
             ).removeClass(hiddenClass);
         }
     };
@@ -376,7 +386,7 @@ var MetaTraderUI = (function() {
         if (new_type === 'gaming') new_type = 'volatility';
         mt5Logins[new_login] = new_type;
         MetaTraderData.requestLoginDetails(new_login);
-        showAccountMessage(new_type, text.localize('Congratulations! Your account has been created.'));
+        showAccountMessage(new_type, text.localize('Congratulations! Your ' + accountDisplayName[new_type] + ' Account has been created.'));
 
         // Update mt5_logins in localStorage
         var mt5_logins = JSON.parse(page.client.get_storage_value('mt5_logins') || '{}');
@@ -493,7 +503,7 @@ var MetaTraderUI = (function() {
             // main & investor passwords must vary
             var valueInvestPass = $form.find('.txtInvestPass').val();
             if(valueInvestPass && valueInvestPass === valuePass) {
-                showError('.txtInvestPass', text.localize('Investor Password cannot be same as Main Password.'));
+                showError('.txtInvestPass', text.localize('Investor password cannot be same as Main password.'));
                 isValid = false;
             }
             // name
