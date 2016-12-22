@@ -99,7 +99,7 @@
                             </div>
                             <div class="gr-row gr-padding-10">
                                 <div class="gr-6 form_label"><label>[% l('Amount') %]</label></div>
-                                <div class="gr-6">[% l('$ ') %]<input type="text" maxlength="10" class="txtAmount" /></div>
+                                <div class="gr-6">&#36; <input type="text" maxlength="10" class="txtAmount" /></div>
                             </div>
                             <div class="gr-row gr-padding-10">
                                 <div class="gr-6 form_label"></div>
@@ -128,7 +128,7 @@
                             </div>
                             <div class="gr-row gr-padding-10">
                                 <div class="gr-6 form_label"><label>[% l('Amount') %]</label></div>
-                                <div class="gr-6">[% l('$ ') %]<input type="text" maxlength="10" class="txtAmount" /></div>
+                                <div class="gr-6">&#36; <input type="text" maxlength="10" class="txtAmount" /></div>
                             </div>
                             <div class="gr-row gr-padding-10">
                                 <div class="gr-6 form_label"></div>
