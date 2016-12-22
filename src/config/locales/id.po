@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-12-18 22:05-0500\n"
+"PO-Revision-Date: 2016-12-21 05:40-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Indonesian\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "X-Generator: crowdin.com\n"
 "X-Crowdin-Project: binary-mt\n"
 "X-Crowdin-Language: id\n"
-"X-Crowdin-File: /translations/src/config/locales/messages.pot\n"
+"X-Crowdin-File: /beta/src/config/locales/messages.pot\n"
 "Language: id_ID\n"
 
 msgid "%1 gives everyone an easy way to participate in the financial markets. Trade with as little as $1 USD on major currencies, stocks, indices, and commodities."
@@ -25,25 +25,25 @@ msgid "%1 offers forex and contracts for differences via the hybrid model, i.e.,
 msgstr ""
 
 msgid "&#36;1/point"
-msgstr "&#36;1/point"
+msgstr ""
 
 msgid "&#36;100,000 - &#36;250,000"
-msgstr "&#36;100,000 - &#36;250,000"
+msgstr ""
 
 msgid "&#36;100,001 - &#36;500,000"
-msgstr "&#36;100,001 - &#36;500,000"
+msgstr ""
 
 msgid "&#36;25,000 - &#36;50,000"
-msgstr "&#36;25,000 - &#36;50,000"
+msgstr ""
 
 msgid "&#36;250,001 - &#36;500,000"
-msgstr "&#36;250,001 - &#36;500,000"
+msgstr ""
 
 msgid "&#36;50,001 - &#36;100,000"
-msgstr "&#36;50,001 - &#36;100,000"
+msgstr ""
 
 msgid "&#36;500,001 - &#36;1,000,000"
-msgstr "&#36;500,001 - &#36;1,000,000"
+msgstr ""
 
 msgid "&copy; 2016 Binary.com"
 msgstr "&copy; Binary.com 2016"
@@ -100,7 +100,7 @@ msgid "A. Introduction and Scope of Agreement"
 msgstr "A. Pendahuluan dan Ruang Lingkup Perjanjian"
 
 msgid "A. Spot FX"
-msgstr "A. Spot FX"
+msgstr ""
 
 msgid "Access advanced tools for fundamental and technical analysis, all available in one platform."
 msgstr ""
@@ -310,7 +310,7 @@ msgid "D. Client Instructions"
 msgstr "D. Petunjuk Klien"
 
 msgid "Demo"
-msgstr "Demo"
+msgstr ""
 
 msgid "Demo Account"
 msgstr "Akun Demo"
@@ -319,7 +319,7 @@ msgid "Depending on the level of risk that we are exposed to acting as your coun
 msgstr ""
 
 msgid "Deposit"
-msgstr "Deposit"
+msgstr ""
 
 msgid "Deposit from"
 msgstr "Formulir deposit"
@@ -340,7 +340,7 @@ msgid "Details"
 msgstr "Rincian"
 
 msgid "Download MetaTrader"
-msgstr "Download MetaTrader"
+msgstr ""
 
 msgid "Download MetaTrader for Windows"
 msgstr "Download MetaTrader untuk Windows"
@@ -592,7 +592,7 @@ msgid "Level of Education"
 msgstr "Tingkat Pendidikan"
 
 msgid "Leverage"
-msgstr "Leverage"
+msgstr ""
 
 msgid "Leverage can be used to generate returns that are of multiple times higher than the amount set aside from your account balance to open and maintain a transaction (your margin). However, investments that have the potential to deliver greater investment returns carry higher levels of risk. This means that if the price movement is against your favour, you will suffer losses that are of multiple times higher than the amount set aside from your account balance to open and maintain a transaction (your margin)."
 msgstr ""
@@ -874,7 +874,7 @@ msgid "Self-Employed"
 msgstr "Wiraswasta"
 
 msgid "Server"
-msgstr "Server"
+msgstr ""
 
 msgid "Sign out"
 msgstr "Keluar"
