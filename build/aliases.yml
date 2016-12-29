@@ -16,7 +16,6 @@ default:
   - 'test'
   - 'css'
   - 'js'
-  - 'fileindex'
   - 'copy'
 
 dev:
@@ -34,12 +33,7 @@ serve:
   - 'watch'
 
 livereload:
-  - 'clean'
-  - 'css'
-  - 'js'
-  - 'fileindex'
-  - 'copy'
-  - 'shell:compile_dev'
+  - 'default'
   - 'connect:livereload'
   - 'watch'
 

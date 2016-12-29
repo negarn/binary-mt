@@ -74,7 +74,7 @@ module.exports = function (grunt) {
                                 grunt.fail.fatal('Current branch is not correct.\nIn order to release to ' + global.release_target.toUpperCase() + ', please checkout the "' + global.release_info[global.release_target].branch + '" branch.');
                             }
                         } else {
-                            grunt.fail.fatal('Target is required: use --staging or --production or --translations to do a release.');
+                            grunt.fail.fatal('Target is required: use --beta or --production or --translations to do a release.');
                         }
                     }
                     cb();

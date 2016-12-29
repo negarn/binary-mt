@@ -105,7 +105,10 @@ function BinarySocketClass() {
             }
 
             if (isReady()) {
-                if (!Login.is_login_pages()) page.header.validate_cookies();
+                if (!Login.is_login_pages()) {
+                    page.header.validate_cookies();
+                    binarySocket.send(JSON.stringify({ website_status: 1 }));
+                }
                 if (!clock_started) page.header.start_clock_ws();
             }
         };
@@ -168,6 +171,7 @@ function BinarySocketClass() {
                     page.client.check_tnc();
                 } else if (type === 'website_status') {
                     if(!response.hasOwnProperty('error')) {
+                        create_language_drop_down(response.website_status.supported_languages);
                         LocalStore.set('website.tnc_version', response.website_status.terms_conditions_version);
                         page.client.check_tnc();
                         if (response.website_status.hasOwnProperty('clients_country')) {
