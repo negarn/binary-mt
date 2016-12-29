@@ -54,20 +54,20 @@
           <link rel="alternate" href="/zh_cn/user/settings/metatrader.html" hreflang="ZH_CN" /> 
           <link rel="alternate" href="/zh_tw/user/settings/metatrader.html" hreflang="ZH_TW" /> 
         
-         <link rel="stylesheet" href="/css/binary.min.css?cr9daj4g">
-         <link rel="stylesheet" href="https://style.binary.com/binary.css?cr9daj4g">
+         <link rel="stylesheet" href="/css/binary.min.css?xdqf98xt">
+         <link rel="stylesheet" href="https://style.binary.com/binary.css?xdqf98xt">
         
         <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=Array.prototype.includes,String.prototype.includes&unknown=polyfill"></script>
 <script>
     //A global variable required to initialize Page object.
     window.page_params = {settings: {"valid_loginids":"MX|MF|VRTC|MLT|CR|FOG|VRTJ|JP","image_link":{"hourglass":"/images/common/hourglass_1.gif"}}};
-</script>  <script src='/js/binary.min.js?cr9daj4g' defer async></script>
+</script>  <script src='/js/binary.min.js?xdqf98xt' defer async></script>
     </head>
 
 
 <body class="PT">
     <div id='page-wrapper'>
-    <div id="topbar">
+    <div id="topbar" class="no-print">
         <div class="container">
             <div class="gr-row">
                 <div id="topbar-msg" class='gr-6 gr-5-t gr-12-p gr-12-m invisible upgrademessage'>
@@ -77,38 +77,39 @@
                 </div>
                 <div class='gr-6 gr-7-t gr-12-p gr-12-m' id='topbar-info'>
                     <div class="gr-row">
-                        <div class='gr-12 gr-7-m align-end'>
-                            <span class="no-underline" id="gmt-clock" data-balloon-pos="down"></span>
+                        <div class='gr-5 gr-6-m no-underline' id="gmt-clock" data-balloon-pos="down"></div>
+                        <div class='gr-2 gr-hide-m' id='contact-us'>
+                            <!-- <a class="pjaxload" href="contact">Contact Us</a> -->
+                        </div> 
+                        <div class='gr-5 gr-6-m'>
+                            <!-- <div class="languages">
+                                <ul id="display_language">
+                                    <li>
+                                        <span class="world world-white"></span>
+                                        <div class="language-wrapper">
+                                            <span class="language"></span>
+                                        </div>
+                                        <span class="nav-caret"></span>
+                                    </li>
+                                </ul>
+                                <ul id="select_language">
+                                    <li>
+                                        <span class="world world-black"></span>
+                                        <div class="language-wrapper">
+                                            <span class="language"></span>
+                                        </div>
+                                        <span class="nav-caret"></span>
+                                    </li>
+                                </ul>
+                            </div> -->
                         </div>
-                        <!-- <div class='gr-3 gr-hide-m' id='contact-us'>
-                            <a class="pjaxload" href="contact">Contact Us</a>
-                        </div>
-                        <div class='gr-4 gr-5-m'>
-                            <div class="PT" id='language_select'>
-                                <select>
-            <option class='EN'>English</option>
-                <option class='DE'>Deutsch</option>
-                <option class='ES'>Español</option>
-                <option class='FR'>Français</option>
-                <option class='ID'>Bahasa Indonesia</option>
-                <option class='IT'>Italiano</option>
-                <option class='PL'>Polish</option>
-                <option class='PT' selected='selected'>Português</option>
-                <option class='RU'>Русский</option>
-                <option class='TH'>Thai</option>
-                <option class='VI'>Vietnamese</option>
-                <option class='ZH_CN'>简体中文</option>
-                <option class='ZH_TW'>繁體中文</option>
-    </select>
-                            </div>
-                        </div> -->
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div id="header">
+    <div id="header" class="no-print">
         <div class='container'>
             <div class='gr-12'>
                 <div class='gr-row gr-row-align-middle'>
@@ -116,60 +117,62 @@
                         <a id="logo" href="javascript:;">
                             <div class='gr-row logo-parent'>
                                 <div class='gr-3 gr-12-m gr-12-p gr-no-gutter logo'>
-                                    <img class='responsive' src="https://style.binary.com/images/logo/symbol.svg" />
+                                    <div></div>
                                 </div>
                                 <div class='gr-9 gr-hide-m gr-hide-p binary-logo-text'>
-                                    <img class='responsive' src="https://style.binary.com/images/logo/type.svg" />
+                                    <div></div>
                                 </div>
                             </div>
                         </a>
                     </div>
-                    <div class='gr-6 gr-hide-m gr-hide-p'></div>
+                    <!-- <div class='gr-6 gr-hide-m gr-hide-p' gr-padding-10>
+                        <div id="main-navigation"></div>
+                    </div> -->
                     <div id="client-logged-in" class="gr-3 gr-7-m gr-8-p gr-no-gutter by_client_type client_real client_virtual center-text invisible">
-                      <div id="main-logout">
-                        <ul id="main-account" class="nav-menu main-nav">
-                            <li class="account">
-                                <a href="javascript:;">
-                                    <div class="main-account">
-                                        <div class="account-type"></div>
-                                        <div class="account-id"></div>
-                                        <div class="topMenuBalance">0</div>
-                                    </div>
-                                    <div class="nav-caret"></div>
-                                </a>
-                            </li>
-                        </ul>
-                        <ul id="all-accounts" class="nav-menu main-nav">
-                            <li class="account">
-                                <a href="javascript:;">
-                                    <div class="main-account">
-                                        <div class="account-type"></div>
-                                        <div class="account-id"></div>
-                                        <div class="topMenuBalance">0</div>
-                                    </div>
-                                    <div class="nav-caret"></div>
-                                </a>
-                                <ul>
-                                    <div class="separator-line-thin-gray"></div>
-                                    <div class="login-id-list"></div>
-                                    <a href="javascript:;" id="btn_logout" class="logout">
-                                        <li>Sign out</li>
+                        <div id="main-logout">
+                            <ul id="main-account" class="nav-menu main-nav">
+                                <li class="account">
+                                    <a href="javascript:;">
+                                        <div class="main-account">
+                                            <div class="account-type"></div>
+                                            <div class="account-id"></div>
+                                            <div class="topMenuBalance">0</div>
+                                        </div>
+                                        <div class="nav-caret"></div>
                                     </a>
-                                </ul>
-                            </li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div id="client-logged-out" class="gr-3 gr-8-m gr-8-p gr-no-gutter by_client_type client_logged_out invisible">
-                        <a id="btn_login" class="button" href="javascript:;"><span>Log in</span></a>
-                    </div>
-                    <div class='gr-hide gr-show-m gr-2-m gr-show-p gr-2-p gr-no-gutter-mobile align-end'>
-                        <div id='mobile-menu-icon-container'>
-                            <a href='#mobile-menu' id='mobile-menu-icon'>
-                                <img class='responsive' src="/images/pages/binary-mobile-menu.svg"/>
-                            </a>
+                                </li>
+                            </ul>
+                            <ul id="all-accounts" class="nav-menu main-nav">
+                                <li class="account">
+                                    <a href="javascript:;">
+                                        <div class="main-account">
+                                            <div class="account-type"></div>
+                                            <div class="account-id"></div>
+                                            <div class="topMenuBalance">0</div>
+                                        </div>
+                                        <div class="nav-caret"></div>
+                                    </a>
+                                    <ul>
+                                        <div class="separator-line-thin-gray"></div>
+                                        <div class="login-id-list"></div>
+                                        <a href="javascript:;" id="btn_logout" class="logout">
+                                            <li>Sign out</li>
+                                        </a>
+                                    </ul>
+                                </li>
+                            </ul>
                         </div>
                     </div>
+                    <div id="client-logged-out" class="gr-3 gr-8-m gr-8-p gr-no-gutter by_client_type client_logged_out invisible gr-padding-10">
+                        <a id="btn_login" class="button" href="javascript:;"><span>Log in</span></a>
+                    </div>
+                    <!-- <div class='gr-hide gr-show-m gr-2-m gr-show-p gr-2-p gr-no-gutter-mobile align-end'>
+                        <div id='mobile-menu-icon-container'>
+                            <a href='#mobile-menu' id='mobile-menu-icon'>
+                                <img class='responsive' src="/images/pages/binary-mobile-menu.svg" />
+                            </a>
+                        </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -213,7 +216,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div class="container">
 
 <div id="metatrader">
-    <h1>MetaTrader Accounts Management</h1>
+    <h1>MetaTrader account management</h1>
 
     <p id="errorMsg" class="notice-msg center-text invisible"></p>
 
@@ -223,7 +226,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <ul class="sidebar-nav">
                     <li id="nav-demo" class="selected"><a href="#demo">Demo Account</a></li>
                     <li id="nav-financial"><a href="#financial">Financial Account</a></li>
-                    <li id="nav-volatility"><a href="#volatility">Volatility Indices</a></li>
+                    <li id="nav-volatility"><a href="#volatility">Volatility Indices Account</a></li>
                 </ul>
             </div>
         </div>
@@ -232,9 +235,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <h3>Demo Account</h3>
                 <p class="msg-account notice-msg center-text invisible"></p>
                 <form class="form-new-account invisible">
-                    <p>Create a MetaTrader account to trade on the MetaTrader 5 platform.</p>
+                    <p class="account-msg"></p>
                     <div class="gr-row gr-padding-10">
-                        <div class="gr-6 form_label">Account Type</div>
+                        <div class="gr-6 form_label">Account type</div>
                         <div class="gr-6 form_label align-start account-type">Demo</div>
                     </div>
                     <div class="gr-row gr-padding-10 invisible">
@@ -250,28 +253,34 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         </div>
                     </div>
                     <div class="name-row gr-row gr-padding-10 invisible">
-                        <div class="gr-6 form_label"><label>Your Name</label></div>
+                        <div class="gr-6 form_label"><label>Name</label></div>
                         <div class="gr-6"><input type="text" class="txtName" maxlength="30" /></div>
                     </div>
                     <div class="gr-row gr-padding-10">
-                        <div class="gr-6 form_label"><label>Main Password (trading access)</label></div>
+                        <div class="gr-6 form_label"><label>Main password (trading access)</label></div>
                         <div class="gr-6">
                             <input type="password" class="txtMainPass password">
-                            <div class="hint">Minimum of eight lower and uppercase letters with numbers</div>
+                            <div class="hint">Minimum eight characters. Must contain numbers, and mix of upper and lower case letters.</div>
                         </div>
                     </div>
                     <div class="gr-row gr-padding-10">
-                        <div class="gr-6 form_label"><label>Verify Main Password</label></div>
+                        <div class="gr-6 form_label"><label>Verify main password</label></div>
                         <div class="gr-6"><input type="password" class="txtMainPass2" /></div>
                     </div>
                     <div class="gr-row gr-padding-10">
-                        <div class="gr-6 form_label"><label>Investor Password (read-only access)</label></div>
+                        <div class="gr-6 form_label"><label>Investor password (read-only access)</label></div>
                         <div class="gr-6"><input type="password" class="txtInvestPass" /></div>
+                    </div>
+                    <div class="tnc-row gr-row gr-padding-10 invisible">
+                        <div class="gr-12 center-text">
+                            <input type="checkbox" class="chkTNC" />
+                            <label>I have read and agreed to the <a target="_blank" href="/pt/terms-and-conditions.html">terms and conditions</a> of the site.</label>
+                        </div>
                     </div>
                     <div class="gr-row gr-padding-10">
                         <div class="gr-6 form_label"></div>
                         <div class="gr-6">
-                            <button class="button">Create</button>
+                            <button class="button">Create account</button>
                             <div class="formMessage center-text"></div>
                         </div>
                     </div>
@@ -282,32 +291,32 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <h3>Financial Account</h3>
                 <p class="msg-account notice-msg center-text invisible"></p>
                 <div class="authenticate invisible">
-                    <p>In order to create an account for MetaTrader, you need to authenticate your Binary account.</p>
-                    <p>To authenticate your account, kindly email the following to <a href="mailto:support@binary.com">support@binary.com</a></p>
+                    <p>Authenticate your Binary.com account to create an MT5 Financial Account.</p>
+                    <p>Kindly email the following documents to <a href="mailto:support@binary.com">support@binary.com</a> to authenticate your account:</p>
                     <ul class="bullet">
-                        <li>A scanned copy of your passport, driving licence (provisional or full) or identity card, showing your name and date of birth.</li>
-                        <li>A scanned copy of a utility bill or bank statement (no more than 3 months old).</li>
+                        <li>A scanned copy of your passport, driving licence (provisional or full), or identity card that shows your full name and date of birth.</li>
+                        <li>A scanned copy of a utility bill or bank statement that is no more than three months old.</li>
                     </ul>
                 </div>
                 <form class="form-new-account invisible"></form>
                 <div class="account-details"></div>
-                <p class="msg-switch-to-deposit notice-msg center-text invisible">To deposit or withdraw from your MetaTrader Account, switch to your Binary.com Real Account.</p>
+                <p class="msg-switch-to-deposit notice-msg center-text invisible">To deposit or withdraw from your MT5 Account, switch to your Binary.com Real Account.</p>
                 <div class="accordion invisible">
-                    <h3>Deposit to MetaTrader account</h3>
+                    <h3>Make a deposit</h3>
                     <div>
                         <form class="form-deposit">
-                            <p>Deposit funds into your MetaTrader account from your Binary account:</p>
+                            <p>Transfer funds from Binary.com account into your MT5 account:</p>
                             <div class="gr-row gr-padding-10">
-                                <div class="gr-6 form_label">Deposit from</div>
+                                <div class="gr-6 form_label">Transfer from</div>
                                 <div class="gr-6 form_label align-start binary-login"></div>
                             </div>
                             <div class="gr-row gr-padding-10">
-                                <div class="gr-6 form_label">Deposit to</div>
+                                <div class="gr-6 form_label">Deposit into</div>
                                 <div class="gr-6 form_label align-start mt-login"></div>
                             </div>
                             <div class="gr-row gr-padding-10">
                                 <div class="gr-6 form_label"><label>Amount</label></div>
-                                <div class="gr-6">USD <input type="text" maxlength="10" class="txtAmount" /></div>
+                                <div class="gr-6">&#36; <input type="text" maxlength="10" class="txtAmount" /></div>
                             </div>
                             <div class="gr-row gr-padding-10">
                                 <div class="gr-6 form_label"></div>
@@ -318,25 +327,25 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                             </div>
                         </form>
                     </div>
-                    <h3>Withdraw from MetaTrader account</h3>
+                    <h3>Make a withdrawal</h3>
                     <div>
                         <form class="form-withdrawal">
-                            <p>Withdraw funds from your MetaTrader account into your Binary account:</p>
+                            <p>Transfer funds from your MT5 account into your Binary.com account:</p>
                             <div class="gr-row gr-padding-10">
                                 <div class="gr-6 form_label">Withdraw from</div>
                                 <div class="gr-6 form_label align-start mt-login"></div>
                             </div>
                             <div class="gr-row gr-padding-10">
-                                <div class="gr-6 form_label">Withdraw to</div>
+                                <div class="gr-6 form_label">Transfer into</div>
                                 <div class="gr-6 form_label align-start binary-login"></div>
                             </div>
                             <div class="gr-row gr-padding-10">
-                                <div class="gr-6 form_label"><label>MetaTrader Main Password</label></div>
+                                <div class="gr-6 form_label"><label>MT5 main password</label></div>
                                 <div class="gr-6"><input type="password" class="txtMainPass" /></div>
                             </div>
                             <div class="gr-row gr-padding-10">
                                 <div class="gr-6 form_label"><label>Amount</label></div>
-                                <div class="gr-6">USD <input type="text" maxlength="10" class="txtAmount" /></div>
+                                <div class="gr-6">&#36; <input type="text" maxlength="10" class="txtAmount" /></div>
                             </div>
                             <div class="gr-row gr-padding-10">
                                 <div class="gr-6 form_label"></div>
