@@ -30,7 +30,7 @@ sub _texts {
         push @texts, localize('Demo');
         push @texts, localize('Financial');
         push @texts, localize('Volatility Indices');
-        push @texts, localize('Log in');
+        push @texts, localize('log in');
         push @texts, localize('Balance');
         push @texts, localize('Name');
         push @texts, localize('To create a Financial Account for MT5, please switch to your [_1] Real Account.');
@@ -51,10 +51,9 @@ sub _texts {
         push @texts, localize('Volatility Indices Account');
         push @texts, localize('Investor password cannot be same as Main password.');
         push @texts, localize('Please contact <a href="[_1]">Customer Support</a>.');
-        push @texts, localize('[_1] to your Binary.com account to create an MT5 account');
-        push @texts, localize('Start trading Forex and CFDs with Binary.com');
-        push @texts, localize('Your existing Binary.com account and cashier will be linked to your MT5 account');
-        push @texts, localize('Don\'t have a Binary.com account? <a href="[_1]">Create one</a> now');
+        push @texts, localize('To register an MT5 account, please [_1] to your Binary.com account <br/> Don\'t have a Binary.com account? <a href="[_2]">Create one</a> now');
+        push @texts, localize('Start trading Forex and CFDs with MetaTrader 5');
+        push @texts, localize('Take advantage of MT5’s advanced features and tools for a complete trading experience.');
         push @texts, localize('Login ID');
         push @texts, localize('Create a Financial Account to trade Forex on MT5.');
         push @texts, localize('Create a Volatility Indices Account to trade Volatility Indices on MT5.');
