@@ -58,7 +58,7 @@ sub _texts {
         push @texts, localize('Create a Financial Account to trade Forex on MT5.');
         push @texts, localize('Create a Volatility Indices Account to trade Volatility Indices on MT5.');
         push @texts, localize('Create a Demo Account to trade on MT5.');
-        push @texts, localize('<br/> Please contact <a href="[_1]">customer support</a> for more information.');
+        push @texts, localize('Please contact <a href="[_1]">customer support</a> for more information.');
         
         # strings for financial assessment
         push @texts, localize('Your settings have been updated successfully.');
