@@ -570,6 +570,12 @@ var MetaTraderUI = (function() {
         $btn.removeClass('button-disabled').removeAttr('disabled');
     };
 
+    var responseMT5APISuspended = function(message) {
+        $('#content')
+            .empty()
+            .html('<div class="container"><p class="notice-msg center-text">' + message + text.localize('<br/> Please contact <a href="[_1]">customer support</a> for more information.', [page.url.url_for('contact', '', true)]) + '</p></div>');
+    };
+
     return {
         init: init,
         responseLoginList      : responseLoginList,
@@ -581,5 +587,6 @@ var MetaTraderUI = (function() {
         responseAccountStatus  : responseAccountStatus,
         responseLandingCompany : responseLandingCompany,
         responseFinancialAssessment: responseFinancialAssessment,
+        responseMT5APISuspended: responseMT5APISuspended,
     };
 }());
