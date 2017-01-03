@@ -52,7 +52,7 @@ var MetaTraderData = (function() {
     };
 
     var responseHandler = function(response) {
-        if (response.error.code === 'MT5APISuspendedError') {
+        if (response.hasOwnProperty('error') && (response.error.code === 'MT5APISuspendedError')) {
             MetaTraderUI.responseMT5APISuspended(response.error.message);
             return;
         }
