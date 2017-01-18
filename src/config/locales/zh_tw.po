@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-01-18 01:34-0500\n"
+"PO-Revision-Date: 2017-01-18 01:41-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Chinese Traditional\n"
 "MIME-Version: 1.0\n"
@@ -865,55 +865,55 @@ msgid "Risk of slippage"
 msgstr "滑點風險"
 
 msgid "Roll-over - In the event that the Company does not receive Orders from you to close an Open Position by the close of a Business Day, the Company will roll-over the said Open Position to the following day being a Business Day."
-msgstr ""
+msgstr "隔夜利息 - 交易日結束前如果公司沒有收到您對持倉頭寸決定平倉的訂單，公司將把所述持倉頭寸推到下一個交易日。"
 
 msgid "Roll-over Credit/Debit - Accounts with Open Positions concerned by the Roll-over shall be credited or debited with an amount referred to as the Roll-over Credit/Debit which is determined by the Company at its sole discretion."
-msgstr ""
+msgstr "隔夜利息借/貸費 - 與未平倉頭寸隔夜利息有關的帳戶須記上由公司全權決定的隔夜利息借/貸費用金額，稱為隔夜利息借/貸費。"
 
 msgid "Run the installation file and follow the instructions."
-msgstr ""
+msgstr "運行安裝檔，並按照說明進行操作。"
 
 msgid "Salaried Employee"
-msgstr ""
+msgstr "受薪雇員"
 
 msgid "Secondary"
-msgstr ""
+msgstr "次要"
 
 msgid "Section 1"
-msgstr ""
+msgstr "部分 1"
 
 msgid "Section 2"
-msgstr ""
+msgstr "部分 2"
 
 msgid "Section 3"
-msgstr ""
+msgstr "部分 3"
 
 msgid "Section 4"
-msgstr ""
+msgstr "部分 4"
 
 msgid "Self-Employed"
-msgstr ""
+msgstr "自雇者"
 
 msgid "Server"
-msgstr ""
+msgstr "伺服器"
 
 msgid "Sign out"
-msgstr ""
+msgstr "登出"
 
 msgid "Size - the size of your order determined by the volume (number of lots)."
-msgstr ""
+msgstr "大小 - 您的訂單大小根據數量 （手數） 而定。"
 
 msgid "Sorry, an error occurred while processing your request."
-msgstr ""
+msgstr "對不起，在處理您的請求時發生錯誤。"
 
 msgid "Speed - the speed at which your order can be executed."
-msgstr ""
+msgstr "速度 - 您的訂單可執行速度。"
 
 msgid "Start Trading with MetaTrader 5"
-msgstr ""
+msgstr "開始用 MetaTrader 5 交易"
 
 msgid "Start trading Forex and CFDs with Binary.com"
-msgstr ""
+msgstr "開始在Binary.com進行外匯和 CFD 交易"
 
 msgid "Start trading with MT5:"
 msgstr ""
