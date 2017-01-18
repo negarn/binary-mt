@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-01-18 01:34-0500\n"
+"PO-Revision-Date: 2017-01-18 01:41-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
@@ -865,58 +865,58 @@ msgid "Risk of slippage"
 msgstr "滑点风险"
 
 msgid "Roll-over - In the event that the Company does not receive Orders from you to close an Open Position by the close of a Business Day, the Company will roll-over the said Open Position to the following day being a Business Day."
-msgstr ""
+msgstr "隔夜利息 - 交易日结束前如果公司没有收到您对持仓头寸决定平仓的订单，公司将把所述持仓头寸推到下一个交易日。"
 
 msgid "Roll-over Credit/Debit - Accounts with Open Positions concerned by the Roll-over shall be credited or debited with an amount referred to as the Roll-over Credit/Debit which is determined by the Company at its sole discretion."
-msgstr ""
+msgstr "隔夜利息借/贷费 - 与未平仓头寸隔夜利息有关的账户须记上由公司全权决定的隔夜利息借/贷费用金额，称为隔夜利息借/贷费。"
 
 msgid "Run the installation file and follow the instructions."
-msgstr ""
+msgstr "运行安装文件，并按照说明进行操作。"
 
 msgid "Salaried Employee"
-msgstr ""
+msgstr "受薪雇员"
 
 msgid "Secondary"
-msgstr ""
+msgstr "次要"
 
 msgid "Section 1"
-msgstr ""
+msgstr "部分 1"
 
 msgid "Section 2"
-msgstr ""
+msgstr "部分 2"
 
 msgid "Section 3"
-msgstr ""
+msgstr "部分 3"
 
 msgid "Section 4"
-msgstr ""
+msgstr "部分 4"
 
 msgid "Self-Employed"
-msgstr ""
+msgstr "个体经营"
 
 msgid "Server"
-msgstr ""
+msgstr "服务器"
 
 msgid "Sign out"
-msgstr ""
+msgstr "注销"
 
 msgid "Size - the size of your order determined by the volume (number of lots)."
-msgstr ""
+msgstr "大小 - 您的订单大小根据数量 （手数） 而定。"
 
 msgid "Sorry, an error occurred while processing your request."
-msgstr ""
+msgstr "对不起，您的请求处理发生错误。"
 
 msgid "Speed - the speed at which your order can be executed."
-msgstr ""
+msgstr "速度 - 您的订单可执行速度。"
 
 msgid "Start Trading with MetaTrader 5"
-msgstr ""
+msgstr "开始用 MetaTrader 5 交易"
 
 msgid "Start trading Forex and CFDs with Binary.com"
-msgstr ""
+msgstr "开始在Binary.com进行外汇和 CFD 交易"
 
 msgid "Start trading with MT5:"
-msgstr ""
+msgstr "开始用 MT5 交易︰"
 
 msgid "Stocks trading experience"
 msgstr ""
