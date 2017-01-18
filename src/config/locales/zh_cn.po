@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-01-18 01:41-0500\n"
+"PO-Revision-Date: 2017-01-18 01:48-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
@@ -919,13 +919,13 @@ msgid "Start trading with MT5:"
 msgstr "开始用 MT5 交易︰"
 
 msgid "Stocks trading experience"
-msgstr ""
+msgstr "股票交易经验"
 
 msgid "Stocks trading frequency"
-msgstr ""
+msgstr "股票交易频率"
 
 msgid "Stop Order / Stop Loss Order - an instruction to execute a Transaction to close an Open Position when the Price reaches your specified Price."
-msgstr ""
+msgstr "止损单 - 当价格达到您指定的水平时对持仓头寸执行平仓交易的指令。"
 
 msgid "Stop Out Level"
 msgstr ""
@@ -1078,25 +1078,25 @@ msgid "This Policy applies to retail and professional clients of Binary.com deal
 msgstr ""
 
 msgid "This Risk Disclosure Statement is not exhaustive and is not intended to constitute a comprehensive statement of all the risks to which you might be exposed to and does not describe all risks inherent to forex and contracts for differences that exist now or which may arise in the future. Its objective is rather to provide you with information for you to reasonably understand the risks associated with forex and contracts for differences offered by %1 in our interest to provide you with the best possible trading experience."
-msgstr ""
+msgstr "此风险披露声明并非详尽无遗，也并非包含您可能会接触到的所有风险的全面声明。此声明也并不能描述外汇交易和合约现存的固有风险或将来可能发生的所有风险差异。其目的在于为您提供及让您合理理解%1在符合我们利益的同时为您提供的最佳外汇与差价合约交易经验相关的风险信息。"
 
 msgid "This clause does not apply to Volatility Indices."
-msgstr ""
+msgstr "本条款不适用于波动性指数。"
 
 msgid "This feature is not relevant to virtual-money accounts."
-msgstr ""
+msgstr "此功能与虚拟资金账户没有关联。"
 
 msgid "This section on Force Majeure Events does not apply to Volatility Indices."
-msgstr ""
+msgstr "此不可抗力事件章节不适用于波动性指数。"
 
 msgid "Throughout the duration of the Transaction and for as long as the Transaction is open, you are required to maintain a sufficient Account Equity to cover any Margin Requirement. If your Account Equity is less than the Margin Requirement in relation to the open Transaction you wish to create, you have entered into a Margin Call and you are required to fund the shortfall immediately. You may not be able to place an Order to open a Transaction until the shortfall has been funded and there is sufficient Account Equity to cover the Total Margin."
-msgstr ""
+msgstr "整个交易期间以及交易开放期间， 您需要保持足够的账户资金，以支付任何保证金要求。如果您的账户资金在想要建立交易时低于开放交易保证金要求，您将收到追加保证金通知，需要立即补充短缺的资金。在补足短缺资金，拥有足够支付保证金的账户资金前您不能下单开启交易。"
 
 msgid "To create a Financial Account for MT5, please <a href=\"%1\"> upgrade to %2 Real Account</a>."
-msgstr ""
+msgstr "如要在MT5开立金融账户，请<a href=\"%1\">升级到 %2 真实账户</a>。"
 
 msgid "To create a Financial Account for MT5, please complete the <a href=\"%1\">Financial Assessment</a>."
-msgstr ""
+msgstr "如要在 MT5 开立金融账户，请完成<a href=\"%1\">财务评估</a>。"
 
 msgid "To create a Financial Account for MT5, please switch to your %1 Real Account."
 msgstr ""
