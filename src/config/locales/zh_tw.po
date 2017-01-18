@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-12-29 21:16-0500\n"
+"PO-Revision-Date: 2017-01-17 23:48-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Chinese Traditional\n"
 "MIME-Version: 1.0\n"
@@ -25,31 +25,31 @@ msgid "%1 offers forex and contracts for differences via the hybrid model, i.e.,
 msgstr "%1通過混合模式提供外匯和差價合約，即通過自己的帳戶（交易員）和部分對沖客戶訂單與我們的流動率提供商（無交易員）進行交易。當總交易量超過預定的風險承受力層次限額時，客戶訂單通常被對沖。%1在兩種執行模式中都扮演您與我們簽訂交易的合約相對方，而不是像交易所的交易金融工具那樣與中央結算所訂立交易的合約相對方。因此，存在相對方風險。相對方風險是指客戶因為您簽訂的外匯和/或差價交易合約相對方在交易現金流最終結算前違反其義務而造成的損失風險。"
 
 msgid "%1 to your Binary.com account to create an MT5 account"
-msgstr ""
+msgstr "%1到您的 Binary.com 帳戶開立MT5帳戶"
 
 msgid "&#36;1/point"
 msgstr "&#36;1/點"
 
 msgid "&#36;100,000 - &#36;250,000"
-msgstr ""
+msgstr "&#36;100,000 - &#36;250,000"
 
 msgid "&#36;100,001 - &#36;500,000"
-msgstr ""
+msgstr "&#36;100,001 - &#36;500,000"
 
 msgid "&#36;25,000 - &#36;50,000"
-msgstr ""
+msgstr "&#36;25,000 - &#36;50,000"
 
 msgid "&#36;250,001 - &#36;500,000"
-msgstr ""
+msgstr "&#36;250,001 - &#36;500,000"
 
 msgid "&#36;50,001 - &#36;100,000"
-msgstr ""
+msgstr "&#36;50,001 - &#36;100,000"
 
 msgid "&#36;500,001 - &#36;1,000,000"
-msgstr ""
+msgstr "&#36;500,001 - &#36;1,000,000"
 
 msgid "&copy; 2016 Binary.com"
-msgstr ""
+msgstr "&copy; 2016 Binary.com"
 
 msgid "* Minimum Spread is a percentage of the underlying market price, and can change over time."
 msgstr "*最低點差是標的市場價格的百分比，可隨時間變化。"
@@ -91,10 +91,10 @@ msgid "A higher figure (higher to you) representing our offer price and a lower 
 msgstr "每筆交易的報價將根據您的要求為您提供，包括代表我們報價的較高數字（對您來說比較高），以及代表我們出價的較低價格（對您來說較低）。我們的出價和報價之間的差額將包括市場價差（當有標的工具市場時）和我們的價差（我們向您收的費用）。"
 
 msgid "A scanned copy of a utility bill or bank statement that is no more than three months old."
-msgstr ""
+msgstr "水電煤帳單或銀行月結單掃描件（日期不得超過3個月）。"
 
 msgid "A scanned copy of your passport, driving licence (provisional or full), or identity card that shows your full name and date of birth."
-msgstr ""
+msgstr "顯示您名字和出生日期的護照、駕照（臨時或永久）或身份證的掃描件。"
 
 msgid "A. Introduction"
 msgstr "一、簡介"
@@ -121,7 +121,7 @@ msgid "Account Security"
 msgstr "帳戶安全"
 
 msgid "Account type"
-msgstr ""
+msgstr "帳戶類型"
 
 msgid "Accounts with debit balance (i.e. credit exposure to %1)"
 msgstr "帳戶的借方餘額 （即對 %1的信貸風險）"
