@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-01-18 02:05-0500\n"
+"PO-Revision-Date: 2017-01-18 02:13-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
@@ -1105,7 +1105,7 @@ msgid "To create a Volatility Indices Account for MT5, please <a href=\"%1\"> up
 msgstr "如要在MT5开立波动率指数账户，请<a href=\"%1\">升级到 %2 真实账户</a>。"
 
 msgid "To create a Volatility Indices Account for MT5, please switch to your %1 Real Account."
-msgstr ""
+msgstr "如要在MT5开立波动率指数账户，请切换到 %1 真实账户。"
 
 msgid "To deposit or withdraw from your MT5 Account, switch to your Binary.com Real Account."
 msgstr ""
