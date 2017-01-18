@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-01-18 02:21-0500\n"
+"PO-Revision-Date: 2017-01-18 02:32-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
@@ -1406,121 +1406,121 @@ msgid "You will take all reasonable steps to comply with any law, ordinance, cha
 msgstr "您将采取一切合理步骤，遵守您居住的管辖区适用的法律、条例、宪章、法令或规则 。"
 
 msgid "You will use the margin trading service described in this Agreement in good faith and you will not use any software, algorithm, or any trading strategy to manipulate or take unfair advantage of the way our bid and offer prices are quoted. You shall observe the standard of behavior reasonably expected of persons in your position and not take any step which would cause us to fail to observe the standard of behavior reasonably expected of persons in our position."
-msgstr ""
+msgstr "您将诚信使用本协议所述的保证金交易服务，您不会对我们的出价和要价方式使用任何软件、算法或任何交易策略操作或采取不公平的优势。你应遵守您立场的标准和合理行为，不采取任何使我们无法遵守我们立场的标准和合理行为的措施。"
 
 msgid "You will, at all times, obtain and comply, and do all that is necessary to maintain in full force and effect, all authority, powers, consents, licences and authorities referred to in this clause;"
-msgstr ""
+msgstr "您将一直获取和遵守并执行所有必要措施以对此条款所述的所有权限、权力、同意书、牌照和当局保持十足效力及作用;"
 
 msgid "You're using a Virtual Account."
-msgstr ""
+msgstr "您使用的是虚拟账户。"
 
 msgid "Your Real Account password and login ID are unique and passwords are hashed so that not even Binary.com staff can read them. This is the reason why we cannot retrieve your password and have to issue you with a new one to your email address if you cannot recall it;"
-msgstr ""
+msgstr "您的真实账户密码和登录 ID 都是唯一的，且密码已经被散列处理，即使是Binary.com的员工也无法看到它们。因此，如果您忘记密码，我们也无法帮您找回，只能向您的电子邮箱发送新的密码。"
 
 msgid "Your Real Account shall be funded by transferring funds from your Binary Options Real Account, subject to the availability and sufficiency of funds in your Binary Options Real Account. No fund transfers shall be made to any other account in the name of any third party."
-msgstr ""
+msgstr "您需从二元期权真实账户把资金转入真实账户，条件是您的二元期权真实账户是有效的并具足够资金。不可向任何第三方名下账户转入资金。"
 
 msgid "Your account should not be used as a banking facility and deposits should only be made with a view to using funds to place contracts. The Company is not a financial institution. Clients will not receive interest on deposits. Should you make repeated deposits and withdrawals without commensurate contracts being placed, we reserve the right to pass on to your accounts, without prior notice, any bank charges we have incurred before closing the account."
-msgstr ""
+msgstr "您的账户不应被用作银行信贷，其中的存款只应视为交易资金。本公司并不是金融机构，客户存款不会有利息。如果您重复进行存、取款，却没有进行相应的交易，在关闭账户之前，我们保留权利在不事先通知的情况下把相关银行费用转加到您的账户。"
 
 msgid "Your death, your incapacity, become of unsound mind or your inability to pay your debts as they fall due, or is bankrupt or insolvent, as defined under any bankruptcy or insolvency law applicable to you, if you are an individual;"
-msgstr ""
+msgstr "如果您是个人，您的逝世、丧失工作能力、变得心智不健全或由任何适用于您的破产或无力偿债法律规定为无法按时还债、或破产或无力偿债;"
 
 msgid "Your debts are not settled as and when they fall due;"
-msgstr ""
+msgstr "您无法在到期时还清债务;"
 
 msgid "Your existing Binary.com account and cashier will be linked to your MT5 account"
-msgstr ""
+msgstr "您当前的 Binary.com 账户和收银台将链接到您的 MT5 账户"
 
 msgid "Your forex and contracts for differences transactions with %1 are linked to an underlying financial instrument and you will be exposed to price, currency exchange, interest rate or other volatility of the market to which your financial instrument is related to, especially if the market is of a jurisdiction that is foreign to you. Forex and contracts for differences trading over the internet via an electronic trading platform is subject to data latency risk which may result in delays in order execution."
-msgstr ""
+msgstr "您与 %1的外汇和差价合约交易与一种标的金融工具相连接，您将承受与金融工具有关的价格、汇率、利率或其他市场波动率的风险，特别是如果市场所属的管辖权与你无关。通过电子交易平台在网络上进行的外汇和差价合约交易承受潜在数据风险，可能导致订单执行的延误。"
 
 msgid "Your new account has been created."
-msgstr ""
+msgstr "您已开立新账户。"
 
 msgid "Your settings have been updated successfully."
-msgstr ""
+msgstr "您的设置已成功更新。"
 
 msgid "Your use of the MT5 Trading Platform, whether accessed through or downloaded from our website or a third party website, is governed by the terms of use provided by the MT5 Trading Platform Licensor to you. In the event of any conflict between the content of this Agreement and the agreement between you and the MT5 Trading Platform Licensor, the terms of this Agreement shall prevail. It is your responsibility to ensure that the information technology that you use is compatible with the required information technology to support the MT5 Trading Platform."
-msgstr ""
+msgstr "不论您是通过访问我们的网站或第三方网站或从网站下载使用 MT5 交易平台， 您须受向您提供 MT5 交易平台的许可方使用条款约束。如本协议的内容与您和 MT5 交易平台许可方之间协议之间有任何冲突，则以本协议的条款为准。确保您使用的信息技术与支持MT5 交易平台所需的信息技术兼容是你的责任。"
 
 msgid "a) The venue at which your order will be executed;"
-msgstr ""
+msgstr "a) 您的订单执行地点;"
 
 msgid "and"
-msgstr ""
+msgstr "和"
 
 msgid "b) The price at which your order will be executed;"
-msgstr ""
+msgstr "b）您的订单执行价格;"
 
 msgid "binary options, forex, forex trading, online trading, financial trading, binary trading, index trading, trading indices, forex trades, trading commodities, binary options strategy, binary broker, binary bet, binary options trading platform, binary strategy, finance, stocks, investment, trading"
-msgstr ""
+msgstr "二元期权、外汇、外汇交易、在线交易、金融交易、二元期权交易、指数交易、交易指数、外汇交易、交易大宗商品、二元期权策略、二元经纪、二元投注、二元期权交易平台、二元策略、金融、股票、投资、交易"
 
 msgid "c) The time at which your order will be executed; and"
-msgstr ""
+msgstr "c) 您的订单执行时间;"
 
 msgid "consolidating liquidity from several providers into a single stream of blended feed; and"
-msgstr ""
+msgstr "将数个供应商集合成单股混合输入，以加强流动性; 和"
 
 msgid "d) The timeframe or duration of the contract as defined by your order execution."
-msgstr ""
+msgstr "d）您的订单执行所界定的时间范围或合同期限。"
 
 msgid "e.g. blue.binaryws.com"
-msgstr ""
+msgstr "例如 blue.binaryws.com"
 
 msgid "intelligently routing incoming orders to different types of execution modes based on configurations and algorithms established using best execution factors."
-msgstr ""
+msgstr "根据以最佳执行因素建立的配置和算法将传入的订单通过智能路由归纳成不同类型的执行模式。"
 
 msgid "net of any other money credited to your Real Account and debited from your Real Account. Your account balance includes Margin Requirement. The amount of your account balance in excess of Margin Requirement is available for your withdrawal. The amount set aside for Margin Requirement is not available for your withdrawal."
-msgstr ""
+msgstr "在您真实账户记入借方并从您真实账户记入贷方的任何其它款项净值。您的账户余额包括保证金要求。您可将账户余额超出保证金要求金额款项提出。预留保证金要求金额不可提出。"
 
 msgid "net of fund transfers between your Binary Options Account and your Real Account;"
-msgstr ""
+msgstr "您二元期权账户及真实账户之间基金转让净值;"
 
 msgid "net of realised profits credited to your Real Account and realised losses debited from your Real Account;"
-msgstr ""
+msgstr "借记到您真实账户的实现利润和从您真实账户扣除的实现亏损净值;"
 
 msgid "of the site."
-msgstr ""
+msgstr "网站的。"
 
 msgid "terms and conditions"
-msgstr ""
+msgstr "条款与条件"
 
 msgid "the characteristics of financial instruments that are the subject of that order;"
-msgstr ""
+msgstr "属于订单主题的金融工具特点；"
 
 msgid "the characteristics of the client;"
-msgstr ""
+msgstr "客户的特性;"
 
 msgid "the characteristics of the execution venues to which that order can be directed."
-msgstr ""
+msgstr "可以将订单导入的执行场地特点。"
 
 msgid "the characteristics of the order;"
-msgstr ""
+msgstr "订单的特点;"
 
 msgid "the market conditions of the financial instruments that your orders are related to, which includes the need for timely execution, availability of price improvement, liquidity of the market, size of your order, and the potential impact on total consideration."
-msgstr ""
+msgstr "与您的订单有关的金融工具市场条件，其中包括及时执行需求、价格优化的可行性、市场流动性、订单大小、以及对总数值的潜在影响。"
 
 msgid "the specific instructions that we receive from you;"
-msgstr ""
+msgstr "您所提供的特定指令；"
 
 msgid "Online Trading platform for binary options on Forex, Indices, Commodities and Smart Indices"
-msgstr ""
+msgstr "可交易外汇、指数、大宗商品及智能指数的二元期权在线交易平台"
 
 msgid "404"
-msgstr ""
+msgstr "404"
 
 msgid "MetaTrader"
-msgstr ""
+msgstr "MetaTrader"
 
 msgid "Terms and Conditions Approval"
-msgstr ""
+msgstr "条款和条件审批"
 
 msgid "MetaTrader Margin Policy"
-msgstr ""
+msgstr "MetaTrader 保证金政策"
 
 msgid "MetaTrader Terms and Conditions"
-msgstr ""
+msgstr "MetaTrader 条款和条件"
 
 msgid "Endpoint"
-msgstr ""
+msgstr "终结点"
