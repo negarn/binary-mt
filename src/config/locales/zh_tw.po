@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-01-18 01:48-0500\n"
+"PO-Revision-Date: 2017-01-18 02:05-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Chinese Traditional\n"
 "MIME-Version: 1.0\n"
@@ -772,7 +772,7 @@ msgid "Our Order Execution Policy (the \"Policy\") sets out the overview and app
 msgstr "我們的訂單執行政策 （簡稱「政策」） 設定關於Binary.com 代替客戶執行訂單的概述和方法。"
 
 msgid "Our Prices are determined by reference to the price of the underlying instrument which is quoted on external exchanges or dealing facilities that we select at our discretion. Our IT infrastructure and price aggregator system facilitates the reception of quotes from shortlisted prime brokers who act as liquidity providers for us and the delivery of the quotes, derived with reference against relevant benchmark and markets, to you. You acknowledge that our Prices may differ from the bid and offer prices made available by external exchanges or dealing facilities and we are not liable for any losses that you incur arising from such differences. Refer to our Product Disclosure Statement for our pricing methodology and factors. This clause does not apply to Volatility Indices."
-msgstr "我們在參考了由我們自主選定的外部交易所或交易設施所報的基礎工具價格之後決定價格。我們擁有資訊技術基礎設施和價格聚合器系統，便於向充當我們流動性提供商，經過挑選的主要經紀商收集報價，並將經過參考有關基準和市場得來的價格提供給您。您確認我們的價格可能與投標價格和外部交易所或交易設施所提供價格不相同，以及我們不對所述差異所引起的任何損失承擔賠償責任。關於我們的定價方法和因素，請參閱產品披露聲明。本條款不適用於波動性指數。"
+msgstr "我們在參考了由我們自主選定的外部交易所或交易設施所報的基礎工具價格之後決定價格。我們擁有資訊技術基礎設施和價格聚合器系統，便於向充當我們流動性提供商，經過挑選的主要經紀商收集報價，並將經過參考有關基準和市場得來的價格提供給您。您確認我們的價格可能與投標價格和外部交易所或交易設施所提供價格不相同，以及我們不對所述差異所引起的任何損失承擔賠償責任。關於我們的定價方法和因素，請參閱產品披露聲明。本條款不適用於波動率指數。"
 
 msgid "Our determination of the relative importance of the execution factors may differ from yours during certain circumstances, acting in your interest in accordance with our obligation of best execution."
 msgstr "在某些情況下，我們所決心的執行因素相對重要性可能與您的不相同。我們根據最佳執行義務操作，為您爭取最大利益。"
@@ -928,13 +928,13 @@ msgid "Stop Order / Stop Loss Order - an instruction to execute a Transaction to
 msgstr "止損單 - 當價格達到您指定的基準時對持倉頭寸執行平倉交易的指令。"
 
 msgid "Stop Out Level"
-msgstr ""
+msgstr "強制平倉層次"
 
 msgid "Stop Out Level - the Margin Level at or below which your Open Positions may be forcefully with or without your prior consent."
-msgstr ""
+msgstr "強制平倉層次 - 保證金處於或低於此層次時您的持倉頭寸可以在經過您同意或未經您事先同意的情況下強制平倉。"
 
 msgid "Stop and Limit Orders"
-msgstr ""
+msgstr "止損單和限價單"
 
 msgid "Subject to network latency, we endeavour to execute your Order within a reasonable time from the time you triggered the Order, at the Price nearest to your specified Price. We do not guarantee that a Transaction will be opened/closed following an Order being triggered by you at your specified Price."
 msgstr ""
@@ -1081,13 +1081,13 @@ msgid "This Risk Disclosure Statement is not exhaustive and is not intended to c
 msgstr "此風險披露聲明並非詳盡無遺，也並非包含您可能會接觸到的所有風險的全面聲明。此聲明也並不能描述外匯交易和合約現存的固有風險或將來可能發生的所有風險差異。其目的在於為您提供及讓您合理理解%1在符合我們利益的同時為您提供的最佳外匯與差價合約交易經驗相關的風險資訊。"
 
 msgid "This clause does not apply to Volatility Indices."
-msgstr "本條款不適用於波動性指數。"
+msgstr "本條款不適用於波動率指數。"
 
 msgid "This feature is not relevant to virtual-money accounts."
 msgstr "此功能與虛擬資金帳戶沒有關聯。"
 
 msgid "This section on Force Majeure Events does not apply to Volatility Indices."
-msgstr "此不可抗力事件章節不適用於波動性指數。"
+msgstr "此不可抗力事件章節不適用於波動率指數。"
 
 msgid "Throughout the duration of the Transaction and for as long as the Transaction is open, you are required to maintain a sufficient Account Equity to cover any Margin Requirement. If your Account Equity is less than the Margin Requirement in relation to the open Transaction you wish to create, you have entered into a Margin Call and you are required to fund the shortfall immediately. You may not be able to place an Order to open a Transaction until the shortfall has been funded and there is sufficient Account Equity to cover the Total Margin."
 msgstr "整個交易期間以及交易開放期間， 您需要保持足夠的帳戶資金，以支付任何保證金要求。如果您的帳戶資金在想要建立交易時低於開放交易保證金要求，您將收到追加保證金通知，需要立即補充短缺的資金。在補足短缺資金，擁有足夠支付保證金的帳戶資金前您不能下單開啟交易。"
@@ -1099,10 +1099,10 @@ msgid "To create a Financial Account for MT5, please complete the <a href=\"%1\"
 msgstr "如要在 MT5 開立金融帳戶，請完成<a href=\"%1\">財務評估</a>。"
 
 msgid "To create a Financial Account for MT5, please switch to your %1 Real Account."
-msgstr ""
+msgstr "如要在MT5開立金融帳戶，請切換到 %1 真實帳戶。"
 
 msgid "To create a Volatility Indices Account for MT5, please <a href=\"%1\"> upgrade to %2 Real Account</a>."
-msgstr ""
+msgstr "如要在MT5開立波動率指數帳戶，請<a href=\"%1\">升級到 %2 真實帳戶</a>。"
 
 msgid "To create a Volatility Indices Account for MT5, please switch to your %1 Real Account."
 msgstr ""
