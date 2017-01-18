@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-01-18 02:32-0500\n"
+"PO-Revision-Date: 2017-01-18 02:43-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Chinese Traditional\n"
 "MIME-Version: 1.0\n"
@@ -1504,22 +1504,22 @@ msgid "the specific instructions that we receive from you;"
 msgstr "您所提供的特定指令；"
 
 msgid "Online Trading platform for binary options on Forex, Indices, Commodities and Smart Indices"
-msgstr ""
+msgstr "可交易外匯、指數、商品及智慧指數的二元期權線上交易平台"
 
 msgid "404"
-msgstr ""
+msgstr "404"
 
 msgid "MetaTrader"
-msgstr ""
+msgstr "MetaTrader"
 
 msgid "Terms and Conditions Approval"
-msgstr ""
+msgstr "條款和條件審批"
 
 msgid "MetaTrader Margin Policy"
-msgstr ""
+msgstr "MetaTrader 保證金政策"
 
 msgid "MetaTrader Terms and Conditions"
-msgstr ""
+msgstr "MetaTrader 條款及條件"
 
 msgid "Endpoint"
-msgstr ""
+msgstr "終結點"
