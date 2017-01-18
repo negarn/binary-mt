@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-01-18 02:13-0500\n"
+"PO-Revision-Date: 2017-01-18 02:21-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Chinese Traditional\n"
 "MIME-Version: 1.0\n"
@@ -1108,151 +1108,151 @@ msgid "To create a Volatility Indices Account for MT5, please switch to your %1 
 msgstr "如要在MT5開立波動率指數帳戶，請切換到 %1 真實帳戶。"
 
 msgid "To deposit or withdraw from your MT5 Account, switch to your Binary.com Real Account."
-msgstr ""
+msgstr "如要在MT5帳戶存款或提款，請切換到您的Binary.com真實帳戶。"
 
 msgid "To open a Real Account, you must have an authenticated Binary Options Real Account with Binary.com. A Real Account cannot be opened in the absence of a Binary Options Real Account."
-msgstr ""
+msgstr "要開立真實帳戶，您必須在Binary.com擁有已通過身份驗證的二元期權真實帳戶。如果沒有二元期權真實帳戶，您無法開立真實帳戶。"
 
 msgid "Total Margin - The aggregate of all Margin Requirements in your Real Account."
-msgstr ""
+msgstr "保證金總金額 - 真實帳戶的所有保證金要求累計金額。"
 
 msgid "Tourism"
-msgstr ""
+msgstr "旅遊"
 
 msgid "Trade Forex and CFD asset classes with an award-winning broker."
-msgstr ""
+msgstr "通過屢獲殊榮的經紀商進行外匯和差價合約資產類別交易。"
 
 msgid "Trade Forex and Contracts for Difference (CFD) assets with highly-competitive leverage and zero commission."
-msgstr ""
+msgstr "採用競爭激烈的槓桿率、不需支付佣金費進行外匯和差價合約(CFD) 資產交易。"
 
 msgid "Trade the Forex markets with leverage up to 100:1, and Volatility Indices with leverage up to 500:1."
-msgstr ""
+msgstr "在槓桿率高達100:1和波動率指數槓桿率高達500:1的外匯市場進行交易。"
 
 msgid "Trade using the mobile and desktop apps, or use the web platform from any web browser."
-msgstr ""
+msgstr "使用行動裝置和桌面應用程式，或使用任何網路瀏覽器的網頁平台交易。"
 
 msgid "Trading Rules"
-msgstr ""
+msgstr "交易規則"
 
 msgid "Trading forex and contracts for differences carries a high level of risk and %1 does not monitor the open positions of your account on your behalf. It is your responsibility to monitor your Open Positions and understand the exposure of your Open Positions whilst ensuring that your exposure commensurate with your risk appetite. Due to the cost associated with overnight open positions, you should consider investing in the market of the instrument in which you ordinarily transact in instead of investing in a CFD."
-msgstr ""
+msgstr "外匯和差價合約交易有很高的風險，%1不會代表您監控您帳戶上的未平倉頭寸。監控未平倉頭寸和理解未平倉頭寸所牽涉的風險，同時確保此牽涉風險與您的風險偏好相符是您的責任。由於隔夜未平倉頭寸具相關費用，您應該考慮在您平常進行的工具投資市場中交易，而不是在差價合約市場中投資。"
 
 msgid "Transaction - a contract entered into by you pursuant to this Agreement."
-msgstr ""
+msgstr "交易 - 您根據本協定簽訂的合約。"
 
 msgid "Transfer from"
-msgstr ""
+msgstr "轉移自"
 
 msgid "Transfer funds from Binary.com account into your MT5 account:"
-msgstr ""
+msgstr "把資金從Binary.com帳戶轉移到您的MT5帳戶︰"
 
 msgid "Transfer funds from your MT5 account into your Binary.com account:"
-msgstr ""
+msgstr "把資金從您的MT5帳戶轉移到Binary.com帳戶︰"
 
 msgid "Transfer into"
-msgstr ""
+msgstr "轉移到"
 
 msgid "Under no circumstances shall we provide investment advice or recommendation to you or state an opinion in relation to a Transaction. From time to time, we may decide to provide you with written information, which we may publish on our website or provide to you in any other manner. We will endeavour to ensure the accuracy and completeness of this written information but it will not constitute investment advice or recommendation provided by us to you."
-msgstr ""
+msgstr "在任何情況下我們都不會對有關交易向您提供投資意見或建議或陳述觀點。我們可能會陸續通過在我們網站上公佈或以任何其他方式為您提供書面資訊。我們將努力確保此書面資訊的準確性和完整性，但這並不構成我們向您提供投資意見或建議。"
 
 msgid "Unless proven to be wrong, our records shall be used as evidence of your dealings with us in connection with the margin trading services described in this Agreement. You agree to use our records as evidence in any such legal or regulatory proceedings and you agree to keep your own record of your dealings with us that will help us investigate any complaints or disputes. If the records used as evidence of your dealings with us are not originals, are in the form of diagrams or charts, or are system generated content, you will not object to the use of such records as evidence."
-msgstr ""
+msgstr "除非已被證實出錯，我們的記錄將作為您使用我們根據本協定條文所提供的保證金交易服務的證據。您同意在任何相關法律或法規程序中使用我們的記錄作為證據，並同意自己保留在發生任何投訴或糾紛時可幫助我們調查的雙方交易記錄。如果作為雙方交易記錄的證據不是原件、是圖像或圖表形式、或者是系統生成的內容，您不會反對使用此類記錄作為證據。"
 
 msgid "Update"
-msgstr ""
+msgstr "更新"
 
 msgid "Upon closing a Transaction, the realised profit (or loss), which is represented by the difference between the opening level and closing level of the Transaction multiplied by the number of lots (volume), becomes due and payable by us to you (or due and payable by you to us in cases of realised loss)."
-msgstr ""
+msgstr "平倉交易時實現的利潤（或損失），以交易開盤和收盤價差距乘以手數（交易次數）表示，為我們欠您的應付金額（或如實現虧損則是您欠我們的應付金額）。"
 
 msgid "Upon opening a Transaction, the sum due and payable by you to us are deducted from your Account Balance."
-msgstr ""
+msgstr "開盤交易時，您欠我們的應付總金額將從您的帳戶餘額中扣除。"
 
 msgid "Verify main password"
-msgstr ""
+msgstr "主密碼驗證"
 
 msgid "Version 3"
-msgstr ""
+msgstr "版本 3"
 
 msgid "Volatility 10 Index"
-msgstr ""
+msgstr "波動率 10 指數"
 
 msgid "Volatility 100 Index"
-msgstr ""
+msgstr "波動率 100 指數"
 
 msgid "Volatility 25 Index"
-msgstr ""
+msgstr "波動率 25 指數"
 
 msgid "Volatility 50 Index"
-msgstr ""
+msgstr "波動率 50 指數"
 
 msgid "Volatility 75 Index"
-msgstr ""
+msgstr "波動率 75 指數"
 
 msgid "Volatility Indices"
-msgstr ""
+msgstr "波動率指數"
 
 msgid "Volatility Indices Account"
-msgstr ""
+msgstr "波動率指數帳戶"
 
 msgid "Volatility Indices Contract Specifications"
-msgstr ""
+msgstr "波動率指數合約規格"
 
 msgid "Volume (Trade Size)"
-msgstr ""
+msgstr "量額 （交易量）"
 
 msgid "We are committed to making sure your personal data and transactions are secure:"
-msgstr ""
+msgstr "我們承諾確保您個人資料和交易的安全："
 
 msgid "We are required to do so in accordance with any relevant law or regulation."
-msgstr ""
+msgstr "根據任何相關法律或法規，我們需要這樣做。"
 
 msgid "We endeavour to open or close the Transaction to which your Order relates at the price reasonably available to us, acting in accordance with our duty of best execution. Best execution means that we must take all sufficient steps to obtain, when executing orders, the best possible result for you taking into account price, costs, speed, likelihood of execution and settlement, size, nature or any other consideration relevant to the execution of the order."
-msgstr ""
+msgstr "我們按照最佳執行責任行事，努力以與您的訂單相關的合理可用價格開盤或平倉交易。最佳執行意味著我們在執行訂單時必須採取足夠措施，考慮價格、成本、速度、執行和結算的可能性、大小、性質或任何其他考慮因素以為您獲取最大效益。"
 
 msgid "We may modify Margin Requirements for any Open Positions or new Transactions entered into, at our sole discretion. Formulas for Margin Requirements published on the website are indicative only and may be changed by the Company at its discretion at any time, due to changing market conditions or other factors."
-msgstr ""
+msgstr "我們可能會自行決定為任何未平倉頭寸或新簽訂交易修改保證金要求。網站上公佈的保證金要求公式僅供參考用途，並可能會隨時因市場條件或其他因素的變化由公司自行決定更改。"
 
 msgid "We may or may not use your personal information to contact you at any reasonable time as part of our marketing activities. You authorise us to contact you by email or telephone to give you information about selected products and services offered by us. Your consent for us to use your personal information for this purpose applies to the period you have a Real Account with us and after you close your Real Account. Please advise us in writing if you do not wish your personal information to be used for such purposes."
-msgstr ""
+msgstr "作為我們行銷活動的一部分，我們可能，也可能不會於任何合理時間內使用您的個人資訊與您聯繫。您授權我們通過電子郵件或電話與您聯繫，向您提供選定的產品和服務資訊。您擁有我們的真實帳戶期間及您關閉真實帳戶之後，您同意我們使用您的個人資訊作此用途。如果您不希望您的個人資訊被用於此用途，請以書面通知我們。"
 
 msgid "We may, at our absolute discretion, accept a Stop Order or a Limit Order from you. We may enable other types of Orders (for example, a trailing stop order) for your execution at any point in time."
-msgstr ""
+msgstr "我們可以完全自主決定接受您的止損訂單或限價訂單。我們可能隨時在執行您的訂單時啟用其他類型的訂單（例如，追踪止損訂單）。"
 
 msgid "We may, at our absolute discretion, disregard your Order if an Event takes place resulting it to be no longer reasonable for us to act on your Order after indicating an acceptance of your Order."
-msgstr ""
+msgstr "在表示接受您的訂單後，如果發生導致我們無法繼續合理執行您的訂單的事件， 我們可能自行決定忽略您的訂單。"
 
 msgid "We may, however, withhold your withdrawal request from your Real Account to your Binary Options Real Account, in whole or in part, if:"
-msgstr ""
+msgstr "如果發生以下情況，我們可能將您從真實帳戶轉到二元期權真實帳戶的提款請求保留全部或部分款項︰"
 
 msgid "We reasonably consider that funds may be required to meet any Margin Requirement; and/or"
-msgstr ""
+msgstr "我們合理考慮到可能需要資金滿足任何保證金要求; 和（或)"
 
 msgid "We reserve the right to charge a dormant fee of up to USD/EUR/AUD/GBP25 every six months for every client account that has had no transaction recorded for a period of 12 consecutive months or more."
-msgstr ""
+msgstr "對每個連續12個月或以上沒有交易記錄的客戶帳戶，我們保留每6個月收取最高為25美元/歐元/澳元/英鎊帳戶休眠費的權利。"
 
 msgid "We reserve the right to refuse your request to open a Real Account for any reason, and any Real Account may be closed at our discretion at any time."
-msgstr ""
+msgstr "不論是什麼原因，我們保留拒絕您開立真實帳戶請求， 並隨時由我們自主決定關閉任何真實帳戶的權利。"
 
 msgid "We reserve the right to void or amend the contractual terms of any Transactions that we reasonably believe are entered into at prices that do not reflect fair market prices or that are entered into at an abnormally low level of risk due to an obvious or palpable error (a Manifest Error). In deciding whether an error is a Manifest Error, we may take into account any relevant information including, the state of the underlying market at the time of the error and any error within, or lack of clarity of, any information source or pronouncement. You have a duty to report to us any such problems, errors or suspected system inadequacies that you may experience and may not abuse of or arbitrage such system problems or errors for profit. We will endeavour to resolve any such difficulties in the shortest time possible. Any amendments to the contractual terms of Manifestly Erroneous contracts shall be reasonable and fair. Monies exchanged between you and us in connection with the Manifestly Erroneous contracts shall be returned to the recipient according to the amendments made to the contractual terms and conditions of this Agreement. You further acknowledge and agree that we will not be held liable or responsible, whether directly or indirectly, for any loss, expenses or damage caused or alleged to be caused by or in connection with a Manifest Error."
-msgstr ""
+msgstr "當我們合理相信有任何因明顯或可察覺錯誤（明顯錯誤）導致任何交易合約的購買或售出價格未能反映公平的市場價格或者以異常低的風險購買和售出，我們保留取消或修改合約條款的權利。在決定某個錯誤是否明顯錯誤時，我們可能考慮到任何相關信息，包括，發生錯誤時標的市場狀況、或任何信息來源或聲明有錯或缺乏明確性。您有義務向我們報告您所經歷的任何問題、錯誤或可能的系統缺陷，不得濫用系統缺陷盈利。我們將努力在最短時間內解決這些問題。對明顯錯誤合約條款的任何修改必須合理和公平。您和我們之間因合約明顯錯誤造成的款項交換差異需根據合約條款修正退還收款人。您進一步承認並同意，無論是直接或間接經由明顯錯誤所引起或有關連的任何損失、費用或損害，我們概不承擔任何責任或義務。"
 
 msgid "We use identity verification services and real-time fraud detection measures to help protect you from unauthorized access to your account. We also monitor account activity for signs of unusual activity that might indicate fraud and work with collection agencies and low-enforcement agencies to address fraud issues."
-msgstr ""
+msgstr "我們通過身份驗證服務和即時防欺詐措施來防止您的帳戶遭到非法存取。另外，我們還會對您的帳戶活動進行監控以發現不正常的欺詐活動跡象，我們還會和收債代理和執法機關合作來應對欺詐問題。"
 
 msgid "We will act on any instructions given or appearing to be given by you and received by us in relation to the margin trading service provided through the MT5 Trading Platform, as deemed instructed by you. However, it is not our obligation to act on any instructions deemed instructed by you, and we are not obligated to give you any reasons for declining to do so. Instructions received by us from you are deemed final and will not be revocable. It is your responsibility to ensure the genuineness and accuracy of the instructions given by you to us."
-msgstr ""
+msgstr "我們會根據我們所收到的，由您提供或看來是您提供的關於通過 MT5 交易平台進行保證金交易的任何指示採取行動。然而，我們沒有義務對您所給的任何指示採取行動，我們也沒有義務對拒絕採取行動向您提供任何理由。我們從您收到的指示被視為最後並不可撤銷指示。確保您給我們的指示真實性和準確性是您的責任。"
 
 msgid "We will hold you responsible for all your obligations under this Agreement in our course of providing the margin trading service described in this Agreement to you, even if you notify us that you are acting as the agent of an identified principal."
-msgstr ""
+msgstr "在我們根據此協定所述向您提供保證金交易服務期間，您必須對本協定項下您的所有義務負責，即使您通知我們您是某指定委託人的代理。"
 
 msgid "We will monitor the effectiveness of our order execution arrangements and order execution policy. We will assess from time to time whether the venues relied upon by us in pricing our Contracts on your behalf allow us to achieve best execution on a consistent basis or whether we need to make changes to our execution arrangements. We will also review our order execution arrangements and order execution policy in respect of material changes either in respect of one of our chosen pricing venues or that otherwise affect our ability to continue to achieve best execution. Should there be any material changes to our order execution arrangements or order execution policy, we will notify you."
-msgstr ""
+msgstr "我們將會對我們的訂單執行安排和政策有效性進行監督。我們將定期評估：我們替您進行合約交易的報價區域是否達到最佳執行效果，以及我們是否需要對執行安排作出變更。我們會檢查所選的個報價區域或其他因素是否會影響持續獲得最佳執行方案的能力，也會檢查有關的訂單執行安排和重大政策變更。如果有任何訂單執行安排或政策之重大變更，我們會通知您。"
 
 msgid "We will use reasonable endeavours within our control to ensure that all electronic data provided on the MT5 Trading Platform and all electronic transactions instructed and accepted from you to us, and executed by us are not subject to network latency."
-msgstr ""
+msgstr "我們將在可控制範圍內合理地努力，確保您通過 MT5 交易平台和所有電子交易指示所收到並由我們執行提供的所有電子資料均不會受到網絡延遲。"
 
 msgid "When we accept an order from you to open or close a transaction, or any other specific instructions in relation to your order, we will endeavour to follow your instructions as far as reasonably possible, acting in accordance with our duty of best execution in accordance with your instructions. These specific instructions include, but are not limited to:"
-msgstr ""
+msgstr "當我們收到您給的開盤或收盤交易訂單或任何其他關於訂單的具體指示，我們會努力盡可能合理地遵照您的指示並根據我們最佳執行責任行事。這些具體的指示包括，但不限於︰"
 
 msgid "When we deal on own account (dealing desk), we act as principal and not as an agent on your behalf and we therefore act as the execution venue."
 msgstr "當我們在自己帳戶（交易平台）上交易時，我們是委託人，而不是您的代理人，因此我們是執行場地。"
