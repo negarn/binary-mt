@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-01-18 01:48-0500\n"
+"PO-Revision-Date: 2017-01-18 02:05-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
@@ -772,7 +772,7 @@ msgid "Our Order Execution Policy (the \"Policy\") sets out the overview and app
 msgstr "我们的订单执行政策 （简称\"政策\"） 设置关于Binary.com 代替客户执行订单的概述和方法。"
 
 msgid "Our Prices are determined by reference to the price of the underlying instrument which is quoted on external exchanges or dealing facilities that we select at our discretion. Our IT infrastructure and price aggregator system facilitates the reception of quotes from shortlisted prime brokers who act as liquidity providers for us and the delivery of the quotes, derived with reference against relevant benchmark and markets, to you. You acknowledge that our Prices may differ from the bid and offer prices made available by external exchanges or dealing facilities and we are not liable for any losses that you incur arising from such differences. Refer to our Product Disclosure Statement for our pricing methodology and factors. This clause does not apply to Volatility Indices."
-msgstr "我们在参考了由我们自主选定的外部交易所或交易设施所报的基础工具价格之后决定价格。我们拥有信息技术基础设施和价格聚合器系统，便于向充当我们流动性提供商，经过挑选的主要经纪商收集报价，并将经过参考有关基准和市场得来的价格提供给您。您确认我们的价格可能与投标价格和外部交易所或交易设施所提供价格不相同，以及我们不对所述差异所引起的任何损失承担赔偿责任。关于我们的定价方法和因素，请参阅产品披露声明。本条款不适用于波动性指数。"
+msgstr "我们在参考了由我们自主选定的外部交易所或交易设施所报的基础工具价格之后决定价格。我们拥有信息技术基础设施和价格聚合器系统，便于向充当我们流动性提供商，经过挑选的主要经纪商收集报价，并将经过参考有关基准和市场得来的价格提供给您。您确认我们的价格可能与投标价格和外部交易所或交易设施所提供价格不相同，以及我们不对所述差异所引起的任何损失承担赔偿责任。关于我们的定价方法和因素，请参阅产品披露声明。本条款不适用于波动率指数。"
 
 msgid "Our determination of the relative importance of the execution factors may differ from yours during certain circumstances, acting in your interest in accordance with our obligation of best execution."
 msgstr "在某些情况下，我们所决心的执行因素相对重要性可能与您的不相同。我们根据最佳执行义务操作，为您争取最大利益。"
@@ -928,166 +928,166 @@ msgid "Stop Order / Stop Loss Order - an instruction to execute a Transaction to
 msgstr "止损单 - 当价格达到您指定的水平时对持仓头寸执行平仓交易的指令。"
 
 msgid "Stop Out Level"
-msgstr ""
+msgstr "强制平仓水平"
 
 msgid "Stop Out Level - the Margin Level at or below which your Open Positions may be forcefully with or without your prior consent."
-msgstr ""
+msgstr "强制平仓水平 - 保证金处于或低于此指定水平时您的持仓头寸可以在经过您同意或未经您事先同意的情况下强制平仓。"
 
 msgid "Stop and Limit Orders"
-msgstr ""
+msgstr "止损单和限价单"
 
 msgid "Subject to network latency, we endeavour to execute your Order within a reasonable time from the time you triggered the Order, at the Price nearest to your specified Price. We do not guarantee that a Transaction will be opened/closed following an Order being triggered by you at your specified Price."
-msgstr ""
+msgstr "我们将根据网络延迟状况以最接近您所指定的价格在您启动订单后尽快在合理时间内执行您的订单。我们不保证在以您指定的价格启动订单后将获得开盘/平仓交易。"
 
 msgid "Subject to the availability and sufficiency of funds in your Real Account, you may withdraw your funds from Real Account to your Binary Options Real Account."
-msgstr ""
+msgstr "根据您真实账户的资金可用性和充足性，您可以将资金从真实账户提出并转移到二元期权真实账户。"
 
 msgid "Submit"
-msgstr ""
+msgstr "提交"
 
 msgid "Subscribe to a wide range of algorithmic trading strategies from the built-in MetaTrader Market."
-msgstr ""
+msgstr "从内置的 MetaTrader 市场订阅种类繁多的算法交易策略。"
 
 msgid "Such withdrawal would result in your Account Equity being less than zero; and/or"
-msgstr ""
+msgstr "此项提款将导致您账户的资金小于零; 和 （或)"
 
 msgid "Suspend the trading of the affected instrument;"
-msgstr ""
+msgstr "受影响工具的交易被暂停;"
 
 msgid "Suspending your Real Account and refusing to execute any Orders to enter into further Transactions with you. Whilst your Real Account is suspended, you will be able to place Orders to close your Open Positions but you will not be able to place Orders which would create Open Positions."
-msgstr ""
+msgstr "您的真实账户被暂停，并停止执行任何订单，不可继续进行交易。虽然您的真实账户被暂停，您将能够对持仓头寸进行平仓，但您不能开盘创建未平仓头寸。"
 
 msgid "Symbol"
-msgstr ""
+msgstr "符号"
 
 msgid "Terms and Conditions"
-msgstr ""
+msgstr "条款与条件"
 
 msgid "Tertiary"
-msgstr ""
+msgstr "三级"
 
 msgid "The Binary.com website is protected by certain copyrights. The materials comprising the website (including without limitation all articles, text, images, logos, compilation, systems, code and design) are Copyright 1999-2016 Binary Group of companies. All rights reserved. Such materials may be copied and distributed on a limited basis for noncommercial purposes only, provided that any material copied remain intact and that all copies include the following notice in a clearly visible position: \"Copyright 1999-2016 Binary Ltd. All rights reserved.\" These materials may not be copied or redistributed for commercial purposes or for compensation of any kind without prior written permission from a member of the Binary Group. If you have any questions about these terms or would like information about licensing materials from Binary Ltd., please contact us at <a href='mailto:%1'>%1</a>. Binary.com and the bull/bear logo are registered trademarks."
-msgstr ""
+msgstr "Binary.com网站受版权保护。网站所包含的各种材料（包括但不限于所有文章、文字、图片、标识、整理材料、系统、代码和设计）版权归由 Binary Group 各公司（1999-2016年）所有 。公司保留所有权利。这类材料可以复制和传播，并用于非商业目的，前提是所有复制的材料必须保持完整，且在明显位置标注以下声明：1999-2016 Binary有限公司版权所有，并保留一切权利。在未得到 Binary Group 公司书面许可的情况下，用户不得因商业目的以其他任何有偿方式复制或者传播这些材料。如果您对这些条款有任何疑问，或者希望从 Binary Ltd. 处获得有关许可的信息，请通过 <a href='mailto:%1'>%1</a>与我们联系。Binary.com和牛/熊徽标是注册商标。"
 
 msgid "The Company does not make any warranty, express or implied, that any pricing or other information provided through the MT5 Trading Platform or otherwise is correct. Furthermore, if a quote (bid or offer price) error occurs due to a system malfunction (whether or not it's a third party or a proprietary system), the Company will not be liable for any resulting losses that have incurred."
-msgstr ""
+msgstr "通过 MT5 交易平台或其它所提供的任何价格或其他信息的正确性，公司没有给予任何明示或暗示担保。此外，如果报价（出价或卖价）因系统故障（无论是第三方或专有系统）发生错误，公司将不对任何由此造成的损失承担责任。"
 
 msgid "The Company does not offer any credit facilities or arrangement to its clients in normal trading circumstances. You acknowledge and agree that you will not be dealing with us on credit, regardless of the amount of your Account Balance and Transactions entered into with us."
-msgstr ""
+msgstr "正常交易情况下，公司不向客户提供任何信贷服务或安排。您确认并同意，无论您的账户余额和签订的交易金额是多少，您将不会向我们信用贷款。"
 
 msgid "The Company shall not be in breach of its obligation under this Agreement and shall not be held liable for any failure of or delay in performing its obligations under this Agreement if such failure or delay is the result of the occurrence of a Force Majeure Event."
-msgstr ""
+msgstr "公司不可违反本协议项下的义务，并不须对任何因发生不可抗力事件所造成的本协议下无法或延迟履行义务承担任何责任。"
 
 msgid "The Company sources market data from prime brokers who act as liquidity providers, thus executing your Transactions through a pool of aggregated liquidity from top tier banks. The services offered by the Company do not include physical delivery of foreign currency by us or the prime brokers to yourselves. You acknowledge and agree that such data is proprietary to us and any such provider, and you will not retransmit, redistribute, publish, disclose, or display in whole or in part such data to third parties. You represent and warrant that you will only use such data for purposes of facilitating your entry into Transactions with us on your Real Account in accordance with this Agreement and not for any other purpose. This clause does not apply to Volatility Indices."
-msgstr ""
+msgstr "公司市场数据源自充当流动性提供商的主要经纪人，因此通过从顶级银行获取的聚合流动性池为您执行交易。公司提供的服务不包括由我们或主要经纪人向您递送实物外币。您确认并同意，此类数据由我们和任何此类提供商专有，和您不会重传、重新分配、发布、披露、或显示此类数据的全部或部分给第三方。您陈述并保证您将仅按照本协议的目的而不是为了任何其他目的使用此类数据，为了便于在真实账户进行交易。本条款不适用于波动率指数。"
 
 msgid "The Margin Level of your Real Account reaches or falls below the Stop Out Level;"
-msgstr ""
+msgstr "您的真实账户保证金水平已达到或低于强制平仓水平;"
 
 msgid "The Margin Requirement is a percentage of the value of the Open Positions and will continue to fluctuate in accordance with the value of the Open Positions throughout the duration of the relevant contracts (the \"Contract Value\")."
-msgstr ""
+msgstr "保证金要求是未平仓头寸价值的百分比，并将在整个相关合约（\"合约价值\"） 期间继续根据未平仓头寸价值波动。"
 
 msgid "The Margin Requirements can increase / decrease based on the aggregated size of your Open Position determined by the volume (number of lots), contract size (value per point in the original currency of the contract), market price and margin rate."
-msgstr ""
+msgstr "保证金要求可根据您的未平仓头寸累计大小增加/减少并由交易量（手数），合约大小 （合约原币种每点的价值）、市场价格和保证金率决定。"
 
 msgid "The Margin calculation for CFDs on Volatility Indices depends on volume (size), price and margin rate."
-msgstr ""
+msgstr "波动率指数差价合约的保证金计算取决于交易量（大小）、价格和保证金率。"
 
 msgid "The Policy is supplemented by Appendix A which provide further details to our considerations as they are related to differing asset classes. The accompanying Appendix A should be read in conjunction with this Policy."
-msgstr ""
+msgstr "考虑到更多关于不同资产类别的细节，我们为政策提供附录A作为补充。随附的附录 A必须和政策同时阅读。"
 
 msgid "The Stop Out Level applicable to your Real Account may differ from the default Stop Out Level published on our website."
-msgstr ""
+msgstr "适用于您真实账户的强制平仓水平可能与我们网站公布的默认强制平仓水平不一样。"
 
 msgid "The company holds customer funds in separate bank accounts to the operational accounts; and arrangements have been made to ensure assets in the customer accounts are distributed to customers in the event of insolvency."
-msgstr ""
+msgstr "公司把客户资金存在独立的银行账户并已作好安排，如果公司破产，客户账户资金将分配给客户。"
 
 msgid "The cut-off time for performing Roll-overs and booking of the Roll-over Credit/Debit."
-msgstr ""
+msgstr "执行翻滚及翻滚借/贷预订截止时间。"
 
 msgid "The default Stop Out Level applicable to your Account is published on our website. However, the default Stop Out Level is subject to alteration at our absolute discretion. Any changes to the Stop Out Level will take effect immediately. We will endeavour to notify you of an alteration to the default Stop Out Level by publishing the revised default Stop Out Level on our website. It is your responsibility to check our website regularly and remain informed about the default Stop Out Level."
-msgstr ""
+msgstr "我们在网站上公布适用于您账户的默认强制平仓水平。然而，我们有绝对自由裁量权更改默认强制平仓水平。对强制平仓水平进行的任何更改将立即生效。我们将努力通过在我们的网站上发布修改后的默认强制平仓水平通知您已经更改默认强制平仓水平。定期查看我们的网站，并了解默认强制平仓水平是您的责任。"
 
 msgid "The execution venues are assessed, on a regular basis, whether the they provide for the best possible result for our clients."
-msgstr ""
+msgstr "我们定期对执行场地进行评估，确保能为客户提供最佳可能结果。"
 
 msgid "The execution, delivery and performance of this Agreement and each Transaction will not violate any law, ordinance, charter, by-law or rule applicable to you or the jurisdiction in which you are resident."
-msgstr ""
+msgstr "本协议的执行、交付和履行以及所有交易将不会违反任何适用于您或您的所在地的管辖法律、条例、宪章、法令或规则。"
 
 msgid "The factor listed above are not listed in order of priority. Ordinarily, price will merit a high relative importance in obtaining the best possible result for you. However, the relative importance of the listed factors above may change in accordance with:"
-msgstr ""
+msgstr "上面列出的因素不是按照优先次序排列。一般情况下，为您获得最佳结果时将把价格列为相对比较重要的项目。然而，上述所列因素的相对重要性可能会基于以下各点而更改："
 
 msgid "The financial trading services contained within this site are only suitable for customers who are able to bear the loss of all the money they invest and who understand and have experience of the risk involved in the acquistion of financial contracts. Transactions in financial contracts carry a high degree of risk."
-msgstr ""
+msgstr "本网站包含的金融交易服务仅适合这样的客户：能够承受全部投入资金亏损的风险，了解购买金融合约的风险并具有相关经验。金融合约交易有很高的风险。"
 
 msgid "The hours of closure of the market (for e.g., the hours over the weekend during which trading of certain transactions are not possible);"
-msgstr ""
+msgstr "市场关闭时间（例如，某些交易无法在周末期间进行）;"
 
 msgid "The instruments available on the electronic trading platform (including their availability for trading);"
-msgstr ""
+msgstr "电子交易平台提供的工具 （包括交易时的可用性）;"
 
 msgid "The leverage ratio refers to the number of times your margin (the amount set aside from your account balance to open and maintain a transaction) can be \"leveraged\" to enter into a Transaction. The denominator of the leverage ratio is always 1. A 50:1 leverage is equivalent to a 2% margin requirement (1 divided by 50 = 2%). The leverage ratio that we/you establish will determine the amount of margin required. As leverage is inversely proportional to margin, the lower the leverage you set for your Account, the higher the margin required to be set aside from your account balance (your margin requirement)."
-msgstr ""
+msgstr "杠杆比率指使用您的保证金（为进行交易从您的账户余额拨出并保留的金额） 作为\"杠杆\"进入交易的次数。杠杆比率的分母始终是 1。50: 1 的杠杆比率相当于需要 2%保证金 (1 除以 50 = 2%)。我们替您建立的杠杆比率将确定保证金的数额。杠杆比率与保证金成反比，您的账户所设杠杆比率越低，从您的账户余额拨出的保证金额就越高 （所需保证金）。"
 
 msgid "The margin trading services described in this Agreement are conducted over the counter. This means that the market in one or more of the instruments which you ordinarily transact with us, though quoted on an exchange, are not traded on an exchange when transacted through the electronic trading platform as described in this Agreement."
-msgstr ""
+msgstr "本协议所描述的保证金交易服务通过柜台进行。这意味着，您与我们进行交易的一个或多个工具市场，虽然由交易所报价，但通过本协议所述电子交易平台交易时却不是在交易所交易。"
 
 msgid "The minimum spread (which is comprised of the market spread and our spread) published on our website is subject to alteration, at our absolute discretion. You acknowledge that whilst we endeavour to maintain a competitive spread, both market spread and our spread may widen significantly in some circumstances and such figures will be determined by us at our reasonable discretion."
-msgstr ""
+msgstr "在我们网站公布的最低价差 （由市场点差与我们的点差组成）可能在我们绝对的自主权下更改。您确认，虽然我们努力保持价差竞争力，但在某些情况下市场点差和我们的点差可能会有显著差距，这些数字将由我们根据合理的自主权确定。"
 
 msgid "The minimum, incremental and maximum transaction amount;"
-msgstr ""
+msgstr "最小、增量和最大交易金额;"
 
 msgid "The page you requested could not be found. Either it no longer exists or the address is wrong. Please check for any typos."
-msgstr ""
+msgstr "找不到您請求的頁面。它不再存在或输入网址出錯。請檢查是否輸入錯誤。"
 
 msgid "The personal information that we collect and hold is treated as confidential. Confidential information will not be used for any purpose other than in connection with the provision of margin trading service described in this Agreement. Confidential information will only be disclosed as and when required by law. We may also disclose such personal information to: (i) other companies within the Binary Group of companies; (ii) any such third parties a we see fit to assist us in servicing your Real Account; (iii) regulatory authorities upon their reasonable request; (iv) any such third parties as we see fit to assist us in enforcing our legal or contractual rights against you including but not limited to legal advisors; (v) third parties as we see fit to investigate or prevent fraud or other illegal activities."
-msgstr ""
+msgstr "我们收集并保留的个人资料将视为机密。除了用于提供本协议所述的保证金交易相关服务外，机密信息不会用于任何其他用途。只有在法律需要时才会披露机密信息。我们可能也会将个人信息披露给: (i) Binary集团内的其他公司（ii）我们认为可协助为您真实账户提供服务的任何第三方;（iii）监管当局提出的合理要求;（iv）我们认为可协助对您执行法律或合约权利的任何第三方，包括但不限于法律顾问;（v）我们认为可协助调查或防止欺诈或其他非法活动的第三方。"
 
 msgid "The provision of the margin trading service described in this Agreement utilises a third party system acquired via a non-exclusive, non-transferable, non-sublicensable, terminable licence from the third party system provider/licensor (the \"MT5 Trading Platform\"). You acknowledge that we reserve the right to change the third party system provider/licensor during the course of proving the margin trading service described in this Agreement to you."
-msgstr ""
+msgstr "本协议所述的保证金交易服务通过第三方系统提供商/许可方（\"MT5 交易平台\"）采用非独占、不可转让、非从属许可、可终止的第三方系统牌照 。您确认，向您提供本协议所述的保证金交易服务过程中，我们保留更换第三方系统提供商/许可方的权利。"
 
 msgid "The provision of the margin trading services described in this Agreement is not available in the European Union."
-msgstr ""
+msgstr "欧洲联盟国家不可用本协议所述的保证金交易服务。"
 
 msgid "The server analyzes client's orders that are not under execution at the moment."
-msgstr ""
+msgstr "服务器对当前不在执行的客户订单进行分析。"
 
 msgid "The system fills orders on a first-in-first out basis, i.e. based on the sequence of the order received, and this is beyond our control. As a result, you may find it difficult or impossible to close a position at the intended price stipulated in your Stop Order during certain market conditions. The placement of Stop Order by you, though useful as a risk management tool, will not necessarily limit your losses to your intended amounts, in the event of highly volatile trading conditions, since market conditions may make it impossible to execute such orders and there is uncertainty about your possible exit price. In short, a Stop Order is not guaranteed because it cannot operate whatever the market circumstances are."
-msgstr ""
+msgstr "系统按先进先出的次序，即按照收到订单的顺序处理订单，这是我们无法控制的。因此，您可能会发现很难或无法在某些市场条件下按照您的止损单规定的预期价位平仓。您设定的止损单虽然是有用的风险管理工具，却不一定能按照您原先设想的数额限制损失。在极不稳定的交易条件下，由于市场情况可能无法执行这些指令，您的退出价格具不确定性。简而言之，止损单是无法提供保证的，因为无法在所有市场情况下运作。"
 
 msgid "The term 'we', 'us', 'our', 'ours', 'the Company', or 'Binary.com' shall denote Binary (V) Ltd."
-msgstr ""
+msgstr "“我们”、“我们的”、“公司”、或 “Binary.com” 等词指 Binary (V) 有限公司。"
 
 msgid "The term 'we', 'us', 'our', 'ours', 'the Company', or 'Binary.com' shall denote either Binary (V) Ltd. or Binary (C.R.) S.A., depending on the jurisdiction to which a Client's account has been attached in accordance with the account opening procedures of the website."
-msgstr ""
+msgstr "“我们”、“我们的”、“公司”、或 “Binary.com” 等词指 Binary (V) 有限公司或Binary (C.R.) S.A.，根据网站开户程序中客户账户的司法管辖而定 。"
 
 msgid "There is any amount outstanding from you to us; and/or"
-msgstr ""
+msgstr "您欠我们一些数额尚未还清；和（或)"
 
 msgid "There will be no charges for fund transfers from your Binary Options Real Account to your Real Account."
-msgstr ""
+msgstr "将基金从您的二元期权真实账户转到您的真实账户，不必支付任何费用。"
 
 msgid "This Agreement is supplied to you in English. In the event that there is a difference between the English version and any translated versions of this document, the English version shall prevail. We will not be made responsible for any damage or loss caused by an error, inaccuracy, misunderstanding or misspelling with regards to the translations."
-msgstr ""
+msgstr "本协议以英语版本为您提供。若本协议的英文版和其他翻译语言版本之间存在冲突或歧义，则应以英文版为准。我们将不对翻译版本误差、不准确、误解或拼写错误所引起的任何损害或损失负责。"
 
 msgid "This Agreement will commence on the date you receive your Real Account number, and, for any new versions thereafter, on the date the new versions are published on our website."
-msgstr ""
+msgstr "本协议将于您收到真实账户编号的日期开始生效。关于之后的任何新版本，则于我们网站发布新版本之日期开始生效。"
 
 msgid "This Policy applies to retail and professional clients of Binary.com dealing in financial products offered by Binary.com, i.e., Spot FX."
-msgstr ""
+msgstr "此政策适用于在买卖Binary.com提供的金融产品如现货外汇交易的Binary.com零售和专业客户。"
 
 msgid "This Risk Disclosure Statement is not exhaustive and is not intended to constitute a comprehensive statement of all the risks to which you might be exposed to and does not describe all risks inherent to forex and contracts for differences that exist now or which may arise in the future. Its objective is rather to provide you with information for you to reasonably understand the risks associated with forex and contracts for differences offered by %1 in our interest to provide you with the best possible trading experience."
 msgstr "此风险披露声明并非详尽无遗，也并非包含您可能会接触到的所有风险的全面声明。此声明也并不能描述外汇交易和合约现存的固有风险或将来可能发生的所有风险差异。其目的在于为您提供及让您合理理解%1在符合我们利益的同时为您提供的最佳外汇与差价合约交易经验相关的风险信息。"
 
 msgid "This clause does not apply to Volatility Indices."
-msgstr "本条款不适用于波动性指数。"
+msgstr "本条款不适用于波动率指数。"
 
 msgid "This feature is not relevant to virtual-money accounts."
 msgstr "此功能与虚拟资金账户没有关联。"
 
 msgid "This section on Force Majeure Events does not apply to Volatility Indices."
-msgstr "此不可抗力事件章节不适用于波动性指数。"
+msgstr "此不可抗力事件章节不适用于波动率指数。"
 
 msgid "Throughout the duration of the Transaction and for as long as the Transaction is open, you are required to maintain a sufficient Account Equity to cover any Margin Requirement. If your Account Equity is less than the Margin Requirement in relation to the open Transaction you wish to create, you have entered into a Margin Call and you are required to fund the shortfall immediately. You may not be able to place an Order to open a Transaction until the shortfall has been funded and there is sufficient Account Equity to cover the Total Margin."
 msgstr "整个交易期间以及交易开放期间， 您需要保持足够的账户资金，以支付任何保证金要求。如果您的账户资金在想要建立交易时低于开放交易保证金要求，您将收到追加保证金通知，需要立即补充短缺的资金。在补足短缺资金，拥有足够支付保证金的账户资金前您不能下单开启交易。"
@@ -1099,10 +1099,10 @@ msgid "To create a Financial Account for MT5, please complete the <a href=\"%1\"
 msgstr "如要在 MT5 开立金融账户，请完成<a href=\"%1\">财务评估</a>。"
 
 msgid "To create a Financial Account for MT5, please switch to your %1 Real Account."
-msgstr ""
+msgstr "如要在MT5开立金融账户，请切换到 %1 真实账户。"
 
 msgid "To create a Volatility Indices Account for MT5, please <a href=\"%1\"> upgrade to %2 Real Account</a>."
-msgstr ""
+msgstr "如要在MT5开立波动率指数账户，请<a href=\"%1\">升级到 %2 真实账户</a>。"
 
 msgid "To create a Volatility Indices Account for MT5, please switch to your %1 Real Account."
 msgstr ""
@@ -1255,154 +1255,155 @@ msgid "When we accept an order from you to open or close a transaction, or any o
 msgstr ""
 
 msgid "When we deal on own account (dealing desk), we act as principal and not as an agent on your behalf and we therefore act as the execution venue."
-msgstr ""
+msgstr "当我们在自己账户（交易平台）上交易时，我们是委托人，而不是您的代理人，因此我们是执行场地。"
 
 msgid "Where a particular time or timeframe has been specified in a client's instructions with respect to the execution of an order, regardless of the price available, we will endeavour to execute the order at the specified time or over the specified timeframe in the best possible manner after taking all sufficient steps. However, we will not be responsible for any consequences related to pricing that resulted from the time or timeframe of the execution."
-msgstr ""
+msgstr "如客户在执行订单指示中指定了时间或时间周期，不论是否有可用价格，我们将在采取所有足够步骤后努力在指定时间或时间周期内尽可能以最佳方式执行订单。然而，我们不对因执行时间或时间周期而引起价格相关的任何后果负责。"
 
 msgid "Where a particular venue has been specified in your instructions with respect to the execution of an order, we will not be responsible for the venue selection."
-msgstr ""
+msgstr "如您在执行订单相关指示中指定了特定场地，我们不对场地选择负责。"
 
 msgid "Where we consider, on the basis of the information provided by you that you do not possess the knowledge and experience to appreciate the risks associated with an investment in the proposed instrument, we will issue a warning to you. Such a warning shall be displayed on the website."
-msgstr ""
+msgstr "根据您提供的信息，如果我们认为您不具备应对投资风险的知识和经验，就会向您提出警告。该警告将显示在网站上。"
 
 msgid "Whilst we act as principal in respect of your orders, we also assess the execution venues that we use and upon which we place significant reliance to provide the best possible result for the execution of your orders. These venues typically consist of third party investment firms, brokers, and/or liquidity providers."
-msgstr ""
+msgstr "作为您的订单委托人，我们也对我们高度依赖的执行场地进行评估，以便为您的订单执行提供最佳效益。这些场地通常由第三方投资公司、经纪人和/或流动性提供商组成。"
 
 msgid "Whilst we endeavour to close out your Open Positions if and when the Margin Level for your Real Account reaches or falls below the Stop Out Level, we do not guarantee that your Open Positions will be closed when the Margin Level for your Real Account reaches the Stop Out Level."
-msgstr ""
+msgstr "虽然我们在您真实账户保证金水平达到或低于止损水平时将尽力使您的持仓头寸收盘，我们不保证当您真实账户的保证金水平达到止损水平时将能够使您的持仓头寸收盘。"
 
 msgid "Whilst we endeavour to open or close the Transaction to which your orders relate at the requested price, acting in accordance with our duty of best execution, there are times when, due to an increase in volatility or volume, orders may be subject to slippage. The difference between the order price and execution price when orders are filled is known as slippage. This means that your order is not filled at the exact intended quoted price when you placed your order. Slippage is usually seen during periods of extremely high or low volatility and generally occurs during fundamental news releases or periods of limited liquidity. Slippages can result in either a positive slippage (more favourable to you) or a negative slippage (less favourable to you)."
-msgstr ""
+msgstr "虽然我们将按照最佳执行职责行事，致力以要求价格对您的订单涉及交易进行开盘或收盘，但有时订单可能会由于波动率或交易量增加而受滑移。交易完成时订单价格和执行价格的区别被称为滑移。这意味着当您下订单时，您的订单没有依照确切的预期报价完成交易。滑移通常发生在股市波动率非常高或低的期间以及重大新闻发布期间或流动性有限的时期。滑移可分为正滑移 （对您较有利） 或负滑移 （对您不利）。"
 
 msgid "Whilst we endeavour to take all reasonable and sufficient steps, as required by applicable laws and regulations, to identify potential conflicts of interests between ourselves and our clients, or between one client and another, that arise in the course of providing the margin trading services as described in this Agreement, by establishing and implementing policies and procedures, it is possible that we may execute certain Transactions which may have other direct or indirect material interests."
-msgstr ""
+msgstr "虽然我们将按照适用的法律和规章，努力采取一切合理和足够的步骤，通过建立和实施政策和程序，以在提供本协议所述的保证金交易服务期间确定我们和客户之间或客户与客户之间潜在的利益冲突，但我们可能会执行某些可能有其他直接或间接物质利益的交易。"
 
 msgid "Withdraw"
-msgstr ""
+msgstr "提款"
 
 msgid "Withdraw from"
-msgstr ""
+msgstr "提款自"
 
 msgid "Withdrawal is done. Transaction ID: %1"
-msgstr ""
+msgstr "已完成提款。交易编号：%1"
 
 msgid "Withdrawal of Funds from Real Account"
-msgstr ""
+msgstr "从真实账户提出资金"
 
 msgid "Withdrawal of funds from Real Account must be made in the same currency maintained in your Binary Options Real Account."
-msgstr ""
+msgstr "自真实账户提出基金币种必须与二元期权真实账户资金币种相同。"
 
 msgid "Without prejudice to any other terms of this Agreement, neither the Company nor any its directors, officers, managers, employees, or agents shall not be liable to you in relation to any loss that you incurred whether directly or indirectly by any cause beyond our control, including but not limited to, any delay or defect in or failure of the whole or any part of the MT5 Trading Platform or any systems or network links."
-msgstr ""
+msgstr "在不妨害本协议任何其他条款的前提下，本公司或任何董事、职员、经理、雇员或代理不须对您在MT5 交易平台或任何系统或网络链接，包括但不限于全部或任何部分的任何延误或缺陷或者失败，不论是直接或间接由于任何超出我们控制范围的原因所造成的任何损失承担责任。"
 
 msgid "You acknowledge and accept that a Transaction may be subject to market rules laid down in by-laws, rules, provisions, customs and practices of an exchange, a market, a clearing house, a body or any other organisation involved in the execution, clearing, and/or settlement of said Transaction. Should any such organisation take decisions or measures which affect a Transaction or an Open Position, the Company shall be entitled to take any action (including closing any Open Position of the client) which it, at its sole discretion, considers reasonable. This clause does not apply to Volatility Indices."
-msgstr ""
+msgstr "您确认并接受交易必须受到由法律、规则、规定、习俗和参与该交易执行、结算和（或）结清的交易\n"
+"所、市场、结算所、交易机构或任何其他组织的做法规定的的市场规则。如果任何此类机构采取影响交易或持仓头寸的决定或措施，本公司有权自行决定采取任何我们认为合理的行动（包括替客户开盘或收盘）。本条款不适用于波动率指数。"
 
 msgid "You acknowledge and accept that your Real Account will be maintained in one currency, which is the same currency maintained in your Binary Options Real Account."
-msgstr ""
+msgstr "您确认并接受您的真实账户将仅使用一种货币，此货币与您二元期权真实账户的货币相同。"
 
 msgid "You acknowledge and agree that the Company may, at any time without prior notice and at its discretion, change the trading rules in relation to:"
-msgstr ""
+msgstr "您确认并同意本公司可能随时在没有预先通知的情况下，自行决定改变以下相关的交易规则︰"
 
 msgid "You acknowledge that a Stop or Limit Order placed on your Open Position, when executed, would be capable of closing or partly closing such Transaction. You also acknowledge that it is your responsibility to cancel the Stop or Limit Order that you placed on your Open Positions if you do not want the Stop or Limit Order to remain valid. If you close your original Transaction and fail to cancel the Stop or Limit Order, we shall be entitled, at our absolute discretion, to treat the Stop or Limit Order as an instruction to enter into a new Transaction for you if and when our quote reaches or goes beyond the level of the Stop or Limit Order."
-msgstr ""
+msgstr "您确认在对您的持仓头寸执行止损或限价交易时，可能会导致此交易收盘或部分收盘。您也确认如果您不想让止损或限价订单继续生效， 对持仓头寸取消止损或限价订单是您的责任。如果您在执行原交易收盘时没有取消止损或限价订单，我们有权在我们的报价达到或超出止损或限价水平时自行决定将止损或限价订单当作指示并替您签订新交易。"
 
 msgid "You acknowledge that it is your responsibility to monitor your Account Balance and Margin Requirement and we are not under any obligation to keep you informed (i.e., to make a Margin Call)."
-msgstr ""
+msgstr "您确认监控账户余额和保证金要求是您的责任，我们没有义务通知您 (例如追加保证金通知)。"
 
 msgid "You acknowledge that it is your responsibility to understand the features, characteristics, terms and conditions of an Order and the implications of executing an Order before you place an Order with us."
-msgstr ""
+msgstr "您确认在向我们下订单前对订单功能、特点、条款和条件以及执行订单的影响充分了解是您的责任。"
 
 msgid "You acknowledge that the Company will determine, at its discretion, the Transactions that will be kept in the Company's own book (known as B booking) and the Transactions that will be passed through to the prime brokers who act as liquidity providers for the Company (known as A booking). For the latter, the Company is the counterparty in these transactions and a correlation between the profit/loss made by the client and the profit/loss made by the Company exists. At any point in time, we may be entering into or may have entered into transactions with a large number of clients, each of whose interests may diverge from those of other clients. As such, the Company may be holding Open Positions that may not be aligned with your objectives/interests as an individual client of the Company."
-msgstr ""
+msgstr "您确认本公司将自行决定将交易记录保存在公司自己的记录本（称为B记录本）或交给充当公司流动性提供商的主要经纪人保存（称为A记录本）。对于后者，本公司是交易中的另一方，客户的盈亏和本公司的盈亏之间有相互关系。我们可能会随时与大量客户开始或已开始进行交易，每个客户的利益都可能与其他客户有分歧。因此，本公司可能持有与您作为本公司单一客户的目标和利益不一致的未平仓头寸。"
 
 msgid "You acknowledge that we may use, store, or otherwise process personal information provided by you in connection with the provision of margin trading services described in this Agreement. You consent to the processing and transmittal of your personal information for the purposes of performing the contract and administering the relationship between you and us."
-msgstr ""
+msgstr "您确认我们可能会使用、保存或以其他方式处理您向我们提供的与本协议所述保证金交易服务相关的个人信息。您同意我们处理和传送您的个人信息作为履行合约和管理您和我们之间的关系用途。"
 
 msgid "You acknowledge that we reserve the right to establish a minimum and maximum transaction size which may be subject to alteration and that we will only execute Orders that fall within the range of the minimum and maximum transaction size."
-msgstr ""
+msgstr "您确认我们保留建立最小和最大交易额并可作出更改的权利， 以及我们仅执行在最小和最大交易金额范围内的订单。"
 
 msgid "You acknowledge that we reserve the right to void or close out one or more of your Transactions if we observe any breaches of warranty given under this Agreement."
-msgstr ""
+msgstr "您确认如果我们发觉任何违反本协议项下提供的担保，我们保留取消或关闭您的一个或多个交易的权利。"
 
 msgid "You acknowledge, understand, represent and warrant that you are aware of the functional limitations of the MT5 Trading Platform (for example, Wine, which is not a fully stable application, as disclosed by the MT5 Trading Platform Licensor on their website). We have no obligation and bear no responsibility for transmissions (including, but not limited to, Orders) that are inaccurate or not received by us, due to the functional limitations of the MT5 Trading Platform."
-msgstr ""
+msgstr "您确认、理解、表示并保证您对MT5交易平台的功能限制（例如，Wine，就如MT5交易平台许可方在其网站上披露的，不是个完全稳定的应用程序）充分了解。对因MT5交易平台功能限制而引起的不准确或我们没有收到的传达（包括但不限于订单），我们没有义务，也不承担任何责任。"
 
 msgid "You act in breach of any warranty or representation made under this Agreement or any representation or warranty made by you under this Agreement and/or any information provided to us in connection with this Agreement is or becomes untrue or misleading;"
-msgstr ""
+msgstr "您的行事违反本协议项下作出的任何保证或陈述或您对本协议项下作出的任何陈述或担保，和/或向我们提供任何与本协议有关信息属于或成为不实或误导;"
 
 msgid "You are acting for your sole benefit and not for or on behalf of any other person;"
-msgstr ""
+msgstr "您仅为您本人利益及不为或代表任何其他人行事;"
 
 msgid "You are not resident in a restricted country such as the USA, Japan, Hong Kong, Costa Rica, Malaysia, Malta, Iran, North Korea, Jersey, Iraq, or such other restricted country as the Company may decide from time to time at its sole discretion;"
-msgstr ""
+msgstr "您不是美国、日本、香港、哥斯达黎加、马来西亚、马耳他、伊朗、朝鲜、泽西岛、伊拉克、或其它由公司随时自行决定为受限制国家的居民；"
 
 msgid "You are over 18 years of age, unless you are an Estonian resident whereby you would have to be over 21;"
-msgstr ""
+msgstr "您的年龄在18岁以上，如果您是爱沙尼亚居民，则年龄须在21岁以上；"
 
 msgid "You are willing and financially able to sustain a total loss of funds (which may exceed your initial deposit) resulting from a Transaction;"
-msgstr ""
+msgstr "您愿意和经济上能够承担交易所造成的所有资金亏损（可能会超越起始资金存款）;"
 
 msgid "You consent us to record your telephone conversation between you and us. All instructions receive by telephone will be binding as if received in writing. Recorded telephone conversations between you and us shall be and remain our sole property. You will accept recorded telephone conversations between you and us as conclusive evidence of instructions or conversations so recorded and we may deliver copies of transcripts of such recordings to any court, regulatory or governmental authority without seeking prior consent from you."
-msgstr ""
+msgstr "您同意我们对您和我们之间的电话对话录音。所有通过电话接收的指示都如同书面指示一样具法律约束力。您和我们之间的电话谈话录音将会并永远是我们独自保管的财产。您将接受您和我们之间的电话谈话录音为确凿的指示或谈话记录证据，以及我们可能在不寻求您事先同意的情况下向任何法院、 监管机构或政府当局提供此类录音的复制件。"
 
 msgid "You did not change anything."
-msgstr ""
+msgstr "您没作任何更改。"
 
 msgid "You have all necessary authority, powers, consents, licences and authorisations and have taken all necessary actions to enable you to enter into and perform this Agreement and such Transactions lawfully;"
-msgstr ""
+msgstr "您拥有所有必要的许可、权力、同意、牌照及授权并已采取所有必要措施，使您能够合法签订并履行本协议和此类交易;"
 
 msgid "You have fully read and understood the: (i) Risk Disclosure Statement; (ii) Order Execution Policy; (iii) terms and condition attached to this Agreement; before requesting to open a Real Account with us;"
-msgstr ""
+msgstr "向我们请求开立真实账户前，您已经完整阅读并理解此协议附上的: (i) 风险披露声明;（ii）订单执行政策; (iii) 条款和条件;"
 
 msgid "You have reached the rate limit of requests per second. To continue, please <a href=\"javascript:;\" id=\"ratelimit-refresh-link\">refresh</a> the page."
-msgstr ""
+msgstr "您已达每秒最大请求限额。请 <a href=\"javascript:;\" id=\"ratelimit-refresh-link\">刷新</a>页面继续操作。"
 
 msgid "You have read our privacy statement and hereby give us consent to process your personal information as outlined there;"
-msgstr ""
+msgstr "您已阅读了我们的隐私声明，并据此同意我们按上述方式对您的个人信息进行处理；"
 
 msgid "You have read this Legal Terms and Conditions page in full and understood that you will be buying and selling financial contracts subject to these terms and conditions;"
-msgstr ""
+msgstr "您已经完整阅读此法律条款及条件页面，并理解您将在这些条款和条件下买卖金融合约；"
 
 msgid "You have sufficient experience and knowledge in matters of financial trading to be capable of evaluating the merits and risks of acquiring financial contracts via this site and have done so without relying on any information contained in this site."
-msgstr ""
+msgstr "您拥有足够的金融交易经验和知识，能够评估经由本网站购买金融合约的收益与风险，并且不依赖于本网站中包含的任何信息作出购买决定。"
 
 msgid "You have to register and get App ID before you can use different OAuth server for authentication. For more information refer to OAuth details on https://developers.binary.com/."
-msgstr ""
+msgstr "使用各OAuth服务器进行验证前须先注册并领取应用程序ID。欲知详情，请到https://developers.binary.com/参阅 OAuth信息。"
 
 msgid "You have unrealised losses on your Real Account; and/or"
-msgstr ""
+msgstr "你有未实现的真实账户亏损; 和（或）"
 
 msgid "You hereby agree that you will not participate in any illegal, deceptive, misleading or unethical practices including, but not limited to, disparagement of the MT5 Trading Platform or other practices which may be detrimental to the MT5 Trading Platform, Licensor or the public interest."
-msgstr ""
+msgstr "您同意，您不会参与任何非法、欺骗、误导或不道德的行为，包括但不限于，贬低MT5交易平台或其他可能造成MT5交易平台、许可方或公众利益损失的行为。"
 
 msgid "You make the following representations and warranties to us at the time you enter into this Agreement, and agree that such representations and warranties are deemed repeated each time you open or close a Transaction:"
-msgstr ""
+msgstr "签订本协议时，您向我们提出以下陈述和保证，并同意每次您开盘或收盘交易时此陈述和保证将被视为重新提出︰"
 
 msgid "You may make Margin Payments by transferring funds from your Binary Options Real Account to your Real Account. In the event that there are insufficient funds in your Binary Options Real Account to fund your Real Account, you may, make Margin Payments by funding your Binary Options Real Account and transferring the funds from your Binary Options Real Account to your Real Account."
-msgstr ""
+msgstr "支付保证金时您可以将资金从二元期权真实账户转入您的真实账户。如果您的二元期权真实账户内资金不足， 您可以先把资金存入二元期权真实账户， 再将资金从二元期权真实账户转入真实账户作为保证金支付。"
 
 msgid "You may not cancel or amend the level of your Stop and Limit Order prior to the closing of your Transaction once the level has been reached."
-msgstr ""
+msgstr "一旦已经达到订单止损和限价水平，您不能在收盘交易前取消或修改止损和限价水平。"
 
 msgid "You may specify your instruction of a Stop Order or a Limit Order may be applied for a limited duration or for an indefinite period (a \"good till cancelled\" or \"GTC\" Order)."
-msgstr ""
+msgstr "您可以指定您的止损或限价订单指示可用于有限或无限期限（\"取消前有效订单\"或\"GTC\"订单）。"
 
 msgid "You promise that:"
-msgstr ""
+msgstr "您承诺︰"
 
 msgid "You should not sign up to receive the margin trading service described in this Agreement unless you understand their nature and the associated risks."
-msgstr ""
+msgstr "除非您了解本协议所述的保证金交易服务的性质和相关风险， 您不会注册接受此服务。"
 
 msgid "You understand that products based on a random number generator (the \"Volatility Indices\") are gambling products whereas products based on financial markets indices (forex, stocks, commodities) are financial instruments."
-msgstr ""
+msgstr "您了解基于随机数字生成器 （\"波动率指数\"）的产品属于博彩产品，而基于金融市场指数（外汇、股票、大宗商品）的产品属于金融工具。"
 
 msgid "You will provide us with any information that we may reasonably require to fully satisfy the demand or the requirements of the applicable government authority, upon our request."
-msgstr ""
+msgstr "为了充分满足有关政府机关需求，我们可能向您提出任何合理信息请求，您将为我们提供相关信息。"
 
 msgid "You will take all reasonable steps to comply with any law, ordinance, charter, by-law or rule applicable to you or the jurisdiction in which you are resident;"
-msgstr ""
+msgstr "您将采取一切合理步骤，遵守您居住的管辖区适用的法律、条例、宪章、法令或规则 。"
 
 msgid "You will use the margin trading service described in this Agreement in good faith and you will not use any software, algorithm, or any trading strategy to manipulate or take unfair advantage of the way our bid and offer prices are quoted. You shall observe the standard of behavior reasonably expected of persons in your position and not take any step which would cause us to fail to observe the standard of behavior reasonably expected of persons in our position."
 msgstr ""
