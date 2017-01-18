@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-01-17 23:58-0500\n"
+"PO-Revision-Date: 2017-01-18 01:34-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Chinese Traditional\n"
 "MIME-Version: 1.0\n"
@@ -292,7 +292,7 @@ msgid "Congratulations! Your Financial Account has been created."
 msgstr "恭喜！您已開立金融帳戶。"
 
 msgid "Congratulations! Your Volatility Indices Account has been created."
-msgstr ""
+msgstr "恭喜！您已開立波動率指數帳戶。"
 
 msgid "Construction"
 msgstr "建構"
@@ -310,16 +310,16 @@ msgid "Create Your MetaTrader 5 Account Now"
 msgstr "立刻建立MetaTrader 5帳戶"
 
 msgid "Create a Demo Account to trade on MT5."
-msgstr ""
+msgstr "在MT5開立虛擬帳戶進行交易。"
 
 msgid "Create a Financial Account to trade Forex on MT5."
-msgstr ""
+msgstr "在MT5開立金融帳戶進行外匯交易。"
 
 msgid "Create a Volatility Indices Account to trade Volatility Indices on MT5."
-msgstr ""
+msgstr "在MT5開立波動率指數帳戶進行波動率指數交易。"
 
 msgid "Create account"
-msgstr ""
+msgstr "開立帳戶"
 
 msgid "D. Capacity"
 msgstr "四、能力"
@@ -340,7 +340,7 @@ msgid "Deposit"
 msgstr "存款"
 
 msgid "Deposit into"
-msgstr ""
+msgstr "存款到"
 
 msgid "Deposit is done. Transaction ID: %1"
 msgstr "已完成存款。交易編號: %1"
@@ -349,7 +349,7 @@ msgid "Details"
 msgstr "詳細資訊"
 
 msgid "Don't have a Binary.com account? <a href=\"%1\">Create one</a> now"
-msgstr ""
+msgstr "沒有 Binary.com 帳戶？立刻<a href=\"%1\">開立</a>帳戶"
 
 msgid "Download MetaTrader"
 msgstr "下載 MetaTrader"
@@ -358,7 +358,7 @@ msgid "Download MetaTrader for Windows"
 msgstr "Windows版MetaTrader下載"
 
 msgid "Download desktop app"
-msgstr ""
+msgstr "下載桌面應用程式"
 
 msgid "Download for MacOS"
 msgstr "MacOS版MetaTrader下載"
@@ -451,7 +451,7 @@ msgid "Given our role as margin trading service provider as described in this Ag
 msgstr "我們是融資融券交易服務提供商，如本協議所述，我們盡量不讓市場影響您的交易需求，同時維護我們的風險管理政策和程序。通過繼續使用本協議所述的融資融券交易服務，您承認並已了解，所披露利益的潛在衝突可能會出現以及不能完全排除，即使存在這種潛在利益衝突，您也同意我們的行動。"
 
 msgid "Go to web terminal"
-msgstr ""
+msgstr "轉到 web 終端"
 
 msgid "H. Monitoring and Review"
 msgstr "八、監測和審查"
@@ -478,7 +478,7 @@ msgid "High frequency (2 ticks per second)"
 msgstr "高頻率 （每秒 2 次跳動點）"
 
 msgid "I have read and agreed to the"
-msgstr ""
+msgstr "我已閱讀並同意"
 
 msgid "I. Quotes"
 msgstr "九、 報價"
@@ -577,10 +577,10 @@ msgid "Investments &amp; Dividends"
 msgstr "投資 &amp; 分紅"
 
 msgid "Investor password (read-only access)"
-msgstr ""
+msgstr "投資者密碼 （唯讀存取權限）"
 
 msgid "Investor password cannot be same as Main password."
-msgstr ""
+msgstr "投資者密碼不能與主密碼相同。"
 
 msgid "It deletes an order with the largest margin reserved."
 msgstr "它將刪除具最大預留保證金的訂單。"
@@ -595,7 +595,7 @@ msgid "K. Electronic Trading Platform and Transactions"
 msgstr "十一、電子交易平台和交易"
 
 msgid "Kindly email the following documents to <a href=\"mailto:%1\">%1</a> to authenticate your account:"
-msgstr ""
+msgstr "為驗證您的帳號，請將以下文件通過電子郵件傳到<a href=\"mailto:%1\">%1</a>:"
 
 msgid "L. Event of Default"
 msgstr "十二、違約事件"
@@ -637,22 +637,22 @@ msgid "Log into the application using your MetaTrader account number and your Me
 msgstr "使用您的 MetaTrader 帳戶號碼和 MetaTrader 帳戶密碼登入到應用程式。"
 
 msgid "Login ID"
-msgstr ""
+msgstr "登入ID"
 
 msgid "M. Manifest Error"
 msgstr "十三、清單錯誤"
 
 msgid "MT5 main password"
-msgstr ""
+msgstr "MT5 主密碼"
 
 msgid "Main password (trading access)"
-msgstr ""
+msgstr "主密碼（交易存取）"
 
 msgid "Make a deposit"
-msgstr ""
+msgstr "把錢存入"
 
 msgid "Make a withdrawal"
-msgstr ""
+msgstr "取款"
 
 msgid "Margin - The amount set aside by us from your Account Balance in order to open and maintain a Transaction, to cover our exposure as a counterparty to your contract."
 msgstr "保證金 - 我們從您的帳戶餘額撥出進行開盤持倉交易，以支付我們作為您的合約交易對手的金額。"
@@ -688,7 +688,7 @@ msgid "Maximum Volume (Trade Size)"
 msgstr "最大量額 （交易量）"
 
 msgid "MetaTrader account management"
-msgstr ""
+msgstr "MetaTrader 帳戶管理"
 
 msgid "Minimum Increment (Volume)"
 msgstr "最小增額 （量）"
@@ -700,7 +700,7 @@ msgid "Minimum Volume (Trade Size)"
 msgstr "最小量額 （交易量）"
 
 msgid "Minimum eight characters. Must contain numbers, and mix of upper and lower case letters."
-msgstr ""
+msgstr "最少 8 個字元。必須同時包含數字和大小寫字母。"
 
 msgid "Money collected from Clients are not invested in any securities, futures, or other investments, on behalf of Clients."
 msgstr "從客戶聚集的資金不以客戶名義投資於任何證券、期貨、及其它投資產品。"
@@ -838,31 +838,31 @@ msgid "R. Interpretation of Terms"
 msgstr "十三、術語釋義"
 
 msgid "Real Account - Your real money account opened with Binary.com's MT5 Trading Platform licensed from MetaQuotes Software Corporation."
-msgstr ""
+msgstr "真實帳戶 - 由MetaQuotes 軟體公司授權，通過 Binary.com 的 MT5 交易平台開立的真實資金帳戶。"
 
 msgid "Register Your MetaTrader 5 Account"
-msgstr ""
+msgstr "MetaTrader 5帳戶註冊"
 
 msgid "Regular monitoring of open positions"
-msgstr ""
+msgstr "定期監測未平倉頭寸"
 
 msgid "Relationship between Margin and Leverage"
-msgstr ""
+msgstr "保證金與槓桿之間的關係"
 
 msgid "Reset to Original Settings"
-msgstr ""
+msgstr "重設為原始設定"
 
 msgid "Rights on Default:"
-msgstr ""
+msgstr "預設權利︰"
 
 msgid "Risk Disclosure Statement"
-msgstr ""
+msgstr "風險披露聲明"
 
 msgid "Risk of Stop Order"
-msgstr ""
+msgstr "止損單的風險"
 
 msgid "Risk of slippage"
-msgstr ""
+msgstr "滑點風險"
 
 msgid "Roll-over - In the event that the Company does not receive Orders from you to close an Open Position by the close of a Business Day, the Company will roll-over the said Open Position to the following day being a Business Day."
 msgstr ""
