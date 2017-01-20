@@ -54,14 +54,14 @@
           <link rel="alternate" href="/zh_cn/user/settings/metatrader.html?l=zh_cn" hreflang="ZH_CN" /> 
           <link rel="alternate" href="/zh_tw/user/settings/metatrader.html" hreflang="ZH_TW" /> 
         
-         <link rel="stylesheet" href="/css/binary.min.css?cf0feddi">
-         <link rel="stylesheet" href="https://style.binary.com/binary.css?cf0feddi">
+         <link rel="stylesheet" href="/css/binary.min.css?vad6c3ry">
+         <link rel="stylesheet" href="https://style.binary.com/binary.css?vad6c3ry">
         
         <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=Array.prototype.includes,String.prototype.includes&unknown=polyfill"></script>
 <script>
     //A global variable required to initialize Page object.
-    window.page_params = {settings: {"image_link":{"hourglass":"/images/common/hourglass_1.gif"},"valid_loginids":"MX|MF|VRTC|MLT|CR|FOG|VRTJ|JP"}};
-</script>  <script src='/js/binary.min.js?cf0feddi' defer async></script>
+    window.page_params = {settings: {"valid_loginids":"MX|MF|VRTC|MLT|CR|FOG|VRTJ|JP","image_link":{"hourglass":"/images/common/hourglass_1.gif"}}};
+</script>  <script src='/js/binary.min.js?vad6c3ry' defer async></script>
     </head>
 
 
@@ -156,7 +156,7 @@
                                         <div class="separator-line-thin-gray"></div>
                                         <div class="login-id-list"></div>
                                         <a href="javascript:;" id="btn_logout" class="logout">
-                                            <li>Sign out</li>
+                                            <li>注销</li>
                                         </a>
                                     </ul>
                                 </li>
@@ -216,7 +216,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div class="container">
 
 <div id="metatrader">
-    <h1>MetaTrader account management</h1>
+    <h1>MetaTrader 账户管理</h1>
 
     <p id="errorMsg" class="notice-msg center-text invisible"></p>
 
@@ -237,7 +237,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <form class="form-new-account invisible">
                     <p class="account-msg"></p>
                     <div class="gr-row gr-padding-10">
-                        <div class="gr-6 form_label">Account type</div>
+                        <div class="gr-6 form_label">账户类型</div>
                         <div class="gr-6 form_label align-start account-type">演示</div>
                     </div>
                     <div class="gr-row gr-padding-10 invisible">
@@ -257,10 +257,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         <div class="gr-6"><input type="text" class="txtName" maxlength="30" /></div>
                     </div>
                     <div class="gr-row gr-padding-10">
-                        <div class="gr-6 form_label"><label>Main password (trading access)</label></div>
+                        <div class="gr-6 form_label"><label>主密码（交易访问）</label></div>
                         <div class="gr-6">
                             <input type="password" class="txtMainPass password">
-                            <div class="hint">Minimum eight characters. Must contain numbers, and mix of upper and lower case letters.</div>
+                            <div class="hint">最少 8 个字符。必须同时包含数字和大小写字母。</div>
                         </div>
                     </div>
                     <div class="gr-row gr-padding-10">
@@ -268,19 +268,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         <div class="gr-6"><input type="password" class="txtMainPass2" /></div>
                     </div>
                     <div class="gr-row gr-padding-10">
-                        <div class="gr-6 form_label"><label>Investor password (read-only access)</label></div>
+                        <div class="gr-6 form_label"><label>投资者密码 （只读访问权限）</label></div>
                         <div class="gr-6"><input type="password" class="txtInvestPass" /></div>
                     </div>
                     <div class="tnc-row gr-row gr-padding-10 invisible">
                         <div class="gr-12 center-text">
                             <input type="checkbox" class="chkTNC" />
-                            <label>I have read and agreed to the <a target="_blank" href="/zh_cn/terms-and-conditions.html">terms and conditions</a> of the site.</label>
+                            <label>我已阅读并同意 <a target="_blank" href="/zh_cn/terms-and-conditions.html">terms and conditions</a> of the site.</label>
                         </div>
                     </div>
                     <div class="gr-row gr-padding-10">
                         <div class="gr-6 form_label"></div>
                         <div class="gr-6">
-                            <button class="button">Create account</button>
+                            <button class="button">开立账户</button>
                             <div class="formMessage center-text"></div>
                         </div>
                     </div>
@@ -291,18 +291,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <h3>金融账户</h3>
                 <p class="msg-account notice-msg center-text invisible"></p>
                 <div class="authenticate invisible">
-                    <p>Authenticate your Binary.com account to create an MT5 Financial Account.</p>
-                    <p>Kindly email the following documents to <a href="mailto:support@binary.com">support@binary.com</a> to authenticate your account:</p>
+                    <p>对您的 Binary.com 账户进行身份验证，以开立 MT5 金融账户。</p>
+                    <p>为验证您的账号，请将以下文件通过电子邮件发送到<a href="mailto:support@binary.com"> support@binary.com</a>︰</p>
                     <ul class="bullet">
-                        <li>A scanned copy of your passport, driving licence (provisional or full), or identity card that shows your full name and date of birth.</li>
-                        <li>A scanned copy of a utility bill or bank statement that is no more than three months old.</li>
+                        <li>显示您名字和出生日期的护照、驾照（临时或永久）或身份证的扫描件。</li>
+                        <li>水电煤账单或银行月结单扫描件（日期不得超过3个月）。</li>
                     </ul>
                 </div>
                 <form class="form-new-account invisible"></form>
                 <div class="account-details"></div>
                 <p class="msg-switch-to-deposit notice-msg center-text invisible">To deposit or withdraw from your MT5 Account, switch to your Binary.com Real Account.</p>
                 <div class="accordion invisible">
-                    <h3>Make a deposit</h3>
+                    <h3>把钱存入</h3>
                     <div>
                         <form class="form-deposit">
                             <p>Transfer funds from Binary.com account into your MT5 account:</p>
@@ -311,7 +311,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 <div class="gr-6 form_label align-start binary-login"></div>
                             </div>
                             <div class="gr-row gr-padding-10">
-                                <div class="gr-6 form_label">Deposit into</div>
+                                <div class="gr-6 form_label">存款到</div>
                                 <div class="gr-6 form_label align-start mt-login"></div>
                             </div>
                             <div class="gr-row gr-padding-10">
@@ -327,12 +327,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                             </div>
                         </form>
                     </div>
-                    <h3>Make a withdrawal</h3>
+                    <h3>取款</h3>
                     <div>
                         <form class="form-withdrawal">
                             <p>Transfer funds from your MT5 account into your Binary.com account:</p>
                             <div class="gr-row gr-padding-10">
-                                <div class="gr-6 form_label">Withdraw from</div>
+                                <div class="gr-6 form_label">提款自</div>
                                 <div class="gr-6 form_label align-start mt-login"></div>
                             </div>
                             <div class="gr-row gr-padding-10">
@@ -340,7 +340,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 <div class="gr-6 form_label align-start binary-login"></div>
                             </div>
                             <div class="gr-row gr-padding-10">
-                                <div class="gr-6 form_label"><label>MT5 main password</label></div>
+                                <div class="gr-6 form_label"><label>MT5 主密码</label></div>
                                 <div class="gr-6"><input type="password" class="txtMainPass" /></div>
                             </div>
                             <div class="gr-row gr-padding-10">
@@ -350,7 +350,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                             <div class="gr-row gr-padding-10">
                                 <div class="gr-6 form_label"></div>
                                 <div class="gr-6">
-                                    <button class="button">Withdraw</button>
+                                    <button class="button">提款</button>
                                     <div class="formMessage center-text"></div>
                                 </div>
                             </div>
@@ -379,7 +379,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="container">
 <div class="gr-row gr-padding-10">
     <div class="gr-3">
-        <!-- <h4 class="secondary-color">Section 1</h4> -->
+        <!-- <h4 class="secondary-color">部分 1</h4> -->
         <ul>
             <li>
                 <a class="pjaxload" href="/zh_cn/margin-policy.html">保证金政策</a>
@@ -387,15 +387,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </ul>
     </div>
     <div class="gr-3">
-        <!-- <h4 class="secondary-color">Section 2</h4> -->
+        <!-- <h4 class="secondary-color">部分 2</h4> -->
         <ul>
             <li>
-                <a class="pjaxload" href="/zh_cn/volatility-indices-contract.html">合约规格</a>
+                <a class="pjaxload" href="/zh_cn/contract-specifications.html">合约规格</a>
             </li>
         </ul>
     </div>
     <div class="gr-3">
-        <!-- <h4 class="secondary-color">Section 3</h4> -->
+        <!-- <h4 class="secondary-color">部分 3</h4> -->
         <ul>
             <li>
                 <a class="pjaxload" href="/zh_cn/download-metatrader.html">下载 MetaTrader</a>
@@ -403,10 +403,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </ul>
     </div>
     <div class="gr-3">
-        <!-- <h4 class="secondary-color">Section 4</h4> -->
+        <!-- <h4 class="secondary-color">部分 4</h4> -->
         <ul>
             <li>
-                <a class="pjaxload" href="/zh_cn/terms-and-conditions.html">Terms and Conditions</a>
+                <a class="pjaxload" href="/zh_cn/terms-and-conditions.html">条款与条件</a>
             </li>
         </ul>
     </div>
@@ -427,7 +427,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </div>
 <div id="ratelimit-error-message">
 <div class="message">
-    You have reached the rate limit of requests per second. To continue, please <a href="javascript:;" id="ratelimit-refresh-link">refresh</a> the page.
+    您已达每秒最大请求限额。请 <a href="javascript:;" id="ratelimit-refresh-link">刷新</a>页面继续操作。
 </div>
 </div>
 </div>
