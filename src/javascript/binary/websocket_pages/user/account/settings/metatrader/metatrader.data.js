@@ -52,6 +52,10 @@ var MetaTraderData = (function() {
     };
 
     var responseHandler = function(response) {
+        if (response.hasOwnProperty('error') && (response.error.code === 'MT5APISuspendedError')) {
+            MetaTraderUI.responseMT5APISuspended(response.error.message);
+            return;
+        }
         switch(response.msg_type) {
             case 'authorize':
                 lcRequested = false;

@@ -1,4 +1,4 @@
-#contract-specs {
+#forex-specs, #volatility-specs, #cash-specs {
     table td {
         font-size: 0.9em;
         text-align: center;
@@ -14,4 +14,13 @@
     .table-container {
         overflow-x: auto;
     }
+}
+
+.gr-prefix-1 {
+    margin-left: 5% !important;
+}
+
+.box {
+    background-color: $COLOR_LIGHT_GRAY;
+    padding: 10px;
 }
