@@ -18,7 +18,7 @@
         <div class="box">
             <div class="gr-prefix-1">
                 <p><i>[% l("Volume (trade size) x price x margin rate = Margin") %]</i></p>
-                <p>[% l("For e.g. If you buy 1 Volume of Volatility 100 Index at a price of EUR 20,000 and a margin rate of 0.01, the margin required to purchase that one lot will be calculated as follows:") %]</p>
+                <p>[% l("For e.g. If you buy 1 Volume of Volatility 100 Index at a price of EUR 20,000 and a margin rate of 0.01(1%), the margin required to purchase that one lot will be calculated as follows:") %]</p>
                 <p>[% l("1 x 20,000 / 100 = EUR 200") %]</p>
             </div>
         </div>
@@ -26,7 +26,7 @@
         <div class="box">
             <div class="gr-prefix-1">
                 <p><i>[% l("Volume (lots) x lot size / leverage = Margin") %]</i></p>
-                <p>[% l("For e.g. If you buy one lot of the EUR/USD symbol with a contract size of 100,000 and margin of 100:1, the margin required to purchase that one lot will be calculated as follows:") %]</p>
+                <p>[% l("For e.g. If you buy one lot of the EUR/USD symbol with a contract size of 100,000 and leverage of 100:1, the margin required to purchase that one lot will be calculated as follows:") %]</p>
                 <p>[% l("1 x 100,000 / 100 = EUR 1,000") %]</p>
             </div>
         </div>

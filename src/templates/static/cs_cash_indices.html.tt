@@ -145,26 +145,18 @@
         <p>[% l('To learn more, read our <a href="[_1]">Margin Policy</a> that further explains our margin requirements.', request.url_for('margin-policy')) %]</p>
         <h2>[% l('Important notes on our swap rates (overnight funding)') %]</h2>
         <p>[% l('If you keep any positions open overnight, an interest adjustment will be made to your trading account as indication of the cost required to keep your position open. This adjustment is based on interbank lending rates, on top of a 2% fee.') %]</p>
-        <p>[% l('The interest adjustment is calculated in points, meaning we will convert the relevant interbank lending rates to points in the base currency.') %]</p>
+        <p>[% l('The interest adjustment is calculated in points, meaning we will convert the relevant market rates to points in the base instrument.') %]</p>
         <p>[% l('The swap rate will depend on the direction of the position you take:') %]</p>
         <div class="gr-prefix-1">
             <ul class="bullet">
-                <li>[% l('<strong>Long positions</strong>: We charge a 2% fee on top of interbank lending rates.') %]
-                    <span data-balloon-length="large" data-balloon="[% l('Let\'s say the points adjustment for a long position on the EUR/USD symbol is -5.64. This would require an overnight fee of 5.64 points for one lot of open position in EUR/USD, where the size of one lot is 100,000 units. The points will then be converted into the deposit currency (which is the euro in this example). As a result, you will incur an interest fee of EUR5.64 for keeping the position open overnight.') %]">
-                        [% l('How do we calculate interest fees for long positions?') %]
-                    </span>
-                </li>
-                <li>[% l('<strong>Short positions</strong>: We charge a 2% fee on top of interbank lending rates.') %]
-                    <span data-balloon-length="large" data-balloon="[% l('Let\'s say the points adjustment for a short position on the EUR/USD symbol is 1.64. This would result in an overnight credit of 1.64 points for one lot of open position in EUR/USD where the size of one lot is 100,000 units. The points will then be converted into the deposit currency (which is the euro in this example). As a result, you will be credited with EUR1.64 for keeping the position open overnight.') %]">
-                        [% l(' How do we calculate interest fees for short positions?') %]
-                    </span>
-                </li>
+                <li>[% l('<strong>Long positions</strong>: We charge a 2% fee on top of market rates.') %]</li>
+                <li>[% l('<strong>Short positions</strong>: We charge a 2% fee on top of market rates.') %]</li>
             </ul>
         </div>
         <p>[% l('Please take note that our swap rate also depends on the time and days you hold your positions open: ') %]</p>
         <div class="gr-prefix-1">
             <ul class="bullet">
-                <li>[% l('You will be subjected to swap rates if you keep a position open past 23:59:59 GMT.') %]</li>
+                <li>[% l('You will be subjected to swap rates if you keep a position open past the market close.') %]</li>
                 <li>[% l('Positions that are still open on Friday at market close will be charged three times the swap rate to account for weekends, a standard practice for all brokers.') %]</li>
                 <li>[% l('Our swap rate may also be adjusted to take holidays into account.') %]</li>
             </ul>
