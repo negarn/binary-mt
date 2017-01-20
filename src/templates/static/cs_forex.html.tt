@@ -170,8 +170,16 @@
         <p>[% l('The swap rate will depend on the direction of the position you take:') %]</p>
         <div class="gr-prefix-1">
             <ul class="bullet">
-                <li>[% l('<strong>Long positions</strong>: We charge a 2% fee on top of interbank lending rates. How do we calculate interest fees for long positions?') %]</li>
-                <li>[% l('<strong>Short positions</strong>: You will only be subject to the interbank lending rates. We do not charge a fee for short positions. How do we calculate interest fees for short positions?') %]</li>
+                <li>[% l('<strong>Long positions</strong>: We charge a 2% fee on top of interbank lending rates.') %]
+                    <span data-balloon-length="large" data-balloon="[% l('Let\'s say the points adjustment for a long position on the EUR/USD symbol is -5.64. This would require an overnight fee of 5.64 points for one lot of open position in EUR/USD, where the size of one lot is 100,000 units. The points will then be converted into the deposit currency (which is the euro in this example). As a result, you will incur an interest fee of EUR5.64 for keeping the position open overnight.') %]">
+                        [% l('How do we calculate interest fees for long positions?') %]
+                    </span>
+                </li>
+                <li>[% l('<strong>Short positions</strong>: You will only be subject to the interbank lending rates. We do not charge a fee for short positions.') %]
+                    <span data-balloon-length="large" data-balloon="[% l('Let\'s say the points adjustment for a short position on the EUR/USD symbol is 1.64. This would result in an overnight credit of 1.64 points for one lot of open position in EUR/USD where the size of one lot is 100,000 units. The points will then be converted into the deposit currency (which is the euro in this example). As a result, you will be credited with EUR1.64 for keeping the position open overnight.') %]">
+                        [% l(' How do we calculate interest fees for short positions?') %]
+                    </span>
+                </li>
             </ul>
         </div>
         <p>[% l('Please take note that our swap rate also depends on the time and days you hold your positions open: ') %]</p>
