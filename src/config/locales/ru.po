@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-01-25 00:25-0500\n"
+"PO-Revision-Date: 2017-01-25 00:35-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -91,10 +91,10 @@ msgid "A higher figure (higher to you) representing our offer price and a lower 
 msgstr ""
 
 msgid "A scanned copy of a utility bill or bank statement that is no more than three months old."
-msgstr ""
+msgstr "Отсканированный счёт за коммунальные услуги или выписка с Вашего банковского счёта (датированные не позднее, чем за 3 месяца до текущей даты)."
 
 msgid "A scanned copy of your passport, driving licence (provisional or full), or identity card that shows your full name and date of birth."
-msgstr ""
+msgstr "Отсканированная копия Вашего паспорта, водительских прав (временных или постоянных) или Id-карты, содержащей Ваше имя и дату рождения."
 
 msgid "A. Introduction"
 msgstr ""
@@ -340,7 +340,7 @@ msgid "Deposit"
 msgstr "Пополнить"
 
 msgid "Deposit into"
-msgstr ""
+msgstr "Перевести на счёт"
 
 msgid "Deposit is done. Transaction ID: %1"
 msgstr ""
@@ -478,7 +478,7 @@ msgid "High frequency (2 ticks per second)"
 msgstr ""
 
 msgid "I have read and agreed to the"
-msgstr ""
+msgstr "Я прочитал и согласен с"
 
 msgid "I. Quotes"
 msgstr ""
@@ -595,7 +595,7 @@ msgid "K. Electronic Trading Platform and Transactions"
 msgstr ""
 
 msgid "Kindly email the following documents to <a href=\"mailto:%1\">%1</a> to authenticate your account:"
-msgstr ""
+msgstr "Чтобы аутентифицировать счёт, пожалуйста, отправьте следующие документы по адресу <a href=\"mailto:%1\">%1</a>:"
 
 msgid "L. Event of Default"
 msgstr ""
@@ -643,16 +643,16 @@ msgid "M. Manifest Error"
 msgstr ""
 
 msgid "MT5 main password"
-msgstr ""
+msgstr "Основной пароль на MT5"
 
 msgid "Main password (trading access)"
 msgstr "Основной пароль (доступ к торговле)"
 
 msgid "Make a deposit"
-msgstr ""
+msgstr "Пополните счёт"
 
 msgid "Make a withdrawal"
-msgstr ""
+msgstr "Выведите средства"
 
 msgid "Margin - The amount set aside by us from your Account Balance in order to open and maintain a Transaction, to cover our exposure as a counterparty to your contract."
 msgstr ""
@@ -700,7 +700,7 @@ msgid "Minimum Volume (Trade Size)"
 msgstr ""
 
 msgid "Minimum eight characters. Must contain numbers, and mix of upper and lower case letters."
-msgstr "Минимум 8 символов. Должен содержать цифры, строчные и прописные буквы."
+msgstr "Минимум 8 символов, включая цифры, строчные и прописные буквы."
 
 msgid "Money collected from Clients are not invested in any securities, futures, or other investments, on behalf of Clients."
 msgstr ""
@@ -1108,7 +1108,7 @@ msgid "To create a Volatility Indices Account for MT5, please switch to your %1 
 msgstr ""
 
 msgid "To deposit or withdraw from your MT5 Account, switch to your Binary.com Real Account."
-msgstr ""
+msgstr "Чтобы пополнить или вывести средства со счёта MT5, перейдите на Ваш Реальный счёт на Binary.com."
 
 msgid "To open a Real Account, you must have an authenticated Binary Options Real Account with Binary.com. A Real Account cannot be opened in the absence of a Binary Options Real Account."
 msgstr ""
@@ -1141,16 +1141,16 @@ msgid "Transaction - a contract entered into by you pursuant to this Agreement."
 msgstr ""
 
 msgid "Transfer from"
-msgstr ""
+msgstr "Перевести со счёта"
 
 msgid "Transfer funds from Binary.com account into your MT5 account:"
-msgstr ""
+msgstr "Переведите средства со счёта Binary.com на счёт MT5:"
 
 msgid "Transfer funds from your MT5 account into your Binary.com account:"
-msgstr ""
+msgstr "Переведите средства со счёта MT5 на Ваш счёт на Binary.com:"
 
 msgid "Transfer into"
-msgstr ""
+msgstr "Перевести на счёт"
 
 msgid "Under no circumstances shall we provide investment advice or recommendation to you or state an opinion in relation to a Transaction. From time to time, we may decide to provide you with written information, which we may publish on our website or provide to you in any other manner. We will endeavour to ensure the accuracy and completeness of this written information but it will not constitute investment advice or recommendation provided by us to you."
 msgstr ""
@@ -1282,7 +1282,7 @@ msgid "Withdraw"
 msgstr "Вывести"
 
 msgid "Withdraw from"
-msgstr "Вывести с"
+msgstr "Вывести со счёта"
 
 msgid "Withdrawal is done. Transaction ID: %1"
 msgstr ""
@@ -1480,10 +1480,10 @@ msgid "net of realised profits credited to your Real Account and realised losses
 msgstr ""
 
 msgid "of the site."
-msgstr ""
+msgstr "сайта."
 
 msgid "terms and conditions"
-msgstr ""
+msgstr "правилами и условиями"
 
 msgid "the characteristics of financial instruments that are the subject of that order;"
 msgstr ""
@@ -1510,7 +1510,7 @@ msgid "404"
 msgstr ""
 
 msgid "MetaTrader"
-msgstr ""
+msgstr "MetaTrader"
 
 msgid "Terms and Conditions Approval"
 msgstr ""
