@@ -1,0 +1,42 @@
+// icons
+.l1-icon {
+    background-image: url('../../images/pages/margin-policy/l1_ai.svg');
+}
+
+.l2-icon {
+    background-image: url('../../images/pages/margin-policy/l2_ai.svg');
+}
+
+.mr1-icon {
+    background-image: url('../../images/pages/margin-policy/mr1_ai.svg');
+}
+
+.mr2-icon {
+    background-image: url('../../images/pages/margin-policy/mr2_ai.svg');
+}
+
+// hr
+.separator {
+    margin: 40px 0;
+    background-color: $COLOR_LIGHT_GRAY;
+    height: 1px;
+}
+
+.mt-img {
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+}
+
+.mt-box {
+    margin: 0 auto;
+    width: 700px;
+    padding: 10px;
+    border-bottom: solid 0.2em $COLOR_LIGHT_GRAY;
+    .mt-box-header {
+        background-color: $COLOR_LIGHT_GRAY;
+        padding: 10px;
+    }
+}
