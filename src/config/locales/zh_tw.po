@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-12-22 03:11-0500\n"
+"PO-Revision-Date: 2017-01-18 02:05-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Chinese Traditional\n"
 "MIME-Version: 1.0\n"
@@ -25,31 +25,31 @@ msgid "%1 offers forex and contracts for differences via the hybrid model, i.e.,
 msgstr "%1通過混合模式提供外匯和差價合約，即通過自己的帳戶（交易員）和部分對沖客戶訂單與我們的流動率提供商（無交易員）進行交易。當總交易量超過預定的風險承受力層次限額時，客戶訂單通常被對沖。%1在兩種執行模式中都扮演您與我們簽訂交易的合約相對方，而不是像交易所的交易金融工具那樣與中央結算所訂立交易的合約相對方。因此，存在相對方風險。相對方風險是指客戶因為您簽訂的外匯和/或差價交易合約相對方在交易現金流最終結算前違反其義務而造成的損失風險。"
 
 msgid "%1 to your Binary.com account to create an MT5 account"
-msgstr ""
+msgstr "%1到您的 Binary.com 帳戶開立MT5帳戶"
 
 msgid "&#36;1/point"
 msgstr "&#36;1/點"
 
 msgid "&#36;100,000 - &#36;250,000"
-msgstr ""
+msgstr "&#36;100,000 - &#36;250,000"
 
 msgid "&#36;100,001 - &#36;500,000"
-msgstr ""
+msgstr "&#36;100,001 - &#36;500,000"
 
 msgid "&#36;25,000 - &#36;50,000"
-msgstr ""
+msgstr "&#36;25,000 - &#36;50,000"
 
 msgid "&#36;250,001 - &#36;500,000"
-msgstr ""
+msgstr "&#36;250,001 - &#36;500,000"
 
 msgid "&#36;50,001 - &#36;100,000"
-msgstr ""
+msgstr "&#36;50,001 - &#36;100,000"
 
 msgid "&#36;500,001 - &#36;1,000,000"
-msgstr ""
+msgstr "&#36;500,001 - &#36;1,000,000"
 
 msgid "&copy; 2016 Binary.com"
-msgstr ""
+msgstr "&copy; 2016 Binary.com"
 
 msgid "* Minimum Spread is a percentage of the underlying market price, and can change over time."
 msgstr "*最低點差是標的市場價格的百分比，可隨時間變化。"
@@ -91,10 +91,10 @@ msgid "A higher figure (higher to you) representing our offer price and a lower 
 msgstr "每筆交易的報價將根據您的要求為您提供，包括代表我們報價的較高數字（對您來說比較高），以及代表我們出價的較低價格（對您來說較低）。我們的出價和報價之間的差額將包括市場價差（當有標的工具市場時）和我們的價差（我們向您收的費用）。"
 
 msgid "A scanned copy of a utility bill or bank statement that is no more than three months old."
-msgstr ""
+msgstr "水電煤帳單或銀行月結單掃描件（日期不得超過3個月）。"
 
 msgid "A scanned copy of your passport, driving licence (provisional or full), or identity card that shows your full name and date of birth."
-msgstr ""
+msgstr "顯示您名字和出生日期的護照、駕照（臨時或永久）或身份證的掃描件。"
 
 msgid "A. Introduction"
 msgstr "一、簡介"
@@ -121,7 +121,7 @@ msgid "Account Security"
 msgstr "帳戶安全"
 
 msgid "Account type"
-msgstr ""
+msgstr "帳戶類型"
 
 msgid "Accounts with debit balance (i.e. credit exposure to %1)"
 msgstr "帳戶的借方餘額 （即對 %1的信貸風險）"
@@ -181,7 +181,7 @@ msgid "Assessment of Appropriateness"
 msgstr "合適性評估"
 
 msgid "Authenticate your Binary.com account to create an MT5 Financial Account."
-msgstr ""
+msgstr "對您的 Binary.com 帳戶進行身份驗證，以開立 MT5 金融帳戶。"
 
 msgid "B. Commencement and Cancellation"
 msgstr "二、開始和取消"
@@ -286,13 +286,13 @@ msgid "Confidentiality"
 msgstr "機密性"
 
 msgid "Congratulations! Your Demo Account has been created."
-msgstr ""
+msgstr "恭喜！您已開立虛擬帳戶。"
 
 msgid "Congratulations! Your Financial Account has been created."
-msgstr ""
+msgstr "恭喜！您已開立金融帳戶。"
 
 msgid "Congratulations! Your Volatility Indices Account has been created."
-msgstr ""
+msgstr "恭喜！您已開立波動率指數帳戶。"
 
 msgid "Construction"
 msgstr "建構"
@@ -310,16 +310,16 @@ msgid "Create Your MetaTrader 5 Account Now"
 msgstr "立刻建立MetaTrader 5帳戶"
 
 msgid "Create a Demo Account to trade on MT5."
-msgstr ""
+msgstr "在MT5開立虛擬帳戶進行交易。"
 
 msgid "Create a Financial Account to trade Forex on MT5."
-msgstr ""
+msgstr "在MT5開立金融帳戶進行外匯交易。"
 
 msgid "Create a Volatility Indices Account to trade Volatility Indices on MT5."
-msgstr ""
+msgstr "在MT5開立波動率指數帳戶進行波動率指數交易。"
 
 msgid "Create account"
-msgstr ""
+msgstr "開立帳戶"
 
 msgid "D. Capacity"
 msgstr "四、能力"
@@ -340,7 +340,7 @@ msgid "Deposit"
 msgstr "存款"
 
 msgid "Deposit into"
-msgstr ""
+msgstr "存款到"
 
 msgid "Deposit is done. Transaction ID: %1"
 msgstr "已完成存款。交易編號: %1"
@@ -349,7 +349,7 @@ msgid "Details"
 msgstr "詳細資訊"
 
 msgid "Don't have a Binary.com account? <a href=\"%1\">Create one</a> now"
-msgstr ""
+msgstr "沒有 Binary.com 帳戶？立刻<a href=\"%1\">開立</a>帳戶"
 
 msgid "Download MetaTrader"
 msgstr "下載 MetaTrader"
@@ -358,7 +358,7 @@ msgid "Download MetaTrader for Windows"
 msgstr "Windows版MetaTrader下載"
 
 msgid "Download desktop app"
-msgstr ""
+msgstr "下載桌面應用程式"
 
 msgid "Download for MacOS"
 msgstr "MacOS版MetaTrader下載"
@@ -451,7 +451,7 @@ msgid "Given our role as margin trading service provider as described in this Ag
 msgstr "我們是融資融券交易服務提供商，如本協議所述，我們盡量不讓市場影響您的交易需求，同時維護我們的風險管理政策和程序。通過繼續使用本協議所述的融資融券交易服務，您承認並已了解，所披露利益的潛在衝突可能會出現以及不能完全排除，即使存在這種潛在利益衝突，您也同意我們的行動。"
 
 msgid "Go to web terminal"
-msgstr ""
+msgstr "轉到 web 終端"
 
 msgid "H. Monitoring and Review"
 msgstr "八、監測和審查"
@@ -478,7 +478,7 @@ msgid "High frequency (2 ticks per second)"
 msgstr "高頻率 （每秒 2 次跳動點）"
 
 msgid "I have read and agreed to the"
-msgstr ""
+msgstr "我已閱讀並同意"
 
 msgid "I. Quotes"
 msgstr "九、 報價"
@@ -577,10 +577,10 @@ msgid "Investments &amp; Dividends"
 msgstr "投資 &amp; 分紅"
 
 msgid "Investor password (read-only access)"
-msgstr ""
+msgstr "投資者密碼 （唯讀存取權限）"
 
 msgid "Investor password cannot be same as Main password."
-msgstr ""
+msgstr "投資者密碼不能與主密碼相同。"
 
 msgid "It deletes an order with the largest margin reserved."
 msgstr "它將刪除具最大預留保證金的訂單。"
@@ -595,7 +595,7 @@ msgid "K. Electronic Trading Platform and Transactions"
 msgstr "十一、電子交易平台和交易"
 
 msgid "Kindly email the following documents to <a href=\"mailto:%1\">%1</a> to authenticate your account:"
-msgstr ""
+msgstr "為驗證您的帳號，請將以下文件通過電子郵件傳到<a href=\"mailto:%1\">%1</a>:"
 
 msgid "L. Event of Default"
 msgstr "十二、違約事件"
@@ -637,22 +637,22 @@ msgid "Log into the application using your MetaTrader account number and your Me
 msgstr "使用您的 MetaTrader 帳戶號碼和 MetaTrader 帳戶密碼登入到應用程式。"
 
 msgid "Login ID"
-msgstr ""
+msgstr "登入ID"
 
 msgid "M. Manifest Error"
 msgstr "十三、清單錯誤"
 
 msgid "MT5 main password"
-msgstr ""
+msgstr "MT5 主密碼"
 
 msgid "Main password (trading access)"
-msgstr ""
+msgstr "主密碼（交易存取）"
 
 msgid "Make a deposit"
-msgstr ""
+msgstr "把錢存入"
 
 msgid "Make a withdrawal"
-msgstr ""
+msgstr "取款"
 
 msgid "Margin - The amount set aside by us from your Account Balance in order to open and maintain a Transaction, to cover our exposure as a counterparty to your contract."
 msgstr "保證金 - 我們從您的帳戶餘額撥出進行開盤持倉交易，以支付我們作為您的合約交易對手的金額。"
@@ -688,7 +688,7 @@ msgid "Maximum Volume (Trade Size)"
 msgstr "最大量額 （交易量）"
 
 msgid "MetaTrader account management"
-msgstr ""
+msgstr "MetaTrader 帳戶管理"
 
 msgid "Minimum Increment (Volume)"
 msgstr "最小增額 （量）"
@@ -700,7 +700,7 @@ msgid "Minimum Volume (Trade Size)"
 msgstr "最小量額 （交易量）"
 
 msgid "Minimum eight characters. Must contain numbers, and mix of upper and lower case letters."
-msgstr ""
+msgstr "最少 8 個字元。必須同時包含數字和大小寫字母。"
 
 msgid "Money collected from Clients are not invested in any securities, futures, or other investments, on behalf of Clients."
 msgstr "從客戶聚集的資金不以客戶名義投資於任何證券、期貨、及其它投資產品。"
@@ -772,7 +772,7 @@ msgid "Our Order Execution Policy (the \"Policy\") sets out the overview and app
 msgstr "我們的訂單執行政策 （簡稱「政策」） 設定關於Binary.com 代替客戶執行訂單的概述和方法。"
 
 msgid "Our Prices are determined by reference to the price of the underlying instrument which is quoted on external exchanges or dealing facilities that we select at our discretion. Our IT infrastructure and price aggregator system facilitates the reception of quotes from shortlisted prime brokers who act as liquidity providers for us and the delivery of the quotes, derived with reference against relevant benchmark and markets, to you. You acknowledge that our Prices may differ from the bid and offer prices made available by external exchanges or dealing facilities and we are not liable for any losses that you incur arising from such differences. Refer to our Product Disclosure Statement for our pricing methodology and factors. This clause does not apply to Volatility Indices."
-msgstr "我們在參考了由我們自主選定的外部交易所或交易設施所報的基礎工具價格之後決定價格。我們擁有資訊技術基礎設施和價格聚合器系統，便於向充當我們流動性提供商，經過挑選的主要經紀商收集報價，並將經過參考有關基準和市場得來的價格提供給您。您確認我們的價格可能與投標價格和外部交易所或交易設施所提供價格不相同，以及我們不對所述差異所引起的任何損失承擔賠償責任。關於我們的定價方法和因素，請參閱產品披露聲明。本條款不適用於波動性指數。"
+msgstr "我們在參考了由我們自主選定的外部交易所或交易設施所報的基礎工具價格之後決定價格。我們擁有資訊技術基礎設施和價格聚合器系統，便於向充當我們流動性提供商，經過挑選的主要經紀商收集報價，並將經過參考有關基準和市場得來的價格提供給您。您確認我們的價格可能與投標價格和外部交易所或交易設施所提供價格不相同，以及我們不對所述差異所引起的任何損失承擔賠償責任。關於我們的定價方法和因素，請參閱產品披露聲明。本條款不適用於波動率指數。"
 
 msgid "Our determination of the relative importance of the execution factors may differ from yours during certain circumstances, acting in your interest in accordance with our obligation of best execution."
 msgstr "在某些情況下，我們所決心的執行因素相對重要性可能與您的不相同。我們根據最佳執行義務操作，為您爭取最大利益。"
@@ -838,103 +838,103 @@ msgid "R. Interpretation of Terms"
 msgstr "十三、術語釋義"
 
 msgid "Real Account - Your real money account opened with Binary.com's MT5 Trading Platform licensed from MetaQuotes Software Corporation."
-msgstr ""
+msgstr "真實帳戶 - 由MetaQuotes 軟體公司授權，通過 Binary.com 的 MT5 交易平台開立的真實資金帳戶。"
 
 msgid "Register Your MetaTrader 5 Account"
-msgstr ""
+msgstr "MetaTrader 5帳戶註冊"
 
 msgid "Regular monitoring of open positions"
-msgstr ""
+msgstr "定期監測未平倉頭寸"
 
 msgid "Relationship between Margin and Leverage"
-msgstr ""
+msgstr "保證金與槓桿之間的關係"
 
 msgid "Reset to Original Settings"
-msgstr ""
+msgstr "重設為原始設定"
 
 msgid "Rights on Default:"
-msgstr ""
+msgstr "預設權利︰"
 
 msgid "Risk Disclosure Statement"
-msgstr ""
+msgstr "風險披露聲明"
 
 msgid "Risk of Stop Order"
-msgstr ""
+msgstr "止損單的風險"
 
 msgid "Risk of slippage"
-msgstr ""
+msgstr "滑點風險"
 
 msgid "Roll-over - In the event that the Company does not receive Orders from you to close an Open Position by the close of a Business Day, the Company will roll-over the said Open Position to the following day being a Business Day."
-msgstr ""
+msgstr "隔夜利息 - 交易日結束前如果公司沒有收到您對持倉頭寸決定平倉的訂單，公司將把所述持倉頭寸推到下一個交易日。"
 
 msgid "Roll-over Credit/Debit - Accounts with Open Positions concerned by the Roll-over shall be credited or debited with an amount referred to as the Roll-over Credit/Debit which is determined by the Company at its sole discretion."
-msgstr ""
+msgstr "隔夜利息借/貸費 - 與未平倉頭寸隔夜利息有關的帳戶須記上由公司全權決定的隔夜利息借/貸費用金額，稱為隔夜利息借/貸費。"
 
 msgid "Run the installation file and follow the instructions."
-msgstr ""
+msgstr "運行安裝檔，並按照說明進行操作。"
 
 msgid "Salaried Employee"
-msgstr ""
+msgstr "受薪雇員"
 
 msgid "Secondary"
-msgstr ""
+msgstr "次要"
 
 msgid "Section 1"
-msgstr ""
+msgstr "部分 1"
 
 msgid "Section 2"
-msgstr ""
+msgstr "部分 2"
 
 msgid "Section 3"
-msgstr ""
+msgstr "部分 3"
 
 msgid "Section 4"
-msgstr ""
+msgstr "部分 4"
 
 msgid "Self-Employed"
-msgstr ""
+msgstr "自雇者"
 
 msgid "Server"
-msgstr ""
+msgstr "伺服器"
 
 msgid "Sign out"
-msgstr ""
+msgstr "登出"
 
 msgid "Size - the size of your order determined by the volume (number of lots)."
-msgstr ""
+msgstr "大小 - 您的訂單大小根據數量 （手數） 而定。"
 
 msgid "Sorry, an error occurred while processing your request."
-msgstr ""
+msgstr "對不起，在處理您的請求時發生錯誤。"
 
 msgid "Speed - the speed at which your order can be executed."
-msgstr ""
+msgstr "速度 - 您的訂單可執行速度。"
 
 msgid "Start Trading with MetaTrader 5"
-msgstr ""
+msgstr "開始用 MetaTrader 5 交易"
 
 msgid "Start trading Forex and CFDs with Binary.com"
-msgstr ""
+msgstr "開始在Binary.com進行外匯和 CFD 交易"
 
 msgid "Start trading with MT5:"
-msgstr ""
+msgstr "開始用 MT5 交易︰"
 
 msgid "Stocks trading experience"
-msgstr ""
+msgstr "股票交易經驗"
 
 msgid "Stocks trading frequency"
-msgstr ""
+msgstr "股票交易頻率"
 
 msgid "Stop Order / Stop Loss Order - an instruction to execute a Transaction to close an Open Position when the Price reaches your specified Price."
-msgstr ""
+msgstr "止損單 - 當價格達到您指定的基準時對持倉頭寸執行平倉交易的指令。"
 
 msgid "Stop Out Level"
-msgstr ""
+msgstr "強制平倉層次"
 
 msgid "Stop Out Level - the Margin Level at or below which your Open Positions may be forcefully with or without your prior consent."
-msgstr ""
+msgstr "強制平倉層次 - 保證金處於或低於此層次時您的持倉頭寸可以在經過您同意或未經您事先同意的情況下強制平倉。"
 
 msgid "Stop and Limit Orders"
-msgstr ""
+msgstr "止損單和限價單"
 
 msgid "Subject to network latency, we endeavour to execute your Order within a reasonable time from the time you triggered the Order, at the Price nearest to your specified Price. We do not guarantee that a Transaction will be opened/closed following an Order being triggered by you at your specified Price."
 msgstr ""
@@ -1078,31 +1078,31 @@ msgid "This Policy applies to retail and professional clients of Binary.com deal
 msgstr ""
 
 msgid "This Risk Disclosure Statement is not exhaustive and is not intended to constitute a comprehensive statement of all the risks to which you might be exposed to and does not describe all risks inherent to forex and contracts for differences that exist now or which may arise in the future. Its objective is rather to provide you with information for you to reasonably understand the risks associated with forex and contracts for differences offered by %1 in our interest to provide you with the best possible trading experience."
-msgstr ""
+msgstr "此風險披露聲明並非詳盡無遺，也並非包含您可能會接觸到的所有風險的全面聲明。此聲明也並不能描述外匯交易和合約現存的固有風險或將來可能發生的所有風險差異。其目的在於為您提供及讓您合理理解%1在符合我們利益的同時為您提供的最佳外匯與差價合約交易經驗相關的風險資訊。"
 
 msgid "This clause does not apply to Volatility Indices."
-msgstr ""
+msgstr "本條款不適用於波動率指數。"
 
 msgid "This feature is not relevant to virtual-money accounts."
-msgstr ""
+msgstr "此功能與虛擬資金帳戶沒有關聯。"
 
 msgid "This section on Force Majeure Events does not apply to Volatility Indices."
-msgstr ""
+msgstr "此不可抗力事件章節不適用於波動率指數。"
 
 msgid "Throughout the duration of the Transaction and for as long as the Transaction is open, you are required to maintain a sufficient Account Equity to cover any Margin Requirement. If your Account Equity is less than the Margin Requirement in relation to the open Transaction you wish to create, you have entered into a Margin Call and you are required to fund the shortfall immediately. You may not be able to place an Order to open a Transaction until the shortfall has been funded and there is sufficient Account Equity to cover the Total Margin."
-msgstr ""
+msgstr "整個交易期間以及交易開放期間， 您需要保持足夠的帳戶資金，以支付任何保證金要求。如果您的帳戶資金在想要建立交易時低於開放交易保證金要求，您將收到追加保證金通知，需要立即補充短缺的資金。在補足短缺資金，擁有足夠支付保證金的帳戶資金前您不能下單開啟交易。"
 
 msgid "To create a Financial Account for MT5, please <a href=\"%1\"> upgrade to %2 Real Account</a>."
-msgstr ""
+msgstr "如要在MT5開立金融帳戶，請<a href=\"%1\">升級到 %2 真實帳戶</a>。"
 
 msgid "To create a Financial Account for MT5, please complete the <a href=\"%1\">Financial Assessment</a>."
-msgstr ""
+msgstr "如要在 MT5 開立金融帳戶，請完成<a href=\"%1\">財務評估</a>。"
 
 msgid "To create a Financial Account for MT5, please switch to your %1 Real Account."
-msgstr ""
+msgstr "如要在MT5開立金融帳戶，請切換到 %1 真實帳戶。"
 
 msgid "To create a Volatility Indices Account for MT5, please <a href=\"%1\"> upgrade to %2 Real Account</a>."
-msgstr ""
+msgstr "如要在MT5開立波動率指數帳戶，請<a href=\"%1\">升級到 %2 真實帳戶</a>。"
 
 msgid "To create a Volatility Indices Account for MT5, please switch to your %1 Real Account."
 msgstr ""
