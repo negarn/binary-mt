@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-12-29 21:16-0500\n"
+"PO-Revision-Date: 2017-01-25 00:25-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -121,7 +121,7 @@ msgid "Account Security"
 msgstr "Безопасность счёта"
 
 msgid "Account type"
-msgstr ""
+msgstr "Тип счёта"
 
 msgid "Accounts with debit balance (i.e. credit exposure to %1)"
 msgstr ""
@@ -181,7 +181,7 @@ msgid "Assessment of Appropriateness"
 msgstr ""
 
 msgid "Authenticate your Binary.com account to create an MT5 Financial Account."
-msgstr ""
+msgstr "Аутентифицируйте Ваш счёт на Binary.com, чтобы открыть Финансовый счёт на MT5."
 
 msgid "B. Commencement and Cancellation"
 msgstr ""
@@ -319,7 +319,7 @@ msgid "Create a Volatility Indices Account to trade Volatility Indices on MT5."
 msgstr ""
 
 msgid "Create account"
-msgstr ""
+msgstr "Открыть счёт"
 
 msgid "D. Capacity"
 msgstr ""
@@ -577,7 +577,7 @@ msgid "Investments &amp; Dividends"
 msgstr ""
 
 msgid "Investor password (read-only access)"
-msgstr ""
+msgstr "Пароль инвестора (только для чтения)"
 
 msgid "Investor password cannot be same as Main password."
 msgstr ""
@@ -646,7 +646,7 @@ msgid "MT5 main password"
 msgstr ""
 
 msgid "Main password (trading access)"
-msgstr ""
+msgstr "Основной пароль (доступ к торговле)"
 
 msgid "Make a deposit"
 msgstr ""
@@ -688,7 +688,7 @@ msgid "Maximum Volume (Trade Size)"
 msgstr ""
 
 msgid "MetaTrader account management"
-msgstr ""
+msgstr "Управление счётом на MetaTrader"
 
 msgid "Minimum Increment (Volume)"
 msgstr ""
@@ -700,7 +700,7 @@ msgid "Minimum Volume (Trade Size)"
 msgstr ""
 
 msgid "Minimum eight characters. Must contain numbers, and mix of upper and lower case letters."
-msgstr ""
+msgstr "Минимум 8 символов. Должен содержать цифры, строчные и прописные буквы."
 
 msgid "Money collected from Clients are not invested in any securities, futures, or other investments, on behalf of Clients."
 msgstr ""
@@ -1168,7 +1168,7 @@ msgid "Upon opening a Transaction, the sum due and payable by you to us are dedu
 msgstr ""
 
 msgid "Verify main password"
-msgstr ""
+msgstr "Подтвердите основной пароль"
 
 msgid "Version 3"
 msgstr ""
