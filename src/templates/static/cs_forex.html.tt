@@ -18,140 +18,140 @@
                         <td>100,000</td>
                         <td>0.01</td>
                         <td>0.01</td>
-                        <td>100:1</td>
+                        <td>1000:1</td>
                     </tr>
                     <tr>
                         <td>[% l('GBP/USD') %]</td>
                         <td>100,000</td>
                         <td>0.01</td>
                         <td>0.01</td>
-                        <td>100:1</td>
+                        <td>1000:1</td>
                     </tr>
                     <tr>
                         <td>[% l('USD/CHF') %]</td>
                         <td>100,000</td>
                         <td>0.01</td>
                         <td>0.01</td>
-                        <td>100:1</td>
+                        <td>1000:1</td>
                     </tr>
                     <tr>
                         <td>[% l('USD/JPY') %]</td>
                         <td>100,000</td>
                         <td>0.01</td>
                         <td>0.01</td>
-                        <td>100:1</td>
+                        <td>1000:1</td>
                     </tr>
                     <tr>
                         <td>[% l('USD/CAD') %]</td>
                         <td>100,000</td>
                         <td>0.01</td>
                         <td>0.01</td>
-                        <td>100:1</td>
+                        <td>1000:1</td>
                     </tr>
                     <tr>
                         <td>[% l('AUD/USD') %]</td>
                         <td>100,000</td>
                         <td>0.01</td>
                         <td>0.01</td>
-                        <td>100:1</td>
+                        <td>1000:1</td>
                     </tr>
                     <tr>
                         <td>[% l('AUD/NZD') %]</td>
                         <td>100,000</td>
                         <td>0.01</td>
                         <td>0.01</td>
-                        <td>100:1</td>
+                        <td>1000:1</td>
                     </tr>
                     <tr>
                         <td>[% l('AUD/CAD') %]</td>
                         <td>100,000</td>
                         <td>0.01</td>
                         <td>0.01</td>
-                        <td>100:1</td>
+                        <td>1000:1</td>
                     </tr>
                     <tr>
                         <td>[% l('AUD/CHF') %]</td>
                         <td>100,000</td>
                         <td>0.01</td>
                         <td>0.01</td>
-                        <td>100:1</td>
+                        <td>1000:1</td>
                     </tr>
                     <tr>
                         <td>[% l('AUD/JPY') %]</td>
                         <td>100,000</td>
                         <td>0.01</td>
                         <td>0.01</td>
-                        <td>100:1</td>
+                        <td>1000:1</td>
                     </tr>
                     <tr>
                         <td>[% l('EUR/GBP') %]</td>
                         <td>100,000</td>
                         <td>0.01</td>
                         <td>0.01</td>
-                        <td>100:1</td>
+                        <td>1000:1</td>
                     </tr>
                     <tr>
                         <td>[% l('EUR/AUD') %]</td>
                         <td>100,000</td>
                         <td>0.01</td>
                         <td>0.01</td>
-                        <td>100:1</td>
+                        <td>1000:1</td>
                     </tr>
                     <tr>
                         <td>[% l('EUR/CHF') %]</td>
                         <td>100,000</td>
                         <td>0.01</td>
                         <td>0.01</td>
-                        <td>100:1</td>
+                        <td>1000:1</td>
                     </tr>
                     <tr>
                         <td>[% l('EUR/JPY') %]</td>
                         <td>100,000</td>
                         <td>0.01</td>
                         <td>0.01</td>
-                        <td>100:1</td>
+                        <td>1000:1</td>
                     </tr>
                     <tr>
                         <td>[% l('EUR/JPY') %]</td>
                         <td>100,000</td>
                         <td>0.01</td>
                         <td>0.01</td>
-                        <td>100:1</td>
+                        <td>1000:1</td>
                     </tr>
                     <tr>
                         <td>[% l('EUR/NZD') %]</td>
                         <td>100,000</td>
                         <td>0.01</td>
                         <td>0.01</td>
-                        <td>100:1</td>
+                        <td>1000:1</td>
                     </tr>
                     <tr>
                         <td>[% l('EUR/CAD') %]</td>
                         <td>100,000</td>
                         <td>0.01</td>
                         <td>0.01</td>
-                        <td>100:1</td>
+                        <td>1000:1</td>
                     </tr>
                     <tr>
                         <td>[% l('GBP/CHF') %]</td>
                         <td>100,000</td>
                         <td>0.01</td>
                         <td>0.01</td>
-                        <td>100:1</td>
+                        <td>1000:1</td>
                     </tr>
                     <tr>
                         <td>[% l('GBP/JPY') %]</td>
                         <td>100,000</td>
                         <td>0.01</td>
                         <td>0.01</td>
-                        <td>100:1</td>
+                        <td>1000:1</td>
                     </tr>
                     <tr>
                         <td>[% l('NZD/USD') %]</td>
                         <td>100,000</td>
                         <td>0.01</td>
                         <td>0.01</td>
-                        <td>100:1</td>
+                        <td>1000:1</td>
                     </tr>
                 </tbody>
             </table>
