@@ -54,14 +54,14 @@
           <link rel="alternate" href="/beta/ru/user/settings/metatrader.html?l=zh_cn" hreflang="ZH_CN" /> 
           <link rel="alternate" href="/beta/ru/user/settings/metatrader.html?l=zh_tw" hreflang="ZH_TW" /> 
         
-         <link rel="stylesheet" href="/beta/css/binary.min.css?ctwwynjd">
-         <link rel="stylesheet" href="https://style.binary.com/binary.css?ctwwynjd">
+         <link rel="stylesheet" href="/beta/css/binary.min.css?5fjutwys">
+         <link rel="stylesheet" href="https://style.binary.com/binary.css?5fjutwys">
         
         <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=Array.prototype.includes,String.prototype.includes&unknown=polyfill"></script>
 <script>
     //A global variable required to initialize Page object.
-    window.page_params = {settings: {"image_link":{"hourglass":"/beta/images/common/hourglass_1.gif"},"valid_loginids":"MX|MF|VRTC|MLT|CR|FOG|VRTJ|JP"}};
-</script>  <script src='/beta/js/binary.min.js?ctwwynjd' defer async></script>
+    window.page_params = {settings: {"valid_loginids":"MX|MF|VRTC|MLT|CR|FOG|VRTJ|JP","image_link":{"hourglass":"/beta/images/common/hourglass_1.gif"}}};
+</script>  <script src='/beta/js/binary.min.js?5fjutwys' defer async></script>
     </head>
 
 
@@ -216,7 +216,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div class="container">
 
 <div id="metatrader">
-    <h1>MetaTrader account management</h1>
+    <h1>Управление счётом на MetaTrader</h1>
 
     <p id="errorMsg" class="notice-msg center-text invisible"></p>
 
@@ -237,7 +237,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <form class="form-new-account invisible">
                     <p class="account-msg"></p>
                     <div class="gr-row gr-padding-10">
-                        <div class="gr-6 form_label">Account type</div>
+                        <div class="gr-6 form_label">Тип счёта</div>
                         <div class="gr-6 form_label align-start account-type">Демо</div>
                     </div>
                     <div class="gr-row gr-padding-10 invisible">
@@ -257,30 +257,30 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         <div class="gr-6"><input type="text" class="txtName" maxlength="30" /></div>
                     </div>
                     <div class="gr-row gr-padding-10">
-                        <div class="gr-6 form_label"><label>Main password (trading access)</label></div>
+                        <div class="gr-6 form_label"><label>Основной пароль (доступ к торговле)</label></div>
                         <div class="gr-6">
                             <input type="password" class="txtMainPass password">
-                            <div class="hint">Minimum eight characters. Must contain numbers, and mix of upper and lower case letters.</div>
+                            <div class="hint">Минимум 8 символов, включая цифры, строчные и прописные буквы.</div>
                         </div>
                     </div>
                     <div class="gr-row gr-padding-10">
-                        <div class="gr-6 form_label"><label>Verify main password</label></div>
+                        <div class="gr-6 form_label"><label>Подтвердите основной пароль</label></div>
                         <div class="gr-6"><input type="password" class="txtMainPass2" /></div>
                     </div>
                     <div class="gr-row gr-padding-10">
-                        <div class="gr-6 form_label"><label>Investor password (read-only access)</label></div>
+                        <div class="gr-6 form_label"><label>Пароль инвестора (только для чтения)</label></div>
                         <div class="gr-6"><input type="password" class="txtInvestPass" /></div>
                     </div>
                     <div class="tnc-row gr-row gr-padding-10 invisible">
                         <div class="gr-12 center-text">
                             <input type="checkbox" class="chkTNC" />
-                            <label>I have read and agreed to the <a target="_blank" href="/beta/ru/terms-and-conditions.html">terms and conditions</a> of the site.</label>
+                            <label>Я прочитал и согласен с <a target="_blank" href="/beta/ru/terms-and-conditions.html">правилами и условиями</a> сайта.</label>
                         </div>
                     </div>
                     <div class="gr-row gr-padding-10">
                         <div class="gr-6 form_label"></div>
                         <div class="gr-6">
-                            <button class="button">Create account</button>
+                            <button class="button">Открыть счёт</button>
                             <div class="formMessage center-text"></div>
                         </div>
                     </div>
@@ -291,27 +291,27 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <h3>Финансовый счёт</h3>
                 <p class="msg-account notice-msg center-text invisible"></p>
                 <div class="authenticate invisible">
-                    <p>Authenticate your Binary.com account to create an MT5 Financial Account.</p>
-                    <p>Kindly email the following documents to <a href="mailto:support@binary.com">support@binary.com</a> to authenticate your account:</p>
+                    <p>Аутентифицируйте Ваш счёт на Binary.com, чтобы открыть Финансовый счёт на MT5.</p>
+                    <p>Чтобы аутентифицировать счёт, пожалуйста, отправьте следующие документы по адресу <a href="mailto:support@binary.com">support@binary.com</a>:</p>
                     <ul class="bullet">
-                        <li>A scanned copy of your passport, driving licence (provisional or full), or identity card that shows your full name and date of birth.</li>
-                        <li>A scanned copy of a utility bill or bank statement that is no more than three months old.</li>
+                        <li>Отсканированная копия Вашего паспорта, водительских прав (временных или постоянных) или Id-карты, содержащей Ваше имя и дату рождения.</li>
+                        <li>Отсканированный счёт за коммунальные услуги или выписка с Вашего банковского счёта (датированные не позднее, чем за 3 месяца до текущей даты).</li>
                     </ul>
                 </div>
                 <form class="form-new-account invisible"></form>
                 <div class="account-details"></div>
-                <p class="msg-switch-to-deposit notice-msg center-text invisible">To deposit or withdraw from your MT5 Account, switch to your Binary.com Real Account.</p>
+                <p class="msg-switch-to-deposit notice-msg center-text invisible">Чтобы пополнить или вывести средства со счёта MT5, перейдите на Ваш Реальный счёт на Binary.com.</p>
                 <div class="accordion invisible">
-                    <h3>Make a deposit</h3>
+                    <h3>Пополните счёт</h3>
                     <div>
                         <form class="form-deposit">
-                            <p>Transfer funds from Binary.com account into your MT5 account:</p>
+                            <p>Переведите средства со счёта Binary.com на счёт MT5:</p>
                             <div class="gr-row gr-padding-10">
-                                <div class="gr-6 form_label">Transfer from</div>
+                                <div class="gr-6 form_label">Перевести со счёта</div>
                                 <div class="gr-6 form_label align-start binary-login"></div>
                             </div>
                             <div class="gr-row gr-padding-10">
-                                <div class="gr-6 form_label">Deposit into</div>
+                                <div class="gr-6 form_label">Перевести на счёт</div>
                                 <div class="gr-6 form_label align-start mt-login"></div>
                             </div>
                             <div class="gr-row gr-padding-10">
@@ -327,20 +327,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                             </div>
                         </form>
                     </div>
-                    <h3>Make a withdrawal</h3>
+                    <h3>Выведите средства</h3>
                     <div>
                         <form class="form-withdrawal">
-                            <p>Transfer funds from your MT5 account into your Binary.com account:</p>
+                            <p>Переведите средства со счёта MT5 на Ваш счёт на Binary.com:</p>
                             <div class="gr-row gr-padding-10">
-                                <div class="gr-6 form_label">Вывести с</div>
+                                <div class="gr-6 form_label">Вывести со счёта</div>
                                 <div class="gr-6 form_label align-start mt-login"></div>
                             </div>
                             <div class="gr-row gr-padding-10">
-                                <div class="gr-6 form_label">Transfer into</div>
+                                <div class="gr-6 form_label">Перевести на счёт</div>
                                 <div class="gr-6 form_label align-start binary-login"></div>
                             </div>
                             <div class="gr-row gr-padding-10">
-                                <div class="gr-6 form_label"><label>MT5 main password</label></div>
+                                <div class="gr-6 form_label"><label>Основной пароль на MT5</label></div>
                                 <div class="gr-6"><input type="password" class="txtMainPass" /></div>
                             </div>
                             <div class="gr-row gr-padding-10">
