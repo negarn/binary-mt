@@ -16,10 +16,20 @@
 }
 
 // hr
-.separator {
-    margin: 40px 0;
+.separator, .separator-blank {
     background-color: $COLOR_LIGHT_GRAY;
-    height: 1px;
+    height: 2px;
+    display: block;
+    border: none;
+}
+
+.separator-blank {
+    background-color: $COLOR_WHITE;
+}
+
+.mt-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .mt-img {
@@ -27,7 +37,7 @@
     margin-right: auto;
     background-repeat: no-repeat;
     background-position: center;
-    width: 300px;
+    height: 300px;
 }
 
 .mt-box {
