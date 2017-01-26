@@ -1,43 +1,6 @@
-// icons
-.l1-icon {
-    background-image: url('../../images/pages/margin-policy/l1_ai.svg');
-}
-
-.l2-icon {
-    background-image: url('../../images/pages/margin-policy/l2_ai.svg');
-}
-
-.mr1-icon {
-    background-image: url('../../images/pages/margin-policy/mr1_ai.svg');
-}
-
-.mr2-icon {
-    background-image: url('../../images/pages/margin-policy/mr2_ai.svg');
-}
-
-// hr
-.separator, .separator-blank {
-    background-color: $COLOR_LIGHT_GRAY;
-    height: 2px;
-    display: block;
-    border: none;
-}
-
-.separator-blank {
-    background-color: $COLOR_WHITE;
-}
-
 .mt-section {
     padding-top: 30px;
     padding-bottom: 30px;
-}
-
-.mt-img {
-    margin-left: auto;
-    margin-right: auto;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 300px;
 }
 
 .mt-box {
@@ -49,4 +12,37 @@
         background-color: $COLOR_LIGHT_GRAY;
         padding: 10px;
     }
+}
+
+.mt-img {
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+}
+
+// Leverage & Margin icons
+.l1-icon {
+    background-image: url('../images/pages/margin-policy/l1_ai.svg');
+}
+
+.l2-icon {
+    background-image: url('../images/pages/margin-policy/l2_ai.svg');
+}
+
+.mr1-icon {
+    background-image: url('../images/pages/margin-policy/mr1_ai.svg');
+}
+
+.mr2-icon {
+    background-image: url('../images/pages/margin-policy/mr2_ai.svg');
+}
+
+// <hr> separator
+.separator, .separator-blank {
+    background-color: $COLOR_LIGHT_GRAY;
+    height: 2px;
+    display: block;
+    border: none;
 }
