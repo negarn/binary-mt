@@ -2,8 +2,7 @@
     margin: 0 auto;
     width: 700px;
     padding: 10px;
-    border-bottom: solid 0.2em $COLOR_LIGHT_GRAY;
-    .mt-box-header {
+    .mt-box-content {
         background-color: $COLOR_LIGHT_GRAY;
         padding: 20px;
     }
@@ -14,24 +13,27 @@
     margin-right: auto;
     background-repeat: no-repeat;
     background-position: center;
-    height: 300px;
 }
 
 // Leverage & Margin icons
 .l1-icon {
     background-image: url('../images/pages/margin-policy/l1_ai.svg');
+    height: 300px;
 }
 
 .l2-icon {
     background-image: url('../images/pages/margin-policy/l2_ai.svg');
+    height: 150px;
 }
 
 .mr1-icon {
     background-image: url('../images/pages/margin-policy/mr1_ai.svg');
+    height: 300px;
 }
 
 .mr2-icon {
     background-image: url('../images/pages/margin-policy/mr2_ai.svg');
+    height: 150px;
 }
 
 // <hr> separator
