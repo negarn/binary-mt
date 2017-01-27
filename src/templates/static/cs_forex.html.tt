@@ -155,7 +155,7 @@
                     </tr>
                     <tr>
                         <td>[% l('XAGUSD') %]</td>
-                        <td>5,000</td>
+                        <td>5000</td>
                         <td>0.01</td>
                         <td>0.01</td>
                         <td>1000:1</td>
@@ -168,7 +168,7 @@
                         <td>1000:1</td>
                     </tr>
                     <tr>
-                        <td>[% l('PDUSD') %]</td>
+                        <td>[% l('XPDUSD') %]</td>
                         <td>100</td>
                         <td>0.01</td>
                         <td>0.01</td>
