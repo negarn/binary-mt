@@ -135,7 +135,7 @@
         <h2>[% l('How to read the table above') %]</h2>
         <p>[% l('CFD (Contract for Difference): CFD is an instrument that allows you to profit by speculating on the rise or fall of an instrument. The profit/loss is estimated as a function of the difference in the buy/sell prices of the underlying instrument.') %]</p>
         <p>[% l('For example, the CFDs on US 30 Cash Index offer a USD 1 per point contract. If you buy a Volume 1.0 contract for the US 30 Cash Index with current ask price of USD 20,000 and later sell it at a bid price of USD 20,010, your net profit will be calculated as follows:') %]</p>
-        <div class="box">
+        <div class="gr-12 gr-padding-10 fill-bg-color">
             <div class="gr-prefix-1">
                 <p>[% l('(Sell Price – Buy Price) x Volume x Price Per Point = Profit') %]</p>
                 <p>[% l('I.e. (20010 – 20000) x 1 x 1 = USD 10') %]</p>
