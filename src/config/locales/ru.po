@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-01-30 00:25-0500\n"
+"PO-Revision-Date: 2017-01-30 00:35-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -103,7 +103,7 @@ msgid "A. Introduction and Scope of Agreement"
 msgstr "A. Введение и предмет Cоглашения"
 
 msgid "A. Spot FX"
-msgstr ""
+msgstr "A. Спот Forex"
 
 msgid "Access advanced tools for fundamental and technical analysis, all available in one platform."
 msgstr "Получите доступ к расширенным торговым инструментам для фундаментального и технического анализа, найти которые можно на платформе."
@@ -133,7 +133,7 @@ msgid "Advanced Tools &amp; Platforms"
 msgstr "Расширенные инструменты и платформы"
 
 msgid "All client orders are processed on a first in first out basis without any manual intervention. When executing your order, Binary.com will seek to fill your order transaction as promptly as possible, at the instructed price (or at a better price, if available). Exposure limits are established based on internal governance arrangements and risk management framework which commensurate with the size, nature, complexity, and risk profile of our activities. These exposure limits are used as benchmarks to distinguish orders that are auto-accepted and orders that will be worked in the market with fill level passed on to the client."
-msgstr ""
+msgstr "Все ордеры клиентов автоматически обрабатываются в порядке их поступления, без физического вмешательства. При исполнении Вашего ордера Binary.com постарается как можно скорее разместить соответствующий контракт по указанной цене (или по лучшей цене, если таковая доступна). Пределы риска будут установлены согласно внутренним нормативам и принципам управления риском, которые учитывают размер, характер, сложность и риск нашей деятельности. Данные пределы риска служат критериями для анализа ордеров, которые принимаются автоматически и ордеров, созданных на рынке, уровень размещения которых будет предоставлен клиенту."
 
 msgid "All credit card details are submitted directly to the Visa/Mastercard network using the latest SSL encryption technology, in accordance with bank policies;"
 msgstr "Все данные кредитных карт отправляются напрямую сети Visa/Mastercard, используя новейшую технологию шифрования на базе протокола SSL (Secure Sockets Layer), согласно политике банка."
@@ -166,13 +166,13 @@ msgid "Any information which you provide or have provided to us in respect of yo
 msgstr "Вся информация, предоставленная Вами в отношении Вашего финансового положения, места проживания или иных вопросов является точной и не вводит нас в заблуждение относительно каких-либо существенных аспектов."
 
 msgid "Any other consideration relevant to the execution of the transaction."
-msgstr ""
+msgstr "Любой другой аспект, относящийся к исполнению контракта."
 
 msgid "Any realised profits and interest charges that are denominated in a currency that's different from your Base Currency will be automatically converted to your Base Currency before being debited / credited to your Real Account. The conversion will be performed at commercially reasonable rates."
 msgstr ""
 
 msgid "Appendix - Product Specific Policies"
-msgstr ""
+msgstr "Приложение – Политика в отношении определённых продуктов"
 
 msgid "Aspects of a client order not affected by specific instructions are subject to the application of Binary.com's Order Execution Policy. In the absence of specific instructions from our clients, we will exercise our own discretion in determining the factors that are required to be taken into account for the purpose of providing you with best execution, having regard to the execution criteria listed below:"
 msgstr "Аспекты ордера клиента, относительно которых не было указано конкретных инструкций, будут разрешены в рамках Политики исполнения ордеров Binary.com. В отсутствии конкретных инструкций от клиентов мы на своё усмотрение определим факторы, которые необходимо учесть, чтобы предоставить Вам наилучшее исполнение, согласно нижеперечисленным критериям исполнения:"
@@ -211,19 +211,19 @@ msgid "Binary options or other financial derivatives trading frequency"
 msgstr ""
 
 msgid "Binary.com assesses the choice of external execution venues regularly (at least once a year) with the intention of achieving a better result for you based on our best execution obligation."
-msgstr ""
+msgstr "Binary.com регулярно оценивает выбор внешнего места исполнения ордера (минимум один раз в год), стремясь предоставить Вам наилучший результат, согласно нашему обязательству наилучшего исполнения."
 
 msgid "Binary.com enters Forex and CFD trading with the universally acclaimed MetaTrader 5, in addition to its continued leadership presence in the binary options market."
 msgstr "В дополнение к своей ведущей позиции на рынке бинарных опционов, Binary.com внедряет торговлю валютами и контрактами на разницу на международно-известной платформе MetaTrader 5."
 
 msgid "Binary.com offers forex and contracts for differences via the hybrid model, i.e., both dealing on own account (dealing desk) and partially hedging client orders with our liquidity providers (no-dealing desk)."
-msgstr ""
+msgstr "Binary.com предоставляет контракты на валютных парах (Forex) и контракты на разницу посредством так называемой гибридной модели, т.е. заключение контрактов на собственном счету (через дилинговый отдел) и частичное хеджирование ордеров клиента через наших поставщиков ликвидности (заключение контрактов напрямую, минуя дилинговый отдел)."
 
 msgid "Binary.com owes you a duty of best execution when executing orders on your behalf, i.e., when you are placing a legitimate reliance on us to safeguard your interest in relation to the execution of your order."
-msgstr ""
+msgstr "Binary.com обязуется предоставить Вам наилучшее исполнение ордеров от Вашего имени, т.е., когда Вы всецело доверяете нам защиту своих интересов в отношении исполнения Вашего ордера."
 
 msgid "Binary.com provides you best execution by utilising a smart aggregation method when managing incoming orders. The smart aggregation method works by:"
-msgstr ""
+msgstr "Binary.com предоставляет Вам наилучшее исполнение, используя метод разумной агрегации при управлении поступающими ордерами. Метод разумной агрегации действует следующим образом:"
 
 msgid "Binary.com shall act, at times, as a principal and at other times as an agent on your behalf, for all Transactions entered into, by you."
 msgstr "Время от времени Binary.com выступает в качестве принципала или в качестве агента, действующего от Вашего имени в отношении всех заключаемых Вами контрактов."
@@ -304,7 +304,7 @@ msgid "Contract Specifications"
 msgstr "Характеристики контрактов"
 
 msgid "Costs - the costs of executing your order comprised predominantly of spread, i.e., the difference between our bid and our offer price."
-msgstr ""
+msgstr "Расходы – расходы исполнения Вашего ордера, преимущественно включающие спред (т.е. разницу между нашей ценой бид и ценой исполнения)."
 
 msgid "Create Your MetaTrader 5 Account Now"
 msgstr "Откройте счёт на MetaTrader 5 прямо сейчас"
@@ -370,7 +370,7 @@ msgid "E. Account Management"
 msgstr "E. Управление счётом"
 
 msgid "E. Best Execution Obligation"
-msgstr ""
+msgstr "E. Обязательство наилучшего исполнения"
 
 msgid "Each of the following event constitutes an \"Event of Default\":"
 msgstr "Каждая из нижеперечисленных ситуаций является  является \"случаем невыполнения обязательств\":"
@@ -394,7 +394,7 @@ msgid "External forces"
 msgstr "Внешние силы"
 
 msgid "F. Execution Venues"
-msgstr ""
+msgstr "F. Место исполнения контрактов"
 
 msgid "F. Orders"
 msgstr "F. Ордеры"
@@ -415,7 +415,7 @@ msgid "Financial Information"
 msgstr ""
 
 msgid "For features and trading illustration of Spot FX offered by Binary.com, refer to the Product Disclosure Statement. This policy is an appendix to the overarching Binary.com Order Execution Policy and should be read in conjunction with the overarching Binary.com Order Execution Policy."
-msgstr ""
+msgstr "Подробную характеристику и примеры торговли контрактами на спот Forex, предлагаемыми на Binary.com, можно найти на странице Заявления об ограничении ответственности в отношении отдельных продуктов. Данная политика является приложением к основной Политике исполнения ордеров Binary.com и должна рассматриваться в совокупности с ней."
 
 msgid "Force majeure event, if and when determined, means, (i) the Company, by reason of force majeure or act of state, is prevented from or hindered or delayed in delivering or receiving, or is impossible to deliver or receive, any quotation of the bid and offer price of a market in one or more of the instruments which we ordinarily deal in Transactions; (ii) an excessive movement in the market of the instrument or our reasonable anticipation of the potential occurrence of market disruption."
 msgstr "Под форс-мажорными обстоятельствами следует понимать следующие ситуации: (i) при чрезвычайных обстоятельствах или по указанию государства Компания не может, столкнулась с препятствиями или испытывает промедления в предоставлении или получении, а также возникли условия, при которых Компания не может предоставлять или получать любые котировки, цену бид и цену предложения для актива на одном или более инструменте, в отношении которых заключаются контракты; (ii) на рынке инструмента наблюдается чрезмерная динамика или ситуации, когда Компания имеет основания ожидать возникновения рыночной дестабилизации."
@@ -442,7 +442,7 @@ msgid "G. Margin"
 msgstr "G. Маржа"
 
 msgid "G. Order Handling"
-msgstr ""
+msgstr "G. Обработка ордера"
 
 msgid "General Provisions"
 msgstr "Общие положения"
@@ -454,7 +454,7 @@ msgid "Go to web terminal"
 msgstr ""
 
 msgid "H. Monitoring and Review"
-msgstr ""
+msgstr "H. Мониторинг и обзор"
 
 msgid "H. Regulatory Provisions"
 msgstr "H. Правовые положения"
@@ -541,7 +541,7 @@ msgid "In connection with this Agreement and all Transactions contemplated by th
 msgstr "В отношении данного Соглашения и всех контрактов, предусмотренных данным Соглашением Вы соглашаетесь оформить и предоставить дополнительные документы и инструменты, а также предпринять дополнительные действия, которые могут быть необходимы или уместны, чтобы исполнить и соблюсти все условия, правила и положения данного Соглашения. Вы должны всецело взаимодействовать в ходе любого расследования, проводимого любым регулирующим органом и своевременно предоставить данному регулирующему органу информацию и материалы, которые могут потребоваться в соответствии с законом, постановлением, кодексом, положением или правилом, применимым к Вам или юрисдикции, в которой Вы проживаете."
 
 msgid "In executing orders on your behalf, Binary.com takes into consideration the following to achieve the best possible result for you:"
-msgstr ""
+msgstr "При исполнении ордеров от Вашего имени Binary.com принимает во внимание следующие аспекты, чтобы добиться для Вас наилучших результатов:"
 
 msgid "In the case of a Limit Order, you acknowledge that we will endeavour to open/close a Transaction at a level that is the same or better than the Limit you specified, subject to the availability of the Limit Price. You acknowledge that at the time of order execution, our bid/offer price may become less favourable to you."
 msgstr "В случае лимитного ордера, Вы признаёте, что мы предпримем все разумные усилия, чтобы открыть/закрыть контракт на уровне, который совпадает или является лучше указанного Вами лимита, при условии наличия Лимитной цены. Настоящим Вы соглашаетесь, что на момент исполнения ордера наша цена бид/цена предложения может стать менее благоприятной для Вас."
@@ -619,7 +619,7 @@ msgid "Leverage, in the context of margin trading, refers to the use of margin t
 msgstr "В контексте торговли с использованием маржи, кредитный рычаг означает использование маржи с целью увеличения цены контракта. Кредитный рычаг выражается в виде пропорции. Например, кредитный рычаг в соотношении 50:1 означает, что Вы сможете заключить контракт, размер которого в 50 раз превышает Вашу маржу. При инвестировании в продукты с использованием кредитного рычага Ваша прибыль или потери основаны на позиции с большой долей заёмных средств, т.е. увеличенная цена Вашего контракта основана на коэффициенте финансового рычага, который Вы установили на своём счету."
 
 msgid "Likelihood of execution and settlement - the depth of liquidity of the market in which your order is related to."
-msgstr ""
+msgstr "Вероятность исполнения и заключения – глубина ликвидности на рынке, к которому относится Ваш ордер."
 
 msgid "Limit / Limit Price - The price specified in your Limit Order."
 msgstr "Лимит / лимитная цена – цена, указанная в Вашем лимитном ордере."
@@ -775,7 +775,7 @@ msgid "Our Prices are determined by reference to the price of the underlying ins
 msgstr "Наши цены основаны на ценах основных активов, указанных сторонними биржами или соответствующими агентствами, выбранными про нашему единоличному усмотрению. Наша IT-инфраструктура и агрегатор цен способствуют получению цен от узкого круга ведущих брокеров, выступающих в качестве поставщиков ликвидности, а также за передачу котировок, поставляемых Вам со ссылкой на соответствующие организации и рынки. Настоящим Вы признаёте, что наши Цены могут отличаться от цены бид и цены предложения, доступных у сторонних бирж или соответствующих агентств, а мы не несём ответственности за любые убытки, понесённые Вами ввиду данных отличий. Пожалуйста ознакомьтесь с нашим Заявлением об ограничении ответственности в отношении отдельных продуктов, где указана наша методика и факторы расчёта цен. Данное положение не относится к Индексам волатильности."
 
 msgid "Our determination of the relative importance of the execution factors may differ from yours during certain circumstances, acting in your interest in accordance with our obligation of best execution."
-msgstr ""
+msgstr "Наше определение относительной значимости факторов исполнения может при некоторых обстоятельствах отличаться от Вашего определения. Тем не менее, мы будем действовать в Ваших интересах, согласно нашему обязательству наилучшего исполнения."
 
 msgid "Our information security policies are based on industry best practices in access control and business continuity; and"
 msgstr "Наша политика безопасности и защиты данных является одной из лучших в индустрии в отношении контроля доступа и непрерывности бизнес-процессов."
@@ -817,7 +817,7 @@ msgid "Potential Conflicts of Interest"
 msgstr "Потенциальный конфликт интересов"
 
 msgid "Price - the price at which the transaction in relation to your order is executed at."
-msgstr ""
+msgstr "Цена – цена, по которой будет исполнен контракт, заключенный по Вашему ордеру."
 
 msgid "Price/ Prices - Bid and Offer Price/ Prices."
 msgstr "Цена/ цены – цена/цены бид и цена/цены предложения."
@@ -901,13 +901,13 @@ msgid "Sign out"
 msgstr "Выход"
 
 msgid "Size - the size of your order determined by the volume (number of lots)."
-msgstr ""
+msgstr "Размер – размер Вашего ордера, определённый его объёмом (количеством лотов)."
 
 msgid "Sorry, an error occurred while processing your request."
 msgstr ""
 
 msgid "Speed - the speed at which your order can be executed."
-msgstr ""
+msgstr "Скорость – скорость, по которой может быть исполнен Ваш ордер."
 
 msgid "Start Trading with MetaTrader 5"
 msgstr "Начните торговлю на MetaTrader 5"
@@ -1015,7 +1015,7 @@ msgid "The execution, delivery and performance of this Agreement and each Transa
 msgstr "Исполнение и выполнение условий данного Соглашения, а также каждого контракта не нарушает никакого закона, постановления, кодекса, положения или правила, применимого к Вам или юрисдикции, в которой Вы проживаете."
 
 msgid "The factor listed above are not listed in order of priority. Ordinarily, price will merit a high relative importance in obtaining the best possible result for you. However, the relative importance of the listed factors above may change in accordance with:"
-msgstr ""
+msgstr "Вышеуказанные факторы перечислены не в порядке их приоритетности. Как правило, цена имеет высокую относительную значимость при получении наилучшего возможного результата для Вас. Тем не менее, относительная значимость вышеперечисленных факторов может измениться, в соответствии с:"
 
 msgid "The financial trading services contained within this site are only suitable for customers who are able to bear the loss of all the money they invest and who understand and have experience of the risk involved in the acquistion of financial contracts. Transactions in financial contracts carry a high degree of risk."
 msgstr ""
@@ -1246,7 +1246,7 @@ msgid "We will hold you responsible for all your obligations under this Agreemen
 msgstr "Вы несёте ответственность за все свои обязательства в рамках данного Соглашения, в процессе предоставления Вам услуг торговли с использованием маржи, описанных в данном Соглашении, даже если Вы уведомите нас о том, что Вы выступаете в качестве агента установленного принципала."
 
 msgid "We will monitor the effectiveness of our order execution arrangements and order execution policy. We will assess from time to time whether the venues relied upon by us in pricing our Contracts on your behalf allow us to achieve best execution on a consistent basis or whether we need to make changes to our execution arrangements. We will also review our order execution arrangements and order execution policy in respect of material changes either in respect of one of our chosen pricing venues or that otherwise affect our ability to continue to achieve best execution. Should there be any material changes to our order execution arrangements or order execution policy, we will notify you."
-msgstr ""
+msgstr "Мы будем следить за эффективностью наших мероприятий по исполнению Вашего ордера и реализации нашей политики наилучшего исполнения. Мы будем периодически проверять, продолжают ли организации, выбранные нами для оценки контрактов от Вашего имени, регулярно предоставлять наилучшее исполнение или нам необходимо внести изменения в процедуры исполнения контрактов. Также мы обязуемся пересмотреть наши процедуры исполнения ордеров и политику исполнения ордеров на предмет существенных изменений в отношении одного из выбранных нами поставщиков цен или иных факторов, влияющих на возможность продолжать предоставлять услуги наилучшего исполнения. В случае внесения существенных изменений в наши процедуры исполнения ордеров или политику исполнения ордеров, мы вышлем Вам уведомление."
 
 msgid "We will use reasonable endeavours within our control to ensure that all electronic data provided on the MT5 Trading Platform and all electronic transactions instructed and accepted from you to us, and executed by us are not subject to network latency."
 msgstr "Мы предпримем все возможные усилия, чтобы гарантировать, что все электронные данные, предоставляемые на Торговой платформе MT5, а также все электронные транзакции, полученные в рамках Ваших инструкций и принятые нами, не затронуты возможными задержками в сети."
@@ -1255,7 +1255,7 @@ msgid "When we accept an order from you to open or close a transaction, or any o
 msgstr "Когда мы принимаем от Вас ордер на открытие или закрытие контракта или любые другие конкретные инструкции по отношению к Вашему ордеру, мы предпримем все разумные меры, чтобы выполнить Ваши инструкции, насколько это возможно, действуя в рамках нашего обязательства наилучшего исполнения и согласно Вашим инструкциям. Данные конкретные инструкции включают, но не ограничиваются:"
 
 msgid "When we deal on own account (dealing desk), we act as principal and not as an agent on your behalf and we therefore act as the execution venue."
-msgstr ""
+msgstr "Когда мы работаем на собственном счету (через дилинговый отдел), мы выступаем в качестве принципала, а не агента, действующего от Вашего имени, и таким образом являемся местом исполнения."
 
 msgid "Where a particular time or timeframe has been specified in a client's instructions with respect to the execution of an order, regardless of the price available, we will endeavour to execute the order at the specified time or over the specified timeframe in the best possible manner after taking all sufficient steps. However, we will not be responsible for any consequences related to pricing that resulted from the time or timeframe of the execution."
 msgstr "Если в инструкциях клиента для исполнения ордера было указано определённое время или временные рамки (независимо от действующей цены), мы предпримем все необходимые усилия, чтобы наилучшим образом исполнить ордер в указанное время или в указанные сроки. Тем не менее, мы не будем нести ответственности за любые последствия, относящиеся к цене, вызванные временем или сроками исполнения."
@@ -1267,7 +1267,7 @@ msgid "Where we consider, on the basis of the information provided by you that y
 msgstr "В случае необходимости, мы можем отправить Вам предостережение на основании предоставленной Вами информации о том, что Вы не обладаете знаниями и опытом для оценки рисков, сопряжённых с инвестициями в предложенный инструмент. Данное предостережение будет размещено на вебсайте."
 
 msgid "Whilst we act as principal in respect of your orders, we also assess the execution venues that we use and upon which we place significant reliance to provide the best possible result for the execution of your orders. These venues typically consist of third party investment firms, brokers, and/or liquidity providers."
-msgstr ""
+msgstr "Выступая принципалом (исполнителем) в отношении Ваших ордеров, мы также оцениваем места исполнения, которые мы используем и которым мы значительно доверяем предоставление наилучшего результата для исполнения Ваших ордеров. Как правило, данные места исполнения представлены сторонними инвестиционными компаниями, брокерами, и/или поставщиками ликвидности."
 
 msgid "Whilst we endeavour to close out your Open Positions if and when the Margin Level for your Real Account reaches or falls below the Stop Out Level, we do not guarantee that your Open Positions will be closed when the Margin Level for your Real Account reaches the Stop Out Level."
 msgstr "Несмотря на то, что мы предпринимаем все разумные усилия, чтобы закрыть Ваши открытые позиции в случае, если уровень маржи на Вашем реальном счету достигнет или упадёт ниже уровня принудительного закрытия (уровня стоп-аут), мы не даём никаких гарантий, что Ваши открытые позиции будут закрыты, когда уровень маржи на Вашем реальном счету достигнет уровня стоп-аут."
@@ -1447,7 +1447,7 @@ msgid "a) The venue at which your order will be executed;"
 msgstr "a) местом исполнения Вашего ордера;"
 
 msgid "and"
-msgstr ""
+msgstr "и"
 
 msgid "b) The price at which your order will be executed;"
 msgstr "b) ценой, по которой будет исполнен ордер;"
@@ -1459,7 +1459,7 @@ msgid "c) The time at which your order will be executed; and"
 msgstr "c) временем исполнения Вашего ордера; и"
 
 msgid "consolidating liquidity from several providers into a single stream of blended feed; and"
-msgstr ""
+msgstr "консолидация ликвидности от нескольких поставщиков в единый поток котировок; а также"
 
 msgid "d) The timeframe or duration of the contract as defined by your order execution."
 msgstr "d) сроком продолжительности контракта, указанным при исполнении ордера."
@@ -1486,22 +1486,22 @@ msgid "terms and conditions"
 msgstr "правилами и условиями"
 
 msgid "the characteristics of financial instruments that are the subject of that order;"
-msgstr ""
+msgstr "характеристика финансовых инструментов, относящихся к данному ордеру;"
 
 msgid "the characteristics of the client;"
-msgstr "характеристики клиента;"
+msgstr "характеристика клиента;"
 
 msgid "the characteristics of the execution venues to which that order can be directed."
-msgstr ""
+msgstr "характеристика места исполнения, куда может быть направлен ордер."
 
 msgid "the characteristics of the order;"
-msgstr "характеристики ордера;"
+msgstr "характеристика ордера;"
 
 msgid "the market conditions of the financial instruments that your orders are related to, which includes the need for timely execution, availability of price improvement, liquidity of the market, size of your order, and the potential impact on total consideration."
-msgstr ""
+msgstr "условиями рынка на финансовых инструментах, к которым относятся Ваши ордеры, что включает необходимость своевременного исполнения, возможность улучшения цены, ликвидность на рынке, размер Вашего ордера, а также его потенциальное влияние на общую прибыль."
 
 msgid "the specific instructions that we receive from you;"
-msgstr ""
+msgstr "конкретными инструкциями, полученными от Вас;"
 
 msgid "Online Trading platform for binary options on Forex, Indices, Commodities and Smart Indices"
 msgstr ""
