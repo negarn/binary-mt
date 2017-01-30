@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-01-29 19:14-0500\n"
+"PO-Revision-Date: 2017-01-29 19:24-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -124,10 +124,10 @@ msgid "Account type"
 msgstr "Тип счёта"
 
 msgid "Accounts with debit balance (i.e. credit exposure to %1)"
-msgstr ""
+msgstr "Счета с дебетовым балансом (т.е. кредитная задолженность по отношению к %1)"
 
 msgid "Accounts with debit balances are required to settle the full amount immediately by making a payment to us."
-msgstr ""
+msgstr "Счета с дебетовым балансом должны незамедлительно компенсировать задолженность, произведя нам оплату в полном размере."
 
 msgid "Advanced Tools &amp; Platforms"
 msgstr "Расширенные инструменты и платформы"
@@ -136,7 +136,7 @@ msgid "All client orders are processed on a first in first out basis without any
 msgstr ""
 
 msgid "All credit card details are submitted directly to the Visa/Mastercard network using the latest SSL encryption technology, in accordance with bank policies;"
-msgstr ""
+msgstr "Все данные кредитных карт отправляются напрямую сети Visa/Mastercard, используя новейшую технологию шифрования на базе протокола SSL (Secure Sockets Layer), согласно политике банка."
 
 msgid "All funds transferred from your Binary Options Real Account to your Real Account must be made by you."
 msgstr "Любые перечисления средств с Реального счёта Binary (для торговли бинарными опционами) на Ваш текущий Реальный счёт должны производиться Вами."
@@ -268,7 +268,7 @@ msgid "Closing a Transaction"
 msgstr ""
 
 msgid "Closing an Account"
-msgstr ""
+msgstr "Закрытие счёта"
 
 msgid "Closing or part-closing all or any of your Open Positions based on the prevailing prices available in the relevant markets;"
 msgstr ""
@@ -397,7 +397,7 @@ msgid "F. Execution Venues"
 msgstr ""
 
 msgid "F. Orders"
-msgstr ""
+msgstr "F. Ордеры"
 
 msgid "Finance"
 msgstr ""
@@ -511,7 +511,7 @@ msgid "If you do not intend to utilise the leverage feature, please set the leve
 msgstr ""
 
 msgid "If you fail to immediately make full settlement of the sum due to us in accordance with this Agreement, we reserve the right to accrue interest on the sums due from you to us in respect of any Transaction that you fail to pay on the relevant due date. Interest will accrue on a daily basis from the relevant due date until the date on which payment is received in full at the bank's official base rate for short term funds determined by us, and will be payable on demand."
-msgstr ""
+msgstr "Если Вы не можете незамедлительно компенсировать нам задолженность в рамках данного Соглашения, мы оставляем за собой право начислять проценты на сумму Вашего долга в отношении любого контракта, который Вы не смогли оплатить в срок. Проценты будут начисляться ежедневно, с даты предполагаемой оплаты до даты получения таковой оплаты в полном размере, согласно официальной основной банковской ставке для установленных нами краткосрочных активов, и должны быть уплачены по требованию."
 
 msgid "If you have entered into more than one Open Position in the same market, any closing Transaction that you place in the same market will close the Open Positions in the chronological order in which the Open Positions were first created on a first in first out basis."
 msgstr ""
@@ -520,7 +520,7 @@ msgid "If you previously downloaded MetaTrader 5 directly from MetaTrader's webs
 msgstr "Если Вы ранее загружали платформу MetaTrader 5 напрямую с сайта MetaTrader, пожалуйста, выберите \"%1\" из списка доступных брокеров."
 
 msgid "If you wish to withdraw funds from your Real Account and close your Real Account, you may notify us by contacting our helpdesk at <a href='mailto:%1'>%1</a>. Your Real Account may be closed if you do not have any Open Positions and all amounts due to us have been settled."
-msgstr ""
+msgstr "0.	Если Вы хотите вывести средства с Реального счёта и закрыть его, Вы должны уведомить нас, связавшись с нашим отделом поддержки клиентов по следующему адресу: <a href='mailto:%1'>%1</a>. Ваш реальный счёт может быть закрыт, если на нём нет открытых позиций, а вcе причитающиеся нам суммы были выплачены."
 
 msgid "If you would like to file a complaint with regards to the margin trading service described in this Agreement, kindly contact us by providing the relevant details related to your complaint. We shall investigate your enquiry and a response will be given to your enquiry. We will usually provide a final response within one to two weeks (and at most within two months) from the receipt of all relevant details."
 msgstr ""
@@ -556,7 +556,7 @@ msgid "In the event of your failing to make a Margin Payment, we may, at our abs
 msgstr ""
 
 msgid "Inactive / Dormant Accounts"
-msgstr ""
+msgstr "Неактивные счета"
 
 msgid "Income Source"
 msgstr ""
@@ -586,7 +586,7 @@ msgid "It deletes an order with the largest margin reserved."
 msgstr ""
 
 msgid "It is your responsibility to keep your password and login ID confidential. You agree that you will not disclose your password and login ID to any other person;"
-msgstr ""
+msgstr "Вы обязуетесь сохранять конфиденциальность Вашего логина и пароля. Настоящим Вы соглашаетесь не разглашать Ваш пароль и логин любому другому лицу."
 
 msgid "J. Trading Transactions"
 msgstr ""
@@ -778,7 +778,7 @@ msgid "Our determination of the relative importance of the execution factors may
 msgstr ""
 
 msgid "Our information security policies are based on industry best practices in access control and business continuity; and"
-msgstr ""
+msgstr "Наша политика безопасности и защиты данных является одной из лучших в индустрии в отношении контроля доступа и непрерывности бизнес-процессов."
 
 msgid "Over &#36;1,000,000"
 msgstr ""
@@ -949,7 +949,7 @@ msgid "Subscribe to a wide range of algorithmic trading strategies from the buil
 msgstr "Подпишитесь на широкий спектр стратегий для алгоритмической торговли через встроенный Рынок MetaTrader."
 
 msgid "Such withdrawal would result in your Account Equity being less than zero; and/or"
-msgstr ""
+msgstr "в результате вывода средств остаток средств на вашем счету будет менее нуля; и/или"
 
 msgid "Suspend the trading of the affected instrument;"
 msgstr ""
@@ -973,7 +973,7 @@ msgid "The Company does not make any warranty, express or implied, that any pric
 msgstr ""
 
 msgid "The Company does not offer any credit facilities or arrangement to its clients in normal trading circumstances. You acknowledge and agree that you will not be dealing with us on credit, regardless of the amount of your Account Balance and Transactions entered into with us."
-msgstr ""
+msgstr "При стандартных торговых условиях Компания не предоставляет своим клиентам никаких кредитов. Настоящим Вы признаёте и соглашаетесь с тем, что не будете обращаться к нам с просьбой о предоставлении кредита, независимо от баланса вашего счёта и заключённых с нами контрактов."
 
 msgid "The Company shall not be in breach of its obligation under this Agreement and shall not be held liable for any failure of or delay in performing its obligations under this Agreement if such failure or delay is the result of the occurrence of a Force Majeure Event."
 msgstr ""
@@ -1063,7 +1063,7 @@ msgid "The term 'we', 'us', 'our', 'ours', 'the Company', or 'Binary.com' shall 
 msgstr "Термины “мы”, “нас”, “наш (наша)”, “наши”, “Компания” и “Binary.com” обозначают компанию Binary (V) Ltd. или компанию Binary (C.R.) S.A., в зависимости от юрисдикции, к которой относится счёт Клиента, открытый в рамках процедур, действующих на сайте."
 
 msgid "There is any amount outstanding from you to us; and/or"
-msgstr ""
+msgstr "с Вашей стороны имеется задолженность перед нами; и/или"
 
 msgid "There will be no charges for fund transfers from your Binary Options Real Account to your Real Account."
 msgstr "Перевод средств между Вашим счётом Binary и текущим Реальным счётом осуществляется без комиссии."
@@ -1201,10 +1201,10 @@ msgid "Volume (Trade Size)"
 msgstr ""
 
 msgid "We are committed to making sure your personal data and transactions are secure:"
-msgstr ""
+msgstr "Мы стремимся предпринимать все разумные усилия, чтобы гарантировать безопасность Ваших личных данных и контрактов:"
 
 msgid "We are required to do so in accordance with any relevant law or regulation."
-msgstr ""
+msgstr "мы вынуждены отказать в выводе средств в рамках соответствующего закона или нормативного требования."
 
 msgid "We endeavour to open or close the Transaction to which your Order relates at the price reasonably available to us, acting in accordance with our duty of best execution. Best execution means that we must take all sufficient steps to obtain, when executing orders, the best possible result for you taking into account price, costs, speed, likelihood of execution and settlement, size, nature or any other consideration relevant to the execution of the order."
 msgstr ""
@@ -1225,10 +1225,10 @@ msgid "We may, however, withhold your withdrawal request from your Real Account 
 msgstr "Тем не менее, мы имеем право частично или полностью отказать Вам в выводе средств с текущего Реального счёта на счёт Binary в следующих ситуациях:"
 
 msgid "We reasonably consider that funds may be required to meet any Margin Requirement; and/or"
-msgstr ""
+msgstr "у нас есть разумные причины полагать, что данные средства могут быть необходимы для соблюдения Маржевых требований; и/или"
 
 msgid "We reserve the right to charge a dormant fee of up to USD/EUR/AUD/GBP25 every six months for every client account that has had no transaction recorded for a period of 12 consecutive months or more."
-msgstr ""
+msgstr "Мы оставляем за собой право каждые шесть месяцев взимать комиссию за неактивность в размере до 25 USD/EUR/AUD/GBP с каждого клиентского счёта, на котором не производились транзакции в течении 12 последовательных месяцев или дольше."
 
 msgid "We reserve the right to refuse your request to open a Real Account for any reason, and any Real Account may be closed at our discretion at any time."
 msgstr "Мы оставляем за собой право отказать Вам в открытии Реального счёта по любой причине. Каждый Реальный счёт может быть в любое время закрыт по нашему усмотрению."
@@ -1237,7 +1237,7 @@ msgid "We reserve the right to void or amend the contractual terms of any Transa
 msgstr ""
 
 msgid "We use identity verification services and real-time fraud detection measures to help protect you from unauthorized access to your account. We also monitor account activity for signs of unusual activity that might indicate fraud and work with collection agencies and low-enforcement agencies to address fraud issues."
-msgstr ""
+msgstr "Мы пользуемся услугами проверки личности и предпринимаем меры по предотвращению мошенничества в режиме реального времени, чтобы помочь защитить Вас от несанкционированного доступа к Вашему счёту. Также мы следим за активностью на счету на предмет необычной деятельности, которая может указывать на мошенничество, а также сотрудничаем с коллекторскими агентствами и правоохранительными органами для урегулирования случаев мошенничества."
 
 msgid "We will act on any instructions given or appearing to be given by you and received by us in relation to the margin trading service provided through the MT5 Trading Platform, as deemed instructed by you. However, it is not our obligation to act on any instructions deemed instructed by you, and we are not obligated to give you any reasons for declining to do so. Instructions received by us from you are deemed final and will not be revocable. It is your responsibility to ensure the genuineness and accuracy of the instructions given by you to us."
 msgstr ""
@@ -1291,7 +1291,7 @@ msgid "Withdrawal of Funds from Real Account"
 msgstr "Вывод средств с Реального счёта"
 
 msgid "Withdrawal of funds from Real Account must be made in the same currency maintained in your Binary Options Real Account."
-msgstr ""
+msgstr "Вывод средств с Реального счёта должен производиться в валюте Вашего Реального счёта Binary для торговли бинарными опционами."
 
 msgid "Without prejudice to any other terms of this Agreement, neither the Company nor any its directors, officers, managers, employees, or agents shall not be liable to you in relation to any loss that you incurred whether directly or indirectly by any cause beyond our control, including but not limited to, any delay or defect in or failure of the whole or any part of the MT5 Trading Platform or any systems or network links."
 msgstr ""
@@ -1372,7 +1372,7 @@ msgid "You have to register and get App ID before you can use different OAuth se
 msgstr ""
 
 msgid "You have unrealised losses on your Real Account; and/or"
-msgstr ""
+msgstr "на Вашем реальном счету есть нереализованные убытки; и/или"
 
 msgid "You hereby agree that you will not participate in any illegal, deceptive, misleading or unethical practices including, but not limited to, disparagement of the MT5 Trading Platform or other practices which may be detrimental to the MT5 Trading Platform, Licensor or the public interest."
 msgstr ""
@@ -1414,7 +1414,7 @@ msgid "You're using a Virtual Account."
 msgstr "Вы находитесь на Демо-счету"
 
 msgid "Your Real Account password and login ID are unique and passwords are hashed so that not even Binary.com staff can read them. This is the reason why we cannot retrieve your password and have to issue you with a new one to your email address if you cannot recall it;"
-msgstr ""
+msgstr "Пароль и логин Вашего Реального счёта являются уникальными, а пароли проходят процесс хэширования, чтобы даже персонал Binary.com не смог их прочитать. В этой связи мы не можем восстановить Ваш пароль и вышлем на Ваш электронный адрес новый пароль, если Вы не можете вспомнить старый."
 
 msgid "Your Real Account shall be funded by transferring funds from your Binary Options Real Account, subject to the availability and sufficiency of funds in your Binary Options Real Account. No fund transfers shall be made to any other account in the name of any third party."
 msgstr "Реальный счёт можно пополнить путём перечисления средств с Вашего Реального счёта Binary для торговли бинарными опционами, при условии наличия на нём достаточного количества средств. Перевод средств на любой другой счёт или счёт третьей стороны категорически запрещён."
