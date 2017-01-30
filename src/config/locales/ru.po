@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-01-30 01:36-0500\n"
+"PO-Revision-Date: 2017-01-30 01:45-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -169,7 +169,7 @@ msgid "Any other consideration relevant to the execution of the transaction."
 msgstr "Любой другой аспект, относящийся к исполнению контракта."
 
 msgid "Any realised profits and interest charges that are denominated in a currency that's different from your Base Currency will be automatically converted to your Base Currency before being debited / credited to your Real Account. The conversion will be performed at commercially reasonable rates."
-msgstr ""
+msgstr "Любая полученная прибыль и проценты, начисленные в валюте, отличной от основной валюты Вашего счёта, будут автоматически переведены в основную валюту Вашего счёта до снятия / начисления на Ваш реальный счёт. Перевод валют будет выполнен по коммерчески приемлемому курсу."
 
 msgid "Appendix - Product Specific Policies"
 msgstr "Приложение – Политика в отношении определённых продуктов"
@@ -193,10 +193,10 @@ msgid "Balance"
 msgstr "Баланс"
 
 msgid "Base Currency"
-msgstr ""
+msgstr "Основная валюта"
 
 msgid "Base Currency - The currency in which your Transaction was entered into."
-msgstr ""
+msgstr "Основная валюта – валюта, в которой заключён Ваш контракт."
 
 msgid "Best execution is the requirement to take all sufficient steps to obtain, when executing orders, the best possible result for you taking into account price, costs, speed, likelihood of execution and settlement, size, nature or any other consideration relevant (hereinafter referred to as the \"execution factors\") to the execution of the order."
 msgstr "Наилучшее исполнение – это требование предпринять все необходимые меры, чтобы при исполнении ордеров получить наилучший результат в отношении цены, расходов, скорости, вероятности исполнения, заключения и размера контракта, его характера или иных важных аспектов для исполнения ордера (далее именуемых \"факторы исполнения\")."
@@ -205,10 +205,10 @@ msgid "Binary Options Real Account - Your real money account opened with Binary.
 msgstr "Реальный счёт Binary – Ваш реальный счёт, открытый на сайте Binary.com и используемый для торговли бинарными опционами на сайте Binary.com."
 
 msgid "Binary options or other financial derivatives trading experience"
-msgstr ""
+msgstr "Опыт торговли бинарными опционами или другими производными финансовыми инструментами"
 
 msgid "Binary options or other financial derivatives trading frequency"
-msgstr ""
+msgstr "Частота торговли бинарными опционами или другими производными финансовыми инструментами"
 
 msgid "Binary.com assesses the choice of external execution venues regularly (at least once a year) with the intention of achieving a better result for you based on our best execution obligation."
 msgstr "Binary.com регулярно оценивает выбор внешнего места исполнения ордера (минимум один раз в год), стремясь предоставить Вам наилучший результат, согласно нашему обязательству наилучшего исполнения."
