@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-01-29 19:34-0500\n"
+"PO-Revision-Date: 2017-01-29 19:44-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -256,7 +256,7 @@ msgid "Click the button below to download MetaTrader."
 msgstr "Нажмите на кнопку ниже, чтобы загрузить MetaTrader."
 
 msgid "Client Money"
-msgstr ""
+msgstr "Средства клиентов"
 
 msgid "Clients registered with any Group company, and in particular with Binary (V) Ltd. or Binary (C.R.). S.A., can raise their unresolved disputes with management by submitting an email to <a href='mailto:%1'>%1</a>."
 msgstr ""
@@ -448,7 +448,7 @@ msgid "General Provisions"
 msgstr "Общие положения"
 
 msgid "Given our role as margin trading service provider as described in this Agreement, we seek to avoid undue market influence to the extent consistent with your trading needs and our risk management policies and procedures. By continuing to use the margin trading service described in this Agreement, you acknowledge that you are aware of the potential conflict of interest disclosed that may arise and cannot be completely eliminated, and you consent us to act notwithstanding such potential conflict of interests."
-msgstr ""
+msgstr "Учитывая нашу роль поставщика услуг торговли с использованием маржи, перечисленных в данном Соглашении, мы стремимся избегать нежелательного влияния со стороны рынка в той мере, которая соответствует Вашим торговым потребностям, нашей политике управления риском и внутреннему регламенту. Продолжая пользоваться услугами торговли с использованием маржи, перечисленными в данном Соглашении, Вы подтверждаете, что осведомлены о потенциальном конфликте интересов, который может возникнуть и быть не полностью устранён. Настоящим Вы разрешаете нам действовать, невзирая на потенциальный конфликт интересов."
 
 msgid "Go to web terminal"
 msgstr ""
@@ -457,7 +457,7 @@ msgid "H. Monitoring and Review"
 msgstr ""
 
 msgid "H. Regulatory Provisions"
-msgstr ""
+msgstr "H. Правовые положения"
 
 msgid "HF Volatility 10 Index"
 msgstr ""
@@ -490,7 +490,7 @@ msgid "If any provision of this Agreement shall be held invalid or unenforceable
 msgstr ""
 
 msgid "If the Margin Level for your Real Account reaches or falls below the Stop Out Level, this will be classified as an Event of Default. In such circumstances, Open Positions are automatically closed in the following order: (i) the server analyses clients' Orders that are not under execution at the moment; (ii) the server deletes Orders with the largest Margin; (iii) if your Margin Level is still under the Stop Out Level, the next order is deleted (orders without margin requirements are not deleted); (iv) if your Margin Level is still under the Stop Out Level, the server closes a position with the largest loss; (v) Open Positions are closed until your Margin Level becomes higher than the Stop Out Level."
-msgstr ""
+msgstr "Если уровень маржи на Вашем реальном счету достигает или опускается ниже уровня стоп-аут, данная ситуация будет расцениваться как случай невыполнения обязательств. В данной ситуации открытые позиции будут автоматически закрыты в следующем порядке: (i) сервер произведёт анализ ордеров клиента, которые не были исполнены до настоящего момента; (ii) сервер удалит все ордеры с наибольшим размером маржи; (iii) если уровень маржи по-прежнему остаётся ниже уровня стоп-аут, будет удалён следующий ордер (ордеры без маржевых требований не будут удалены); (iv) если Ваш уровень маржи по-прежнему ниже уровня стоп- аут, сервер закроет позицию с наибольшем размером убытка; (v) открытые позиции будут подлежать принудительному закрытию до тех пор, пока Ваш уровень маржи не будет выше уровня стоп-аут."
 
 msgid "If the issue keeps happening, please contact <a>customer support</a>."
 msgstr ""
@@ -667,10 +667,10 @@ msgid "Margin Level - Ratio of Account Equity to Total Margin, expressed as a pe
 msgstr ""
 
 msgid "Margin Payment"
-msgstr ""
+msgstr "Выплата маржи"
 
 msgid "Margin Payments are due immediately and shall be received in full by us."
-msgstr ""
+msgstr "Оплата маржи должна производиться незамедлительно и должна быть получена нами в полном объёме."
 
 msgid "Margin Policy"
 msgstr "Политика расчета маржи"
@@ -703,7 +703,7 @@ msgid "Minimum eight characters. Must contain numbers, and mix of upper and lowe
 msgstr "Минимум 8 символов, включая цифры, строчные и прописные буквы."
 
 msgid "Money collected from Clients are not invested in any securities, futures, or other investments, on behalf of Clients."
-msgstr ""
+msgstr "Средства, полученные от клиентов, не подлежат инвестированию в ценные бумаги, фьючерсы или иные формы инвестиций от имени клиентов."
 
 msgid "N. Force Majeure Events"
 msgstr ""
@@ -796,7 +796,7 @@ msgid "Pension"
 msgstr ""
 
 msgid "Personal Data and Privacy"
-msgstr ""
+msgstr "Личные данные и конфиденциальность"
 
 msgid "Pip Size"
 msgstr ""
@@ -814,7 +814,7 @@ msgid "Positions are closed until the level of assets becomes higher that the St
 msgstr ""
 
 msgid "Potential Conflicts of Interest"
-msgstr ""
+msgstr "Потенциальный конфликт интересов"
 
 msgid "Price - the price at which the transaction in relation to your order is executed at."
 msgstr ""
@@ -928,7 +928,7 @@ msgid "Stop Order / Stop Loss Order - an instruction to execute a Transaction to
 msgstr ""
 
 msgid "Stop Out Level"
-msgstr ""
+msgstr "Уровень принудительного закрытия (уровень стоп-аут)"
 
 msgid "Stop Out Level - the Margin Level at or below which your Open Positions may be forcefully with or without your prior consent."
 msgstr ""
@@ -997,16 +997,16 @@ msgid "The Policy is supplemented by Appendix A which provide further details to
 msgstr ""
 
 msgid "The Stop Out Level applicable to your Real Account may differ from the default Stop Out Level published on our website."
-msgstr ""
+msgstr "Уровень стоп-аут, относящийся к Вашему реальному счёту, может отличаться от уровня стоп-аут по умолчанию, опубликованного на нашем вебсайте."
 
 msgid "The company holds customer funds in separate bank accounts to the operational accounts; and arrangements have been made to ensure assets in the customer accounts are distributed to customers in the event of insolvency."
-msgstr ""
+msgstr "Компания держит средства клиентов на отдельных банковских счетах, не являющихся рабочими счетами и предпринимает все усилия, чтобы гарантировать, что средства на клиентских счетах будут переданы клиентам в случае неплатёжеспособности Компании."
 
 msgid "The cut-off time for performing Roll-overs and booking of the Roll-over Credit/Debit."
 msgstr ""
 
 msgid "The default Stop Out Level applicable to your Account is published on our website. However, the default Stop Out Level is subject to alteration at our absolute discretion. Any changes to the Stop Out Level will take effect immediately. We will endeavour to notify you of an alteration to the default Stop Out Level by publishing the revised default Stop Out Level on our website. It is your responsibility to check our website regularly and remain informed about the default Stop Out Level."
-msgstr ""
+msgstr "Уровень стоп-аут, установленный на Вашем счету по умолчанию, указан на нашем вебсайте. Тем не менее, уровень стоп-аут по умолчанию может быть изменён по нашему единоличному усмотрению. Любые изменения уровня стоп-аут вступят в силу незамедлительно. Мы предпримем все разумные усилия, чтобы уведомить Вас об изменении уровня стоп-аут по умолчанию, опубликовав новый уровень стоп-аут на нашем вебсайте. Настоящим Вы обязуетесь регулярно следить за информацией на нашем сайте и узнавать уровень стоп-аут по умолчанию."
 
 msgid "The execution venues are assessed, on a regular basis, whether the they provide for the best possible result for our clients."
 msgstr ""
@@ -1030,7 +1030,7 @@ msgid "The leverage ratio refers to the number of times your margin (the amount 
 msgstr ""
 
 msgid "The margin trading services described in this Agreement are conducted over the counter. This means that the market in one or more of the instruments which you ordinarily transact with us, though quoted on an exchange, are not traded on an exchange when transacted through the electronic trading platform as described in this Agreement."
-msgstr ""
+msgstr "Услуги торговли с использованием маржи, описанные в данном Соглашении, осуществляются на внебиржевом рынке. Это означает, что по условиям данного Соглашения, рынок и иные инструменты, посредством которых Вы заключаете с нами контракты, ссылаются на биржи, но не торгуются непосредственно на бирже во время осуществления контрактов на электронной торговой платформе."
 
 msgid "The minimum spread (which is comprised of the market spread and our spread) published on our website is subject to alteration, at our absolute discretion. You acknowledge that whilst we endeavour to maintain a competitive spread, both market spread and our spread may widen significantly in some circumstances and such figures will be determined by us at our reasonable discretion."
 msgstr ""
@@ -1210,10 +1210,10 @@ msgid "We endeavour to open or close the Transaction to which your Order relates
 msgstr "Мы обязуемся предпринять все разумные усилия, чтобы открыть или закрыть контракт, к которому относится Ваш ордер по доступной нам цене, руководствуясь обязательством наилучшего исполнения. Лучшее исполнение означает, что мы должны предпринять все возможные меры, чтобы получить для Вас наилучший результат при исполнении ордеров, принимая во внимание цену, расходы, скорость, вероятность исполнения и закрытия контракта, размер, характер или любые другие аспекты, имеющие отношение к исполнению ордера."
 
 msgid "We may modify Margin Requirements for any Open Positions or new Transactions entered into, at our sole discretion. Formulas for Margin Requirements published on the website are indicative only and may be changed by the Company at its discretion at any time, due to changing market conditions or other factors."
-msgstr ""
+msgstr "Мы можем по своему усмотрению менять Маржевые требования для любых открытых позиций или новых контрактов. Формулы расчёта Маржевых требований, опубликованные на нашем вебсайте, являются лишь ориентировочными и могут быть в любое время изменены Компанией по её единоличному усмотрению, ввиду меняющихся рыночных условий или иных факторов."
 
 msgid "We may or may not use your personal information to contact you at any reasonable time as part of our marketing activities. You authorise us to contact you by email or telephone to give you information about selected products and services offered by us. Your consent for us to use your personal information for this purpose applies to the period you have a Real Account with us and after you close your Real Account. Please advise us in writing if you do not wish your personal information to be used for such purposes."
-msgstr ""
+msgstr "Мы можем использовать Вашу личную информацию, чтобы связаться с Вами в любое время, в рамках нашей маркетинговой деятельности. Настоящим Вы разрешаете нам связываться с Вами по электронному адресу или телефону с целью предоставления Вам информации об отдельных продуктах и предлагаемых нами услугах. Ваше разрешение на использование для этой цели Вашей личной информации относится к периоду, когда у Вас открыт Реальный счёт на нашем сайте и в период после его закрытия. Если Вы не хотите, чтобы Ваша личная информация использовалась в данных целях, пожалуйста, сообщите нам об этом в письменной форме."
 
 msgid "We may, at our absolute discretion, accept a Stop Order or a Limit Order from you. We may enable other types of Orders (for example, a trailing stop order) for your execution at any point in time."
 msgstr "По своему единоличному усмотрению мы можем принимать от Вас стоп-ордеры или лимитные ордеры. Также мы можем в любое время ввести другие виды ордеров (например, скользящий стоп-приказ)."
@@ -1270,13 +1270,13 @@ msgid "Whilst we act as principal in respect of your orders, we also assess the 
 msgstr ""
 
 msgid "Whilst we endeavour to close out your Open Positions if and when the Margin Level for your Real Account reaches or falls below the Stop Out Level, we do not guarantee that your Open Positions will be closed when the Margin Level for your Real Account reaches the Stop Out Level."
-msgstr ""
+msgstr "Несмотря на то, что мы предпринимаем все разумные усилия, чтобы закрыть Ваши открытые позиции в случае, если уровень маржи на Вашем реальном счету достигнет или упадёт ниже уровня принудительного закрытия (уровня стоп-аут), мы не даём никаких гарантий, что Ваши открытые позиции будут закрыты, когда уровень маржи на Вашем реальном счету достигнет уровня стоп-аут."
 
 msgid "Whilst we endeavour to open or close the Transaction to which your orders relate at the requested price, acting in accordance with our duty of best execution, there are times when, due to an increase in volatility or volume, orders may be subject to slippage. The difference between the order price and execution price when orders are filled is known as slippage. This means that your order is not filled at the exact intended quoted price when you placed your order. Slippage is usually seen during periods of extremely high or low volatility and generally occurs during fundamental news releases or periods of limited liquidity. Slippages can result in either a positive slippage (more favourable to you) or a negative slippage (less favourable to you)."
 msgstr ""
 
 msgid "Whilst we endeavour to take all reasonable and sufficient steps, as required by applicable laws and regulations, to identify potential conflicts of interests between ourselves and our clients, or between one client and another, that arise in the course of providing the margin trading services as described in this Agreement, by establishing and implementing policies and procedures, it is possible that we may execute certain Transactions which may have other direct or indirect material interests."
-msgstr ""
+msgstr "Несмотря на то, что мы стремимся предпринимать все разумные меры (требуемые соответствующим законодательством и нормативными положениями), чтобы выявлять потенциальный конфликт интересов между нами и нашими клиентами, а также конфликты между самими клиентами, возникающие в процессе предоставления услуг торговли с использованием маржи (описанных в данном Соглашении), устанавливая и соблюдая текущую политику и процедуры, мы можем заключать определённые контракты, преследующие иные прямые или косвенные материальные интересы."
 
 msgid "Withdraw"
 msgstr "Вывести"
@@ -1315,10 +1315,10 @@ msgid "You acknowledge that it is your responsibility to understand the features
 msgstr "Настоящим Вы обязуетесь перед размещением ордера разобраться в его особенностях, характеристиках, правилах и условиях, а также изучить возможные последствия исполнения ордера."
 
 msgid "You acknowledge that the Company will determine, at its discretion, the Transactions that will be kept in the Company's own book (known as B booking) and the Transactions that will be passed through to the prime brokers who act as liquidity providers for the Company (known as A booking). For the latter, the Company is the counterparty in these transactions and a correlation between the profit/loss made by the client and the profit/loss made by the Company exists. At any point in time, we may be entering into or may have entered into transactions with a large number of clients, each of whose interests may diverge from those of other clients. As such, the Company may be holding Open Positions that may not be aligned with your objectives/interests as an individual client of the Company."
-msgstr ""
+msgstr "Настоящим Вы соглашаетесь с тем, что Компания будет по своему единоличному усмотрению определять контракты, которые будут оставаться в системе Компании (данная процедура известна как B booking) и контракты, которые будут передаваться прайм-брокерам, выступающим в качестве поставщиков ликвидности для Компании (данная процедура известна как A booking). Во втором случае Компания выступает в качестве контрагента по данным контрактам и возникает корреляция между прибылью/убытком клиента и прибылью/убытком Компании. В любое время мы можем заключить контракты с большим количеством клиентов, интересы которых могут противоречить друг другу. В этой связи Компания может держать открытые позиции, которые могут не соответствовать Вашим целям/интересам как клиента Компании."
 
 msgid "You acknowledge that we may use, store, or otherwise process personal information provided by you in connection with the provision of margin trading services described in this Agreement. You consent to the processing and transmittal of your personal information for the purposes of performing the contract and administering the relationship between you and us."
-msgstr ""
+msgstr "Настоящим Вы разрешаете нам использовать, хранить или иным образом распоряжаться предоставленной Вами личной информацией в отношении оказания услуг торговли с использованием маржи, описанных в данном Соглашении. Вы выражаете согласие с обработкой и передачей Вашей личной информации с целью исполнения контрактов и регулирования отношений между Вами и нами."
 
 msgid "You acknowledge that we reserve the right to establish a minimum and maximum transaction size which may be subject to alteration and that we will only execute Orders that fall within the range of the minimum and maximum transaction size."
 msgstr "Вы соглашаетесь с тем, что мы оставляем за собой право устанавливать минимальный и максимальный размер контракта, который подлежит изменениям. Также мы оставляем за собой право исполнять лишь те ордеры, которые соответствуют установленному минимальному и максимальному размеру контракта."
@@ -1345,7 +1345,7 @@ msgid "You are willing and financially able to sustain a total loss of funds (wh
 msgstr ""
 
 msgid "You consent us to record your telephone conversation between you and us. All instructions receive by telephone will be binding as if received in writing. Recorded telephone conversations between you and us shall be and remain our sole property. You will accept recorded telephone conversations between you and us as conclusive evidence of instructions or conversations so recorded and we may deliver copies of transcripts of such recordings to any court, regulatory or governmental authority without seeking prior consent from you."
-msgstr ""
+msgstr "Настоящим Вы даёте нам согласие на запись Ваших телефонных разговоров с нами. Все инструкции, полученные по телефону, будут являться обязательными, как и инструкции, полученные в письменной форме. Записанные телефонные разговоры между Вами и нами должны считаться и оставаться нашей собственностью. Вы обязуетесь считать записанные телефонные разговоры между Вами и нами убедительным доказательством инструкций или разговоров, а мы можем отправить копии соответствующих записей в любой суд, регулирующий или государственный орган без получения Вашего предварительного согласия."
 
 msgid "You did not change anything."
 msgstr ""
@@ -1381,7 +1381,7 @@ msgid "You make the following representations and warranties to us at the time y
 msgstr ""
 
 msgid "You may make Margin Payments by transferring funds from your Binary Options Real Account to your Real Account. In the event that there are insufficient funds in your Binary Options Real Account to fund your Real Account, you may, make Margin Payments by funding your Binary Options Real Account and transferring the funds from your Binary Options Real Account to your Real Account."
-msgstr ""
+msgstr "Вы можете оплачивать маржу путём перевода средств с Вашего реального счёта Binary для торговли бинарными опционами на Ваш текущий реальный счёт. В случае, если на Вашем счету Binary недостаточно средств для пополнения Вашего текущего реального счёта, Вы можете оплатить маржу путём пополнения своего счёта Binary и перевести средства со счёта Binary на текущий реальный счёт."
 
 msgid "You may not cancel or amend the level of your Stop and Limit Order prior to the closing of your Transaction once the level has been reached."
 msgstr "Вы не можете отменить или изменить уровень вашего стоп-приказа или лимитного ордера до закрытия Вашей текущей сделки по достижении данного уровня."
@@ -1420,7 +1420,7 @@ msgid "Your Real Account shall be funded by transferring funds from your Binary 
 msgstr "Реальный счёт можно пополнить путём перечисления средств с Вашего Реального счёта Binary для торговли бинарными опционами, при условии наличия на нём достаточного количества средств. Перевод средств на любой другой счёт или счёт третьей стороны категорически запрещён."
 
 msgid "Your account should not be used as a banking facility and deposits should only be made with a view to using funds to place contracts. The Company is not a financial institution. Clients will not receive interest on deposits. Should you make repeated deposits and withdrawals without commensurate contracts being placed, we reserve the right to pass on to your accounts, without prior notice, any bank charges we have incurred before closing the account."
-msgstr ""
+msgstr "Ваш счёт не может использоваться для проведения банковских операций, а пополнение счёта должно производиться лишь с целью последующего размещения контрактов. Компания не является финансовым учреждением. Клиенты не будут получать проценты от внесённых на счёт средств. Если Вы несколько раз пополняете счёт и выводите средства без размещения соответствующих контрактов, мы оставляем за собой право без предварительного уведомления взыскать с Вашего счёта комиссию за понесённые нами банковские расходы перед закрытием соответствующего счёта."
 
 msgid "Your death, your incapacity, become of unsound mind or your inability to pay your debts as they fall due, or is bankrupt or insolvent, as defined under any bankruptcy or insolvency law applicable to you, if you are an individual;"
 msgstr ""
