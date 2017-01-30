@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-01-29 20:24-0500\n"
+"PO-Revision-Date: 2017-01-30 00:15-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgid "%1 has updated its  <a target=\"_blank\" href=\"%2\">Terms & Conditions</
 msgstr "%1 обновил  <a target=\"_blank\" href=\"%2\">Правила и условия</a>. Нажав OK, Вы подтвердите, что прочитали и принимаете обновлённые <a target=\"_blank\" href=\"%2\">Правила и условия</a>."
 
 msgid "%1 offers forex and contracts for differences via the hybrid model, i.e., both dealing on own account (dealing desk) and partially hedging client orders with our liquidity providers (no-dealing desk). Client orders are typically hedged when the total transaction volume exceeds a predefined threshold of risk tolerance level. For both execution models, %1 acts as the contractual counterparty to the transactions that you enter into with us, as opposed to entering into a contractual counterparty with a central clearing house as would be the case with exchange traded financial instruments. As such, counterparty risk exists. Counterparty risk refers to the risk of loss for clients resulting from the fact that the counterparty to the forex and/or contracts for differences transaction that you entered into may default on its obligations prior to the final settlement of the transaction's cash flow."
-msgstr ""
+msgstr "%1 предоставляет услуги торговли на валютном рынке (Forex) и контрактами на разницу посредством гибридной модели, т.е. заключения контрактов на собственном счету (через дилинговый отдел) и частичное хеджирование ордеров клиента через наших поставщиков ликвидности (совершение контрактов напрямую, минуя дилинговый отдел). Как правило, ордеры клиента хеджируются, когда общий объём контракта превышает заранее установленный порог допустимого уровня риска. В обеих моделях исполнения контрактов %1 выступает в качестве контрагента по отношению к заключаемым с нами контрактам (в отличие от контрагента с центральной клиринговой палатой, что происходит в случае с финансовыми инструментами, торгуемыми на бирже). Как таковые, существуют и риски контрагента. Риск контрагента включает риск потерь для клиентов в результате того, что контрагент в заключённых Вами контрактах на Forex и/или контрактах на разницу может не выполнить свои обязательства до итогового расчёта за контракт."
 
 msgid "%1 to your Binary.com account to create an MT5 account"
 msgstr ""
@@ -388,7 +388,7 @@ msgid "Event - Event examples include circumstances whereby the type of Transact
 msgstr "Обстоятельства – обстоятельства могут включать события, ввиду которых перестанет предлагаться тип контракта, к которому относится Ваш ордер, а также корпоративные мероприятия или неплатежеспособность Компании (акции которой являются объектом ордера) и другие ситуации."
 
 msgid "Execution model and counterparty risk"
-msgstr ""
+msgstr "Модель исполнения и риск контрагента"
 
 msgid "External forces"
 msgstr ""
@@ -421,10 +421,10 @@ msgid "Force majeure event, if and when determined, means, (i) the Company, by r
 msgstr "Под форс-мажорными обстоятельствами следует понимать следующие ситуации: (i) при чрезвычайных обстоятельствах или по указанию государства Компания не может, столкнулась с препятствиями или испытывает промедления в предоставлении или получении, а также возникли условия, при которых Компания не может предоставлять или получать любые котировки, цену бид и цену предложения для актива на одном или более инструменте, в отношении которых заключаются контракты; (ii) на рынке инструмента наблюдается чрезмерная динамика или ситуации, когда Компания имеет основания ожидать возникновения рыночной дестабилизации."
 
 msgid "Forex and contract for differences transactions involve a high degree of risk and are speculative because they allow you to speculate on the short term movements of the price of the underlying financial instruments. You should not enter into forex and/or contracts for differences transactions unless you are able to sustain losses that exceed your deposited funds. It is important for you to understand that in order to realise any value from your open positions, you would have to enter into a corresponding transaction to close your open positions and you may find it difficult or impossible to do so under certain market conditions."
-msgstr ""
+msgstr "Forex и торговля контрактами на разницу подразумевают высокий уровень риска и являются спекулятивными продуктами, так как они разрешают Вам спекулировать на краткосрочных движениях цены базовых финансовых инструментов. Вам не следует заключать контракты на Forex и/или контракты на разницу, если Вы не можете себе позволить понести потери, превосходящие размер инвестированных средств. Также необходимо осознать, что для получения любых средств от Ваших открытых позиций Вам необходимо заключить соответствующий контракт с целью закрытия открытых позиций, что может оказаться сложным или невозможным при определённых рыночных условиях."
 
 msgid "Forex and contracts for differences are high risk and speculative"
-msgstr ""
+msgstr "Forex и контракты на разницу являются спекулятивными продуктами с высоким уровнем риска"
 
 msgid "Forex trading experience"
 msgstr ""
@@ -508,7 +508,7 @@ msgid "If you are an individual, you are over 18 years old and you have full cap
 msgstr "если Вы являетесь физическим лицом, Вы должны быть старше 18 лет и обладать полной дееспособностью для заключения данного Соглашения;"
 
 msgid "If you do not intend to utilise the leverage feature, please set the leverage ratio to 1:1."
-msgstr ""
+msgstr "Если Вы не планируете пользоваться функцией кредитного рычага, пожалуйста, установите кредитный рычаг в размере 1:1."
 
 msgid "If you fail to immediately make full settlement of the sum due to us in accordance with this Agreement, we reserve the right to accrue interest on the sums due from you to us in respect of any Transaction that you fail to pay on the relevant due date. Interest will accrue on a daily basis from the relevant due date until the date on which payment is received in full at the bank's official base rate for short term funds determined by us, and will be payable on demand."
 msgstr "Если Вы не можете незамедлительно компенсировать нам задолженность в рамках данного Соглашения, мы оставляем за собой право начислять проценты на сумму Вашего долга в отношении любого контракта, который Вы не смогли оплатить в срок. Проценты будут начисляться ежедневно, с даты предполагаемой оплаты до даты получения таковой оплаты в полном размере, согласно официальной основной банковской ставке для установленных нами краткосрочных активов, и должны быть уплачены по требованию."
@@ -613,10 +613,10 @@ msgid "Leverage"
 msgstr "Кредитный рычаг"
 
 msgid "Leverage can be used to generate returns that are of multiple times higher than the amount set aside from your account balance to open and maintain a transaction (your margin). However, investments that have the potential to deliver greater investment returns carry higher levels of risk. This means that if the price movement is against your favour, you will suffer losses that are of multiple times higher than the amount set aside from your account balance to open and maintain a transaction (your margin)."
-msgstr ""
+msgstr "Кредитный рычаг можно использовать для получения прибыли, которая во много раз превышает сумму, которая будет заблокирована на Вашем счету для открытия и поддержания контракта (Ваша маржа). Тем не менее, инвестиции с возможностью получения более высокой прибыли предполагают более высокий риск. Это означает, что если цена движется не в Вашу пользу, Ваши потери во много раз превысят сумму, заблокированную на Вашем счету для открытия и поддержания контракта (Вашу маржу)."
 
 msgid "Leverage, in the context of margin trading, refers to the use of margin to increase/amplify the value of a trade. Leverage is expressed as a ratio. A 50:1 leverage, for example, means that you would be able to enter into a trade position that is of 50 times higher than your margin. When you invest in a leveraged product, your profit or loss is based on the leveraged position, i.e., the increased/amplified value of your trade determined based on the leverage ratio you set for your account."
-msgstr ""
+msgstr "В контексте торговли с использованием маржи, кредитный рычаг означает использование маржи с целью увеличения цены контракта. Кредитный рычаг выражается в виде пропорции. Например, кредитный рычаг в соотношении 50:1 означает, что Вы сможете заключить контракт, размер которого в 50 раз превышает Вашу маржу. При инвестировании в продукты с использованием кредитного рычага Ваша прибыль или потери основаны на позиции с большой долей заёмных средств, т.е. увеличенная цена Вашего контракта основана на коэффициенте финансового рычага, который Вы установили на своём счету."
 
 msgid "Likelihood of execution and settlement - the depth of liquidity of the market in which your order is related to."
 msgstr ""
@@ -1078,7 +1078,7 @@ msgid "This Policy applies to retail and professional clients of Binary.com deal
 msgstr ""
 
 msgid "This Risk Disclosure Statement is not exhaustive and is not intended to constitute a comprehensive statement of all the risks to which you might be exposed to and does not describe all risks inherent to forex and contracts for differences that exist now or which may arise in the future. Its objective is rather to provide you with information for you to reasonably understand the risks associated with forex and contracts for differences offered by %1 in our interest to provide you with the best possible trading experience."
-msgstr ""
+msgstr "Данное Заявление о риске не является всеобъемлющим документом и не служит универсальным уведомлением обо всех видах риска, которым Вы можете быть подвержены, а также не охватывает все существующие и возможные в будущем риски, присущие торговле на валютных рынках (Forex) и торговле контрактами на разницу. Целью данного Заявления является предоставление Вам информации, чтобы Вы могли разумно осознавать риски, сопряжённые с рынком Forex и контрактами на разницу, предложенными сайтом %1 в рамках стремления предоставить Вам наилучший опыт торговли."
 
 msgid "This clause does not apply to Volatility Indices."
 msgstr "Данное положение не распространяется на Индексы волатильности."
