@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-01-30 00:35-0500\n"
+"PO-Revision-Date: 2017-01-30 00:45-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -229,7 +229,7 @@ msgid "Binary.com shall act, at times, as a principal and at other times as an a
 msgstr "Время от времени Binary.com выступает в качестве принципала или в качестве агента, действующего от Вашего имени в отношении всех заключаемых Вами контрактов."
 
 msgid "By default, the intelligent order routing system ensures that the top of the book is always comprised of the best bid and offer rates quoted by the competing liquidity providers. However, during times of market illiquidity, this may change with likelihood of execution being the primary execution factor."
-msgstr ""
+msgstr "По умолчанию, система умного распределения поступающих ордеров гарантирует, что в верхней части стакана котировок всегда находится лучшая цена бид и цена предложения, предоставленные конкурирующими поставщиками ликвидности. Тем не менее, при определённом уровне рыночной ликвидности данное положение может измениться и наиболее важным фактором станет сама возможность исполнения."
 
 msgid "By opening a Real Account with Binary.com, you represent, warrant and undertake that:"
 msgstr "Открыв Реальный счёт на сайте Binary.com, Вы заявляете, подтверждаете и гарантируете, что:"
@@ -334,7 +334,7 @@ msgid "Demo Account"
 msgstr "Демо-счёт"
 
 msgid "Depending on the level of risk that we are exposed to acting as your counterparty, we largely act in a principal capacity of your trades. As such, the execution venue will usually be Binary.com. However, we may transmit your order to third party liquidity providers, in which case we will determine the execution venue ourselves on the basis described above."
-msgstr ""
+msgstr "В зависимости от уровня риска, присущего нам, когда мы выступаем Вашим контрагентом, мы преимущественно действуем в соответствии с общим объёмом Ваших контрактов. В данном случае местом исполнения, как правило, служит Binary.com. Тем не менее, мы можем передать Ваш ордер сторонним поставщикам ликвидности. В этом случае, мы самостоятельно выберем место исполнения на основаниях, описанных выше."
 
 msgid "Deposit"
 msgstr "Пополнить"
@@ -958,7 +958,7 @@ msgid "Suspending your Real Account and refusing to execute any Orders to enter 
 msgstr "приостановить деятельность на Вашем реальном счету и отказаться от исполнения любых ордеров с целью заключения дополнительных контрактов с Вами. Несмотря на приостановление деятельности на реальном счету, Вы сможете размещать ордеры с целью закрытия открытых позиций, но не сможете размещать ордеры, открывающие новые позиции."
 
 msgid "Symbol"
-msgstr ""
+msgstr "Символ"
 
 msgid "Terms and Conditions"
 msgstr "Правила и условия"
@@ -1009,7 +1009,7 @@ msgid "The default Stop Out Level applicable to your Account is published on our
 msgstr "Уровень стоп-аут, установленный на Вашем счету по умолчанию, указан на нашем вебсайте. Тем не менее, уровень стоп-аут по умолчанию может быть изменён по нашему единоличному усмотрению. Любые изменения уровня стоп-аут вступят в силу незамедлительно. Мы предпримем все разумные усилия, чтобы уведомить Вас об изменении уровня стоп-аут по умолчанию, опубликовав новый уровень стоп-аут на нашем вебсайте. Настоящим Вы обязуетесь регулярно следить за информацией на нашем сайте и узнавать уровень стоп-аут по умолчанию."
 
 msgid "The execution venues are assessed, on a regular basis, whether the they provide for the best possible result for our clients."
-msgstr ""
+msgstr "Места исполнения проходят регулярный процесс оценки на предмет предоставления нашим клиентам наилучшего результата."
 
 msgid "The execution, delivery and performance of this Agreement and each Transaction will not violate any law, ordinance, charter, by-law or rule applicable to you or the jurisdiction in which you are resident."
 msgstr "Исполнение и выполнение условий данного Соглашения, а также каждого контракта не нарушает никакого закона, постановления, кодекса, положения или правила, применимого к Вам или юрисдикции, в которой Вы проживаете."
@@ -1174,19 +1174,19 @@ msgid "Version 3"
 msgstr "Версия 3"
 
 msgid "Volatility 10 Index"
-msgstr ""
+msgstr "Индекс волатильности 10"
 
 msgid "Volatility 100 Index"
-msgstr ""
+msgstr "Индекс волатильности 100"
 
 msgid "Volatility 25 Index"
-msgstr ""
+msgstr "Индекс волатильности 25"
 
 msgid "Volatility 50 Index"
-msgstr ""
+msgstr "Индекс волатильности 50"
 
 msgid "Volatility 75 Index"
-msgstr ""
+msgstr "Индекс волатильности 75"
 
 msgid "Volatility Indices"
 msgstr "Индексы волатильности"
@@ -1468,7 +1468,7 @@ msgid "e.g. blue.binaryws.com"
 msgstr ""
 
 msgid "intelligently routing incoming orders to different types of execution modes based on configurations and algorithms established using best execution factors."
-msgstr ""
+msgstr "умное распределение поступающих ордеров по различным моделям исполнения, на основе конфигураций и алгоритмов, установленных согласно факторам наилучшего исполнения."
 
 msgid "net of any other money credited to your Real Account and debited from your Real Account. Your account balance includes Margin Requirement. The amount of your account balance in excess of Margin Requirement is available for your withdrawal. The amount set aside for Margin Requirement is not available for your withdrawal."
 msgstr "чистую сумму, полученную от всех других средств, начисленных на Ваш реальный счёт и списанных с Вашего Реального счёта. Баланс Вашего счёта включает Маржевые требования. Сумма баланса Вашего счёта, превышающая Маржевые требования, доступна для вывода. Сумма, оставленная для удовлетворения Маржевых требований, не может быть выведена со счёта."
@@ -1519,7 +1519,7 @@ msgid "MetaTrader Margin Policy"
 msgstr ""
 
 msgid "MetaTrader Terms and Conditions"
-msgstr ""
+msgstr "Правила и условия MetaTrader"
 
 msgid "Endpoint"
 msgstr ""
