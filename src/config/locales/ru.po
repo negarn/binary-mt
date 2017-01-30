@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-01-30 00:45-0500\n"
+"PO-Revision-Date: 2017-01-30 00:54-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -25,7 +25,7 @@ msgid "%1 offers forex and contracts for differences via the hybrid model, i.e.,
 msgstr "%1 предоставляет услуги торговли на валютном рынке (Forex) и контрактами на разницу посредством гибридной модели, т.е. заключения контрактов на собственном счету (через дилинговый отдел) и частичное хеджирование ордеров клиента через наших поставщиков ликвидности (совершение контрактов напрямую, минуя дилинговый отдел). Как правило, ордеры клиента хеджируются, когда общий объём контракта превышает заранее установленный порог допустимого уровня риска. В обеих моделях исполнения контрактов %1 выступает в качестве контрагента по отношению к заключаемым с нами контрактам (в отличие от контрагента с центральной клиринговой палатой, что происходит в случае с финансовыми инструментами, торгуемыми на бирже). Как таковые, существуют и риски контрагента. Риск контрагента включает риск потерь для клиентов в результате того, что контрагент в заключённых Вами контрактах на Forex и/или контрактах на разницу может не выполнить свои обязательства до итогового расчёта за контракт."
 
 msgid "%1 to your Binary.com account to create an MT5 account"
-msgstr ""
+msgstr "%1 на Ваш счёт Binary.com, чтобы открыть счёт MT5"
 
 msgid "&#36;1/point"
 msgstr "&#36;1/пункт"
@@ -460,13 +460,13 @@ msgid "H. Regulatory Provisions"
 msgstr "H. Правовые положения"
 
 msgid "HF Volatility 10 Index"
-msgstr ""
+msgstr "ВЧ Индекс волатильности 10"
 
 msgid "HF Volatility 100 Index"
-msgstr ""
+msgstr "ВЧ Индекс волатильности 100"
 
 msgid "HF Volatility 50 Index"
-msgstr ""
+msgstr "ВЧ Индекс волатильности 50"
 
 msgid "Health"
 msgstr ""
@@ -685,7 +685,7 @@ msgid "Maximum Leverage**"
 msgstr ""
 
 msgid "Maximum Volume (Trade Size)"
-msgstr ""
+msgstr "Макс. объём (размер контракта)"
 
 msgid "MetaTrader account management"
 msgstr "Управление счётом на MetaTrader"
@@ -697,7 +697,7 @@ msgid "Minimum Spread*"
 msgstr ""
 
 msgid "Minimum Volume (Trade Size)"
-msgstr ""
+msgstr "Мин. объём (размер контракта)"
 
 msgid "Minimum eight characters. Must contain numbers, and mix of upper and lower case letters."
 msgstr "Минимум 8 символов, включая цифры, строчные и прописные буквы."
@@ -1198,7 +1198,7 @@ msgid "Volatility Indices Contract Specifications"
 msgstr ""
 
 msgid "Volume (Trade Size)"
-msgstr ""
+msgstr "Объём (размер контракта)"
 
 msgid "We are committed to making sure your personal data and transactions are secure:"
 msgstr "Мы стремимся предпринимать все разумные усилия, чтобы гарантировать безопасность Ваших личных данных и контрактов:"
