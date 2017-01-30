@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-01-30 01:45-0500\n"
+"PO-Revision-Date: 2017-01-30 01:57-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -244,7 +244,7 @@ msgid "CFDs on Volatility Indices"
 msgstr "Контракты на разницу на Индексах волатильности"
 
 msgid "Change API Endpoint"
-msgstr ""
+msgstr "Изменить конечную точку API"
 
 msgid "Change the Stop Out Level in relation to your account."
 msgstr "изменить уровень стоп-аут (уровень принудительного закрытия позиции) в отношении Вашего счёта."
@@ -409,10 +409,10 @@ msgid "Financial Account"
 msgstr "Финансовый счёт"
 
 msgid "Financial Assessment"
-msgstr ""
+msgstr "Финансовая оценка"
 
 msgid "Financial Information"
-msgstr ""
+msgstr "Финансовая информация"
 
 msgid "For features and trading illustration of Spot FX offered by Binary.com, refer to the Product Disclosure Statement. This policy is an appendix to the overarching Binary.com Order Execution Policy and should be read in conjunction with the overarching Binary.com Order Execution Policy."
 msgstr "Подробную характеристику и примеры торговли контрактами на спот Forex, предлагаемыми на Binary.com, можно найти на странице Заявления об ограничении ответственности в отношении отдельных продуктов. Данная политика является приложением к основной Политике исполнения ордеров Binary.com и должна рассматриваться в совокупности с ней."
@@ -427,10 +427,10 @@ msgid "Forex and contracts for differences are high risk and speculative"
 msgstr "Forex и контракты на разницу являются спекулятивными продуктами с высоким уровнем риска"
 
 msgid "Forex trading experience"
-msgstr ""
+msgstr "Опыт торговли на Forex"
 
 msgid "Forex trading frequency"
-msgstr ""
+msgstr "Частота торговли на Forex"
 
 msgid "Fund Transfers"
 msgstr "Перевод средств"
