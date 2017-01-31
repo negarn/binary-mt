@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-01-31 01:55-0500\n"
+"PO-Revision-Date: 2017-01-31 02:05-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -403,7 +403,7 @@ msgid "Description"
 msgstr ""
 
 msgid "Details"
-msgstr ""
+msgstr "Детали"
 
 msgid "Download MetaTrader"
 msgstr "Загрузить MetaTrader"
@@ -433,25 +433,25 @@ msgid "EUR 1 per point"
 msgstr ""
 
 msgid "EUR/AUD"
-msgstr ""
+msgstr "EUR/AUD"
 
 msgid "EUR/CAD"
-msgstr ""
+msgstr "EUR/CAD"
 
 msgid "EUR/CHF"
-msgstr ""
+msgstr "EUR/CHF"
 
 msgid "EUR/GBP"
-msgstr ""
+msgstr "EUR/GBP"
 
 msgid "EUR/JPY"
-msgstr ""
+msgstr "EUR/JPY"
 
 msgid "EUR/NZD"
-msgstr ""
+msgstr "EUR/NZD"
 
 msgid "EUR/USD"
-msgstr ""
+msgstr "EUR/USD"
 
 msgid "EUR_50"
 msgstr ""
@@ -463,13 +463,13 @@ msgid "Each time you open a position on a Volatility Index symbol, you can start
 msgstr ""
 
 msgid "Education"
-msgstr ""
+msgstr "Образование"
 
 msgid "Enhanced Trading with MetaTrader 5"
 msgstr "Широкие торговые возможности MetaTrader 5"
 
 msgid "Estimated Net Worth"
-msgstr ""
+msgstr "Собственный капитал"
 
 msgid "Euro 50 Cash Index"
 msgstr ""
@@ -664,7 +664,7 @@ msgid "If you previously downloaded MetaTrader 5 directly from MetaTrader's webs
 msgstr "Если Вы ранее загружали платформу MetaTrader 5 напрямую с сайта MetaTrader, пожалуйста, выберите \"%1\" из списка доступных брокеров."
 
 msgid "If you wish to withdraw funds from your Real Account and close your Real Account, you may notify us by contacting our helpdesk at <a href='mailto:%1'>%1</a>. Your Real Account may be closed if you do not have any Open Positions and all amounts due to us have been settled."
-msgstr "0.	Если Вы хотите вывести средства с Реального счёта и закрыть его, Вы должны уведомить нас, связавшись с нашим отделом поддержки клиентов по следующему адресу: <a href='mailto:%1'>%1</a>. Ваш реальный счёт может быть закрыт, если на нём нет открытых позиций, а вcе причитающиеся нам суммы были выплачены."
+msgstr "Если Вы хотите вывести средства с Реального счёта и закрыть его, Вы должны уведомить нас, связавшись с нашим отделом поддержки клиентов по следующему адресу: <a href='mailto:%1'>%1</a>. Ваш реальный счёт может быть закрыт, если на нём нет открытых позиций, а вcе причитающиеся нам суммы были выплачены."
 
 msgid "If you would like to file a complaint with regards to the margin trading service described in this Agreement, kindly contact us by providing the relevant details related to your complaint. We shall investigate your enquiry and a response will be given to your enquiry. We will usually provide a final response within one to two weeks (and at most within two months) from the receipt of all relevant details."
 msgstr "Если Вы хотите отправить жалобу относительно услуг торговли с использованием маржи, перечисленных с данном Соглашении, пожалуйста, свяжитесь с нами и укажите соответствующие детали Вашей жалобы. Мы проведём расследование по Вашему запросу и предоставим Вам ответ. Как правило, данная процедура занимает от одной до двух недель (наибольший срок рассмотрения жалоб составляет до двух месяцев) с момента получения всей соответствующей информации."
