@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-01-30 23:16-0500\n"
+"PO-Revision-Date: 2017-01-31 01:45-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -112,22 +112,22 @@ msgid "AUD 1 per point"
 msgstr ""
 
 msgid "AUD/CAD"
-msgstr ""
+msgstr "AUD/CAD"
 
 msgid "AUD/CHF"
-msgstr ""
+msgstr "AUD/CHF"
 
 msgid "AUD/JPY"
-msgstr ""
+msgstr "AUD/JPY"
 
 msgid "AUD/NZD"
-msgstr ""
+msgstr "AUD/NZD"
 
 msgid "AUD/USD"
-msgstr ""
+msgstr "AUD/USD"
 
 msgid "AUS_200"
-msgstr ""
+msgstr "AUS_200"
 
 msgid "Access advanced tools for fundamental and technical analysis, all available in one platform."
 msgstr "Получите доступ к расширенным торговым инструментам для фундаментального и технического анализа, найти которые можно на платформе."
@@ -313,7 +313,7 @@ msgid "Closing or part-closing all or any of your Open Positions based on the pr
 msgstr "закрыть или частично закрыть все или любые Ваши открытые позиции по действующим ценам на соответствующие активы;"
 
 msgid "Commodities trading experience"
-msgstr ""
+msgstr "Опыт торговли сырьевыми товарами"
 
 msgid "Commodities trading frequency"
 msgstr ""
