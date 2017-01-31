@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-01-31 04:07-0500\n"
+"PO-Revision-Date: 2017-01-31 04:19-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Chinese Traditional\n"
 "MIME-Version: 1.0\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Language: zh_TW\n"
 
 msgid " How do we calculate interest fees for short positions?"
-msgstr " 賣空頭寸的利息費用如何計算?"
+msgstr " 空頭頭寸的利息費用如何計算?"
 
 msgid "%1 gives everyone an easy way to participate in the financial markets. Trade with as little as $1 USD on major currencies, stocks, indices, and commodities."
 msgstr "%1讓每個人都能輕鬆參與金融市場。可交易各主要貨幣、股票指數和商品，投資門檻低至1美元。"
@@ -79,13 +79,13 @@ msgid "<strong>Long positions</strong>: We charge a 2% fee on top of interbank l
 msgstr "<strong>多頭頭寸</strong>: 我們收取比銀行間貸款利率高 2% 的費用。"
 
 msgid "<strong>Long positions</strong>: We charge a 2% fee on top of market rates."
-msgstr ""
+msgstr "<strong>多頭頭寸</strong>︰我們收取比市場利率高2%的費用。"
 
 msgid "<strong>Short positions</strong>: We charge a 2% fee on top of interbank lending rates."
-msgstr ""
+msgstr "<strong>空頭頭寸</strong>: 我們收取比銀行間貸款利率高 2% 的費用。"
 
 msgid "<strong>Short positions</strong>: We charge a 2% fee on top of market rates."
-msgstr ""
+msgstr "<strong>空頭頭寸</strong>︰我們收取比市場利率高2%的費用。"
 
 msgid "A Transaction is opened by either executing a \"Buy\" or \"Sell\" Order based on a specified number of lots (volume) that constitute the underlying instrument of the relevant market."
 msgstr "根據構成相關市場標的工具的指定批(量) 數量執行「買入」或「賣出」訂單開盤交易。"
@@ -109,7 +109,7 @@ msgid "A. Spot FX"
 msgstr "一、現貨外匯"
 
 msgid "AUD 1 per point"
-msgstr ""
+msgstr "每點 1 澳元"
 
 msgid "AUD/CAD"
 msgstr ""
