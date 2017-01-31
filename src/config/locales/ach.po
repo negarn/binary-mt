@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2016-12-22 02:41-0500\n"
+"PO-Revision-Date: 2017-01-30 23:07-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Acholi\n"
 "MIME-Version: 1.0\n"
@@ -15,6 +15,9 @@ msgstr ""
 "X-Crowdin-File: /beta/src/config/locales/messages.pot\n"
 "Language: ach_UG\n"
 
+msgid " How do we calculate interest fees for short positions?"
+msgstr "crwdns19130:0crwdne19130:0"
+
 msgid "%1 gives everyone an easy way to participate in the financial markets. Trade with as little as $1 USD on major currencies, stocks, indices, and commodities."
 msgstr "crwdns18179:0%1crwdne18179:0"
 
@@ -23,12 +26,6 @@ msgstr "crwdns18180:0%1crwdnd18180:0%2crwdnd18180:0%2crwdne18180:0"
 
 msgid "%1 offers forex and contracts for differences via the hybrid model, i.e., both dealing on own account (dealing desk) and partially hedging client orders with our liquidity providers (no-dealing desk). Client orders are typically hedged when the total transaction volume exceeds a predefined threshold of risk tolerance level. For both execution models, %1 acts as the contractual counterparty to the transactions that you enter into with us, as opposed to entering into a contractual counterparty with a central clearing house as would be the case with exchange traded financial instruments. As such, counterparty risk exists. Counterparty risk refers to the risk of loss for clients resulting from the fact that the counterparty to the forex and/or contracts for differences transaction that you entered into may default on its obligations prior to the final settlement of the transaction's cash flow."
 msgstr "crwdns18181:0%1crwdnd18181:0%1crwdne18181:0"
-
-msgid "%1 to your Binary.com account to create an MT5 account"
-msgstr "crwdns18686:0%1crwdne18686:0"
-
-msgid "&#36;1/point"
-msgstr "crwdns18182:0crwdne18182:0"
 
 msgid "&#36;100,000 - &#36;250,000"
 msgstr "crwdns18183:0crwdne18183:0"
@@ -51,17 +48,20 @@ msgstr "crwdns18188:0crwdne18188:0"
 msgid "&copy; 2016 Binary.com"
 msgstr "crwdns18189:0crwdne18189:0"
 
-msgid "* Minimum Spread is a percentage of the underlying market price, and can change over time."
-msgstr "crwdns18190:0crwdne18190:0"
-
-msgid "** Leverage of 500:1 results in a margin rate of 0.002."
-msgstr "crwdns18191:0crwdne18191:0"
+msgid "(Sell Price - Buy Price) x Volume x Price Per Point = Profit"
+msgstr "crwdns19131:0crwdne19131:0"
 
 msgid "0-1 year"
 msgstr "crwdns18192:0crwdne18192:0"
 
 msgid "0-5 transactions in the past 12 months"
 msgstr "crwdns18193:0crwdne18193:0"
+
+msgid "1 x 100,000 / 100 = EUR 1,000"
+msgstr "crwdns19132:0crwdne19132:0"
+
+msgid "1 x 20,000 / 100 = EUR 200"
+msgstr "crwdns19133:0crwdne19133:0"
 
 msgid "1-2 years"
 msgstr "crwdns18194:0crwdne18194:0"
@@ -75,14 +75,17 @@ msgstr "crwdns18196:0crwdne18196:0"
 msgid "<a href=\"%1\">Return to MetaTrader Settings</a>."
 msgstr "crwdns18197:0%1crwdne18197:0"
 
-msgid "<strong>Margin Call Level</strong> - when you reach this level of assets (i.e., when your account equity is insufficient to cover the margin requirement), your account is under margin call. The margin call state does not affect the ability of opening new positions."
-msgstr "crwdns18198:0crwdne18198:0"
+msgid "<strong>Long positions</strong>: We charge a 2% fee on top of interbank lending rates."
+msgstr "crwdns19134:0crwdne19134:0"
 
-msgid "<strong>Margin Policy:</strong> The forced liquidation level is 50%. Please refer to our <a href=\"%1\">Margin Policy</a> for further details."
-msgstr "crwdns18199:0%1crwdne18199:0"
+msgid "<strong>Long positions</strong>: We charge a 2% fee on top of market rates."
+msgstr "crwdns19135:0crwdne19135:0"
 
-msgid "<strong>Stop Out Level</strong> - when you reach this level of assets, your pending orders are deleted and open positions are forced closed. The forced liquidation level is 50%. Once the account has hit the forced liquidation level, orders and positions are forcedly closed on an account in the following order:"
-msgstr "crwdns18200:0crwdne18200:0"
+msgid "<strong>Short positions</strong>: We charge a 2% fee on top of interbank lending rates."
+msgstr "crwdns19136:0crwdne19136:0"
+
+msgid "<strong>Short positions</strong>: We charge a 2% fee on top of market rates."
+msgstr "crwdns19137:0crwdne19137:0"
 
 msgid "A Transaction is opened by either executing a \"Buy\" or \"Sell\" Order based on a specified number of lots (volume) that constitute the underlying instrument of the relevant market."
 msgstr "crwdns18201:0crwdne18201:0"
@@ -104,6 +107,27 @@ msgstr "crwdns18206:0crwdne18206:0"
 
 msgid "A. Spot FX"
 msgstr "crwdns18207:0crwdne18207:0"
+
+msgid "AUD 1 per point"
+msgstr "crwdns19138:0crwdne19138:0"
+
+msgid "AUD/CAD"
+msgstr "crwdns19139:0crwdne19139:0"
+
+msgid "AUD/CHF"
+msgstr "crwdns19140:0crwdne19140:0"
+
+msgid "AUD/JPY"
+msgstr "crwdns19141:0crwdne19141:0"
+
+msgid "AUD/NZD"
+msgstr "crwdns19142:0crwdne19142:0"
+
+msgid "AUD/USD"
+msgstr "crwdns19143:0crwdne19143:0"
+
+msgid "AUS_200"
+msgstr "crwdns19144:0crwdne19144:0"
 
 msgid "Access advanced tools for fundamental and technical analysis, all available in one platform."
 msgstr "crwdns18208:0crwdne18208:0"
@@ -180,6 +204,9 @@ msgstr "crwdns18231:0crwdne18231:0"
 msgid "Assessment of Appropriateness"
 msgstr "crwdns18232:0crwdne18232:0"
 
+msgid "Australia 200 Cash Index"
+msgstr "crwdns19145:0crwdne19145:0"
+
 msgid "Authenticate your Binary.com account to create an MT5 Financial Account."
 msgstr "crwdns18690:0crwdne18690:0"
 
@@ -240,8 +267,20 @@ msgstr "crwdns18250:0crwdne18250:0"
 msgid "C. Provision of Services"
 msgstr "crwdns18251:0crwdne18251:0"
 
-msgid "CFDs on Volatility Indices"
-msgstr "crwdns18252:0crwdne18252:0"
+msgid "CAD 1 per point"
+msgstr "crwdns19146:0crwdne19146:0"
+
+msgid "CAN_60"
+msgstr "crwdns19147:0crwdne19147:0"
+
+msgid "CFD (Contract for Difference): CFD is an instrument that allows you to profit by speculating on the rise or fall of an instrument. The profit/loss is estimated as a function of the difference in the buy/sell prices of the underlying instrument."
+msgstr "crwdns19148:0crwdne19148:0"
+
+msgid "Canada 60 Cash Index"
+msgstr "crwdns19149:0crwdne19149:0"
+
+msgid "Cash Indices"
+msgstr "crwdns19150:0crwdne19150:0"
 
 msgid "Change API Endpoint"
 msgstr "crwdns18253:0crwdne18253:0"
@@ -303,6 +342,15 @@ msgstr "crwdns18269:0crwdne18269:0"
 msgid "Contract Specifications"
 msgstr "crwdns18270:0crwdne18270:0"
 
+msgid "Contract Specifications (CFD) - Cash Indices"
+msgstr "crwdns19151:0crwdne19151:0"
+
+msgid "Contract Specifications (CFD) - Volatility Indices"
+msgstr "crwdns19152:0crwdne19152:0"
+
+msgid "Contract Specifications - Forex"
+msgstr "crwdns19153:0crwdne19153:0"
+
 msgid "Costs - the costs of executing your order comprised predominantly of spread, i.e., the difference between our bid and our offer price."
 msgstr "crwdns18271:0crwdne18271:0"
 
@@ -321,11 +369,17 @@ msgstr "crwdns18696:0crwdne18696:0"
 msgid "Create account"
 msgstr "crwdns18697:0crwdne18697:0"
 
+msgid "Currency Symbol"
+msgstr "crwdns19154:0crwdne19154:0"
+
 msgid "D. Capacity"
 msgstr "crwdns18275:0crwdne18275:0"
 
 msgid "D. Client Instructions"
 msgstr "crwdns18276:0crwdne18276:0"
+
+msgid "DAX_30"
+msgstr "crwdns19155:0crwdne19155:0"
 
 msgid "Demo"
 msgstr "crwdns18277:0crwdne18277:0"
@@ -345,11 +399,11 @@ msgstr "crwdns18698:0crwdne18698:0"
 msgid "Deposit is done. Transaction ID: %1"
 msgstr "crwdns18283:0%1crwdne18283:0"
 
+msgid "Description"
+msgstr "crwdns19156:0crwdne19156:0"
+
 msgid "Details"
 msgstr "crwdns18286:0crwdne18286:0"
-
-msgid "Don't have a Binary.com account? <a href=\"%1\">Create one</a> now"
-msgstr "crwdns18699:0%1crwdne18699:0"
 
 msgid "Download MetaTrader"
 msgstr "crwdns18287:0crwdne18287:0"
@@ -372,8 +426,41 @@ msgstr "crwdns18291:0crwdne18291:0"
 msgid "E. Best Execution Obligation"
 msgstr "crwdns18292:0crwdne18292:0"
 
+msgid "ESP_35"
+msgstr "crwdns19157:0crwdne19157:0"
+
+msgid "EUR 1 per point"
+msgstr "crwdns19158:0crwdne19158:0"
+
+msgid "EUR/AUD"
+msgstr "crwdns19159:0crwdne19159:0"
+
+msgid "EUR/CAD"
+msgstr "crwdns19160:0crwdne19160:0"
+
+msgid "EUR/CHF"
+msgstr "crwdns19161:0crwdne19161:0"
+
+msgid "EUR/GBP"
+msgstr "crwdns19162:0crwdne19162:0"
+
+msgid "EUR/JPY"
+msgstr "crwdns19163:0crwdne19163:0"
+
+msgid "EUR/NZD"
+msgstr "crwdns19164:0crwdne19164:0"
+
+msgid "EUR/USD"
+msgstr "crwdns19165:0crwdne19165:0"
+
+msgid "EUR_50"
+msgstr "crwdns19166:0crwdne19166:0"
+
 msgid "Each of the following event constitutes an \"Event of Default\":"
 msgstr "crwdns18293:0crwdne18293:0"
+
+msgid "Each time you open a position on a Volatility Index symbol, you can start with a minimum volume transaction of 0.01 (trade size), which translates to USD 0.01 per point movement of the index."
+msgstr "crwdns19167:0crwdne19167:0"
 
 msgid "Education"
 msgstr "crwdns18294:0crwdne18294:0"
@@ -383,6 +470,9 @@ msgstr "crwdns18295:0crwdne18295:0"
 
 msgid "Estimated Net Worth"
 msgstr "crwdns18296:0crwdne18296:0"
+
+msgid "Euro 50 Cash Index"
+msgstr "crwdns19168:0crwdne19168:0"
 
 msgid "Event - Event examples include circumstances whereby the type of Transaction to which your Order is related to ceased to be offered, or a Corporate Event or the insolvency of a Company whose shares represent are related to the subject matter of the Order, and others."
 msgstr "crwdns18297:0crwdne18297:0"
@@ -399,6 +489,9 @@ msgstr "crwdns18300:0crwdne18300:0"
 msgid "F. Orders"
 msgstr "crwdns18301:0crwdne18301:0"
 
+msgid "FRA_40"
+msgstr "crwdns19169:0crwdne19169:0"
+
 msgid "Finance"
 msgstr "crwdns18302:0crwdne18302:0"
 
@@ -414,11 +507,29 @@ msgstr "crwdns18305:0crwdne18305:0"
 msgid "Financial Information"
 msgstr "crwdns18306:0crwdne18306:0"
 
+msgid "For e.g. If you buy 1 Volume of Volatility 100 Index at a price of EUR 20,000 and a margin rate of 0.01(1%), the margin required to purchase that one lot will be calculated as follows:"
+msgstr "crwdns19170:0crwdne19170:0"
+
+msgid "For e.g. If you buy one lot of the EUR/USD symbol with a contract size of 100,000 and leverage of 100:1, the margin required to purchase that one lot will be calculated as follows:"
+msgstr "crwdns19171:0crwdne19171:0"
+
+msgid "For example, if you wanted to purchase 100 units of a particular asset trading at USD 50 per unit through a traditional broker, it would cost you USD 5,000 for this transaction."
+msgstr "crwdns19172:0crwdne19172:0"
+
+msgid "For example, the CFDs on US 30 Cash Index offer a USD 1 per point contract. If you buy a Volume 1.0 contract for the US 30 Cash Index with current ask price of USD 20,000 and later sell it at a bid price of USD 20,010, your net profit will be calculated as follows:"
+msgstr "crwdns19173:0crwdne19173:0"
+
+msgid "For example, the CFDs on Volatility Indices offer a USD 1 per point contract. If you buy a Volume 1.0 contract for the Volatility 100 Index with current ask price of USD 20,000 and later sell it at a bid price of USD 20,010, your net profit will be calculated as follows:"
+msgstr "crwdns19174:0crwdne19174:0"
+
 msgid "For features and trading illustration of Spot FX offered by Binary.com, refer to the Product Disclosure Statement. This policy is an appendix to the overarching Binary.com Order Execution Policy and should be read in conjunction with the overarching Binary.com Order Execution Policy."
 msgstr "crwdns18307:0crwdne18307:0"
 
 msgid "Force majeure event, if and when determined, means, (i) the Company, by reason of force majeure or act of state, is prevented from or hindered or delayed in delivering or receiving, or is impossible to deliver or receive, any quotation of the bid and offer price of a market in one or more of the instruments which we ordinarily deal in Transactions; (ii) an excessive movement in the market of the instrument or our reasonable anticipation of the potential occurrence of market disruption."
 msgstr "crwdns18308:0crwdne18308:0"
+
+msgid "Forex"
+msgstr "crwdns19175:0crwdne19175:0"
 
 msgid "Forex and contract for differences transactions involve a high degree of risk and are speculative because they allow you to speculate on the short term movements of the price of the underlying financial instruments. You should not enter into forex and/or contracts for differences transactions unless you are able to sustain losses that exceed your deposited funds. It is important for you to understand that in order to realise any value from your open positions, you would have to enter into a corresponding transaction to close your open positions and you may find it difficult or impossible to do so under certain market conditions."
 msgstr "crwdns18309:0crwdne18309:0"
@@ -432,6 +543,9 @@ msgstr "crwdns18311:0crwdne18311:0"
 msgid "Forex trading frequency"
 msgstr "crwdns18312:0crwdne18312:0"
 
+msgid "France 40 Cash Index"
+msgstr "crwdns19176:0crwdne19176:0"
+
 msgid "Fund Transfers"
 msgstr "crwdns18313:0crwdne18313:0"
 
@@ -444,8 +558,26 @@ msgstr "crwdns18315:0crwdne18315:0"
 msgid "G. Order Handling"
 msgstr "crwdns18316:0crwdne18316:0"
 
+msgid "GBP 1 per point"
+msgstr "crwdns19177:0crwdne19177:0"
+
+msgid "GBP/CHF"
+msgstr "crwdns19178:0crwdne19178:0"
+
+msgid "GBP/JPY"
+msgstr "crwdns19179:0crwdne19179:0"
+
+msgid "GBP/USD"
+msgstr "crwdns19180:0crwdne19180:0"
+
+msgid "GBP_100"
+msgstr "crwdns19181:0crwdne19181:0"
+
 msgid "General Provisions"
 msgstr "crwdns18317:0crwdne18317:0"
+
+msgid "German 30 Cash Index"
+msgstr "crwdns19182:0crwdne19182:0"
 
 msgid "Given our role as margin trading service provider as described in this Agreement, we seek to avoid undue market influence to the extent consistent with your trading needs and our risk management policies and procedures. By continuing to use the margin trading service described in this Agreement, you acknowledge that you are aware of the potential conflict of interest disclosed that may arise and cannot be completely eliminated, and you consent us to act notwithstanding such potential conflict of interests."
 msgstr "crwdns18318:0crwdne18318:0"
@@ -477,11 +609,26 @@ msgstr "crwdns18325:0crwdne18325:0"
 msgid "High frequency (2 ticks per second)"
 msgstr "crwdns18326:0crwdne18326:0"
 
+msgid "How do we calculate interest fees for long positions?"
+msgstr "crwdns19183:0crwdne19183:0"
+
+msgid "How is margin calculated?"
+msgstr "crwdns19184:0crwdne19184:0"
+
+msgid "How to read the table above"
+msgstr "crwdns19185:0crwdne19185:0"
+
 msgid "I have read and agreed to the"
 msgstr "crwdns18702:0crwdne18702:0"
 
 msgid "I. Quotes"
 msgstr "crwdns18328:0crwdne18328:0"
+
+msgid "I.e. (20010 - 20000) x 1 x 1 = USD 10"
+msgstr "crwdns19186:0crwdne19186:0"
+
+msgid "IND_30"
+msgstr "crwdns19187:0crwdne19187:0"
 
 msgid "If a closing Transaction in the same market is entered into but with a higher number of lots, the original Open Position will be closed and a new Open Position will be entered into for the number of lots by which the new Transaction exceeds the Open Position."
 msgstr "crwdns18329:0crwdne18329:0"
@@ -494,12 +641,6 @@ msgstr "crwdns18331:0crwdne18331:0"
 
 msgid "If the issue keeps happening, please contact <a>customer support</a>."
 msgstr "crwdns18332:0crwdne18332:0"
-
-msgid "If the level of assets is still under the Stop Out Level, the server closes a position with the largest loss."
-msgstr "crwdns18333:0crwdne18333:0"
-
-msgid "If the level of assets is still under the Stop Out level, the next order is deleted. Orders without margin requirements are not deleted."
-msgstr "crwdns18334:0crwdne18334:0"
 
 msgid "If we determine that a force majeure event exists, the Company shall promptly give notice thereof to the client. Subsequently, we may, at our absolute discretion, take one or more of the following steps:"
 msgstr "crwdns18335:0crwdne18335:0"
@@ -516,6 +657,9 @@ msgstr "crwdns18338:0crwdne18338:0"
 msgid "If you have entered into more than one Open Position in the same market, any closing Transaction that you place in the same market will close the Open Positions in the chronological order in which the Open Positions were first created on a first in first out basis."
 msgstr "crwdns18339:0crwdne18339:0"
 
+msgid "If you keep any positions open overnight, an interest adjustment will be made to your trading account as indication of the cost required to keep your position open. This adjustment is based on interbank lending rates, on top of a 2% fee."
+msgstr "crwdns19188:0crwdne19188:0"
+
 msgid "If you previously downloaded MetaTrader 5 directly from MetaTrader's website, please select \"%1\" from the list of available brokers."
 msgstr "crwdns18340:0%1crwdne18340:0"
 
@@ -528,11 +672,20 @@ msgstr "crwdns18342:0crwdne18342:0"
 msgid "If your Binary Options Real Account with Binary.com is not authenticated, access to create the Real Account shall not be granted until your Binary Options Real Account with Binary.com is authenticated."
 msgstr "crwdns18343:0crwdne18343:0"
 
+msgid "If your account is placed under margin call for an extended period of time, it will reach the stop out level where it's unable to sustain an open position. This will lead to your pending orders being deleted, and open positions being forcibly closed (also known as forced liquidation)."
+msgstr "crwdns19189:0crwdne19189:0"
+
 msgid "If your complaint relates to an outcome of a Transaction and remains unresolved, it will turn into a dispute. Should you be unsatisfied with our response, you can choose to escalate your complaint to an alternative dispute resolution entity."
 msgstr "crwdns18344:0crwdne18344:0"
 
-msgid "Implementation of Margin Call"
-msgstr "crwdns18345:0crwdne18345:0"
+msgid "If your margin level is still under the stop out level, we will close an open position with the largest loss."
+msgstr "crwdns19190:0crwdne19190:0"
+
+msgid "If your margin level is still under the stop out level, your next order will be deleted. However, orders without margin requirements will not be deleted."
+msgstr "crwdns19191:0crwdne19191:0"
+
+msgid "Important notes on our swap rates (overnight funding)"
+msgstr "crwdns19192:0crwdne19192:0"
 
 msgid "In accordance with applicable regulatory requirements, where we do not manage to obtain sufficient information to assess the appropriateness of the product or service for you, we will similarly inform you that we are not in a position to assess appropriateness."
 msgstr "crwdns18346:0crwdne18346:0"
@@ -561,6 +714,9 @@ msgstr "crwdns18354:0crwdne18354:0"
 msgid "Income Source"
 msgstr "crwdns18355:0crwdne18355:0"
 
+msgid "India 50 Cash Index"
+msgstr "crwdns19193:0crwdne19193:0"
+
 msgid "Indices trading experience"
 msgstr "crwdns18356:0crwdne18356:0"
 
@@ -582,14 +738,20 @@ msgstr "crwdns18703:0crwdne18703:0"
 msgid "Investor password cannot be same as Main password."
 msgstr "crwdns18704:0crwdne18704:0"
 
-msgid "It deletes an order with the largest margin reserved."
-msgstr "crwdns18363:0crwdne18363:0"
-
 msgid "It is your responsibility to keep your password and login ID confidential. You agree that you will not disclose your password and login ID to any other person;"
 msgstr "crwdns18364:0crwdne18364:0"
 
 msgid "J. Trading Transactions"
 msgstr "crwdns18365:0crwdne18365:0"
+
+msgid "JPY 1 per point"
+msgstr "crwdns19194:0crwdne19194:0"
+
+msgid "JP_225"
+msgstr "crwdns19195:0crwdne19195:0"
+
+msgid "Japan Cash Index"
+msgstr "crwdns19196:0crwdne19196:0"
 
 msgid "K. Electronic Trading Platform and Transactions"
 msgstr "crwdns18366:0crwdne18366:0"
@@ -606,6 +768,12 @@ msgstr "crwdns18368:0crwdne18368:0"
 msgid "Less than &#36;25,000"
 msgstr "crwdns18369:0crwdne18369:0"
 
+msgid "Let's say the points adjustment for a long position on the EUR/USD symbol is -5.64. This would require an overnight fee of 5.64 points for one lot of open position in EUR/USD, where the size of one lot is 100,000 units. The points will then be converted into the deposit currency (which is the euro in this example). As a result, you will incur an interest fee of EUR5.64 for keeping the position open overnight."
+msgstr "crwdns19197:0crwdne19197:0"
+
+msgid "Let's say the points adjustment for a short position on the EUR/USD symbol is 1.64. This would result in an overnight credit of 1.64 points for one lot of open position in EUR/USD where the size of one lot is 100,000 units. The points will then be converted into the deposit currency (which is the euro in this example). As a result, you will be credited with EUR1.64 for keeping the position open overnight."
+msgstr "crwdns19198:0crwdne19198:0"
+
 msgid "Level of Education"
 msgstr "crwdns18370:0crwdne18370:0"
 
@@ -614,6 +782,9 @@ msgstr "crwdns18371:0crwdne18371:0"
 
 msgid "Leverage can be used to generate returns that are of multiple times higher than the amount set aside from your account balance to open and maintain a transaction (your margin). However, investments that have the potential to deliver greater investment returns carry higher levels of risk. This means that if the price movement is against your favour, you will suffer losses that are of multiple times higher than the amount set aside from your account balance to open and maintain a transaction (your margin)."
 msgstr "crwdns18372:0crwdne18372:0"
+
+msgid "Leverage indicates how much capital you can control based on your initial deposit. For example, a 100:1 leverage will allow you to control up to USD 100,000 using only USD 1,000 of your own money as deposit."
+msgstr "crwdns19199:0crwdne19199:0"
 
 msgid "Leverage, in the context of margin trading, refers to the use of margin to increase/amplify the value of a trade. Leverage is expressed as a ratio. A 50:1 leverage, for example, means that you would be able to enter into a trade position that is of 50 times higher than your margin. When you invest in a leveraged product, your profit or loss is based on the leveraged position, i.e., the increased/amplified value of your trade determined based on the leverage ratio you set for your account."
 msgstr "crwdns18373:0crwdne18373:0"
@@ -639,6 +810,9 @@ msgstr "crwdns18379:0crwdne18379:0"
 msgid "Login ID"
 msgstr "crwdns18706:0crwdne18706:0"
 
+msgid "Lot Size (Volume = 1.0)"
+msgstr "crwdns19200:0crwdne19200:0"
+
 msgid "M. Manifest Error"
 msgstr "crwdns18380:0crwdne18380:0"
 
@@ -654,14 +828,11 @@ msgstr "crwdns18709:0crwdne18709:0"
 msgid "Make a withdrawal"
 msgstr "crwdns18710:0crwdne18710:0"
 
+msgid "Margin"
+msgstr "crwdns19201:0crwdne19201:0"
+
 msgid "Margin - The amount set aside by us from your Account Balance in order to open and maintain a Transaction, to cover our exposure as a counterparty to your contract."
 msgstr "crwdns18382:0crwdne18382:0"
-
-msgid "Margin = Volume (size) * price * margin rate"
-msgstr "crwdns18383:0crwdne18383:0"
-
-msgid "Margin Calculation"
-msgstr "crwdns18384:0crwdne18384:0"
 
 msgid "Margin Level - Ratio of Account Equity to Total Margin, expressed as a percentage."
 msgstr "crwdns18385:0crwdne18385:0"
@@ -678,26 +849,41 @@ msgstr "crwdns18388:0crwdne18388:0"
 msgid "Margin Requirement and Calculation"
 msgstr "crwdns18389:0crwdne18389:0"
 
-msgid "Margin allows you to trade on leverage, allowing you to gain the same amount of market exposure using much less capital. For example, if you want to purchase 100 units of a particular asset trading at 50 USD/unit through a traditional broker you will need to pay 100*50 = 5000 USD for this transaction. However, trading a CFD on the same asset using a margin account, you can have similar exposure using much less capital (a margin rate of 0.01, essentially a leverage of 100:1, would simply need 5000*0.01= 50 USD to make this trade)."
-msgstr "crwdns18390:0crwdne18390:0"
+msgid "Margin allows you to trade on leverage, giving you the same level of market exposure using much less capital."
+msgstr "crwdns19202:0crwdne19202:0"
 
-msgid "Maximum Leverage**"
-msgstr "crwdns18391:0crwdne18391:0"
+msgid "Margin indicates how much investment you can control based on your initial capital. For example, a 0.2% margin will allow you to control up to USD 500,000 using only USD 1,000 of your own money as deposit."
+msgstr "crwdns19203:0crwdne19203:0"
+
+msgid "Margin indicates how much investment you can control based on your initial capital. For example, a 1% margin will allow you to control up to USD 100,000 using only USD 1,000 of your own money as deposit."
+msgstr "crwdns19204:0crwdne19204:0"
+
+msgid "Maximum Leverage"
+msgstr "crwdns19205:0crwdne19205:0"
 
 msgid "Maximum Volume (Trade Size)"
 msgstr "crwdns18392:0crwdne18392:0"
 
+msgid "Maximum Volume<br>(Trade Size)"
+msgstr "crwdns19206:0crwdne19206:0"
+
 msgid "MetaTrader account management"
 msgstr "crwdns18711:0crwdne18711:0"
 
-msgid "Minimum Increment (Volume)"
-msgstr "crwdns18396:0crwdne18396:0"
+msgid "Minimum Spread"
+msgstr "crwdns19207:0crwdne19207:0"
 
-msgid "Minimum Spread*"
-msgstr "crwdns18397:0crwdne18397:0"
+msgid "Minimum Volume"
+msgstr "crwdns19208:0crwdne19208:0"
 
 msgid "Minimum Volume (Trade Size)"
 msgstr "crwdns18398:0crwdne18398:0"
+
+msgid "Minimum Volume Increment"
+msgstr "crwdns19209:0crwdne19209:0"
+
+msgid "Minimum Volume<br>(Trade Size)"
+msgstr "crwdns19210:0crwdne19210:0"
 
 msgid "Minimum eight characters. Must contain numbers, and mix of upper and lower case letters."
 msgstr "crwdns18712:0crwdne18712:0"
@@ -708,6 +894,12 @@ msgstr "crwdns18400:0crwdne18400:0"
 msgid "N. Force Majeure Events"
 msgstr "crwdns18401:0crwdne18401:0"
 
+msgid "NED_25"
+msgstr "crwdns19211:0crwdne19211:0"
+
+msgid "NZD/USD"
+msgstr "crwdns19212:0crwdne19212:0"
+
 msgid "Name"
 msgstr "crwdns18402:0crwdne18402:0"
 
@@ -716,6 +908,9 @@ msgstr "crwdns18403:0crwdne18403:0"
 
 msgid "Net Annual Income"
 msgstr "crwdns18404:0crwdne18404:0"
+
+msgid "Netherlands 25 Cash Index"
+msgstr "crwdns19213:0crwdne19213:0"
 
 msgid "Next Available Price - Earliest price reasonably available and quoted by Binary.com when our Price quotation reaches or goes beyond the level of your Stop Order."
 msgstr "crwdns18405:0crwdne18405:0"
@@ -734,6 +929,9 @@ msgstr "crwdns18409:0crwdne18409:0"
 
 msgid "On the occurrence of an Event of Default, we may exercise our rights under this clause by, at any time and without prior notice:"
 msgstr "crwdns18410:0crwdne18410:0"
+
+msgid "Once your account hits the forced liquidation level, your orders and positions are forcibly closed in the following order:"
+msgstr "crwdns19214:0crwdne19214:0"
 
 msgid "Oops... Page Not Available"
 msgstr "crwdns18411:0crwdne18411:0"
@@ -780,6 +978,9 @@ msgstr "crwdns18424:0crwdne18424:0"
 msgid "Our information security policies are based on industry best practices in access control and business continuity; and"
 msgstr "crwdns18425:0crwdne18425:0"
 
+msgid "Our swap rate may also be adjusted to take holidays into account."
+msgstr "crwdns19215:0crwdne19215:0"
+
 msgid "Over &#36;1,000,000"
 msgstr "crwdns18426:0crwdne18426:0"
 
@@ -801,6 +1002,9 @@ msgstr "crwdns18431:0crwdne18431:0"
 msgid "Pip Size"
 msgstr "crwdns18432:0crwdne18432:0"
 
+msgid "Please contact <a href=\"%1\" target=\"_blank\">customer support</a> for more information."
+msgstr "crwdns19216:0%1crwdne19216:0"
+
 msgid "Please contact <a href=\"%1\">Customer Support</a>."
 msgstr "crwdns18434:0%1crwdne18434:0"
 
@@ -810,8 +1014,14 @@ msgstr "crwdns18435:0crwdne18435:0"
 msgid "Please select a value"
 msgstr "crwdns18436:0crwdne18436:0"
 
-msgid "Positions are closed until the level of assets becomes higher that the Stop Out Level."
-msgstr "crwdns18437:0crwdne18437:0"
+msgid "Please take note that our swap rate also depends on the time and days you hold your positions open: "
+msgstr "crwdns19217:0crwdne19217:0"
+
+msgid "Positions that are still open on Friday at market close will be charged three times the swap rate to account for weekends, a standard practice for all brokers."
+msgstr "crwdns19218:0crwdne19218:0"
+
+msgid "Positions that are still open on Wednesday at 23:59:59 GMT will be charged three times the swap rate to account for weekends, a standard practice for all Forex brokers."
+msgstr "crwdns19219:0crwdne19219:0"
 
 msgid "Potential Conflicts of Interest"
 msgstr "crwdns18438:0crwdne18438:0"
@@ -906,14 +1116,20 @@ msgstr "crwdns18467:0crwdne18467:0"
 msgid "Sorry, an error occurred while processing your request."
 msgstr "crwdns18468:0crwdne18468:0"
 
+msgid "South Africa 40 Cash Index"
+msgstr "crwdns19220:0crwdne19220:0"
+
+msgid "Spain 35 Cash Index"
+msgstr "crwdns19221:0crwdne19221:0"
+
 msgid "Speed - the speed at which your order can be executed."
 msgstr "crwdns18469:0crwdne18469:0"
 
 msgid "Start Trading with MetaTrader 5"
 msgstr "crwdns18470:0crwdne18470:0"
 
-msgid "Start trading Forex and CFDs with Binary.com"
-msgstr "crwdns18713:0crwdne18713:0"
+msgid "Start trading Forex and CFDs with MetaTrader 5"
+msgstr "crwdns19222:0crwdne19222:0"
 
 msgid "Start trading with MT5:"
 msgstr "crwdns18714:0crwdne18714:0"
@@ -960,6 +1176,9 @@ msgstr "crwdns18484:0crwdne18484:0"
 msgid "Symbol"
 msgstr "crwdns18485:0crwdne18485:0"
 
+msgid "Take advantage of MT5's advanced features and tools for a complete trading experience."
+msgstr "crwdns19223:0crwdne19223:0"
+
 msgid "Terms and Conditions"
 msgstr "crwdns18486:0crwdne18486:0"
 
@@ -981,6 +1200,9 @@ msgstr "crwdns18491:0crwdne18491:0"
 msgid "The Company sources market data from prime brokers who act as liquidity providers, thus executing your Transactions through a pool of aggregated liquidity from top tier banks. The services offered by the Company do not include physical delivery of foreign currency by us or the prime brokers to yourselves. You acknowledge and agree that such data is proprietary to us and any such provider, and you will not retransmit, redistribute, publish, disclose, or display in whole or in part such data to third parties. You represent and warrant that you will only use such data for purposes of facilitating your entry into Transactions with us on your Real Account in accordance with this Agreement and not for any other purpose. This clause does not apply to Volatility Indices."
 msgstr "crwdns18492:0crwdne18492:0"
 
+msgid "The Forex is typically traded in <i>lots</i>. One standard <i>lots</i> is equivalent to 100,000 units. Each time you open a position on a currency symbol, you can start with a minimum transaction of <i>0.01 lots</i>."
+msgstr "crwdns19224:0crwdne19224:0"
+
 msgid "The Margin Level of your Real Account reaches or falls below the Stop Out Level;"
 msgstr "crwdns18493:0crwdne18493:0"
 
@@ -989,9 +1211,6 @@ msgstr "crwdns18494:0crwdne18494:0"
 
 msgid "The Margin Requirements can increase / decrease based on the aggregated size of your Open Position determined by the volume (number of lots), contract size (value per point in the original currency of the contract), market price and margin rate."
 msgstr "crwdns18495:0crwdne18495:0"
-
-msgid "The Margin calculation for CFDs on Volatility Indices depends on volume (size), price and margin rate."
-msgstr "crwdns18496:0crwdne18496:0"
 
 msgid "The Policy is supplemented by Appendix A which provide further details to our considerations as they are related to differing asset classes. The accompanying Appendix A should be read in conjunction with this Policy."
 msgstr "crwdns18497:0crwdne18497:0"
@@ -1026,8 +1245,20 @@ msgstr "crwdns18506:0crwdne18506:0"
 msgid "The instruments available on the electronic trading platform (including their availability for trading);"
 msgstr "crwdns18507:0crwdne18507:0"
 
+msgid "The interest adjustment is calculated in points, meaning we will convert the relevant interbank lending rates to points in the base currency."
+msgstr "crwdns19225:0crwdne19225:0"
+
+msgid "The interest adjustment is calculated in points, meaning we will convert the relevant market rates to points in the base instrument."
+msgstr "crwdns19226:0crwdne19226:0"
+
 msgid "The leverage ratio refers to the number of times your margin (the amount set aside from your account balance to open and maintain a transaction) can be \"leveraged\" to enter into a Transaction. The denominator of the leverage ratio is always 1. A 50:1 leverage is equivalent to a 2% margin requirement (1 divided by 50 = 2%). The leverage ratio that we/you establish will determine the amount of margin required. As leverage is inversely proportional to margin, the lower the leverage you set for your Account, the higher the margin required to be set aside from your account balance (your margin requirement)."
 msgstr "crwdns18508:0crwdne18508:0"
+
+msgid "The margin for our CFDs on Volatility Indices is calculated as follows:"
+msgstr "crwdns19227:0crwdne19227:0"
+
+msgid "The margin for our Forex trades is calculated as follows:"
+msgstr "crwdns19228:0crwdne19228:0"
 
 msgid "The margin trading services described in this Agreement are conducted over the counter. This means that the market in one or more of the instruments which you ordinarily transact with us, though quoted on an exchange, are not traded on an exchange when transacted through the electronic trading platform as described in this Agreement."
 msgstr "crwdns18509:0crwdne18509:0"
@@ -1050,8 +1281,8 @@ msgstr "crwdns18514:0crwdne18514:0"
 msgid "The provision of the margin trading services described in this Agreement is not available in the European Union."
 msgstr "crwdns18515:0crwdne18515:0"
 
-msgid "The server analyzes client's orders that are not under execution at the moment."
-msgstr "crwdns18516:0crwdne18516:0"
+msgid "The swap rate will depend on the direction of the position you take:"
+msgstr "crwdns19229:0crwdne19229:0"
 
 msgid "The system fills orders on a first-in-first out basis, i.e. based on the sequence of the order received, and this is beyond our control. As a result, you may find it difficult or impossible to close a position at the intended price stipulated in your Stop Order during certain market conditions. The placement of Stop Order by you, though useful as a risk management tool, will not necessarily limit your losses to your intended amounts, in the event of highly volatile trading conditions, since market conditions may make it impossible to execute such orders and there is uncertainty about your possible exit price. In short, a Stop Order is not guaranteed because it cannot operate whatever the market circumstances are."
 msgstr "crwdns18517:0crwdne18517:0"
@@ -1110,8 +1341,20 @@ msgstr "crwdns18719:0%1crwdne18719:0"
 msgid "To deposit or withdraw from your MT5 Account, switch to your Binary.com Real Account."
 msgstr "crwdns18720:0crwdne18720:0"
 
+msgid "To learn more, read our <a href=\"%1\">Margin Policy</a> that further explains our 100% forced liquidation level for Forex."
+msgstr "crwdns19230:0%1crwdne19230:0"
+
+msgid "To learn more, read our <a href=\"%1\">Margin Policy</a> that further explains our 50% forced liquidation level for Volatility Indices."
+msgstr "crwdns19231:0%1crwdne19231:0"
+
+msgid "To learn more, read our <a href=\"%1\">Margin Policy</a> that further explains our margin requirements."
+msgstr "crwdns19232:0%1crwdne19232:0"
+
 msgid "To open a Real Account, you must have an authenticated Binary Options Real Account with Binary.com. A Real Account cannot be opened in the absence of a Binary Options Real Account."
 msgstr "crwdns18535:0crwdne18535:0"
+
+msgid "To register an MT5 account, please %1 to your Binary.com account <br/> Don't have a Binary.com account? <a href=\"%2\">Create one</a> now"
+msgstr "crwdns19233:0%1crwdnd19233:0%2crwdne19233:0"
 
 msgid "Total Margin - The aggregate of all Margin Requirements in your Real Account."
 msgstr "crwdns18536:0crwdne18536:0"
@@ -1151,6 +1394,39 @@ msgstr "crwdns18723:0crwdne18723:0"
 
 msgid "Transfer into"
 msgstr "crwdns18724:0crwdne18724:0"
+
+msgid "UK 100 Cash Index"
+msgstr "crwdns19234:0crwdne19234:0"
+
+msgid "US 100 Cash Index"
+msgstr "crwdns19235:0crwdne19235:0"
+
+msgid "US 30 Cash Index"
+msgstr "crwdns19236:0crwdne19236:0"
+
+msgid "US 500 Cash Index"
+msgstr "crwdns19237:0crwdne19237:0"
+
+msgid "USD 1 per point"
+msgstr "crwdns19238:0crwdne19238:0"
+
+msgid "USD/CAD"
+msgstr "crwdns19239:0crwdne19239:0"
+
+msgid "USD/CHF"
+msgstr "crwdns19240:0crwdne19240:0"
+
+msgid "USD/JPY"
+msgstr "crwdns19241:0crwdne19241:0"
+
+msgid "US_100"
+msgstr "crwdns19242:0crwdne19242:0"
+
+msgid "US_30"
+msgstr "crwdns19243:0crwdne19243:0"
+
+msgid "US_500"
+msgstr "crwdns19244:0crwdne19244:0"
 
 msgid "Under no circumstances shall we provide investment advice or recommendation to you or state an opinion in relation to a Transaction. From time to time, we may decide to provide you with written information, which we may publish on our website or provide to you in any other manner. We will endeavour to ensure the accuracy and completeness of this written information but it will not constitute investment advice or recommendation provided by us to you."
 msgstr "crwdns18545:0crwdne18545:0"
@@ -1194,17 +1470,29 @@ msgstr "crwdns18558:0crwdne18558:0"
 msgid "Volatility Indices Account"
 msgstr "crwdns18559:0crwdne18559:0"
 
-msgid "Volatility Indices Contract Specifications"
-msgstr "crwdns18560:0crwdne18560:0"
+msgid "Volume (lots) x lot size / leverage = Margin"
+msgstr "crwdns19245:0crwdne19245:0"
 
-msgid "Volume (Trade Size)"
-msgstr "crwdns18561:0crwdne18561:0"
+msgid "Volume (trade size) x price x margin rate = Margin"
+msgstr "crwdns19246:0crwdne19246:0"
+
+msgid "Volume 1.0 (Trade Size)"
+msgstr "crwdns19247:0crwdne19247:0"
+
+msgid "Volume 1.0<br>(Trade Size)"
+msgstr "crwdns19248:0crwdne19248:0"
+
+msgid "We analyse your pending orders."
+msgstr "crwdns19249:0crwdne19249:0"
 
 msgid "We are committed to making sure your personal data and transactions are secure:"
 msgstr "crwdns18562:0crwdne18562:0"
 
 msgid "We are required to do so in accordance with any relevant law or regulation."
 msgstr "crwdns18563:0crwdne18563:0"
+
+msgid "We delete an order with the largest margin reserved."
+msgstr "crwdns19250:0crwdne19250:0"
 
 msgid "We endeavour to open or close the Transaction to which your Order relates at the price reasonably available to us, acting in accordance with our duty of best execution. Best execution means that we must take all sufficient steps to obtain, when executing orders, the best possible result for you taking into account price, costs, speed, likelihood of execution and settlement, size, nature or any other consideration relevant to the execution of the order."
 msgstr "crwdns18564:0crwdne18564:0"
@@ -1242,6 +1530,9 @@ msgstr "crwdns18574:0crwdne18574:0"
 msgid "We will act on any instructions given or appearing to be given by you and received by us in relation to the margin trading service provided through the MT5 Trading Platform, as deemed instructed by you. However, it is not our obligation to act on any instructions deemed instructed by you, and we are not obligated to give you any reasons for declining to do so. Instructions received by us from you are deemed final and will not be revocable. It is your responsibility to ensure the genuineness and accuracy of the instructions given by you to us."
 msgstr "crwdns18575:0crwdne18575:0"
 
+msgid "We will continue to close open positions until your margin level becomes higher than the stop out level."
+msgstr "crwdns19251:0crwdne19251:0"
+
 msgid "We will hold you responsible for all your obligations under this Agreement in our course of providing the margin trading service described in this Agreement to you, even if you notify us that you are acting as the agent of an identified principal."
 msgstr "crwdns18576:0crwdne18576:0"
 
@@ -1251,11 +1542,23 @@ msgstr "crwdns18577:0crwdne18577:0"
 msgid "We will use reasonable endeavours within our control to ensure that all electronic data provided on the MT5 Trading Platform and all electronic transactions instructed and accepted from you to us, and executed by us are not subject to network latency."
 msgstr "crwdns18578:0crwdne18578:0"
 
+msgid "What is margin?"
+msgstr "crwdns19252:0crwdne19252:0"
+
+msgid "What's a margin call and how do we apply it?"
+msgstr "crwdns19253:0crwdne19253:0"
+
+msgid "What's a stop out level and how do we apply it?"
+msgstr "crwdns19254:0crwdne19254:0"
+
 msgid "When we accept an order from you to open or close a transaction, or any other specific instructions in relation to your order, we will endeavour to follow your instructions as far as reasonably possible, acting in accordance with our duty of best execution in accordance with your instructions. These specific instructions include, but are not limited to:"
 msgstr "crwdns18579:0crwdne18579:0"
 
 msgid "When we deal on own account (dealing desk), we act as principal and not as an agent on your behalf and we therefore act as the execution venue."
 msgstr "crwdns18580:0crwdne18580:0"
+
+msgid "When your account equity is unable to cover the margin requirement, your account will be placed under margin call. This state does not affect your ability to open new positions. You can deposit additional funds to prevent the margin call escalating to a stop out level."
+msgstr "crwdns19255:0crwdne19255:0"
 
 msgid "Where a particular time or timeframe has been specified in a client's instructions with respect to the execution of an order, regardless of the price available, we will endeavour to execute the order at the specified time or over the specified timeframe in the best possible manner after taking all sufficient steps. However, we will not be responsible for any consequences related to pricing that resulted from the time or timeframe of the execution."
 msgstr "crwdns18581:0crwdne18581:0"
@@ -1278,6 +1581,9 @@ msgstr "crwdns18586:0crwdne18586:0"
 msgid "Whilst we endeavour to take all reasonable and sufficient steps, as required by applicable laws and regulations, to identify potential conflicts of interests between ourselves and our clients, or between one client and another, that arise in the course of providing the margin trading services as described in this Agreement, by establishing and implementing policies and procedures, it is possible that we may execute certain Transactions which may have other direct or indirect material interests."
 msgstr "crwdns18587:0crwdne18587:0"
 
+msgid "With a CFD or leveraged FX trading, you can purchase 100 units of the same asset at a fraction of the cost."
+msgstr "crwdns19256:0crwdne19256:0"
+
 msgid "Withdraw"
 msgstr "crwdns18588:0crwdne18588:0"
 
@@ -1295,6 +1601,18 @@ msgstr "crwdns18595:0crwdne18595:0"
 
 msgid "Without prejudice to any other terms of this Agreement, neither the Company nor any its directors, officers, managers, employees, or agents shall not be liable to you in relation to any loss that you incurred whether directly or indirectly by any cause beyond our control, including but not limited to, any delay or defect in or failure of the whole or any part of the MT5 Trading Platform or any systems or network links."
 msgstr "crwdns18596:0crwdne18596:0"
+
+msgid "XAGUSD"
+msgstr "crwdns19257:0crwdne19257:0"
+
+msgid "XAUUSD"
+msgstr "crwdns19258:0crwdne19258:0"
+
+msgid "XPDUSD"
+msgstr "crwdns19259:0crwdne19259:0"
+
+msgid "XPTUSD"
+msgstr "crwdns19260:0crwdne19260:0"
 
 msgid "You acknowledge and accept that a Transaction may be subject to market rules laid down in by-laws, rules, provisions, customs and practices of an exchange, a market, a clearing house, a body or any other organisation involved in the execution, clearing, and/or settlement of said Transaction. Should any such organisation take decisions or measures which affect a Transaction or an Open Position, the Company shall be entitled to take any action (including closing any Open Position of the client) which it, at its sole discretion, considers reasonable. This clause does not apply to Volatility Indices."
 msgstr "crwdns18597:0crwdne18597:0"
@@ -1398,6 +1716,12 @@ msgstr "crwdns18629:0crwdne18629:0"
 msgid "You understand that products based on a random number generator (the \"Volatility Indices\") are gambling products whereas products based on financial markets indices (forex, stocks, commodities) are financial instruments."
 msgstr "crwdns18630:0crwdne18630:0"
 
+msgid "You will be subjected to swap rates if you keep a position open past 23:59:59 GMT."
+msgstr "crwdns19261:0crwdne19261:0"
+
+msgid "You will be subjected to swap rates if you keep a position open past the market close."
+msgstr "crwdns19262:0crwdne19262:0"
+
 msgid "You will provide us with any information that we may reasonably require to fully satisfy the demand or the requirements of the applicable government authority, upon our request."
 msgstr "crwdns18631:0crwdne18631:0"
 
@@ -1428,9 +1752,6 @@ msgstr "crwdns18640:0crwdne18640:0"
 msgid "Your debts are not settled as and when they fall due;"
 msgstr "crwdns18641:0crwdne18641:0"
 
-msgid "Your existing Binary.com account and cashier will be linked to your MT5 account"
-msgstr "crwdns18726:0crwdne18726:0"
-
 msgid "Your forex and contracts for differences transactions with %1 are linked to an underlying financial instrument and you will be exposed to price, currency exchange, interest rate or other volatility of the market to which your financial instrument is related to, especially if the market is of a jurisdiction that is foreign to you. Forex and contracts for differences trading over the internet via an electronic trading platform is subject to data latency risk which may result in delays in order execution."
 msgstr "crwdns18642:0%1crwdne18642:0"
 
@@ -1442,6 +1763,12 @@ msgstr "crwdns18644:0crwdne18644:0"
 
 msgid "Your use of the MT5 Trading Platform, whether accessed through or downloaded from our website or a third party website, is governed by the terms of use provided by the MT5 Trading Platform Licensor to you. In the event of any conflict between the content of this Agreement and the agreement between you and the MT5 Trading Platform Licensor, the terms of this Agreement shall prevail. It is your responsibility to ensure that the information technology that you use is compatible with the required information technology to support the MT5 Trading Platform."
 msgstr "crwdns18645:0crwdne18645:0"
+
+msgid "ZAF_40"
+msgstr "crwdns19263:0crwdne19263:0"
+
+msgid "ZAR 1 per point"
+msgstr "crwdns19264:0crwdne19264:0"
 
 msgid "a) The venue at which your order will be executed;"
 msgstr "crwdns18646:0crwdne18646:0"
@@ -1469,6 +1796,9 @@ msgstr "crwdns18653:0crwdne18653:0"
 
 msgid "intelligently routing incoming orders to different types of execution modes based on configurations and algorithms established using best execution factors."
 msgstr "crwdns18654:0crwdne18654:0"
+
+msgid "log in"
+msgstr "crwdns19265:0crwdne19265:0"
 
 msgid "net of any other money credited to your Real Account and debited from your Real Account. Your account balance includes Margin Requirement. The amount of your account balance in excess of Margin Requirement is available for your withdrawal. The amount set aside for Margin Requirement is not available for your withdrawal."
 msgstr "crwdns18656:0crwdne18656:0"
