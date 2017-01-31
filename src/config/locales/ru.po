@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-01-31 01:45-0500\n"
+"PO-Revision-Date: 2017-01-31 01:55-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -316,7 +316,7 @@ msgid "Commodities trading experience"
 msgstr "Опыт торговли сырьевыми товарами"
 
 msgid "Commodities trading frequency"
-msgstr ""
+msgstr "Частота торговли сырьевыми товарами"
 
 msgid "Complaints and disputes"
 msgstr "Жалобы и споры"
@@ -325,16 +325,16 @@ msgid "Confidentiality"
 msgstr "Конфиденциальность"
 
 msgid "Congratulations! Your Demo Account has been created."
-msgstr ""
+msgstr "Поздравляем! Ваш Демо-счёт успешно открыт."
 
 msgid "Congratulations! Your Financial Account has been created."
-msgstr ""
+msgstr "Поздравляем! Ваш финансовый счёт успешно открыт."
 
 msgid "Congratulations! Your Volatility Indices Account has been created."
-msgstr ""
+msgstr "Поздравляем! Ваш счёт для торговли Индексами волатильности успешно открыт."
 
 msgid "Construction"
-msgstr ""
+msgstr "Строительство"
 
 msgid "Contact Us"
 msgstr ""
@@ -457,7 +457,7 @@ msgid "EUR_50"
 msgstr ""
 
 msgid "Each of the following event constitutes an \"Event of Default\":"
-msgstr "Каждая из нижеперечисленных ситуаций является  является \"случаем невыполнения обязательств\":"
+msgstr "Каждая из нижеперечисленных ситуаций является \"случаем невыполнения обязательств\":"
 
 msgid "Each time you open a position on a Volatility Index symbol, you can start with a minimum volume transaction of 0.01 (trade size), which translates to USD 0.01 per point movement of the index."
 msgstr ""
@@ -580,7 +580,7 @@ msgid "German 30 Cash Index"
 msgstr ""
 
 msgid "Given our role as margin trading service provider as described in this Agreement, we seek to avoid undue market influence to the extent consistent with your trading needs and our risk management policies and procedures. By continuing to use the margin trading service described in this Agreement, you acknowledge that you are aware of the potential conflict of interest disclosed that may arise and cannot be completely eliminated, and you consent us to act notwithstanding such potential conflict of interests."
-msgstr "Учитывая нашу роль поставщика услуг торговли с использованием маржи, перечисленных в данном Соглашении, мы стремимся избегать нежелательного влияния со стороны рынка в той мере, которая соответствует Вашим торговым потребностям, нашей политике управления риском и внутреннему регламенту. Продолжая пользоваться услугами торговли с использованием маржи, перечисленными в данном Соглашении, Вы подтверждаете, что осведомлены о потенциальном конфликте интересов, который может возникнуть и быть не полностью устранён. Настоящим Вы разрешаете нам действовать, невзирая на потенциальный конфликт интересов."
+msgstr "Учитывая нашу роль поставщика услуг торговли с использованием маржи, перечисленных в данном Соглашении, мы стремимся избегать нежелательного влияния со стороны рынка в той мере, которая соответствует Вашим торговым потребностям, нашей политике управления риском и внутреннему регламенту. Продолжая пользоваться услугами торговли с использованием маржи, перечисленными в данном Соглашении, Вы подтверждаете, что осведомлены о потенциальном конфликте интересов, который может возникнуть и быть не полностью устранённым. Настоящим Вы разрешаете нам действовать, невзирая на потенциальный конфликт интересов."
 
 msgid "Go to web terminal"
 msgstr ""
