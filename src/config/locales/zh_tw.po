@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-01-31 04:19-0500\n"
+"PO-Revision-Date: 2017-01-31 04:29-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Chinese Traditional\n"
 "MIME-Version: 1.0\n"
@@ -112,22 +112,22 @@ msgid "AUD 1 per point"
 msgstr "每點 1 澳元"
 
 msgid "AUD/CAD"
-msgstr ""
+msgstr "澳元/加元"
 
 msgid "AUD/CHF"
-msgstr ""
+msgstr "澳元/瑞士法郎"
 
 msgid "AUD/JPY"
-msgstr ""
+msgstr "澳元/日圓"
 
 msgid "AUD/NZD"
-msgstr ""
+msgstr "澳元/紐元"
 
 msgid "AUD/USD"
-msgstr ""
+msgstr "澳元/美元"
 
 msgid "AUS_200"
-msgstr ""
+msgstr "AUS_200"
 
 msgid "Access advanced tools for fundamental and technical analysis, all available in one platform."
 msgstr "存取基礎和技術分析用途的進階工具，全在一個平台上使用。"
@@ -205,7 +205,7 @@ msgid "Assessment of Appropriateness"
 msgstr "合適性評估"
 
 msgid "Australia 200 Cash Index"
-msgstr ""
+msgstr "澳大利亞 200 現金索引"
 
 msgid "Authenticate your Binary.com account to create an MT5 Financial Account."
 msgstr "對您的 Binary.com 帳戶進行身份驗證，以開立 MT5 金融帳戶。"
@@ -268,19 +268,19 @@ msgid "C. Provision of Services"
 msgstr "三、提供服務"
 
 msgid "CAD 1 per point"
-msgstr ""
+msgstr "每點 1 加元"
 
 msgid "CAN_60"
-msgstr ""
+msgstr "CAN_60"
 
 msgid "CFD (Contract for Difference): CFD is an instrument that allows you to profit by speculating on the rise or fall of an instrument. The profit/loss is estimated as a function of the difference in the buy/sell prices of the underlying instrument."
-msgstr ""
+msgstr "CFD（差價合約）︰CFD 是允許您通過預測一種工具的價格是否會上漲或下跌而獲利的工具。損益的估計方式是以標的工具買入/賣出價格差異的函數計算。"
 
 msgid "Canada 60 Cash Index"
-msgstr ""
+msgstr "加拿大 60 現金索引"
 
 msgid "Cash Indices"
-msgstr ""
+msgstr "現金指數"
 
 msgid "Change API Endpoint"
 msgstr "更改 API 端點"
@@ -343,7 +343,7 @@ msgid "Contract Specifications"
 msgstr "合約規格"
 
 msgid "Contract Specifications (CFD) - Cash Indices"
-msgstr ""
+msgstr "合約規格 (CFD) - 現金指數"
 
 msgid "Contract Specifications (CFD) - Volatility Indices"
 msgstr ""
