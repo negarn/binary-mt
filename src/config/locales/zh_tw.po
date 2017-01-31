@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-01-31 04:29-0500\n"
+"PO-Revision-Date: 2017-01-31 04:39-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Chinese Traditional\n"
 "MIME-Version: 1.0\n"
@@ -205,7 +205,7 @@ msgid "Assessment of Appropriateness"
 msgstr "合適性評估"
 
 msgid "Australia 200 Cash Index"
-msgstr "澳大利亞 200 現金索引"
+msgstr "澳大利亞 200 現金指數"
 
 msgid "Authenticate your Binary.com account to create an MT5 Financial Account."
 msgstr "對您的 Binary.com 帳戶進行身份驗證，以開立 MT5 金融帳戶。"
@@ -277,7 +277,7 @@ msgid "CFD (Contract for Difference): CFD is an instrument that allows you to pr
 msgstr "CFD（差價合約）︰CFD 是允許您通過預測一種工具的價格是否會上漲或下跌而獲利的工具。損益的估計方式是以標的工具買入/賣出價格差異的函數計算。"
 
 msgid "Canada 60 Cash Index"
-msgstr "加拿大 60 現金索引"
+msgstr "加拿大 60 現金指數"
 
 msgid "Cash Indices"
 msgstr "現金指數"
@@ -346,10 +346,10 @@ msgid "Contract Specifications (CFD) - Cash Indices"
 msgstr "合約規格 (CFD) - 現金指數"
 
 msgid "Contract Specifications (CFD) - Volatility Indices"
-msgstr ""
+msgstr "合約規格 (CFD) - 波動性指數"
 
 msgid "Contract Specifications - Forex"
-msgstr ""
+msgstr "合約規格 - 外匯"
 
 msgid "Costs - the costs of executing your order comprised predominantly of spread, i.e., the difference between our bid and our offer price."
 msgstr "費用 - 您的訂單執行費用主要由價差，即我們的標價和我們提供的價格之間的區別組成。"
@@ -370,7 +370,7 @@ msgid "Create account"
 msgstr "開立帳戶"
 
 msgid "Currency Symbol"
-msgstr ""
+msgstr "貨幣符號"
 
 msgid "D. Capacity"
 msgstr "四、能力"
@@ -379,7 +379,7 @@ msgid "D. Client Instructions"
 msgstr "四、客戶的指示"
 
 msgid "DAX_30"
-msgstr ""
+msgstr "DAX_30"
 
 msgid "Demo"
 msgstr "示範"
@@ -400,7 +400,7 @@ msgid "Deposit is done. Transaction ID: %1"
 msgstr "已完成存款。交易編號: %1"
 
 msgid "Description"
-msgstr ""
+msgstr "描述"
 
 msgid "Details"
 msgstr "詳細資訊"
@@ -427,34 +427,34 @@ msgid "E. Best Execution Obligation"
 msgstr "五、最佳執行義務"
 
 msgid "ESP_35"
-msgstr ""
+msgstr "ESP_35"
 
 msgid "EUR 1 per point"
-msgstr ""
+msgstr "每點 1 歐元"
 
 msgid "EUR/AUD"
-msgstr ""
+msgstr "歐元/澳元"
 
 msgid "EUR/CAD"
-msgstr ""
+msgstr "歐元/加元"
 
 msgid "EUR/CHF"
-msgstr ""
+msgstr "歐元/瑞士法郎"
 
 msgid "EUR/GBP"
-msgstr ""
+msgstr "歐元/英鎊"
 
 msgid "EUR/JPY"
-msgstr ""
+msgstr "歐元/日圓"
 
 msgid "EUR/NZD"
-msgstr ""
+msgstr "歐元/紐元"
 
 msgid "EUR/USD"
-msgstr ""
+msgstr "歐元/美元"
 
 msgid "EUR_50"
-msgstr ""
+msgstr "EUR_50"
 
 msgid "Each of the following event constitutes an \"Event of Default\":"
 msgstr "以下每個事件都構成「違約事件」:"
