@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-01-30 23:16-0500\n"
+"PO-Revision-Date: 2017-01-31 04:07-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Chinese Traditional\n"
 "MIME-Version: 1.0\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Language: zh_TW\n"
 
 msgid " How do we calculate interest fees for short positions?"
-msgstr ""
+msgstr " 賣空頭寸的利息費用如何計算?"
 
 msgid "%1 gives everyone an easy way to participate in the financial markets. Trade with as little as $1 USD on major currencies, stocks, indices, and commodities."
 msgstr "%1讓每個人都能輕鬆參與金融市場。可交易各主要貨幣、股票指數和商品，投資門檻低至1美元。"
@@ -49,7 +49,7 @@ msgid "&copy; 2016 Binary.com"
 msgstr "&copy; 2016 Binary.com"
 
 msgid "(Sell Price - Buy Price) x Volume x Price Per Point = Profit"
-msgstr ""
+msgstr "（售出價 - 購入價） x 交易量 x 每點的價格 = 利潤"
 
 msgid "0-1 year"
 msgstr "0-1 年"
@@ -58,10 +58,10 @@ msgid "0-5 transactions in the past 12 months"
 msgstr "過去12個月內0-5次交易"
 
 msgid "1 x 100,000 / 100 = EUR 1,000"
-msgstr ""
+msgstr "1 x 100,000 / 100 = 歐元 1,000"
 
 msgid "1 x 20,000 / 100 = EUR 200"
-msgstr ""
+msgstr "1 x 20,000 / 100 = 歐元 200"
 
 msgid "1-2 years"
 msgstr "1-2 年"
@@ -76,7 +76,7 @@ msgid "<a href=\"%1\">Return to MetaTrader Settings</a>."
 msgstr "<a href=\"%1\">返回MetaTrader設定</a>。"
 
 msgid "<strong>Long positions</strong>: We charge a 2% fee on top of interbank lending rates."
-msgstr ""
+msgstr "<strong>多頭頭寸</strong>: 我們收取比銀行間貸款利率高 2% 的費用。"
 
 msgid "<strong>Long positions</strong>: We charge a 2% fee on top of market rates."
 msgstr ""
