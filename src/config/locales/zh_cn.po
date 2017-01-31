@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-01-31 04:07-0500\n"
+"PO-Revision-Date: 2017-01-31 04:19-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
@@ -109,25 +109,25 @@ msgid "A. Spot FX"
 msgstr "一、现货外汇"
 
 msgid "AUD 1 per point"
-msgstr ""
+msgstr "每点 1 澳元"
 
 msgid "AUD/CAD"
-msgstr ""
+msgstr "澳元/加元"
 
 msgid "AUD/CHF"
-msgstr ""
+msgstr "澳元/瑞士法郎"
 
 msgid "AUD/JPY"
-msgstr ""
+msgstr "澳元/日元"
 
 msgid "AUD/NZD"
-msgstr ""
+msgstr "澳元/纽元"
 
 msgid "AUD/USD"
-msgstr ""
+msgstr "澳元/美元"
 
 msgid "AUS_200"
-msgstr ""
+msgstr "AUS_200"
 
 msgid "Access advanced tools for fundamental and technical analysis, all available in one platform."
 msgstr "访问基础和技术分析用途的高级工具，全在一个平台上使用。"
@@ -205,7 +205,7 @@ msgid "Assessment of Appropriateness"
 msgstr "合适性评估"
 
 msgid "Australia 200 Cash Index"
-msgstr ""
+msgstr "澳大利亚 200 现金索引"
 
 msgid "Authenticate your Binary.com account to create an MT5 Financial Account."
 msgstr "对您的 Binary.com 账户进行身份验证，以开立 MT5 金融账户。"
@@ -268,10 +268,10 @@ msgid "C. Provision of Services"
 msgstr "三、提供服务"
 
 msgid "CAD 1 per point"
-msgstr ""
+msgstr "每点 1 加元"
 
 msgid "CAN_60"
-msgstr ""
+msgstr "CAN_60"
 
 msgid "CFD (Contract for Difference): CFD is an instrument that allows you to profit by speculating on the rise or fall of an instrument. The profit/loss is estimated as a function of the difference in the buy/sell prices of the underlying instrument."
 msgstr ""
