@@ -16148,10 +16148,10 @@ Client.prototype = {
     show_login_if_logout: function(shouldReplacePageContents) {
         if (!this.is_logged_in && shouldReplacePageContents) {
             $('#content > .container').addClass('center-text')
-                .html($('<p/>', { class: 'notice-msg', html : 
+                .html($('<p/>', { class: 'notice-msg', html :
                     text.localize('To register an MT5 account, please [_1] to your Binary.com account <br/> Don\'t have a Binary.com account? <a href="[_2]">Create one</a> now', [
                     '<a class="login_link" href="javascript:;">' + text.localize('log in') + '</a>' , page.url.url_for('home', '', true)])}))
-                .prepend($('<h3/>', { html: text.localize('Take advantage of MT5’s advanced features and tools for a complete trading experience.')}))
+                .prepend($('<h3/>', { html: text.localize('Take advantage of MT5\'s advanced features and tools for a complete trading experience.')}))
                 .prepend($('<h1/>', { html: text.localize('Start trading Forex and CFDs with MetaTrader 5')}));
 
             $('.login_link').click(function(){Login.redirect_to_login();});
@@ -16733,8 +16733,8 @@ Page.prototype = {
         var langs = window.location.href.split('/').slice(3);
         for (var i = 0; i < langs.length; i++) {
             var lang = langs[i];
-            if (regex.test(lang)) { 
-                return lang.toUpperCase(); 
+            if (regex.test(lang)) {
+                return lang.toUpperCase();
             }
         }
         return '';
@@ -17678,6 +17678,27 @@ pjax_config_page("/terms-and-conditions", function() {
     };
 });
 
+pjax_config_page("/contract-specifications", function() {
+   return {
+       onLoad: function() {
+           var hash;
+           function updateTab() {
+               hash = /^#(forex|volatility|cash)-tab$/.test(window.location.hash) ? window.location.hash : '#forex-tab';
+               $('#cs-menu li').removeClass('active a-active');
+               $('.menu-has-sub-item div.toggle-content').addClass('invisible');
+               $(hash).addClass('active')
+                   .find('a').addClass('a-active');
+               $(hash + '-content').removeClass('invisible');
+           }
+           $(window).on('hashchange', function() {
+               updateTab();
+           });
+           updateTab();
+           $('.content-tab-container').removeClass('invisible');
+       }
+   };
+});
+
 ;pjax_config_page("endpoint", function(){
     return {
         onLoad: function() {
@@ -18247,6 +18268,10 @@ var BinarySocket = new BinarySocketClass();
     };
 
     var responseHandler = function(response) {
+        if (response.hasOwnProperty('error') && (response.error.code === 'MT5APISuspendedError')) {
+            MetaTraderUI.responseMT5APISuspended(response.error.message);
+            return;
+        }
         switch(response.msg_type) {
             case 'authorize':
                 lcRequested = false;
@@ -18877,6 +18902,12 @@ var BinarySocket = new BinarySocketClass();
         $btn.removeClass('button-disabled').removeAttr('disabled');
     };
 
+    var responseMT5APISuspended = function(message) {
+        $('#content')
+            .empty()
+            .html('<div class="container"><p class="notice-msg center-text">' + message + '<br/>'+ text.localize('Please contact <a href="[_1]" target="_blank">customer support</a> for more information.', [page.url.url_for('contact', '', true)]) + '</p></div>');
+    };
+
     return {
         init: init,
         responseLoginList      : responseLoginList,
@@ -18888,6 +18919,7 @@ var BinarySocket = new BinarySocketClass();
         responseAccountStatus  : responseAccountStatus,
         responseLandingCompany : responseLandingCompany,
         responseFinancialAssessment: responseFinancialAssessment,
+        responseMT5APISuspended: responseMT5APISuspended,
     };
 }());
 

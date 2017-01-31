@@ -18,20 +18,54 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="gr-row">
     <div class="gr-12">
         <h1>crwdns18388:0crwdne18388:0</h1>
-        <p>crwdns18390:0crwdne18390:0</p>
-        <h2>crwdns18384:0crwdne18384:0</h2>
-        <h3>crwdns18252:0crwdne18252:0</h3>
-        <p>crwdns18496:0crwdne18496:0</p>
-        <p>crwdns18383:0crwdne18383:0</p>
-        <h3>crwdns18345:0crwdne18345:0</h3>
-        <p>crwdns18198:0crwdne18198:0</p>
-        <p>crwdns18200:0crwdne18200:0</p>
-        <ul class="bullet">
-          <li>crwdns18516:0crwdne18516:0</li>
-          <li>crwdns18363:0crwdne18363:0</li>
-          <li>crwdns18334:0crwdne18334:0</li>
-          <li>crwdns18333:0crwdne18333:0</li>
-          <li>crwdns18437:0crwdne18437:0</li>
-        </ul>
+    </div>
+
+    <div class="gr-12">
+        <h2>What is margin?</h2>
+        <p>Margin allows you to trade on leverage, giving you the same level of market exposure using much less capital.</p>
+        <p>For example, if you wanted to purchase 100 units of a particular asset trading at USD 50 per unit through a traditional broker, it would cost you USD 5,000 for this transaction.</p>
+        <p>With a CFD or leveraged FX trading, you can purchase 100 units of the same asset at a fraction of the cost.</p>
+    </div>
+</div>
+
+<div class="gr-row">
+    <div class="gr-12 gr-padding-10">
+        <h2>How is margin calculated?</h2>
+        <p>The margin for our CFDs on Volatility Indices is calculated as follows:</p>
+        <div class="box">
+            <div class="gr-prefix-1">
+                <p><i>Volume (trade size) x price x margin rate = Margin</i></p>
+                <p>For e.g. If you buy 1 Volume of Volatility 100 Index at a price of EUR 20,000 and a margin rate of 0.01(1%), the margin required to purchase that one lot will be calculated as follows:</p>
+                <p>1 x 20,000 / 100 = EUR 200</p>
+            </div>
+        </div>
+        <p>The margin for our Forex trades is calculated as follows:</p>
+        <div class="box">
+            <div class="gr-prefix-1">
+                <p><i>Volume (lots) x lot size / leverage = Margin</i></p>
+                <p>For e.g. If you buy one lot of the EUR/USD symbol with a contract size of 100,000 and leverage of 100:1, the margin required to purchase that one lot will be calculated as follows:</p>
+                <p>1 x 100,000 / 100 = EUR 1,000</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="gr-row">
+    <div class="gr-12 gr-padding-10">
+        <h2>What's a margin call and how do we apply it?</h2>
+        <p>When your account equity is unable to cover the margin requirement, your account will be placed under margin call. This state does not affect your ability to open new positions. You can deposit additional funds to prevent the margin call escalating to a stop out level.</p>
+
+        <h2>What's a stop out level and how do we apply it?</h2>
+        <p>If your account is placed under margin call for an extended period of time, it will reach the stop out level where it's unable to sustain an open position. This will lead to your pending orders being deleted, and open positions being forcibly closed (also known as forced liquidation).</p>
+        <p>Once your account hits the forced liquidation level, your orders and positions are forcibly closed in the following order:</p>
+        <div class="gr-prefix-1">
+            <ul class="bullet">
+                <li>We analyse your pending orders.</li>
+                <li>We delete an order with the largest margin reserved.</li>
+                <li>If your margin level is still under the stop out level, your next order will be deleted. However, orders without margin requirements will not be deleted.</li>
+                <li>If your margin level is still under the stop out level, we will close an open position with the largest loss.</li>
+                <li>We will continue to close open positions until your margin level becomes higher than the stop out level.</li>
+            </ul>
+        </div>
     </div>
 </div>
