@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-01-18 02:43-0500\n"
+"PO-Revision-Date: 2017-01-30 23:16-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Chinese Traditional\n"
 "MIME-Version: 1.0\n"
@@ -15,6 +15,9 @@ msgstr ""
 "X-Crowdin-File: /beta/src/config/locales/messages.pot\n"
 "Language: zh_TW\n"
 
+msgid " How do we calculate interest fees for short positions?"
+msgstr ""
+
 msgid "%1 gives everyone an easy way to participate in the financial markets. Trade with as little as $1 USD on major currencies, stocks, indices, and commodities."
 msgstr "%1讓每個人都能輕鬆參與金融市場。可交易各主要貨幣、股票指數和商品，投資門檻低至1美元。"
 
@@ -23,12 +26,6 @@ msgstr "%1已經更新了其 <a target=\"_blank\" href=\"%2\">條款和條件</a
 
 msgid "%1 offers forex and contracts for differences via the hybrid model, i.e., both dealing on own account (dealing desk) and partially hedging client orders with our liquidity providers (no-dealing desk). Client orders are typically hedged when the total transaction volume exceeds a predefined threshold of risk tolerance level. For both execution models, %1 acts as the contractual counterparty to the transactions that you enter into with us, as opposed to entering into a contractual counterparty with a central clearing house as would be the case with exchange traded financial instruments. As such, counterparty risk exists. Counterparty risk refers to the risk of loss for clients resulting from the fact that the counterparty to the forex and/or contracts for differences transaction that you entered into may default on its obligations prior to the final settlement of the transaction's cash flow."
 msgstr "%1通過混合模式提供外匯和差價合約，即通過自己的帳戶（交易員）和部分對沖客戶訂單與我們的流動率提供商（無交易員）進行交易。當總交易量超過預定的風險承受力層次限額時，客戶訂單通常被對沖。%1在兩種執行模式中都扮演您與我們簽訂交易的合約相對方，而不是像交易所的交易金融工具那樣與中央結算所訂立交易的合約相對方。因此，存在相對方風險。相對方風險是指客戶因為您簽訂的外匯和/或差價交易合約相對方在交易現金流最終結算前違反其義務而造成的損失風險。"
-
-msgid "%1 to your Binary.com account to create an MT5 account"
-msgstr "%1到您的 Binary.com 帳戶開立MT5帳戶"
-
-msgid "&#36;1/point"
-msgstr "&#36;1/點"
 
 msgid "&#36;100,000 - &#36;250,000"
 msgstr "&#36;100,000 - &#36;250,000"
@@ -51,17 +48,20 @@ msgstr "&#36;500,001 - &#36;1,000,000"
 msgid "&copy; 2016 Binary.com"
 msgstr "&copy; 2016 Binary.com"
 
-msgid "* Minimum Spread is a percentage of the underlying market price, and can change over time."
-msgstr "*最低點差是標的市場價格的百分比，可隨時間變化。"
-
-msgid "** Leverage of 500:1 results in a margin rate of 0.002."
-msgstr "** 500:1 槓桿導致 0.002 保證金率。"
+msgid "(Sell Price - Buy Price) x Volume x Price Per Point = Profit"
+msgstr ""
 
 msgid "0-1 year"
 msgstr "0-1 年"
 
 msgid "0-5 transactions in the past 12 months"
 msgstr "過去12個月內0-5次交易"
+
+msgid "1 x 100,000 / 100 = EUR 1,000"
+msgstr ""
+
+msgid "1 x 20,000 / 100 = EUR 200"
+msgstr ""
 
 msgid "1-2 years"
 msgstr "1-2 年"
@@ -75,14 +75,17 @@ msgstr "過去12個月內6-10次交易"
 msgid "<a href=\"%1\">Return to MetaTrader Settings</a>."
 msgstr "<a href=\"%1\">返回MetaTrader設定</a>。"
 
-msgid "<strong>Margin Call Level</strong> - when you reach this level of assets (i.e., when your account equity is insufficient to cover the margin requirement), your account is under margin call. The margin call state does not affect the ability of opening new positions."
-msgstr "<strong>追加保證金層次</strong> - 當您達到此資產層次（即您的帳戶資金不足以滿足保證金要求）時，您的帳戶將處於追加保證金狀態。追加保證金狀態不會影響開立新倉位的能力。"
+msgid "<strong>Long positions</strong>: We charge a 2% fee on top of interbank lending rates."
+msgstr ""
 
-msgid "<strong>Margin Policy:</strong> The forced liquidation level is 50%. Please refer to our <a href=\"%1\">Margin Policy</a> for further details."
-msgstr "<strong>保證金政策:</strong>強制清算水平是50%。詳細資訊請參閱我們的<a href=\"%1\">保證金政策</a>。"
+msgid "<strong>Long positions</strong>: We charge a 2% fee on top of market rates."
+msgstr ""
 
-msgid "<strong>Stop Out Level</strong> - when you reach this level of assets, your pending orders are deleted and open positions are forced closed. The forced liquidation level is 50%. Once the account has hit the forced liquidation level, orders and positions are forcedly closed on an account in the following order:"
-msgstr "<strong>止損層次</strong> - 當您達到此資產層次時，您的待處理訂單將被刪除，並且未平倉頭寸將被強制平倉。強制清算層次為50％。一旦帳戶達到強制清算層次，訂單和頭寸將按照以下順序在帳戶上強制平倉："
+msgid "<strong>Short positions</strong>: We charge a 2% fee on top of interbank lending rates."
+msgstr ""
+
+msgid "<strong>Short positions</strong>: We charge a 2% fee on top of market rates."
+msgstr ""
 
 msgid "A Transaction is opened by either executing a \"Buy\" or \"Sell\" Order based on a specified number of lots (volume) that constitute the underlying instrument of the relevant market."
 msgstr "根據構成相關市場標的工具的指定批(量) 數量執行「買入」或「賣出」訂單開盤交易。"
@@ -104,6 +107,27 @@ msgstr "一、簡介和協議範圍"
 
 msgid "A. Spot FX"
 msgstr "一、現貨外匯"
+
+msgid "AUD 1 per point"
+msgstr ""
+
+msgid "AUD/CAD"
+msgstr ""
+
+msgid "AUD/CHF"
+msgstr ""
+
+msgid "AUD/JPY"
+msgstr ""
+
+msgid "AUD/NZD"
+msgstr ""
+
+msgid "AUD/USD"
+msgstr ""
+
+msgid "AUS_200"
+msgstr ""
 
 msgid "Access advanced tools for fundamental and technical analysis, all available in one platform."
 msgstr "存取基礎和技術分析用途的進階工具，全在一個平台上使用。"
@@ -180,6 +204,9 @@ msgstr "不受具體指示影響的客戶訂單相關事宜必須符合Binary.co
 msgid "Assessment of Appropriateness"
 msgstr "合適性評估"
 
+msgid "Australia 200 Cash Index"
+msgstr ""
+
 msgid "Authenticate your Binary.com account to create an MT5 Financial Account."
 msgstr "對您的 Binary.com 帳戶進行身份驗證，以開立 MT5 金融帳戶。"
 
@@ -240,8 +267,20 @@ msgstr "三、最佳執行方案的定義"
 msgid "C. Provision of Services"
 msgstr "三、提供服務"
 
-msgid "CFDs on Volatility Indices"
-msgstr "波動率指數差價合約"
+msgid "CAD 1 per point"
+msgstr ""
+
+msgid "CAN_60"
+msgstr ""
+
+msgid "CFD (Contract for Difference): CFD is an instrument that allows you to profit by speculating on the rise or fall of an instrument. The profit/loss is estimated as a function of the difference in the buy/sell prices of the underlying instrument."
+msgstr ""
+
+msgid "Canada 60 Cash Index"
+msgstr ""
+
+msgid "Cash Indices"
+msgstr ""
 
 msgid "Change API Endpoint"
 msgstr "更改 API 端點"
@@ -303,6 +342,15 @@ msgstr "聯繫我們"
 msgid "Contract Specifications"
 msgstr "合約規格"
 
+msgid "Contract Specifications (CFD) - Cash Indices"
+msgstr ""
+
+msgid "Contract Specifications (CFD) - Volatility Indices"
+msgstr ""
+
+msgid "Contract Specifications - Forex"
+msgstr ""
+
 msgid "Costs - the costs of executing your order comprised predominantly of spread, i.e., the difference between our bid and our offer price."
 msgstr "費用 - 您的訂單執行費用主要由價差，即我們的標價和我們提供的價格之間的區別組成。"
 
@@ -321,11 +369,17 @@ msgstr "在MT5開立波動率指數帳戶進行波動率指數交易。"
 msgid "Create account"
 msgstr "開立帳戶"
 
+msgid "Currency Symbol"
+msgstr ""
+
 msgid "D. Capacity"
 msgstr "四、能力"
 
 msgid "D. Client Instructions"
 msgstr "四、客戶的指示"
+
+msgid "DAX_30"
+msgstr ""
 
 msgid "Demo"
 msgstr "示範"
@@ -345,11 +399,11 @@ msgstr "存款到"
 msgid "Deposit is done. Transaction ID: %1"
 msgstr "已完成存款。交易編號: %1"
 
+msgid "Description"
+msgstr ""
+
 msgid "Details"
 msgstr "詳細資訊"
-
-msgid "Don't have a Binary.com account? <a href=\"%1\">Create one</a> now"
-msgstr "沒有 Binary.com 帳戶？立刻<a href=\"%1\">開立</a>帳戶"
 
 msgid "Download MetaTrader"
 msgstr "下載 MetaTrader"
@@ -372,8 +426,41 @@ msgstr "五、帳戶管理"
 msgid "E. Best Execution Obligation"
 msgstr "五、最佳執行義務"
 
+msgid "ESP_35"
+msgstr ""
+
+msgid "EUR 1 per point"
+msgstr ""
+
+msgid "EUR/AUD"
+msgstr ""
+
+msgid "EUR/CAD"
+msgstr ""
+
+msgid "EUR/CHF"
+msgstr ""
+
+msgid "EUR/GBP"
+msgstr ""
+
+msgid "EUR/JPY"
+msgstr ""
+
+msgid "EUR/NZD"
+msgstr ""
+
+msgid "EUR/USD"
+msgstr ""
+
+msgid "EUR_50"
+msgstr ""
+
 msgid "Each of the following event constitutes an \"Event of Default\":"
 msgstr "以下每個事件都構成「違約事件」:"
+
+msgid "Each time you open a position on a Volatility Index symbol, you can start with a minimum volume transaction of 0.01 (trade size), which translates to USD 0.01 per point movement of the index."
+msgstr ""
 
 msgid "Education"
 msgstr "教育"
@@ -383,6 +470,9 @@ msgstr "通過MetaTrader 5增強交易"
 
 msgid "Estimated Net Worth"
 msgstr "估計淨值"
+
+msgid "Euro 50 Cash Index"
+msgstr ""
 
 msgid "Event - Event examples include circumstances whereby the type of Transaction to which your Order is related to ceased to be offered, or a Corporate Event or the insolvency of a Company whose shares represent are related to the subject matter of the Order, and others."
 msgstr "事件 - 事件範例包括停止提供與您的訂單相關的交易類型的情況，或公司事件或擁有與訂單題材相關股權而無力償債的公司，以及其他。"
@@ -399,6 +489,9 @@ msgstr "六、執行場地"
 msgid "F. Orders"
 msgstr "六、訂單"
 
+msgid "FRA_40"
+msgstr ""
+
 msgid "Finance"
 msgstr "金融"
 
@@ -414,11 +507,29 @@ msgstr "財務評估"
 msgid "Financial Information"
 msgstr "金融資訊"
 
+msgid "For e.g. If you buy 1 Volume of Volatility 100 Index at a price of EUR 20,000 and a margin rate of 0.01(1%), the margin required to purchase that one lot will be calculated as follows:"
+msgstr ""
+
+msgid "For e.g. If you buy one lot of the EUR/USD symbol with a contract size of 100,000 and leverage of 100:1, the margin required to purchase that one lot will be calculated as follows:"
+msgstr ""
+
+msgid "For example, if you wanted to purchase 100 units of a particular asset trading at USD 50 per unit through a traditional broker, it would cost you USD 5,000 for this transaction."
+msgstr ""
+
+msgid "For example, the CFDs on US 30 Cash Index offer a USD 1 per point contract. If you buy a Volume 1.0 contract for the US 30 Cash Index with current ask price of USD 20,000 and later sell it at a bid price of USD 20,010, your net profit will be calculated as follows:"
+msgstr ""
+
+msgid "For example, the CFDs on Volatility Indices offer a USD 1 per point contract. If you buy a Volume 1.0 contract for the Volatility 100 Index with current ask price of USD 20,000 and later sell it at a bid price of USD 20,010, your net profit will be calculated as follows:"
+msgstr ""
+
 msgid "For features and trading illustration of Spot FX offered by Binary.com, refer to the Product Disclosure Statement. This policy is an appendix to the overarching Binary.com Order Execution Policy and should be read in conjunction with the overarching Binary.com Order Execution Policy."
 msgstr "關於Binary.com 提供的Spot FX 特點和交易說明，請參閱產品披露聲明。這項政策是Binary.com 綜合性訂單執行政策的附錄，須與 Binary.com 綜合性訂單執行政策一起閱讀。"
 
 msgid "Force majeure event, if and when determined, means, (i) the Company, by reason of force majeure or act of state, is prevented from or hindered or delayed in delivering or receiving, or is impossible to deliver or receive, any quotation of the bid and offer price of a market in one or more of the instruments which we ordinarily deal in Transactions; (ii) an excessive movement in the market of the instrument or our reasonable anticipation of the potential occurrence of market disruption."
 msgstr "不可抗力事件，如果發生及一旦確定，是指(i) 公司因不可抗力或政府行為因素，被阻止或妨礙或延遲通過我們通常用於進行交易處理的一或多個工具交付或接收，或無法提供或接收任何投標報價並提供市場價格; (ii) 交易工具的市場動盪過度或我們合理預期可能發生的市場擾亂。"
+
+msgid "Forex"
+msgstr ""
 
 msgid "Forex and contract for differences transactions involve a high degree of risk and are speculative because they allow you to speculate on the short term movements of the price of the underlying financial instruments. You should not enter into forex and/or contracts for differences transactions unless you are able to sustain losses that exceed your deposited funds. It is important for you to understand that in order to realise any value from your open positions, you would have to enter into a corresponding transaction to close your open positions and you may find it difficult or impossible to do so under certain market conditions."
 msgstr "外匯和差價交易合約涉及高風險，是一種投機活動，因為您可推測基礎金融工具價格的短期變動。除非您能接受比您存入資金更大的虧損，不然您不適合參與外匯交易和 （或） 簽訂差價交易合約。重要的是您需了解，如果要從持倉頭寸獲取任何回報，您必須參與相應的交易將持倉頭寸平倉，有時候在一些市場條件下您可能很難或無法做到此點。"
@@ -432,6 +543,9 @@ msgstr "外匯交易經驗"
 msgid "Forex trading frequency"
 msgstr "外匯交易頻率"
 
+msgid "France 40 Cash Index"
+msgstr ""
+
 msgid "Fund Transfers"
 msgstr "基金轉匯"
 
@@ -444,8 +558,26 @@ msgstr "七、保證金"
 msgid "G. Order Handling"
 msgstr "七、訂單處理"
 
+msgid "GBP 1 per point"
+msgstr ""
+
+msgid "GBP/CHF"
+msgstr ""
+
+msgid "GBP/JPY"
+msgstr ""
+
+msgid "GBP/USD"
+msgstr ""
+
+msgid "GBP_100"
+msgstr ""
+
 msgid "General Provisions"
 msgstr "一般規定"
+
+msgid "German 30 Cash Index"
+msgstr ""
 
 msgid "Given our role as margin trading service provider as described in this Agreement, we seek to avoid undue market influence to the extent consistent with your trading needs and our risk management policies and procedures. By continuing to use the margin trading service described in this Agreement, you acknowledge that you are aware of the potential conflict of interest disclosed that may arise and cannot be completely eliminated, and you consent us to act notwithstanding such potential conflict of interests."
 msgstr "我們是融資融券交易服務提供商，如本協議所述，我們盡量不讓市場影響您的交易需求，同時維護我們的風險管理政策和程序。通過繼續使用本協議所述的融資融券交易服務，您承認並已了解，所披露利益的潛在衝突可能會出現以及不能完全排除，即使存在這種潛在利益衝突，您也同意我們的行動。"
@@ -477,11 +609,26 @@ msgstr "高風險投資警告︰ 外匯和/或保證金差價合約交易有很�
 msgid "High frequency (2 ticks per second)"
 msgstr "高頻率 （每秒 2 次跳動點）"
 
+msgid "How do we calculate interest fees for long positions?"
+msgstr ""
+
+msgid "How is margin calculated?"
+msgstr ""
+
+msgid "How to read the table above"
+msgstr ""
+
 msgid "I have read and agreed to the"
 msgstr "我已閱讀並同意"
 
 msgid "I. Quotes"
 msgstr "九、 報價"
+
+msgid "I.e. (20010 - 20000) x 1 x 1 = USD 10"
+msgstr ""
+
+msgid "IND_30"
+msgstr ""
 
 msgid "If a closing Transaction in the same market is entered into but with a higher number of lots, the original Open Position will be closed and a new Open Position will be entered into for the number of lots by which the new Transaction exceeds the Open Position."
 msgstr "如果在同一市場簽定平倉交易，但是具有較多的手份，原來持倉頭寸將平倉，並以超越未平倉頭寸的新交易手份數簽訂新未平倉頭寸。"
@@ -494,12 +641,6 @@ msgstr "如果您真實帳戶的保證金層次達到或低於強制平倉層次
 
 msgid "If the issue keeps happening, please contact <a>customer support</a>."
 msgstr "如果問題持續發生，請聯繫 <a>客服部</a>。"
-
-msgid "If the level of assets is still under the Stop Out Level, the server closes a position with the largest loss."
-msgstr "如果資產層次仍然低於強制平倉層次，伺服器將最大虧損的頭寸平倉。"
-
-msgid "If the level of assets is still under the Stop Out level, the next order is deleted. Orders without margin requirements are not deleted."
-msgstr "如果資產層次仍然低於強制平倉層次，下一個訂單將被刪除，沒有保證金要求的訂單不會被刪除。"
 
 msgid "If we determine that a force majeure event exists, the Company shall promptly give notice thereof to the client. Subsequently, we may, at our absolute discretion, take one or more of the following steps:"
 msgstr "如果我們確定存在不可抗力事件，公司將立即通知客戶。隨後，我們可完全自主決定採取以下其中一個或多個措施︰"
@@ -516,6 +657,9 @@ msgstr "如果您無法按照本協定規定立即將拖欠我們的款項全額
 msgid "If you have entered into more than one Open Position in the same market, any closing Transaction that you place in the same market will close the Open Positions in the chronological order in which the Open Positions were first created on a first in first out basis."
 msgstr "如果您已在同一市場持有多個未平倉頭寸，您在同一市場完成任何平倉交易將使其他未平倉頭寸按建立時間先進先出順序平倉。"
 
+msgid "If you keep any positions open overnight, an interest adjustment will be made to your trading account as indication of the cost required to keep your position open. This adjustment is based on interbank lending rates, on top of a 2% fee."
+msgstr ""
+
 msgid "If you previously downloaded MetaTrader 5 directly from MetaTrader's website, please select \"%1\" from the list of available brokers."
 msgstr "如果您以前曾經直接從 MetaTrader 網站下載 MetaTrader 5 ，請在可用的經紀商清單選擇「%1」。"
 
@@ -528,11 +672,20 @@ msgstr "如果您想投訴關於此協定所述的保證金交易服務，請與
 msgid "If your Binary Options Real Account with Binary.com is not authenticated, access to create the Real Account shall not be granted until your Binary Options Real Account with Binary.com is authenticated."
 msgstr "如果您的Binary.com二元期權真實帳戶未通過驗證，在您的Binary.com二元期權真實帳戶通過驗證前，不可存取開立真實帳戶。"
 
+msgid "If your account is placed under margin call for an extended period of time, it will reach the stop out level where it's unable to sustain an open position. This will lead to your pending orders being deleted, and open positions being forcibly closed (also known as forced liquidation)."
+msgstr ""
+
 msgid "If your complaint relates to an outcome of a Transaction and remains unresolved, it will turn into a dispute. Should you be unsatisfied with our response, you can choose to escalate your complaint to an alternative dispute resolution entity."
 msgstr "如果您的投訴涉及某筆交易的結果，且仍然沒有得到解決，它會變成爭議。如果您對我們的答覆不滿意，可以選擇把您的投訴升級，向其他解決糾紛的實體提出。"
 
-msgid "Implementation of Margin Call"
-msgstr "追加保證金通知的執行"
+msgid "If your margin level is still under the stop out level, we will close an open position with the largest loss."
+msgstr ""
+
+msgid "If your margin level is still under the stop out level, your next order will be deleted. However, orders without margin requirements will not be deleted."
+msgstr ""
+
+msgid "Important notes on our swap rates (overnight funding)"
+msgstr ""
 
 msgid "In accordance with applicable regulatory requirements, where we do not manage to obtain sufficient information to assess the appropriateness of the product or service for you, we will similarly inform you that we are not in a position to assess appropriateness."
 msgstr "根據適用的法規要求，當我們無法獲取足夠資訊來為您評估產品或服務的合適性時，我們也會通知您我們未能進行合適性評估。"
@@ -561,6 +714,9 @@ msgstr "非使用中/休眠帳戶"
 msgid "Income Source"
 msgstr "收入來源"
 
+msgid "India 50 Cash Index"
+msgstr ""
+
 msgid "Indices trading experience"
 msgstr "指數交易經驗"
 
@@ -582,14 +738,20 @@ msgstr "投資者密碼 （唯讀存取權限）"
 msgid "Investor password cannot be same as Main password."
 msgstr "投資者密碼不能與主密碼相同。"
 
-msgid "It deletes an order with the largest margin reserved."
-msgstr "它將刪除具最大預留保證金的訂單。"
-
 msgid "It is your responsibility to keep your password and login ID confidential. You agree that you will not disclose your password and login ID to any other person;"
 msgstr "維護您的密碼和登入 ID 保密性是您的責任。您同意不會向任何其他人透露您的密碼和登入 ID。"
 
 msgid "J. Trading Transactions"
 msgstr "十、交易"
+
+msgid "JPY 1 per point"
+msgstr ""
+
+msgid "JP_225"
+msgstr ""
+
+msgid "Japan Cash Index"
+msgstr ""
 
 msgid "K. Electronic Trading Platform and Transactions"
 msgstr "十一、電子交易平台和交易"
@@ -606,6 +768,12 @@ msgstr "少於&#36;100,000"
 msgid "Less than &#36;25,000"
 msgstr "少於 &#36;25,000"
 
+msgid "Let's say the points adjustment for a long position on the EUR/USD symbol is -5.64. This would require an overnight fee of 5.64 points for one lot of open position in EUR/USD, where the size of one lot is 100,000 units. The points will then be converted into the deposit currency (which is the euro in this example). As a result, you will incur an interest fee of EUR5.64 for keeping the position open overnight."
+msgstr ""
+
+msgid "Let's say the points adjustment for a short position on the EUR/USD symbol is 1.64. This would result in an overnight credit of 1.64 points for one lot of open position in EUR/USD where the size of one lot is 100,000 units. The points will then be converted into the deposit currency (which is the euro in this example). As a result, you will be credited with EUR1.64 for keeping the position open overnight."
+msgstr ""
+
 msgid "Level of Education"
 msgstr "教育水準"
 
@@ -614,6 +782,9 @@ msgstr "槓桿"
 
 msgid "Leverage can be used to generate returns that are of multiple times higher than the amount set aside from your account balance to open and maintain a transaction (your margin). However, investments that have the potential to deliver greater investment returns carry higher levels of risk. This means that if the price movement is against your favour, you will suffer losses that are of multiple times higher than the amount set aside from your account balance to open and maintain a transaction (your margin)."
 msgstr "槓桿可以用於生成比從您的帳戶餘額撥出進行開盤持倉交易（您的保證金）的金額高出多倍的回報。然而，進行可能帶來更大投資回報的投資具更高風險。這意味著，如果價格走勢對您不利，您將蒙受比從您的帳戶餘額撥出進行開盤持倉交易（您的保證金）的金額高出多倍的虧損。"
+
+msgid "Leverage indicates how much capital you can control based on your initial deposit. For example, a 100:1 leverage will allow you to control up to USD 100,000 using only USD 1,000 of your own money as deposit."
+msgstr ""
 
 msgid "Leverage, in the context of margin trading, refers to the use of margin to increase/amplify the value of a trade. Leverage is expressed as a ratio. A 50:1 leverage, for example, means that you would be able to enter into a trade position that is of 50 times higher than your margin. When you invest in a leveraged product, your profit or loss is based on the leveraged position, i.e., the increased/amplified value of your trade determined based on the leverage ratio you set for your account."
 msgstr "融資融券交易中，槓桿指使用保證金增加/擴大交易數值。槓桿的表達方式是比率。舉個例子，如果槓桿是50: 1，您將能夠持有比保證金高出 50 倍的交易頭寸。當您投資一種槓桿產品時，您的盈利或虧損將根據槓桿的頭寸計算，也就是說，您為帳戶設定的槓桿比率決定了您的交易增加/擴大數值。"
@@ -639,6 +810,9 @@ msgstr "使用您的 MetaTrader 帳戶號碼和 MetaTrader 帳戶密碼登入到
 msgid "Login ID"
 msgstr "登入ID"
 
+msgid "Lot Size (Volume = 1.0)"
+msgstr ""
+
 msgid "M. Manifest Error"
 msgstr "十三、清單錯誤"
 
@@ -654,14 +828,11 @@ msgstr "把錢存入"
 msgid "Make a withdrawal"
 msgstr "取款"
 
+msgid "Margin"
+msgstr ""
+
 msgid "Margin - The amount set aside by us from your Account Balance in order to open and maintain a Transaction, to cover our exposure as a counterparty to your contract."
 msgstr "保證金 - 我們從您的帳戶餘額撥出進行開盤持倉交易，以支付我們作為您的合約交易對手的金額。"
-
-msgid "Margin = Volume (size) * price * margin rate"
-msgstr "保證金 = 交易量 （大小） * 價格 * 保證金率"
-
-msgid "Margin Calculation"
-msgstr "保證金計算"
 
 msgid "Margin Level - Ratio of Account Equity to Total Margin, expressed as a percentage."
 msgstr "保證金水平 - 帳戶資金與保證金總額的比率，以百分比表示。"
@@ -678,26 +849,41 @@ msgstr "保證金政策"
 msgid "Margin Requirement and Calculation"
 msgstr "保證金要求和計算"
 
-msgid "Margin allows you to trade on leverage, allowing you to gain the same amount of market exposure using much less capital. For example, if you want to purchase 100 units of a particular asset trading at 50 USD/unit through a traditional broker you will need to pay 100*50 = 5000 USD for this transaction. However, trading a CFD on the same asset using a margin account, you can have similar exposure using much less capital (a margin rate of 0.01, essentially a leverage of 100:1, would simply need 5000*0.01= 50 USD to make this trade)."
-msgstr "保證金讓您進行槓桿交易，您可使用更少資金獲得相同數量的市場投資比率。例如，如果您想要通過傳統經紀商以50 美元/單位的價格購入某一資產交易的100 個單位，這筆交易中您需要支付 100 * 50 = 5000 美元。然而，使用保證金帳戶對同一資產進行差價合約交易，您可以使用更少資金獲取相同市場投資比率 （保證金率為0.01，等於槓桿比率為 100: 1，此交易只需要 5000 * 0.01 = 50 美元） 。"
+msgid "Margin allows you to trade on leverage, giving you the same level of market exposure using much less capital."
+msgstr ""
 
-msgid "Maximum Leverage**"
-msgstr "最大杠杆 * *"
+msgid "Margin indicates how much investment you can control based on your initial capital. For example, a 0.2% margin will allow you to control up to USD 500,000 using only USD 1,000 of your own money as deposit."
+msgstr ""
+
+msgid "Margin indicates how much investment you can control based on your initial capital. For example, a 1% margin will allow you to control up to USD 100,000 using only USD 1,000 of your own money as deposit."
+msgstr ""
+
+msgid "Maximum Leverage"
+msgstr ""
 
 msgid "Maximum Volume (Trade Size)"
 msgstr "最大量額 （交易量）"
 
+msgid "Maximum Volume<br>(Trade Size)"
+msgstr ""
+
 msgid "MetaTrader account management"
 msgstr "MetaTrader 帳戶管理"
 
-msgid "Minimum Increment (Volume)"
-msgstr "最小增額 （量）"
+msgid "Minimum Spread"
+msgstr ""
 
-msgid "Minimum Spread*"
-msgstr "最低價差 *"
+msgid "Minimum Volume"
+msgstr ""
 
 msgid "Minimum Volume (Trade Size)"
 msgstr "最小量額 （交易量）"
+
+msgid "Minimum Volume Increment"
+msgstr ""
+
+msgid "Minimum Volume<br>(Trade Size)"
+msgstr ""
 
 msgid "Minimum eight characters. Must contain numbers, and mix of upper and lower case letters."
 msgstr "最少 8 個字元。必須同時包含數字和大小寫字母。"
@@ -708,6 +894,12 @@ msgstr "從客戶聚集的資金不以客戶名義投資於任何證券、期貨
 msgid "N. Force Majeure Events"
 msgstr "十四、不可抗力事件"
 
+msgid "NED_25"
+msgstr ""
+
+msgid "NZD/USD"
+msgstr ""
+
 msgid "Name"
 msgstr "姓名"
 
@@ -716,6 +908,9 @@ msgstr "無論是公司或其任何董事、職員、經理、僱員或代理人
 
 msgid "Net Annual Income"
 msgstr "年淨收入"
+
+msgid "Netherlands 25 Cash Index"
+msgstr ""
 
 msgid "Next Available Price - Earliest price reasonably available and quoted by Binary.com when our Price quotation reaches or goes beyond the level of your Stop Order."
 msgstr "下一個可用價格 - 當Binary.com的報價達到或超出您的止損訂單水準時所報的最早及合理可用價格。"
@@ -734,6 +929,9 @@ msgstr "OAuth 應用程式 ID （可選）"
 
 msgid "On the occurrence of an Event of Default, we may exercise our rights under this clause by, at any time and without prior notice:"
 msgstr "如果發生違約事件，我們可隨時在沒有預先通知的情況下行使此條款所賦予的權利︰"
+
+msgid "Once your account hits the forced liquidation level, your orders and positions are forcibly closed in the following order:"
+msgstr ""
 
 msgid "Oops... Page Not Available"
 msgstr "抱歉! 找不到頁面"
@@ -780,6 +978,9 @@ msgstr "在某些情況下，我們所決心的執行因素相對重要性可能
 msgid "Our information security policies are based on industry best practices in access control and business continuity; and"
 msgstr "我們根據業界存取控制和業務連續性的最佳做法設定資訊安全策略; 另外，"
 
+msgid "Our swap rate may also be adjusted to take holidays into account."
+msgstr ""
+
 msgid "Over &#36;1,000,000"
 msgstr "&#36;1,000,000以上"
 
@@ -801,6 +1002,9 @@ msgstr "個人資料和隱私"
 msgid "Pip Size"
 msgstr "點數大小"
 
+msgid "Please contact <a href=\"%1\" target=\"_blank\">customer support</a> for more information."
+msgstr ""
+
 msgid "Please contact <a href=\"%1\">Customer Support</a>."
 msgstr "請聯繫<a href=\"%1\">客服部</a>。"
 
@@ -810,8 +1014,14 @@ msgstr "請選擇"
 msgid "Please select a value"
 msgstr "請選擇數值"
 
-msgid "Positions are closed until the level of assets becomes higher that the Stop Out Level."
-msgstr "所有頭寸都已平倉，直到資產層次高於強制平倉層次。"
+msgid "Please take note that our swap rate also depends on the time and days you hold your positions open: "
+msgstr ""
+
+msgid "Positions that are still open on Friday at market close will be charged three times the swap rate to account for weekends, a standard practice for all brokers."
+msgstr ""
+
+msgid "Positions that are still open on Wednesday at 23:59:59 GMT will be charged three times the swap rate to account for weekends, a standard practice for all Forex brokers."
+msgstr ""
 
 msgid "Potential Conflicts of Interest"
 msgstr "潛在的利益衝突"
@@ -906,14 +1116,20 @@ msgstr "大小 - 您的訂單大小根據數量 （手數） 而定。"
 msgid "Sorry, an error occurred while processing your request."
 msgstr "對不起，在處理您的請求時發生錯誤。"
 
+msgid "South Africa 40 Cash Index"
+msgstr ""
+
+msgid "Spain 35 Cash Index"
+msgstr ""
+
 msgid "Speed - the speed at which your order can be executed."
 msgstr "速度 - 您的訂單可執行速度。"
 
 msgid "Start Trading with MetaTrader 5"
 msgstr "開始用 MetaTrader 5 交易"
 
-msgid "Start trading Forex and CFDs with Binary.com"
-msgstr "開始在Binary.com進行外匯和 CFD 交易"
+msgid "Start trading Forex and CFDs with MetaTrader 5"
+msgstr ""
 
 msgid "Start trading with MT5:"
 msgstr "開始用 MT5 交易︰"
@@ -960,6 +1176,9 @@ msgstr "您的真實帳戶被暫停，並停止執行任何訂單，不可繼續
 msgid "Symbol"
 msgstr "符號"
 
+msgid "Take advantage of MT5's advanced features and tools for a complete trading experience."
+msgstr ""
+
 msgid "Terms and Conditions"
 msgstr "條款與條件"
 
@@ -981,6 +1200,9 @@ msgstr "公司不可違反本協議項下的義務，並不須對任何因發生
 msgid "The Company sources market data from prime brokers who act as liquidity providers, thus executing your Transactions through a pool of aggregated liquidity from top tier banks. The services offered by the Company do not include physical delivery of foreign currency by us or the prime brokers to yourselves. You acknowledge and agree that such data is proprietary to us and any such provider, and you will not retransmit, redistribute, publish, disclose, or display in whole or in part such data to third parties. You represent and warrant that you will only use such data for purposes of facilitating your entry into Transactions with us on your Real Account in accordance with this Agreement and not for any other purpose. This clause does not apply to Volatility Indices."
 msgstr "公司市場資料源自充當流動性提供商的主要經紀人，因此通過從頂級銀行獲取的聚合流動性池為您執行交易。公司提供的服務不包括由我們或主要經紀人向您遞送實物外幣。您確認並同意，此類資料由我們和任何此類提供商專有，和您不會重傳、重新分配、發布、披露、或顯示此類資料的全部或部分給第三方。您陳述並保證您將僅按照本協議的目的而不是為了任何其他目的使用此類資料，為了便於在真實帳戶進行交易。本條款不適用於波動率指數。"
 
+msgid "The Forex is typically traded in <i>lots</i>. One standard <i>lots</i> is equivalent to 100,000 units. Each time you open a position on a currency symbol, you can start with a minimum transaction of <i>0.01 lots</i>."
+msgstr ""
+
 msgid "The Margin Level of your Real Account reaches or falls below the Stop Out Level;"
 msgstr "您的真實帳戶保證金層級已達到或低於強制平倉層級;"
 
@@ -989,9 +1211,6 @@ msgstr "保證金要求是未平倉頭寸價值的百分比，並將在整個相
 
 msgid "The Margin Requirements can increase / decrease based on the aggregated size of your Open Position determined by the volume (number of lots), contract size (value per point in the original currency of the contract), market price and margin rate."
 msgstr "保證金要求可根據您的未平倉頭寸累計大小增加/減少並由交易量（手數），合約大小 （合約原幣種每點的價值）、市場價格和保證金率決定。"
-
-msgid "The Margin calculation for CFDs on Volatility Indices depends on volume (size), price and margin rate."
-msgstr "波動率指數差價合約的保證金計算取決於交易量（大小）、價格和保證金率。"
 
 msgid "The Policy is supplemented by Appendix A which provide further details to our considerations as they are related to differing asset classes. The accompanying Appendix A should be read in conjunction with this Policy."
 msgstr "考慮到更多關於不同資產類別的細節，我們為政策提供附錄A作為補充。隨附的附錄 A必須和政策同時閱讀。"
@@ -1026,8 +1245,20 @@ msgstr "市場關閉時間（例如，某些交易無法在週末期間進行）
 msgid "The instruments available on the electronic trading platform (including their availability for trading);"
 msgstr "電子交易平台提供的工具 （包括交易時的可用性）;"
 
+msgid "The interest adjustment is calculated in points, meaning we will convert the relevant interbank lending rates to points in the base currency."
+msgstr ""
+
+msgid "The interest adjustment is calculated in points, meaning we will convert the relevant market rates to points in the base instrument."
+msgstr ""
+
 msgid "The leverage ratio refers to the number of times your margin (the amount set aside from your account balance to open and maintain a transaction) can be \"leveraged\" to enter into a Transaction. The denominator of the leverage ratio is always 1. A 50:1 leverage is equivalent to a 2% margin requirement (1 divided by 50 = 2%). The leverage ratio that we/you establish will determine the amount of margin required. As leverage is inversely proportional to margin, the lower the leverage you set for your Account, the higher the margin required to be set aside from your account balance (your margin requirement)."
 msgstr "槓桿比率指使用您的保證金（為進行交易從您的帳戶餘額撥出並保留的金額） 作為\"槓桿\"進入交易的次數。槓桿比率的分母始終是 1。50: 1 的槓桿比率相當於需要 2%保證金 (1 除以 50 = 2%)。我們替您建立的槓桿比率將確定保證金的數額。槓桿比率與保證金成反比，您的帳戶所設槓桿比率越低，從您的帳戶餘額撥出的保證金額就越高 （所需保證金）。"
+
+msgid "The margin for our CFDs on Volatility Indices is calculated as follows:"
+msgstr ""
+
+msgid "The margin for our Forex trades is calculated as follows:"
+msgstr ""
 
 msgid "The margin trading services described in this Agreement are conducted over the counter. This means that the market in one or more of the instruments which you ordinarily transact with us, though quoted on an exchange, are not traded on an exchange when transacted through the electronic trading platform as described in this Agreement."
 msgstr "本協定所描述的保證金交易服務通過櫃台進行。這意味著，您與我們進行交易的一個或多個工具市場，雖然由交易所報價，但通過本協議所述電子交易平台交易時卻不是在交易所交易。"
@@ -1050,8 +1281,8 @@ msgstr "本協定所述的保證金交易服務通過第三方系統提供商/�
 msgid "The provision of the margin trading services described in this Agreement is not available in the European Union."
 msgstr "歐洲聯盟國家不可用本協定所述的保證金交易服務。"
 
-msgid "The server analyzes client's orders that are not under execution at the moment."
-msgstr "伺服器對目前不在執行的客戶訂單進行分析。"
+msgid "The swap rate will depend on the direction of the position you take:"
+msgstr ""
 
 msgid "The system fills orders on a first-in-first out basis, i.e. based on the sequence of the order received, and this is beyond our control. As a result, you may find it difficult or impossible to close a position at the intended price stipulated in your Stop Order during certain market conditions. The placement of Stop Order by you, though useful as a risk management tool, will not necessarily limit your losses to your intended amounts, in the event of highly volatile trading conditions, since market conditions may make it impossible to execute such orders and there is uncertainty about your possible exit price. In short, a Stop Order is not guaranteed because it cannot operate whatever the market circumstances are."
 msgstr "系統按先進先出的次序，即按照收到訂單的順序處理訂單，這是我們無法控制的。因此，您可能會發現很難或無法在某些市場條件下按照您的止損單規定的預期價位平倉。您設定的止損單雖然是有用的風險管理工具，卻不一定能按照您原先設想的數額限制損失。在極不穩定的交易條件下，由於市場情況可能無法執行這些指令，您的退出價格具不確定性。簡而言之，止損單是無法提供保證的，因為無法在所有市場情況下運作。"
@@ -1110,8 +1341,20 @@ msgstr "如要在MT5開立波動率指數帳戶，請切換到 %1 真實帳戶�
 msgid "To deposit or withdraw from your MT5 Account, switch to your Binary.com Real Account."
 msgstr "如要在MT5帳戶存款或提款，請切換到您的Binary.com真實帳戶。"
 
+msgid "To learn more, read our <a href=\"%1\">Margin Policy</a> that further explains our 100% forced liquidation level for Forex."
+msgstr ""
+
+msgid "To learn more, read our <a href=\"%1\">Margin Policy</a> that further explains our 50% forced liquidation level for Volatility Indices."
+msgstr ""
+
+msgid "To learn more, read our <a href=\"%1\">Margin Policy</a> that further explains our margin requirements."
+msgstr ""
+
 msgid "To open a Real Account, you must have an authenticated Binary Options Real Account with Binary.com. A Real Account cannot be opened in the absence of a Binary Options Real Account."
 msgstr "要開立真實帳戶，您必須在Binary.com擁有已通過身份驗證的二元期權真實帳戶。如果沒有二元期權真實帳戶，您無法開立真實帳戶。"
+
+msgid "To register an MT5 account, please %1 to your Binary.com account <br/> Don't have a Binary.com account? <a href=\"%2\">Create one</a> now"
+msgstr ""
 
 msgid "Total Margin - The aggregate of all Margin Requirements in your Real Account."
 msgstr "保證金總金額 - 真實帳戶的所有保證金要求累計金額。"
@@ -1151,6 +1394,39 @@ msgstr "把資金從您的MT5帳戶轉移到Binary.com帳戶︰"
 
 msgid "Transfer into"
 msgstr "轉移到"
+
+msgid "UK 100 Cash Index"
+msgstr ""
+
+msgid "US 100 Cash Index"
+msgstr ""
+
+msgid "US 30 Cash Index"
+msgstr ""
+
+msgid "US 500 Cash Index"
+msgstr ""
+
+msgid "USD 1 per point"
+msgstr ""
+
+msgid "USD/CAD"
+msgstr ""
+
+msgid "USD/CHF"
+msgstr ""
+
+msgid "USD/JPY"
+msgstr ""
+
+msgid "US_100"
+msgstr ""
+
+msgid "US_30"
+msgstr ""
+
+msgid "US_500"
+msgstr ""
 
 msgid "Under no circumstances shall we provide investment advice or recommendation to you or state an opinion in relation to a Transaction. From time to time, we may decide to provide you with written information, which we may publish on our website or provide to you in any other manner. We will endeavour to ensure the accuracy and completeness of this written information but it will not constitute investment advice or recommendation provided by us to you."
 msgstr "在任何情況下我們都不會對有關交易向您提供投資意見或建議或陳述觀點。我們可能會陸續通過在我們網站上公佈或以任何其他方式為您提供書面資訊。我們將努力確保此書面資訊的準確性和完整性，但這並不構成我們向您提供投資意見或建議。"
@@ -1194,17 +1470,29 @@ msgstr "波動率指數"
 msgid "Volatility Indices Account"
 msgstr "波動率指數帳戶"
 
-msgid "Volatility Indices Contract Specifications"
-msgstr "波動率指數合約規格"
+msgid "Volume (lots) x lot size / leverage = Margin"
+msgstr ""
 
-msgid "Volume (Trade Size)"
-msgstr "量額 （交易量）"
+msgid "Volume (trade size) x price x margin rate = Margin"
+msgstr ""
+
+msgid "Volume 1.0 (Trade Size)"
+msgstr ""
+
+msgid "Volume 1.0<br>(Trade Size)"
+msgstr ""
+
+msgid "We analyse your pending orders."
+msgstr ""
 
 msgid "We are committed to making sure your personal data and transactions are secure:"
 msgstr "我們承諾確保您個人資料和交易的安全："
 
 msgid "We are required to do so in accordance with any relevant law or regulation."
 msgstr "根據任何相關法律或法規，我們需要這樣做。"
+
+msgid "We delete an order with the largest margin reserved."
+msgstr ""
 
 msgid "We endeavour to open or close the Transaction to which your Order relates at the price reasonably available to us, acting in accordance with our duty of best execution. Best execution means that we must take all sufficient steps to obtain, when executing orders, the best possible result for you taking into account price, costs, speed, likelihood of execution and settlement, size, nature or any other consideration relevant to the execution of the order."
 msgstr "我們按照最佳執行責任行事，努力以與您的訂單相關的合理可用價格開盤或平倉交易。最佳執行意味著我們在執行訂單時必須採取足夠措施，考慮價格、成本、速度、執行和結算的可能性、大小、性質或任何其他考慮因素以為您獲取最大效益。"
@@ -1242,6 +1530,9 @@ msgstr "我們通過身份驗證服務和即時防欺詐措施來防止您的帳
 msgid "We will act on any instructions given or appearing to be given by you and received by us in relation to the margin trading service provided through the MT5 Trading Platform, as deemed instructed by you. However, it is not our obligation to act on any instructions deemed instructed by you, and we are not obligated to give you any reasons for declining to do so. Instructions received by us from you are deemed final and will not be revocable. It is your responsibility to ensure the genuineness and accuracy of the instructions given by you to us."
 msgstr "我們會根據我們所收到的，由您提供或看來是您提供的關於通過 MT5 交易平台進行保證金交易的任何指示採取行動。然而，我們沒有義務對您所給的任何指示採取行動，我們也沒有義務對拒絕採取行動向您提供任何理由。我們從您收到的指示被視為最後並不可撤銷指示。確保您給我們的指示真實性和準確性是您的責任。"
 
+msgid "We will continue to close open positions until your margin level becomes higher than the stop out level."
+msgstr ""
+
 msgid "We will hold you responsible for all your obligations under this Agreement in our course of providing the margin trading service described in this Agreement to you, even if you notify us that you are acting as the agent of an identified principal."
 msgstr "在我們根據此協定所述向您提供保證金交易服務期間，您必須對本協定項下您的所有義務負責，即使您通知我們您是某指定委託人的代理。"
 
@@ -1251,11 +1542,23 @@ msgstr "我們將會對我們的訂單執行安排和政策有效性進行監督
 msgid "We will use reasonable endeavours within our control to ensure that all electronic data provided on the MT5 Trading Platform and all electronic transactions instructed and accepted from you to us, and executed by us are not subject to network latency."
 msgstr "我們將在可控制範圍內合理地努力，確保您通過 MT5 交易平台和所有電子交易指示所收到並由我們執行提供的所有電子資料均不會受到網絡延遲。"
 
+msgid "What is margin?"
+msgstr ""
+
+msgid "What's a margin call and how do we apply it?"
+msgstr ""
+
+msgid "What's a stop out level and how do we apply it?"
+msgstr ""
+
 msgid "When we accept an order from you to open or close a transaction, or any other specific instructions in relation to your order, we will endeavour to follow your instructions as far as reasonably possible, acting in accordance with our duty of best execution in accordance with your instructions. These specific instructions include, but are not limited to:"
 msgstr "當我們收到您給的開盤或收盤交易訂單或任何其他關於訂單的具體指示，我們會努力盡可能合理地遵照您的指示並根據我們最佳執行責任行事。這些具體的指示包括，但不限於︰"
 
 msgid "When we deal on own account (dealing desk), we act as principal and not as an agent on your behalf and we therefore act as the execution venue."
 msgstr "當我們在自己帳戶（交易平台）上交易時，我們是委託人，而不是您的代理人，因此我們是執行場地。"
+
+msgid "When your account equity is unable to cover the margin requirement, your account will be placed under margin call. This state does not affect your ability to open new positions. You can deposit additional funds to prevent the margin call escalating to a stop out level."
+msgstr ""
 
 msgid "Where a particular time or timeframe has been specified in a client's instructions with respect to the execution of an order, regardless of the price available, we will endeavour to execute the order at the specified time or over the specified timeframe in the best possible manner after taking all sufficient steps. However, we will not be responsible for any consequences related to pricing that resulted from the time or timeframe of the execution."
 msgstr "如客戶在執行訂單指示中指定了時間或時間週期，不論是否有可用價格，我們將在採取所有足夠步驟後努力在指定時間或時間週期內盡可能以最佳方式執行訂單。然而，我們不對因執行時間或時間週期而引起價格相關的任何後果負責。"
@@ -1278,6 +1581,9 @@ msgstr "雖然我們將按照最佳執行職責行事，致力以要求價格對
 msgid "Whilst we endeavour to take all reasonable and sufficient steps, as required by applicable laws and regulations, to identify potential conflicts of interests between ourselves and our clients, or between one client and another, that arise in the course of providing the margin trading services as described in this Agreement, by establishing and implementing policies and procedures, it is possible that we may execute certain Transactions which may have other direct or indirect material interests."
 msgstr "雖然我們將按照適用的法律和規章，努力採取一切合理和足夠的步驟，通過建立和實施政策和程序，以在提供本協定所述的保證金交易服務期間確定我們和客戶之間或客戶與客戶之間潛在的利益衝突，但我們可能會執行某些可能有其他直接或間接物質利益的交易。"
 
+msgid "With a CFD or leveraged FX trading, you can purchase 100 units of the same asset at a fraction of the cost."
+msgstr ""
+
 msgid "Withdraw"
 msgstr "提款"
 
@@ -1295,6 +1601,18 @@ msgstr "自真實帳戶提出基金幣種必須與二元期權真實帳戶資金
 
 msgid "Without prejudice to any other terms of this Agreement, neither the Company nor any its directors, officers, managers, employees, or agents shall not be liable to you in relation to any loss that you incurred whether directly or indirectly by any cause beyond our control, including but not limited to, any delay or defect in or failure of the whole or any part of the MT5 Trading Platform or any systems or network links."
 msgstr "在不妨害本協定任何其他條款的前提下，本公司或任何董事、職員、經理、僱員或代理不須對您在MT5 交易平台或任何系統或網絡鏈接，包括但不限於全部或任何部分的任何延誤或缺陷或者失敗，不論是直接或間接由於任何超出我們控制範圍的原因所造成的任何損失承擔責任。"
+
+msgid "XAGUSD"
+msgstr ""
+
+msgid "XAUUSD"
+msgstr ""
+
+msgid "XPDUSD"
+msgstr ""
+
+msgid "XPTUSD"
+msgstr ""
 
 msgid "You acknowledge and accept that a Transaction may be subject to market rules laid down in by-laws, rules, provisions, customs and practices of an exchange, a market, a clearing house, a body or any other organisation involved in the execution, clearing, and/or settlement of said Transaction. Should any such organisation take decisions or measures which affect a Transaction or an Open Position, the Company shall be entitled to take any action (including closing any Open Position of the client) which it, at its sole discretion, considers reasonable. This clause does not apply to Volatility Indices."
 msgstr "您確認並接受交易必需受到由法律、規則、規定、習俗和參與該交易執行、結算和（或）結清的交易所、市場、結算所、交易機構或任何其他組織的做法規定的的市場規則。如果任何此類機構採取影響交易或持倉頭寸的決定或措施，本公司有權自行決定採取任何我們認為合理的行動（包括替客戶開盤或收盤）。本條款不適用於波動率指數。"
@@ -1398,6 +1716,12 @@ msgstr "除非您了解本協定所述的保證金交易服務的性質和相關
 msgid "You understand that products based on a random number generator (the \"Volatility Indices\") are gambling products whereas products based on financial markets indices (forex, stocks, commodities) are financial instruments."
 msgstr "您了解基於隨機數字生成器 （「波動率指數」）的產品屬於博彩產品，而基於金融市場指數（外匯、股票、大宗商品）的產品屬於金融工具。"
 
+msgid "You will be subjected to swap rates if you keep a position open past 23:59:59 GMT."
+msgstr ""
+
+msgid "You will be subjected to swap rates if you keep a position open past the market close."
+msgstr ""
+
 msgid "You will provide us with any information that we may reasonably require to fully satisfy the demand or the requirements of the applicable government authority, upon our request."
 msgstr "為了充分滿足有關政府機關需求，我們可能向您提出任何合理資料請求，您將為我們提供相關資料。"
 
@@ -1428,9 +1752,6 @@ msgstr "如果您是個人，您的逝世、喪失工作能力、變得心智不
 msgid "Your debts are not settled as and when they fall due;"
 msgstr "您無法在到期時還清債務;"
 
-msgid "Your existing Binary.com account and cashier will be linked to your MT5 account"
-msgstr "您目前的 Binary.com 帳戶和收銀台將連結到您的 MT5 帳戶"
-
 msgid "Your forex and contracts for differences transactions with %1 are linked to an underlying financial instrument and you will be exposed to price, currency exchange, interest rate or other volatility of the market to which your financial instrument is related to, especially if the market is of a jurisdiction that is foreign to you. Forex and contracts for differences trading over the internet via an electronic trading platform is subject to data latency risk which may result in delays in order execution."
 msgstr "您與%1的外匯和差價合約交易與一種標的金融工具相連接，您將承受與金融工具有關的價格、匯率、利率或其他市場波動率的風險，特別是如果市場所屬的管轄權與你無關。通過電子交易平台在網路上進行的外匯和差價合約交易承受潛在資料風險，可能導致訂單執行的延誤。"
 
@@ -1442,6 +1763,12 @@ msgstr "您的設定已成功更新。"
 
 msgid "Your use of the MT5 Trading Platform, whether accessed through or downloaded from our website or a third party website, is governed by the terms of use provided by the MT5 Trading Platform Licensor to you. In the event of any conflict between the content of this Agreement and the agreement between you and the MT5 Trading Platform Licensor, the terms of this Agreement shall prevail. It is your responsibility to ensure that the information technology that you use is compatible with the required information technology to support the MT5 Trading Platform."
 msgstr "不論您是通過訪問我們的網站或第三方網站或從網站下載使用 MT5 交易平台， 您須受向您提供 MT5 交易平台的許可方使用條款約束。如本協定的內容與您和 MT5 交易平台許可方之間協定之間有任何衝突，則以本協定的條款為準。確保您使用的資訊技術與支持MT5 交易平台所需的資訊技術兼容是你的責任。"
+
+msgid "ZAF_40"
+msgstr ""
+
+msgid "ZAR 1 per point"
+msgstr ""
 
 msgid "a) The venue at which your order will be executed;"
 msgstr "a) 您的訂單執行地點;"
@@ -1469,6 +1796,9 @@ msgstr "例如 blue.binaryws.com"
 
 msgid "intelligently routing incoming orders to different types of execution modes based on configurations and algorithms established using best execution factors."
 msgstr "根據以最佳執行因素建立的設定和算法將傳入的訂單通過智慧路由歸納成不同類型的執行模式。"
+
+msgid "log in"
+msgstr ""
 
 msgid "net of any other money credited to your Real Account and debited from your Real Account. Your account balance includes Margin Requirement. The amount of your account balance in excess of Margin Requirement is available for your withdrawal. The amount set aside for Margin Requirement is not available for your withdrawal."
 msgstr "在您真實帳戶記入借方並從您真實帳戶記入貸方的任何其它款項淨值。您的帳戶餘額包括保證金要求。您可將帳戶餘額超出保證金要求金額款項提出。預留保證金要求金額不可提出。"
