@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-02-01 01:20-0500\n"
+"PO-Revision-Date: 2017-02-01 01:30-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
@@ -931,7 +931,7 @@ msgid "On the occurrence of an Event of Default, we may exercise our rights unde
 msgstr "如果发生违约事件，我们可随时在没有预先通知的情况下行使此条款所赋予的权利︰"
 
 msgid "Once your account hits the forced liquidation level, your orders and positions are forcibly closed in the following order:"
-msgstr ""
+msgstr "一旦您的账户达到清算水平，您的订单和头寸将按以下顺序强行平仓︰"
 
 msgid "Oops... Page Not Available"
 msgstr "抱歉！找不到页面"
@@ -979,7 +979,7 @@ msgid "Our information security policies are based on industry best practices in
 msgstr "我们根据业界访问控制和业务连续性的最佳做法设置信息安全策略; 另外，"
 
 msgid "Our swap rate may also be adjusted to take holidays into account."
-msgstr ""
+msgstr "我们也可能会因为假期调整掉期利率。"
 
 msgid "Over &#36;1,000,000"
 msgstr "&#36;1,000,000 以上"
@@ -1003,7 +1003,7 @@ msgid "Pip Size"
 msgstr "点数大小"
 
 msgid "Please contact <a href=\"%1\" target=\"_blank\">customer support</a> for more information."
-msgstr ""
+msgstr "欲知详情，请联系<a href=\"%1\" target=\"_blank\">客服部</a>。"
 
 msgid "Please contact <a href=\"%1\">Customer Support</a>."
 msgstr "请联系<a href=\"%1\">客服部</a>。"
@@ -1015,7 +1015,7 @@ msgid "Please select a value"
 msgstr "请选择数值"
 
 msgid "Please take note that our swap rate also depends on the time and days you hold your positions open: "
-msgstr ""
+msgstr "请注意，我们的掉期率也取决于您的持仓时间和天数︰ "
 
 msgid "Positions that are still open on Friday at market close will be charged three times the swap rate to account for weekends, a standard practice for all brokers."
 msgstr ""
