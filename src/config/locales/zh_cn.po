@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-01-31 23:51-0500\n"
+"PO-Revision-Date: 2017-02-01 01:20-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
@@ -865,25 +865,25 @@ msgid "Maximum Volume (Trade Size)"
 msgstr "最大量额 （交易量）"
 
 msgid "Maximum Volume<br>(Trade Size)"
-msgstr ""
+msgstr "最大交易额<br>(交易量)"
 
 msgid "MetaTrader account management"
 msgstr "MetaTrader 账户管理"
 
 msgid "Minimum Spread"
-msgstr ""
+msgstr "最小价差"
 
 msgid "Minimum Volume"
-msgstr ""
+msgstr "最小交易额"
 
 msgid "Minimum Volume (Trade Size)"
 msgstr "最小量额 （交易量）"
 
 msgid "Minimum Volume Increment"
-msgstr ""
+msgstr "最小交易增额"
 
 msgid "Minimum Volume<br>(Trade Size)"
-msgstr ""
+msgstr "最小交易额<br>(交易量)"
 
 msgid "Minimum eight characters. Must contain numbers, and mix of upper and lower case letters."
 msgstr "最少 8 个字符。必须同时包含数字和大小写字母。"
@@ -895,10 +895,10 @@ msgid "N. Force Majeure Events"
 msgstr "十四、不可抗力事件"
 
 msgid "NED_25"
-msgstr ""
+msgstr "NED_25"
 
 msgid "NZD/USD"
-msgstr ""
+msgstr "纽元/美元"
 
 msgid "Name"
 msgstr "姓名"
@@ -910,7 +910,7 @@ msgid "Net Annual Income"
 msgstr "年净收入"
 
 msgid "Netherlands 25 Cash Index"
-msgstr ""
+msgstr "荷兰 25 现金指数"
 
 msgid "Next Available Price - Earliest price reasonably available and quoted by Binary.com when our Price quotation reaches or goes beyond the level of your Stop Order."
 msgstr "下一个可用价格 - 当Binary.com的报价达到或超出您的止损订单水平时所报的最早及合理可用价格。"
