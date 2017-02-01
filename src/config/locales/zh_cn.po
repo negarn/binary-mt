@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-01-31 23:10-0500\n"
+"PO-Revision-Date: 2017-01-31 23:20-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
@@ -679,13 +679,13 @@ msgid "If your complaint relates to an outcome of a Transaction and remains unre
 msgstr "如果您的投诉涉及某笔交易的结果，且仍然没有得到解决，它会变成争议。如果您对我们的答复不满意，可以选择把您的投诉升级，向其他解决纠纷的实体提出。"
 
 msgid "If your margin level is still under the stop out level, we will close an open position with the largest loss."
-msgstr ""
+msgstr "如果您的保证金水平仍处于强制平仓水平，我们将对损失最大的持仓头寸进行强制平仓。"
 
 msgid "If your margin level is still under the stop out level, your next order will be deleted. However, orders without margin requirements will not be deleted."
-msgstr ""
+msgstr "如果您的保证金水平仍处于强制平仓水平，您的下一个订单将被删除。然而，没有保证金要求的订单将不会被删除。"
 
 msgid "Important notes on our swap rates (overnight funding)"
-msgstr ""
+msgstr "掉期利率（隔夜资金）的重要说明"
 
 msgid "In accordance with applicable regulatory requirements, where we do not manage to obtain sufficient information to assess the appropriateness of the product or service for you, we will similarly inform you that we are not in a position to assess appropriateness."
 msgstr "根据适用的法规要求，当我们无法获取足够信息为您评估产品或服务的合适性时，同样会通知您。"
@@ -715,7 +715,7 @@ msgid "Income Source"
 msgstr "收入来源"
 
 msgid "India 50 Cash Index"
-msgstr ""
+msgstr "印度 50 现金指数"
 
 msgid "Indices trading experience"
 msgstr "指数交易经验"
@@ -745,13 +745,13 @@ msgid "J. Trading Transactions"
 msgstr "十、交易"
 
 msgid "JPY 1 per point"
-msgstr ""
+msgstr "每点 1 日元"
 
 msgid "JP_225"
-msgstr ""
+msgstr "JP_225"
 
 msgid "Japan Cash Index"
-msgstr ""
+msgstr "日本现金指数"
 
 msgid "K. Electronic Trading Platform and Transactions"
 msgstr "十一、电子交易平台和交易"
