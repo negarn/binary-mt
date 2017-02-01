@@ -10,7 +10,7 @@ sub all_pages {
         ['404',                      'static/404',               'full_width', '404'],
         ['user/settings/metatrader', 'user/settings/metatrader', 'default',    'MetaTrader'],
         ['user/tnc_approvalws',      'user/tnc_approvalws',      'default',    'Terms and Conditions Approval'],
-        ['margin-policy',            'static/margin_policy',     'default',    'MetaTrader Margin Policy'],
+        ['margin-policy',            'static/margin_policy',     'full_width', 'MetaTrader Margin Policy'],
         ['terms-and-conditions',     'legal/tac',                'default',    'MetaTrader Terms and Conditions'],
         ['download-metatrader',      'static/download',          'default',    'Start Trading with MetaTrader 5'],
         ['endpoint',                 'static/endpoint',          'default',    'Endpoint'],
