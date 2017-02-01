@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-02-01 02:10-0500\n"
+"PO-Revision-Date: 2017-02-01 02:20-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -529,7 +529,7 @@ msgid "Force majeure event, if and when determined, means, (i) the Company, by r
 msgstr "Под форс-мажорными обстоятельствами следует понимать следующие ситуации: (i) при чрезвычайных обстоятельствах или по указанию государства Компания не может, столкнулась с препятствиями или испытывает промедления в предоставлении или получении, а также возникли условия, при которых Компания не может предоставлять или получать любые котировки, цену бид и цену предложения для актива на одном или более инструменте, в отношении которых заключаются контракты; (ii) на рынке инструмента наблюдается чрезмерная динамика или ситуации, когда Компания имеет основания ожидать возникновения рыночной дестабилизации."
 
 msgid "Forex"
-msgstr ""
+msgstr "Forex"
 
 msgid "Forex and contract for differences transactions involve a high degree of risk and are speculative because they allow you to speculate on the short term movements of the price of the underlying financial instruments. You should not enter into forex and/or contracts for differences transactions unless you are able to sustain losses that exceed your deposited funds. It is important for you to understand that in order to realise any value from your open positions, you would have to enter into a corresponding transaction to close your open positions and you may find it difficult or impossible to do so under certain market conditions."
 msgstr "Forex и торговля контрактами на разницу подразумевают высокий уровень риска и являются спекулятивными продуктами, так как они разрешают Вам спекулировать на краткосрочных движениях цены базовых финансовых инструментов. Вам не следует заключать контракты на Forex и/или контракты на разницу, если Вы не можете себе позволить понести потери, превосходящие размер инвестированных средств. Также необходимо осознать, что для получения любых средств от Ваших открытых позиций Вам необходимо заключить соответствующий контракт с целью закрытия открытых позиций, что может оказаться сложным или невозможным при определённых рыночных условиях."
@@ -934,7 +934,7 @@ msgid "Once your account hits the forced liquidation level, your orders and posi
 msgstr ""
 
 msgid "Oops... Page Not Available"
-msgstr ""
+msgstr "Упс... Страница недоступна"
 
 msgid "Open Position - the position in a market made by reference to an Underlying Instrument created by opening a Transaction as a result of placing an Order to the extent that such position has not been closed in whole or in part under this Agreement."
 msgstr "Открытая позиция – позиция на рынке со ссылкой на базовый инструмент, созданная в результате открытия контракта путём размещения ордера и не закрытая (в целом или частично) в рамках данного Соглашения."
@@ -961,10 +961,10 @@ msgid "Other"
 msgstr ""
 
 msgid "Other financial instruments trading experience"
-msgstr ""
+msgstr "Опыт торговли другими финансовыми инструментами"
 
 msgid "Other financial instruments trading frequency"
-msgstr ""
+msgstr "Частота торговли другими финансовыми инструментами"
 
 msgid "Our Order Execution Policy (the \"Policy\") sets out the overview and approach of how Binary.com executes orders on behalf of our clients."
 msgstr "Наша Политика исполнения ордеров (далее именуемая \"Политика\") представляет собой общие сведения и подход Binary.com к исполнению ордеров от имени наших клиентов."
