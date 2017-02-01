@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-02-01 03:01-0500\n"
+"PO-Revision-Date: 2017-02-01 05:12-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
@@ -56,12 +56,6 @@ msgstr "0-1 年"
 
 msgid "0-5 transactions in the past 12 months"
 msgstr "过去12个月内0-5次交易"
-
-msgid "1 x 100,000 / 100 = EUR 1,000"
-msgstr "1 x 100,000 / 100 = 欧元 1,000"
-
-msgid "1 x 20,000 / 100 = EUR 200"
-msgstr "1 x 20,000 / 100 = 欧元 200"
 
 msgid "1-2 years"
 msgstr "1-2 年"
@@ -156,6 +150,9 @@ msgstr "有借方余额的账户需立即付款给我们结算全额。"
 msgid "Advanced Tools &amp; Platforms"
 msgstr "先进工具 &amp; 平台"
 
+msgid "Agricultural, Forestry and Fishery Workers"
+msgstr ""
+
 msgid "All client orders are processed on a first in first out basis without any manual intervention. When executing your order, Binary.com will seek to fill your order transaction as promptly as possible, at the instructed price (or at a better price, if available). Exposure limits are established based on internal governance arrangements and risk management framework which commensurate with the size, nature, complexity, and risk profile of our activities. These exposure limits are used as benchmarks to distinguish orders that are auto-accepted and orders that will be worked in the market with fill level passed on to the client."
 msgstr "所有客户订单将以先进先出，没有任何人工干预的方式处理。执行您的订单时，Binary.com 将尽快以指示价格 （或可用的更佳价格）填补您的订单交易记录。基于内部治理安排和风险管理框架建立的接触限值将与我们活动的大小、性质、复杂性和风险架构相配合。这些接触限值是区分自动接受订单和可用于将填补水平传递给客户端市场的订单的基准。"
 
@@ -197,6 +194,9 @@ msgstr "使用与您的基本货币不相同的货币计价的任何已实现利
 
 msgid "Appendix - Product Specific Policies"
 msgstr "附录 - 产品具体政策"
+
+msgid "Armed Forces"
+msgstr ""
 
 msgid "Aspects of a client order not affected by specific instructions are subject to the application of Binary.com's Order Execution Policy. In the absence of specific instructions from our clients, we will exercise our own discretion in determining the factors that are required to be taken into account for the purpose of providing you with best execution, having regard to the execution criteria listed below:"
 msgstr "不受具体指示影响的客户订单相关事宜必须符合Binary.com订单执行政策的使用需求。客户没有提供具体指示时，为了向您提供最佳执行措施，我们将根据以下执行标准自行确定所需要考虑的因素："
@@ -291,6 +291,15 @@ msgstr "更改账戶的止损平仓水平。"
 msgid "Change the margin rate in relation to both Open Positions and new orders;"
 msgstr "更改未平仓头寸和新订单的保证金率;"
 
+msgid "Chief Executives, Senior Officials and Legislators"
+msgstr ""
+
+msgid "Cleaners and Helpers"
+msgstr ""
+
+msgid "Clerks"
+msgstr ""
+
 msgid "Click the button below to download MetaTrader."
 msgstr "请单击下面的按钮下载 MetaTrader。"
 
@@ -353,6 +362,9 @@ msgstr "合约规格 - 外汇"
 
 msgid "Costs - the costs of executing your order comprised predominantly of spread, i.e., the difference between our bid and our offer price."
 msgstr "费用 - 您的订单执行费用主要由价差，即我们的标价和我们提供的价格之间的区别组成。"
+
+msgid "Craft, Metal, Electrical and Electronics Workers"
+msgstr ""
 
 msgid "Create Your MetaTrader 5 Account Now"
 msgstr "立刻创建 MetaTrader 5 账户"
@@ -507,15 +519,6 @@ msgstr "财务评估"
 msgid "Financial Information"
 msgstr "金融信息"
 
-msgid "For e.g. If you buy 1 Volume of Volatility 100 Index at a price of EUR 20,000 and a margin rate of 0.01(1%), the margin required to purchase that one lot will be calculated as follows:"
-msgstr "例如，如果您以 20,000 欧元的价格和 0.01(1%) 保证金率购入1股波动率 100 指数，购买此一手的所需保证金计算方法如下︰"
-
-msgid "For e.g. If you buy one lot of the EUR/USD symbol with a contract size of 100,000 and leverage of 100:1, the margin required to purchase that one lot will be calculated as follows:"
-msgstr "例如，如果您以 100,000 合约大小和 100:1杠杆率购入1手欧元/美元符号，购买此一手的所需保证金计算方法如下︰"
-
-msgid "For example, if you wanted to purchase 100 units of a particular asset trading at USD 50 per unit through a traditional broker, it would cost you USD 5,000 for this transaction."
-msgstr "例如，如果您想通过传统经纪人以每单位 50 美元的价格购入某资产100 单位，此交易您须支付 5,000 美元。"
-
 msgid "For example, the CFDs on US 30 Cash Index offer a USD 1 per point contract. If you buy a Volume 1.0 contract for the US 30 Cash Index with current ask price of USD 20,000 and later sell it at a bid price of USD 20,010, your net profit will be calculated as follows:"
 msgstr "例如，美国 30 现金指数的差价合约报价每点1美元。如果您以当前20,000 美元的卖出价格购入 1.0 股美国 30 现金指数，然后以20,010 美元的买入价格出售，您的净利润计算方法如下︰"
 
@@ -585,6 +588,9 @@ msgstr "我们是融资融券交易服务提供商，如本协议所述，我们
 msgid "Go to web terminal"
 msgstr "转到 web 终端"
 
+msgid "Government Officers"
+msgstr ""
+
 msgid "H. Monitoring and Review"
 msgstr "八、监测和审查"
 
@@ -648,6 +654,12 @@ msgstr "如果我们确定存在不可抗力事件，公司将立即通知客户
 msgid "If you are an individual, you are over 18 years old and you have full capacity to enter into this Agreement;"
 msgstr "如果您是个人，年满 18 岁，您有充分能力签订本协议;"
 
+msgid "If you buy <strong>1 Volume of Volatility 100 Index</strong> at a <strong>price of US&#36 20,000</strong> and a <strong>margin rate of 0.01(1%)</strong>, the margin required to purchase that one lot will be calculated as follows:"
+msgstr ""
+
+msgid "If you buy <strong>one lot of the EUR/USD</strong> symbol with a <strong>contract size of 100,000</strong> and <strong>leverage of 100:1</strong>, the margin required to purchase that one lot will be calculated as follows:"
+msgstr ""
+
 msgid "If you do not intend to utilise the leverage feature, please set the leverage ratio to 1:1."
 msgstr "如果您不打算使用杠杆功能，请将杠杆比率设为 1:1。"
 
@@ -662,6 +674,9 @@ msgstr "如果您持仓过夜，系统将对您的账户收取持仓成本隔夜
 
 msgid "If you previously downloaded MetaTrader 5 directly from MetaTrader's website, please select \"%1\" from the list of available brokers."
 msgstr "如果您以前曾经直接从 MetaTrader 网站下载 MetaTrader 5 ，请在可用的经纪商列表选择\"%1\"。"
+
+msgid "If you wanted to purchase <strong>100 units</strong> of a particular asset trading at <strong>US&#36; 50 per unit</strong> through a traditional broker, it would cost you <strong>US&#36; 5,000</strong> for this transaction."
+msgstr ""
 
 msgid "If you wish to withdraw funds from your Real Account and close your Real Account, you may notify us by contacting our helpdesk at <a href='mailto:%1'>%1</a>. Your Real Account may be closed if you do not have any Open Positions and all amounts due to us have been settled."
 msgstr "如果您想从真实账户提款并关闭您的真实账户，您可通过<a href='mailto:%1'> %1</a> 联系客服部通知我们。如果您没有任何未平仓头寸及所有款项都已结清，您的真实账户可以关闭。"
@@ -828,6 +843,9 @@ msgstr "把钱存入"
 msgid "Make a withdrawal"
 msgstr "取款"
 
+msgid "Managers"
+msgstr ""
+
 msgid "Margin"
 msgstr "保证金"
 
@@ -888,6 +906,9 @@ msgstr "最小交易额<br>(交易量)"
 msgid "Minimum eight characters. Must contain numbers, and mix of upper and lower case letters."
 msgstr "最少 8 个字符。必须同时包含数字和大小写字母。"
 
+msgid "Mining, Construction, Manufacturing and Transport Workers"
+msgstr ""
+
 msgid "Money collected from Clients are not invested in any securities, futures, or other investments, on behalf of Clients."
 msgstr "来自客户的资金不用于任何以客户名义进行的证券、期货、及其他产品投资。"
 
@@ -927,11 +948,14 @@ msgstr "十五、陈述和保证"
 msgid "OAuth App ID (Optional)"
 msgstr "OAuth 应用程序 ID （可选）"
 
+msgid "Occupation"
+msgstr ""
+
 msgid "On the occurrence of an Event of Default, we may exercise our rights under this clause by, at any time and without prior notice:"
 msgstr "如果发生违约事件，我们可随时在没有预先通知的情况下行使此条款所赋予的权利︰"
 
-msgid "Once your account hits the forced liquidation level, your orders and positions are forcibly closed in the following order:"
-msgstr "一旦您的账户达到清算水平，您的订单和头寸将按以下顺序强行平仓︰"
+msgid "Once your account hits the forced liquidation level, your orders and positions are forcibly closed in the following sequence:"
+msgstr ""
 
 msgid "Oops... Page Not Available"
 msgstr "抱歉！找不到页面"
@@ -966,6 +990,9 @@ msgstr "其他金融工具交易经验"
 msgid "Other financial instruments trading frequency"
 msgstr "其他金融工具交易频率"
 
+msgid "Others"
+msgstr ""
+
 msgid "Our Order Execution Policy (the \"Policy\") sets out the overview and approach of how Binary.com executes orders on behalf of our clients."
 msgstr "我们的订单执行政策 （简称\"政策\"） 设置关于Binary.com 代替客户执行订单的概述和方法。"
 
@@ -996,11 +1023,17 @@ msgstr "十六、赔偿"
 msgid "Pension"
 msgstr "养老金"
 
+msgid "Personal Care, Sales and Service Workers"
+msgstr ""
+
 msgid "Personal Data and Privacy"
 msgstr "个人数据和隐私"
 
 msgid "Pip Size"
 msgstr "点数大小"
+
+msgid "Plant and Machine Operators and Assemblers"
+msgstr ""
 
 msgid "Please contact <a href=\"%1\" target=\"_blank\">customer support</a> for more information."
 msgstr "欲知详情，请联系<a href=\"%1\" target=\"_blank\">客服部</a>。"
@@ -1037,6 +1070,9 @@ msgstr "主要"
 
 msgid "Prior to placing an Order which results in opening a Transaction or increasing an existing Open Position, you acknowledge that it is your responsibility to ensure that your Account Free Margin is sufficient to cover the Margin required in relation to the open Transaction (the \"Margin Requirement\"), and to continuously meet the Margin Requirement."
 msgstr "下单开盘交易或为当前持仓头寸加码前，您确认确保您的账户可用保证金足以支付开盘交易所须的保证金（\"要求保证金\"），并持续满足保证金要求是您的责任。"
+
+msgid "Professionals"
+msgstr ""
 
 msgid "Q. Miscellaneous"
 msgstr "十七、杂项"
@@ -1254,11 +1290,11 @@ msgstr "利息调整以点为计算单位，意味着我们将把相关市场利
 msgid "The leverage ratio refers to the number of times your margin (the amount set aside from your account balance to open and maintain a transaction) can be \"leveraged\" to enter into a Transaction. The denominator of the leverage ratio is always 1. A 50:1 leverage is equivalent to a 2% margin requirement (1 divided by 50 = 2%). The leverage ratio that we/you establish will determine the amount of margin required. As leverage is inversely proportional to margin, the lower the leverage you set for your Account, the higher the margin required to be set aside from your account balance (your margin requirement)."
 msgstr "杠杆比率指使用您的保证金（为进行交易从您的账户余额拨出并保留的金额） 作为\"杠杆\"进入交易的次数。杠杆比率的分母始终是 1。50: 1 的杠杆比率相当于需要 2%保证金 (1 除以 50 = 2%)。我们替您建立的杠杆比率将确定保证金的数额。杠杆比率与保证金成反比，您的账户所设杠杆比率越低，从您的账户余额拨出的保证金额就越高 （所需保证金）。"
 
-msgid "The margin for our CFDs on Volatility Indices is calculated as follows:"
-msgstr "我们对波动性指标的差价合约保证金的计算方法如下︰"
+msgid "The margin for our CFDs are calculated as follows:"
+msgstr ""
 
-msgid "The margin for our Forex trades is calculated as follows:"
-msgstr "外汇交易保证金的计算方法如下︰"
+msgid "The margin for our Forex symbols is calculated as follows:"
+msgstr ""
 
 msgid "The margin trading services described in this Agreement are conducted over the counter. This means that the market in one or more of the instruments which you ordinarily transact with us, though quoted on an exchange, are not traded on an exchange when transacted through the electronic trading platform as described in this Agreement."
 msgstr "本协议所描述的保证金交易服务通过柜台进行。这意味着，您与我们进行交易的一个或多个工具市场，虽然由交易所报价，但通过本协议所述电子交易平台交易时却不是在交易所交易。"
@@ -1342,19 +1378,19 @@ msgid "To deposit or withdraw from your MT5 Account, switch to your Binary.com R
 msgstr "如要在MT5账户存款或提款，请切换到您的Binary.com真实账户。"
 
 msgid "To learn more, read our <a href=\"%1\">Margin Policy</a> that further explains our 100% forced liquidation level for Forex."
-msgstr ""
+msgstr "要了解关于外汇100%强制清算水平的更多信息，请阅读我们的<a href=\"%1\">保证金政策</a>。"
 
 msgid "To learn more, read our <a href=\"%1\">Margin Policy</a> that further explains our 50% forced liquidation level for Volatility Indices."
-msgstr ""
+msgstr "要了解关于波动率指数50%强制清算水平的更多信息，请阅读我们的<a href=\"%1\">保证金政策</a>。"
 
 msgid "To learn more, read our <a href=\"%1\">Margin Policy</a> that further explains our margin requirements."
-msgstr ""
+msgstr "要了解关于保证金要求的更多信息，请阅读我们的<a href=\"%1\">保证金政策</a>。"
 
 msgid "To open a Real Account, you must have an authenticated Binary Options Real Account with Binary.com. A Real Account cannot be opened in the absence of a Binary Options Real Account."
 msgstr "要开立真实账户，您必须在Binary.com拥有已通过身份验证的二元期权真实账户。如果没有二元期权真实账户，您无法开立真实账户。"
 
 msgid "To register an MT5 account, please %1 to your Binary.com account <br/> Don't have a Binary.com account? <a href=\"%2\">Create one</a> now"
-msgstr ""
+msgstr "若要注册 MT5账户，请%1 您的 Binary.com 账户<br/> 没有 Binary.com 账户？立刻<a href=\"%2\">开立</a>"
 
 msgid "Total Margin - The aggregate of all Margin Requirements in your Real Account."
 msgstr "保证金总金额 - 真实账户的所有保证金要求累计金额。"
@@ -1396,37 +1432,37 @@ msgid "Transfer into"
 msgstr "转移到"
 
 msgid "UK 100 Cash Index"
-msgstr ""
+msgstr "英国 100 现金指数"
 
 msgid "US 100 Cash Index"
-msgstr ""
+msgstr "美国 100 现金指数"
 
 msgid "US 30 Cash Index"
-msgstr ""
+msgstr "美国 30 现金指数"
 
 msgid "US 500 Cash Index"
-msgstr ""
+msgstr "美国 500 现金指数"
 
 msgid "USD 1 per point"
-msgstr ""
+msgstr "每点 1 美元"
 
 msgid "USD/CAD"
-msgstr ""
+msgstr "美元/加元"
 
 msgid "USD/CHF"
-msgstr ""
+msgstr "美元/瑞士法郎"
 
 msgid "USD/JPY"
-msgstr ""
+msgstr "美元/日元"
 
 msgid "US_100"
-msgstr ""
+msgstr "US_100"
 
 msgid "US_30"
-msgstr ""
+msgstr "US_30"
 
 msgid "US_500"
-msgstr ""
+msgstr "US_500"
 
 msgid "Under no circumstances shall we provide investment advice or recommendation to you or state an opinion in relation to a Transaction. From time to time, we may decide to provide you with written information, which we may publish on our website or provide to you in any other manner. We will endeavour to ensure the accuracy and completeness of this written information but it will not constitute investment advice or recommendation provided by us to you."
 msgstr "在任何情况下我们都不会对有关交易向您提供投资意见或建议或陈述观点。我们可能会陆续通过在我们网站上公布或以任何其他方式为您提供书面信息。我们将努力确保此书面信息的准确性和完整性，但这并不构成我们向您提供投资意见或建议。"
@@ -1469,12 +1505,6 @@ msgstr "波动率指数"
 
 msgid "Volatility Indices Account"
 msgstr "波动率指数账户"
-
-msgid "Volume (lots) x lot size / leverage = Margin"
-msgstr ""
-
-msgid "Volume (trade size) x price x margin rate = Margin"
-msgstr ""
 
 msgid "Volume 1.0 (Trade Size)"
 msgstr ""
@@ -1542,7 +1572,7 @@ msgstr "我们将监督订单的执行安排和政策的有效性。我们会定
 msgid "We will use reasonable endeavours within our control to ensure that all electronic data provided on the MT5 Trading Platform and all electronic transactions instructed and accepted from you to us, and executed by us are not subject to network latency."
 msgstr "我们将在可控制范围内合理地努力，确保您通过 MT5 交易平台和所有电子交易指示所收到并由我们执行提供的所有电子数据均不会受到网络延迟。"
 
-msgid "What is margin?"
+msgid "What is Margin?"
 msgstr ""
 
 msgid "What's a margin call and how do we apply it?"
@@ -1557,7 +1587,7 @@ msgstr "当我们收到您给的开盘或收盘交易订单或任何其他关于
 msgid "When we deal on own account (dealing desk), we act as principal and not as an agent on your behalf and we therefore act as the execution venue."
 msgstr "当我们在自己账户（交易平台）上交易时，我们是委托人，而不是您的代理人，因此我们是执行场地。"
 
-msgid "When your account equity is unable to cover the margin requirement, your account will be placed under margin call. This state does not affect your ability to open new positions. You can deposit additional funds to prevent the margin call escalating to a stop out level."
+msgid "When your account equity is unable to cover the margin requirement, your account will be placed under margin call. This state does not affect your ability to open new positions."
 msgstr ""
 
 msgid "Where a particular time or timeframe has been specified in a client's instructions with respect to the execution of an order, regardless of the price available, we will endeavour to execute the order at the specified time or over the specified timeframe in the best possible manner after taking all sufficient steps. However, we will not be responsible for any consequences related to pricing that resulted from the time or timeframe of the execution."
@@ -1581,7 +1611,7 @@ msgstr "虽然我们将按照最佳执行职责行事，致力以要求价格对
 msgid "Whilst we endeavour to take all reasonable and sufficient steps, as required by applicable laws and regulations, to identify potential conflicts of interests between ourselves and our clients, or between one client and another, that arise in the course of providing the margin trading services as described in this Agreement, by establishing and implementing policies and procedures, it is possible that we may execute certain Transactions which may have other direct or indirect material interests."
 msgstr "虽然我们将按照适用的法律和规章，努力采取一切合理和足够的步骤，通过建立和实施政策和程序，以在提供本协议所述的保证金交易服务期间确定我们和客户之间或客户与客户之间潜在的利益冲突，但我们可能会执行某些可能有其他直接或间接物质利益的交易。"
 
-msgid "With a CFD or leveraged FX trading, you can purchase 100 units of the same asset at a fraction of the cost."
+msgid "With a CFD (which is a leveraged product), you can purchase 100 units of the same asset at a fraction of the cost."
 msgstr ""
 
 msgid "Withdraw"
