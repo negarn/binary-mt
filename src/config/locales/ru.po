@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-02-01 01:41-0500\n"
+"PO-Revision-Date: 2017-02-01 01:52-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -1315,7 +1315,7 @@ msgid "This clause does not apply to Volatility Indices."
 msgstr "Данное положение не распространяется на Индексы волатильности."
 
 msgid "This feature is not relevant to virtual-money accounts."
-msgstr ""
+msgstr "Данная функция не действует на виртуальных счетах."
 
 msgid "This section on Force Majeure Events does not apply to Volatility Indices."
 msgstr "Раздел Форс-мажорные обстоятельства не распространяется на Индексы волатильности."
@@ -1426,7 +1426,7 @@ msgid "US_30"
 msgstr ""
 
 msgid "US_500"
-msgstr ""
+msgstr "US_500"
 
 msgid "Under no circumstances shall we provide investment advice or recommendation to you or state an opinion in relation to a Transaction. From time to time, we may decide to provide you with written information, which we may publish on our website or provide to you in any other manner. We will endeavour to ensure the accuracy and completeness of this written information but it will not constitute investment advice or recommendation provided by us to you."
 msgstr "Ни при каких обстоятельствах мы не представляем Вам инвестиционных советов или иных рекомендаций, а также не выражаем своего мнения относительно заключаемых Вами контрактов. Время от времени мы можем предоставлять Вам письменную информацию, которая может быть опубликована на нашем сайте или предоставлена Вам в любом другом виде. Мы обязуемся предпринять все разумные усилия, чтобы гарантировать точность и полноту всей опубликованной информации, которая не должна рассматриваться в качестве инвестиционного совета или наших рекомендаций для Вас."
@@ -1591,7 +1591,7 @@ msgid "Withdraw from"
 msgstr "Вывести со счёта"
 
 msgid "Withdrawal is done. Transaction ID: %1"
-msgstr ""
+msgstr "Вывод средств завершен. Номер транзакции: %1"
 
 msgid "Withdrawal of Funds from Real Account"
 msgstr "Вывод средств с Реального счёта"
@@ -1603,16 +1603,16 @@ msgid "Without prejudice to any other terms of this Agreement, neither the Compa
 msgstr "Не умаляя любых других положений данного Соглашения, Компания и её руководители, представители, управляющие, сотрудники или агенты не должны нести перед вами ответственности в отношении любых потерь, которые Вы прямо или косвенно понесли по любым причинам, находящимся вне нашего контроля, включая, но не ограничиваясь любыми промедлениями, дефектами, а также сбоями всей или любой части Торговой платформы MT5, любых других систем или сетевого подключения."
 
 msgid "XAGUSD"
-msgstr ""
+msgstr "XAGUSD"
 
 msgid "XAUUSD"
-msgstr ""
+msgstr "XAUUSD"
 
 msgid "XPDUSD"
-msgstr ""
+msgstr "XPDUSD"
 
 msgid "XPTUSD"
-msgstr ""
+msgstr "XPTUSD"
 
 msgid "You acknowledge and accept that a Transaction may be subject to market rules laid down in by-laws, rules, provisions, customs and practices of an exchange, a market, a clearing house, a body or any other organisation involved in the execution, clearing, and/or settlement of said Transaction. Should any such organisation take decisions or measures which affect a Transaction or an Open Position, the Company shall be entitled to take any action (including closing any Open Position of the client) which it, at its sole discretion, considers reasonable. This clause does not apply to Volatility Indices."
 msgstr "Вы соглашаетесь и признаёте, что на все контракты могут распространяться правила работы рынка, изложенные во внутренних документах, правилах, постановлениях, нормах и порядках биржи, рынка, клиринговой компании, органа или любой другой организации, принимающей участие в исполнении, клиринге и/или урегулировании данного контракта. Если таковая организация примет решение или меры, затрагивающие контракт или открытую позицию, Компания должна быть уполномочена предпринять любые действия (в том числе закрыть любую открытую позицию клиента), которые она сочтёт необходимыми, по своему единоличному усмотрению. Данное условие не распространяется на Индексы волатильности."
@@ -1666,7 +1666,7 @@ msgid "You consent us to record your telephone conversation between you and us. 
 msgstr "Настоящим Вы даёте нам согласие на запись Ваших телефонных разговоров с нами. Все инструкции, полученные по телефону, будут являться обязательными, как и инструкции, полученные в письменной форме. Записанные телефонные разговоры между Вами и нами должны считаться и оставаться нашей собственностью. Вы обязуетесь считать записанные телефонные разговоры между Вами и нами убедительным доказательством инструкций или разговоров, а мы можем отправить копии соответствующих записей в любой суд, регулирующий или государственный орган без получения Вашего предварительного согласия."
 
 msgid "You did not change anything."
-msgstr ""
+msgstr "You did not change anything."
 
 msgid "You have all necessary authority, powers, consents, licences and authorisations and have taken all necessary actions to enable you to enter into and perform this Agreement and such Transactions lawfully;"
 msgstr "Вы обладаете всеми необходимыми полномочиями, правом, разрешениями, лицензиями и подтверждением полномочий, а также предприняли все необходимые шаги для законного заключения и исполнения данного Соглашения и контрактов;"
@@ -1759,13 +1759,13 @@ msgid "Your new account has been created."
 msgstr ""
 
 msgid "Your settings have been updated successfully."
-msgstr ""
+msgstr "Ваши настройки обновлены успешно."
 
 msgid "Your use of the MT5 Trading Platform, whether accessed through or downloaded from our website or a third party website, is governed by the terms of use provided by the MT5 Trading Platform Licensor to you. In the event of any conflict between the content of this Agreement and the agreement between you and the MT5 Trading Platform Licensor, the terms of this Agreement shall prevail. It is your responsibility to ensure that the information technology that you use is compatible with the required information technology to support the MT5 Trading Platform."
 msgstr "Использование Вами торговой платформы MT5 напрямую с сайта, путём скачивания платформы с нашего сайта или сайта третьей стороны регулируется правилами использования, предоставленными Вам лицензиаром Торговой платформы MT5. В случае выявления несоответствий между текстом данного Соглашения, а также соглашения между Вами и лицензиаром торговой платформы MT5, условия данного Соглашения должны иметь преимущественную силу. Настоящим Вы обязуетесь удостовериться, что применяемые Вами информационные технологии совместимы с технологиями, требующимися для поддержки Торговой платформы MT5."
 
 msgid "ZAF_40"
-msgstr ""
+msgstr "ZAF_40"
 
 msgid "ZAR 1 per point"
 msgstr ""
