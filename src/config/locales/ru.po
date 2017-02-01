@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-02-01 00:40-0500\n"
+"PO-Revision-Date: 2017-02-01 00:50-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -349,7 +349,7 @@ msgid "Contract Specifications (CFD) - Volatility Indices"
 msgstr ""
 
 msgid "Contract Specifications - Forex"
-msgstr ""
+msgstr "Характеристики контрактов — Forex"
 
 msgid "Costs - the costs of executing your order comprised predominantly of spread, i.e., the difference between our bid and our offer price."
 msgstr "Расходы – расходы исполнения Вашего ордера, преимущественно включающие спред (т.е. разницу между нашей ценой бид и ценой исполнения)."
@@ -358,10 +358,10 @@ msgid "Create Your MetaTrader 5 Account Now"
 msgstr "Откройте счёт на MetaTrader 5 прямо сейчас"
 
 msgid "Create a Demo Account to trade on MT5."
-msgstr ""
+msgstr "Откройте демо-счёт для торговли на MT5."
 
 msgid "Create a Financial Account to trade Forex on MT5."
-msgstr ""
+msgstr "Откройте финансовый счёт для торговли валютами на MT5."
 
 msgid "Create a Volatility Indices Account to trade Volatility Indices on MT5."
 msgstr ""
@@ -370,7 +370,7 @@ msgid "Create account"
 msgstr "Открыть счёт"
 
 msgid "Currency Symbol"
-msgstr ""
+msgstr "Символ валюты"
 
 msgid "D. Capacity"
 msgstr "D. Правоспособность"
@@ -397,10 +397,10 @@ msgid "Deposit into"
 msgstr "Перевести на счёт"
 
 msgid "Deposit is done. Transaction ID: %1"
-msgstr ""
+msgstr "Вы успешно пополнили счёт. ID транзакции: %1"
 
 msgid "Description"
-msgstr ""
+msgstr "Описание"
 
 msgid "Details"
 msgstr "Детали"
@@ -412,7 +412,7 @@ msgid "Download MetaTrader for Windows"
 msgstr "Загрузить MetaTrader для Windows"
 
 msgid "Download desktop app"
-msgstr ""
+msgstr "Скачать приложение для ПК"
 
 msgid "Download for MacOS"
 msgstr "Загрузить для MacOS"
