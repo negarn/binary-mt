@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-01-31 23:30-0500\n"
+"PO-Revision-Date: 2017-01-31 23:40-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Chinese Traditional\n"
 "MIME-Version: 1.0\n"
@@ -772,7 +772,7 @@ msgid "Let's say the points adjustment for a long position on the EUR/USD symbol
 msgstr "比如說，歐元/美元符號的多頭頭寸點調整是-5.64。如果一手大小是 100,000單位，歐元/美元持倉頭寸需要 5.64 點過夜費。點數將被轉換成存款貨幣（在這個例子中是歐元）。因此，要持倉過夜，您需付 5.64 歐元利息費用。"
 
 msgid "Let's say the points adjustment for a short position on the EUR/USD symbol is 1.64. This would result in an overnight credit of 1.64 points for one lot of open position in EUR/USD where the size of one lot is 100,000 units. The points will then be converted into the deposit currency (which is the euro in this example). As a result, you will be credited with EUR1.64 for keeping the position open overnight."
-msgstr ""
+msgstr "比如說，歐元/美元符號的空頭頭寸點調整是1.64。如果一手大小是 100,000單位，歐元/美元持倉頭寸帶來 1.64 點過夜信貸。點數將被轉換成存款貨幣（在這個例子中是歐元）。因此，持倉過夜可獲取 1.64 歐元隔夜信貸。"
 
 msgid "Level of Education"
 msgstr "教育水準"
@@ -784,7 +784,7 @@ msgid "Leverage can be used to generate returns that are of multiple times highe
 msgstr "槓桿可以用於生成比從您的帳戶餘額撥出進行開盤持倉交易（您的保證金）的金額高出多倍的回報。然而，進行可能帶來更大投資回報的投資具更高風險。這意味著，如果價格走勢對您不利，您將蒙受比從您的帳戶餘額撥出進行開盤持倉交易（您的保證金）的金額高出多倍的虧損。"
 
 msgid "Leverage indicates how much capital you can control based on your initial deposit. For example, a 100:1 leverage will allow you to control up to USD 100,000 using only USD 1,000 of your own money as deposit."
-msgstr ""
+msgstr "槓桿率是基於初始存款的可控制資本額。例如，100: 1 槓桿將允許您僅使用 1,000 美元本身存款控制100,000 美元。"
 
 msgid "Leverage, in the context of margin trading, refers to the use of margin to increase/amplify the value of a trade. Leverage is expressed as a ratio. A 50:1 leverage, for example, means that you would be able to enter into a trade position that is of 50 times higher than your margin. When you invest in a leveraged product, your profit or loss is based on the leveraged position, i.e., the increased/amplified value of your trade determined based on the leverage ratio you set for your account."
 msgstr "融資融券交易中，槓桿指使用保證金增加/擴大交易數值。槓桿的表達方式是比率。舉個例子，如果槓桿是50: 1，您將能夠持有比保證金高出 50 倍的交易頭寸。當您投資一種槓桿產品時，您的盈利或虧損將根據槓桿的頭寸計算，也就是說，您為帳戶設定的槓桿比率決定了您的交易增加/擴大數值。"
