@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-01-31 22:00-0500\n"
+"PO-Revision-Date: 2017-01-31 22:11-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Chinese Traditional\n"
 "MIME-Version: 1.0\n"
@@ -511,13 +511,13 @@ msgid "For e.g. If you buy 1 Volume of Volatility 100 Index at a price of EUR 20
 msgstr "例如，如果您以 20,000 歐元的價格和 0.01(1%) 保證金率購入1股波動率 100 指數，購買此一手的所需保證金計算方法如下︰"
 
 msgid "For e.g. If you buy one lot of the EUR/USD symbol with a contract size of 100,000 and leverage of 100:1, the margin required to purchase that one lot will be calculated as follows:"
-msgstr ""
+msgstr "例如，如果您以 100,000 合約大小和 100:1槓桿率購入1手歐元/美元符號，購買此一手的所需保證金計算方法如下︰"
 
 msgid "For example, if you wanted to purchase 100 units of a particular asset trading at USD 50 per unit through a traditional broker, it would cost you USD 5,000 for this transaction."
-msgstr ""
+msgstr "例如，如果您想通過傳統經紀人以每單位 50 美元的價格購入某資產100 單位，此交易您須支付 5,000 美元。"
 
 msgid "For example, the CFDs on US 30 Cash Index offer a USD 1 per point contract. If you buy a Volume 1.0 contract for the US 30 Cash Index with current ask price of USD 20,000 and later sell it at a bid price of USD 20,010, your net profit will be calculated as follows:"
-msgstr ""
+msgstr "例如，美國 30 現金指數的差價合約報價每點1美元。如果您以目前20,000 美元的賣出價格購入 1.0 股美國 30 現金指數，然後以20,010 美元的買入價格出售，您的淨利潤計算方法如下︰"
 
 msgid "For example, the CFDs on Volatility Indices offer a USD 1 per point contract. If you buy a Volume 1.0 contract for the Volatility 100 Index with current ask price of USD 20,000 and later sell it at a bid price of USD 20,010, your net profit will be calculated as follows:"
 msgstr ""
