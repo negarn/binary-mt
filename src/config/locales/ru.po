@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-02-01 01:30-0500\n"
+"PO-Revision-Date: 2017-02-01 01:41-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -1084,28 +1084,28 @@ msgid "Run the installation file and follow the instructions."
 msgstr "Откройте установочный файл и следуйте инструкциям."
 
 msgid "Salaried Employee"
-msgstr ""
+msgstr "Наёмный работник"
 
 msgid "Secondary"
 msgstr ""
 
 msgid "Section 1"
-msgstr ""
+msgstr "Раздел 1"
 
 msgid "Section 2"
-msgstr ""
+msgstr "Раздел 2"
 
 msgid "Section 3"
-msgstr ""
+msgstr "Раздел 3"
 
 msgid "Section 4"
-msgstr ""
+msgstr "Раздел 4"
 
 msgid "Self-Employed"
-msgstr ""
+msgstr "Частный предприниматель"
 
 msgid "Server"
-msgstr ""
+msgstr "Сервер"
 
 msgid "Sign out"
 msgstr "Выход"
@@ -1114,7 +1114,7 @@ msgid "Size - the size of your order determined by the volume (number of lots)."
 msgstr "Размер – размер Вашего ордера, определённый его объёмом (количеством лотов)."
 
 msgid "Sorry, an error occurred while processing your request."
-msgstr ""
+msgstr "Извините, при обработке Вашего запроса произошла ошибка."
 
 msgid "South Africa 40 Cash Index"
 msgstr ""
@@ -1237,7 +1237,7 @@ msgid "The factor listed above are not listed in order of priority. Ordinarily, 
 msgstr "Вышеуказанные факторы перечислены не в порядке их приоритетности. Как правило, цена имеет высокую относительную значимость при получении наилучшего возможного результата для Вас. Тем не менее, относительная значимость вышеперечисленных факторов может измениться, в соответствии с:"
 
 msgid "The financial trading services contained within this site are only suitable for customers who are able to bear the loss of all the money they invest and who understand and have experience of the risk involved in the acquistion of financial contracts. Transactions in financial contracts carry a high degree of risk."
-msgstr ""
+msgstr "Финансовые услуги, предоставляемые в рамках данного сайта, подходят лишь для клиентов, готовых нести ответственность за возможную потерю всех инвестированных средств, а также осознающих риск и имеющих опыт риска, связанного с приобретением финансовых контрактов. Заключение финансовых контрактов подразумевает высокий уровень риска."
 
 msgid "The hours of closure of the market (for e.g., the hours over the weekend during which trading of certain transactions are not possible);"
 msgstr "времени закрытия рынка (например, времени на выходные, когда торговля или определённые контракты закрыты);"
@@ -1351,7 +1351,7 @@ msgid "To learn more, read our <a href=\"%1\">Margin Policy</a> that further exp
 msgstr ""
 
 msgid "To open a Real Account, you must have an authenticated Binary Options Real Account with Binary.com. A Real Account cannot be opened in the absence of a Binary Options Real Account."
-msgstr "Чтобы открыть текущий Реальный счёт, Вы должны иметь Реальный счёт Binary для торговли бинарными опционами на Binary.com, прошедший процесс аутентификации. Реальный счёт не может быть открыт в отсутствии действующего Реального счёта Binary для торговли бинарными опционами"
+msgstr "Чтобы открыть текущий Реальный счёт, Вы должны иметь Реальный счёт Binary для торговли бинарными опционами на Binary.com, прошедший процесс аутентификации. Реальный счёт не может быть открыт в отсутствии действующего Реального счёта Binary для торговли бинарными опционами."
 
 msgid "To register an MT5 account, please %1 to your Binary.com account <br/> Don't have a Binary.com account? <a href=\"%2\">Create one</a> now"
 msgstr ""
@@ -1570,7 +1570,7 @@ msgid "Where we consider, on the basis of the information provided by you that y
 msgstr "В случае необходимости, мы можем отправить Вам предостережение на основании предоставленной Вами информации о том, что Вы не обладаете знаниями и опытом для оценки рисков, сопряжённых с инвестициями в предложенный инструмент. Данное предостережение будет размещено на вебсайте."
 
 msgid "Whilst we act as principal in respect of your orders, we also assess the execution venues that we use and upon which we place significant reliance to provide the best possible result for the execution of your orders. These venues typically consist of third party investment firms, brokers, and/or liquidity providers."
-msgstr "Выступая принципалом (исполнителем) в отношении Ваших ордеров, мы также оцениваем места исполнения, которые мы используем и которым мы значительно доверяем предоставление наилучшего результата для исполнения Ваших ордеров. Как правило, данные места исполнения представлены сторонними инвестиционными компаниями, брокерами, и/или поставщиками ликвидности."
+msgstr "Выступая принципалом (исполнителем) в отношении Ваших ордеров, мы также оцениваем места исполнения, которые мы используем и которым мы значительно доверяем предоставление наилучшего результата для исполнения Ваших ордеров. Как правило, данные места исполнения представлены сторонними инвестиционными компаниями, брокерами и/или поставщиками ликвидности."
 
 msgid "Whilst we endeavour to close out your Open Positions if and when the Margin Level for your Real Account reaches or falls below the Stop Out Level, we do not guarantee that your Open Positions will be closed when the Margin Level for your Real Account reaches the Stop Out Level."
 msgstr "Несмотря на то, что мы предпринимаем все разумные усилия, чтобы закрыть Ваши открытые позиции в случае, если уровень маржи на Вашем реальном счету достигнет или упадёт ниже уровня принудительного закрытия (уровня стоп-аут), мы не даём никаких гарантий, что Ваши открытые позиции будут закрыты, когда уровень маржи на Вашем реальном счету достигнет уровня стоп-аут."
