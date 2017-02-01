@@ -111,10 +111,10 @@ Client.prototype = {
     show_login_if_logout: function(shouldReplacePageContents) {
         if (!this.is_logged_in && shouldReplacePageContents) {
             $('#content > .container').addClass('center-text')
-                .html($('<p/>', { class: 'notice-msg', html : 
+                .html($('<p/>', { class: 'notice-msg', html :
                     text.localize('To register an MT5 account, please [_1] to your Binary.com account <br/> Don\'t have a Binary.com account? <a href="[_2]">Create one</a> now', [
                     '<a class="login_link" href="javascript:;">' + text.localize('log in') + '</a>' , page.url.url_for('home', '', true)])}))
-                .prepend($('<h3/>', { html: text.localize('Take advantage of MT5’s advanced features and tools for a complete trading experience.')}))
+                .prepend($('<h3/>', { html: text.localize('Take advantage of MT5\'s advanced features and tools for a complete trading experience.')}))
                 .prepend($('<h1/>', { html: text.localize('Start trading Forex and CFDs with MetaTrader 5')}));
 
             $('.login_link').click(function(){Login.redirect_to_login();});
@@ -696,8 +696,8 @@ Page.prototype = {
         var langs = window.location.href.split('/').slice(3);
         for (var i = 0; i < langs.length; i++) {
             var lang = langs[i];
-            if (regex.test(lang)) { 
-                return lang.toUpperCase(); 
+            if (regex.test(lang)) {
+                return lang.toUpperCase();
             }
         }
         return '';

@@ -137,8 +137,8 @@
         <p>[% l('For example, the CFDs on US 30 Cash Index offer a USD 1 per point contract. If you buy a Volume 1.0 contract for the US 30 Cash Index with current ask price of USD 20,000 and later sell it at a bid price of USD 20,010, your net profit will be calculated as follows:') %]</p>
         <div class="gr-12 gr-padding-10 fill-bg-color">
             <div class="gr-prefix-1">
-                <p>[% l('(Sell Price – Buy Price) x Volume x Price Per Point = Profit') %]</p>
-                <p>[% l('I.e. (20010 – 20000) x 1 x 1 = USD 10') %]</p>
+                <p>[% l('(Sell Price - Buy Price) x Volume x Price Per Point = Profit') %]</p>
+                <p>[% l('I.e. (20010 - 20000) x 1 x 1 = USD 10') %]</p>
             </div>
         </div>
         <p>[% l('Margin indicates how much investment you can control based on your initial capital. For example, a 1% margin will allow you to control up to USD 100,000 using only USD 1,000 of your own money as deposit.') %]</p>
