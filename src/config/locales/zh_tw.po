@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-01-31 22:11-0500\n"
+"PO-Revision-Date: 2017-01-31 22:20-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Chinese Traditional\n"
 "MIME-Version: 1.0\n"
@@ -520,7 +520,7 @@ msgid "For example, the CFDs on US 30 Cash Index offer a USD 1 per point contrac
 msgstr "例如，美國 30 現金指數的差價合約報價每點1美元。如果您以目前20,000 美元的賣出價格購入 1.0 股美國 30 現金指數，然後以20,010 美元的買入價格出售，您的淨利潤計算方法如下︰"
 
 msgid "For example, the CFDs on Volatility Indices offer a USD 1 per point contract. If you buy a Volume 1.0 contract for the Volatility 100 Index with current ask price of USD 20,000 and later sell it at a bid price of USD 20,010, your net profit will be calculated as follows:"
-msgstr ""
+msgstr "例如，波動率指數的差價合約報價每點1美元。如果您以目前20,000 美元的賣出價格購入 1.0 股波動率 100 指數，然後以20,010 美元的買入價格出售，您的淨利潤計算方法如下︰"
 
 msgid "For features and trading illustration of Spot FX offered by Binary.com, refer to the Product Disclosure Statement. This policy is an appendix to the overarching Binary.com Order Execution Policy and should be read in conjunction with the overarching Binary.com Order Execution Policy."
 msgstr "關於Binary.com 提供的Spot FX 特點和交易說明，請參閱產品披露聲明。這項政策是Binary.com 綜合性訂單執行政策的附錄，須與 Binary.com 綜合性訂單執行政策一起閱讀。"
@@ -529,7 +529,7 @@ msgid "Force majeure event, if and when determined, means, (i) the Company, by r
 msgstr "不可抗力事件，如果發生及一旦確定，是指(i) 公司因不可抗力或政府行為因素，被阻止或妨礙或延遲通過我們通常用於進行交易處理的一或多個工具交付或接收，或無法提供或接收任何投標報價並提供市場價格; (ii) 交易工具的市場動盪過度或我們合理預期可能發生的市場擾亂。"
 
 msgid "Forex"
-msgstr ""
+msgstr "外匯"
 
 msgid "Forex and contract for differences transactions involve a high degree of risk and are speculative because they allow you to speculate on the short term movements of the price of the underlying financial instruments. You should not enter into forex and/or contracts for differences transactions unless you are able to sustain losses that exceed your deposited funds. It is important for you to understand that in order to realise any value from your open positions, you would have to enter into a corresponding transaction to close your open positions and you may find it difficult or impossible to do so under certain market conditions."
 msgstr "外匯和差價交易合約涉及高風險，是一種投機活動，因為您可推測基礎金融工具價格的短期變動。除非您能接受比您存入資金更大的虧損，不然您不適合參與外匯交易和 （或） 簽訂差價交易合約。重要的是您需了解，如果要從持倉頭寸獲取任何回報，您必須參與相應的交易將持倉頭寸平倉，有時候在一些市場條件下您可能很難或無法做到此點。"
@@ -544,7 +544,7 @@ msgid "Forex trading frequency"
 msgstr "外匯交易頻率"
 
 msgid "France 40 Cash Index"
-msgstr ""
+msgstr "法國 40 現金指數"
 
 msgid "Fund Transfers"
 msgstr "基金轉匯"
@@ -559,25 +559,25 @@ msgid "G. Order Handling"
 msgstr "七、訂單處理"
 
 msgid "GBP 1 per point"
-msgstr ""
+msgstr "每點 1 英鎊"
 
 msgid "GBP/CHF"
-msgstr ""
+msgstr "英鎊/瑞士法郎"
 
 msgid "GBP/JPY"
-msgstr ""
+msgstr "英鎊/日圓"
 
 msgid "GBP/USD"
-msgstr ""
+msgstr "英鎊/美元"
 
 msgid "GBP_100"
-msgstr ""
+msgstr "GBP_100"
 
 msgid "General Provisions"
 msgstr "一般規定"
 
 msgid "German 30 Cash Index"
-msgstr ""
+msgstr "德國 30 現金指數"
 
 msgid "Given our role as margin trading service provider as described in this Agreement, we seek to avoid undue market influence to the extent consistent with your trading needs and our risk management policies and procedures. By continuing to use the margin trading service described in this Agreement, you acknowledge that you are aware of the potential conflict of interest disclosed that may arise and cannot be completely eliminated, and you consent us to act notwithstanding such potential conflict of interests."
 msgstr "我們是融資融券交易服務提供商，如本協議所述，我們盡量不讓市場影響您的交易需求，同時維護我們的風險管理政策和程序。通過繼續使用本協議所述的融資融券交易服務，您承認並已了解，所披露利益的潛在衝突可能會出現以及不能完全排除，即使存在這種潛在利益衝突，您也同意我們的行動。"
@@ -610,13 +610,13 @@ msgid "High frequency (2 ticks per second)"
 msgstr "高頻率 （每秒 2 次跳動點）"
 
 msgid "How do we calculate interest fees for long positions?"
-msgstr ""
+msgstr "多頭頭寸的利息費用如何計算?"
 
 msgid "How is margin calculated?"
-msgstr ""
+msgstr "保證金如何計算？"
 
 msgid "How to read the table above"
-msgstr ""
+msgstr "如何讀取上面的表"
 
 msgid "I have read and agreed to the"
 msgstr "我已閱讀並同意"
@@ -625,10 +625,10 @@ msgid "I. Quotes"
 msgstr "九、 報價"
 
 msgid "I.e. (20010 - 20000) x 1 x 1 = USD 10"
-msgstr ""
+msgstr "即 (20010 - 20000) x 1 x 1 = 10 美元"
 
 msgid "IND_30"
-msgstr ""
+msgstr "IND_30"
 
 msgid "If a closing Transaction in the same market is entered into but with a higher number of lots, the original Open Position will be closed and a new Open Position will be entered into for the number of lots by which the new Transaction exceeds the Open Position."
 msgstr "如果在同一市場簽定平倉交易，但是具有較多的手份，原來持倉頭寸將平倉，並以超越未平倉頭寸的新交易手份數簽訂新未平倉頭寸。"
