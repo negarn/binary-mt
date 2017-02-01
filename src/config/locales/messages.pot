@@ -57,12 +57,6 @@ msgstr ""
 msgid "0-5 transactions in the past 12 months"
 msgstr ""
 
-msgid "1 x 100,000 / 100 = EUR 1,000"
-msgstr ""
-
-msgid "1 x 20,000 / 100 = EUR 200"
-msgstr ""
-
 msgid "1-2 years"
 msgstr ""
 
@@ -156,6 +150,9 @@ msgstr ""
 msgid "Advanced Tools &amp; Platforms"
 msgstr ""
 
+msgid "Agricultural, Forestry and Fishery Workers"
+msgstr ""
+
 msgid "All client orders are processed on a first in first out basis without any manual intervention. When executing your order, Binary.com will seek to fill your order transaction as promptly as possible, at the instructed price (or at a better price, if available). Exposure limits are established based on internal governance arrangements and risk management framework which commensurate with the size, nature, complexity, and risk profile of our activities. These exposure limits are used as benchmarks to distinguish orders that are auto-accepted and orders that will be worked in the market with fill level passed on to the client."
 msgstr ""
 
@@ -196,6 +193,9 @@ msgid "Any realised profits and interest charges that are denominated in a curre
 msgstr ""
 
 msgid "Appendix - Product Specific Policies"
+msgstr ""
+
+msgid "Armed Forces"
 msgstr ""
 
 msgid "Aspects of a client order not affected by specific instructions are subject to the application of Binary.com's Order Execution Policy. In the absence of specific instructions from our clients, we will exercise our own discretion in determining the factors that are required to be taken into account for the purpose of providing you with best execution, having regard to the execution criteria listed below:"
@@ -291,6 +291,15 @@ msgstr ""
 msgid "Change the margin rate in relation to both Open Positions and new orders;"
 msgstr ""
 
+msgid "Chief Executives, Senior Officials and Legislators"
+msgstr ""
+
+msgid "Cleaners and Helpers"
+msgstr ""
+
+msgid "Clerks"
+msgstr ""
+
 msgid "Click the button below to download MetaTrader."
 msgstr ""
 
@@ -352,6 +361,9 @@ msgid "Contract Specifications - Forex"
 msgstr ""
 
 msgid "Costs - the costs of executing your order comprised predominantly of spread, i.e., the difference between our bid and our offer price."
+msgstr ""
+
+msgid "Craft, Metal, Electrical and Electronics Workers"
 msgstr ""
 
 msgid "Create Your MetaTrader 5 Account Now"
@@ -507,15 +519,6 @@ msgstr ""
 msgid "Financial Information"
 msgstr ""
 
-msgid "For e.g. If you buy 1 Volume of Volatility 100 Index at a price of EUR 20,000 and a margin rate of 0.01(1%), the margin required to purchase that one lot will be calculated as follows:"
-msgstr ""
-
-msgid "For e.g. If you buy one lot of the EUR/USD symbol with a contract size of 100,000 and leverage of 100:1, the margin required to purchase that one lot will be calculated as follows:"
-msgstr ""
-
-msgid "For example, if you wanted to purchase 100 units of a particular asset trading at USD 50 per unit through a traditional broker, it would cost you USD 5,000 for this transaction."
-msgstr ""
-
 msgid "For example, the CFDs on US 30 Cash Index offer a USD 1 per point contract. If you buy a Volume 1.0 contract for the US 30 Cash Index with current ask price of USD 20,000 and later sell it at a bid price of USD 20,010, your net profit will be calculated as follows:"
 msgstr ""
 
@@ -585,6 +588,9 @@ msgstr ""
 msgid "Go to web terminal"
 msgstr ""
 
+msgid "Government Officers"
+msgstr ""
+
 msgid "H. Monitoring and Review"
 msgstr ""
 
@@ -648,6 +654,12 @@ msgstr ""
 msgid "If you are an individual, you are over 18 years old and you have full capacity to enter into this Agreement;"
 msgstr ""
 
+msgid "If you buy <strong>1 Volume of Volatility 100 Index</strong> at a <strong>price of US&#36 20,000</strong> and a <strong>margin rate of 0.01(1%)</strong>, the margin required to purchase that one lot will be calculated as follows:"
+msgstr ""
+
+msgid "If you buy <strong>one lot of the EUR/USD</strong> symbol with a <strong>contract size of 100,000</strong> and <strong>leverage of 100:1</strong>, the margin required to purchase that one lot will be calculated as follows:"
+msgstr ""
+
 msgid "If you do not intend to utilise the leverage feature, please set the leverage ratio to 1:1."
 msgstr ""
 
@@ -661,6 +673,9 @@ msgid "If you keep any positions open overnight, an interest adjustment will be 
 msgstr ""
 
 msgid "If you previously downloaded MetaTrader 5 directly from MetaTrader's website, please select \"%1\" from the list of available brokers."
+msgstr ""
+
+msgid "If you wanted to purchase <strong>100 units</strong> of a particular asset trading at <strong>US&#36; 50 per unit</strong> through a traditional broker, it would cost you <strong>US&#36; 5,000</strong> for this transaction."
 msgstr ""
 
 msgid "If you wish to withdraw funds from your Real Account and close your Real Account, you may notify us by contacting our helpdesk at <a href='mailto:%1'>%1</a>. Your Real Account may be closed if you do not have any Open Positions and all amounts due to us have been settled."
@@ -828,6 +843,9 @@ msgstr ""
 msgid "Make a withdrawal"
 msgstr ""
 
+msgid "Managers"
+msgstr ""
+
 msgid "Margin"
 msgstr ""
 
@@ -888,6 +906,9 @@ msgstr ""
 msgid "Minimum eight characters. Must contain numbers, and mix of upper and lower case letters."
 msgstr ""
 
+msgid "Mining, Construction, Manufacturing and Transport Workers"
+msgstr ""
+
 msgid "Money collected from Clients are not invested in any securities, futures, or other investments, on behalf of Clients."
 msgstr ""
 
@@ -927,10 +948,13 @@ msgstr ""
 msgid "OAuth App ID (Optional)"
 msgstr ""
 
+msgid "Occupation"
+msgstr ""
+
 msgid "On the occurrence of an Event of Default, we may exercise our rights under this clause by, at any time and without prior notice:"
 msgstr ""
 
-msgid "Once your account hits the forced liquidation level, your orders and positions are forcibly closed in the following order:"
+msgid "Once your account hits the forced liquidation level, your orders and positions are forcibly closed in the following sequence:"
 msgstr ""
 
 msgid "Oops... Page Not Available"
@@ -966,6 +990,9 @@ msgstr ""
 msgid "Other financial instruments trading frequency"
 msgstr ""
 
+msgid "Others"
+msgstr ""
+
 msgid "Our Order Execution Policy (the \"Policy\") sets out the overview and approach of how Binary.com executes orders on behalf of our clients."
 msgstr ""
 
@@ -996,10 +1023,16 @@ msgstr ""
 msgid "Pension"
 msgstr ""
 
+msgid "Personal Care, Sales and Service Workers"
+msgstr ""
+
 msgid "Personal Data and Privacy"
 msgstr ""
 
 msgid "Pip Size"
+msgstr ""
+
+msgid "Plant and Machine Operators and Assemblers"
 msgstr ""
 
 msgid "Please contact <a href=\"%1\" target=\"_blank\">customer support</a> for more information."
@@ -1036,6 +1069,9 @@ msgid "Primary"
 msgstr ""
 
 msgid "Prior to placing an Order which results in opening a Transaction or increasing an existing Open Position, you acknowledge that it is your responsibility to ensure that your Account Free Margin is sufficient to cover the Margin required in relation to the open Transaction (the \"Margin Requirement\"), and to continuously meet the Margin Requirement."
+msgstr ""
+
+msgid "Professionals"
 msgstr ""
 
 msgid "Q. Miscellaneous"
@@ -1254,10 +1290,10 @@ msgstr ""
 msgid "The leverage ratio refers to the number of times your margin (the amount set aside from your account balance to open and maintain a transaction) can be \"leveraged\" to enter into a Transaction. The denominator of the leverage ratio is always 1. A 50:1 leverage is equivalent to a 2% margin requirement (1 divided by 50 = 2%). The leverage ratio that we/you establish will determine the amount of margin required. As leverage is inversely proportional to margin, the lower the leverage you set for your Account, the higher the margin required to be set aside from your account balance (your margin requirement)."
 msgstr ""
 
-msgid "The margin for our CFDs on Volatility Indices is calculated as follows:"
+msgid "The margin for our CFDs are calculated as follows:"
 msgstr ""
 
-msgid "The margin for our Forex trades is calculated as follows:"
+msgid "The margin for our Forex symbols is calculated as follows:"
 msgstr ""
 
 msgid "The margin trading services described in this Agreement are conducted over the counter. This means that the market in one or more of the instruments which you ordinarily transact with us, though quoted on an exchange, are not traded on an exchange when transacted through the electronic trading platform as described in this Agreement."
@@ -1470,12 +1506,6 @@ msgstr ""
 msgid "Volatility Indices Account"
 msgstr ""
 
-msgid "Volume (lots) x lot size / leverage = Margin"
-msgstr ""
-
-msgid "Volume (trade size) x price x margin rate = Margin"
-msgstr ""
-
 msgid "Volume 1.0 (Trade Size)"
 msgstr ""
 
@@ -1542,7 +1572,7 @@ msgstr ""
 msgid "We will use reasonable endeavours within our control to ensure that all electronic data provided on the MT5 Trading Platform and all electronic transactions instructed and accepted from you to us, and executed by us are not subject to network latency."
 msgstr ""
 
-msgid "What is margin?"
+msgid "What is Margin?"
 msgstr ""
 
 msgid "What's a margin call and how do we apply it?"
@@ -1557,7 +1587,7 @@ msgstr ""
 msgid "When we deal on own account (dealing desk), we act as principal and not as an agent on your behalf and we therefore act as the execution venue."
 msgstr ""
 
-msgid "When your account equity is unable to cover the margin requirement, your account will be placed under margin call. This state does not affect your ability to open new positions. You can deposit additional funds to prevent the margin call escalating to a stop out level."
+msgid "When your account equity is unable to cover the margin requirement, your account will be placed under margin call. This state does not affect your ability to open new positions."
 msgstr ""
 
 msgid "Where a particular time or timeframe has been specified in a client's instructions with respect to the execution of an order, regardless of the price available, we will endeavour to execute the order at the specified time or over the specified timeframe in the best possible manner after taking all sufficient steps. However, we will not be responsible for any consequences related to pricing that resulted from the time or timeframe of the execution."
@@ -1581,7 +1611,7 @@ msgstr ""
 msgid "Whilst we endeavour to take all reasonable and sufficient steps, as required by applicable laws and regulations, to identify potential conflicts of interests between ourselves and our clients, or between one client and another, that arise in the course of providing the margin trading services as described in this Agreement, by establishing and implementing policies and procedures, it is possible that we may execute certain Transactions which may have other direct or indirect material interests."
 msgstr ""
 
-msgid "With a CFD or leveraged FX trading, you can purchase 100 units of the same asset at a fraction of the cost."
+msgid "With a CFD (which is a leveraged product), you can purchase 100 units of the same asset at a fraction of the cost."
 msgstr ""
 
 msgid "Withdraw"
