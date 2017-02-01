@@ -54,14 +54,14 @@
           <link rel="alternate" href="/beta/zh_tw/margin-policy.html?l=zh_cn" hreflang="ZH_CN" /> 
           <link rel="alternate" href="/beta/zh_tw/margin-policy.html?l=zh_tw" hreflang="ZH_TW" /> 
         
-         <link rel="stylesheet" href="/beta/css/binary.min.css?1fkt57si">
-         <link rel="stylesheet" href="https://style.binary.com/binary.css?1fkt57si">
+         <link rel="stylesheet" href="/beta/css/binary.min.css?f7ao1ezk">
+         <link rel="stylesheet" href="https://style.binary.com/binary.css?f7ao1ezk">
         
         <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=Array.prototype.includes,String.prototype.includes&unknown=polyfill"></script>
 <script>
     //A global variable required to initialize Page object.
     window.page_params = {settings: {"valid_loginids":"MX|MF|VRTC|MLT|CR|FOG|VRTJ|JP","image_link":{"hourglass":"/beta/images/common/hourglass_1.gif"}}};
-</script>  <script src='/beta/js/binary.min.js?1fkt57si' defer async></script>
+</script>  <script src='/beta/js/binary.min.js?f7ao1ezk' defer async></script>
     </head>
 
 
@@ -212,69 +212,76 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <title>MetaTrader 保證金政策 | mt.binary.com</title>
             <div id="content_class">margin-policy-content</div>
         </div>
-        
-        <div class="container">
 
-<div class="gr-row">
-    <div class="gr-12">
-        <h1>保證金政策</h1>
-    </div>
+<div class="container">
+    <div class="gr-row">
+        <div class="gr-12">
+            <h1>保證金政策</h1>
+        </div>
 
-    <div class="gr-12">
-        <h2>What is margin?</h2>
-        <p>Margin allows you to trade on leverage, giving you the same level of market exposure using much less capital.</p>
-        <p>For example, if you wanted to purchase 100 units of a particular asset trading at USD 50 per unit through a traditional broker, it would cost you USD 5,000 for this transaction.</p>
-        <p>With a CFD or leveraged FX trading, you can purchase 100 units of the same asset at a fraction of the cost.</p>
+        <div class="gr-12 gr-padding-30 center-text">
+            <h2>What is Margin?</h2>
+            <p>Margin allows you to trade on leverage, giving you the same level of market exposure using much less capital.</p>
+            <div class="mt-box gr-12">
+                <p class="mt-box-content">If you wanted to purchase <strong>100 units</strong> of a particular asset trading at <strong>US&#36; 50 per unit</strong> through a traditional broker, it would cost you <strong>US&#36; 5,000</strong> for this transaction.</p>
+            </div>
+            <p>With a CFD (which is a leveraged product), you can purchase 100 units of the same asset at a fraction of the cost.</p>
+        </div>
+
+        <hr class="gr-12 separator">
+
+        <div class="gr-12 gr-padding-30 center-text">
+            <h2>How is margin calculated?</h2>
+            <p>The margin for our CFDs are calculated as follows:</p>
+            <div class="mt-box gr-12">
+                <div class="mt-img mr1-icon"></div>
+                <p class="mt-box-content">If you buy <strong>1 Volume of Volatility 100 Index</strong> at a <strong>price of US&#36 20,000</strong> and a <strong>margin rate of 0.01(1%)</strong>, the margin required to purchase that one lot will be calculated as follows:</p>
+                <div class="mt-img mr2-icon"></div>
+            </div>
+        </div>
+
+        <div class="gr-12 gr-padding-30 center-text">
+            <p>The margin for our Forex symbols is calculated as follows:</p>
+            <div class="mt-box gr-12">
+                <div class="mt-img l1-icon"></div>
+                <p class="mt-box-content">If you buy <strong>one lot of the EUR/USD</strong> symbol with a <strong>contract size of 100,000</strong> and <strong>leverage of 100:1</strong>, the margin required to purchase that one lot will be calculated as follows:</p>
+                <div class="mt-img l2-icon"></div>
+            </div>
+        </div>
+
+        <hr class="gr-12 separator">
+
+        <div class="gr-12 gr-padding-30">
+            <h2>What’s a margin call and how do we apply it?</h2>
+            <p>When your account equity is unable to cover the margin requirement, your account will be placed under margin call. This state does not affect your ability to open new positions.</p>
+
+            <h2>What’s a stop out level and how do we apply it?</h2>
+            <p>If your account is placed under margin call for an extended period of time, it will reach the stop out level where it’s unable to sustain an open position. This will lead to your pending orders being deleted, and open positions being forcibly closed (also known as forced liquidation).</p>
+        </div>
     </div>
 </div>
 
-<div class="gr-row">
-    <div class="gr-12 gr-padding-10">
-        <h2>How is margin calculated?</h2>
-        <p>The margin for our CFDs on Volatility Indices is calculated as follows:</p>
-        <div class="box">
-            <div class="gr-prefix-1">
-                <p><i>Volume (trade size) x price x margin rate = Margin</i></p>
-                <p>For e.g. If you buy 1 Volume of Volatility 100 Index at a price of EUR 20,000 and a margin rate of 0.01(1%), the margin required to purchase that one lot will be calculated as follows:</p>
-                <p>1 x 20,000 / 100 = EUR 200</p>
+<div class="container-fluid fill-bg-color">
+    <div class="container">
+        <div class="gr-row">
+            <div class="gr-12 gr-padding-30">
+                <p>Once your account hits the forced liquidation level, your orders and positions are forcibly closed in the following sequence:</p>
+                <div class="gr-prefix-1">
+                    <ul class="checked">
+                        <li>We analyse your pending orders.</li>
+                        <li>We delete an order with the largest margin reserved.</li>
+                        <li>If your margin level is still under the stop out level, your next order will be deleted. However, orders without margin requirements will not be deleted.</li>
+                        <li>If your margin level is still under the stop out level, we will close an open position with the largest loss.</li>
+                        <li>We will continue to close open positions until your margin level becomes higher than the stop out level.</li>
+                    </ul>
+                </div>
             </div>
-        </div>
-        <p>The margin for our Forex trades is calculated as follows:</p>
-        <div class="box">
-            <div class="gr-prefix-1">
-                <p><i>Volume (lots) x lot size / leverage = Margin</i></p>
-                <p>For e.g. If you buy one lot of the EUR/USD symbol with a contract size of 100,000 and leverage of 100:1, the margin required to purchase that one lot will be calculated as follows:</p>
-                <p>1 x 100,000 / 100 = EUR 1,000</p>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="gr-row">
-    <div class="gr-12 gr-padding-10">
-        <h2>What's a margin call and how do we apply it?</h2>
-        <p>When your account equity is unable to cover the margin requirement, your account will be placed under margin call. This state does not affect your ability to open new positions. You can deposit additional funds to prevent the margin call escalating to a stop out level.</p>
-
-        <h2>What's a stop out level and how do we apply it?</h2>
-        <p>If your account is placed under margin call for an extended period of time, it will reach the stop out level where it's unable to sustain an open position. This will lead to your pending orders being deleted, and open positions being forcibly closed (also known as forced liquidation).</p>
-        <p>Once your account hits the forced liquidation level, your orders and positions are forcibly closed in the following order:</p>
-        <div class="gr-prefix-1">
-            <ul class="bullet">
-                <li>We analyse your pending orders.</li>
-                <li>We delete an order with the largest margin reserved.</li>
-                <li>If your margin level is still under the stop out level, your next order will be deleted. However, orders without margin requirements will not be deleted.</li>
-                <li>If your margin level is still under the stop out level, we will close an open position with the largest loss.</li>
-                <li>We will continue to close open positions until your margin level becomes higher than the stop out level.</li>
-            </ul>
         </div>
     </div>
 </div>
 
 
   </div>
-
-
-</div>
 
 </div>
 <div id="footer">
