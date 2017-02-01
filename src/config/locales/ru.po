@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-02-01 01:12-0500\n"
+"PO-Revision-Date: 2017-02-01 01:20-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -808,10 +808,10 @@ msgid "Log into the application using your MetaTrader account number and your Me
 msgstr "Войдите в приложение, указав номер счёта и пароль на MetaTrader."
 
 msgid "Login ID"
-msgstr ""
+msgstr "Логин"
 
 msgid "Lot Size (Volume = 1.0)"
-msgstr ""
+msgstr "Размер лота (объём = 1.0)"
 
 msgid "M. Manifest Error"
 msgstr "M. Явные ошибки"
@@ -829,7 +829,7 @@ msgid "Make a withdrawal"
 msgstr "Выведите средства"
 
 msgid "Margin"
-msgstr ""
+msgstr "Маржа"
 
 msgid "Margin - The amount set aside by us from your Account Balance in order to open and maintain a Transaction, to cover our exposure as a counterparty to your contract."
 msgstr "Маржа – сумма от баланса Вашего счёта, заблокированная нами с целью открытия и поддержания контракта, чтобы компенсировать наш риск в качестве контрагента по Вашему контракту."
@@ -859,22 +859,22 @@ msgid "Margin indicates how much investment you can control based on your initia
 msgstr ""
 
 msgid "Maximum Leverage"
-msgstr ""
+msgstr "Максимальный кредитный рычаг"
 
 msgid "Maximum Volume (Trade Size)"
 msgstr "Макс. объём (размер контракта)"
 
 msgid "Maximum Volume<br>(Trade Size)"
-msgstr ""
+msgstr "Макс. объём<br>(размер контракта)"
 
 msgid "MetaTrader account management"
 msgstr "Управление счётом на MetaTrader"
 
 msgid "Minimum Spread"
-msgstr ""
+msgstr "Минимальный спред"
 
 msgid "Minimum Volume"
-msgstr ""
+msgstr "Минимальный объём"
 
 msgid "Minimum Volume (Trade Size)"
 msgstr "Мин. объём (размер контракта)"
@@ -883,7 +883,7 @@ msgid "Minimum Volume Increment"
 msgstr ""
 
 msgid "Minimum Volume<br>(Trade Size)"
-msgstr ""
+msgstr "Мин. объём<br>(размер контракта)"
 
 msgid "Minimum eight characters. Must contain numbers, and mix of upper and lower case letters."
 msgstr "Минимум 8 символов, включая цифры, строчные и прописные буквы."
@@ -895,10 +895,10 @@ msgid "N. Force Majeure Events"
 msgstr "N. Форс-мажорные обстоятельства"
 
 msgid "NED_25"
-msgstr ""
+msgstr "NED_25"
 
 msgid "NZD/USD"
-msgstr ""
+msgstr "NZD/USD"
 
 msgid "Name"
 msgstr "Имя"
@@ -907,7 +907,7 @@ msgid "Neither the Company nor any its directors, officers, managers, employees,
 msgstr "Компания, а также её руководители, представители, управляющие, сотрудники или агенты не несут перед Вами ответственности за любые потери, ущерб или задолженности, прямо или косвенно возникающие в результате или в связи с данным Соглашением. Настоящим Вы соглашаетесь оградить Компанию, её руководителей, представителей, управляющих, сотрудников или агентов от любой ответственности, потерь, убытков, затрат или расходов (включая соответствующий гонорар юриста), возникающих в результате несоблюдения Вами любых обязанностей, перечисленных в данном Соглашении и/или принуждения Компании к исполнению Вами любых её прав в рамках данного Соглашения."
 
 msgid "Net Annual Income"
-msgstr ""
+msgstr "Чистый годовой доход"
 
 msgid "Netherlands 25 Cash Index"
 msgstr ""
