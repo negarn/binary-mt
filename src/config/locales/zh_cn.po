@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-02-01 01:41-0500\n"
+"PO-Revision-Date: 2017-02-01 01:52-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
@@ -1201,7 +1201,7 @@ msgid "The Company sources market data from prime brokers who act as liquidity p
 msgstr "公司市场数据源自充当流动性提供商的主要经纪人，因此通过从顶级银行获取的聚合流动性池为您执行交易。公司提供的服务不包括由我们或主要经纪人向您递送实物外币。您确认并同意，此类数据由我们和任何此类提供商专有，和您不会重传、重新分配、发布、披露、或显示此类数据的全部或部分给第三方。您陈述并保证您将仅按照本协议的目的而不是为了任何其他目的使用此类数据，为了便于在真实账户进行交易。本条款不适用于波动率指数。"
 
 msgid "The Forex is typically traded in <i>lots</i>. One standard <i>lots</i> is equivalent to 100,000 units. Each time you open a position on a currency symbol, you can start with a minimum transaction of <i>0.01 lots</i>."
-msgstr ""
+msgstr "外汇交易通常以<i>手</i>计量。一个标准 <i>手</i>相当于100,000个单位。每次您在货币符号上开盘交易，可以<i>0.01 手</i>为最小交易量开始。"
 
 msgid "The Margin Level of your Real Account reaches or falls below the Stop Out Level;"
 msgstr "您的真实账户保证金水平已达到或低于强制平仓水平;"
@@ -1246,16 +1246,16 @@ msgid "The instruments available on the electronic trading platform (including t
 msgstr "电子交易平台提供的工具 （包括交易时的可用性）;"
 
 msgid "The interest adjustment is calculated in points, meaning we will convert the relevant interbank lending rates to points in the base currency."
-msgstr ""
+msgstr "利息调整以点为计算单位，意味着我们将把相关银行间贷款利率转换为基础货币点。"
 
 msgid "The interest adjustment is calculated in points, meaning we will convert the relevant market rates to points in the base instrument."
-msgstr ""
+msgstr "利息调整以点为计算单位，意味着我们将把相关市场利率转换为基础工具点。"
 
 msgid "The leverage ratio refers to the number of times your margin (the amount set aside from your account balance to open and maintain a transaction) can be \"leveraged\" to enter into a Transaction. The denominator of the leverage ratio is always 1. A 50:1 leverage is equivalent to a 2% margin requirement (1 divided by 50 = 2%). The leverage ratio that we/you establish will determine the amount of margin required. As leverage is inversely proportional to margin, the lower the leverage you set for your Account, the higher the margin required to be set aside from your account balance (your margin requirement)."
 msgstr "杠杆比率指使用您的保证金（为进行交易从您的账户余额拨出并保留的金额） 作为\"杠杆\"进入交易的次数。杠杆比率的分母始终是 1。50: 1 的杠杆比率相当于需要 2%保证金 (1 除以 50 = 2%)。我们替您建立的杠杆比率将确定保证金的数额。杠杆比率与保证金成反比，您的账户所设杠杆比率越低，从您的账户余额拨出的保证金额就越高 （所需保证金）。"
 
 msgid "The margin for our CFDs on Volatility Indices is calculated as follows:"
-msgstr ""
+msgstr "我们对波动性指标的差价合约保证金的计算方法如下︰"
 
 msgid "The margin for our Forex trades is calculated as follows:"
 msgstr ""
