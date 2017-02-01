@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-01-31 02:05-0500\n"
+"PO-Revision-Date: 2017-02-01 00:40-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Language: ru_RU\n"
 
 msgid " How do we calculate interest fees for short positions?"
-msgstr ""
+msgstr " Как мы рассчитываем проценты на коротких позициях?"
 
 msgid "%1 gives everyone an easy way to participate in the financial markets. Trade with as little as $1 USD on major currencies, stocks, indices, and commodities."
 msgstr "%1 открывает Вам простой способ работы на финансовых рынках. Заключайте сделки на сумму от $1 USD на ведущих валютных парах, акциях, индексах и сырьевых рынках."
@@ -49,7 +49,7 @@ msgid "&copy; 2016 Binary.com"
 msgstr "Все права защищены &copy; 2016 Binary.com"
 
 msgid "(Sell Price - Buy Price) x Volume x Price Per Point = Profit"
-msgstr ""
+msgstr "(Цена продажи - Цена покупки) x Объём x Цена за пункт = Прибыль"
 
 msgid "0-1 year"
 msgstr "0-1 год"
@@ -58,10 +58,10 @@ msgid "0-5 transactions in the past 12 months"
 msgstr "0-5 транзакций за последние 12 месяцев"
 
 msgid "1 x 100,000 / 100 = EUR 1,000"
-msgstr ""
+msgstr "1 x 100,000 / 100 = EUR 1,000"
 
 msgid "1 x 20,000 / 100 = EUR 200"
-msgstr ""
+msgstr "1 x 20,000 / 100 = EUR 200"
 
 msgid "1-2 years"
 msgstr "1-2 года"
@@ -271,7 +271,7 @@ msgid "CAD 1 per point"
 msgstr ""
 
 msgid "CAN_60"
-msgstr ""
+msgstr "CAN_60"
 
 msgid "CFD (Contract for Difference): CFD is an instrument that allows you to profit by speculating on the rise or fall of an instrument. The profit/loss is estimated as a function of the difference in the buy/sell prices of the underlying instrument."
 msgstr ""
@@ -379,7 +379,7 @@ msgid "D. Client Instructions"
 msgstr "D. Инструкции клиента"
 
 msgid "DAX_30"
-msgstr ""
+msgstr "DAX_30"
 
 msgid "Demo"
 msgstr "Демо"
@@ -427,7 +427,7 @@ msgid "E. Best Execution Obligation"
 msgstr "E. Обязательство наилучшего исполнения"
 
 msgid "ESP_35"
-msgstr ""
+msgstr "ESP_35"
 
 msgid "EUR 1 per point"
 msgstr ""
@@ -454,7 +454,7 @@ msgid "EUR/USD"
 msgstr "EUR/USD"
 
 msgid "EUR_50"
-msgstr ""
+msgstr "EUR_50"
 
 msgid "Each of the following event constitutes an \"Event of Default\":"
 msgstr "Каждая из нижеперечисленных ситуаций является \"случаем невыполнения обязательств\":"
@@ -490,7 +490,7 @@ msgid "F. Orders"
 msgstr "F. Ордеры"
 
 msgid "FRA_40"
-msgstr ""
+msgstr "FRA_40"
 
 msgid "Finance"
 msgstr ""
