@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-02-01 01:52-0500\n"
+"PO-Revision-Date: 2017-02-01 03:01-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
@@ -1258,7 +1258,7 @@ msgid "The margin for our CFDs on Volatility Indices is calculated as follows:"
 msgstr "我们对波动性指标的差价合约保证金的计算方法如下︰"
 
 msgid "The margin for our Forex trades is calculated as follows:"
-msgstr ""
+msgstr "外汇交易保证金的计算方法如下︰"
 
 msgid "The margin trading services described in this Agreement are conducted over the counter. This means that the market in one or more of the instruments which you ordinarily transact with us, though quoted on an exchange, are not traded on an exchange when transacted through the electronic trading platform as described in this Agreement."
 msgstr "本协议所描述的保证金交易服务通过柜台进行。这意味着，您与我们进行交易的一个或多个工具市场，虽然由交易所报价，但通过本协议所述电子交易平台交易时却不是在交易所交易。"
@@ -1282,7 +1282,7 @@ msgid "The provision of the margin trading services described in this Agreement 
 msgstr "欧洲联盟国家不可用本协议所述的保证金交易服务。"
 
 msgid "The swap rate will depend on the direction of the position you take:"
-msgstr ""
+msgstr "掉期利率将取决于您的头寸方向︰"
 
 msgid "The system fills orders on a first-in-first out basis, i.e. based on the sequence of the order received, and this is beyond our control. As a result, you may find it difficult or impossible to close a position at the intended price stipulated in your Stop Order during certain market conditions. The placement of Stop Order by you, though useful as a risk management tool, will not necessarily limit your losses to your intended amounts, in the event of highly volatile trading conditions, since market conditions may make it impossible to execute such orders and there is uncertainty about your possible exit price. In short, a Stop Order is not guaranteed because it cannot operate whatever the market circumstances are."
 msgstr "系统按先进先出的次序，即按照收到订单的顺序处理订单，这是我们无法控制的。因此，您可能会发现很难或无法在某些市场条件下按照您的止损单规定的预期价位平仓。您设定的止损单虽然是有用的风险管理工具，却不一定能按照您原先设想的数额限制损失。在极不稳定的交易条件下，由于市场情况可能无法执行这些指令，您的退出价格具不确定性。简而言之，止损单是无法提供保证的，因为无法在所有市场情况下运作。"
