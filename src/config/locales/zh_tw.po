@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-01-31 23:51-0500\n"
+"PO-Revision-Date: 2017-02-01 00:01-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Chinese Traditional\n"
 "MIME-Version: 1.0\n"
@@ -856,10 +856,10 @@ msgid "Margin indicates how much investment you can control based on your initia
 msgstr "保證金是基於初始資金的可控制投資額。例如，0.2%保證金將允許您僅使用 1,000 美元本身存款控制高達500,000 美元。"
 
 msgid "Margin indicates how much investment you can control based on your initial capital. For example, a 1% margin will allow you to control up to USD 100,000 using only USD 1,000 of your own money as deposit."
-msgstr ""
+msgstr "保證金是基於初始資金的可控制投資額。例如，1%保證金將允許您僅使用 1,000 美元本身存款控制高達100,000 美元。"
 
 msgid "Maximum Leverage"
-msgstr ""
+msgstr "最大杠杆"
 
 msgid "Maximum Volume (Trade Size)"
 msgstr "最大量額 （交易量）"
