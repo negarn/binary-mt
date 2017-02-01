@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-01-31 22:20-0500\n"
+"PO-Revision-Date: 2017-01-31 23:10-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
@@ -658,7 +658,7 @@ msgid "If you have entered into more than one Open Position in the same market, 
 msgstr "如果您已在同一市场持有多个未平仓头寸，您在同一市场完成任何平仓交易将使其他未平仓头寸按创建时间先进先出顺序平仓。"
 
 msgid "If you keep any positions open overnight, an interest adjustment will be made to your trading account as indication of the cost required to keep your position open. This adjustment is based on interbank lending rates, on top of a 2% fee."
-msgstr ""
+msgstr "如果您持仓过夜，系统将对您的账户收取持仓成本隔夜利息。此费用基于银行间贷款利率加上2%费用。"
 
 msgid "If you previously downloaded MetaTrader 5 directly from MetaTrader's website, please select \"%1\" from the list of available brokers."
 msgstr "如果您以前曾经直接从 MetaTrader 网站下载 MetaTrader 5 ，请在可用的经纪商列表选择\"%1\"。"
@@ -673,7 +673,7 @@ msgid "If your Binary Options Real Account with Binary.com is not authenticated,
 msgstr "如果您的Binary.com二元期权真实账户未通过验证，在您的Binary.com二元期权真实账户通过验证前，不可访问开立真实账户。"
 
 msgid "If your account is placed under margin call for an extended period of time, it will reach the stop out level where it's unable to sustain an open position. This will lead to your pending orders being deleted, and open positions being forcibly closed (also known as forced liquidation)."
-msgstr ""
+msgstr "如果您的账户处于追加保证金通知延长期内，在无法继续持仓时将达到强制平仓水平。这将导致您的待处理订单被删除，以及持仓头寸被强制平仓 （也称为强制清算）。"
 
 msgid "If your complaint relates to an outcome of a Transaction and remains unresolved, it will turn into a dispute. Should you be unsatisfied with our response, you can choose to escalate your complaint to an alternative dispute resolution entity."
 msgstr "如果您的投诉涉及某笔交易的结果，且仍然没有得到解决，它会变成争议。如果您对我们的答复不满意，可以选择把您的投诉升级，向其他解决纠纷的实体提出。"
