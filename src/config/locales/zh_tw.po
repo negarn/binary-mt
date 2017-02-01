@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-02-01 01:30-0500\n"
+"PO-Revision-Date: 2017-02-01 01:41-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Chinese Traditional\n"
 "MIME-Version: 1.0\n"
@@ -1018,10 +1018,10 @@ msgid "Please take note that our swap rate also depends on the time and days you
 msgstr "請注意，我們的掉期率也取決於您的持倉時間和天數︰ "
 
 msgid "Positions that are still open on Friday at market close will be charged three times the swap rate to account for weekends, a standard practice for all brokers."
-msgstr ""
+msgstr "按照所有經紀商標準操作規程，週五收市過後仍未平倉的頭寸須付掉期利率的三倍為周末費率。"
 
 msgid "Positions that are still open on Wednesday at 23:59:59 GMT will be charged three times the swap rate to account for weekends, a standard practice for all Forex brokers."
-msgstr ""
+msgstr "按照所有外匯經紀商標準操作規程，週三23:59:59 GMT過後仍未平倉的頭寸須付掉期利率的三倍為周末費率。"
 
 msgid "Potential Conflicts of Interest"
 msgstr "潛在的利益衝突"
@@ -1117,10 +1117,10 @@ msgid "Sorry, an error occurred while processing your request."
 msgstr "對不起，在處理您的請求時發生錯誤。"
 
 msgid "South Africa 40 Cash Index"
-msgstr ""
+msgstr "南非 40 現金指數"
 
 msgid "Spain 35 Cash Index"
-msgstr ""
+msgstr "西班牙 35 現金指數"
 
 msgid "Speed - the speed at which your order can be executed."
 msgstr "速度 - 您的訂單可執行速度。"
@@ -1129,7 +1129,7 @@ msgid "Start Trading with MetaTrader 5"
 msgstr "開始用 MetaTrader 5 交易"
 
 msgid "Start trading Forex and CFDs with MetaTrader 5"
-msgstr ""
+msgstr "開始通過MetaTrader 5進行外匯和 CFD 交易"
 
 msgid "Start trading with MT5:"
 msgstr "開始用 MT5 交易︰"
@@ -1177,7 +1177,7 @@ msgid "Symbol"
 msgstr "符號"
 
 msgid "Take advantage of MT5's advanced features and tools for a complete trading experience."
-msgstr ""
+msgstr "利用 MT5 的高階功能和工具獲取完整的交易經驗。"
 
 msgid "Terms and Conditions"
 msgstr "條款與條件"
