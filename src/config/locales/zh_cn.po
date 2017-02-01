@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-01-31 22:00-0500\n"
+"PO-Revision-Date: 2017-01-31 22:11-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
@@ -514,10 +514,10 @@ msgid "For e.g. If you buy one lot of the EUR/USD symbol with a contract size of
 msgstr "例如，如果您以 100,000 合约大小和 100:1杠杆率购入1手欧元/美元符号，购买此一手的所需保证金计算方法如下︰"
 
 msgid "For example, if you wanted to purchase 100 units of a particular asset trading at USD 50 per unit through a traditional broker, it would cost you USD 5,000 for this transaction."
-msgstr ""
+msgstr "例如，如果您想通过传统经纪人以每单位 50 美元的价格购入某资产100 单位，此交易您须支付 5,000 美元。"
 
 msgid "For example, the CFDs on US 30 Cash Index offer a USD 1 per point contract. If you buy a Volume 1.0 contract for the US 30 Cash Index with current ask price of USD 20,000 and later sell it at a bid price of USD 20,010, your net profit will be calculated as follows:"
-msgstr ""
+msgstr "例如，美国 30 现金指数的差价合约报价每点1美元。如果您以当前20,000 美元的卖出价格购入 1.0 股美国 30 现金指数，然后以20,010 美元的买入价格出售，您的净利润计算方法如下︰"
 
 msgid "For example, the CFDs on Volatility Indices offer a USD 1 per point contract. If you buy a Volume 1.0 contract for the Volatility 100 Index with current ask price of USD 20,000 and later sell it at a bid price of USD 20,010, your net profit will be calculated as follows:"
 msgstr ""
