@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-02-01 01:52-0500\n"
+"PO-Revision-Date: 2017-02-01 02:00-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -721,22 +721,22 @@ msgid "Indices trading experience"
 msgstr "Опыт торговли индексами"
 
 msgid "Indices trading frequency"
-msgstr ""
+msgstr "Частота торговли индексами"
 
 msgid "Industry of Employment"
-msgstr ""
+msgstr "Сфера занятости"
 
 msgid "Introducing <strong>MetaTrader 5</strong> for Binary.com"
 msgstr "Представляем <strong>MetaTrader 5</strong> для Binary.com"
 
 msgid "Investments &amp; Dividends"
-msgstr ""
+msgstr "Инвестиции и дивиденды"
 
 msgid "Investor password (read-only access)"
 msgstr "Пароль инвестора (только для чтения)"
 
 msgid "Investor password cannot be same as Main password."
-msgstr ""
+msgstr "Пароль инвестора не может совпадать с основным паролем."
 
 msgid "It is your responsibility to keep your password and login ID confidential. You agree that you will not disclose your password and login ID to any other person;"
 msgstr "Вы обязуетесь сохранять конфиденциальность Вашего логина и пароля. Настоящим Вы соглашаетесь не разглашать Ваш пароль и логин любому другому лицу."
@@ -748,7 +748,7 @@ msgid "JPY 1 per point"
 msgstr ""
 
 msgid "JP_225"
-msgstr ""
+msgstr "JP_225"
 
 msgid "Japan Cash Index"
 msgstr ""
@@ -763,10 +763,10 @@ msgid "L. Event of Default"
 msgstr "L. Случаи невыполнения обязательств"
 
 msgid "Less than &#36;100,000"
-msgstr ""
+msgstr "Менее &#36;100,000"
 
 msgid "Less than &#36;25,000"
-msgstr ""
+msgstr "Менее &#36;25,000"
 
 msgid "Let's say the points adjustment for a long position on the EUR/USD symbol is -5.64. This would require an overnight fee of 5.64 points for one lot of open position in EUR/USD, where the size of one lot is 100,000 units. The points will then be converted into the deposit currency (which is the euro in this example). As a result, you will incur an interest fee of EUR5.64 for keeping the position open overnight."
 msgstr ""
@@ -775,7 +775,7 @@ msgid "Let's say the points adjustment for a short position on the EUR/USD symbo
 msgstr ""
 
 msgid "Level of Education"
-msgstr ""
+msgstr "Уровень образования"
 
 msgid "Leverage"
 msgstr "Кредитный рычаг"
@@ -982,19 +982,19 @@ msgid "Our swap rate may also be adjusted to take holidays into account."
 msgstr ""
 
 msgid "Over &#36;1,000,000"
-msgstr ""
+msgstr "Более &#36;1,000,000"
 
 msgid "Over &#36;500,001"
-msgstr ""
+msgstr "Более &#36;500,001"
 
 msgid "Over 3 years"
-msgstr ""
+msgstr "Более 3 лет"
 
 msgid "P. Indemnification"
 msgstr "P. Возмещение ущерба"
 
 msgid "Pension"
-msgstr ""
+msgstr "Пенсия"
 
 msgid "Personal Data and Privacy"
 msgstr "Личные данные и конфиденциальность"
