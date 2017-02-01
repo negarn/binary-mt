@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-02-01 02:00-0500\n"
+"PO-Revision-Date: 2017-02-01 02:10-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -562,16 +562,16 @@ msgid "GBP 1 per point"
 msgstr ""
 
 msgid "GBP/CHF"
-msgstr ""
+msgstr "GBP/CHF"
 
 msgid "GBP/JPY"
-msgstr ""
+msgstr "GBP/JPY"
 
 msgid "GBP/USD"
-msgstr ""
+msgstr "GBP/USD"
 
 msgid "GBP_100"
-msgstr ""
+msgstr "GBP_100"
 
 msgid "General Provisions"
 msgstr "Общие положения"
@@ -1006,7 +1006,7 @@ msgid "Please contact <a href=\"%1\" target=\"_blank\">customer support</a> for 
 msgstr ""
 
 msgid "Please contact <a href=\"%1\">Customer Support</a>."
-msgstr ""
+msgstr "Пожалуйста, свяжитесь со <a href=\"%1\">службой поддержки клиентов</a>."
 
 msgid "Please select"
 msgstr "Пожалуйста, выберите"
@@ -1135,10 +1135,10 @@ msgid "Start trading with MT5:"
 msgstr ""
 
 msgid "Stocks trading experience"
-msgstr ""
+msgstr "Опыт торговли акциями"
 
 msgid "Stocks trading frequency"
-msgstr ""
+msgstr "Частота торговли акциями"
 
 msgid "Stop Order / Stop Loss Order - an instruction to execute a Transaction to close an Open Position when the Price reaches your specified Price."
 msgstr "Стоп-ордер / приказ стоп-лосс – инструкция исполнить контракт с целью закрыть открытую позицию, когда цена достигнет указанного Вами уровня."
@@ -1411,19 +1411,19 @@ msgid "USD 1 per point"
 msgstr ""
 
 msgid "USD/CAD"
-msgstr ""
+msgstr "USD/CAD"
 
 msgid "USD/CHF"
-msgstr ""
+msgstr "USD/CHF"
 
 msgid "USD/JPY"
-msgstr ""
+msgstr "USD/JPY"
 
 msgid "US_100"
-msgstr ""
+msgstr "US_100"
 
 msgid "US_30"
-msgstr ""
+msgstr "US_30"
 
 msgid "US_500"
 msgstr "US_500"
@@ -1480,7 +1480,7 @@ msgid "Volume 1.0 (Trade Size)"
 msgstr ""
 
 msgid "Volume 1.0<br>(Trade Size)"
-msgstr ""
+msgstr "Объём 1.0<br>(размер контракта)"
 
 msgid "We analyse your pending orders."
 msgstr ""
