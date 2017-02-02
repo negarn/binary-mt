@@ -18058,6 +18058,9 @@ var BinarySocket = new BinarySocketClass();
                 $('#' + key).val(val);
             }
         }
+        if (financial_assessment.occupation === undefined) {
+            financial_assessment.occupation = '';
+        }
     };
 
     var clearErrors = function() {
