@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-02-01 21:51-0500\n"
+"PO-Revision-Date: 2017-02-01 22:02-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
@@ -1639,10 +1639,10 @@ msgid "XAUUSD"
 msgstr "黄金对美元"
 
 msgid "XPDUSD"
-msgstr ""
+msgstr "钯金对美元"
 
 msgid "XPTUSD"
-msgstr ""
+msgstr "铂金对美元"
 
 msgid "You acknowledge and accept that a Transaction may be subject to market rules laid down in by-laws, rules, provisions, customs and practices of an exchange, a market, a clearing house, a body or any other organisation involved in the execution, clearing, and/or settlement of said Transaction. Should any such organisation take decisions or measures which affect a Transaction or an Open Position, the Company shall be entitled to take any action (including closing any Open Position of the client) which it, at its sole discretion, considers reasonable. This clause does not apply to Volatility Indices."
 msgstr "您确认并接受交易必须受到由法律、规则、规定、习俗和参与该交易执行、结算和（或）结清的交易\n"
@@ -1748,10 +1748,10 @@ msgid "You understand that products based on a random number generator (the \"Vo
 msgstr "您了解基于随机数字生成器 （\"波动率指数\"）的产品属于博彩产品，而基于金融市场指数（外汇、股票、大宗商品）的产品属于金融工具。"
 
 msgid "You will be subjected to swap rates if you keep a position open past 23:59:59 GMT."
-msgstr ""
+msgstr "23:59:59 GMT过后仍未平仓的头寸须付掉期利率。"
 
 msgid "You will be subjected to swap rates if you keep a position open past the market close."
-msgstr ""
+msgstr "收市后仍未平仓的头寸须付掉期利率。"
 
 msgid "You will provide us with any information that we may reasonably require to fully satisfy the demand or the requirements of the applicable government authority, upon our request."
 msgstr "为了充分满足有关政府机关需求，我们可能向您提出任何合理信息请求，您将为我们提供相关信息。"
@@ -1796,10 +1796,10 @@ msgid "Your use of the MT5 Trading Platform, whether accessed through or downloa
 msgstr "不论您是通过访问我们的网站或第三方网站或从网站下载使用 MT5 交易平台， 您须受向您提供 MT5 交易平台的许可方使用条款约束。如本协议的内容与您和 MT5 交易平台许可方之间协议之间有任何冲突，则以本协议的条款为准。确保您使用的信息技术与支持MT5 交易平台所需的信息技术兼容是你的责任。"
 
 msgid "ZAF_40"
-msgstr ""
+msgstr "ZAF_40"
 
 msgid "ZAR 1 per point"
-msgstr ""
+msgstr "每点 1 南非兰特"
 
 msgid "a) The venue at which your order will be executed;"
 msgstr "a) 您的订单执行地点;"
@@ -1829,7 +1829,7 @@ msgid "intelligently routing incoming orders to different types of execution mod
 msgstr "根据以最佳执行因素建立的配置和算法将传入的订单通过智能路由归纳成不同类型的执行模式。"
 
 msgid "log in"
-msgstr ""
+msgstr "登录"
 
 msgid "net of any other money credited to your Real Account and debited from your Real Account. Your account balance includes Margin Requirement. The amount of your account balance in excess of Margin Requirement is available for your withdrawal. The amount set aside for Margin Requirement is not available for your withdrawal."
 msgstr "在您真实账户记入借方并从您真实账户记入贷方的任何其它款项净值。您的账户余额包括保证金要求。您可将账户余额超出保证金要求金额款项提出。预留保证金要求金额不可提出。"
