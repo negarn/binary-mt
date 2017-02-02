@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-02-01 21:51-0500\n"
+"PO-Revision-Date: 2017-02-01 22:02-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Chinese Traditional\n"
 "MIME-Version: 1.0\n"
@@ -1633,16 +1633,16 @@ msgid "Without prejudice to any other terms of this Agreement, neither the Compa
 msgstr "在不妨害本協定任何其他條款的前提下，本公司或任何董事、職員、經理、僱員或代理不須對您在MT5 交易平台或任何系統或網絡鏈接，包括但不限於全部或任何部分的任何延誤或缺陷或者失敗，不論是直接或間接由於任何超出我們控制範圍的原因所造成的任何損失承擔責任。"
 
 msgid "XAGUSD"
-msgstr ""
+msgstr "白銀對美元"
 
 msgid "XAUUSD"
-msgstr ""
+msgstr "黃金對美元"
 
 msgid "XPDUSD"
-msgstr ""
+msgstr "鈀金對美元"
 
 msgid "XPTUSD"
-msgstr ""
+msgstr "鉑金對美元"
 
 msgid "You acknowledge and accept that a Transaction may be subject to market rules laid down in by-laws, rules, provisions, customs and practices of an exchange, a market, a clearing house, a body or any other organisation involved in the execution, clearing, and/or settlement of said Transaction. Should any such organisation take decisions or measures which affect a Transaction or an Open Position, the Company shall be entitled to take any action (including closing any Open Position of the client) which it, at its sole discretion, considers reasonable. This clause does not apply to Volatility Indices."
 msgstr "您確認並接受交易必需受到由法律、規則、規定、習俗和參與該交易執行、結算和（或）結清的交易所、市場、結算所、交易機構或任何其他組織的做法規定的的市場規則。如果任何此類機構採取影響交易或持倉頭寸的決定或措施，本公司有權自行決定採取任何我們認為合理的行動（包括替客戶開盤或收盤）。本條款不適用於波動率指數。"
@@ -1747,10 +1747,10 @@ msgid "You understand that products based on a random number generator (the \"Vo
 msgstr "您了解基於隨機數字生成器 （「波動率指數」）的產品屬於博彩產品，而基於金融市場指數（外匯、股票、大宗商品）的產品屬於金融工具。"
 
 msgid "You will be subjected to swap rates if you keep a position open past 23:59:59 GMT."
-msgstr ""
+msgstr "23:59:59 GMT過後仍未平倉的頭寸須付掉期利率。"
 
 msgid "You will be subjected to swap rates if you keep a position open past the market close."
-msgstr ""
+msgstr "收市後仍未平倉的頭寸須付掉期利率。"
 
 msgid "You will provide us with any information that we may reasonably require to fully satisfy the demand or the requirements of the applicable government authority, upon our request."
 msgstr "為了充分滿足有關政府機關需求，我們可能向您提出任何合理資料請求，您將為我們提供相關資料。"
@@ -1795,10 +1795,10 @@ msgid "Your use of the MT5 Trading Platform, whether accessed through or downloa
 msgstr "不論您是通過訪問我們的網站或第三方網站或從網站下載使用 MT5 交易平台， 您須受向您提供 MT5 交易平台的許可方使用條款約束。如本協定的內容與您和 MT5 交易平台許可方之間協定之間有任何衝突，則以本協定的條款為準。確保您使用的資訊技術與支持MT5 交易平台所需的資訊技術兼容是你的責任。"
 
 msgid "ZAF_40"
-msgstr ""
+msgstr "ZAF_40"
 
 msgid "ZAR 1 per point"
-msgstr ""
+msgstr "每點 1 南非幣"
 
 msgid "a) The venue at which your order will be executed;"
 msgstr "a) 您的訂單執行地點;"
@@ -1828,7 +1828,7 @@ msgid "intelligently routing incoming orders to different types of execution mod
 msgstr "根據以最佳執行因素建立的設定和算法將傳入的訂單通過智慧路由歸納成不同類型的執行模式。"
 
 msgid "log in"
-msgstr ""
+msgstr "登入"
 
 msgid "net of any other money credited to your Real Account and debited from your Real Account. Your account balance includes Margin Requirement. The amount of your account balance in excess of Margin Requirement is available for your withdrawal. The amount set aside for Margin Requirement is not available for your withdrawal."
 msgstr "在您真實帳戶記入借方並從您真實帳戶記入貸方的任何其它款項淨值。您的帳戶餘額包括保證金要求。您可將帳戶餘額超出保證金要求金額款項提出。預留保證金要求金額不可提出。"
