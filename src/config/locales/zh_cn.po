@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-02-01 21:22-0500\n"
+"PO-Revision-Date: 2017-02-01 21:32-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
@@ -676,7 +676,7 @@ msgid "If you previously downloaded MetaTrader 5 directly from MetaTrader's webs
 msgstr "如果您以前曾经直接从 MetaTrader 网站下载 MetaTrader 5 ，请在可用的经纪商列表选择\"%1\"。"
 
 msgid "If you wanted to purchase <strong>100 units</strong> of a particular asset trading at <strong>US&#36; 50 per unit</strong> through a traditional broker, it would cost you <strong>US&#36; 5,000</strong> for this transaction."
-msgstr ""
+msgstr "如果您想要通过传统经纪商以<strong>每单位 50美元&#36;</strong>的价格购买某一资产 <strong>100 个单位</strong>，此笔交易您需支付<strong>5,000美元&#36;</strong>。"
 
 msgid "If you wish to withdraw funds from your Real Account and close your Real Account, you may notify us by contacting our helpdesk at <a href='mailto:%1'>%1</a>. Your Real Account may be closed if you do not have any Open Positions and all amounts due to us have been settled."
 msgstr "如果您想从真实账户提款并关闭您的真实账户，您可通过<a href='mailto:%1'> %1</a> 联系客服部通知我们。如果您没有任何未平仓头寸及所有款项都已结清，您的真实账户可以关闭。"
@@ -844,7 +844,7 @@ msgid "Make a withdrawal"
 msgstr "取款"
 
 msgid "Managers"
-msgstr ""
+msgstr "经理"
 
 msgid "Margin"
 msgstr "保证金"
@@ -907,7 +907,7 @@ msgid "Minimum eight characters. Must contain numbers, and mix of upper and lowe
 msgstr "最少 8 个字符。必须同时包含数字和大小写字母。"
 
 msgid "Mining, Construction, Manufacturing and Transport Workers"
-msgstr ""
+msgstr "矿业、建筑业、制造业和运输工人"
 
 msgid "Money collected from Clients are not invested in any securities, futures, or other investments, on behalf of Clients."
 msgstr "来自客户的资金不用于任何以客户名义进行的证券、期货、及其他产品投资。"
@@ -949,13 +949,13 @@ msgid "OAuth App ID (Optional)"
 msgstr "OAuth 应用程序 ID （可选）"
 
 msgid "Occupation"
-msgstr ""
+msgstr "职业"
 
 msgid "On the occurrence of an Event of Default, we may exercise our rights under this clause by, at any time and without prior notice:"
 msgstr "如果发生违约事件，我们可随时在没有预先通知的情况下行使此条款所赋予的权利︰"
 
 msgid "Once your account hits the forced liquidation level, your orders and positions are forcibly closed in the following sequence:"
-msgstr ""
+msgstr "一旦您的账户达到强制清算水平，您的订单和头寸将按以下顺序强行平仓︰"
 
 msgid "Oops... Page Not Available"
 msgstr "抱歉！找不到页面"
@@ -991,7 +991,7 @@ msgid "Other financial instruments trading frequency"
 msgstr "其他金融工具交易频率"
 
 msgid "Others"
-msgstr ""
+msgstr "其他"
 
 msgid "Our Order Execution Policy (the \"Policy\") sets out the overview and approach of how Binary.com executes orders on behalf of our clients."
 msgstr "我们的订单执行政策 （简称\"政策\"） 设置关于Binary.com 代替客户执行订单的概述和方法。"
@@ -1024,7 +1024,7 @@ msgid "Pension"
 msgstr "养老金"
 
 msgid "Personal Care, Sales and Service Workers"
-msgstr ""
+msgstr "个人护理、销售及服务员工"
 
 msgid "Personal Data and Privacy"
 msgstr "个人数据和隐私"
@@ -1033,7 +1033,7 @@ msgid "Pip Size"
 msgstr "点数大小"
 
 msgid "Plant and Machine Operators and Assemblers"
-msgstr ""
+msgstr "工厂和机器操作员及装配员"
 
 msgid "Please contact <a href=\"%1\" target=\"_blank\">customer support</a> for more information."
 msgstr "欲知详情，请联系<a href=\"%1\" target=\"_blank\">客服部</a>。"
@@ -1072,7 +1072,7 @@ msgid "Prior to placing an Order which results in opening a Transaction or incre
 msgstr "下单开盘交易或为当前持仓头寸加码前，您确认确保您的账户可用保证金足以支付开盘交易所须的保证金（\"要求保证金\"），并持续满足保证金要求是您的责任。"
 
 msgid "Professionals"
-msgstr ""
+msgstr "专业人员"
 
 msgid "Q. Miscellaneous"
 msgstr "十七、杂项"
@@ -1291,10 +1291,10 @@ msgid "The leverage ratio refers to the number of times your margin (the amount 
 msgstr "杠杆比率指使用您的保证金（为进行交易从您的账户余额拨出并保留的金额） 作为\"杠杆\"进入交易的次数。杠杆比率的分母始终是 1。50: 1 的杠杆比率相当于需要 2%保证金 (1 除以 50 = 2%)。我们替您建立的杠杆比率将确定保证金的数额。杠杆比率与保证金成反比，您的账户所设杠杆比率越低，从您的账户余额拨出的保证金额就越高 （所需保证金）。"
 
 msgid "The margin for our CFDs are calculated as follows:"
-msgstr ""
+msgstr "差价合约保证金的计算方法如下︰"
 
 msgid "The margin for our Forex symbols is calculated as follows:"
-msgstr ""
+msgstr "外汇符号保证金的计算方法如下︰"
 
 msgid "The margin trading services described in this Agreement are conducted over the counter. This means that the market in one or more of the instruments which you ordinarily transact with us, though quoted on an exchange, are not traded on an exchange when transacted through the electronic trading platform as described in this Agreement."
 msgstr "本协议所描述的保证金交易服务通过柜台进行。这意味着，您与我们进行交易的一个或多个工具市场，虽然由交易所报价，但通过本协议所述电子交易平台交易时却不是在交易所交易。"
