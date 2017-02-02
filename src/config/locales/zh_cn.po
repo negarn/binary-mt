@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-02-01 21:11-0500\n"
+"PO-Revision-Date: 2017-02-01 21:22-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
@@ -655,10 +655,10 @@ msgid "If you are an individual, you are over 18 years old and you have full cap
 msgstr "如果您是个人，年满 18 岁，您有充分能力签订本协议;"
 
 msgid "If you buy <strong>1 Volume of Volatility 100 Index</strong> at a <strong>price of US&#36 20,000</strong> and a <strong>margin rate of 0.01(1%)</strong>, the margin required to purchase that one lot will be calculated as follows:"
-msgstr ""
+msgstr "如果您以<strong>&#36 20,000 美元的价格</strong>和<strong>0.01(1%) 保证金率</strong>购入<strong>1股波动率 100 指数</strong>，购买此一手的所需保证金计算方法如下︰"
 
 msgid "If you buy <strong>one lot of the EUR/USD</strong> symbol with a <strong>contract size of 100,000</strong> and <strong>leverage of 100:1</strong>, the margin required to purchase that one lot will be calculated as follows:"
-msgstr ""
+msgstr "如果您以<strong>100,000 大小的合约</strong>和<strong>100:1的杠杆率</strong>购入<strong>1手欧元/美元符号</strong>，购买此一手的所需保证金计算方法如下︰"
 
 msgid "If you do not intend to utilise the leverage feature, please set the leverage ratio to 1:1."
 msgstr "如果您不打算使用杠杆功能，请将杠杆比率设为 1:1。"
