@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-02-01 20:51-0500\n"
+"PO-Revision-Date: 2017-02-01 21:11-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Chinese Traditional\n"
 "MIME-Version: 1.0\n"
@@ -151,7 +151,7 @@ msgid "Advanced Tools &amp; Platforms"
 msgstr "進階工具 &amp; 平台"
 
 msgid "Agricultural, Forestry and Fishery Workers"
-msgstr ""
+msgstr "農業、林業和漁業工人"
 
 msgid "All client orders are processed on a first in first out basis without any manual intervention. When executing your order, Binary.com will seek to fill your order transaction as promptly as possible, at the instructed price (or at a better price, if available). Exposure limits are established based on internal governance arrangements and risk management framework which commensurate with the size, nature, complexity, and risk profile of our activities. These exposure limits are used as benchmarks to distinguish orders that are auto-accepted and orders that will be worked in the market with fill level passed on to the client."
 msgstr "所有客戶訂單將以先進先出，沒有任何人工干預的方式處理。執行您的訂單時，Binary.com 將盡快以指示價格 （或更佳的可用價格）填補您的訂單交易記錄。基於內部治理安排和風險管理框架建立的接觸限值將與我們活動的大小、性質、複雜性和風險架構相配合。這些接觸限值是區分自動接受訂單和可用於將填補層次傳遞給客戶端市場的訂單的基準。"
@@ -196,7 +196,7 @@ msgid "Appendix - Product Specific Policies"
 msgstr "附錄-產品特定政策"
 
 msgid "Armed Forces"
-msgstr ""
+msgstr "武裝部隊"
 
 msgid "Aspects of a client order not affected by specific instructions are subject to the application of Binary.com's Order Execution Policy. In the absence of specific instructions from our clients, we will exercise our own discretion in determining the factors that are required to be taken into account for the purpose of providing you with best execution, having regard to the execution criteria listed below:"
 msgstr "不受具體指示影響的客戶訂單相關事宜必須符合Binary.com訂單執行政策的使用需求。客戶沒有提供具體指示時，為了向您提供最佳執行方案，我們將根據以下執行標準自行確定所需要考慮的因素："
@@ -292,13 +292,13 @@ msgid "Change the margin rate in relation to both Open Positions and new orders;
 msgstr "更改未平倉頭寸和新訂單的保證金率;"
 
 msgid "Chief Executives, Senior Officials and Legislators"
-msgstr ""
+msgstr "執行長、高級官員和立法委員"
 
 msgid "Cleaners and Helpers"
-msgstr ""
+msgstr "清潔工和傭工"
 
 msgid "Clerks"
-msgstr ""
+msgstr "辦事員"
 
 msgid "Click the button below to download MetaTrader."
 msgstr "請按一下下面的按鈕下載 MetaTrader。"
@@ -364,7 +364,7 @@ msgid "Costs - the costs of executing your order comprised predominantly of spre
 msgstr "費用 - 您的訂單執行費用主要由價差，即我們的標價和我們提供的價格之間的區別組成。"
 
 msgid "Craft, Metal, Electrical and Electronics Workers"
-msgstr ""
+msgstr "工藝、金屬、電氣和電子工人"
 
 msgid "Create Your MetaTrader 5 Account Now"
 msgstr "立刻建立MetaTrader 5帳戶"
@@ -589,7 +589,7 @@ msgid "Go to web terminal"
 msgstr "轉到 web 終端"
 
 msgid "Government Officers"
-msgstr ""
+msgstr "政府官員"
 
 msgid "H. Monitoring and Review"
 msgstr "八、監測和審查"
