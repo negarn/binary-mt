@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: binary-mt\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-02-01 21:32-0500\n"
+"PO-Revision-Date: 2017-02-01 21:41-0500\n"
 "Last-Translator: binarycom <jy@binary.com>\n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
@@ -1507,13 +1507,13 @@ msgid "Volatility Indices Account"
 msgstr "波动率指数账户"
 
 msgid "Volume 1.0 (Trade Size)"
-msgstr ""
+msgstr "量额 1.0（交易量）"
 
 msgid "Volume 1.0<br>(Trade Size)"
-msgstr ""
+msgstr "量额 1.0<br>（交易量）"
 
 msgid "We analyse your pending orders."
-msgstr ""
+msgstr "我们分析您的挂单。"
 
 msgid "We are committed to making sure your personal data and transactions are secure:"
 msgstr "我们承诺保证您的个人数据和交易安全："
@@ -1522,7 +1522,7 @@ msgid "We are required to do so in accordance with any relevant law or regulatio
 msgstr "根据任何相关法律或法规，我们需要这样做。"
 
 msgid "We delete an order with the largest margin reserved."
-msgstr ""
+msgstr "我们删除订单，并保留金额最大的保证金。"
 
 msgid "We endeavour to open or close the Transaction to which your Order relates at the price reasonably available to us, acting in accordance with our duty of best execution. Best execution means that we must take all sufficient steps to obtain, when executing orders, the best possible result for you taking into account price, costs, speed, likelihood of execution and settlement, size, nature or any other consideration relevant to the execution of the order."
 msgstr "我们按照最佳执行责任行事，努力以与您的订单相关的合理可用价格开盘或平仓交易。最佳执行意味着我们在执行订单时必须采取足够措施，考虑价格、成本、速度、执行和结算的可能性、大小、性质或任何其他考虑因素以为您获取最大效益。"
@@ -1561,7 +1561,7 @@ msgid "We will act on any instructions given or appearing to be given by you and
 msgstr "我们会根据我们所收到的，由您提供或看来是您提供的关于通过 MT5 交易平台进行保证金交易的任何指示采取行动。然而，我们没有义务对您所给的任何指示采取行动，我们也没有义务对拒绝采取行动向您提供任何理由。我们从您收到的指示被视为最后并不可撤销指示。确保您给我们的指示真实性和准确性是您的责任。"
 
 msgid "We will continue to close open positions until your margin level becomes higher than the stop out level."
-msgstr ""
+msgstr "我们将继续关闭未平仓合约，直到您的保证金水平高于强制平仓水平。"
 
 msgid "We will hold you responsible for all your obligations under this Agreement in our course of providing the margin trading service described in this Agreement to you, even if you notify us that you are acting as the agent of an identified principal."
 msgstr "在我们根据此协议所述向您提供保证金交易服务期间，您必须对本协议项下您的所有义务负责，即使您通知我们您是某指定委托人的代理。"
@@ -1573,13 +1573,13 @@ msgid "We will use reasonable endeavours within our control to ensure that all e
 msgstr "我们将在可控制范围内合理地努力，确保您通过 MT5 交易平台和所有电子交易指示所收到并由我们执行提供的所有电子数据均不会受到网络延迟。"
 
 msgid "What is Margin?"
-msgstr ""
+msgstr "什么是保证金？"
 
 msgid "What's a margin call and how do we apply it?"
-msgstr ""
+msgstr "什么是追加保证金要求，我们如何使用它？"
 
 msgid "What's a stop out level and how do we apply it?"
-msgstr ""
+msgstr "什么是止损水平，我们如何使用它？"
 
 msgid "When we accept an order from you to open or close a transaction, or any other specific instructions in relation to your order, we will endeavour to follow your instructions as far as reasonably possible, acting in accordance with our duty of best execution in accordance with your instructions. These specific instructions include, but are not limited to:"
 msgstr "当我们收到您给的开盘或收盘交易订单或任何其他关于订单的具体指示，我们会努力尽可能合理地遵照您的指示并根据我们最佳执行责任行事。这些具体的指示包括，但不限于︰"
