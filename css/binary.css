@@ -234,10 +234,6 @@ fieldset .error-msg {
   margin-top: 3px;
 }
 
-#content {
-  margin-bottom: 20px;
-}
-
 #page-wrapper {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -667,16 +663,55 @@ body #topbar #display_language li:first-child {
   }
 }
 .gr-prefix-1 {
-  margin-left: 5% !important;
-}
-
-.box {
-  background-color: #F2F2F2;
-  padding: 10px;
+  margin: 1em 0 1em 2em !important;
 }
 
 .tac-content .tab-menu {
   margin-bottom: 25px;
+}
+
+.mt-box {
+  margin: 0 auto;
+  width: 700px;
+  padding: 10px;
+}
+.mt-box .mt-box-content {
+  background-color: #F2F2F2;
+  padding: 20px;
+}
+
+.mt-img {
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.l1-icon {
+  background-image: url("../images/pages/margin-policy/l1_ai.svg");
+  height: 300px;
+}
+
+.l2-icon {
+  background-image: url("../images/pages/margin-policy/l2_ai.svg");
+  height: 150px;
+}
+
+.mr1-icon {
+  background-image: url("../images/pages/margin-policy/mr1_ai.svg");
+  height: 300px;
+}
+
+.mr2-icon {
+  background-image: url("../images/pages/margin-policy/mr2_ai.svg");
+  height: 150px;
+}
+
+.separator {
+  background-color: #F2F2F2;
+  height: 2px;
+  display: block;
+  border: none;
 }
 
 /* static pages */
