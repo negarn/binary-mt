@@ -46,7 +46,7 @@
     </div>
 </div>
 
-<div class="container-fluid fill-bg-color">
+<div class="container-fluid fill-bg-color no-bottom-margin">
     <div class="container">
         <div class="gr-row">
             <div class="gr-12 gr-padding-30">
