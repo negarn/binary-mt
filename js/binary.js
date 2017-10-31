@@ -15994,11 +15994,6 @@ function getSocketURL() {
         return tokens;
     };
 
-    var getHashValue = function(source, key) {
-        var match = new RegExp('^' + key);
-        return source && source.length > 0 ? (match.test(source.split('=')[0]) ? source.split('=')[1] : '') : '';
-    };
-
     return {
         init: init,
     };
