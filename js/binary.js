@@ -18452,7 +18452,8 @@ var BinarySocket = new BinarySocketClass();
         var $accordion = findInSection(accType, '.accordion');
         if(/financial|volatility/.test(accType)) {
             findInSection(accType, '.authenticate').addClass(hiddenClass);
-            if(page.client.is_virtual() || !hasCorrectCurrency()) {
+            var client_currency = page.client.get_storage_value('currency');
+            if(page.client.is_virtual() || (client_currency && client_currency !== 'USD')) {
                 $accordion.addClass(hiddenClass);
                 findInSection(accType, '.msg-switch-to-deposit').removeClass(hiddenClass);
             } else {
@@ -18922,15 +18923,6 @@ var BinarySocket = new BinarySocketClass();
         $('#content')
             .empty()
             .html('<div class="container"><p class="notice-msg center-text">' + message + '<br/>'+ text.localize('Please contact <a href="[_1]" target="_blank">customer support</a> for more information.', [page.url.url_for('contact', '', true)]) + '</p></div>');
-    };
-
-    var hasCorrectCurrency = function() {
-        var client_currency = page.client.get_storage_value('currency');
-        if (client_currency && client_currency !== 'USD') {
-            notEligible('Sorry, Metatrader facilities are only available in USD.');
-            return false;
-        }
-        return true;
     };
 
     return {
