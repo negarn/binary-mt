@@ -15977,21 +15977,24 @@ function getSocketURL() {
 
     var storeTokens = function() {
         // Parse hash for loginids and tokens returned by OAuth
-        var params = page.url.params_hash();
+        var hash = (/acct1/i.test(window.location.hash) ? window.location.hash : window.location.search).substr(1).split('&'); // to maintain compatibility till backend change released
         var tokens = {};
-        var i = 1;
-        while (params['acct' + i]) {
-            var loginid  = params['acct' + i];
-            var token    = params['token' + i];
-            if (loginid && token) {
+        for(var i = 0; i < hash.length; i += 2) {
+            var loginid = getHashValue(hash[i], 'acct');
+            var token = getHashValue(hash[i+1], 'token');
+            if(loginid && token) {
                 tokens[loginid] = token;
             }
-            i++;
         }
         if(Object.keys(tokens).length > 0) {
             page.client.set_storage_value('tokens', JSON.stringify(tokens));
         }
         return tokens;
+    };
+
+    var getHashValue = function(source, key) {
+        var match = new RegExp('^' + key);
+        return source && source.length > 0 ? (match.test(source.split('=')[0]) ? source.split('=')[1] : '') : '';
     };
 
     return {
@@ -18288,7 +18291,7 @@ var BinarySocket = new BinarySocketClass();
         switch(response.msg_type) {
             case 'authorize':
                 lcRequested = false;
-                MetaTraderUI.init();
+                MetaTraderUI.init(response);
                 break;
             case 'get_settings':
                 var residence = response.get_settings.country_code;
@@ -18355,6 +18358,7 @@ var BinarySocket = new BinarySocketClass();
         hasGamingCompany,
         hasFinancialCompany,
         currency,
+        client_currency,
         highlightBalance,
         mt5Logins,
         mt5Accounts,
@@ -18368,10 +18372,14 @@ var BinarySocket = new BinarySocketClass();
             financial: 'Forex',
         };
 
-    var init = function() {
+    var init = function(authorize_response) {
         MetaTraderData.initSocket();
         if(!TUser.get().hasOwnProperty('is_virtual')) {
             return; // authorize response is not received yet
+        }
+        client_currency = authorize_response.authorize.currency;
+        if (!hasCorrectCurrency()) {
+            return;
         }
 
         hiddenClass = 'invisible';
@@ -18390,6 +18398,14 @@ var BinarySocket = new BinarySocketClass();
             showPageError(text.localize('Sorry, an error occurred while processing your request.') + ' ' +
                 text.localize('Please contact <a href="[_1]">Customer Support</a>.', [page.url.url_for('contact', '', true)]));
         }
+    };
+
+    var hasCorrectCurrency = function() {
+        if (!client_currency || client_currency === 'USD') {
+            notEligible('Sorry, Metatrader facilities are only available in USD.');
+            return false;
+        }
+        return true;
     };
 
     var initOk = function() {
@@ -18423,8 +18439,8 @@ var BinarySocket = new BinarySocketClass();
         $('#mt-container').removeClass(hiddenClass);
     };
 
-    var notEligible = function() {
-        showPageError('Sorry, Metatrader facilities are not currently available in your country of residence.');
+    var notEligible = function(msg) {
+        showPageError(msg || 'Sorry, Metatrader facilities are not currently available in your country of residence.');
         $('mt-container').addClass(hiddenClass);
     };
 
@@ -18651,6 +18667,9 @@ var BinarySocket = new BinarySocketClass();
     var responseLandingCompany = function(response) {
         if(response.hasOwnProperty('error')) {
             return showPageError(response.error.message, true);
+        }
+        if (!hasCorrectCurrency()) {
+            return;
         }
 
         var lc = response.landing_company;
