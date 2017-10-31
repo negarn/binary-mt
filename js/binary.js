@@ -18374,9 +18374,6 @@ var BinarySocket = new BinarySocketClass();
         if(!TUser.get().hasOwnProperty('is_virtual')) {
             return; // authorize response is not received yet
         }
-        if (!hasCorrectCurrency()) {
-            return;
-        }
 
         mt5Logins   = {};
         mt5Accounts = {};
@@ -18391,15 +18388,6 @@ var BinarySocket = new BinarySocketClass();
             showPageError(text.localize('Sorry, an error occurred while processing your request.') + ' ' +
                 text.localize('Please contact <a href="[_1]">Customer Support</a>.', [page.url.url_for('contact', '', true)]));
         }
-    };
-
-    var hasCorrectCurrency = function() {
-        var client_currency = page.client.get_storage_value('currency');
-        if (client_currency && client_currency !== 'USD') {
-            notEligible('Sorry, Metatrader facilities are only available in USD.');
-            return false;
-        }
-        return true;
     };
 
     var initOk = function() {
@@ -18464,7 +18452,7 @@ var BinarySocket = new BinarySocketClass();
         var $accordion = findInSection(accType, '.accordion');
         if(/financial|volatility/.test(accType)) {
             findInSection(accType, '.authenticate').addClass(hiddenClass);
-            if(page.client.is_virtual()) {
+            if(page.client.is_virtual() || !hasCorrectCurrency()) {
                 $accordion.addClass(hiddenClass);
                 findInSection(accType, '.msg-switch-to-deposit').removeClass(hiddenClass);
             } else {
@@ -18661,9 +18649,6 @@ var BinarySocket = new BinarySocketClass();
     var responseLandingCompany = function(response) {
         if(response.hasOwnProperty('error')) {
             return showPageError(response.error.message, true);
-        }
-        if (!hasCorrectCurrency()) {
-            return;
         }
 
         var lc = response.landing_company;
@@ -18937,6 +18922,15 @@ var BinarySocket = new BinarySocketClass();
         $('#content')
             .empty()
             .html('<div class="container"><p class="notice-msg center-text">' + message + '<br/>'+ text.localize('Please contact <a href="[_1]" target="_blank">customer support</a> for more information.', [page.url.url_for('contact', '', true)]) + '</p></div>');
+    };
+
+    var hasCorrectCurrency = function() {
+        var client_currency = page.client.get_storage_value('currency');
+        if (client_currency && client_currency !== 'USD') {
+            notEligible('Sorry, Metatrader facilities are only available in USD.');
+            return false;
+        }
+        return true;
     };
 
     return {
