@@ -18374,7 +18374,9 @@ var BinarySocket = new BinarySocketClass();
         if(!TUser.get().hasOwnProperty('is_virtual')) {
             return; // authorize response is not received yet
         }
-        client_currency = authorize_response.authorize.currency;
+        if (authorize_response) {
+            client_currency = authorize_response.authorize.currency;
+        }
         if (!hasCorrectCurrency()) {
             return;
         }
@@ -18398,7 +18400,7 @@ var BinarySocket = new BinarySocketClass();
     };
 
     var hasCorrectCurrency = function() {
-        if (!client_currency || client_currency === 'USD') {
+        if (client_currency && client_currency !== 'USD') {
             notEligible('Sorry, Metatrader facilities are only available in USD.');
             return false;
         }
