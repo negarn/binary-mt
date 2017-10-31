@@ -15977,24 +15977,21 @@ function getSocketURL() {
 
     var storeTokens = function() {
         // Parse hash for loginids and tokens returned by OAuth
-        var hash = (/acct1/i.test(window.location.hash) ? window.location.hash : window.location.search).substr(1).split('&'); // to maintain compatibility till backend change released
+        var params = page.url.params_hash();
         var tokens = {};
-        for(var i = 0; i < hash.length; i += 2) {
-            var loginid = getHashValue(hash[i], 'acct');
-            var token = getHashValue(hash[i+1], 'token');
-            if(loginid && token) {
+        var i = 1;
+        while (params['acct' + i]) {
+            var loginid  = params['acct' + i];
+            var token    = params['token' + i];
+            if (loginid && token) {
                 tokens[loginid] = token;
             }
+            i++;
         }
         if(Object.keys(tokens).length > 0) {
             page.client.set_storage_value('tokens', JSON.stringify(tokens));
         }
         return tokens;
-    };
-
-    var getHashValue = function(source, key) {
-        var match = new RegExp('^' + key);
-        return source && source.length > 0 ? (match.test(source.split('=')[0]) ? source.split('=')[1] : '') : '';
     };
 
     return {
