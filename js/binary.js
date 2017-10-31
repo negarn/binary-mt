@@ -12469,6 +12469,100 @@ return jQuery;
 
 }(this));
 
+;// jQuery.XDomainRequest.js
+// Author: Jason Moon - @JSONMOON
+// IE8+
+(function($){
+
+if (!$.support.cors && $.ajaxTransport && window.XDomainRequest) {
+  var httpRegEx = /^https?:\/\//i;
+  var getOrPostRegEx = /^get|post$/i;
+  var sameSchemeRegEx = new RegExp('^'+location.protocol, 'i');
+  var htmlRegEx = /text\/html/i;
+  var jsonRegEx = /\/json/i;
+  var xmlRegEx = /\/xml/i;
+  
+  // ajaxTransport exists in jQuery 1.5+
+  $.ajaxTransport('* text html xml json', function(options, userOptions, jqXHR){
+    // XDomainRequests must be: asynchronous, GET or POST methods, HTTP or HTTPS protocol, and same scheme as calling page
+    if (options.crossDomain && options.async && getOrPostRegEx.test(options.type) && httpRegEx.test(options.url) && sameSchemeRegEx.test(options.url)) {
+      var xdr = null;
+      var userType = (userOptions.dataType||'').toLowerCase();
+      return {
+        send: function(headers, complete){
+          xdr = new XDomainRequest();
+          if (/^\d+$/.test(userOptions.timeout)) {
+            xdr.timeout = userOptions.timeout;
+          }
+          xdr.ontimeout = function(){
+            complete(500, 'timeout');
+          };
+          xdr.onload = function(){
+            var allResponseHeaders = 'Content-Length: ' + xdr.responseText.length + '\r\nContent-Type: ' + xdr.contentType;
+            var status = {
+              code: 200,
+              message: 'success'
+            };
+            var responses = {
+              text: xdr.responseText
+            };
+            try {
+              if (userType === 'html' || htmlRegEx.test(xdr.contentType)) {
+                responses.html = xdr.responseText;
+              } else if (userType === 'json' || (userType !== 'text' && jsonRegEx.test(xdr.contentType))) {
+                try {
+                  responses.json = $.parseJSON(xdr.responseText);
+                } catch(e) {
+                  status.code = 500;
+                  status.message = 'parseerror';
+                  //throw 'Invalid JSON: ' + xdr.responseText;
+                }
+              } else if (userType === 'xml' || (userType !== 'text' && xmlRegEx.test(xdr.contentType))) {
+                var doc = new ActiveXObject('Microsoft.XMLDOM');
+                doc.async = false;
+                try {
+                  doc.loadXML(xdr.responseText);
+                } catch(e) {
+                  doc = undefined;
+                }
+                if (!doc || !doc.documentElement || doc.getElementsByTagName('parsererror').length) {
+                  status.code = 500;
+                  status.message = 'parseerror';
+                  throw 'Invalid XML: ' + xdr.responseText;
+                }
+                responses.xml = doc;
+              }
+            } catch(parseMessage) {
+              throw parseMessage;
+            } finally {
+              complete(status.code, status.message, responses, allResponseHeaders);
+            }
+          };
+          // set an empty handler for 'onprogress' so requests don't get aborted
+          xdr.onprogress = function(){};
+          xdr.onerror = function(){
+            complete(500, 'error', {
+              text: xdr.responseText
+            });
+          };
+          var postData = '';
+          if (userOptions.data) {
+            postData = ($.type(userOptions.data) === 'string') ? userOptions.data : $.param(userOptions.data);
+          }
+          xdr.open(options.type, options.url);
+          xdr.send(postData);
+        },
+        abort: function(){
+          if (xdr) {
+            xdr.abort();
+          }
+        }
+      };
+    }
+  });
+}
+
+})(jQuery);
 ;/*! jQuery UI - v1.11.0 - 2014-08-11
 * http://jqueryui.com
 * Includes: core.js, widget.js, mouse.js, draggable.js, datepicker.js
@@ -14061,100 +14155,6 @@ var accordion = $.widget( "ui.accordion", {
 
 }));
 
-;// jQuery.XDomainRequest.js
-// Author: Jason Moon - @JSONMOON
-// IE8+
-(function($){
-
-if (!$.support.cors && $.ajaxTransport && window.XDomainRequest) {
-  var httpRegEx = /^https?:\/\//i;
-  var getOrPostRegEx = /^get|post$/i;
-  var sameSchemeRegEx = new RegExp('^'+location.protocol, 'i');
-  var htmlRegEx = /text\/html/i;
-  var jsonRegEx = /\/json/i;
-  var xmlRegEx = /\/xml/i;
-  
-  // ajaxTransport exists in jQuery 1.5+
-  $.ajaxTransport('* text html xml json', function(options, userOptions, jqXHR){
-    // XDomainRequests must be: asynchronous, GET or POST methods, HTTP or HTTPS protocol, and same scheme as calling page
-    if (options.crossDomain && options.async && getOrPostRegEx.test(options.type) && httpRegEx.test(options.url) && sameSchemeRegEx.test(options.url)) {
-      var xdr = null;
-      var userType = (userOptions.dataType||'').toLowerCase();
-      return {
-        send: function(headers, complete){
-          xdr = new XDomainRequest();
-          if (/^\d+$/.test(userOptions.timeout)) {
-            xdr.timeout = userOptions.timeout;
-          }
-          xdr.ontimeout = function(){
-            complete(500, 'timeout');
-          };
-          xdr.onload = function(){
-            var allResponseHeaders = 'Content-Length: ' + xdr.responseText.length + '\r\nContent-Type: ' + xdr.contentType;
-            var status = {
-              code: 200,
-              message: 'success'
-            };
-            var responses = {
-              text: xdr.responseText
-            };
-            try {
-              if (userType === 'html' || htmlRegEx.test(xdr.contentType)) {
-                responses.html = xdr.responseText;
-              } else if (userType === 'json' || (userType !== 'text' && jsonRegEx.test(xdr.contentType))) {
-                try {
-                  responses.json = $.parseJSON(xdr.responseText);
-                } catch(e) {
-                  status.code = 500;
-                  status.message = 'parseerror';
-                  //throw 'Invalid JSON: ' + xdr.responseText;
-                }
-              } else if (userType === 'xml' || (userType !== 'text' && xmlRegEx.test(xdr.contentType))) {
-                var doc = new ActiveXObject('Microsoft.XMLDOM');
-                doc.async = false;
-                try {
-                  doc.loadXML(xdr.responseText);
-                } catch(e) {
-                  doc = undefined;
-                }
-                if (!doc || !doc.documentElement || doc.getElementsByTagName('parsererror').length) {
-                  status.code = 500;
-                  status.message = 'parseerror';
-                  throw 'Invalid XML: ' + xdr.responseText;
-                }
-                responses.xml = doc;
-              }
-            } catch(parseMessage) {
-              throw parseMessage;
-            } finally {
-              complete(status.code, status.message, responses, allResponseHeaders);
-            }
-          };
-          // set an empty handler for 'onprogress' so requests don't get aborted
-          xdr.onprogress = function(){};
-          xdr.onerror = function(){
-            complete(500, 'error', {
-              text: xdr.responseText
-            });
-          };
-          var postData = '';
-          if (userOptions.data) {
-            postData = ($.type(userOptions.data) === 'string') ? userOptions.data : $.param(userOptions.data);
-          }
-          xdr.open(options.type, options.url);
-          xdr.send(postData);
-        },
-        abort: function(){
-          if (xdr) {
-            xdr.abort();
-          }
-        }
-      };
-    }
-  });
-}
-
-})(jQuery);
 ;/*!
  * JavaScript Cookie v2.1.2
  * https://github.com/js-cookie/js-cookie
@@ -16651,14 +16651,14 @@ Contents.prototype = {
                 $('.by_client_type.client_real').removeClass('invisible');
                 $('.by_client_type.client_real').show();
 
-                $('#topbar').addClass('primary-color-dark');
+                $('#topbar').addClass('primary-bg-color-dark');
                 $('#topbar').removeClass('secondary-bg-color');
             } else {
                 $('.by_client_type.client_virtual').removeClass('invisible');
                 $('.by_client_type.client_virtual').show();
 
                 $('#topbar').addClass('secondary-bg-color');
-                $('#topbar').removeClass('primary-color-dark');
+                $('#topbar').removeClass('primary-bg-color-dark');
             }
         } else {
             $('#btn_login').unbind('click').click(function(e){e.preventDefault(); Login.redirect_to_login();});
@@ -16667,7 +16667,7 @@ Contents.prototype = {
             $('.by_client_type.client_logged_out').show();
 
             $('#topbar').removeClass('secondary-bg-color');
-            $('#topbar').addClass('primary-color-dark');
+            $('#topbar').addClass('primary-bg-color-dark');
         }
     },
     activate_by_login: function() {
@@ -17151,8 +17151,8 @@ if (typeof module !== 'undefined') {
 // Parameters:
 // 1) container - a jQuery object
 //////////////////////////////////////////////////////////////////
-function showLoadingImage(container) {
-    container.empty().append('<div class="barspinner dark"><div class="rect1"></div><div class="rect2"></div><div class="rect3"></div><div class="rect4"></div><div class="rect5"></div></div>');
+function showLoadingImage(container, theme) {
+    container.empty().append('<div class="barspinner ' + (theme || 'dark') + '"><div class="rect1"></div><div class="rect2"></div><div class="rect3"></div><div class="rect4"></div><div class="rect5"></div></div>');
 }
 
 function showLocalTimeOnHover(s) {
@@ -17200,6 +17200,21 @@ function parseLoginIDList(string) {
             non_financial: /^MLT/.test(id),
         };
     });
+}
+
+function disableButton($btn) {
+    if ($btn.length && !$btn.find('.barspinner').length) {
+        $btn.attr('disabled', 'disabled');
+        var $btn_text = $('<span/>', { text: $btn.text(), class: 'invisible' });
+        showLoadingImage($btn, 'white');
+        $btn.append($btn_text);
+    }
+}
+
+function enableButton($btn) {
+    if ($btn.length && $btn.find('.barspinner').length) {
+        $btn.removeAttr('disabled').html($btn.find('span').text());
+    }
 }
 
 //used temporarily for mocha test
@@ -17431,7 +17446,6 @@ function map_code_to_language(code) {
             textMessageJustAllowed: text.localize('Only [_1] are allowed.'), // [_1] should be replaced by values including: letters, numbers, space, period, ...
             textMessageValid: text.localize('Please submit a valid [_1].'), // [_1] should be replaced by values such as email address
             textMessageMinRequired: text.localize('Minimum of [_1] characters required.'),
-            textFeatureUnavailable: text.localize('Sorry, this feature is not available.'),
             textMessagePasswordScore: text.localize( 'Password score is: [_1]. Passing score is: 20.'),
             textPasswordsNotMatching: text.localize('The two passwords that you entered do not match.'),
             textShouldNotLessThan: text.localize('Please enter a number greater or equal to [_1].'),
@@ -18146,11 +18160,10 @@ var BinarySocket = new BinarySocketClass();
 
     var getAccountType = function(group) {
         var typeMap = {
-            'virtual'  : 'demo',
             'vanuatu'  : 'financial',
             'costarica': 'volatility'
         };
-        return group ? (typeMap[group.split('\\')[1]] || '') : '';
+        return group ? (/demo/.test(group) ? 'demo' : typeMap[group.replace(/(binary_|_cent)/, '').split('\\')[1]] || '') : '';
     };
 
     var validateRequired = function(value) {
@@ -18414,7 +18427,7 @@ var BinarySocket = new BinarySocketClass();
     };
 
     var notEligible = function() {
-        showPageError(Content.localize().textFeatureUnavailable);
+        showPageError('Sorry, Metatrader facilities are not currently available in your country of residence.');
         $('mt-container').addClass(hiddenClass);
     };
 
@@ -18454,11 +18467,12 @@ var BinarySocket = new BinarySocketClass();
                     $form.find('.binary-login').text(page.client.loginid);
                     $form.find('.mt-login').text(mt5Accounts[accType].login);
                     $form.find('.txtAmount').unbind('keypress').keypress(onlyNumericOnKeypress);
-                    $form.find('button').unbind('click').click(function(e) {
+                    $form.off('submit').on('submit', function(e) {
                         e.preventDefault();
                         e.stopPropagation();
-                        if (!$(this).attr('disabled')) {
-                            $(this).addClass('button-disabled').attr('disabled', 'disabled');
+                        var $btn = $form.find('button');
+                        if (!$btn.attr('disabled')) {
+                            disableButton($btn);
                             if(/deposit/.test(formClass)) {
                                 depositToMTAccount(accType);
                             } else {
@@ -18482,6 +18496,7 @@ var BinarySocket = new BinarySocketClass();
                         });
                     });
                 }
+                displayTab();
             }
         }
     };
@@ -18505,15 +18520,20 @@ var BinarySocket = new BinarySocketClass();
             accType = 'gaming';
         }
         if(formValidate()) {
-            MetaTraderData.requestSend({
+            var req = {
                 'mt5_new_account' : 1,
                 'account_type'    : accType,
                 'email'           : TUser.get().email,
                 'name'            : /demo/.test(accType) ? $form.find('.txtName').val() : TUser.get().fullname,
                 'mainPassword'    : $form.find('.txtMainPass').val(),
                 'investPassword'  : $form.find('.txtInvestPass').val(),
-                'leverage'        : '100' // $form.find('.ddlLeverage').val()
-            });
+                'leverage'        : 500,
+            };
+            if (/(demo|financial)/.test(accType)) {
+                req.mt5_account_type = 'cent';
+                req.leverage = 1000;
+            }
+            MetaTraderData.requestSend(req);
         }
     };
 
@@ -18598,7 +18618,7 @@ var BinarySocket = new BinarySocketClass();
                         if(loginInfo.real) hasRealBinaryAccount = true;
                     });
 
-                    findInSection(accType, '.msg-account').html(hasRealBinaryAccount ? 
+                    findInSection(accType, '.msg-account').html(hasRealBinaryAccount ?
                         text.localize('To create a ' + accountDisplayName[accType] + ' Account for MT5, please switch to your [_1] Real Account.', ['Binary.com']) :
                         text.localize('To create a ' + accountDisplayName[accType] + ' Account for MT5, please <a href="[_1]"> upgrade to [_2] Real Account</a>.', [page.url.url_for('new_account/realws', '', true), 'Binary.com'])
                     ).removeClass(hiddenClass);
@@ -18619,9 +18639,10 @@ var BinarySocket = new BinarySocketClass();
         }
 
         if($form && /new/.test($form.attr('class'))) {
-            $form.find('button').unbind('click').click(function(e) {
+            $form.off('submit').on('submit', function(e) {
                 e.preventDefault();
                 e.stopPropagation();
+                disableButton($form.find('button'));
                 createNewAccount(accType);
             });
         }
@@ -18638,7 +18659,7 @@ var BinarySocket = new BinarySocketClass();
         var lc = response.landing_company;
         hasFinancialCompany = lc.hasOwnProperty('mt_financial_company') && lc.mt_financial_company.shortcode === 'vanuatu';
         hasGamingCompany    = lc.hasOwnProperty('mt_gaming_company')    && lc.mt_gaming_company.shortcode    === 'costarica';
-        if (lc.hasOwnProperty('financial_company') && lc.financial_company.shortcode === 'costarica' && (hasFinancialCompany || hasGamingCompany)) {
+        if (hasFinancialCompany || hasGamingCompany) {
             initOk();
         } else {
             notEligible();
@@ -18713,6 +18734,7 @@ var BinarySocket = new BinarySocketClass();
 
     var responseNewAccount = function(response) {
         if(response.hasOwnProperty('error')) {
+            enableButton($form.find('button'));
             return showFormMessage(response.error.message, false);
         }
 
@@ -18899,10 +18921,6 @@ var BinarySocket = new BinarySocketClass();
 
     var showAccountMessage = function(accType, message) {
         findInSection(accType, '.msg-account').html(message).removeClass(hiddenClass);
-    };
-
-    var enableButton = function($btn) {
-        $btn.removeClass('button-disabled').removeAttr('disabled');
     };
 
     var responseMT5APISuspended = function(message) {

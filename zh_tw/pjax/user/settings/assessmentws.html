@@ -203,6 +203,38 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     </div>
                     <div class="gr-padding-10 gr-row clear">
                         <div class="gr-4 form_label">
+                            <label for="income_source">收入來源</label>
+                        </div>
+                        <div class="gr-8">
+                            <select id="income_source" name="income_source">
+                                <option value="">請選擇</option>
+                                <option value="Salaried Employee">受薪雇員</option>
+                                <option value="Self-Employed">自雇者</option>
+                                <option value="Investments &amp; Dividends">投資 &amp; 分紅</option>
+                                <option value="Pension">退休金</option>
+                                <option value="Other">其他</option>
+                            </select>
+                            <p class="errorfield" id="errorincome_source"></p>
+                        </div>
+                    </div>
+                    <div class="gr-padding-10 gr-row clear">
+                        <div class="gr-4 form_label">
+                            <label for="income_source">Employment Status</label>
+                        </div>
+                        <div class="gr-8">
+                            <select id="employment_status" name="employment_status">
+                                <option value="">請選擇</option>
+                                <option value="Employed">Employed</option>
+                                <option value="Pensioner">Pensioner</option>
+                                <option value="Self-Employed">自雇者</option>
+                                <option value="Student">Student</option>
+                                <option value="Unemployed">Unemployed</option>
+                            </select>
+                            <p class="errorfield" id="erroremployment_status"></p>
+                        </div>
+                    </div>
+                    <div class="gr-padding-10 gr-row clear">
+                        <div class="gr-4 form_label">
                             <label for="employment_industry">職業領域</label>
                         </div>
                         <div class="gr-8">
@@ -244,6 +276,25 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     </div>
                     <div class="gr-padding-10 gr-row clear">
                         <div class="gr-4 form_label">
+                            <label for="source_of_wealth">Source of Wealth</label>
+                        </div>
+                        <div class="gr-8">
+                            <select id="source_of_wealth" name="source_of_wealth">
+                                <option value="">請選擇</option>
+                                <option value="Accumulation of Income/Savings">Accumulation of Income/Savings</option>
+                                <option value="Cash Business">Cash Business</option>
+                                <option value="Company Ownership">Company Ownership</option>
+                                <option value="Divorce Settlement">Divorce Settlement</option>
+                                <option value="Inheritance">Inheritance</option>
+                                <option value="Investment Income">Investment Income</option>
+                                <option value="Sale of Property">Sale of Property</option>
+                                <option value="Other">其他</option>
+                            </select>
+                            <p class="errorfield" id="errorsource_of_wealth"></p>
+                        </div>
+                    </div>
+                    <div class="gr-padding-10 gr-row clear">
+                        <div class="gr-4 form_label">
                             <label for="education_level">教育水準</label>
                         </div>
                         <div class="gr-8">
@@ -258,22 +309,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     </div>
                     <div class="gr-padding-10 gr-row clear">
                         <div class="gr-4 form_label">
-                            <label for="income_source">收入來源</label>
-                        </div>
-                        <div class="gr-8">
-                            <select id="income_source" name="income_source">
-                                <option value="">請選擇</option>
-                                <option value="Salaried Employee">受薪雇員</option>
-                                <option value="Self-Employed">自雇者</option>
-                                <option value="Investments &amp; Dividends">投資 &amp; 分紅</option>
-                                <option value="Pension">退休金</option>
-                                <option value="Other">其他</option>
-                            </select>
-                            <p class="errorfield" id="errorincome_source"></p>
-                        </div>
-                    </div>
-                    <div class="gr-padding-10 gr-row clear">
-                        <div class="gr-4 form_label">
                             <label for="net_income">年淨收入</label>
                         </div>
                         <div class="gr-8">
@@ -283,7 +318,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 <option value="&#36;25,000 - &#36;50,000">&#36;25,000 - &#36;50,000</option>
                                 <option value="&#36;50,001 - &#36;100,000">&#36;50,001 - &#36;100,000</option>
                                 <option value="&#36;100,001 - &#36;500,000">&#36;100,001 - &#36;500,000</option>
-                                <option value="Over &#36;500,000">&#36;500,001以上</option>
+                                <option value="Over &#36;500,000">Over &#36;500,000</option>
                             </select>
                             <p class="errorfield" id="errornet_income"></p>
                         </div>
@@ -302,6 +337,22 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 <option value="Over &#36;1,000,000">&#36;1,000,000以上</option>
                             </select>
                             <p class="errorfield" id="errorestimated_worth"></p>
+                        </div>
+                    </div>
+                    <div class="gr-padding-10 gr-row clear">
+                        <div class="gr-4 form_label">
+                            <label for="account_turnover">Anticipated Account Turnover</label>
+                        </div>
+                        <div class="gr-8">
+                            <select id="account_turnover" name="account_turnover">
+                                <option value="">請選擇</option>
+                                <option value="Less than $25,000">Less than $25,000</option>
+                                <option value="$25,000 - $50,000">$25,000 - $50,000</option>
+                                <option value="$50,001 - $100,000">$50,001 - $100,000</option>
+                                <option value="$100,001 - $500,000">$100,001 - $500,000</option>
+                                <option value="Over $500,000">Over $500,000</option>
+                            </select>
+                            <p class="errorfield" id="erroraccount_turnover"></p>
                         </div>
                     </div>
                 </fieldset>
