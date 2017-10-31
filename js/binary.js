@@ -16180,6 +16180,7 @@ Client.prototype = {
     },
     response_authorize: function(response) {
         page.client.set_storage_value('session_start', parseInt(moment().valueOf() / 1000));
+        page.client.set_storage_value('currency', response.authorize.currency);
         TUser.set(response.authorize);
         if(!Cookies.get('email')) this.set_cookie('email', response.authorize.email);
         this.set_storage_value('is_virtual', TUser.get().is_virtual);
@@ -18288,7 +18289,7 @@ var BinarySocket = new BinarySocketClass();
         switch(response.msg_type) {
             case 'authorize':
                 lcRequested = false;
-                MetaTraderUI.init(response);
+                MetaTraderUI.init();
                 break;
             case 'get_settings':
                 var residence = response.get_settings.country_code;
@@ -18352,7 +18353,6 @@ var BinarySocket = new BinarySocketClass();
         isAssessmentDone,
         hasGamingCompany,
         hasFinancialCompany,
-        client_currency,
         highlightBalance,
         mt5Logins,
         mt5Accounts,
@@ -18369,13 +18369,10 @@ var BinarySocket = new BinarySocketClass();
             financial: 'Forex',
         };
 
-    var init = function(authorize_response) {
+    var init = function() {
         MetaTraderData.initSocket();
         if(!TUser.get().hasOwnProperty('is_virtual')) {
             return; // authorize response is not received yet
-        }
-        if (authorize_response) {
-            client_currency = authorize_response.authorize.currency;
         }
         if (!hasCorrectCurrency()) {
             return;
@@ -18397,6 +18394,7 @@ var BinarySocket = new BinarySocketClass();
     };
 
     var hasCorrectCurrency = function() {
+        var client_currency = page.client.get_storage_value('currency');
         if (client_currency && client_currency !== 'USD') {
             notEligible('Sorry, Metatrader facilities are only available in USD.');
             return false;
