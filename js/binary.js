@@ -18346,19 +18346,19 @@ var BinarySocket = new BinarySocketClass();
 ;var MetaTraderUI = (function() {
     "use strict";
 
-    var hiddenClass,
-        errorClass,
-        $form,
+    var $form,
         isValid,
         isAuthenticated,
         isAssessmentDone,
         hasGamingCompany,
         hasFinancialCompany,
-        currency,
         client_currency,
         highlightBalance,
         mt5Logins,
         mt5Accounts,
+        hiddenClass = 'invisible',
+        errorClass  = 'errorfield',
+        currency    = '$',
         accountDisplayName = {
             volatility: 'Volatility Indices',
             financial : 'Financial',
@@ -18381,9 +18381,6 @@ var BinarySocket = new BinarySocketClass();
             return;
         }
 
-        hiddenClass = 'invisible';
-        errorClass  = 'errorfield';
-        currency    = '$';
         mt5Logins   = {};
         mt5Accounts = {};
         highlightBalance = false;
